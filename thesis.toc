@@ -1,0 +1,97 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{序言}{1}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}研究動機}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}密碼貨幣的發展}{3}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}密碼貨幣市場（Cryptocurrency Market）}{3}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}密碼貨幣的優勢}{3}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}密碼貨幣的劣勢}{3}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}文獻探討}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}比特幣（Bitcoin）}{5}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}比特幣地址}{5}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}比特幣地址生成相關函數}{5}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{亂數產生器（Random number generator）}{5}{subsubsection*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{secp256k1}{7}{subsubsection*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{SHA-256}{7}{subsubsection*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{RIPEMD-160}{7}{subsubsection*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Base58}{7}{subsubsection*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{7}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{生成私鑰}{7}{subsubsection*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{生成公鑰}{7}{subsubsection*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{生成公鑰SHA-256}{7}{subsubsection*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{生成公鑰SHA-256的RIPEMD-160}{7}{subsubsection*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{對公鑰SHA-256的RIPEMD-160再做兩次SHA-256前32bit的值作為校驗碼}{7}{subsubsection*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{取得版本號}{7}{subsubsection*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}{7}{subsubsection*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{合併的結果以Base58編碼}{7}{subsubsection*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}多重簽名（Multi-Signature）}{7}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{多重簽名地址}{7}{subsubsection*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Green Address}{7}{subsubsection*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{7}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Block Header}{7}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{}{7}{subsubsection*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Block Data}{7}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}工作量證明（Proof of Work）}{7}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}點對點網路（Peer to peer network）}{7}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}山寨幣（Altcoin）簡介}{8}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.1}萊特幣（Litecoin）}{8}{subsection.2.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.2}狗幣（Dogecoin）}{8}{subsection.2.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.3}域名幣（Namecoin）}{8}{subsection.2.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.4}以太坊（Etherum）}{8}{subsection.2.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}交易模型分析}{9}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣交易監督系統設計}{11}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化比特幣交易監督系統}{13}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}比特幣監督系統實作}{15}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}支持其他密碼貨幣至本系統的評估}{17}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{结论}{19}{chapter*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{参考文献}{21}{appendix*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{23}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{25}{appendix*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{27}{appendix*.28}
