@@ -2157,28 +2157,28 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">bitcoinpaper</bcf:citekey>
-    <bcf:citekey order="2">test-en</bcf:citekey>
-    <bcf:citekey order="3">test-zh</bcf:citekey>
-    <bcf:citekey order="4">test-en</bcf:citekey>
-    <bcf:citekey order="4">test-zh</bcf:citekey>
-    <bcf:citekey order="5">litecoin</bcf:citekey>
-    <bcf:citekey order="6">dogecoin</bcf:citekey>
-    <bcf:citekey order="7">namecoin</bcf:citekey>
-    <bcf:citekey order="8">primecoin</bcf:citekey>
-    <bcf:citekey order="9">ethereumclassic</bcf:citekey>
-    <bcf:citekey order="10">ethereum</bcf:citekey>
-    <bcf:citekey order="11">AsymmetricKeyCryptography</bcf:citekey>
-    <bcf:citekey order="12">Zero-KnowledgeProofsofIdentity</bcf:citekey>
-    <bcf:citekey order="13">johnson2001elliptic</bcf:citekey>
-    <bcf:citekey order="14">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
-    <bcf:citekey order="15">DBLP:conf/isw/MendelPRR06</bcf:citekey>
-    <bcf:citekey order="16">base58</bcf:citekey>
-    <bcf:citekey order="17">SomeSecureRandomThoughts</bcf:citekey>
-    <bcf:citekey order="18">AndroidSecurityVulnerability</bcf:citekey>
-    <bcf:citekey order="19">Badsignaturesleading</bcf:citekey>
-    <bcf:citekey order="20">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="21">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="22">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="2">litecoin</bcf:citekey>
+    <bcf:citekey order="3">dogecoin</bcf:citekey>
+    <bcf:citekey order="4">namecoin</bcf:citekey>
+    <bcf:citekey order="5">primecoin</bcf:citekey>
+    <bcf:citekey order="6">ethereumclassic</bcf:citekey>
+    <bcf:citekey order="7">ethereum</bcf:citekey>
+    <bcf:citekey order="8">AsymmetricKeyCryptography</bcf:citekey>
+    <bcf:citekey order="9">Zero-KnowledgeProofsofIdentity</bcf:citekey>
+    <bcf:citekey order="10">johnson2001elliptic</bcf:citekey>
+    <bcf:citekey order="11">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
+    <bcf:citekey order="12">DBLP:conf/isw/MendelPRR06</bcf:citekey>
+    <bcf:citekey order="13">base58</bcf:citekey>
+    <bcf:citekey order="14">SomeSecureRandomThoughts</bcf:citekey>
+    <bcf:citekey order="15">AndroidSecurityVulnerability</bcf:citekey>
+    <bcf:citekey order="16">Badsignaturesleading</bcf:citekey>
+    <bcf:citekey order="17">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="18">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="19">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="20">test-en</bcf:citekey>
+    <bcf:citekey order="21">test-zh</bcf:citekey>
+    <bcf:citekey order="22">test-en</bcf:citekey>
+    <bcf:citekey order="22">test-zh</bcf:citekey>
     <bcf:citekey order="23">test-en</bcf:citekey>
     <bcf:citekey order="24">test-zh</bcf:citekey>
     <bcf:citekey order="25">test-en</bcf:citekey>
@@ -2187,10 +2187,6 @@
     <bcf:citekey order="27">test-zh</bcf:citekey>
     <bcf:citekey order="28">test-en</bcf:citekey>
     <bcf:citekey order="28">test-zh</bcf:citekey>
-    <bcf:citekey order="29">test-en</bcf:citekey>
-    <bcf:citekey order="30">test-zh</bcf:citekey>
-    <bcf:citekey order="31">test-en</bcf:citekey>
-    <bcf:citekey order="31">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ecnty/global/" type="entry" sortscheme="ecnty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
