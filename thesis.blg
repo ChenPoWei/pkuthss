@@ -1,25 +1,25 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis.blg'
-[47] biber-darwin:303> INFO - === 六  1 27, 2018, 02:34:30
-[112] Biber.pm:359> INFO - Reading 'thesis.bcf'
-[266] Biber.pm:835> INFO - Found 19 citekeys in bib section 0
-[282] Biber.pm:3670> INFO - Processing section 0
-[311] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[319] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[338] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
-[344] Utils.pm:164> WARN - month field 'December' in entry 'dogecoin' is not an integer - this will probably not sort properly.
-[346] Utils.pm:164> WARN - month field 'April' in entry 'namecoin' is not an integer - this will probably not sort properly.
-[347] Utils.pm:164> WARN - month field 'July' in entry 'primecoin' is not an integer - this will probably not sort properly.
-[348] Utils.pm:164> WARN - month field 'July' in entry 'ethereumclassic' is not an integer - this will probably not sort properly.
-[349] Utils.pm:164> WARN - month field 'July' in entry 'ethereum' is not an integer - this will probably not sort properly.
-[374] Utils.pm:164> WARN - Possible typo (case mismatch) between citation and datasource keys: 'base58' and 'Base58' in file 'thesis.bib'
-[375] Utils.pm:164> WARN - month field 'August' in entry 'SomeSecureRandomThoughts' is not an integer - this will probably not sort properly.
-[376] Utils.pm:164> WARN - month field 'August' in entry 'AndroidSecurityVulnerability' is not an integer - this will probably not sort properly.
-[377] Utils.pm:164> WARN - month field 'August' in entry 'Badsignaturesleading' is not an integer - this will probably not sort properly.
-[384] Utils.pm:164> WARN - I didn't find a database entry for 'base58' (section 0)
-[524] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[524] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
-[524] Biber.pm:3499> INFO - Sorting list 'ecnty/global/' of type 'entry' with scheme 'ecnty' and locale 'zh__pinyin'
-[546] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[549] bbl.pm:712> INFO - Output to thesis.bbl
-[549] Biber.pm:109> INFO - WARNINGS: 10
+[44] biber-darwin:303> INFO - === 六  1 27, 2018, 02:39:18
+[68] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[181] Biber.pm:835> INFO - Found 19 citekeys in bib section 0
+[203] Biber.pm:3670> INFO - Processing section 0
+[221] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[226] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[237] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
+[244] Utils.pm:164> WARN - month field 'December' in entry 'dogecoin' is not an integer - this will probably not sort properly.
+[246] Utils.pm:164> WARN - month field 'April' in entry 'namecoin' is not an integer - this will probably not sort properly.
+[248] Utils.pm:164> WARN - month field 'July' in entry 'primecoin' is not an integer - this will probably not sort properly.
+[249] Utils.pm:164> WARN - month field 'July' in entry 'ethereumclassic' is not an integer - this will probably not sort properly.
+[252] Utils.pm:164> WARN - month field 'July' in entry 'ethereum' is not an integer - this will probably not sort properly.
+[265] Utils.pm:164> WARN - Possible typo (case mismatch) between citation and datasource keys: 'base58' and 'Base58' in file 'thesis.bib'
+[266] Utils.pm:164> WARN - month field 'August' in entry 'SomeSecureRandomThoughts' is not an integer - this will probably not sort properly.
+[267] Utils.pm:164> WARN - month field 'August' in entry 'AndroidSecurityVulnerability' is not an integer - this will probably not sort properly.
+[269] Utils.pm:164> WARN - month field 'August' in entry 'Badsignaturesleading' is not an integer - this will probably not sort properly.
+[276] Utils.pm:164> WARN - I didn't find a database entry for 'base58' (section 0)
+[358] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[358] UCollate.pm:68> INFO - Overriding locale 'zh__pinyin' defaults 'variable = shifted' with 'variable = non-ignorable'
+[358] Biber.pm:3499> INFO - Sorting list 'ecnty/global/' of type 'entry' with scheme 'ecnty' and locale 'zh__pinyin'
+[380] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[385] bbl.pm:712> INFO - Output to thesis.bbl
+[385] Biber.pm:109> INFO - WARNINGS: 10
