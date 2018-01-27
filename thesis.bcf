@@ -2147,20 +2147,21 @@
     <bcf:citekey order="11">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
     <bcf:citekey order="12">DBLP:conf/isw/MendelPRR06</bcf:citekey>
     <bcf:citekey order="13">Base58</bcf:citekey>
-    <bcf:citekey order="14">SomeSecureRandomThoughts</bcf:citekey>
-    <bcf:citekey order="15">AndroidSecurityVulnerability</bcf:citekey>
-    <bcf:citekey order="16">Badsignaturesleading</bcf:citekey>
-    <bcf:citekey order="17">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="14">TheLargeBitcoinCollider</bcf:citekey>
+    <bcf:citekey order="15">SomeSecureRandomThoughts</bcf:citekey>
+    <bcf:citekey order="16">AndroidSecurityVulnerability</bcf:citekey>
+    <bcf:citekey order="17">Badsignaturesleading</bcf:citekey>
     <bcf:citekey order="18">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="19">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="20">test-en</bcf:citekey>
-    <bcf:citekey order="21">test-zh</bcf:citekey>
-    <bcf:citekey order="22">test-en</bcf:citekey>
+    <bcf:citekey order="20">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="21">test-en</bcf:citekey>
     <bcf:citekey order="22">test-zh</bcf:citekey>
     <bcf:citekey order="23">test-en</bcf:citekey>
-    <bcf:citekey order="24">test-zh</bcf:citekey>
-    <bcf:citekey order="25">test-en</bcf:citekey>
+    <bcf:citekey order="23">test-zh</bcf:citekey>
+    <bcf:citekey order="24">test-en</bcf:citekey>
     <bcf:citekey order="25">test-zh</bcf:citekey>
+    <bcf:citekey order="26">test-en</bcf:citekey>
+    <bcf:citekey order="26">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

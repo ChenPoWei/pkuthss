@@ -10,31 +10,32 @@
 
 		\subsection{比特幣地址生成相關函數}
 		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\parencite{johnson2001elliptic}、SHA-256（哈希函數）\parencite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\parencite{DBLP:conf/isw/MendelPRR06}、Base58\parencite{Base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
-		\subsubsection{亂數產生器（Random number generator）}
-		亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256bit長度的亂數，也就是私鑰，256bit的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室也有團隊正在努力的窮舉比特幣$2^{256}$的組態空間。
+		
+			\subsubsection{亂數產生器（Random number generator）}
+			亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\parencite{TheLargeBitcoinCollider}也有團隊正在努力的窮舉比特幣$2^{256}$的組態空間。
 
-		如何建構一個亂數，在過往的亂數產生器往往會加入時間作為參數，但對於一個攻擊者而言，只需要去猜測在這段時間內所有的可能性即可猜出亂數。而亂數在密碼學中通常會是一個把私鑰的構建，在https協議中，服務器端與客戶端，建立一個加密連線的過程中也需要一個亂數去建立一個高安全性的加密通道，在SSH協議中也採用了亂數。
+			如何建構一個亂數，在過往的亂數產生器往往會加入時間作為參數，但對於一個攻擊者而言，只需要去猜測在這段時間內所有的可能性即可猜出亂數。而亂數在密碼學中通常會是一個把私鑰的構建，在https協議中，服務器端與客戶端，建立一個加密連線的過程中也需要一個亂數去建立一個高安全性的加密通道，在SSH協議中也採用了亂數。
 	
-		在過去的歷史事件中，發現Android手機版以及平板版的亂數產生器的存在著不隨機，於2013年8月比特幣開發者Mike Hearn提及“All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values” \parencite{SomeSecureRandomThoughts}，Bitcoin.org也發布了警告\parencite{AndroidSecurityVulnerability}簡要說明該事件的原因，以及表明影響到的Bitcoin Wallet 客戶端有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。這樣的錯誤源於Android本身支持的亂數產生器並不隨機，隨後Android解釋了亂數的問題並加以修正。在這Android手機亂數不夠亂的事件中，有自願者自發性地公佈自己的損失狀態，總金額為55.82152538個比特幣\parencite{Badsignaturesleading}，但因為比特幣屬於被動的性質，無人主動回報既不會加入統計中，所以總損失應該會超過55.82152538個比特幣。
+			在過去的歷史事件中，發現Android手機版以及平板版的亂數產生器的存在著不隨機，於2013年8月比特幣開發者Mike Hearn提及“All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values” \parencite{SomeSecureRandomThoughts}，Bitcoin.org也發布了警告\parencite{AndroidSecurityVulnerability}簡要說明該事件的原因，以及表明影響到的Bitcoin Wallet 客戶端有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。這樣的錯誤源於Android本身支持的亂數產生器並不隨機，隨後Android解釋了亂數的問題並加以修正。在這Android手機亂數不夠亂的事件中，有自願者自發性地公佈自己的損失狀態，總金額為55.82152538個比特幣\parencite{Badsignaturesleading}，但因為比特幣屬於被動的性質，無人主動回報既不會加入統計中，所以總損失應該會超過55.82152538個比特幣。
 
-		\subsubsection{secp256k1}
-		\subsubsection{SHA-256}
-		\subsubsection{RIPEMD-160}
-		\subsubsection{Base58}
+			\subsubsection{secp256k1}
+			\subsubsection{SHA-256}
+			\subsubsection{RIPEMD-160}
+			\subsubsection{Base58}
 
-	\subsection{比特幣地址生成過程}
-		\subsubsection{生成私鑰}
-		\subsubsection{生成公鑰}
-		\subsubsection{生成公鑰SHA-256}
-		\subsubsection{生成公鑰SHA-256的RIPEMD-160}
-		\subsubsection{對公鑰SHA-256的RIPEMD-160再做兩次SHA-256前32bit的值作為校驗碼}
-		\subsubsection{取得版本號}
-		\subsubsection{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}
-		\subsubsection{合併的結果以Base58編碼}
+		\subsection{比特幣地址生成過程}
+			\subsubsection{生成私鑰}
+			\subsubsection{生成公鑰}
+			\subsubsection{生成公鑰SHA-256}
+			\subsubsection{生成公鑰SHA-256的RIPEMD-160}
+			\subsubsection{對公鑰SHA-256的RIPEMD-160再做兩次SHA-256前32bit的值作為校驗碼}
+			\subsubsection{取得版本號}
+			\subsubsection{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}
+			\subsubsection{合併的結果以Base58編碼}
 
-	\subsection{多重簽名（Multi-Signature）}
-		\subsubsection{多重簽名地址}
-		\subsubsection{Green Address}
+		\subsection{多重簽名（Multi-Signature）}
+			\subsubsection{多重簽名地址}
+			\subsubsection{Green Address}
 
 	\section{區塊鏈（Blockchain）}
 	%區塊頭所有的結構

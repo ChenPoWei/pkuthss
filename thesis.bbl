@@ -39,7 +39,7 @@
       \field{userf}{en}
       \field{year}{2008}
     \endentry
-    \entry{litecoin}{misc}{}
+    \entry{litecoin}{webpage}{}
       \name{author}{1}{}{%
         {{hash=520e1b71546d806ee6d2277f96624e17}{%
            family={Lee},
@@ -55,12 +55,14 @@
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://litecoin.org}
       \field{title}{Litecoin Official website}
       \field{userf}{en}
       \field{year}{2011}
+      \verb{url}
+      \verb https://litecoin.org
+      \endverb
     \endentry
-    \entry{dogecoin}{misc}{}
+    \entry{dogecoin}{webpage}{}
       \name{author}{1}{}{%
         {{hash=5ac7d6d6c4f3bc7309328c247bcf6e59}{%
            family={Markus},
@@ -76,13 +78,15 @@
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{http://dogecoin.com}
       \field{month}{12}
       \field{title}{DogeCoin}
       \field{userf}{en}
       \field{year}{2013}
+      \verb{url}
+      \verb http://dogecoin.com
+      \endverb
     \endentry
-    \entry{namecoin}{misc}{}
+    \entry{namecoin}{webpage}{}
       \name{author}{1}{}{%
         {{hash=80800cf4b9b10e0213d263824996e488}{%
            family={Kraft},
@@ -98,13 +102,15 @@
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://namecoin.org}
       \field{month}{4}
       \field{title}{Namecoin}
       \field{userf}{en}
       \field{year}{2011}
+      \verb{url}
+      \verb https://namecoin.org
+      \endverb
     \endentry
-    \entry{primecoin}{misc}{}
+    \entry{primecoin}{webpage}{}
       \name{author}{1}{}{%
         {{hash=7bcb1c75f895e90edae35d495464c4e9}{%
            family={King},
@@ -120,13 +126,15 @@
       \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{http://primecoin.io/}
       \field{month}{7}
       \field{title}{Primecoin}
       \field{userf}{en}
       \field{year}{2013}
+      \verb{url}
+      \verb http://primecoin.io/
+      \endverb
     \endentry
-    \entry{ethereumclassic}{misc}{}
+    \entry{ethereumclassic}{webpage}{}
       \name{author}{1}{}{%
         {{hash=6174b5ee0b9f4283af3cac3a1f8c1f1a}{%
            family={Kryvomaz},
@@ -142,13 +150,15 @@
       \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://ethereumclassic.github.io/}
       \field{month}{7}
       \field{title}{Ethereum Classic}
       \field{userf}{en}
       \field{year}{2015}
+      \verb{url}
+      \verb https://ethereumclassic.github.io/
+      \endverb
     \endentry
-    \entry{ethereum}{misc}{}
+    \entry{ethereum}{webpage}{}
       \name{author}{1}{}{%
         {{hash=f7943a9501cee85f2e97cb654b75a57d}{%
            family={Vitalik\bibnamedelima Buterin},
@@ -164,11 +174,13 @@
       \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://ethereum.org}
       \field{month}{7}
       \field{title}{Ethereum}
       \field{userf}{en}
       \field{year}{2015}
+      \verb{url}
+      \verb https://ethereum.org
+      \endverb
     \endentry
     \entry{AsymmetricKeyCryptography}{article}{}
       \name{author}{1}{}{%
@@ -403,7 +415,7 @@
       \verb https://doi.org/10.1007/11836810_8
       \endverb
     \endentry
-    \entry{Base58}{misc}{}
+    \entry{Base58}{webpage}{}
       \name{author}{1}{}{%
         {{hash=97cd8079f06e3e25bf8f371797d946dd}{%
            family={developers},
@@ -419,12 +431,24 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://github.com/bitcoin/bitcoin/blob/master/src/base58.cpp}
       \field{title}{Base58}
       \field{userf}{en}
       \field{year}{2009}
+      \verb{url}
+      \verb https://github.com/bitcoin/bitcoin/blob/master/src/base58.cpp
+      \endverb
     \endentry
-    \entry{SomeSecureRandomThoughts}{misc}{}
+    \entry{TheLargeBitcoinCollider}{webpage}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{The Large Bitcoin Collider}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://lbc.cryptoguru.org
+      \endverb
+    \endentry
+    \entry{SomeSecureRandomThoughts}{webpage}{}
       \name{author}{1}{}{%
         {{hash=a505088ac00d073baa17ad022ad49bf9}{%
            family={Blog},
@@ -440,13 +464,15 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://android-developers.googleblog.com/2013/08/some-securerandom-thoughts.html}
       \field{month}{8}
       \field{title}{Some SecureRandom Thoughts}
       \field{userf}{en}
       \field{year}{2013}
+      \verb{url}
+      \verb https://android-developers.googleblog.com/2013/08/some-securerandom-thoughts.html
+      \endverb
     \endentry
-    \entry{AndroidSecurityVulnerability}{misc}{}
+    \entry{AndroidSecurityVulnerability}{webpage}{}
       \name{author}{1}{}{%
         {{hash=42b3c8582b1ae93de201973499f05c72}{%
            family={bitcoin.org},
@@ -460,13 +486,15 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://bitcoin.org/en/alert/2013-08-11-android}
       \field{month}{8}
       \field{title}{Android Security Vulnerability}
       \field{userf}{en}
       \field{year}{2013}
+      \verb{url}
+      \verb https://bitcoin.org/en/alert/2013-08-11-android
+      \endverb
     \endentry
-    \entry{Badsignaturesleading}{misc}{}
+    \entry{Badsignaturesleading}{webpage}{}
       \name{author}{1}{}{%
         {{hash=c2852ef3eb4eabb5039d37dcc3e036fa}{%
            family={BurtW},
@@ -480,13 +508,15 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://bitcointalk.org/index.php?topic=271486.0}
       \field{month}{8}
       \field{title}{Bad signatures leading to 55.82152538 BTC theft}
       \field{userf}{en}
       \field{year}{2013}
+      \verb{url}
+      \verb https://bitcointalk.org/index.php?topic=271486.0
+      \endverb
     \endentry
-    \entry{bitcoinfullnode}{misc}{}
+    \entry{bitcoinfullnode}{webpage}{}
       \name{author}{1}{}{%
         {{hash=77b5f7d091600902b0b48b5dad656b28}{%
            family={Yeow},
@@ -502,9 +532,11 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://bitnodes.earn.com/}
       \field{title}{Global Bitcoin Node Distribution}
       \field{userf}{en}
+      \verb{url}
+      \verb https://bitnodes.earn.com/
+      \endverb
     \endentry
     \entry{test-en}{article}{}
       \name{author}{1}{}{%
