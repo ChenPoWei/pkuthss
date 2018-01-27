@@ -18,94 +18,178 @@
 
 
 \refsection{0}
-  \sortlist[entry]{ecnty/global/}
-    \entry{test-en}{article}{}
+  \sortlist[entry]{none/global/}
+    \entry{bitcoinpaper}{misc}{}
       \name{author}{1}{}{%
-        {{hash=a517747c3d12f99244ae598910d979c5}{%
-           family={Author},
-           familyi={A\bibinitperiod}}}%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{a517747c3d12f99244ae598910d979c5}
-      \strng{fullhash}{a517747c3d12f99244ae598910d979c5}
-      \strng{authornamehash}{a517747c3d12f99244ae598910d979c5}
-      \strng{authorfullhash}{a517747c3d12f99244ae598910d979c5}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{journaltitle}{Journal}
+      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{userf}{en}
+      \field{year}{2008}
+    \endentry
+    \entry{litecoin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=520e1b71546d806ee6d2277f96624e17}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Charlie},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{520e1b71546d806ee6d2277f96624e17}
+      \strng{fullhash}{520e1b71546d806ee6d2277f96624e17}
+      \strng{authornamehash}{520e1b71546d806ee6d2277f96624e17}
+      \strng{authorfullhash}{520e1b71546d806ee6d2277f96624e17}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://litecoin.org}
+      \field{title}{Litecoin Official website}
+      \field{userf}{en}
+      \field{year}{2011}
+    \endentry
+    \entry{dogecoin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5ac7d6d6c4f3bc7309328c247bcf6e59}{%
+           family={Markus},
+           familyi={M\bibinitperiod},
+           given={Billy},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
+      \strng{fullhash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
+      \strng{authornamehash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
+      \strng{authorfullhash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://dogecoin.com}
+      \field{month}{12}
+      \field{title}{DogeCoin}
+      \field{userf}{en}
+      \field{year}{2013}
+    \endentry
+    \entry{namecoin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80800cf4b9b10e0213d263824996e488}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{80800cf4b9b10e0213d263824996e488}
+      \strng{fullhash}{80800cf4b9b10e0213d263824996e488}
+      \strng{authornamehash}{80800cf4b9b10e0213d263824996e488}
+      \strng{authorfullhash}{80800cf4b9b10e0213d263824996e488}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://namecoin.org}
       \field{month}{4}
-      \field{title}{Title}
-      \field{type}{J}
+      \field{title}{Namecoin}
+      \field{userf}{en}
+      \field{year}{2011}
+    \endentry
+    \entry{primecoin}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7bcb1c75f895e90edae35d495464c4e9}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Sunny},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bcb1c75f895e90edae35d495464c4e9}
+      \strng{fullhash}{7bcb1c75f895e90edae35d495464c4e9}
+      \strng{authornamehash}{7bcb1c75f895e90edae35d495464c4e9}
+      \strng{authorfullhash}{7bcb1c75f895e90edae35d495464c4e9}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://primecoin.io/}
+      \field{month}{7}
+      \field{title}{Primecoin}
+      \field{userf}{en}
+      \field{year}{2013}
+    \endentry
+    \entry{ethereumclassic}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6174b5ee0b9f4283af3cac3a1f8c1f1a}{%
+           family={Kryvomaz},
+           familyi={K\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
+      \strng{fullhash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
+      \strng{authornamehash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
+      \strng{authorfullhash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://ethereumclassic.github.io/}
+      \field{month}{7}
+      \field{title}{Ethereum Classic}
+      \field{userf}{en}
+      \field{year}{2015}
+    \endentry
+    \entry{ethereum}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f7943a9501cee85f2e97cb654b75a57d}{%
+           family={Vitalik\bibnamedelima Buterin},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Ethereum\bibnamedelima Foundation},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7943a9501cee85f2e97cb654b75a57d}
+      \strng{fullhash}{f7943a9501cee85f2e97cb654b75a57d}
+      \strng{authornamehash}{f7943a9501cee85f2e97cb654b75a57d}
+      \strng{authorfullhash}{f7943a9501cee85f2e97cb654b75a57d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://ethereum.org}
+      \field{month}{7}
+      \field{title}{Ethereum}
+      \field{userf}{en}
+      \field{year}{2015}
+    \endentry
+    \entry{AsymmetricKeyCryptography}{article}{}
+      \name{author}{1}{}{%
+        {{hash=abea07bbac60c9e19fb9f33f969e9a5b}{%
+           family={Panwar},
+           familyi={P\bibinitperiod},
+           given={Ayush\bibnamedelima Singh},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{abea07bbac60c9e19fb9f33f969e9a5b}
+      \strng{fullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
+      \strng{authornamehash}{abea07bbac60c9e19fb9f33f969e9a5b}
+      \strng{authorfullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Browser Download This Paper}
+      \field{title}{Asymmetric Key Cryptography}
       \field{userf}{en}
       \field{year}{2014}
-      \field{dateera}{ce}
-    \endentry
-    \entry{AndroidSecurityVulnerability}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=42b3c8582b1ae93de201973499f05c72}{%
-           family={bitcoin.org},
-           familyi={b\bibinitperiod}}}%
-      }
-      \strng{namehash}{42b3c8582b1ae93de201973499f05c72}
-      \strng{fullhash}{42b3c8582b1ae93de201973499f05c72}
-      \strng{authornamehash}{42b3c8582b1ae93de201973499f05c72}
-      \strng{authorfullhash}{42b3c8582b1ae93de201973499f05c72}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://bitcoin.org/en/alert/2013-08-11-android}
-      \field{month}{8}
-      \field{title}{Android Security Vulnerability}
-      \field{userf}{en}
-      \field{year}{2013}
-    \endentry
-    \entry{SomeSecureRandomThoughts}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=a505088ac00d073baa17ad022ad49bf9}{%
-           family={Blog},
-           familyi={B\bibinitperiod},
-           given={Android\bibnamedelima Developers},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{a505088ac00d073baa17ad022ad49bf9}
-      \strng{fullhash}{a505088ac00d073baa17ad022ad49bf9}
-      \strng{authornamehash}{a505088ac00d073baa17ad022ad49bf9}
-      \strng{authorfullhash}{a505088ac00d073baa17ad022ad49bf9}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://android-developers.googleblog.com/2013/08/some-securerandom-thoughts.html}
-      \field{month}{8}
-      \field{title}{Some SecureRandom Thoughts}
-      \field{userf}{en}
-      \field{year}{2013}
-    \endentry
-    \entry{Badsignaturesleading}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=c2852ef3eb4eabb5039d37dcc3e036fa}{%
-           family={BurtW},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \strng{fullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \strng{authornamehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \strng{authorfullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://bitcointalk.org/index.php?topic=271486.0}
-      \field{month}{8}
-      \field{title}{Bad signatures leading to 55.82152538 BTC theft}
-      \field{userf}{en}
-      \field{year}{2013}
     \endentry
     \entry{Zero-KnowledgeProofsofIdentity}{article}{}
       \name{author}{3}{}{%
@@ -129,8 +213,8 @@
       \strng{fullhash}{1fd256ffc930de322e2a449b9d0d70d3}
       \strng{authornamehash}{1fd256ffc930de322e2a449b9d0d70d3}
       \strng{authorfullhash}{1fd256ffc930de322e2a449b9d0d70d3}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Cryptology}
@@ -173,8 +257,8 @@
       \strng{fullhash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authornamehash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authorfullhash}{9bd74071f90413e7db3f9dd45073fbef}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Information Security}
@@ -220,8 +304,8 @@
       \strng{authorfullhash}{bad114b587e5ca418501e6f61464f96e}
       \strng{editornamehash}{ed5c23a7ef39bddc3a73f1fadf4dafa6}
       \strng{editorfullhash}{ed5c23a7ef39bddc3a73f1fadf4dafa6}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Fast Software Encryption - 19th International Workshop, {FSE} 2012, Washington, DC, USA, March 19-21, 2012. Revised Selected Papers}
@@ -239,115 +323,6 @@
       \verb{url}
       \verb https://doi.org/10.1007/978-3-642-34047-5_15
       \endverb
-    \endentry
-    \entry{primecoin}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=7bcb1c75f895e90edae35d495464c4e9}{%
-           family={King},
-           familyi={K\bibinitperiod},
-           given={Sunny},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{7bcb1c75f895e90edae35d495464c4e9}
-      \strng{fullhash}{7bcb1c75f895e90edae35d495464c4e9}
-      \strng{authornamehash}{7bcb1c75f895e90edae35d495464c4e9}
-      \strng{authorfullhash}{7bcb1c75f895e90edae35d495464c4e9}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{http://primecoin.io/}
-      \field{month}{7}
-      \field{title}{Primecoin}
-      \field{userf}{en}
-      \field{year}{2013}
-    \endentry
-    \entry{namecoin}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=80800cf4b9b10e0213d263824996e488}{%
-           family={Kraft},
-           familyi={K\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{80800cf4b9b10e0213d263824996e488}
-      \strng{fullhash}{80800cf4b9b10e0213d263824996e488}
-      \strng{authornamehash}{80800cf4b9b10e0213d263824996e488}
-      \strng{authorfullhash}{80800cf4b9b10e0213d263824996e488}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://namecoin.org}
-      \field{month}{4}
-      \field{title}{Namecoin}
-      \field{userf}{en}
-      \field{year}{2011}
-    \endentry
-    \entry{ethereumclassic}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=6174b5ee0b9f4283af3cac3a1f8c1f1a}{%
-           family={Kryvomaz},
-           familyi={K\bibinitperiod},
-           given={Constantine},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
-      \strng{fullhash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
-      \strng{authornamehash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
-      \strng{authorfullhash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://ethereumclassic.github.io/}
-      \field{month}{7}
-      \field{title}{Ethereum Classic}
-      \field{userf}{en}
-      \field{year}{2015}
-    \endentry
-    \entry{litecoin}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=520e1b71546d806ee6d2277f96624e17}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Charlie},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{520e1b71546d806ee6d2277f96624e17}
-      \strng{fullhash}{520e1b71546d806ee6d2277f96624e17}
-      \strng{authornamehash}{520e1b71546d806ee6d2277f96624e17}
-      \strng{authorfullhash}{520e1b71546d806ee6d2277f96624e17}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://litecoin.org}
-      \field{title}{Litecoin Official website}
-      \field{userf}{en}
-      \field{year}{2011}
-    \endentry
-    \entry{dogecoin}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=5ac7d6d6c4f3bc7309328c247bcf6e59}{%
-           family={Markus},
-           familyi={M\bibinitperiod},
-           given={Billy},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
-      \strng{fullhash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
-      \strng{authornamehash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
-      \strng{authorfullhash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{http://dogecoin.com}
-      \field{month}{12}
-      \field{title}{DogeCoin}
-      \field{userf}{en}
-      \field{year}{2013}
     \endentry
     \entry{DBLP:conf/isw/MendelPRR06}{inproceedings}{}
       \name{author}{4}{}{%
@@ -408,8 +383,8 @@
       \strng{authorfullhash}{a66db41a4e905fc9a37d320afba17e51}
       \strng{editornamehash}{761bfeb1ef18c022e1934b76b545a73a}
       \strng{editorfullhash}{670b463f475e4f052dda4ddfb767d152}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Information Security, 9th International Conference, {ISC} 2006, Samos Island, Greece, August 30 - September 2, 2006, Proceedings}
@@ -428,68 +403,88 @@
       \verb https://doi.org/10.1007/11836810_8
       \endverb
     \endentry
-    \entry{bitcoinpaper}{misc}{}
+    \entry{Base58}{misc}{}
       \name{author}{1}{}{%
-        {{hash=1977190f018b398e43ede3de043de8ea}{%
-           family={Nakamoto},
-           familyi={N\bibinitperiod},
-           given={Satoshi},
-           giveni={S\bibinitperiod}}}%
+        {{hash=97cd8079f06e3e25bf8f371797d946dd}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={The\bibnamedelimb Bitcoin\bibnamedelima Core},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \strng{namehash}{97cd8079f06e3e25bf8f371797d946dd}
+      \strng{fullhash}{97cd8079f06e3e25bf8f371797d946dd}
+      \strng{authornamehash}{97cd8079f06e3e25bf8f371797d946dd}
+      \strng{authorfullhash}{97cd8079f06e3e25bf8f371797d946dd}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{howpublished}{https://github.com/bitcoin/bitcoin/blob/master/src/base58.cpp}
+      \field{title}{Base58}
       \field{userf}{en}
-      \field{year}{2008}
+      \field{year}{2009}
     \endentry
-    \entry{AsymmetricKeyCryptography}{article}{}
+    \entry{SomeSecureRandomThoughts}{misc}{}
       \name{author}{1}{}{%
-        {{hash=abea07bbac60c9e19fb9f33f969e9a5b}{%
-           family={Panwar},
-           familyi={P\bibinitperiod},
-           given={Ayush\bibnamedelima Singh},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a505088ac00d073baa17ad022ad49bf9}{%
+           family={Blog},
+           familyi={B\bibinitperiod},
+           given={Android\bibnamedelima Developers},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
-      \strng{namehash}{abea07bbac60c9e19fb9f33f969e9a5b}
-      \strng{fullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
-      \strng{authornamehash}{abea07bbac60c9e19fb9f33f969e9a5b}
-      \strng{authorfullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \strng{namehash}{a505088ac00d073baa17ad022ad49bf9}
+      \strng{fullhash}{a505088ac00d073baa17ad022ad49bf9}
+      \strng{authornamehash}{a505088ac00d073baa17ad022ad49bf9}
+      \strng{authorfullhash}{a505088ac00d073baa17ad022ad49bf9}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Browser Download This Paper}
-      \field{title}{Asymmetric Key Cryptography}
+      \field{howpublished}{https://android-developers.googleblog.com/2013/08/some-securerandom-thoughts.html}
+      \field{month}{8}
+      \field{title}{Some SecureRandom Thoughts}
       \field{userf}{en}
-      \field{year}{2014}
+      \field{year}{2013}
     \endentry
-    \entry{ethereum}{misc}{}
+    \entry{AndroidSecurityVulnerability}{misc}{}
       \name{author}{1}{}{%
-        {{hash=f7943a9501cee85f2e97cb654b75a57d}{%
-           family={Vitalik\bibnamedelima Buterin},
-           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Ethereum\bibnamedelima Foundation},
-           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=42b3c8582b1ae93de201973499f05c72}{%
+           family={bitcoin.org},
+           familyi={b\bibinitperiod}}}%
       }
-      \strng{namehash}{f7943a9501cee85f2e97cb654b75a57d}
-      \strng{fullhash}{f7943a9501cee85f2e97cb654b75a57d}
-      \strng{authornamehash}{f7943a9501cee85f2e97cb654b75a57d}
-      \strng{authorfullhash}{f7943a9501cee85f2e97cb654b75a57d}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \strng{namehash}{42b3c8582b1ae93de201973499f05c72}
+      \strng{fullhash}{42b3c8582b1ae93de201973499f05c72}
+      \strng{authornamehash}{42b3c8582b1ae93de201973499f05c72}
+      \strng{authorfullhash}{42b3c8582b1ae93de201973499f05c72}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://ethereum.org}
-      \field{month}{7}
-      \field{title}{Ethereum}
+      \field{howpublished}{https://bitcoin.org/en/alert/2013-08-11-android}
+      \field{month}{8}
+      \field{title}{Android Security Vulnerability}
       \field{userf}{en}
-      \field{year}{2015}
+      \field{year}{2013}
+    \endentry
+    \entry{Badsignaturesleading}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c2852ef3eb4eabb5039d37dcc3e036fa}{%
+           family={BurtW},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
+      \strng{fullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
+      \strng{authornamehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
+      \strng{authorfullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://bitcointalk.org/index.php?topic=271486.0}
+      \field{month}{8}
+      \field{title}{Bad signatures leading to 55.82152538 BTC theft}
+      \field{userf}{en}
+      \field{year}{2013}
     \endentry
     \entry{bitcoinfullnode}{misc}{}
       \name{author}{1}{}{%
@@ -503,13 +498,39 @@
       \strng{fullhash}{77b5f7d091600902b0b48b5dad656b28}
       \strng{authornamehash}{77b5f7d091600902b0b48b5dad656b28}
       \strng{authorfullhash}{77b5f7d091600902b0b48b5dad656b28}
-      \field{sortinit}{e}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{https://bitnodes.earn.com/}
       \field{title}{Global Bitcoin Node Distribution}
       \field{userf}{en}
+    \endentry
+    \entry{test-en}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a517747c3d12f99244ae598910d979c5}{%
+           family={Author},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a517747c3d12f99244ae598910d979c5}
+      \strng{fullhash}{a517747c3d12f99244ae598910d979c5}
+      \strng{authornamehash}{a517747c3d12f99244ae598910d979c5}
+      \strng{authorfullhash}{a517747c3d12f99244ae598910d979c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Journal}
+      \field{month}{4}
+      \field{title}{Title}
+      \field{type}{J}
+      \field{userf}{en}
+      \field{year}{2014}
+      \field{dateera}{ce}
     \endentry
     \entry{test-zh}{article}{}
       \name{author}{1}{}{%
@@ -524,8 +545,8 @@
       \strng{fullhash}{62cea74981b60712a7cd869a9a021869}
       \strng{authornamehash}{62cea74981b60712a7cd869a9a021869}
       \strng{authorfullhash}{62cea74981b60712a7cd869a9a021869}
-      \field{sortinit}{z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -538,7 +559,6 @@
       \field{dateera}{ce}
     \endentry
   \endsortlist
-  \missing{base58}
 \endrefsection
 \endinput
 

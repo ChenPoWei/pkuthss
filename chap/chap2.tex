@@ -9,7 +9,7 @@
 	\section{比特幣地址}
 
 		\subsection{比特幣地址生成相關函數}
-		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\parencite{johnson2001elliptic}、SHA-256（哈希函數）\parencite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\parencite{DBLP:conf/isw/MendelPRR06}、Base58\parencite{base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
+		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\parencite{johnson2001elliptic}、SHA-256（哈希函數）\parencite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\parencite{DBLP:conf/isw/MendelPRR06}、Base58\parencite{Base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
 		\subsubsection{亂數產生器（Random number generator）}
 		亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256bit長度的亂數，也就是私鑰，256bit的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室也有團隊正在努力的窮舉比特幣$2^{256}$的組態空間。
 
