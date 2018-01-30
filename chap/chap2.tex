@@ -8,7 +8,7 @@
 
 	\section{比特幣地址（Bitcoin Address）}
 
-		\subsection{比特幣地址生成相關函數}
+		\subsection{比特幣地址生成相關算法}
 		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\parencite{johnson2001elliptic}、SHA-256（哈希函數）\parencite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\parencite{DBLP:conf/isw/MendelPRR06}、Base58\parencite{Base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
 		
 			\subsubsection{亂數產生器（Random number generator）}

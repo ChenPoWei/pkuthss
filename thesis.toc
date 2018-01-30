@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}比特幣地址（Bitcoin Address）}{5}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}比特幣地址生成相關函數}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}比特幣地址生成相關算法}{5}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{亂數產生器（Random number generator）}{5}{subsubsection*.7}
 \defcounter {refsection}{0}\relax 
