@@ -22,37 +22,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{亂數產生器（Random number generator）}{5}{subsubsection*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{secp256k1}{8}{subsubsection*.8}
+\contentsline {subsubsection}{secp256k1}{8}{subsubsection*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SHA-256}{8}{subsubsection*.9}
+\contentsline {subsubsection}{SHA-256}{8}{subsubsection*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RIPEMD-160}{8}{subsubsection*.10}
+\contentsline {subsubsection}{RIPEMD-160}{8}{subsubsection*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Base58}{8}{subsubsection*.11}
+\contentsline {subsubsection}{Base58}{8}{subsubsection*.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{8}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{生成私鑰}{8}{subsubsection*.12}
+\contentsline {subsubsection}{生成私鑰}{8}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{生成公鑰}{8}{subsubsection*.13}
+\contentsline {subsubsection}{生成公鑰}{8}{subsubsection*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{生成公鑰SHA-256}{8}{subsubsection*.14}
+\contentsline {subsubsection}{生成公鑰SHA-256}{8}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{生成公鑰SHA-256的RIPEMD-160}{8}{subsubsection*.15}
+\contentsline {subsubsection}{生成公鑰SHA-256的RIPEMD-160}{8}{subsubsection*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{對公鑰SHA-256的RIPEMD-160再做兩次SHA-256前32bit的值作為校驗碼}{8}{subsubsection*.16}
+\contentsline {subsubsection}{對公鑰SHA-256的RIPEMD-160再做兩次SHA-256前32bit的值作為校驗碼}{8}{subsubsection*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{取得版本號}{8}{subsubsection*.17}
+\contentsline {subsubsection}{取得版本號}{8}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}{8}{subsubsection*.18}
+\contentsline {subsubsection}{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}{8}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{合併的結果以Base58編碼}{8}{subsubsection*.19}
+\contentsline {subsubsection}{合併的結果以Base58編碼}{8}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}多重簽名（Multi-Signature）}{8}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{多重簽名地址}{8}{subsubsection*.20}
+\contentsline {subsubsection}{多重簽名地址}{8}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Green Address}{8}{subsubsection*.21}
+\contentsline {subsubsection}{Green Address}{8}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
@@ -60,23 +60,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}區塊頭（Block Header）}{8}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{區塊版本（32 bits）}{8}{subsubsection*.22}
+\contentsline {subsubsection}{區塊版本（32 bits）}{8}{subsubsection*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{前區塊的哈希值（256 bits）}{8}{subsubsection*.23}
+\contentsline {subsubsection}{前區塊的哈希值（256 bits）}{8}{subsubsection*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Merkle Root（256 bits）}{8}{subsubsection*.24}
+\contentsline {subsubsection}{Merkle Root（256 bits）}{8}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{難易度 （32 bits）}{8}{subsubsection*.25}
+\contentsline {subsubsection}{難易度 （32 bits）}{8}{subsubsection*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{時間戳記（32 bits）}{8}{subsubsection*.26}
+\contentsline {subsubsection}{時間戳記（32 bits）}{8}{subsubsection*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Nonce（32 bits）}{8}{subsubsection*.27}
+\contentsline {subsubsection}{Nonce（32 bits）}{8}{subsubsection*.28}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Block Data}{8}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{交易計數器 （4-36 bits）}{8}{subsubsection*.28}
+\contentsline {subsubsection}{交易計數器 （4-36 bits）}{8}{subsubsection*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{交易信息}{8}{subsubsection*.29}
+\contentsline {subsubsection}{交易信息}{8}{subsubsection*.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}工作量證明（Proof of Work）}{8}{section.2.4}
 \defcounter {refsection}{0}\relax 
@@ -122,12 +122,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}支持其他密碼貨幣至本系統的評估}{19}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{结论}{21}{chapter*.31}
+\contentsline {chapter}{结论}{21}{chapter*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{23}{appendix*.33}
+\contentsline {chapter}{参考文献}{23}{appendix*.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{25}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{27}{appendix*.34}
+\contentsline {chapter}{致谢}{27}{appendix*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{29}{appendix*.35}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{29}{appendix*.36}
