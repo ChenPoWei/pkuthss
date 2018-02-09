@@ -182,6 +182,16 @@
       \verb https://ethereum.org
       \endverb
     \endentry
+    \entry{CryptocurrencyMarketCapitalizations}{webpage}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labeltitlesource}{title}
+      \field{title}{Cryptocurrency Market Capitalizations}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://coinmarketcap.com/all/views/all/
+      \endverb
+    \endentry
     \entry{AsymmetricKeyCryptography}{article}{}
       \name{author}{1}{}{%
         {{hash=abea07bbac60c9e19fb9f33f969e9a5b}{%
@@ -194,8 +204,8 @@
       \strng{fullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
       \strng{authornamehash}{abea07bbac60c9e19fb9f33f969e9a5b}
       \strng{authorfullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Browser Download This Paper}
@@ -225,8 +235,8 @@
       \strng{fullhash}{1fd256ffc930de322e2a449b9d0d70d3}
       \strng{authornamehash}{1fd256ffc930de322e2a449b9d0d70d3}
       \strng{authorfullhash}{1fd256ffc930de322e2a449b9d0d70d3}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Cryptology}
@@ -460,8 +470,8 @@
       \strng{fullhash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authornamehash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authorfullhash}{a505088ac00d073baa17ad022ad49bf9}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -482,8 +492,8 @@
       \strng{fullhash}{42b3c8582b1ae93de201973499f05c72}
       \strng{authornamehash}{42b3c8582b1ae93de201973499f05c72}
       \strng{authorfullhash}{42b3c8582b1ae93de201973499f05c72}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -504,8 +514,8 @@
       \strng{fullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authornamehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authorfullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -591,6 +601,7 @@
       \field{dateera}{ce}
     \endentry
   \endsortlist
+  \missing{TotalMarketCapitalization}
 \endrefsection
 \endinput
 
