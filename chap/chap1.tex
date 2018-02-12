@@ -40,14 +40,15 @@
 
 	\section{密碼貨幣的劣勢}
 	在區塊鏈技術中，有著幾項貧頸，每秒處理的交易量（Transactions Per Second，TPS）上限、無法達成即時交易確認、洗錢防制困難、低可擴展性。
+
 		\subsection{每秒處理的交易量（Transactions Per Second，TPS）上限}
 		下圖\ref{TPS}為VISA為國際上最為著名的支付系統，以中心化運營的方式，可以支持高達2,000筆交易每秒。但是以區塊鏈技術為基礎的比特幣最大能夠接受的每秒處理的交易量僅為7筆，這樣的上限由許多原因造成。
 
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width = .7\textwidth]{TPS.png}
-			\caption{每秒處理的交易量 比較圖\parencite{TPS}}\label{TPS}
-		\end{figure}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width = .7\textwidth]{TPS.png}
+				\caption{每秒處理的交易量 比較圖\parencite{TPS}}\label{TPS}
+			\end{figure}
 
 			\paragraph{上修區塊大小上限，區塊鏈成長速度過快會造成去比特幣全節點不堪負荷}
 			從2009年至今的比特幣區塊鏈大小已達到156GB，這樣的成長速度因為比特幣區塊大小的最大值被設置為1MB。下圖\ref{blockchainsize}為過去比特區塊鏈大小，圖中可以發現，於2016年開始，比特幣區塊鏈的成長速度為一直線，這表示著比特幣網路中持續的維持在公不應求的狀況。現今對比特幣的每秒處理的交易量有許多優化的方案，包括解除比特幣區塊大小1MB的限制。在一個區塊上限為1MB的限制下，滿載的比特幣系統中，比特幣區塊鏈平均每十分鐘會增1MB，每小時會增加6MB，每天會增加144MB，每月會增加4.2GB，每年會增加高達50GB，要達到1TB的區塊鏈大小還需要8年，在8年後的未來存儲1TB的數據量應該不會有太大的負擔。倘若解除1MB的區塊限制，在系統的每秒處理的交易量看似可以接受更多的交易成倍成長，面臨1TB的比特幣區塊鏈數據會在更短的時間內出現，倘若存儲區塊鏈特成本超過了摩爾定律的成長曲線，會進一步造成自願成為比特幣全節點的意願度降低，使得比特幣網路的全結點數變少，促使比特幣去點對點網路往中心化網路發展，失去一開始點對點網路的意義。
@@ -63,14 +64,15 @@
 
 		\subsection{洗錢防制困難}
 		匿名性為比特幣系統一大特色，比特幣的地址生成是在$2^256$的組態空間中隨機選取，這樣的地址與現實生活中的身份並無任何關聯，使得黑市交易、洗錢防制邊的困難，甚至有更為前沿的密碼貨幣Monero導入了環簽章算法、Zcash導入零知識證明算法\parencite{Zero-KnowledgeProofsofIdentity}，使得原本公開透明的區塊鏈，變得無法檢視，使得密碼貨幣在洗錢防制上更加的困難。論文"An Analysis of Bitcoin Laundry Services."\parencite{AnAnalysisofBitcoinLaundryServices}，致力探究比特幣匿名交易下的資金流動模型，試圖以機械學習的方法找出比特幣洗錢模型作為洗錢的工具，下圖\ref{Darklaunderworkflow}為該論文針對黑市交易中的洗錢服務運營商Darklaunder進行洗錢機械學習識別。
+
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width = .7\textwidth]{Darklaunderworkflow.png}
 				\caption{Darklaunder 洗錢模型\parencite{AnAnalysisofBitcoinLaundryServices}}\label{Darklaunderworkflow}
 			\end{figure}
-		
 
 		\subsection{低可擴展性}
-
+		\paragraph{修改比特幣協議製作添加外部信息的區塊鏈}比特幣區塊鏈技術是一個嚴謹的架構，倘若要創造可以支持外部信息的結構需要重新創造全新的貨幣，大部分的密碼貨幣皆不支持外部輸入，外部的信息輸入皆無法保證資料的正確性，近一步造成垃圾勁垃圾出的問題，倘若錯誤的信息存儲在無法刪除、修改的區塊鏈下，只是強化該筆錯誤信息的錯誤。
+		\paragraph{於區塊頭或交易信息添加外部信息} 比特幣區塊鏈上，可以添加一些信息於區塊上，開信息會永久保存於區塊鏈上，除了在區塊上新增信息，在比特幣單筆交易信息上，亦可填寫一些私人信息，但這樣的空間大小有限，且現今的比特幣價格日趨上漲，比特幣交易手續費是以單筆交易大小計算，使得在交易中添加些個人信息變得更加昂貴。
 
 % vim:ts=4:sw=4
