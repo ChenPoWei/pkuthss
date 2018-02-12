@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  8 FEB 2018 20:29
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2430,7 +2430,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                TotalMarketCapitalization
+(biblatex)                test-zh
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                test-en
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2665,12 +2672,12 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 6.
 File: TotalMarketCapitalization.png Graphic file (type QTm)
 <use  "TotalMarketCapitalization.png" >
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
-e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 15.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 15.
-) [3] [4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+File: Thetotalmarketcapitalization.png Graphic file (type QTm)
+ <use  "Thetotalmarketcapitalization.png" >) [4]
 \openout2 = `chap/chap2.aux'.
 
  (./chap/chap2.tex
@@ -2772,11 +2779,21 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 12.045pt on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 5.
 ) [21] [22
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.53937pt on input line 104.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
+e
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 104.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.53937pt on input line 104.
 
 
@@ -2893,12 +2910,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48195 strings out of 493005
- 943047 string characters out of 6134596
- 1353886 words of memory out of 5000000
- 51439 multiletter control sequences out of 15000+600000
- 102031 words of font info for 130 fonts, out of 8000000 for 9000
+ 48155 strings out of 493005
+ 940539 string characters out of 6134596
+ 1355145 words of memory out of 5000000
+ 51399 multiletter control sequences out of 15000+600000
+ 104823 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4534s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (39 pages, 163260 bytes).
+Output written on thesis.xdv (39 pages, 170000 bytes).

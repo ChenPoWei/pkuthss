@@ -192,6 +192,37 @@
       \verb https://coinmarketcap.com/all/views/all/
       \endverb
     \endentry
+    \entry{HavethesecurityflawssurroundingBITCOINeffectedthecurrencysvalue?}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=124bb3a1aafffe5f5bd66174be307c33}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima Gregor},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=35a081dd8ab873a7c812f48d6bf776a7}{%
+           family={Bouridane},
+           familyi={B\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4dd86549063be5e0620abd6733ee4191}
+      \strng{fullhash}{4dd86549063be5e0620abd6733ee4191}
+      \strng{authornamehash}{4dd86549063be5e0620abd6733ee4191}
+      \strng{authorfullhash}{4dd86549063be5e0620abd6733ee4191}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Emerging Security Technologies (EST), 2017 Seventh International Conference on}
+      \field{title}{Have the security flaws surrounding BITCOIN effected the currency's value?}
+      \field{userf}{en}
+      \field{year}{2017}
+      \field{pages}{50\bibrangedash 55}
+      \range{pages}{6}
+    \endentry
     \entry{AsymmetricKeyCryptography}{article}{}
       \name{author}{1}{}{%
         {{hash=abea07bbac60c9e19fb9f33f969e9a5b}{%
@@ -449,8 +480,8 @@
       \endverb
     \endentry
     \entry{TheLargeBitcoinCollider}{webpage}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{title}{The Large Bitcoin Collider}
       \field{userf}{en}
@@ -548,60 +579,9 @@
       \verb https://bitnodes.earn.com/
       \endverb
     \endentry
-    \entry{test-en}{article}{}
-      \name{author}{1}{}{%
-        {{hash=a517747c3d12f99244ae598910d979c5}{%
-           family={Author},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{a517747c3d12f99244ae598910d979c5}
-      \strng{fullhash}{a517747c3d12f99244ae598910d979c5}
-      \strng{authornamehash}{a517747c3d12f99244ae598910d979c5}
-      \strng{authorfullhash}{a517747c3d12f99244ae598910d979c5}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{journaltitle}{Journal}
-      \field{month}{4}
-      \field{title}{Title}
-      \field{type}{J}
-      \field{userf}{en}
-      \field{year}{2014}
-      \field{dateera}{ce}
-    \endentry
-    \entry{test-zh}{article}{}
-      \name{author}{1}{}{%
-        {{hash=62cea74981b60712a7cd869a9a021869}{%
-           family={作者},
-           familyi={作\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {chinese}%
-      }
-      \strng{namehash}{62cea74981b60712a7cd869a9a021869}
-      \strng{fullhash}{62cea74981b60712a7cd869a9a021869}
-      \strng{authornamehash}{62cea74981b60712a7cd869a9a021869}
-      \strng{authorfullhash}{62cea74981b60712a7cd869a9a021869}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{journaltitle}{期刊}
-      \field{month}{4}
-      \field{title}{标题}
-      \field{type}{J}
-      \field{userf}{zh}
-      \field{year}{2014}
-      \field{dateera}{ce}
-    \endentry
   \endsortlist
-  \missing{TotalMarketCapitalization}
+  \missing{test-zh}
+  \missing{test-en}
 \endrefsection
 \endinput
 
