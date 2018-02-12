@@ -68,86 +68,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{合併的結果以Base58編碼}{12}{subsubsection*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}多重簽名（Multi-Signature）}{12}{subsection.2.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{多重簽名地址}{12}{subsubsection*.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Green Address}{12}{subsubsection*.31}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{12}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}本區塊大小的值 }{12}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}區塊頭（Block Header）}{12}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{區塊版本（32 bits）}{12}{subsubsection*.32}
+\contentsline {subsubsection}{區塊版本（32 bits）}{12}{subsubsection*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{前區塊的哈希值（256 bits）}{12}{subsubsection*.33}
+\contentsline {subsubsection}{前區塊的哈希值（256 bits）}{12}{subsubsection*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Merkle Root（256 bits）}{12}{subsubsection*.34}
+\contentsline {subsubsection}{Merkle Root（256 bits）}{12}{subsubsection*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{難易度 （32 bits）}{12}{subsubsection*.35}
+\contentsline {subsubsection}{難易度 （32 bits）}{12}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{時間戳記（32 bits）}{12}{subsubsection*.36}
+\contentsline {subsubsection}{時間戳記（32 bits）}{12}{subsubsection*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Nonce（32 bits）}{12}{subsubsection*.37}
+\contentsline {subsubsection}{Nonce（32 bits）}{12}{subsubsection*.35}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Block Data}{12}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{交易計數器 （4-36 bits）}{12}{subsubsection*.38}
+\contentsline {subsubsection}{交易計數器 （4-36 bits）}{12}{subsubsection*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{交易信息}{12}{subsubsection*.39}
+\contentsline {subsubsection}{交易信息}{12}{subsubsection*.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}工作量證明（Proof of Work）}{12}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}點對點網路（Peer to peer network）}{12}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}山寨幣（Altcoin）簡介}{13}{section.2.6}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}比特幣交易監督系統設計}{15}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}萊特幣（Litecoin）}{13}{subsection.2.6.1}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣監督系統實作}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}狗幣（Dogecoin）}{13}{subsection.2.6.2}
+\contentsline {chapter}{结论}{19}{chapter*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.3}域名幣（Namecoin）}{13}{subsection.2.6.3}
+\contentsline {chapter}{参考文献}{21}{appendix*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.4}以太坊（Etherum）}{13}{subsection.2.6.4}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{23}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}交易模型分析}{15}{chapter.3}
+\contentsline {chapter}{致谢}{25}{appendix*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}現金交易模型}{15}{section.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}匿名客戶對匿名商家}{15}{subsection.3.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}匿名客戶對實名商家}{15}{subsection.3.1.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}電子貨幣交易模型}{15}{section.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}實名客戶支付實名商家}{15}{subsection.3.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}實名客戶透過實名第三方再實名商家}{15}{subsection.3.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}實名客戶透過匿名第三方再實名商家}{15}{subsection.3.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}密碼貨幣交易模型}{15}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}匿名客戶對匿名商家}{15}{subsection.3.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}各種交易模型比較}{15}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣交易監督系統設計}{17}{chapter.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化比特幣交易監督系統}{19}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}比特幣監督系統實作}{21}{chapter.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}支持其他密碼貨幣至本系統的評估}{23}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{结论}{25}{chapter*.41}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{27}{appendix*.43}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{29}{appendix.A}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{31}{appendix*.44}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{33}{appendix*.45}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{27}{appendix*.43}

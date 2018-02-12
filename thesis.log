@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 03:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 03:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2293,9 +2293,8 @@ Package biblatex Warning: Conflicting options.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
-(./chap/chap7.aux) (./chap/conclusion.aux) (./chap/encl1.aux)
-(./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap4.aux) (./chap/chap6.aux) (./chap/conclusion.aux) (./chap/encl1.aux
+) (./chap/acknowledge.aux) (./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 64.
@@ -2437,14 +2436,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-en
+(biblatex)                test-zh
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-zh
+(biblatex)                test-en
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2736,60 +2735,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Overfull \vbox (180.09045pt too high) has occurred while \output is active []
+Overfull \vbox (98.40137pt too high) has occurred while \output is active []
 
 
 [12]
 File: bitcoinfullnode.png Graphic file (type QTm)
  <use  "bitcoinfullnode.png" >) [13]
-\openout2 = `chap/chap3.aux'.
+\openout2 = `chap/chap4.aux'.
 
- (./chap/chap3.tex [14
+ (./chap/chap4.tex [14
 
 
 
 ]
 第三章
 ) [15]
-\openout2 = `chap/chap4.aux'.
+\openout2 = `chap/chap6.aux'.
 
- (./chap/chap4.tex [16
+ (./chap/chap6.tex [16
 
 
 
 ]
 第四章
 ) [17]
-\openout2 = `chap/chap5.aux'.
-
- (./chap/chap5.tex [18
-
-
-
-]
-第五章
-) [19]
-\openout2 = `chap/chap6.aux'.
-
- (./chap/chap6.tex [20
-
-
-
-]
-第六章
-) [21]
-\openout2 = `chap/chap7.aux'.
-
- (./chap/chap7.tex [22
-
-
-
-]
-第七章
-) [23]
 \openout2 = `chap/conclusion.aux'.
 
- (./chap/conclusion.tex [24
+ (./chap/conclusion.tex [18
 
 
 
@@ -2814,7 +2786,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
-) [25] [26
+) [19] [20
 
 
 ]
@@ -2874,7 +2846,7 @@ Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 /10.53937 https : / / android -[] developers .
  []
 
-[27]
+[21]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 104.
@@ -2887,27 +2859,27 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 104.
 
-[28]
+[22]
 \openout2 = `chap/encl1.aux'.
 
  (./chap/encl1.tex
 附录 A
-) [29
+) [23
 
 
-] [30
+] [24
 
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [31
+ (./chap/acknowledge.tex) [25
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [32
+ (./chap/originauth.tex [26
 
 
 
@@ -2920,15 +2892,14 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [33]
+) [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
-(./chap/chap7.aux) (./chap/conclusion.aux) (./chap/encl1.aux)
-(./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap4.aux) (./chap/chap6.aux) (./chap/conclusion.aux) (./chap/encl1.aux
+) (./chap/acknowledge.aux) (./chap/originauth.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 114.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -2936,12 +2907,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48201 strings out of 493005
- 942830 string characters out of 6134596
- 1356805 words of memory out of 5000000
- 51441 multiletter control sequences out of 15000+600000
+ 48163 strings out of 493005
+ 942251 string characters out of 6134596
+ 1346641 words of memory out of 5000000
+ 51424 multiletter control sequences out of 15000+600000
  104831 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,11n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (43 pages, 223740 bytes).
+Output written on thesis.xdv (37 pages, 201488 bytes).
