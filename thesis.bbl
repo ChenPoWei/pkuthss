@@ -223,6 +223,29 @@
       \field{pages}{50\bibrangedash 55}
       \range{pages}{6}
     \endentry
+    \entry{Bankguardsstolen}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a988dba771698574c38d7571ae994e99}{%
+           family={蔡怡杼},
+           familyi={蔡\bibinitperiod}}}%
+      }
+      \strng{namehash}{a988dba771698574c38d7571ae994e99}
+      \strng{fullhash}{a988dba771698574c38d7571ae994e99}
+      \strng{authornamehash}{a988dba771698574c38d7571ae994e99}
+      \strng{authorfullhash}{a988dba771698574c38d7571ae994e99}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{中央社}
+      \field{month}{10}
+      \field{title}{银行员监守自盗手法有这些}
+      \field{userf}{en}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www.nownews.com/news/20171029/2633984
+      \endverb
+    \endentry
     \entry{AsymmetricKeyCryptography}{article}{}
       \name{author}{1}{}{%
         {{hash=abea07bbac60c9e19fb9f33f969e9a5b}{%
@@ -468,8 +491,8 @@
       \strng{fullhash}{97cd8079f06e3e25bf8f371797d946dd}
       \strng{authornamehash}{97cd8079f06e3e25bf8f371797d946dd}
       \strng{authorfullhash}{97cd8079f06e3e25bf8f371797d946dd}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Base58}
@@ -580,8 +603,8 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{test-zh}
   \missing{test-en}
+  \missing{test-zh}
 \endrefsection
 \endinput
 

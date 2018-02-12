@@ -14,6 +14,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.2}遠距離支付}{5}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}貨幣為使用者持有}{5}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}密碼貨幣的劣勢}{5}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}文獻探討}{7}{chapter.2}

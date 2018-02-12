@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 00:34
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2430,14 +2430,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-zh
+(biblatex)                test-en
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-en
+(biblatex)                test-zh
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2682,12 +2682,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 31.
+(Font)              scaled to size 14.05249pt on input line 32.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.05249> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 31.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 31.
+(Font)              scaled to size 14.05249pt on input line 32.
 )
 [5]
 \openout2 = `chap/chap2.aux'.
@@ -2866,15 +2866,15 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 104.
 
-[25]
+[25] [26]
 \openout2 = `chap/encl1.aux'.
 
- (./chap/encl1.tex [26
-
-
-]
+ (./chap/encl1.tex
 附录 A
-) [27] [28
+) [27
+
+
+] [28
 
 
 ]
@@ -2915,12 +2915,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48156 strings out of 493005
- 940552 string characters out of 6134596
- 1355398 words of memory out of 5000000
- 51400 multiletter control sequences out of 15000+600000
- 104823 words of font info for 130 fonts, out of 8000000 for 9000
+ 48162 strings out of 493005
+ 940742 string characters out of 6134596
+ 1356597 words of memory out of 5000000
+ 51405 multiletter control sequences out of 15000+600000
+ 104831 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,102p,10457b,4534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,102p,10457b,4630s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (41 pages, 182720 bytes).
+Output written on thesis.xdv (41 pages, 188644 bytes).
