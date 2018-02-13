@@ -2178,17 +2178,20 @@
     <bcf:citekey order="42">ThedesignofRijndael:AES-theadvancedencryptionstandard</bcf:citekey>
     <bcf:citekey order="43">Cryptographiccommunicationssystemandmethod</bcf:citekey>
     <bcf:citekey order="44">Ellipticcurvecryptosystems</bcf:citekey>
-    <bcf:citekey order="45">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="46">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="47">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="48">test-en</bcf:citekey>
-    <bcf:citekey order="49">test-zh</bcf:citekey>
-    <bcf:citekey order="50">test-en</bcf:citekey>
-    <bcf:citekey order="50">test-zh</bcf:citekey>
+    <bcf:citekey order="45">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
+    <bcf:citekey order="46">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
+    <bcf:citekey order="47">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
+    <bcf:citekey order="48">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="49">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="50">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="51">test-en</bcf:citekey>
     <bcf:citekey order="52">test-zh</bcf:citekey>
     <bcf:citekey order="53">test-en</bcf:citekey>
     <bcf:citekey order="53">test-zh</bcf:citekey>
+    <bcf:citekey order="54">test-en</bcf:citekey>
+    <bcf:citekey order="55">test-zh</bcf:citekey>
+    <bcf:citekey order="56">test-en</bcf:citekey>
+    <bcf:citekey order="56">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

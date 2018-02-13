@@ -1,28 +1,28 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis.blg'
-[131] biber-darwin:303> INFO - === Tue Feb 13, 2018, 14:15:11
-[193] Biber.pm:359> INFO - Reading 'thesis.bcf'
-[376] Biber.pm:835> INFO - Found 36 citekeys in bib section 0
-[396] Biber.pm:3670> INFO - Processing section 0
-[435] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[441] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[459] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
-[487] Utils.pm:164> WARN - month field 'December' in entry 'dogecoin' is not an integer - this will probably not sort properly.
-[489] Utils.pm:164> WARN - month field 'April' in entry 'namecoin' is not an integer - this will probably not sort properly.
-[491] Utils.pm:164> WARN - month field 'July' in entry 'primecoin' is not an integer - this will probably not sort properly.
-[493] Utils.pm:164> WARN - month field 'July' in entry 'ethereumclassic' is not an integer - this will probably not sort properly.
-[495] Utils.pm:164> WARN - month field 'July' in entry 'ethereum' is not an integer - this will probably not sort properly.
-[523] Utils.pm:164> WARN - month field 'August' in entry 'SomeSecureRandomThoughts' is not an integer - this will probably not sort properly.
-[526] Utils.pm:164> WARN - month field 'August' in entry 'AndroidSecurityVulnerability' is not an integer - this will probably not sort properly.
-[527] Utils.pm:164> WARN - month field 'August' in entry 'Badsignaturesleading' is not an integer - this will probably not sort properly.
-[542] Utils.pm:164> WARN - month field '9~20' in entry 'Cryptographiccommunicationssystemandmethod' is not an integer - this will probably not sort properly.
-[546] Utils.pm:164> WARN - I didn't find a database entry for 'TPS' (section 0)
-[546] Utils.pm:164> WARN - I didn't find a database entry for 'test-en' (section 0)
-[546] Utils.pm:164> WARN - I didn't find a database entry for 'test-zh' (section 0)
-[648] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[649] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[649] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[650] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[716] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[727] bbl.pm:712> INFO - Output to thesis.bbl
-[728] Biber.pm:109> INFO - WARNINGS: 12
+[44] biber-darwin:303> INFO - === Tue Feb 13, 2018, 16:50:06
+[93] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[218] Biber.pm:835> INFO - Found 37 citekeys in bib section 0
+[232] Biber.pm:3670> INFO - Processing section 0
+[270] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[275] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[296] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
+[314] Utils.pm:164> WARN - month field 'December' in entry 'dogecoin' is not an integer - this will probably not sort properly.
+[315] Utils.pm:164> WARN - month field 'April' in entry 'namecoin' is not an integer - this will probably not sort properly.
+[316] Utils.pm:164> WARN - month field 'July' in entry 'primecoin' is not an integer - this will probably not sort properly.
+[317] Utils.pm:164> WARN - month field 'July' in entry 'ethereumclassic' is not an integer - this will probably not sort properly.
+[318] Utils.pm:164> WARN - month field 'July' in entry 'ethereum' is not an integer - this will probably not sort properly.
+[338] Utils.pm:164> WARN - month field 'August' in entry 'SomeSecureRandomThoughts' is not an integer - this will probably not sort properly.
+[339] Utils.pm:164> WARN - month field 'August' in entry 'AndroidSecurityVulnerability' is not an integer - this will probably not sort properly.
+[340] Utils.pm:164> WARN - month field 'August' in entry 'Badsignaturesleading' is not an integer - this will probably not sort properly.
+[352] Utils.pm:164> WARN - month field '9~20' in entry 'Cryptographiccommunicationssystemandmethod' is not an integer - this will probably not sort properly.
+[356] Utils.pm:164> WARN - I didn't find a database entry for 'TPS' (section 0)
+[356] Utils.pm:164> WARN - I didn't find a database entry for 'test-en' (section 0)
+[356] Utils.pm:164> WARN - I didn't find a database entry for 'test-zh' (section 0)
+[438] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[438] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[438] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[438] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[465] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[470] bbl.pm:712> INFO - Output to thesis.bbl
+[470] Biber.pm:109> INFO - WARNINGS: 12

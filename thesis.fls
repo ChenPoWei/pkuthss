@@ -486,6 +486,7 @@ OUTPUT chap/chap2.aux
 INPUT chap/chap2.tex
 INPUT chap/chap2.tex
 INPUT LBC.png
+INPUT ECCtime.png
 INPUT bitcoinfullnode.png
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
