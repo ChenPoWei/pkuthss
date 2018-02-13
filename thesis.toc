@@ -16,96 +16,108 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.3}貨幣為使用者持有}{5}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}密碼貨幣的劣勢}{6}{section.1.4}
+\contentsline {subsection}{\numberline {1.3.4}開放和透明的交易信息}{6}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}每秒處理的交易量（Transactions Per Second，TPS）上限}{6}{subsection.1.4.1}
+\contentsline {paragraph}{可信任}{6}{paragraph*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{上修區塊大小上限，區塊鏈成長速度過快會造成去比特幣全節點不堪負荷}{6}{paragraph*.10}
+\contentsline {paragraph}{元數據}{6}{paragraph*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{上修區塊大小上限，造成區塊鏈最新區塊同步延遲}{6}{paragraph*.12}
+\contentsline {subsection}{\numberline {1.3.5}區塊鏈交易數據無法修改和刪除}{6}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}洗錢防制困難}{7}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.3.6}匿名}{6}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}低可擴展性}{7}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.3.7}自治系統}{6}{subsection.1.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{修改比特幣協議製作添加外部信息的區塊鏈}{7}{paragraph*.14}
+\contentsline {section}{\numberline {1.4}密碼貨幣的劣勢}{7}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{於區塊頭或交易信息添加外部信息}{8}{paragraph*.15}
+\contentsline {subsection}{\numberline {1.4.1}每秒處理的交易量（Transactions Per Second，TPS）上限}{7}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}文獻探討}{9}{chapter.2}
+\contentsline {paragraph}{上修區塊大小上限，區塊鏈成長速度過快會造成去比特幣全節點不堪負荷}{7}{paragraph*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}比特幣（Bitcoin）}{9}{section.2.1}
+\contentsline {paragraph}{上修區塊大小上限，造成區塊鏈最新區塊同步延遲}{7}{paragraph*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}比特幣地址（Bitcoin Address）}{9}{section.2.2}
+\contentsline {subsection}{\numberline {1.4.2}洗錢防制困難}{8}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}比特幣地址生成相關算法}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {1.4.3}低可擴展性}{8}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{亂數產生器（Random number generator）}{9}{subsubsection*.16}
+\contentsline {paragraph}{修改比特幣協議製作添加外部信息的區塊鏈}{8}{paragraph*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{secp256k1}{10}{subsubsection*.18}
+\contentsline {paragraph}{於區塊頭或交易信息添加外部信息}{9}{paragraph*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SHA-256}{12}{subsubsection*.21}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}文獻探討}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{RIPEMD-160}{12}{subsubsection*.22}
+\contentsline {section}{\numberline {2.1}比特幣（Bitcoin）}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Base58}{12}{subsubsection*.23}
+\contentsline {section}{\numberline {2.2}比特幣地址（Bitcoin Address）}{11}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.1}比特幣地址生成相關算法}{11}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{生成私鑰}{13}{paragraph*.25}
+\contentsline {subsubsection}{亂數產生器（Random number generator）}{11}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{生成公鑰}{13}{paragraph*.26}
+\contentsline {subsubsection}{secp256k1}{12}{subsubsection*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{生成公鑰SHA-256}{13}{paragraph*.27}
+\contentsline {subsubsection}{SHA-256}{14}{subsubsection*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{生成公鑰SHA-256的RIPEMD-160}{13}{paragraph*.28}
+\contentsline {subsubsection}{RIPEMD-160}{14}{subsubsection*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{校驗碼生成}{13}{paragraph*.29}
+\contentsline {subsubsection}{Base58}{14}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{取得版本號}{13}{paragraph*.30}
+\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{14}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}{13}{paragraph*.31}
+\contentsline {paragraph}{生成私鑰}{15}{paragraph*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{合併的結果以Base58編碼}{13}{paragraph*.32}
+\contentsline {paragraph}{生成公鑰}{15}{paragraph*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{14}{section.2.3}
+\contentsline {paragraph}{生成公鑰SHA-256}{15}{paragraph*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}本區塊大小的值 }{14}{subsection.2.3.1}
+\contentsline {paragraph}{生成公鑰SHA-256的RIPEMD-160}{15}{paragraph*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}區塊頭（Block Header）}{14}{subsection.2.3.2}
+\contentsline {paragraph}{校驗碼生成}{15}{paragraph*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{區塊版本（32 bits）}{14}{subsubsection*.33}
+\contentsline {paragraph}{取得版本號}{15}{paragraph*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{前區塊的哈希值（256 bits）}{14}{subsubsection*.34}
+\contentsline {paragraph}{版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併}{15}{paragraph*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Merkle Root（256 bits）}{14}{subsubsection*.35}
+\contentsline {paragraph}{合併的結果以Base58編碼}{15}{paragraph*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{難易度 （32 bits）}{14}{subsubsection*.36}
+\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{15}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{時間戳記（32 bits）}{14}{subsubsection*.37}
+\contentsline {subsection}{\numberline {2.3.1}本區塊大小的值 }{16}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Nonce（32 bits）}{14}{subsubsection*.38}
+\contentsline {subsection}{\numberline {2.3.2}區塊頭（Block Header）}{16}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Block Data}{14}{subsection.2.3.3}
+\contentsline {paragraph}{區塊版本（32 bits）}{16}{paragraph*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{交易計數器 （4-36 bits）}{14}{subsubsection*.39}
+\contentsline {paragraph}{前區塊的哈希值（256 bits）}{16}{paragraph*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{交易信息}{14}{subsubsection*.40}
+\contentsline {paragraph}{Merkle Root（256 bits）}{16}{paragraph*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}工作量證明（Proof of Work）}{14}{section.2.4}
+\contentsline {paragraph}{難易度（32 bits）}{16}{paragraph*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}點對點網路（Peer to peer network）}{14}{section.2.5}
+\contentsline {paragraph}{時間戳記（32 bits）}{16}{paragraph*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}比特幣交易監督系統設計}{17}{chapter.3}
+\contentsline {paragraph}{Nonce（32 bits）}{16}{paragraph*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣監督系統實作}{19}{chapter.4}
+\contentsline {subsection}{\numberline {2.3.3}Block Data}{17}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{结论}{21}{chapter*.42}
+\contentsline {subsubsection}{交易計數器 （4-36 bits）}{17}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{23}{appendix*.44}
+\contentsline {subsubsection}{交易信息}{17}{subsubsection*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{25}{appendix.A}
+\contentsline {section}{\numberline {2.4}工作量證明（Proof of Work）}{17}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{27}{appendix*.45}
+\contentsline {section}{\numberline {2.5}點對點網路（Peer to peer network）}{17}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{29}{appendix*.46}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}比特幣交易監督系統設計}{19}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣監督系統實作}{21}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{结论}{23}{chapter*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{参考文献}{25}{appendix*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{27}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{29}{appendix*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{31}{appendix*.48}
