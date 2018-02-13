@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 20:34
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2912,12 +2912,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48217 strings out of 493005
- 945082 string characters out of 6134596
+ 48221 strings out of 493005
+ 945336 string characters out of 6134596
  1350671 words of memory out of 5000000
- 51475 multiletter control sequences out of 15000+600000
+ 51479 multiletter control sequences out of 15000+600000
  104831 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,11n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (41 pages, 274324 bytes).
+Output written on thesis.xdv (41 pages, 278012 bytes).
