@@ -348,6 +348,8 @@ INPUT chap/chap2.aux
 INPUT chap/chap2.aux
 INPUT chap/chap4.aux
 INPUT chap/chap4.aux
+INPUT chap/chap5.aux
+INPUT chap/chap5.aux
 INPUT chap/chap6.aux
 INPUT chap/chap6.aux
 INPUT chap/chap7.aux
@@ -496,6 +498,10 @@ INPUT bitcoinfullnode.png
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
 INPUT chap/chap4.tex
+INPUT fig4.png
+OUTPUT chap/chap5.aux
+INPUT chap/chap5.tex
+INPUT chap/chap5.tex
 OUTPUT chap/chap6.aux
 INPUT chap/chap6.tex
 INPUT chap/chap6.tex
@@ -558,6 +564,8 @@ INPUT chap/chap2.aux
 INPUT chap/chap2.aux
 INPUT chap/chap4.aux
 INPUT chap/chap4.aux
+INPUT chap/chap5.aux
+INPUT chap/chap5.aux
 INPUT chap/chap6.aux
 INPUT chap/chap6.aux
 INPUT chap/chap7.aux
