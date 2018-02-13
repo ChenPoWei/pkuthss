@@ -2169,17 +2169,26 @@
     <bcf:citekey order="33">SomeSecureRandomThoughts</bcf:citekey>
     <bcf:citekey order="34">AndroidSecurityVulnerability</bcf:citekey>
     <bcf:citekey order="35">Badsignaturesleading</bcf:citekey>
-    <bcf:citekey order="36">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="37">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="38">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="39">test-en</bcf:citekey>
-    <bcf:citekey order="40">test-zh</bcf:citekey>
-    <bcf:citekey order="41">test-en</bcf:citekey>
-    <bcf:citekey order="41">test-zh</bcf:citekey>
-    <bcf:citekey order="42">test-en</bcf:citekey>
-    <bcf:citekey order="43">test-zh</bcf:citekey>
-    <bcf:citekey order="44">test-en</bcf:citekey>
-    <bcf:citekey order="44">test-zh</bcf:citekey>
+    <bcf:citekey order="36">OnthedesignandsecurityofRC2</bcf:citekey>
+    <bcf:citekey order="37">Rc4</bcf:citekey>
+    <bcf:citekey order="38">TheRC5encryptionalgorithm</bcf:citekey>
+    <bcf:citekey order="39">TheRC6blockcipher.v1.1August201998</bcf:citekey>
+    <bcf:citekey order="40">Dataencryptionstandard</bcf:citekey>
+    <bcf:citekey order="41">TrippleDataEncryptionAlgorithmModesofOperation</bcf:citekey>
+    <bcf:citekey order="42">ThedesignofRijndael:AES-theadvancedencryptionstandard</bcf:citekey>
+    <bcf:citekey order="43">Cryptographiccommunicationssystemandmethod</bcf:citekey>
+    <bcf:citekey order="44">Ellipticcurvecryptosystems</bcf:citekey>
+    <bcf:citekey order="45">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="46">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="47">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="48">test-en</bcf:citekey>
+    <bcf:citekey order="49">test-zh</bcf:citekey>
+    <bcf:citekey order="50">test-en</bcf:citekey>
+    <bcf:citekey order="50">test-zh</bcf:citekey>
+    <bcf:citekey order="51">test-en</bcf:citekey>
+    <bcf:citekey order="52">test-zh</bcf:citekey>
+    <bcf:citekey order="53">test-en</bcf:citekey>
+    <bcf:citekey order="53">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

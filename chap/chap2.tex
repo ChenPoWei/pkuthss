@@ -26,6 +26,10 @@
 			在過去的歷史事件中，發現Android手機版以及平板版的亂數產生器的存在著不隨機，於2013年8月比特幣開發者Mike Hearn提及“All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values” \parencite{SomeSecureRandomThoughts}，Bitcoin.org也發布了警告\parencite{AndroidSecurityVulnerability}簡要說明該事件的原因，以及表明影響到的Bitcoin Wallet 客戶端有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。這樣的錯誤源於Android本身支持的亂數產生器並不隨機，隨後Android解釋了亂數的問題並加以修正。在這Android手機亂數不夠亂的事件中，有自願者自發性地公佈自己的損失狀態，總金額為55.82152538個比特幣\parencite{Badsignaturesleading}，但因為比特幣屬於被動的性質，無人主動回報既不會加入統計中，所以總損失應該會超過55.82152538個比特幣。
 
 			\subsubsection{secp256k1}
+			在密碼學中有分對稱式加密與非對稱式加密，對稱式加密又分為信息流加密與信息塊加密，信息流加密著名的是由美國密碼學家Ron Rivest教授設計，包括RC2(1987年)\parencite{OnthedesignandsecurityofRC2}、RC4(1987年)\parencite{Rc4}、RC5(1994年)\parencite{TheRC5encryptionalgorithm}、RC6(1998年)\parencite{TheRC6blockcipher.v1.1August201998}；信息塊加密著名的有数据加密标准(Data Encryption Standard，DES，1975年)\parencite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\parencite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\parencite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非對稱是加密最為著名的有RSA（Rivest–Shamir–Adleman，1977年）\parencite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic curve cryptography，ECC，1985年）\parencite{Ellipticcurvecryptosystems}。
+			非對稱是加密與對稱式加密最大的不同在於，對稱是加密在加密解密的過程中只需要一把鑰匙，而非對稱是加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上在一開始會以亂數產生一把私鑰，再經由非對稱是加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中是相當難以到推回去私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，一種是希望收到加密信息的Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公布在網路上，這時希望聯繫Alice的Bob在網路上取得公鑰後，會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，既使網路存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用原本產生該公鑰的私鑰，才可以解出明文。
+
+
 			\subsubsection{SHA-256}
 			\subsubsection{RIPEMD-160}
 			\subsubsection{Base58}

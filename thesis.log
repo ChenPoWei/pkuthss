@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 03:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 FEB 2018 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2429,7 +2429,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                TPS
+(biblatex)                test-en
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2443,7 +2443,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-en
+(biblatex)                TPS
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2728,28 +2728,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
+] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Overfull \vbox (98.40137pt too high) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Overfull \vbox (72.28784pt too high) has occurred while \output is active []
 
 
-[12]
+[13]
 File: bitcoinfullnode.png Graphic file (type QTm)
- <use  "bitcoinfullnode.png" >) [13]
+ <use  "bitcoinfullnode.png" >) [14]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [14
+ (./chap/chap4.tex
+第三章
+) [15
 
 
 
 ]
-第三章
-) [15]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex [16
@@ -2907,12 +2907,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48163 strings out of 493005
- 942251 string characters out of 6134596
- 1346641 words of memory out of 5000000
- 51424 multiletter control sequences out of 15000+600000
+ 48201 strings out of 493005
+ 944440 string characters out of 6134596
+ 1347468 words of memory out of 5000000
+ 51462 multiletter control sequences out of 15000+600000
  104831 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,11n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (37 pages, 201488 bytes).
+Output written on thesis.xdv (37 pages, 214068 bytes).

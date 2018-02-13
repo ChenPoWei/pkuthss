@@ -665,6 +665,262 @@
       \verb https://bitcointalk.org/index.php?topic=271486.0
       \endverb
     \endentry
+    \entry{OnthedesignandsecurityofRC2}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=5ec515fa99addc0c569c2d947220127c}{%
+           family={Knudsen},
+           familyi={K\bibinitperiod},
+           given={Lars\bibnamedelima R},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d2e51b6dbeb039e27ea5d1a6f5d63302}{%
+           family={Rijmen},
+           familyi={R\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=934f07990d3d2deab2d3b8aa93e2611e}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ronald\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d332081757ba83aed0c9a17895719ba7}{%
+           family={Robshaw},
+           familyi={R\bibinitperiod},
+           given={Matthew\bibnamedelima JB},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c5557426dca2f3742f1d92d38015bfc9}
+      \strng{fullhash}{90d83b4ed3ebe497c263400bb58aab37}
+      \strng{authornamehash}{c5557426dca2f3742f1d92d38015bfc9}
+      \strng{authorfullhash}{90d83b4ed3ebe497c263400bb58aab37}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Workshop on Fast Software Encryption}
+      \field{title}{On the design and security of RC2}
+      \field{userf}{en}
+      \field{year}{1998}
+      \field{pages}{206\bibrangedash 221}
+      \range{pages}{16}
+    \endentry
+    \entry{Rc4}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ae9bb9068d2f4201ffa698486b30ec3d}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae9bb9068d2f4201ffa698486b30ec3d}
+      \strng{fullhash}{ae9bb9068d2f4201ffa698486b30ec3d}
+      \strng{authornamehash}{ae9bb9068d2f4201ffa698486b30ec3d}
+      \strng{authorfullhash}{ae9bb9068d2f4201ffa698486b30ec3d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Cryptography by B. Schneier, John Wiley and Sons, New York}
+      \field{title}{Rc4}
+      \field{userf}{en}
+      \field{year}{1996}
+    \endentry
+    \entry{TheRC5encryptionalgorithm}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=934f07990d3d2deab2d3b8aa93e2611e}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ronald\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{934f07990d3d2deab2d3b8aa93e2611e}
+      \strng{fullhash}{934f07990d3d2deab2d3b8aa93e2611e}
+      \strng{authornamehash}{934f07990d3d2deab2d3b8aa93e2611e}
+      \strng{authorfullhash}{934f07990d3d2deab2d3b8aa93e2611e}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Workshop on Fast Software Encryption}
+      \field{title}{The RC5 encryption algorithm}
+      \field{userf}{en}
+      \field{year}{1994}
+      \field{pages}{86\bibrangedash 96}
+      \range{pages}{11}
+    \endentry
+    \entry{TheRC6blockcipher.v1.1August201998}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=6a630bbc1f4da3f000de53a8c3fcda9a}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={RL},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1d52eec0ffbfdccba7e4014552b66e67}{%
+           family={Robshaw},
+           familyi={R\bibinitperiod},
+           given={MJB},
+           giveni={M\bibinitperiod}}}%
+        {{hash=51184c96151b627170c9e923ee0c4546}{%
+           family={Sidney},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0400c957e884f94cb266190b6d2f70e0}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={YL},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{01dd7a90d471679ec54f1ba24b442deb}
+      \strng{fullhash}{fca5aff9505fcaf7cad626f4de8ded21}
+      \strng{authornamehash}{01dd7a90d471679ec54f1ba24b442deb}
+      \strng{authorfullhash}{fca5aff9505fcaf7cad626f4de8ded21}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The RC6 block cipher. v1. 1, August 20, 1998}
+      \field{userf}{en}
+      \field{year}{2016}
+    \endentry
+    \entry{Dataencryptionstandard}{article}{}
+      \name{author}{1}{}{%
+        {{hash=77b5e50a3e274f4ff8da704d75a3f3ca}{%
+           family={Standard},
+           familyi={S\bibinitperiod},
+           given={Data\bibnamedelima Encryption},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{77b5e50a3e274f4ff8da704d75a3f3ca}
+      \strng{fullhash}{77b5e50a3e274f4ff8da704d75a3f3ca}
+      \strng{authornamehash}{77b5e50a3e274f4ff8da704d75a3f3ca}
+      \strng{authorfullhash}{77b5e50a3e274f4ff8da704d75a3f3ca}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Federal Information Processing Standards Publication}
+      \field{title}{Data encryption standard}
+      \field{userf}{en}
+      \field{year}{1999}
+    \endentry
+    \entry{TrippleDataEncryptionAlgorithmModesofOperation}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=31e8e86845f57bc9cd4de419e95de8be}{%
+           family={Association},
+           familyi={A\bibinitperiod},
+           given={American\bibnamedelima Bankers},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d25ef1b214ff82af9833245c05caba02}
+      \strng{fullhash}{d25ef1b214ff82af9833245c05caba02}
+      \strng{authornamehash}{d25ef1b214ff82af9833245c05caba02}
+      \strng{authorfullhash}{d25ef1b214ff82af9833245c05caba02}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ANSI X9}
+      \field{title}{Tripple Data Encryption Algorithm Modes of Operation}
+      \field{userf}{en}
+      \field{pages}{52\bibrangedash 1998}
+      \range{pages}{1947}
+    \endentry
+    \entry{ThedesignofRijndael:AES-theadvancedencryptionstandard}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ce9c20302c5a545e289c41661ac58c43}{%
+           family={Daemen},
+           familyi={D\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d2e51b6dbeb039e27ea5d1a6f5d63302}{%
+           family={Rijmen},
+           familyi={R\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \&amp; Business Media}%
+      }
+      \strng{namehash}{3967038944da1152e0568c52ebc551ab}
+      \strng{fullhash}{3967038944da1152e0568c52ebc551ab}
+      \strng{authornamehash}{3967038944da1152e0568c52ebc551ab}
+      \strng{authorfullhash}{3967038944da1152e0568c52ebc551ab}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The design of Rijndael: AES-the advanced encryption standard}
+      \field{userf}{en}
+      \field{year}{2013}
+    \endentry
+    \entry{Cryptographiccommunicationssystemandmethod}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=934f07990d3d2deab2d3b8aa93e2611e}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ronald\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=71b77dd8ab33fe646ef25cded49e9881}{%
+           family={Shamir},
+           familyi={S\bibinitperiod},
+           given={Adi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8faca79051559b027227b9c698b3cfad}{%
+           family={Adleman},
+           familyi={A\bibinitperiod},
+           given={Leonard\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{0a609b766ef0a710480280c4fc474c4b}
+      \strng{fullhash}{0a609b766ef0a710480280c4fc474c4b}
+      \strng{authornamehash}{0a609b766ef0a710480280c4fc474c4b}
+      \strng{authorfullhash}{0a609b766ef0a710480280c4fc474c4b}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9~20}
+      \field{note}{US Patent 4,405,829}
+      \field{title}{Cryptographic communications system and method}
+      \field{userf}{en}
+      \field{year}{1983}
+    \endentry
+    \entry{Ellipticcurvecryptosystems}{article}{}
+      \name{author}{1}{}{%
+        {{hash=57af579700a7f1b95505caa26ac99651}{%
+           family={Koblitz},
+           familyi={K\bibinitperiod},
+           given={Neal},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{57af579700a7f1b95505caa26ac99651}
+      \strng{fullhash}{57af579700a7f1b95505caa26ac99651}
+      \strng{authornamehash}{57af579700a7f1b95505caa26ac99651}
+      \strng{authorfullhash}{57af579700a7f1b95505caa26ac99651}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics of computation}
+      \field{number}{177}
+      \field{title}{Elliptic curve cryptosystems}
+      \field{userf}{en}
+      \field{volume}{48}
+      \field{year}{1987}
+      \field{pages}{203\bibrangedash 209}
+      \range{pages}{7}
+    \endentry
     \entry{bitcoinfullnode}{webpage}{}
       \name{author}{1}{}{%
         {{hash=77b5f7d091600902b0b48b5dad656b28}{%
@@ -677,8 +933,8 @@
       \strng{fullhash}{77b5f7d091600902b0b48b5dad656b28}
       \strng{authornamehash}{77b5f7d091600902b0b48b5dad656b28}
       \strng{authorfullhash}{77b5f7d091600902b0b48b5dad656b28}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Global Bitcoin Node Distribution}
@@ -688,9 +944,9 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{TPS}
-  \missing{test-zh}
   \missing{test-en}
+  \missing{test-zh}
+  \missing{TPS}
 \endrefsection
 \endinput
 
