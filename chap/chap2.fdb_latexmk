@@ -3,12 +3,12 @@
   "chap2.xdv" 0 -1 0 "xelatex"
   (generated)
   "chap2.pdf"
-["xelatex"] 1518499896 "chap2.tex" "chap2.xdv" "chap2" 1518499896
+["xelatex"] 1518514286 "chap2.tex" "chap2.xdv" "chap2" 1518514287
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1516954329 3678530 5bee602439c91eeaeec06266a96b8175 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "chap2.aux" 1518499821 9602 e592988ff4ca5ebbb9fa05fe5cc717f5 ""
-  "chap2.tex" 1518499738 7179 4f396c60e9b0514f31694dd4b40447da ""
+  "chap2.aux" 1518514271 10393 355841ac45fa03644fe5a85419a03ce4 ""
+  "chap2.tex" 1518514285 10842 44fb57048ac5039cb1ec43299171e228 ""
   (generated)
-  "chap2.xdv"
   "chap2.log"
+  "chap2.xdv"

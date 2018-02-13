@@ -487,6 +487,8 @@ INPUT chap/chap2.tex
 INPUT chap/chap2.tex
 INPUT LBC.png
 INPUT ECCtime.png
+INPUT LatticesignaturesandbimodalGaussians.png
+INPUT address.png
 INPUT bitcoinfullnode.png
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
