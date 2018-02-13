@@ -350,6 +350,8 @@ INPUT chap/chap4.aux
 INPUT chap/chap4.aux
 INPUT chap/chap6.aux
 INPUT chap/chap6.aux
+INPUT chap/chap7.aux
+INPUT chap/chap7.aux
 INPUT chap/conclusion.aux
 INPUT chap/conclusion.aux
 INPUT chap/encl1.aux
@@ -489,6 +491,7 @@ INPUT LBC.png
 INPUT ECCtime.png
 INPUT LatticesignaturesandbimodalGaussians.png
 INPUT address.png
+INPUT MerkleRoot.png
 INPUT bitcoinfullnode.png
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
@@ -496,6 +499,13 @@ INPUT chap/chap4.tex
 OUTPUT chap/chap6.aux
 INPUT chap/chap6.tex
 INPUT chap/chap6.tex
+INPUT fig5.png
+INPUT fig6.png
+INPUT fig7.png
+INPUT fig8.png
+OUTPUT chap/chap7.aux
+INPUT chap/chap7.tex
+INPUT chap/chap7.tex
 OUTPUT chap/conclusion.aux
 INPUT chap/conclusion.tex
 INPUT chap/conclusion.tex
@@ -550,6 +560,8 @@ INPUT chap/chap4.aux
 INPUT chap/chap4.aux
 INPUT chap/chap6.aux
 INPUT chap/chap6.aux
+INPUT chap/chap7.aux
+INPUT chap/chap7.aux
 INPUT chap/conclusion.aux
 INPUT chap/conclusion.aux
 INPUT chap/encl1.aux
