@@ -354,10 +354,6 @@ INPUT chap/chap6.aux
 INPUT chap/chap6.aux
 INPUT chap/chap7.aux
 INPUT chap/chap7.aux
-INPUT chap/conclusion.aux
-INPUT chap/conclusion.aux
-INPUT chap/encl1.aux
-INPUT chap/encl1.aux
 INPUT chap/acknowledge.aux
 INPUT chap/acknowledge.aux
 INPUT chap/originauth.aux
@@ -516,9 +512,6 @@ INPUT fig8.png
 OUTPUT chap/chap7.aux
 INPUT chap/chap7.tex
 INPUT chap/chap7.tex
-OUTPUT chap/conclusion.aux
-INPUT chap/conclusion.tex
-INPUT chap/conclusion.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
@@ -539,13 +532,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-OUTPUT chap/encl1.aux
-INPUT chap/encl1.tex
-INPUT chap/encl1.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 OUTPUT chap/acknowledge.aux
 INPUT chap/acknowledge.tex
 INPUT chap/acknowledge.tex
@@ -574,10 +560,6 @@ INPUT chap/chap6.aux
 INPUT chap/chap6.aux
 INPUT chap/chap7.aux
 INPUT chap/chap7.aux
-INPUT chap/conclusion.aux
-INPUT chap/conclusion.aux
-INPUT chap/encl1.aux
-INPUT chap/encl1.aux
 INPUT chap/acknowledge.aux
 INPUT chap/acknowledge.aux
 INPUT chap/originauth.aux

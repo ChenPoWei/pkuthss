@@ -2187,10 +2187,6 @@
     <bcf:citekey order="51">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="52">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="53">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="54">test-en</bcf:citekey>
-    <bcf:citekey order="55">test-zh</bcf:citekey>
-    <bcf:citekey order="56">test-en</bcf:citekey>
-    <bcf:citekey order="56">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
