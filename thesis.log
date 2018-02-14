@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 FEB 2018 20:54
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 FEB 2018 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2293,9 +2293,8 @@ Package biblatex Warning: Conflicting options.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/chap7.aux)
-(./chap/conclusion.aux) (./chap/encl1.aux) (./chap/acknowledge.aux)
-(./chap/originauth.aux))
+(./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/conclusion.aux
+) (./chap/encl1.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 63.
@@ -2437,14 +2436,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                test-zh
+(biblatex)                TPS
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                TPS
+(biblatex)                test-zh
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2800,46 +2799,13 @@ File: fig8.png Graphic file (type QTm)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [30] [31]
-\openout2 = `chap/chap7.aux'.
-
- (./chap/chap7.tex [32
-
-
-
-]
-第六章
-[33]) [34]
 \openout2 = `chap/conclusion.aux'.
 
- (./chap/conclusion.tex
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.045pt on input line 5.
-
-*************************************************
-* fontspec warning: "script-not-exist"
-* 
-* Font 'STFangsong' does not contain script 'CJK'.
-*************************************************
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 5.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.045pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
-) [35
+ (./chap/conclusion.tex [32
 
 
 
-] [36
-
-
-]
+] [33]) [34]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.53937pt on input line 103.
 
@@ -2847,12 +2813,23 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'STFangsong' does not contain script 'CJK'.
+*************************************************
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 103
+.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 103.
+
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
@@ -2896,7 +2873,10 @@ Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 /10.53937 https : / / android -[] developers .
  []
 
-[37]
+[35
+
+
+]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
@@ -2909,27 +2889,37 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
-[38]
+[36]
 \openout2 = `chap/encl1.aux'.
 
  (./chap/encl1.tex
 附录 A
-) [39
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.045pt on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.045pt on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 5.
+) [37
 
 
-] [40
+] [38
 
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [41
+ (./chap/acknowledge.tex) [39
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [42
+ (./chap/originauth.tex [40
 
 
 
@@ -2942,15 +2932,14 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [43]
+) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/chap7.aux)
-(./chap/conclusion.aux) (./chap/encl1.aux) (./chap/acknowledge.aux)
-(./chap/originauth.aux))
+(./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/conclusion.aux
+) (./chap/encl1.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -2958,12 +2947,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48280 strings out of 493005
- 946477 string characters out of 6134596
- 1358412 words of memory out of 5000000
- 51515 multiletter control sequences out of 15000+600000
+ 48269 strings out of 493005
+ 946307 string characters out of 6134596
+ 1354837 words of memory out of 5000000
+ 51511 multiletter control sequences out of 15000+600000
  104831 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (53 pages, 382996 bytes).
+Output written on thesis.xdv (51 pages, 378824 bytes).

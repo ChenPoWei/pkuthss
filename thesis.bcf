@@ -2191,10 +2191,6 @@
     <bcf:citekey order="55">test-zh</bcf:citekey>
     <bcf:citekey order="56">test-en</bcf:citekey>
     <bcf:citekey order="56">test-zh</bcf:citekey>
-    <bcf:citekey order="57">test-en</bcf:citekey>
-    <bcf:citekey order="58">test-zh</bcf:citekey>
-    <bcf:citekey order="59">test-en</bcf:citekey>
-    <bcf:citekey order="59">test-zh</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
