@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 FEB 2018 17:26
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 FEB 2018 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2777,14 +2777,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 第四章
-) [27]
+File: gabpcss.png Graphic file (type QTm)
+<use  "gabpcss.png" > [27]) [28]
 \openout2 = `chap/chap6.aux'.
 
- (./chap/chap6.tex [28
-
-
-
-]
+ (./chap/chap6.tex
 第五章
 File: fig5.png Graphic file (type QTm)
 <use  "fig5.png" >
@@ -2794,7 +2791,11 @@ File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
  <use  "fig8.png" >
-[29]
+[29
+
+
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2957,12 +2958,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48277 strings out of 493005
- 946446 string characters out of 6134596
- 1358369 words of memory out of 5000000
- 51513 multiletter control sequences out of 15000+600000
+ 48280 strings out of 493005
+ 946477 string characters out of 6134596
+ 1358412 words of memory out of 5000000
+ 51515 multiletter control sequences out of 15000+600000
  104831 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (53 pages, 382628 bytes).
+Output written on thesis.xdv (53 pages, 382996 bytes).

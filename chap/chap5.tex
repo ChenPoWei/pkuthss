@@ -4,7 +4,11 @@
 \chapter{多重簽章優化比特幣交易監督系統}
 %\pkuthssffaq % 中文测试文字。
 本節將詳述本系統之商家註冊、綠色地址錢包創建與驗證交易的運作流程與相關資料庫架構 。
-
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width = 0.8\textwidth]{gabpcss.png}
+		\caption{gabpcss}\label{gabpcss}
+	\end{figure}
 	\paragraph{第一步}商家以通過政府機構的審查稽核的帳戶登入該系統。
 	\paragraph{第二步}系統載入該店家註冊的商品資訊，店員可以依照客戶的需求進行點單選取數量。
 	\paragraph{第三步}快速建立交易清單，並透過Green address Testnet建立一個全新的比特幣收款地址，再以Android Beam[23]的方式將交易資訊輕鬆地傳得給顧客。

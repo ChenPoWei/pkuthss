@@ -504,6 +504,7 @@ INPUT fig4.png
 OUTPUT chap/chap5.aux
 INPUT chap/chap5.tex
 INPUT chap/chap5.tex
+INPUT gabpcss.png
 OUTPUT chap/chap6.aux
 INPUT chap/chap6.tex
 INPUT chap/chap6.tex
