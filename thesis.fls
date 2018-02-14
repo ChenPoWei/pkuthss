@@ -493,11 +493,13 @@ INPUT LBC.png
 INPUT ECCtime.png
 INPUT LatticesignaturesandbimodalGaussians.png
 INPUT address.png
+INPUT blockchain.png
 INPUT MerkleRoot.png
 INPUT bitcoinfullnode.png
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
 INPUT chap/chap4.tex
+INPUT fig3.png
 INPUT fig4.png
 OUTPUT chap/chap5.aux
 INPUT chap/chap5.tex
