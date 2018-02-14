@@ -124,106 +124,108 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}原資料庫}{21}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{店家數據庫}{21}{paragraph*.50}
+\contentsline {paragraph}{店家數據庫}{22}{paragraph*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{產品數據庫}{21}{paragraph*.51}
+\contentsline {paragraph}{產品數據庫}{22}{paragraph*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{交易數據庫}{21}{paragraph*.52}
+\contentsline {paragraph}{交易數據庫}{22}{paragraph*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{使用者資料庫}{21}{paragraph*.53}
+\contentsline {paragraph}{使用者資料庫}{22}{paragraph*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}關聯資料庫}{21}{section.3.3}
+\contentsline {section}{\numberline {3.3}關聯資料庫}{22}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-用戶資料庫}{21}{paragraph*.54}
+\contentsline {paragraph}{商家-用戶資料庫}{22}{paragraph*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-產品資料庫}{22}{paragraph*.55}
+\contentsline {paragraph}{商家-產品資料庫}{22}{paragraph*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-交易資料庫}{22}{paragraph*.56}
+\contentsline {paragraph}{商家-交易資料庫}{22}{paragraph*.57}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}商店和商品信息管理子系統（SMIMSS）}{22}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第一步}{22}{paragraph*.58}
+\contentsline {paragraph}{第一步}{22}{paragraph*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第二步}{22}{paragraph*.59}
+\contentsline {paragraph}{第二步}{22}{paragraph*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第三步}{23}{paragraph*.60}
+\contentsline {paragraph}{第三步}{22}{paragraph*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第四步}{23}{paragraph*.61}
+\contentsline {paragraph}{第四步}{23}{paragraph*.62}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}BPCSS運作流程}{23}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第一步}{23}{paragraph*.63}
+\contentsline {paragraph}{第一步}{23}{paragraph*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第二步}{23}{paragraph*.64}
+\contentsline {paragraph}{第二步}{24}{paragraph*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第三步}{23}{paragraph*.65}
+\contentsline {paragraph}{第三步}{24}{paragraph*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第四步}{23}{paragraph*.66}
+\contentsline {paragraph}{第四步}{25}{paragraph*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第五步}{24}{paragraph*.67}
+\contentsline {paragraph}{第五步}{25}{paragraph*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第六步}{24}{paragraph*.68}
+\contentsline {paragraph}{第六步}{25}{paragraph*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第七步}{24}{paragraph*.69}
+\contentsline {paragraph}{第七步}{25}{paragraph*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第八步}{25}{paragraph*.70}
+\contentsline {paragraph}{第八步}{25}{paragraph*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第九步}{25}{paragraph*.71}
+\contentsline {paragraph}{第九步}{25}{paragraph*.72}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}多重簽章優化比特幣交易監督系統}{27}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第一步}{27}{paragraph*.73}
+\contentsline {paragraph}{第一步}{27}{paragraph*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第二步}{27}{paragraph*.74}
+\contentsline {paragraph}{第二步}{27}{paragraph*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第三步}{28}{paragraph*.75}
+\contentsline {paragraph}{第三步}{28}{paragraph*.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第四步}{28}{paragraph*.76}
+\contentsline {paragraph}{第四步}{28}{paragraph*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第五步}{28}{paragraph*.77}
+\contentsline {paragraph}{第五步}{28}{paragraph*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第六步}{28}{paragraph*.78}
+\contentsline {paragraph}{第六步}{28}{paragraph*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第七步}{28}{paragraph*.79}
+\contentsline {paragraph}{第七步}{28}{paragraph*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第八步}{28}{paragraph*.80}
+\contentsline {paragraph}{第八步}{28}{paragraph*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{第九步}{28}{paragraph*.81}
+\contentsline {paragraph}{第九步}{28}{paragraph*.82}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}比特幣監督系統實作與結果}{29}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{结论}{33}{chapter*.86}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}結論和未來的工作}{33}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}提出的BPCSS架構還包括以下特色}{33}{section.5.1}
+\contentsline {chapter}{结论}{35}{chapter*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{一、}{33}{paragraph*.88}
+\contentsline {section}{\numberline {6.1}提出的BPCSS架構還包括以下特色}{35}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{二、}{33}{paragraph*.89}
+\contentsline {paragraph}{一、}{35}{paragraph*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{三、}{33}{paragraph*.90}
+\contentsline {paragraph}{二、}{35}{paragraph*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{四、}{33}{paragraph*.91}
+\contentsline {paragraph}{三、}{35}{paragraph*.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{五、}{33}{paragraph*.92}
+\contentsline {paragraph}{四、}{35}{paragraph*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{六、}{33}{paragraph*.93}
+\contentsline {paragraph}{五、}{35}{paragraph*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{七、}{33}{paragraph*.94}
+\contentsline {paragraph}{六、}{35}{paragraph*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{八、}{33}{paragraph*.95}
+\contentsline {paragraph}{七、}{35}{paragraph*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}提議的BPCSS的優點總結}{33}{section.5.2}
+\contentsline {paragraph}{八、}{35}{paragraph*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{對消費者}{33}{paragraph*.96}
+\contentsline {section}{\numberline {6.2}提議的BPCSS的優點總結}{35}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{業務}{34}{paragraph*.97}
+\contentsline {paragraph}{對消費者}{35}{paragraph*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{政府}{34}{paragraph*.98}
+\contentsline {paragraph}{業務}{36}{paragraph*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{35}{appendix*.99}
+\contentsline {paragraph}{政府}{36}{paragraph*.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{37}{appendix.A}
+\contentsline {chapter}{参考文献}{37}{appendix*.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{39}{appendix*.100}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}附件}{39}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{41}{appendix*.101}
+\contentsline {chapter}{致谢}{41}{appendix*.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{43}{appendix*.102}

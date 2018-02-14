@@ -3,12 +3,12 @@
   "conclusion.xdv" 0 -1 0 "xelatex"
   (generated)
   "conclusion.pdf"
-["xelatex"] 1518613060 "conclusion.tex" "conclusion.xdv" "conclusion" 1518613061
+["xelatex"] 1518614084 "conclusion.tex" "conclusion.xdv" "conclusion" 1518614084
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1516954329 3678530 5bee602439c91eeaeec06266a96b8175 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "conclusion.aux" 1518612876 3979 5cf99b89fc71ddf8e4ea49bc0a469fae ""
+  "conclusion.aux" 1518614000 5668 59287ed5c895f898f2787a2971a22706 ""
   "conclusion.tex" 1518613060 2668 b54fa7d29db198ff6cd66dac921925db ""
   (generated)
-  "conclusion.log"
   "conclusion.xdv"
+  "conclusion.log"
