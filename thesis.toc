@@ -102,7 +102,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Merkle Root（256 bits）}{17}{paragraph*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{難易度（32 bits）}{17}{paragraph*.44}
+\contentsline {paragraph}{難易度（32 bits）}{18}{paragraph*.44}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{時間戳記（32 bits）}{18}{paragraph*.45}
 \defcounter {refsection}{0}\relax 
