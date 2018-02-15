@@ -74,7 +74,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{第三步}{16}{paragraph*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{16}{section.2.3}
+\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{17}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}本區塊大小的值 }{17}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
@@ -86,9 +86,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Merkle Root（256 bits）}{17}{paragraph*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{難易度（32 bits）}{17}{paragraph*.36}
+\contentsline {paragraph}{難易度（32 bits）}{18}{paragraph*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{時間戳記（32 bits）}{17}{paragraph*.37}
+\contentsline {paragraph}{時間戳記（32 bits）}{18}{paragraph*.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Nonce（32 bits）}{18}{paragraph*.38}
 \defcounter {refsection}{0}\relax 

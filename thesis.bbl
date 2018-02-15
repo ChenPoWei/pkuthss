@@ -1127,6 +1127,37 @@
       \field{pages}{40\bibrangedash 56}
       \range{pages}{17}
     \endentry
+    \entry{Informationpropagationinthebitcoinnetwork}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=606da205069239a342783a6ff7f69711}{%
+           family={Decker},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5c162b9d03517a96680df0dc8d8263eb}{%
+           family={Wattenhofer},
+           familyi={W\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a4c41072ff4ff40a89fa94150de406f8}
+      \strng{fullhash}{a4c41072ff4ff40a89fa94150de406f8}
+      \strng{authornamehash}{a4c41072ff4ff40a89fa94150de406f8}
+      \strng{authorfullhash}{a4c41072ff4ff40a89fa94150de406f8}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Peer-to-Peer Computing (P2P), 2013 IEEE Thirteenth International Conference on}
+      \field{title}{Information propagation in the bitcoin network}
+      \field{userf}{en}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
     \entry{bitcoinfullnode}{webpage}{}
       \name{author}{1}{}{%
         {{hash=77b5f7d091600902b0b48b5dad656b28}{%
@@ -1151,7 +1182,6 @@
     \endentry
   \endsortlist
   \missing{TPS}
-  \missing{decker2013information}
 \endrefsection
 \endinput
 

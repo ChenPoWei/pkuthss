@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 16:51
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2433,13 +2433,6 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                decker2013information
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
@@ -2740,30 +2733,18 @@ File: address.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 77.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 77.
- [15]
-File: blockchain.png Graphic file (type QTm)
- <use  "blockchain.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1377) has occurred while \output is active []
+[14] [15]
+Underfull \vbox (badness 5175) has occurred while \output is active []
 
  [16]
+File: blockchain.png Graphic file (type QTm)
+
+<use  "blockchain.png" > [17]
 File: MerkleRoot.png Graphic file (type QTm)
-
-<use  "MerkleRoot.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17]
+ <use  "MerkleRoot.png" > [18]
 File: bitcoinfullnode.png Graphic file (type QTm)
- <use  "bitcoinfullnode.png" >) [18] [19]
+
+<use  "bitcoinfullnode.png" >) [19]
 \openout2 = `chap/chap4.aux'.
 
  (./chap/chap4.tex [20
@@ -2949,12 +2930,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48281 strings out of 493005
- 947094 string characters out of 6134596
- 1354011 words of memory out of 5000000
- 51529 multiletter control sequences out of 15000+600000
- 107329 words of font info for 131 fonts, out of 8000000 for 9000
+ 48282 strings out of 493005
+ 947263 string characters out of 6134596
+ 1354086 words of memory out of 5000000
+ 51530 multiletter control sequences out of 15000+600000
+ 104529 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (49 pages, 386256 bytes).
+Output written on thesis.xdv (49 pages, 389992 bytes).
