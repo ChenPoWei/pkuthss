@@ -75,7 +75,7 @@
 			對於區塊鏈的區塊同步延遲造成比特幣網路的影響，於“Increased block size and Bitcoin blockchain dynamics”\supercite{TelecommunicationNetworksandApplicationsConferenceITNAC201727thInternational}有著詳細的研究，在上修區塊大小上限的議題上，除了造成比特幣全節點意願度下降，亦有機會造成以比特幣點對點網路建構出的區塊鏈同步上造成延遲，在1055個比特幣全節點當中，平均每十分鐘會有礦工於其中一個全節點生成一個最新的區塊，該最新的區塊會以點對點網路協議同步到1055個節點上。在比特幣系統中，長年來的實驗可以發現在礦工生成1MB的區塊後同步到全網節點可以在創造下一個區塊之前完成。倘若將區塊大小修改為2MB或是更大，會使得比特幣全節點的最新區塊同步延遲的現象更加的明顯，同步延遲會使得區塊鏈分岔，造成1055個比特幣全節點的信息不一致，近一步造成整得比特幣點對點網路崩潰。
 
 		\subsection{洗錢防制困難}
-		匿名性為比特幣系統一大特色，比特幣的地址生成的熵是256 bits是在$2^{256}$的組態空間中隨機選取，這樣的地址與現實生活中的身份並無任何關聯，使得黑市交易、洗錢防制邊的困難，甚至有更為前沿的密碼貨幣Monero\supercite{monero}導入了環簽章（Ring Signature）\supercite{Thresholdringsignaturesandapplicationstoad-hocgroups}算法、Zcash導入零知識證明算法\supercite{Zero-KnowledgeProofsofIdentity}，使得原本公開透明的區塊鏈，變得無法檢視，使得密碼貨幣在洗錢防制上更加的困難。論文"An Analysis of Bitcoin Laundry Services."\supercite{AnAnalysisofBitcoinLaundryServices}，致力探究比特幣匿名交易下的資金流動模型，試圖以機械學習的方法找出比特幣洗錢模型作為洗錢的工具，圖\ref{Darklaunderworkflow}為該論文針對黑市交易中的洗錢服務運營商Darklaunder進行洗錢機械學習識別。
+		匿名性為比特幣系統一大特色，比特幣的地址生成的熵是256 bits是在$2^{256}$的組態空間中隨機選取，這樣的地址與現實生活中的身份並無任何關聯，使得黑市交易、洗錢防制邊的困難，甚至有更為前沿的密碼貨幣Monero\supercite{noether2014monero}導入了環簽章（Ring Signature）\supercite{Thresholdringsignaturesandapplicationstoad-hocgroups}算法、Zcash\supercite{zhong2002faster}導入零知識證明算法\supercite{Zero-KnowledgeProofsofIdentity}，使得原本公開透明的區塊鏈，變得無法檢視，使得密碼貨幣在洗錢防制上更加的困難。論文"An Analysis of Bitcoin Laundry Services."\supercite{AnAnalysisofBitcoinLaundryServices}，致力探究比特幣匿名交易下的資金流動模型，試圖以機械學習的方法找出比特幣洗錢模型作為洗錢的工具，圖\ref{Darklaunderworkflow}為該論文針對黑市交易中的洗錢服務運營商Darklaunder進行洗錢機械學習識別。
 
 			\begin{figure}[h]
 				\centering

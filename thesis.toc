@@ -32,15 +32,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.1}每秒處理的交易量（Transactions Per Second，TPS）上限}{7}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{上修區塊大小上限，區塊鏈成長速度過快會造成去比特幣全節點不堪負荷}{7}{paragraph*.12}
+\contentsline {paragraph}{上修區塊大小限制，區塊鏈成長速度過快會造成去比特幣全節點不堪負荷}{7}{paragraph*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{上修區塊大小上限，造成區塊鏈最新區塊同步延遲}{7}{paragraph*.14}
+\contentsline {paragraph}{上修區塊大小上限，造成區塊鏈最新區塊同步延遲}{8}{paragraph*.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}洗錢防制困難}{8}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}低可擴展性}{8}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.3}低可擴展性}{9}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{修改比特幣協議製作添加外部信息的區塊鏈}{8}{paragraph*.16}
+\contentsline {paragraph}{修改比特幣協議製作添加外部信息的區塊鏈}{9}{paragraph*.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{於區塊頭或交易信息添加外部信息}{9}{paragraph*.17}
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 15:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2429,14 +2429,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Theuseofbentsequencestoachievehigher-orderstrictavala
-nchecriterioninS-boxdesign
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                TPS
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2698,18 +2690,7 @@ e
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.05249pt on input line 32.
 
-[5]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 46.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 46.
-
-Overfull \hbox (29.49376pt too wide) in paragraph at lines 46--47
-\TU/STSong(0)/m/n/12.045 是 所 謂 的 雪 崩 效 應  |（\T1/ntxtlf/m/n/12.045 Avalanche ef-
-fect\TU/STSong(0)/m/n/12.045 ）|$[]$。|
- []
-
-[6]
+[5] [6]
 File: TPS.png Graphic file (type QTm)
  <use  "TPS.png" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
@@ -2880,6 +2861,10 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
+[35
+
+
+]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
@@ -2899,10 +2884,6 @@ Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 /10.53937 https : / / android -[] developers .
  []
 
-[35
-
-
-]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
@@ -2953,12 +2934,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48250 strings out of 493005
- 945392 string characters out of 6134596
- 1352594 words of memory out of 5000000
- 51498 multiletter control sequences out of 15000+600000
- 107329 words of font info for 131 fonts, out of 8000000 for 9000
+ 48262 strings out of 493005
+ 946195 string characters out of 6134596
+ 1352880 words of memory out of 5000000
+ 51510 multiletter control sequences out of 15000+600000
+ 104529 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (49 pages, 377776 bytes).
+Output written on thesis.xdv (49 pages, 380972 bytes).

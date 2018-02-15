@@ -246,6 +246,35 @@
       \verb https://www.nownews.com/news/20171029/2633984
       \endverb
     \endentry
+    \entry{Theuseofbentsequencestoachievehigher-orderstrictavalanchecriterioninS-boxdesign}{report}{}
+      \name{author}{2}{}{%
+        {{hash=92d568d306ab7dd89ccae50f08aafc1c}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={CM},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9e82034dc887dbb1287a48c7ba5aeccc}{%
+           family={Tavares},
+           familyi={T\bibinitperiod},
+           given={SE},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technical Report TR 90-013, Dept. of Elec. Eng., Queen's University, Kingston, Ontario, Canada}%
+      }
+      \strng{namehash}{c4ca6b197d97757cd4e4f807a7ded17d}
+      \strng{fullhash}{c4ca6b197d97757cd4e4f807a7ded17d}
+      \strng{authornamehash}{c4ca6b197d97757cd4e4f807a7ded17d}
+      \strng{authorfullhash}{c4ca6b197d97757cd4e4f807a7ded17d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The use of bent sequences to achieve higher-order strict avalanche criterion in S-box design}
+      \field{type}{techreport}
+      \field{userf}{en}
+      \field{year}{1990}
+    \endentry
     \entry{blockchainsize}{misc}{}
       \name{author}{1}{}{%
         {{hash=f9dccd7f458278cdeadd90afe736b4fa}{%
@@ -297,6 +326,96 @@
       \field{year}{2017}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
+    \endentry
+    \entry{noether2014monero}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2406046c4189d9aba0e224384dff842a}{%
+           family={Noether},
+           familyi={N\bibinitperiod},
+           given={Shen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2b3f20ba73850aca60eafda3eb3216e6}{%
+           family={Noether},
+           familyi={N\bibinitperiod},
+           given={Sarang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f210aa3ce6cff1854d8e83a45d04e647}
+      \strng{fullhash}{f210aa3ce6cff1854d8e83a45d04e647}
+      \strng{authornamehash}{f210aa3ce6cff1854d8e83a45d04e647}
+      \strng{authorfullhash}{f210aa3ce6cff1854d8e83a45d04e647}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technical report}
+      \field{title}{Monero is not that mysterious}
+      \field{userf}{en}
+      \field{year}{2014}
+    \endentry
+    \entry{Thresholdringsignaturesandapplicationstoad-hocgroups}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=39ae9211c1fc1f1b4365d8e60a82d220}{%
+           family={Bresson},
+           familyi={B\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1376067edec67519daf9e0c439f72c89}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0cc9f517e91c75e18b1474f3a179f8f9}{%
+           family={Szydlo},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6f8f966b3cd4efd9914ed7818055dca8}
+      \strng{fullhash}{6f8f966b3cd4efd9914ed7818055dca8}
+      \strng{authornamehash}{6f8f966b3cd4efd9914ed7818055dca8}
+      \strng{authorfullhash}{6f8f966b3cd4efd9914ed7818055dca8}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Annual International Cryptology Conference}
+      \field{title}{Threshold ring signatures and applications to ad-hoc groups}
+      \field{userf}{en}
+      \field{year}{2002}
+      \field{pages}{465\bibrangedash 480}
+      \range{pages}{16}
+    \endentry
+    \entry{zhong2002faster}{article}{}
+      \name{author}{1}{}{%
+        {{hash=876a1475c0ffd4fb67f85c1bf2fcfa24}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
+      \strng{fullhash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
+      \strng{authornamehash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
+      \strng{authorfullhash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronic Commerce Research and Applications}
+      \field{number}{3-4}
+      \field{title}{A faster single-term divisible electronic cash: ZCash}
+      \field{userf}{en}
+      \field{volume}{1}
+      \field{year}{2002}
+      \field{pages}{331\bibrangedash 338}
+      \range{pages}{8}
     \endentry
     \entry{Zero-KnowledgeProofsofIdentity}{article}{}
       \name{author}{3}{}{%
@@ -418,8 +537,8 @@
       \strng{fullhash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authornamehash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authorfullhash}{9bd74071f90413e7db3f9dd45073fbef}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Information Security}
@@ -465,8 +584,8 @@
       \strng{authorfullhash}{bad114b587e5ca418501e6f61464f96e}
       \strng{editornamehash}{ed5c23a7ef39bddc3a73f1fadf4dafa6}
       \strng{editorfullhash}{ed5c23a7ef39bddc3a73f1fadf4dafa6}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Fast Software Encryption - 19th International Workshop, {FSE} 2012, Washington, DC, USA, March 19-21, 2012. Revised Selected Papers}
@@ -544,8 +663,8 @@
       \strng{authorfullhash}{a66db41a4e905fc9a37d320afba17e51}
       \strng{editornamehash}{761bfeb1ef18c022e1934b76b545a73a}
       \strng{editorfullhash}{670b463f475e4f052dda4ddfb767d152}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Information Security, 9th International Conference, {ISC} 2006, Samos Island, Greece, August 30 - September 2, 2006, Proceedings}
@@ -695,8 +814,8 @@
       \strng{fullhash}{90d83b4ed3ebe497c263400bb58aab37}
       \strng{authornamehash}{c5557426dca2f3742f1d92d38015bfc9}
       \strng{authorfullhash}{90d83b4ed3ebe497c263400bb58aab37}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Workshop on Fast Software Encryption}
@@ -718,8 +837,8 @@
       \strng{fullhash}{ae9bb9068d2f4201ffa698486b30ec3d}
       \strng{authornamehash}{ae9bb9068d2f4201ffa698486b30ec3d}
       \strng{authorfullhash}{ae9bb9068d2f4201ffa698486b30ec3d}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Cryptography by B. Schneier, John Wiley and Sons, New York}
@@ -742,8 +861,8 @@
       \strng{fullhash}{934f07990d3d2deab2d3b8aa93e2611e}
       \strng{authornamehash}{934f07990d3d2deab2d3b8aa93e2611e}
       \strng{authorfullhash}{934f07990d3d2deab2d3b8aa93e2611e}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Workshop on Fast Software Encryption}
@@ -977,8 +1096,8 @@
       \strng{fullhash}{407c585629cb21010796d76bd613d7ab}
       \strng{authornamehash}{a87aac2f26e8da93d6e96cd8a0b34e96}
       \strng{authorfullhash}{407c585629cb21010796d76bd613d7ab}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Cryptology--CRYPTO 2013}
@@ -1011,7 +1130,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{Theuseofbentsequencestoachievehigher-orderstrictavalanchecriterioninS-boxdesign}
   \missing{TPS}
 \endrefsection
 \endinput
