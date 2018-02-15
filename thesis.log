@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 17:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2734,39 +2734,46 @@ File: address.png Graphic file (type QTm)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15]
-Underfull \vbox (badness 5175) has occurred while \output is active []
-
- [16]
+File: gabuild.png Graphic file (type QTm)
+ <use  "gabuild.png" > [16]
+File: gatx.png Graphic file (type QTm)
+ <use  "gatx.png" > [17]
 File: blockchain.png Graphic file (type QTm)
 
-<use  "blockchain.png" > [17]
+<use  "blockchain.png" > [18]
 File: MerkleRoot.png Graphic file (type QTm)
- <use  "MerkleRoot.png" > [18]
+ <use  "MerkleRoot.png" >
 File: bitcoinfullnode.png Graphic file (type QTm)
 
-<use  "bitcoinfullnode.png" >) [19]
+<use  "bitcoinfullnode.png" >) [19] [20]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [20
+ (./chap/chap4.tex
+第三章
+File: db.png Graphic file (type QTm)
+<use  "db.png" > [21
 
 
 
 ]
-第三章
-File: db.png Graphic file (type QTm)
-<use  "db.png" > [21]
 File: fig3.png Graphic file (type QTm)
  <use  "fig3.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22]
 File: fig4.png Graphic file (type QTm)
- <use  "fig4.png" >
+<use  "fig4.png" > [22]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] [24]) [25]
+
+Underfull \vbox (badness 2269) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24])
+[25]
 \openout2 = `chap/chap5.aux'.
 
  (./chap/chap5.tex [26
@@ -2930,12 +2937,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48282 strings out of 493005
- 947263 string characters out of 6134596
- 1354086 words of memory out of 5000000
- 51530 multiletter control sequences out of 15000+600000
+ 48278 strings out of 493005
+ 946659 string characters out of 6134596
+ 1353742 words of memory out of 5000000
+ 51524 multiletter control sequences out of 15000+600000
  104529 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (49 pages, 389992 bytes).
+Output written on thesis.xdv (49 pages, 389416 bytes).

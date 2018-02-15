@@ -507,6 +507,8 @@ INPUT LBC.png
 INPUT ECCtime.png
 INPUT LatticesignaturesandbimodalGaussians.png
 INPUT address.png
+INPUT gabuild.png
+INPUT gatx.png
 INPUT blockchain.png
 INPUT MerkleRoot.png
 INPUT bitcoinfullnode.png
