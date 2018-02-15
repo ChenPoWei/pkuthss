@@ -96,60 +96,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}匿名客戶對匿名商家}{21}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}匿名客戶對實名商家}{21}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}匿名客戶對實名商家}{22}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}電子貨幣交易模型}{22}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}實名客戶支付實名商家}{22}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}實名客戶透過實名第三方再實名商家}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}實名客戶透過實名第三方再實名商家}{23}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}實名客戶透過匿名第三方再實名商家}{22}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}實名客戶透過匿名第三方再實名商家}{23}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣交易監督系統設計}{23}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}比特幣交易監督系統設計}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}BRTMS數據庫設計}{23}{section.4.1}
+\contentsline {section}{\numberline {4.1}BRTMS數據庫設計}{25}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}原數據庫}{23}{section.4.2}
+\contentsline {section}{\numberline {4.2}原數據庫}{25}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{店家數據庫}{24}{paragraph*.42}
+\contentsline {paragraph}{店家數據庫}{26}{paragraph*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{產品數據庫}{24}{paragraph*.43}
+\contentsline {paragraph}{產品數據庫}{26}{paragraph*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{交易數據庫}{24}{paragraph*.44}
+\contentsline {paragraph}{交易數據庫}{26}{paragraph*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{使用者數據庫}{24}{paragraph*.45}
+\contentsline {paragraph}{使用者數據庫}{26}{paragraph*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}關聯數據庫}{24}{section.4.3}
+\contentsline {section}{\numberline {4.3}關聯數據庫}{26}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-用戶數據庫}{24}{paragraph*.46}
+\contentsline {paragraph}{商家-用戶數據庫}{26}{paragraph*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-產品數據庫}{24}{paragraph*.47}
+\contentsline {paragraph}{商家-產品數據庫}{26}{paragraph*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-交易數據庫}{24}{paragraph*.48}
+\contentsline {paragraph}{商家-交易數據庫}{26}{paragraph*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}商店和商品信息管理子系統（SMIMSS）}{24}{section.4.4}
+\contentsline {section}{\numberline {4.4}商店和商品信息管理子系統（SMIMSS）}{26}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}BRTMS架構與運作流程}{25}{section.4.5}
+\contentsline {section}{\numberline {4.5}BRTMS架構與運作流程}{27}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化比特幣交易監督系統}{29}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化比特幣交易監督系統}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}比特幣監督系統實作與結果}{31}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}比特幣監督系統實作與結果}{33}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}結論與未來展望}{35}{chapter.7}
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}結論與未來展望}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}提出的BRTMS架構還包括以下特色}{35}{section.7.1}
+\contentsline {section}{\numberline {7.1}提出的BRTMS架構還包括以下特色}{37}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}提議的BRTMS的優點總結}{35}{section.7.2}
+\contentsline {section}{\numberline {7.2}提議的BRTMS的優點總結}{37}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{消費者}{35}{paragraph*.56}
+\contentsline {paragraph}{消費者}{37}{paragraph*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家}{35}{paragraph*.57}
+\contentsline {paragraph}{商家}{37}{paragraph*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{政府}{35}{paragraph*.58}
+\contentsline {paragraph}{政府}{37}{paragraph*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{37}{appendix*.59}
+\contentsline {chapter}{参考文献}{39}{appendix*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{39}{appendix*.60}
+\contentsline {chapter}{致谢}{41}{appendix*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{41}{appendix*.61}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{43}{appendix*.67}

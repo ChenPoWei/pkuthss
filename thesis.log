@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 21:02
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2750,31 +2750,43 @@ File: bitcoinfullnode.png Graphic file (type QTm)
 
  (./chap/chap3.tex
 第三章
+File: modeall.png Graphic file (type QTm)
+<use  "modeall.png" >
+File: modeaa.png Graphic file (type QTm)
+ <use  "modeaa.png" >
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [21
-
-
-
-])
-[22]
-\openout2 = `chap/chap4.aux'.
-
- (./chap/chap4.tex
-第四章
-File: db.png Graphic file (type QTm)
-<use  "db.png" > [23
+[21
 
 
 
 ]
+File: modean.png Graphic file (type QTm)
+ <use  "modean.png" >
+File: modenn.png Graphic file (type QTm)
+ <use  "modenn.png" > [22]
+File: modennn.png Graphic file (type QTm)
+ <use  "modennn.png" >
+File: modenan.png Graphic file (type QTm)
+
+<use  "modenan.png" >) [23]
+\openout2 = `chap/chap4.aux'.
+
+ (./chap/chap4.tex [24
+
+
+
+]
+第四章
+File: db.png Graphic file (type QTm)
+<use  "db.png" > [25]
 File: fig3.png Graphic file (type QTm)
  <use  "fig3.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
+[26]
 File: fig4.png Graphic file (type QTm)
  <use  "fig4.png" >
 
@@ -2783,14 +2795,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
- [25]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26])
-[27]
+ [28])
+[29]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex [28
+ (./chap/chap5.tex [30
 
 
 
@@ -2801,7 +2813,7 @@ File: gabpcss.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]) [30]
+[31]) [32]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2814,7 +2826,7 @@ File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
  <use  "fig8.png" >
-[31
+[33
 
 
 
@@ -2822,16 +2834,16 @@ File: fig8.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [32] [33]
+) [34] [35]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex [34
+ (./chap/chap7.tex [36
 
 
 
 ]
 第七章
-[35]) [36]
+[37]) [38]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.53937pt on input line 103.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
@@ -2882,7 +2894,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
-[37
+[39
 
 
 ]
@@ -2917,17 +2929,17 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
-[38]
+[40]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [39
+ (./chap/acknowledge.tex) [41
 
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [40
+ (./chap/originauth.tex [42
 
 
 
@@ -2940,7 +2952,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [41]
+) [43]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 
@@ -2955,12 +2967,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48296 strings out of 493005
- 947122 string characters out of 6134596
- 1357403 words of memory out of 5000000
- 51535 multiletter control sequences out of 15000+600000
+ 48314 strings out of 493005
+ 947299 string characters out of 6134596
+ 1357652 words of memory out of 5000000
+ 51547 multiletter control sequences out of 15000+600000
  104529 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (51 pages, 434504 bytes).
+Output written on thesis.xdv (53 pages, 437756 bytes).
