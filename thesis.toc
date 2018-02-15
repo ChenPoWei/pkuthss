@@ -94,7 +94,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}BRTMS數據庫設計}{21}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}原資料庫}{21}{section.3.2}
+\contentsline {section}{\numberline {3.2}原數據庫}{21}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{店家數據庫}{22}{paragraph*.42}
 \defcounter {refsection}{0}\relax 
@@ -102,15 +102,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{交易數據庫}{22}{paragraph*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{使用者資料庫}{22}{paragraph*.45}
+\contentsline {paragraph}{使用者數據庫}{22}{paragraph*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}關聯資料庫}{22}{section.3.3}
+\contentsline {section}{\numberline {3.3}關聯數據庫}{22}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-用戶資料庫}{22}{paragraph*.46}
+\contentsline {paragraph}{商家-用戶數據庫}{22}{paragraph*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-產品資料庫}{22}{paragraph*.47}
+\contentsline {paragraph}{商家-產品數據庫}{22}{paragraph*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-交易資料庫}{22}{paragraph*.48}
+\contentsline {paragraph}{商家-交易數據庫}{22}{paragraph*.48}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}商店和商品信息管理子系統（SMIMSS）}{22}{section.3.4}
 \defcounter {refsection}{0}\relax 
@@ -126,9 +126,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}提議的BRTMS的優點總結}{33}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{對消費者}{33}{paragraph*.56}
+\contentsline {paragraph}{消費者}{33}{paragraph*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{業務}{33}{paragraph*.57}
+\contentsline {paragraph}{商家}{33}{paragraph*.57}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{政府}{33}{paragraph*.58}
 \defcounter {refsection}{0}\relax 
