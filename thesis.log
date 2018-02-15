@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 16:44
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2751,15 +2751,22 @@ File: blockchain.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16]
+
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [16]
 File: MerkleRoot.png Graphic file (type QTm)
- <use  "MerkleRoot.png" > [17]
+
+<use  "MerkleRoot.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
 File: bitcoinfullnode.png Graphic file (type QTm)
  <use  "bitcoinfullnode.png" >) [18] [19]
 \openout2 = `chap/chap4.aux'.
 
-
-(./chap/chap4.tex [20
+ (./chap/chap4.tex [20
 
 
 
@@ -2950,4 +2957,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (49 pages, 386420 bytes).
+Output written on thesis.xdv (49 pages, 386256 bytes).
