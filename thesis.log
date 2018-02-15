@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  16 FEB 2018 03:00
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  16 FEB 2018 03:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2831,16 +2831,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: fig5.png Graphic file (type QTm)
 <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" >
-File: fig7.png Graphic file (type QTm)
- <use  "fig7.png" >
-File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >
-[33
+ <use  "fig6.png" > [33
 
 
 
 ]
+File: fig7.png Graphic file (type QTm)
+ <use  "fig7.png" >
+File: fig8.png Graphic file (type QTm)
+
+<use  "fig8.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2998,4 +2998,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (57 pages, 480052 bytes).
+Output written on thesis.xdv (57 pages, 480196 bytes).
