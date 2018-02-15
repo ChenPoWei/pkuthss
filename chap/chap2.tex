@@ -4,16 +4,16 @@
 \chapter{文獻探討}
 
 	\section{比特幣（Bitcoin）}
-	比特幣（Bitcoin，BTC）是一個點對點式的點子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature cryptography）、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash function cryptography）、共式算法（Consensus）諸多技術建構了一個分散式的不需要靠中心化機構加以維護的交易帳本（區塊鏈）。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
+	比特幣（Bitcoin，BTC）是一個點對點式的電子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature cryptography）、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash function cryptography）、共式算法（Consensus）諸多技術建構了一個分散式、不需要仰賴中心化機構加以維護的交易帳本（區塊鏈）。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
 
 	\section{比特幣地址（Bitcoin Address）}
-	比特幣地址為比特幣的載體，深入了解比特幣地址生成相關算法的、比特幣地址生成過程、多重簽名。可以近一步應用在区块链的实名交易监督系统。
+	⽐特幣地址為⽐特幣的載體，深⼊了解⽐特幣的地址⽣成相關算法、⽐特幣地址⽣成過程、多重簽名，可以近⼀步應⽤在区块链的实名交易监督系统。
 
 		\subsection{比特幣地址生成相關算法}
-		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
+		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來將詳述每一個函數的運作過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
 		
 			\subsubsection{亂數產生器（Random number generator）}
-			亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}也有團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公布的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索的組態空間中擊中了15個比特幣地址，團隊也將這15個地址的1.180899個比特幣轉走。
+			亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公布的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索的組態空間中擊中了15個比特幣地址，團隊也將這15個地址的1.180899個比特幣轉走。
 
 			\begin{figure}[h]
 				\centering
