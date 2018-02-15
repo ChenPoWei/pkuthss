@@ -1,7 +1,7 @@
 % Copyright (c) 2014,2016 Casper Ti. Vector
 % Public domain.
 
-\chapter{比特幣交易監督系統設計}
+\chapter{区块链的实名交易监督系统設計}
 %\pkuthssffaq % 中文测试文字。
 本論文提出区块链的实名交易监督系统（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以密碼貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
 
@@ -16,9 +16,9 @@
 			\caption{BRTMS 數據庫}\label{db}
 		\end{figure}
 
-			\paragraph{店家數據庫}存儲正在審核中的企業信息或已經過審核的企業信息。存儲的信息包括商家ID，商戶名稱，商戶位置，商戶的密碼貨幣地址以及GPS坐標。
-			\paragraph{產品數據庫}只有授權用戶才能登錄添加或修改交易產品信息。產品數據庫內容包括產品標識號，產品名稱，產品說明，日期和價格等相關信息。
-			\paragraph{交易數據庫}記錄包括交易序列號，產品識別號碼，產品交易金額，商戶密碼貨幣收款人地址，消費者密碼貨幣支付地址，商戶ID和最後確認字段的值。
+			\paragraph{店家數據庫}存儲正在審核中的企業信息或已經過審核的企業信息。存儲的信息包括商家ID、商戶名稱、商戶位置、商戶的密碼貨幣地址以及GPS坐標。
+			\paragraph{產品數據庫}只有授權用戶才能登錄添加或修改交易產品信息。產品數據庫內容包括產品標識號、產品名稱、產品說明、日期和價格等相關信息。
+			\paragraph{交易數據庫}記錄包括交易序列號、產品識別號碼、產品交易金額、商戶密碼貨幣收款人地址、消費者密碼貨幣支付地址、商戶ID和最後確認字段的值。
 			\paragraph{使用者數據庫}儲存所有使用者資訊，包括政府、商家及顧客之個人帳戶資訊的數據庫，而使用者密碼則以哈希的方式保存，以增加用戶安全性。
 
 		\subsection{關聯數據庫}
