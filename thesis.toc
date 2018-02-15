@@ -70,21 +70,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Green Address錢包生成過程}{16}{paragraph*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Green Address交易發起流程}{16}{paragraph*.31}
+\contentsline {paragraph}{Green Address交易發起流程}{17}{paragraph*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{17}{section.2.3}
+\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{18}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}區塊頭（Block Header）}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}區塊頭（Block Header）}{18}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{區塊版本（32 bits）}{17}{paragraph*.34}
+\contentsline {paragraph}{區塊版本（32 bits）}{18}{paragraph*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{前區塊的哈希值（256 bits）}{17}{paragraph*.35}
+\contentsline {paragraph}{前區塊的哈希值（256 bits）}{18}{paragraph*.35}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Merkle Root（256 bits）}{18}{paragraph*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{難易度（32 bits）}{18}{paragraph*.38}
+\contentsline {paragraph}{難易度（32 bits）}{19}{paragraph*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{時間戳記（32 bits）}{18}{paragraph*.39}
+\contentsline {paragraph}{時間戳記（32 bits）}{19}{paragraph*.39}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Nonce（32 bits）}{19}{paragraph*.40}
 \defcounter {refsection}{0}\relax 
@@ -110,7 +110,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}BRTMS數據庫設計}{25}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}原數據庫}{25}{section.4.2}
+\contentsline {subsection}{\numberline {4.1.1}原數據庫}{25}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{店家數據庫}{26}{paragraph*.49}
 \defcounter {refsection}{0}\relax 
@@ -120,7 +120,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{使用者數據庫}{26}{paragraph*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}關聯數據庫}{26}{section.4.3}
+\contentsline {subsection}{\numberline {4.1.2}關聯數據庫}{26}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{商家-用戶數據庫}{26}{paragraph*.53}
 \defcounter {refsection}{0}\relax 
@@ -128,9 +128,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{商家-交易數據庫}{26}{paragraph*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}商店和商品信息管理子系統（SMIMSS）}{26}{section.4.4}
+\contentsline {section}{\numberline {4.2}商店和商品信息管理子系統（SMIMSS）}{26}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}BRTMS架構與運作流程}{27}{section.4.5}
+\contentsline {section}{\numberline {4.3}BRTMS架構與運作流程}{27}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化区块链的实名交易监督系统}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
