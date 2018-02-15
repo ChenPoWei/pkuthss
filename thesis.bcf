@@ -2170,27 +2170,28 @@
     <bcf:citekey order="34">TheLargeBitcoinCollider</bcf:citekey>
     <bcf:citekey order="35">TheLargeBitcoinCollider</bcf:citekey>
     <bcf:citekey order="36">TheLargeBitcoinCollider</bcf:citekey>
-    <bcf:citekey order="37">SomeSecureRandomThoughts</bcf:citekey>
-    <bcf:citekey order="38">AndroidSecurityVulnerability</bcf:citekey>
-    <bcf:citekey order="39">Badsignaturesleading</bcf:citekey>
-    <bcf:citekey order="40">OnthedesignandsecurityofRC2</bcf:citekey>
-    <bcf:citekey order="41">Rc4</bcf:citekey>
-    <bcf:citekey order="42">TheRC5encryptionalgorithm</bcf:citekey>
-    <bcf:citekey order="43">TheRC6blockcipher.v1.1August201998</bcf:citekey>
-    <bcf:citekey order="44">Dataencryptionstandard</bcf:citekey>
-    <bcf:citekey order="45">TrippleDataEncryptionAlgorithmModesofOperation</bcf:citekey>
-    <bcf:citekey order="46">ThedesignofRijndael:AES-theadvancedencryptionstandard</bcf:citekey>
-    <bcf:citekey order="47">Cryptographiccommunicationssystemandmethod</bcf:citekey>
-    <bcf:citekey order="48">Ellipticcurvecryptosystems</bcf:citekey>
-    <bcf:citekey order="49">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
+    <bcf:citekey order="37">dierks2008transport</bcf:citekey>
+    <bcf:citekey order="38">SomeSecureRandomThoughts</bcf:citekey>
+    <bcf:citekey order="39">AndroidSecurityVulnerability</bcf:citekey>
+    <bcf:citekey order="40">Badsignaturesleading</bcf:citekey>
+    <bcf:citekey order="41">OnthedesignandsecurityofRC2</bcf:citekey>
+    <bcf:citekey order="42">Rc4</bcf:citekey>
+    <bcf:citekey order="43">TheRC5encryptionalgorithm</bcf:citekey>
+    <bcf:citekey order="44">TheRC6blockcipher.v1.1August201998</bcf:citekey>
+    <bcf:citekey order="45">Dataencryptionstandard</bcf:citekey>
+    <bcf:citekey order="46">TrippleDataEncryptionAlgorithmModesofOperation</bcf:citekey>
+    <bcf:citekey order="47">ThedesignofRijndael:AES-theadvancedencryptionstandard</bcf:citekey>
+    <bcf:citekey order="48">Cryptographiccommunicationssystemandmethod</bcf:citekey>
+    <bcf:citekey order="49">Ellipticcurvecryptosystems</bcf:citekey>
     <bcf:citekey order="50">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
     <bcf:citekey order="51">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
-    <bcf:citekey order="52">LatticesignaturesandbimodalGaussians</bcf:citekey>
+    <bcf:citekey order="52">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
     <bcf:citekey order="53">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="54">LatticesignaturesandbimodalGaussians</bcf:citekey>
-    <bcf:citekey order="55">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="55">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="56">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="57">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="58">bitcoinfullnode</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

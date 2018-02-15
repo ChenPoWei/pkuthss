@@ -716,6 +716,26 @@
       \verb https://lbc.cryptoguru.org
       \endverb
     \endentry
+    \entry{dierks2008transport}{article}{}
+      \name{author}{1}{}{%
+        {{hash=774d4268a758d45ede8870ebd6e40083}{%
+           family={Dierks},
+           familyi={D\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{774d4268a758d45ede8870ebd6e40083}
+      \strng{fullhash}{774d4268a758d45ede8870ebd6e40083}
+      \strng{authornamehash}{774d4268a758d45ede8870ebd6e40083}
+      \strng{authorfullhash}{774d4268a758d45ede8870ebd6e40083}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The transport layer security (TLS) protocol version 1.2}
+      \field{userf}{en}
+      \field{year}{2008}
+    \endentry
     \entry{SomeSecureRandomThoughts}{webpage}{}
       \name{author}{1}{}{%
         {{hash=a505088ac00d073baa17ad022ad49bf9}{%
@@ -772,8 +792,8 @@
       \strng{fullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authornamehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authorfullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -1057,8 +1077,8 @@
       \strng{fullhash}{00e4ed12cea7f1b8b4dfd5800a16657b}
       \strng{authornamehash}{00e4ed12cea7f1b8b4dfd5800a16657b}
       \strng{authorfullhash}{00e4ed12cea7f1b8b4dfd5800a16657b}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{nicj. net/files}
