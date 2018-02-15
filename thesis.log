@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 20:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  15 FEB 2018 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2293,8 +2293,8 @@ Package biblatex Warning: Conflicting options.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/chap7.aux)
-(./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
+(./chap/chap7.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 63.
@@ -2746,12 +2746,25 @@ File: MerkleRoot.png Graphic file (type QTm)
 File: bitcoinfullnode.png Graphic file (type QTm)
 
 <use  "bitcoinfullnode.png" >) [19] [20]
+\openout2 = `chap/chap3.aux'.
+
+ (./chap/chap3.tex
+第三章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+
+
+])
+[22]
 \openout2 = `chap/chap4.aux'.
 
  (./chap/chap4.tex
-第三章
+第四章
 File: db.png Graphic file (type QTm)
-<use  "db.png" > [21
+<use  "db.png" > [23
 
 
 
@@ -2761,33 +2774,38 @@ File: fig3.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[24]
 File: fig4.png Graphic file (type QTm)
-<use  "fig4.png" > [22]
+ <use  "fig4.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 2269) has occurred while \output is active []
+Underfull \vbox (badness 1337) has occurred while \output is active []
 
- [23]
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24])
-[25]
+ [26])
+[27]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex [26
+ (./chap/chap5.tex [28
 
 
 
 ]
-第四章
+第五章
 File: gabpcss.png Graphic file (type QTm)
-<use  "gabpcss.png" > [27]) [28]
+<use  "gabpcss.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29]) [30]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
-第五章
+第六章
 File: fig5.png Graphic file (type QTm)
 <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
@@ -2796,7 +2814,7 @@ File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
  <use  "fig8.png" >
-[29
+[31
 
 
 
@@ -2804,16 +2822,16 @@ File: fig8.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [30] [31]
+) [32] [33]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex [32
+ (./chap/chap7.tex [34
 
 
 
 ]
-第六章
-[33]) [34]
+第七章
+[35]) [36]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.53937pt on input line 103.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
@@ -2864,7 +2882,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
-[35
+[37
 
 
 ]
@@ -2899,17 +2917,17 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 103.
 
-[36]
+[38]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [37
+ (./chap/acknowledge.tex) [39
 
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [38
+ (./chap/originauth.tex [40
 
 
 
@@ -2922,14 +2940,14 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [39]
+) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/chap7.aux)
-(./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
+(./chap/chap7.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 113.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -2937,12 +2955,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48278 strings out of 493005
- 946659 string characters out of 6134596
- 1353742 words of memory out of 5000000
- 51524 multiletter control sequences out of 15000+600000
+ 48296 strings out of 493005
+ 947122 string characters out of 6134596
+ 1357403 words of memory out of 5000000
+ 51535 multiletter control sequences out of 15000+600000
  104529 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (49 pages, 389456 bytes).
+Output written on thesis.xdv (51 pages, 434492 bytes).
