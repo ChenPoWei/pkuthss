@@ -27,8 +27,8 @@
 
 			\subsubsection{Secp256k1}
 			在密碼學中有分對稱式加密與非對稱式加密，對稱式加密又分為信息流加密與信息塊加密，信息流加密著名的是由美國密碼學家Ron Rivest教授設計，包括RC2(1987年)\supercite{OnthedesignandsecurityofRC2}、RC4(1987年)\supercite{Rc4}、RC5(1994年)\supercite{TheRC5encryptionalgorithm}、RC6(1998年)\supercite{TheRC6blockcipher.v1.1August201998}；信息塊加密著名的有数据加密标准(Data Encryption Standard，DES，1975年)\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非對稱式加密最廣為人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic curve cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
-			非對稱式加密與對稱式加密最大的不同在於，對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公布在網路上，這時希望聯繫Alice的Bob在網路上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，既使網路存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易的數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花费的输出（Unspent Transaction Output，UTXO）進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網路的交易緩池持當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收入到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工的將該筆交易收入至比特幣區塊鏈當中。
-			比特幣採用的secp256k1是屬於椭圆曲线密码学中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線方程$$y^2=x^3+ax+b$$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F為巨大的質數、G點被称为⽣成点的常数点亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}顯示，當ECC產生571bits的密鑰長度，RSA要達到相同的安全性需要生成15360bits，至於生成的時間差距高達471倍。
+			非對稱式加密與對稱式加密最大的不同在於，對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公布在網路上，這時希望聯繫Alice的Bob在網路上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，既使網路存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易之數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花费的输出（Unspent Transaction Output，UTXO）進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網路的交易緩池持當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收入到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工將該筆交易收入至比特幣區塊鏈當中。
+			比特幣採用的secp256k1是屬於椭圆曲线密码学中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線方程$$y^2=x^3+ax+b$$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F為巨大的質數、G點被称为⽣成点的常数点亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}顯示，當ECC產生571 bits的密鑰長度，RSA要達到相同的安全性需要生成15360 bits，這也導致生成時間產生高達471倍之差距。
 			
 			\begin{figure}[h]
 				\centering
@@ -36,7 +36,7 @@
 				\caption{ECC與RSA的密鑰對生成時間\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}\label{ECCtime}
 			\end{figure}
 
-			除了在密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS做出了深度的安全性探討\supercite{LatticesignaturesandbimodalGaussians}，圖\ref{LatticesignaturesandbimodalGaussians}同樣達到80 bits的安全性級數，RSA 1024需要1024bits，ECDSA 160僅需要160bits，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來量子計算機的蓬勃發展擁有2000qbit運算能力的量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽名算法。
+			除了在密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS做出了深度的安全性探討\supercite{LatticesignaturesandbimodalGaussians}，圖\ref{LatticesignaturesandbimodalGaussians}同樣達到80 bits的安全性級數，RSA 1024需要1024 bits，ECDSA 160僅需要160 bits，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來量子計算機的蓬勃發展擁有2000 qbits運算能力，量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽名算法。
 
 			\begin{figure}[h]
 				\centering
@@ -45,7 +45,7 @@
 			\end{figure}
 
 			\subsubsection{SHA-256}
-			哈希下數在比特幣系統中，扮演著相當多的角色，包括彼特幣地址生成、比特幣交易哈希指針、比特幣區塊哈希指針、比特幣挖礦算法工作量證明。哈希算有幾大特色，分別為
+			哈希下數在比特幣系統中扮演著相當多的角色，包括比特幣地址生成、比特幣交易哈希指針、比特幣區塊哈希指針、比特幣挖礦算法工作量證明。哈希算法有幾大特色，分別為
 			\subsubsection{RIPEMD-160}
 			\subsubsection{Base58}
 
@@ -59,9 +59,9 @@
 
 		\begin{enumerate}
 			\item 生成私鑰：使用亂數產生器產生一個長度在256 bits以內的隨機數，而此隨機數即成為該地址的私鑰，在比特幣系統中，可以利用私鑰(Private Key)簽署花費該地址當中的比特幣。
-			\item 生成公鑰：該演算法為一個以橢圓曲線演算法為基礎的一個標準，而在不同標準的差異在於初始化的參數，這些參數的訂定皆經過嚴謹的考核及實驗測試。在比特幣系統中該算法扮演著私鑰轉換為公鑰的角色。使得比特幣交易使用私鑰進行簽署之後，還可以使用公鑰校驗該比特幣交易的正確性。
+			\item 生成公鑰：該演算法為一個以橢圓曲線演算法為基礎的一個標準，而不同標準的差異在於初始化的參數，這些參數的訂定皆經過嚴謹的考核及實驗測試。在比特幣系統中該算法扮演著私鑰轉換為公鑰的角色。這使得比特幣交易使用私鑰進行簽署之後，還可以使用公鑰校驗該筆交易的正確性。
 			\item 生成公鑰SHA-256：一種哈希函數，哈希函數的特性有許多，包括雪崩效應、不可預測、不可逆、校驗檔案是否完整。在此步驟中是將公鑰帶入SHA-256 函數中，產出長度為256 bits的哈希值。
-			\item 生成公鑰SHA-256的RIPEMD-160：亦為哈希函數的一種，特色符合哈希函數的特性，與SHA-256不同的是RIPEMD-160產出的長度為160bits。
+			\item 生成公鑰SHA-256的RIPEMD-160：亦為哈希函數的一種，特色符合哈希函數的特性，與SHA-256不同的是RIPEMD-160產出的長度為160 bits。
 			\item 取得版本號：比特幣在一開始設計的過程中，便定義了不同的地址樣式及功能，在第五個步驟中會加入版本號加以區分不同的地址。
 			\item 校驗碼生成：校驗碼為比特幣地址生成過程中重要的一環，可在支付比特幣的過程中解決因為手誤而將比特幣轉入到不存在(不符合比特幣地址生成規則)地址的可能性。對公鑰SHA-256的RIPEMD-160再做兩次SHA-256，取該哈希值得前32 bits的值作為校驗碼。
 			\item 版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併：版本號、第四個步驟的產物公鑰RIPEMD-160及第五個步驟的校驗碼合併。
