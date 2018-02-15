@@ -82,6 +82,12 @@
 	% 自动生成目录。
 	\tableofcontents
 
+	\renewcommand\listfigurename{图目录}
+	\newcommand{\loflabel}{图}
+	\renewcommand{\numberline}[1]{\loflabel~#1\hspace*{1em}}
+	\listoffigures
+
+
 	% 以下为正文部分，默认要进行章节编号。
 	\mainmatter
 	% 序言。
@@ -94,6 +100,7 @@
 	\include{chap/chap5}
 	\include{chap/chap6}
 	\include{chap/chap7}
+	\include{chap/chap8}
 	% 结论。
 	%\include{chap/conclusion}
 	% 正文中的附录部分。
