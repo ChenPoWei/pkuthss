@@ -287,8 +287,8 @@
       \strng{fullhash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authornamehash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authorfullhash}{ae67a5006df80a65b1c2d809e8c9409f}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Telecommunication Networks and Applications Conference (ITNAC), 2017 27th International}
@@ -576,8 +576,8 @@
       \strng{fullhash}{97cd8079f06e3e25bf8f371797d946dd}
       \strng{authornamehash}{97cd8079f06e3e25bf8f371797d946dd}
       \strng{authorfullhash}{97cd8079f06e3e25bf8f371797d946dd}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Base58}
@@ -780,8 +780,8 @@
       \strng{fullhash}{fca5aff9505fcaf7cad626f4de8ded21}
       \strng{authornamehash}{01dd7a90d471679ec54f1ba24b442deb}
       \strng{authorfullhash}{fca5aff9505fcaf7cad626f4de8ded21}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The RC6 block cipher. v1. 1, August 20, 1998}
@@ -1011,6 +1011,7 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{Theuseofbentsequencestoachievehigher-orderstrictavalanchecriterioninS-boxdesign}
   \missing{TPS}
 \endrefsection
 \endinput

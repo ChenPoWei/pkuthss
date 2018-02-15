@@ -4,44 +4,44 @@
 \chapter{文獻探討}
 %\pkuthssffaq % 中文测试文字。
 	\section{比特幣（Bitcoin）}
-	比特幣（Bitcoin，BTC）是一個點對點式的點子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\parencite{AsymmetricKeyCryptography}、簽章密碼學（Signature cryptography）、零知識證明密碼學（Zero Knowledge Proof Cryptography）\parencite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash function cryptography）、共式算法（Consensus）諸多技術建構了一個分散式的不需要靠中心化機構加以維護的交易帳本（區塊鏈）。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
+	比特幣（Bitcoin，BTC）是一個點對點式的點子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature cryptography）、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash function cryptography）、共式算法（Consensus）諸多技術建構了一個分散式的不需要靠中心化機構加以維護的交易帳本（區塊鏈）。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
 
 	\section{比特幣地址（Bitcoin Address）}
 	比特幣地址為比特幣的載體，深入了解比特幣地址生成相關算法的、比特幣地址生成過程、多重簽名。可以應用在区块链的实名交易监督系统。
 
 		\subsection{比特幣地址生成相關算法}
-		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\parencite{johnson2001elliptic}、SHA-256（哈希函數）\parencite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\parencite{DBLP:conf/isw/MendelPRR06}、Base58\parencite{Base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
+		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來回詳細說明每一個函數的運做過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
 		
 			\subsubsection{亂數產生器（Random number generator）}
-			亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\parencite{TheLargeBitcoinCollider}也有團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如下圖\ref{LBC}所示，根據LBC公布的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索空間中擊中了15個比特幣地址，團隊也將這15個地址的1.180899個比特幣轉走。
+			亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}也有團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公布的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索空間中擊中了15個比特幣地址，團隊也將這15個地址的1.180899個比特幣轉走。
 
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width = .9\textwidth]{LBC.png}
-				\caption{Bitcoin Full Node\parencite{TheLargeBitcoinCollider}}\label{LBC}
+				\caption{Bitcoin Full Node\supercite{TheLargeBitcoinCollider}}\label{LBC}
 			\end{figure}
 
 			如何建構一個亂數，在過往的亂數產生器往往會加入時間作為參數，但對於一個攻擊者而言，只需要去猜測在這段時間內所有的可能性即可猜出亂數。而亂數在密碼學中通常會是一個把私鑰的構建，在https協議中，服務器端與客戶端，建立一個加密連線的過程中也需要一個亂數去建立一個高安全性的加密通道，在SSH協議中也採用了亂數。
 	
-			在過去的歷史事件中，發現Android手機版以及平板版的亂數產生器的存在著不隨機，於2013年8月比特幣開發者Mike Hearn提及“All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values” \parencite{SomeSecureRandomThoughts}，Bitcoin.org也發布了警告\parencite{AndroidSecurityVulnerability}簡要說明該事件的原因，以及表明影響到的Bitcoin Wallet 客戶端有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。這樣的錯誤源於Android本身支持的亂數產生器並不隨機，隨後Android解釋了亂數的問題並加以修正。在這Android手機亂數不夠亂的事件中，有自願者自發性地公佈自己的損失狀態，總金額為55.82152538個比特幣\parencite{Badsignaturesleading}，但因為比特幣屬於被動的性質，無人主動回報既不會加入統計中，所以總損失應該會超過55.82152538個比特幣。
+			在過去的歷史事件中，發現Android手機版以及平板版的亂數產生器的存在著不隨機，於2013年8月比特幣開發者Mike Hearn提及“All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values” \supercite{SomeSecureRandomThoughts}，Bitcoin.org也發布了警告\supercite{AndroidSecurityVulnerability}簡要說明該事件的原因，以及表明影響到的Bitcoin Wallet 客戶端有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。這樣的錯誤源於Android本身支持的亂數產生器並不隨機，隨後Android解釋了亂數的問題並加以修正。在這Android手機亂數不夠亂的事件中，有自願者自發性地公佈自己的損失狀態，總金額為55.82152538個比特幣\supercite{Badsignaturesleading}，但因為比特幣屬於被動的性質，無人主動回報既不會加入統計中，所以總損失應該會超過55.82152538個比特幣。
 
 			\subsubsection{secp256k1}
-			在密碼學中有分對稱式加密與非對稱式加密，對稱式加密又分為信息流加密與信息塊加密，信息流加密著名的是由美國密碼學家Ron Rivest教授設計，包括RC2(1987年)\parencite{OnthedesignandsecurityofRC2}、RC4(1987年)\parencite{Rc4}、RC5(1994年)\parencite{TheRC5encryptionalgorithm}、RC6(1998年)\parencite{TheRC6blockcipher.v1.1August201998}；信息塊加密著名的有数据加密标准(Data Encryption Standard，DES，1975年)\parencite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\parencite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\parencite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非對稱是加密最為著名的有RSA（Rivest–Shamir–Adleman，1977年）\parencite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic curve cryptography，ECC，1985年）\parencite{Ellipticcurvecryptosystems}。
+			在密碼學中有分對稱式加密與非對稱式加密，對稱式加密又分為信息流加密與信息塊加密，信息流加密著名的是由美國密碼學家Ron Rivest教授設計，包括RC2(1987年)\supercite{OnthedesignandsecurityofRC2}、RC4(1987年)\supercite{Rc4}、RC5(1994年)\supercite{TheRC5encryptionalgorithm}、RC6(1998年)\supercite{TheRC6blockcipher.v1.1August201998}；信息塊加密著名的有数据加密标准(Data Encryption Standard，DES，1975年)\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非對稱是加密最為著名的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic curve cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
 			非對稱式加密與對稱式加密最大的不同在於，對稱是加密在加密解密的過程中只需要一把鑰匙，而非對稱是加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上在一開始會以亂數產生一把私鑰，再經由非對稱是加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中是相當難以到推回去私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公布在網路上，這時希望聯繫Alice的Bob在網路上取得公鑰後，會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，既使網路存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易的數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花费的输出（Unspent Transaction Output，UTXO）進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播治比特幣網路的交易緩存持當中，等待礦工的將該筆交易收入至比特幣區塊鏈當中。
-			比特幣採用的secp256k1是屬於椭圆曲线密码学中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線函數、p值巨大的質數、G點被称为⽣成点的常数点亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，下圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\parencite{Performancecomparisonofellipticcurveandrsadigitalsignatures}指出，當ECC產生571bit的密鑰長度，RSA要達到相同的安全性需要生成15360bit，至於生成的時間差距高達471倍。
+			比特幣採用的secp256k1是屬於椭圆曲线密码学中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線函數、p值巨大的質數、G點被称为⽣成点的常数点亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}指出，當ECC產生571bit的密鑰長度，RSA要達到相同的安全性需要生成15360bit，至於生成的時間差距高達471倍。
 			
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width = .5\textwidth]{ECCtime.png}
-				\caption{ECC與RSA的密鑰對生成時間\parencite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}\label{ECCtime}
+				\caption{ECC與RSA的密鑰對生成時間\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}\label{ECCtime}
 			\end{figure}
 
-			除了在於密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS做出了深度的安全性探討\parencite{LatticesignaturesandbimodalGaussians}，\ref{LatticesignaturesandbimodalGaussians}研究指出，同樣達到80bit的安全性級數，RSA 1024需要1024bit，ECDSA 160僅需要160bit，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來涼己計算機的蓬勃發展擁有2000qbit運算能力的量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽名算法。
+			除了在於密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS做出了深度的安全性探討\supercite{LatticesignaturesandbimodalGaussians}，\ref{LatticesignaturesandbimodalGaussians}研究指出，同樣達到80bit的安全性級數，RSA 1024需要1024bit，ECDSA 160僅需要160bit，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來涼己計算機的蓬勃發展擁有2000qbit運算能力的量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽名算法。
 
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width = 1\textwidth]{LatticesignaturesandbimodalGaussians.png}
-				\caption{ＸＸＸ\parencite{LatticesignaturesandbimodalGaussians}}\label{LatticesignaturesandbimodalGaussians}
+				\caption{ＸＸＸ\supercite{LatticesignaturesandbimodalGaussians}}\label{LatticesignaturesandbimodalGaussians}
 			\end{figure}
 
 			\subsubsection{SHA-256}
@@ -96,7 +96,7 @@
 
 			\paragraph{區塊版本（32 bits）}該欄位存儲比特幣區塊鏈中的區塊版本。
 			\paragraph{前區塊的哈希值（256 bits）}記錄前一個塊的哈希值。 根據當前區塊的前一個區塊哈希值進而形成哈希指針，所有塊可以因為哈希指針連接在一起形成比特幣區塊鏈，不僅可以在區塊與區塊間建立虛擬鏈接，還可以使得區塊更難以被篡改。為新區塊不斷疊加在舊的區塊上，舊區塊的哈希值將繼續傳遞到最新的區塊。若區塊上面堆疊更多的區塊，促使的哈希職間接引用越多次，因此較早創建的區塊更難以修改。
-			\paragraph{Merkle Root（256 bits）}Merkle Root的生成方法是將當前區塊的所有交易為n個進行排序後，屆時的交易為n個樹葉，將每個樹葉進行一次sha-256取得哈希值得到n個哈希值，再兩兩配對合併進行哈希，得到$2^{-1}$個哈希值後，直到合併到只剩下一個哈希值，最後一個哈希值則為Merkle Root，如下圖所示\ref{MerkleRoot}，在區塊鏈中的Merkle Root可用於快速檢查當前區塊中所有存儲事務的正確性。
+			\paragraph{Merkle Root（256 bits）}Merkle Root的生成方法是將當前區塊的所有交易為n個進行排序後，屆時的交易為n個樹葉，將每個樹葉進行一次sha-256取得哈希值得到n個哈希值，再兩兩配對合併進行哈希，得到$2^{-1}$個哈希值後，直到合併到只剩下一個哈希值，最後一個哈希值則為Merkle Root，如圖所示\ref{MerkleRoot}，在區塊鏈中的Merkle Root可用於快速檢查當前區塊中所有存儲事務的正確性。
 
 			\begin{figure}[h]
 				\centering
@@ -118,12 +118,12 @@
 	\section{工作量證明（Proof of Work）}
 	\section{點對點網路（Peer to peer network）}
 
-	去中心化的密碼貨幣系統帶給社會帶給傳統的中心化的金融體系以及政府帶來了很重大的衝擊，中本聰建構了一個不需要中央銀行發行貨幣的貨幣系統，在比特幣的貨幣發行上全靠區塊鏈既定的算法。除了貨幣發行，也將交易紀錄的帳本已明文的方式儲存在去中心化的區塊鏈中，以比特幣為例，現今的完整的比特幣區塊鏈帳本已經高達180GB，這樣保存完整交易資料的計算機稱之為全節點，在比特幣去中心化的網路中，如圖\ref{bitcoinfullnode}所示，截至2018年1月25比特幣網路中全節點數量為10552個\parencite{bitcoinfullnode}，全節點的數量決定了比特幣帳本的可靠度，倘若有著更多的全結點，會使得比特幣網路堅不可摧，更難去修改歷史發生過的交易數據。
+	去中心化的密碼貨幣系統帶給社會帶給傳統的中心化的金融體系以及政府帶來了很重大的衝擊，中本聰建構了一個不需要中央銀行發行貨幣的貨幣系統，在比特幣的貨幣發行上全靠區塊鏈既定的算法。除了貨幣發行，也將交易紀錄的帳本已明文的方式儲存在去中心化的區塊鏈中，以比特幣為例，現今的完整的比特幣區塊鏈帳本已經高達180GB，這樣保存完整交易資料的計算機稱之為全節點，在比特幣去中心化的網路中，如圖\ref{bitcoinfullnode}所示，截至2018年1月25比特幣網路中全節點數量為10552個\supercite{bitcoinfullnode}，全節點的數量決定了比特幣帳本的可靠度，倘若有著更多的全結點，會使得比特幣網路堅不可摧，更難去修改歷史發生過的交易數據。
 
 	\begin{figure}
 		\centering
 		\includegraphics[width = .9\textwidth]{bitcoinfullnode.png}
-		\caption{Bitcoin Full Node\parencite{bitcoinfullnode}}\label{bitcoinfullnode}
+		\caption{Bitcoin Full Node\supercite{bitcoinfullnode}}\label{bitcoinfullnode}
 	\end{figure}
 
 	% \section{山寨幣（Altcoin）簡介}

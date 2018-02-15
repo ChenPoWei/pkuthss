@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{可信任}{6}{paragraph*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{元數據}{6}{paragraph*.10}
+\contentsline {paragraph}{元数据}{6}{paragraph*.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.5}區塊鏈交易數據無法修改和刪除}{6}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
