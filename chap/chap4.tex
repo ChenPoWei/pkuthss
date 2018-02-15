@@ -6,8 +6,10 @@
 本論文提出区块链的实名交易监督系统（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以密碼貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
 
 	\section{BRTMS數據庫設計}
-		\section{原數據庫}
+
+		\subsection{原數據庫}
 		区块链的实名交易监督系统應用了四個原數據庫，分別為使用者數據庫、產品數據庫、商家數據庫、交易數據庫：
+
 		\begin{figure}[h]
 			\centering
 			\includegraphics[width = 0.8\textwidth]{db.png}
@@ -19,10 +21,11 @@
 			\paragraph{交易數據庫}記錄包括交易序列號，產品識別號碼，產品交易金額，商戶密碼貨幣收款人地址，消費者密碼貨幣支付地址，商戶ID和最後確認字段的值。
 			\paragraph{使用者數據庫}儲存所有使用者資訊，包括政府、商家及顧客之個人帳戶資訊的數據庫，而使用者密碼則以哈希的方式保存，以增加用戶安全性。
 
-		\section{關聯數據庫}
-		\paragraph{商家-用戶數據庫}本數據庫儲存各個商家擁有的職員資訊，包括各店家的商店編號、使用者編號及身分編碼。
-		\paragraph{商家-產品數據庫}此數據庫儲存各家公司當前商品存貨資訊，由商店編號、產品編號及產品庫存所組成。
-		\paragraph{商家-交易數據庫}本數據庫記錄著每一筆交易的經手人是誰，並由交易編號、店家序號，及使用者序號組成。
+		\subsection{關聯數據庫}
+
+			\paragraph{商家-用戶數據庫}本數據庫儲存各個商家擁有的職員資訊，包括各店家的商店編號、使用者編號及身分編碼。
+			\paragraph{商家-產品數據庫}此數據庫儲存各家公司當前商品存貨資訊，由商店編號、產品編號及產品庫存所組成。
+			\paragraph{商家-交易數據庫}本數據庫記錄著每一筆交易的經手人是誰，並由交易編號、店家序號，及使用者序號組成。
 
 	\section{商店和商品信息管理子系統（SMIMSS）}
 	在提出的区块链的实名交易监督系统架構中，商家需要在以下4個步驟中對商店和商品信息管理子系統（SMIMSS）進行註冊:
