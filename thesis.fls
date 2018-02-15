@@ -507,6 +507,7 @@ INPUT LBC.png
 INPUT ECCtime.png
 INPUT LatticesignaturesandbimodalGaussians.png
 INPUT address.png
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT blockchain.png
 INPUT MerkleRoot.png
 INPUT bitcoinfullnode.png
