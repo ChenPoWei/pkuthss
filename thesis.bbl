@@ -182,6 +182,16 @@
       \verb https://ethereum.org
       \endverb
     \endentry
+    \entry{solidity}{webpage}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{solidity}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://solidity.readthedocs.io/en/develop/
+      \endverb
+    \endentry
     \entry{CryptocurrencyMarketCapitalizations}{webpage}{}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
@@ -316,8 +326,8 @@
       \strng{fullhash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authornamehash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authorfullhash}{ae67a5006df80a65b1c2d809e8c9409f}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Telecommunication Networks and Applications Conference (ITNAC), 2017 27th International}
@@ -537,8 +547,8 @@
       \strng{fullhash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authornamehash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authorfullhash}{9bd74071f90413e7db3f9dd45073fbef}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Information Security}
@@ -792,8 +802,8 @@
       \strng{fullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authornamehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authorfullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -1077,8 +1087,8 @@
       \strng{fullhash}{00e4ed12cea7f1b8b4dfd5800a16657b}
       \strng{authornamehash}{00e4ed12cea7f1b8b4dfd5800a16657b}
       \strng{authorfullhash}{00e4ed12cea7f1b8b4dfd5800a16657b}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{nicj. net/files}
@@ -1181,8 +1191,8 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{2017加密貨幣總市值走勢圖}
   \missing{TPS}
+  \missing{2017加密貨幣總市值走勢圖}
 \endrefsection
 \endinput
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 02:46
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2430,14 +2430,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                2017加密貨幣總市值走勢圖
+(biblatex)                TPS
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                TPS
+(biblatex)                2017加密貨幣總市值走勢圖
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2914,6 +2914,10 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 109.
 
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 109.
+
 [41
 
 
@@ -2949,10 +2953,14 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 109.
 
-[42]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [43
+
+(./chap/acknowledge.tex) [43
 
 
 
@@ -2988,12 +2996,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48335 strings out of 493005
- 947185 string characters out of 6134596
- 1359048 words of memory out of 5000000
- 51555 multiletter control sequences out of 15000+600000
+ 48338 strings out of 493005
+ 947286 string characters out of 6134596
+ 1359094 words of memory out of 5000000
+ 51558 multiletter control sequences out of 15000+600000
  107345 words of font info for 133 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,102p,10457b,4684s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,102p,10457b,4699s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (57 pages, 480440 bytes).
+Output written on thesis.xdv (57 pages, 480896 bytes).
