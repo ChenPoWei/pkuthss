@@ -164,6 +164,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{参考文献}{41}{appendix*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{43}{appendix*.71}
+\contentsline {chapter}{致谢}{45}{appendix*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{45}{appendix*.72}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{47}{appendix*.72}

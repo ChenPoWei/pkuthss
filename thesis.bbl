@@ -285,6 +285,16 @@
       \field{userf}{en}
       \field{year}{1990}
     \endentry
+    \entry{BitcoinImprovementProposals}{webpage}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{title}{Bitcoin Improvement Proposals}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://github.com/bitcoin/bips/blob/master/README.mediawiki
+      \endverb
+    \endentry
     \entry{blockchainsize}{misc}{}
       \name{author}{1}{}{%
         {{hash=f9dccd7f458278cdeadd90afe736b4fa}{%
@@ -780,8 +790,8 @@
       \strng{fullhash}{42b3c8582b1ae93de201973499f05c72}
       \strng{authornamehash}{42b3c8582b1ae93de201973499f05c72}
       \strng{authorfullhash}{42b3c8582b1ae93de201973499f05c72}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -1057,8 +1067,8 @@
       \strng{fullhash}{57af579700a7f1b95505caa26ac99651}
       \strng{authornamehash}{57af579700a7f1b95505caa26ac99651}
       \strng{authorfullhash}{57af579700a7f1b95505caa26ac99651}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mathematics of computation}
