@@ -132,7 +132,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}BRTMS架構與運作流程}{27}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化区块链的实名交易监督系统}{31}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化區塊鏈的實名交易監督系統}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}區塊鏈的實名交易監督系統實作}{33}{chapter.6}
 \defcounter {refsection}{0}\relax 
