@@ -1,14 +1,14 @@
 % Copyright （c） 2014,2016 Casper Ti. Vector
 % Public domain.
 
-\chapter{区块链的实名交易监督系统設計}
-%\pkuthssffaq % 中文测试文字。
-本論文提出区块链的实名交易监督系统（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以加密貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
+\chapter{區塊鏈的實名交易監督系統設計}
+%\pkuthssffaq % 中文測試文字。
+本論文提出區塊鏈的實名交易監督系統（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以加密貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
 
 	\section{BRTMS數據庫設計}
 
 		\subsection{原數據庫}
-		区块链的实名交易监督系统應用了四個原數據庫，分別為使用者數據庫、產品數據庫、商家數據庫、交易數據庫：
+		區塊鏈的實名交易監督系統應用了四個原數據庫，分別為使用者數據庫、產品數據庫、商家數據庫、交易數據庫：
 
 		\begin{figure}[h]
 			\centering
@@ -28,7 +28,7 @@
 			\paragraph{商家-交易數據庫}本數據庫記錄著每一筆交易的經手人是誰，並由交易編號、店家序號，及使用者序號組成。
 
 	\section{商店和商品信息管理子系統（SMIMSS）}
-	在提出的区块链的实名交易监督系统架構中，商家需要在以下4個步驟中對商店和商品信息管理子系統（SMIMSS）進行註冊:
+	在提出的區塊鏈的實名交易監督系統架構中，商家需要在以下4個步驟中對商店和商品信息管理子系統（SMIMSS）進行註冊:
 
 	\begin{figure}[h]
 		\centering
@@ -38,7 +38,7 @@
 
 	\begin{enumerate}
 		\item 商戶必須在BRTMS註冊一個帳戶，並附有政府法規的商業證明。
-		\item 区块链的实名交易监督系统將自動向相應的政府金融監管機構提交商業申請，以審查該商店的加密貨幣交易業務。
+		\item 區塊鏈的實名交易監督系統將自動向相應的政府金融監管機構提交商業申請，以審查該商店的加密貨幣交易業務。
 		\item 如果政府批准商店的加密貨幣業務申請，服務器將激活商家在該收集監控系統中創建商店帳戶。
 		\item 商家可以自由地登錄賬戶並添加商家想要出售的產品，並檢查他們的加密貨幣交易數據，例如產品庫存和產品交易記錄。
 	\end{enumerate}
@@ -52,7 +52,7 @@
 		\caption{BRTMS的整體示意圖}\label{fig4}
 	\end{figure}
 
-	区块链的实名交易监督系统中創建步驟描述如下：
+	區塊鏈的實名交易監督系統中創建步驟描述如下：
 
 		\begin{enumerate}
 			\item 商家的店員將登錄到如圖\ref{fig3}所示的先前步驟創建的帳戶，以使用手持式平板電腦或智能手機訪問SMCTSS中的服務。如前所述，在能夠登錄到系統之前，商家帳戶必須由政府機構審計。

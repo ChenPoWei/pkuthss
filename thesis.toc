@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{可信任}{6}{paragraph*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{元数据}{6}{paragraph*.11}
+\contentsline {paragraph}{元數據}{6}{paragraph*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.5}區塊鏈交易數據無法修改和刪除}{6}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
@@ -88,7 +88,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Nonce（32 bits）}{19}{paragraph*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}點對點网络（Peer to peer network）}{19}{section.2.4}
+\contentsline {section}{\numberline {2.4}點對點網絡（Peer to peer network）}{19}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}交易模型分析}{21}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -106,7 +106,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}實名客戶透過匿名第三方再實名商家}{23}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}区块链的实名交易监督系统設計}{25}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}區塊鏈的實名交易監督系統設計}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}BRTMS數據庫設計}{25}{section.4.1}
 \defcounter {refsection}{0}\relax 
@@ -134,13 +134,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化区块链的实名交易监督系统}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}区块链的实名交易监督系统實作}{33}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}區塊鏈的實名交易監督系統實作}{33}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}区块链的实名交易监督系统與優化後系統實驗}{37}{chapter.7}
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}區塊鏈的實名交易監督系統與優化後系統實驗}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}区块链的实名交易监督系统實驗}{37}{section.7.1}
+\contentsline {section}{\numberline {7.1}區塊鏈的實名交易監督系統實驗}{37}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}多重簽章優化区块链的实名交易监督系统實驗}{37}{section.7.2}
+\contentsline {section}{\numberline {7.2}多重簽章優化區塊鏈的實名交易監督系統實驗}{37}{section.7.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.1}交易效能實驗}{37}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
