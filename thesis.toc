@@ -4,11 +4,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}研究動機}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}密碼貨幣的發展}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}加密貨幣的發展}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}密碼貨幣市場（Cryptocurrency Market）}{3}{section.1.2}
+\contentsline {section}{\numberline {1.2}加密貨幣市場（Cryptocurrency Market）}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}密碼貨幣的優勢}{5}{section.1.3}
+\contentsline {section}{\numberline {1.3}加密貨幣的優勢}{5}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}24小時不間斷運作}{5}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
@@ -28,7 +28,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.7}自治系統}{6}{subsection.1.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}密碼貨幣的劣勢}{7}{section.1.4}
+\contentsline {section}{\numberline {1.4}加密貨幣的劣勢}{7}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.1}每秒處理的交易量（Transactions Per Second，TPS）上限}{7}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
