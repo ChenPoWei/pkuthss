@@ -501,11 +501,11 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT Thetotalmarketcapitalization.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT TPS.png
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT blockchainsize.png
 INPUT Darklaunderworkflow.png
 OUTPUT chap/chap2.aux
@@ -550,7 +550,6 @@ OUTPUT chap/chap7.aux
 INPUT chap/chap7.tex
 INPUT chap/chap7.tex
 INPUT fig9.png
-INPUT fig12.png
 OUTPUT chap/chap8.aux
 INPUT chap/chap8.tex
 INPUT chap/chap8.tex
