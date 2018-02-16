@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 04:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 04:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2710,11 +2710,12 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 7.0pt on input line 62.
+ [7]
 File: blockchainsize.png Graphic file (type QTm)
- <use  "blockchainsize.png" > [7] [8]
+ <use  "blockchainsize.png" > [8]
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" >) [9] [10]
+<use  "Darklaunderworkflow.png" > [9]) [10]
 \openout2 = `chap/chap2.aux'.
 
  (./chap/chap2.tex
@@ -2997,4 +2998,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4699s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (57 pages, 481208 bytes).
+Output written on thesis.xdv (57 pages, 483404 bytes).
