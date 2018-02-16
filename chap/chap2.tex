@@ -4,10 +4,10 @@
 \chapter{文獻探討}
 
 	\section{比特幣（Bitcoin）}
-	比特幣（Bitcoin，BTC）是一個點對點）式的電子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature cryptography）、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash function cryptography）、共式算法（Consensus）諸多技術建構了一個分散式、不需要仰賴中心化機構加以維護的交易帳本（區塊鏈）。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
+	比特幣（Bitcoin，BTC）是一個點對點式的電子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature cryptography）、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash function cryptography）、共識算法（Consensus）諸多技術建構了一個分散式、不需要仰賴中心化機構加以維護的交易帳本（區塊鏈）。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
 
 	\section{比特幣地址（Bitcoin Address）}
-	⽐特幣地址為⽐特幣的載體，深⼊瞭解⽐特幣的地址⽣成相關算法、⽐特幣地址⽣成過程、多重簽名，可以近⼀步應⽤在區塊鏈的實名交易監督系統。
+	⽐特幣地址為⽐特幣的載體，深⼊瞭解⽐特幣的地址⽣成相關算法、⽐特幣地址⽣成過程、多重簽章，可以近⼀步應⽤在區塊鏈的實名交易監督系統。
 
 		\subsection{比特幣地址生成相關算法}
 		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來將詳述每一個函數的運作過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
