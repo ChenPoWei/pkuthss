@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 17:04
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2558,6 +2558,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \openout2 = `chap/abstract.aux'.
 
  (./chap/abstract.tex
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 6.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 6.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 6.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -2617,14 +2625,7 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
  [3
 
 ]) [4]
-(./thesis.toc
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
- [5
+(./thesis.toc [5
 
 
 
@@ -2632,10 +2633,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
- [6] (./thesis.lof
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
- [7
+ [6] (./thesis.lof [7
 
 ])
 \tf@lof=\write8
@@ -2737,7 +2735,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16]
 File: blockchain.png Graphic file (type QTm)
- <use  "blockchain.png" > [17]
+ <use  "blockchain.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
 File: MerkleRoot.png Graphic file (type QTm)
  <use  "MerkleRoot.png" >
 
@@ -2745,7 +2747,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18]
 File: bitcoinfullnode.png Graphic file (type QTm)
- <use  "bitcoinfullnode.png" >) [19] [20]
+ <use  "bitcoinfullnode.png" > [19]) [20]
 \openout2 = `chap/chap3.aux'.
 
  (./chap/chap3.tex
@@ -3013,4 +3015,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (59 pages, 491136 bytes).
+Output written on thesis.xdv (59 pages, 491176 bytes).
