@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 07:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 08:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2736,22 +2736,32 @@ File: LatticesignaturesandbimodalGaussians.png Graphic file (type QTm)
 <use  "LatticesignaturesandbimodalGaussians.png" >
 File: address.png Graphic file (type QTm)
  <use  "address.png" >
+[14] [15]
+File: gabuild.png Graphic file (type QTm)
+ <use  "gabuild.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15]
-File: gabuild.png Graphic file (type QTm)
- <use  "gabuild.png" > [16]
 File: gatx.png Graphic file (type QTm)
- <use  "gatx.png" > [17]
-File: blockchain.png Graphic file (type QTm)
+<use  "gatx.png" >
 
-<use  "blockchain.png" > [18]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16]
+File: blockchain.png Graphic file (type QTm)
+ <use  "blockchain.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
 File: MerkleRoot.png Graphic file (type QTm)
  <use  "MerkleRoot.png" >
-File: bitcoinfullnode.png Graphic file (type QTm)
 
-<use  "bitcoinfullnode.png" >) [19] [20]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18]
+File: bitcoinfullnode.png Graphic file (type QTm)
+ <use  "bitcoinfullnode.png" > [19]) [20]
 \openout2 = `chap/chap3.aux'.
 
  (./chap/chap3.tex
@@ -2759,11 +2769,7 @@ File: bitcoinfullnode.png Graphic file (type QTm)
 File: modeall.png Graphic file (type QTm)
 <use  "modeall.png" >
 File: modeaa.png Graphic file (type QTm)
- <use  "modeaa.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21
+ <use  "modeaa.png" > [21
 
 
 
@@ -2771,22 +2777,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: modean.png Graphic file (type QTm)
  <use  "modean.png" >
 File: modenn.png Graphic file (type QTm)
- <use  "modenn.png" > [22]
+
+<use  "modenn.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
 File: modennn.png Graphic file (type QTm)
  <use  "modennn.png" >
 File: modenan.png Graphic file (type QTm)
+ <use  "modenan.png" >
 
-<use  "modenan.png" >) [23]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [23] [24]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [24
+ (./chap/chap4.tex
+第四章
+File: db.png Graphic file (type QTm)
+<use  "db.png" > [25
 
 
 
 ]
-第四章
-File: db.png Graphic file (type QTm)
-<use  "db.png" > [25]
 File: fig3.png Graphic file (type QTm)
  <use  "fig3.png" >
 
@@ -2812,11 +2826,7 @@ Underfull \vbox (badness 1337) has occurred while \output is active []
 ]
 第五章
 File: gabpcss.png Graphic file (type QTm)
-<use  "gabpcss.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[31]) [32]
+<use  "gabpcss.png" > [31]) [32]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2993,10 +3003,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48335 strings out of 493005
  947342 string characters out of 6134596
- 1360213 words of memory out of 5000000
+ 1362206 words of memory out of 5000000
  51557 multiletter control sequences out of 15000+600000
  107329 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4701s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (59 pages, 489540 bytes).
+Output written on thesis.xdv (59 pages, 483348 bytes).
