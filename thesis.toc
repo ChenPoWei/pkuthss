@@ -42,7 +42,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{修改比特幣協議製作添加外部信息的區塊鏈}{9}{paragraph*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{於區塊頭或交易信息添加外部信息}{9}{paragraph*.18}
+\contentsline {paragraph}{於區塊頭或交易信息添加外部信息}{10}{paragraph*.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}文獻探討}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 

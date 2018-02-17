@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 08:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2426,14 +2426,6 @@ Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 41.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                TPS
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 )
 Package biblatex Info: Reference section=0 on input line 63.
 Package biblatex Info: Reference segment=0 on input line 63.
@@ -2442,7 +2434,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 File: pkulogo.pdf Graphic file (type QTm)
  <use  "pkulogo.pdf" >
 File: pkuword.pdf Graphic file (type QTm)
- <use  "pkuword.pdf" >
+
+<use  "pkuword.pdf" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <26.09749> not availabl
 e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 71.
@@ -2642,10 +2635,6 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
  [6] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 9.
  [7
 
 ])
@@ -2704,17 +2693,16 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 [5] [6]
 File: TPS.png Graphic file (type QTm)
- <use  "TPS.png" >
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <7> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 62.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.0pt on input line 62.
- [7]
+ <use  "TPS.png" > [7]
 File: blockchainsize.png Graphic file (type QTm)
  <use  "blockchainsize.png" > [8]
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" > [9]) [10]
+<use  "Darklaunderworkflow.png" >
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [9])
+[10]
 \openout2 = `chap/chap2.aux'.
 
  (./chap/chap2.tex
@@ -2925,6 +2913,18 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 109.
 
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 109.
+
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 109.
+
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 109.
+
 [41
 
 
@@ -3001,12 +3001,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48335 strings out of 493005
- 947342 string characters out of 6134596
- 1362206 words of memory out of 5000000
- 51557 multiletter control sequences out of 15000+600000
- 107329 words of font info for 131 fonts, out of 8000000 for 9000
+ 48351 strings out of 493005
+ 948538 string characters out of 6134596
+ 1362986 words of memory out of 5000000
+ 51573 multiletter control sequences out of 15000+600000
+ 101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,102p,10457b,4701s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (59 pages, 483348 bytes).
+Output written on thesis.xdv (59 pages, 487292 bytes).

@@ -193,8 +193,8 @@
       \endverb
     \endentry
     \entry{CryptocurrencyMarketCapitalizations}{webpage}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{title}{Cryptocurrency Market Capitalizations}
       \field{userf}{en}
@@ -232,6 +232,27 @@
       \field{year}{2017}
       \field{pages}{50\bibrangedash 55}
       \range{pages}{6}
+    \endentry
+    \entry{YouReallyShouldRunaBitcoinFullNode:HeresWhy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a25b8b02eb5306c57a356bb8e4374225}{%
+           family={Torpey},
+           familyi={T\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a25b8b02eb5306c57a356bb8e4374225}
+      \strng{fullhash}{a25b8b02eb5306c57a356bb8e4374225}
+      \strng{authornamehash}{a25b8b02eb5306c57a356bb8e4374225}
+      \strng{authorfullhash}{a25b8b02eb5306c57a356bb8e4374225}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bitcoin Magazine}
+      \field{title}{You Really Should Run a Bitcoin Full Node: Here's Why}
+      \field{userf}{en}
+      \field{year}{2017}
     \endentry
     \entry{Bankguardsstolen}{misc}{}
       \name{author}{1}{}{%
@@ -295,6 +316,36 @@
       \verb https://github.com/bitcoin/bips/blob/master/README.mediawiki
       \endverb
     \endentry
+    \entry{WesternUnion}{webpage}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{Western Union}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://www.westernunion.com/us/en/home.html
+      \endverb
+    \endentry
+    \entry{PayPal}{webpage}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{PayPal}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://www.paypal.com/
+      \endverb
+    \endentry
+    \entry{digibyte}{webpage}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{title}{Digibyte}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://www.digibyte.io/
+      \endverb
+    \endentry
     \entry{blockchainsize}{misc}{}
       \name{author}{1}{}{%
         {{hash=f9dccd7f458278cdeadd90afe736b4fa}{%
@@ -305,8 +356,8 @@
       \strng{fullhash}{f9dccd7f458278cdeadd90afe736b4fa}
       \strng{authornamehash}{f9dccd7f458278cdeadd90afe736b4fa}
       \strng{authorfullhash}{f9dccd7f458278cdeadd90afe736b4fa}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Blockchain Size}
@@ -398,8 +449,8 @@
       \strng{fullhash}{6f8f966b3cd4efd9914ed7818055dca8}
       \strng{authornamehash}{6f8f966b3cd4efd9914ed7818055dca8}
       \strng{authorfullhash}{6f8f966b3cd4efd9914ed7818055dca8}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Annual International Cryptology Conference}
@@ -424,8 +475,8 @@
       \strng{fullhash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
       \strng{authornamehash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
       \strng{authorfullhash}{876a1475c0ffd4fb67f85c1bf2fcfa24}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronic Commerce Research and Applications}
@@ -459,8 +510,8 @@
       \strng{fullhash}{1fd256ffc930de322e2a449b9d0d70d3}
       \strng{authornamehash}{1fd256ffc930de322e2a449b9d0d70d3}
       \strng{authorfullhash}{1fd256ffc930de322e2a449b9d0d70d3}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Cryptology}
@@ -500,8 +551,8 @@
       \strng{fullhash}{68240c962df8cf1e812eb1263f99e771}
       \strng{authornamehash}{68240c962df8cf1e812eb1263f99e771}
       \strng{authorfullhash}{68240c962df8cf1e812eb1263f99e771}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Nordic Conference on Secure IT Systems}
@@ -523,12 +574,66 @@
       \strng{fullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
       \strng{authornamehash}{abea07bbac60c9e19fb9f33f969e9a5b}
       \strng{authorfullhash}{abea07bbac60c9e19fb9f33f969e9a5b}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Browser Download This Paper}
       \field{title}{Asymmetric Key Cryptography}
+      \field{userf}{en}
+      \field{year}{2014}
+    \endentry
+    \entry{Apublickeycryptosystemandasignatureschemebasedondiscretelogarithms}{article}{}
+      \name{author}{1}{}{%
+        {{hash=519b18cf827647d363e255f97ae81c4c}{%
+           family={ElGamal},
+           familyi={E\bibinitperiod},
+           given={Taher},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{519b18cf827647d363e255f97ae81c4c}
+      \strng{fullhash}{519b18cf827647d363e255f97ae81c4c}
+      \strng{authornamehash}{519b18cf827647d363e255f97ae81c4c}
+      \strng{authorfullhash}{519b18cf827647d363e255f97ae81c4c}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE transactions on information theory}
+      \field{number}{4}
+      \field{title}{A public key cryptosystem and a signature scheme based on discrete logarithms}
+      \field{userf}{en}
+      \field{volume}{31}
+      \field{year}{1985}
+      \field{pages}{469\bibrangedash 472}
+      \range{pages}{4}
+    \endentry
+    \entry{Anonymousbyzantineconsensusfrommoderately-hardpuzzles:Amodelforbitcoin}{article}{}
+      \name{author}{2}{}{%
+        {{hash=403caa7edb7a2770a6a678a46079869e}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9673ea7f68a6146f8fbee4106dba8c48}{%
+           family={LaViola\bibnamedelima Jr},
+           familyi={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Joseph\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc498fdca355b5ad3248f31c5734574d}
+      \strng{fullhash}{cc498fdca355b5ad3248f31c5734574d}
+      \strng{authornamehash}{cc498fdca355b5ad3248f31c5734574d}
+      \strng{authorfullhash}{cc498fdca355b5ad3248f31c5734574d}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available on line: http://nakamotoinstitute. org/research/anonymous-byzantine-consensus}
+      \field{title}{Anonymous byzantine consensus from moderately-hard puzzles: A model for bitcoin}
       \field{userf}{en}
       \field{year}{2014}
     \endentry
@@ -557,8 +662,8 @@
       \strng{fullhash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authornamehash}{9bd74071f90413e7db3f9dd45073fbef}
       \strng{authorfullhash}{9bd74071f90413e7db3f9dd45073fbef}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Information Security}
@@ -604,8 +709,8 @@
       \strng{authorfullhash}{bad114b587e5ca418501e6f61464f96e}
       \strng{editornamehash}{ed5c23a7ef39bddc3a73f1fadf4dafa6}
       \strng{editorfullhash}{ed5c23a7ef39bddc3a73f1fadf4dafa6}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Fast Software Encryption - 19th International Workshop, {FSE} 2012, Washington, DC, USA, March 19-21, 2012. Revised Selected Papers}
@@ -683,8 +788,8 @@
       \strng{authorfullhash}{a66db41a4e905fc9a37d320afba17e51}
       \strng{editornamehash}{761bfeb1ef18c022e1934b76b545a73a}
       \strng{editorfullhash}{670b463f475e4f052dda4ddfb767d152}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Information Security, 9th International Conference, {ISC} 2006, Samos Island, Greece, August 30 - September 2, 2006, Proceedings}
@@ -715,8 +820,8 @@
       \strng{fullhash}{97cd8079f06e3e25bf8f371797d946dd}
       \strng{authornamehash}{97cd8079f06e3e25bf8f371797d946dd}
       \strng{authorfullhash}{97cd8079f06e3e25bf8f371797d946dd}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Base58}
@@ -727,8 +832,8 @@
       \endverb
     \endentry
     \entry{TheLargeBitcoinCollider}{webpage}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labeltitlesource}{title}
       \field{title}{The Large Bitcoin Collider}
       \field{userf}{en}
@@ -748,8 +853,8 @@
       \strng{fullhash}{774d4268a758d45ede8870ebd6e40083}
       \strng{authornamehash}{774d4268a758d45ede8870ebd6e40083}
       \strng{authorfullhash}{774d4268a758d45ede8870ebd6e40083}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The transport layer security (TLS) protocol version 1.2}
@@ -768,8 +873,8 @@
       \strng{fullhash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authornamehash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authorfullhash}{a505088ac00d073baa17ad022ad49bf9}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -812,8 +917,8 @@
       \strng{fullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authornamehash}{c2852ef3eb4eabb5039d37dcc3e036fa}
       \strng{authorfullhash}{c2852ef3eb4eabb5039d37dcc3e036fa}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -854,8 +959,8 @@
       \strng{fullhash}{90d83b4ed3ebe497c263400bb58aab37}
       \strng{authornamehash}{c5557426dca2f3742f1d92d38015bfc9}
       \strng{authorfullhash}{90d83b4ed3ebe497c263400bb58aab37}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Workshop on Fast Software Encryption}
@@ -877,8 +982,8 @@
       \strng{fullhash}{ae9bb9068d2f4201ffa698486b30ec3d}
       \strng{authornamehash}{ae9bb9068d2f4201ffa698486b30ec3d}
       \strng{authorfullhash}{ae9bb9068d2f4201ffa698486b30ec3d}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Cryptography by B. Schneier, John Wiley and Sons, New York}
@@ -901,8 +1006,8 @@
       \strng{fullhash}{934f07990d3d2deab2d3b8aa93e2611e}
       \strng{authornamehash}{934f07990d3d2deab2d3b8aa93e2611e}
       \strng{authorfullhash}{934f07990d3d2deab2d3b8aa93e2611e}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Workshop on Fast Software Encryption}
@@ -939,8 +1044,8 @@
       \strng{fullhash}{fca5aff9505fcaf7cad626f4de8ded21}
       \strng{authornamehash}{01dd7a90d471679ec54f1ba24b442deb}
       \strng{authorfullhash}{fca5aff9505fcaf7cad626f4de8ded21}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The RC6 block cipher. v1. 1, August 20, 1998}
@@ -959,8 +1064,8 @@
       \strng{fullhash}{77b5e50a3e274f4ff8da704d75a3f3ca}
       \strng{authornamehash}{77b5e50a3e274f4ff8da704d75a3f3ca}
       \strng{authorfullhash}{77b5e50a3e274f4ff8da704d75a3f3ca}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Federal Information Processing Standards Publication}
@@ -982,8 +1087,8 @@
       \strng{fullhash}{d25ef1b214ff82af9833245c05caba02}
       \strng{authornamehash}{d25ef1b214ff82af9833245c05caba02}
       \strng{authorfullhash}{d25ef1b214ff82af9833245c05caba02}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ANSI X9}
@@ -1012,8 +1117,8 @@
       \strng{fullhash}{3967038944da1152e0568c52ebc551ab}
       \strng{authornamehash}{3967038944da1152e0568c52ebc551ab}
       \strng{authorfullhash}{3967038944da1152e0568c52ebc551ab}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The design of Rijndael: AES-the advanced encryption standard}
@@ -1045,8 +1150,8 @@
       \strng{fullhash}{0a609b766ef0a710480280c4fc474c4b}
       \strng{authornamehash}{0a609b766ef0a710480280c4fc474c4b}
       \strng{authorfullhash}{0a609b766ef0a710480280c4fc474c4b}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9~20}
@@ -1097,8 +1202,8 @@
       \strng{fullhash}{00e4ed12cea7f1b8b4dfd5800a16657b}
       \strng{authornamehash}{00e4ed12cea7f1b8b4dfd5800a16657b}
       \strng{authorfullhash}{00e4ed12cea7f1b8b4dfd5800a16657b}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{nicj. net/files}
@@ -1136,8 +1241,8 @@
       \strng{fullhash}{407c585629cb21010796d76bd613d7ab}
       \strng{authornamehash}{a87aac2f26e8da93d6e96cd8a0b34e96}
       \strng{authorfullhash}{407c585629cb21010796d76bd613d7ab}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in Cryptology--CRYPTO 2013}
@@ -1146,6 +1251,27 @@
       \field{year}{2013}
       \field{pages}{40\bibrangedash 56}
       \range{pages}{17}
+    \endentry
+    \entry{DeploymentsofEllipticCurveCryptography}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=b924a603fe5cd7ffbb8ed954de351a77}{%
+           family={Vanstone},
+           familyi={V\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b924a603fe5cd7ffbb8ed954de351a77}
+      \strng{fullhash}{b924a603fe5cd7ffbb8ed954de351a77}
+      \strng{authornamehash}{b924a603fe5cd7ffbb8ed954de351a77}
+      \strng{authorfullhash}{b924a603fe5cd7ffbb8ed954de351a77}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{the 9th Workshop on Elliptic Curve Cryptography (ECC)}
+      \field{title}{Deployments of Elliptic Curve Cryptography}
+      \field{userf}{en}
+      \field{year}{2005}
     \endentry
     \entry{Informationpropagationinthebitcoinnetwork}{inproceedings}{}
       \name{author}{2}{}{%
@@ -1167,8 +1293,8 @@
       \strng{fullhash}{a4c41072ff4ff40a89fa94150de406f8}
       \strng{authornamehash}{a4c41072ff4ff40a89fa94150de406f8}
       \strng{authorfullhash}{a4c41072ff4ff40a89fa94150de406f8}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Peer-to-Peer Computing (P2P), 2013 IEEE Thirteenth International Conference on}
@@ -1190,8 +1316,8 @@
       \strng{fullhash}{77b5f7d091600902b0b48b5dad656b28}
       \strng{authornamehash}{77b5f7d091600902b0b48b5dad656b28}
       \strng{authorfullhash}{77b5f7d091600902b0b48b5dad656b28}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Global Bitcoin Node Distribution}
@@ -1201,7 +1327,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{TPS}
 \endrefsection
 \endinput
 
