@@ -9,8 +9,8 @@
 %   texdoc biblatex-caspervector
 % 调出。
 
-% 采用了自定义的（包括大小写不同于原文件的）字体文件名，
-% 并改动 ctex.cfg 等配置文件的用户请自行加入 nofonts 选项；
+% 采用了自定义的（包括大小写不同于原文档的）字体文档名，
+% 并改动 ctex.cfg 等配置文档的用户请自行加入 nofonts 选项；
 % 其它用户不用加入 nofonts 选项，加入之后反而会产生错误。
 \documentclass[UTF8]{pkuthss}
 
@@ -27,23 +27,23 @@
 
 % 设定文档的基本信息。
 \pkuthssinfo{
-	cthesisname = {硕士研究生学位论文}, ethesisname = {Doctor Thesis},
+	cthesisname = {硕士研究生学位论文}, ethesisname = {Master Thesis},
 	ctitle = {区块链的实名交易监督系统的设计与实现}, etitle = {Design and Realization of blockchain real-name transaction monitoring system},
-	cauthor = {陳伯韋},
+	cauthor = {陈伯韦},
 	eauthor = {Chen Po Wei},
 	studentid = {1601210903},
 	date = {二〇一八年一月},
 	school = {软件与微电子学院},
-	cmajor = {软件工程专业}, emajor = {Some Major},
+	cmajor = {软件工程专业}, emajor = {Data Mining and Business Intelligence},
 	direction = {数据挖掘与商务智能方向},
 	cmentor = {李杰教授}, ementor = {Prof.\ Lijie},
-	ckeywords = {比特幣，區塊鏈，多重簽章}, ekeywords = {Bitcoin, Blockchain, Multiple signatures}
+	ckeywords = {比特币，区块链，多重签章}, ekeywords = {Bitcoin, Blockchain, Multiple signatures}
 }
 % 载入参考文献数据库（注意不要省略“.bib”）。
 \addbibresource{thesis.bib}
 
 % 普通用户可删除此段，并相应地删除 chap/*.tex 中的
-% “\pkuthssffaq % 中文测试文字。”一行。
+% “\pkuthssffaq % 中文测试文本。”一行。
 \usepackage{color}
 \def\pkuthssffaq{%
 	\emph{\textcolor{red}{pkuthss 文档模版最常见问题：}}

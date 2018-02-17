@@ -58,7 +58,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{14}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}多重簽名（Multi-Signature）}{15}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}多重簽章（Multi-Signature）}{15}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Green Address}{15}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
@@ -82,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Nonce（32 bits）}{19}{paragraph*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}點對點網絡（Peer to peer network）}{19}{section.2.4}
+\contentsline {section}{\numberline {2.4}點對點網絡與加密貨幣安全}{19}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}交易模型分析}{21}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -126,9 +126,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}BRTMS架構與運作流程}{27}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}多重簽章優化區塊鏈的實名交易監督系統}{31}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}以多重簽章優化區塊鏈的實名交易監督系統之實作}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}區塊鏈的實名交易監督系統實作}{33}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}區塊鏈的實名交易監督系統之實作}{33}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}區塊鏈的實名交易監督系統與優化後系統實驗}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 

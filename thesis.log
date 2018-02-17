@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 15:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 FEB 2018 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2810,7 +2810,11 @@ Underfull \vbox (badness 1337) has occurred while \output is active []
 ]
 第五章
 File: gabpcss.png Graphic file (type QTm)
-<use  "gabpcss.png" > [31]) [32]
+<use  "gabpcss.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [31] [32]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2957,6 +2961,10 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 109.
 
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 109.
+
 [43] [44
 
 ]
@@ -2997,12 +3005,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48351 strings out of 493005
- 948538 string characters out of 6134596
- 1362991 words of memory out of 5000000
- 51573 multiletter control sequences out of 15000+600000
+ 48363 strings out of 493005
+ 949473 string characters out of 6134596
+ 1363527 words of memory out of 5000000
+ 51585 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (59 pages, 487268 bytes).
+Output written on thesis.xdv (59 pages, 491136 bytes).

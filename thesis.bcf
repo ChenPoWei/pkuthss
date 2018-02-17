@@ -2201,9 +2201,13 @@
     <bcf:citekey order="76">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="77">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="78">Informationpropagationinthebitcoinnetwork</bcf:citekey>
-    <bcf:citekey order="79">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="79">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
     <bcf:citekey order="80">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="81">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="82">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="83">bitcointestnet</bcf:citekey>
+    <bcf:citekey order="84">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="85">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
