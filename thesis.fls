@@ -544,6 +544,7 @@ INPUT chap/chap6.tex
 INPUT chap/chap6.tex
 INPUT IntegrationTesting.png
 INPUT usecasediagram.png
+INPUT AcceptanceTesting.png
 INPUT fig9.png
 OUTPUT chap/chap7.aux
 INPUT chap/chap7.tex

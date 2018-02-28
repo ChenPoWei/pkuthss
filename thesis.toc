@@ -182,11 +182,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5.1}交易效能實驗}{39}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗目的}{39}{paragraph*.78}
+\contentsline {paragraph}{實驗目的}{39}{paragraph*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗方法}{39}{paragraph*.79}
+\contentsline {paragraph}{實驗方法}{39}{paragraph*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗結果}{39}{paragraph*.80}
+\contentsline {paragraph}{實驗結果}{39}{paragraph*.81}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}結論}{41}{chapter.7}
 \defcounter {refsection}{0}\relax 
@@ -194,14 +194,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}提議的BRTMS的優點總結}{41}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{消費者}{41}{paragraph*.81}
+\contentsline {paragraph}{消費者}{41}{paragraph*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家}{41}{paragraph*.82}
+\contentsline {paragraph}{商家}{41}{paragraph*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{政府}{42}{paragraph*.83}
+\contentsline {paragraph}{政府}{42}{paragraph*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{43}{appendix*.84}
+\contentsline {chapter}{参考文献}{43}{appendix*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{47}{appendix*.85}
+\contentsline {chapter}{致谢}{47}{appendix*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{49}{appendix*.86}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{49}{appendix*.87}
