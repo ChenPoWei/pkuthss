@@ -14,21 +14,20 @@
 
  	\section{測試說明}
 
- 	\subsection{測試範圍}
- 	本文件主要是描述基於區塊鏈技術的收款監督系統的測試計畫。確認在系統整合前，必須先確認所有的設計元件均可正確的輸出，在此我們著重於整合系統測試 (Integration Test) 及接受度測試 (Acceptance Test)。本文件內容將依據系統需求規格書與系統設計文件，描述關於整合測試的相關計畫與內容。並希望透過此文件之描述與實踐，達到順利進行測試工作之目的。
+ 		\subsection{測試範圍}本文件主要是描述基於區塊鏈技術的收款監督系統的測試計畫。確認在系統整合前，必須先確認所有的設計元件均可正確的輸出，在此我們著重於整合系統測試 (Integration Test) 及接受度測試 (Acceptance Test)。本文件內容將依據系統需求規格書與系統設計文件，描述關於整合測試的相關計畫與內容。並希望透過此文件之描述與實踐，達到順利進行測試工作之目的。
 
- 	\subsection{驗收標準}
- 	本測試計劃需要滿足下列的測試接受準則： 
+ 		\subsection{驗收標準}本測試計劃需要滿足下列的測試接受準則： 
 
- 	\begin{enumerate}
-		\item 本系統需要對所有列為必要(Critical、Important、Desirable)之需求作完整測試。
-		\item 測試程序需要依照本測試計畫所訂定的程序進行，所有測試結果需要能符合預期測試結果方能接受。
-		\item 以測試案例為單位，當測試未通過時，需要進行該單元的測試，其接受的準則與前一項規定相同。 
-	\end{enumerate}
+ 			\begin{enumerate}
+				\item 本系統需要對所有列為必要(Critical、Important、Desirable)之需求作完整測試。
+				\item 測試程序需要依照本測試計畫所訂定的程序進行，所有測試結果需要能符合預期測試結果方能接受。
+				\item 以測試案例為單位，當測試未通過時，需要進行該單元的測試，其接受的準則與前一項規定相同。 
+			\end{enumerate}
  	
  	\section{測試環境}
 
  		\subsection{硬件規格}
+ 			
  			\paragraph{系統主機}一台以上主機，每台主機CPU為Intel P4 1.0GHz或以上，256 MB RAM或以上，60G以上硬碟空間。
  			\paragraph{周邊設備}一台以上智慧型手機，與用來代表虛擬商品的數個RFID標籤；已可供測試NFC用的智慧型手機包含小米3 WCDMA版與Google Nexus 5。
 
@@ -59,7 +58,7 @@
  			\end{enumerate}
 
  		\subsection{集成測試（Integration Testing）}
- 			\begin{figure}[h]
+ 			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = 1\textwidth]{IntegrationTesting.png}
 				\caption{整合子系統測試}\label{IntegrationTesting}
@@ -67,16 +66,303 @@
 
 		\subsection{驗收測試（Acceptance Testing）}
 		本系統須達成使用案例(use case)所列功能：
-			\begin{figure}[h]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = 0.6\textwidth]{usecasediagram.png}
 				\caption{BRTMS使用案例圖 (use case diagram)}\label{usecasediagram}
 			\end{figure}
-			\begin{figure}[h]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = 0.4\textwidth]{AcceptanceTesting.png}
 				\caption{驗收測試（Acceptance Testing）}\label{AcceptanceTesting}
 			\end{figure}
+
+		\section{测试用例}
+			\subsection{集成测试案例（Integration Testing Cases）}
+				
+			\paragraph{IT1测试用例}
+				如下表\ref{IT1TestCase}所示，目的：驗證〔SMIMSS 1.1.0〕能正確管理商品資訊
+
+				\begin{table}[htbp]
+				\centering
+				\caption{IT1 Test Case}
+				\label{IT1TestCase}
+				\begin{tabular}{|l|l|}
+				\hline
+				Identification & IT1 \\ \hline
+				Name & 整合SMIMSS至BPCS \\ \hline
+				Tested target & {[}SMIMSS 1.1.0{]}、{[}BPCS 1.0.0{]} \\ \hline
+				Reference & SMIMSS-F-001$\sim$ SMIMSS-F-005 \\ \hline
+				Severity & 1(Critical) \\ \hline
+				\multirow{5}{*}{Instructions} & 1.     能夠新增店家帳戶 \\ \cline{2-2} 
+				 & 2.     能夠新增/修改/刪除店員帳戶 \\ \cline{2-2} 
+				 & 3.     能夠新增/刪除/修改商品資訊 \\ \cline{2-2} 
+				 & 4.     能夠取得產品資訊 \\ \cline{2-2} 
+				 & 5.     能夠接收交易資訊 \\ \hline
+				\multirow{5}{*}{Expected result} & 1.     成功新增店家帳戶 \\ \cline{2-2} 
+				 & 2.     成功新增/修改/刪除店員帳戶 \\ \cline{2-2} 
+				 & 3.     成功新增/修改/刪除商品資訊 \\ \cline{2-2} 
+				 & 4.     成功取得產品資訊 \\ \cline{2-2} 
+				 & 5.     成功接收交易資訊 \\ \hline
+				Cleanup & 無 \\ \hline
+				\end{tabular}
+				\end{table}
+
+
+			\paragraph{IT2测试用例}
+				如下表\ref{IT2TestCase}所示，目的：驗證〔SMCTSS 1.2.0〕完成一筆行動支付之交易
+
+
+				\begin{table}[htbp]
+				\caption{IT2 Test Case} % title of Table
+				\centering % used for centering table
+				\label{IT2TestCase} % is used to refer this table in the text
+				\begin{tabular}{|l|l|}
+				\hline
+				Identification & IT2 \\ \hline
+				Name & 整合SMCTSS至BPCS \\ \hline
+				Tested target & {[}SMCTSS1.2.0{]}、{[}BPCS 1.0.0{]} \\ \hline
+				Reference & SMCTSS-F-001$\sim$ SMCTSS-F-007 \\ \hline
+				Severity & 1(Critical) \\ \hline
+				\multirow{7}{*}{Instructions} & 1.     能夠登入店員帳戶 \\ \cline{2-2} 
+				 & 2.     能夠掃描NFC標籤 \\ \cline{2-2} 
+				 & 3.     能夠讀取商品資訊 \\ \cline{2-2} 
+				 & 4.     能夠建立交易清單 \\ \cline{2-2} 
+				 & 5.     能夠傳送交易資訊 \\ \cline{2-2} 
+				 & 6.     能夠認證交易資訊 \\ \cline{2-2} 
+				 & 7.     能夠儲存交易明細 \\ \hline
+				\multirow{7}{*}{Expected result} & 1.     成功登入店員帳戶 \\ \cline{2-2} 
+				 & 2.     成功掃描NFC標籤 \\ \cline{2-2} 
+				 & 3.     成功讀取商品資訊 \\ \cline{2-2} 
+				 & 4.     成功建立交易清單 \\ \cline{2-2} 
+				 & 5.     成功傳送交易資訊 \\ \cline{2-2} 
+				 & 6.     成功認證交易資訊 \\ \cline{2-2} 
+				 & 7.     成功儲存交易明細 \\ \hline
+				Cleanup & 無 \\ \hline
+				\end{tabular}
+				\end{table}
+
+			\paragraph{IT3测试用例}
+				如下表\ref{IT3TestCase}所示，目的：驗證〔CMPTSS1.3.0〕能正確接收SMCTSS所傳送的交易資料，並以其交易資訊執行以比特幣付款之動作。可以查詢商品資訊，且能夠儲存並且查看使用者過往之交易紀錄。
+
+
+					\begin{table}[htbp]
+					\caption{IT3 Test Case} % title of Table
+					\centering % used for centering table
+					\label{IT3TestCase} % is used to refer this table in the text
+					\begin{tabular}{|l|l|}
+					\hline
+					Identification & IT3 \\ \hline
+					Name & 整合CMPTSS至BPCS \\ \hline
+					Tested target & {[}CMPTSS.1.3.0{]}、{[}BPCS 1.0.0{]} \\ \hline
+					Reference & CMPTSS-F-001$\sim$ CMPTSS-F-007 \\ \hline
+					Severity & 1(Critical) \\ \hline
+					\multirow{7}{*}{Instructions} & 1.     能夠登入客戶帳號 \\ \cline{2-2} 
+					 & 2.     能夠讀取商品資訊 \\ \cline{2-2} 
+					 & 3.     能夠接收交易清單 \\ \cline{2-2} 
+					 & 4.     能夠認證交易資訊 \\ \cline{2-2} 
+					 & 5.     能夠執行行動支付 \\ \cline{2-2} 
+					 & 6.     能夠儲存交易明細 \\ \cline{2-2} 
+					 & 7.     能夠查看交易紀錄 \\ \hline
+					\multirow{7}{*}{Expected result} & 1.     成功登入客戶帳號 \\ \cline{2-2} 
+					 & 2.     成功讀取商品資訊 \\ \cline{2-2} 
+					 & 3.     成功接收交易清單 \\ \cline{2-2} 
+					 & 4.     成功認證交易資訊 \\ \cline{2-2} 
+					 & 5.     成功執行行動支付 \\ \cline{2-2} 
+					 & 6.     成功儲存交易紀錄 \\ \cline{2-2} 
+					 & 7.     成功查看交易紀錄 \\ \hline
+					Cleanup & 無 \\ \hline
+					\end{tabular}
+					\end{table}
+
+		\subsection{Acceptance Testing Cases}
+			\paragraph{AT1 Test Case}
+				如下表\ref{AT1TestCase}所示，目的：驗證使用案例（Use case）1，透過組態檔案的修改對伺服器進行組態設定。
+
+					% Please add the following required packages to your document preamble:
+					% \usepackage{multirow}
+					\begin{table}[htbp]
+					\centering
+					\caption{AT1 Test Case}
+					\label{AT1TestCase}
+					\begin{tabular}{|l|l|l|}
+					\hline
+					Identification & \multicolumn{2}{l|}{AT1} \\ \hline
+					Name & \multicolumn{2}{l|}{伺服器的組態設定} \\ \hline
+					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}BPCS 1.0.0{]}\end{tabular}} \\ \hline
+					Reference & \multicolumn{2}{l|}{BPCS-F-001} \\ \hline
+					Severity & \multicolumn{2}{l|}{1} \\ \hline
+					\multirow{3}{*}{Instructions} & Actor actions & System responses \\ \cline{2-3} 
+					 & \begin{tabular}[c]{@{}l@{}}1.管理人員依照環境\\    設定伺服器組態。\end{tabular} &  \\ \cline{2-3} 
+					 &  & \begin{tabular}[c]{@{}l@{}}2.伺服器依照管理人\\    員所做的組態設定\\    啟動服務。\end{tabular} \\ \hline
+					Expected result & \multicolumn{2}{l|}{成功啟動伺服器的相關服務。} \\ \hline
+					Cleanup & \multicolumn{2}{l|}{無} \\ \hline
+					\end{tabular}
+					\end{table}
+
+			\paragraph{AT2 Test Case}
+				如下表\ref{AT2TestCase}所示，目的：驗證使用案例（Use case ）2 透過組態檔案的修改對手機進行組態設定。
+					\begin{table}[htbp]
+					\centering
+					\caption{AT2 Test Case}
+					\label{AT2TestCase}
+					\begin{tabular}{|l|l|l|}
+					\hline
+					Identification & \multicolumn{2}{l|}{AT2} \\ \hline
+					Name & \multicolumn{2}{l|}{手機的組態設定} \\ \hline
+					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
+					Reference & \multicolumn{2}{l|}{BPCS-F-002$\sim$ BPCS-F-003} \\ \hline
+					Severity & \multicolumn{2}{l|}{1} \\ \hline
+					\multirow{3}{*}{Instructions} & Actor actions & System responses \\ \cline{2-3} 
+					 & \begin{tabular}[c]{@{}l@{}}1.使用者修改手機組\\    態設定參數。\end{tabular} &  \\ \cline{2-3} 
+					 &  & \begin{tabular}[c]{@{}l@{}}2.手機依照使用者在\\    設定檔中所填入的\\    數值運作。\end{tabular} \\ \hline
+					Expected result & \multicolumn{2}{l|}{成功完成手機的組態設定} \\ \hline
+					Cleanup & \multicolumn{2}{l|}{無} \\ \hline
+					\end{tabular}
+					\end{table}
+
+			\paragraph{AT3 Test Case}
+				如下表\ref{AT3TestCase}所示，目的：驗證使用案例（Use case ）3，透過組態檔案的修改對資料庫進行組態設定。
+
+					\begin{table}[htbp]
+					\centering
+					\caption{AT3 Test Case}
+					\label{AT3TestCase}
+					\begin{tabular}{|l|l|l|}
+					\hline
+					Identification & \multicolumn{2}{l|}{AT3} \\ \hline
+					Name & \multicolumn{2}{l|}{資料庫的組態設定} \\ \hline
+					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
+					Reference & \multicolumn{2}{l|}{BPCS-F-001$\sim$ BPCS-F-003} \\ \hline
+					Severity & \multicolumn{2}{l|}{1} \\ \hline
+					\multirow{5}{*}{Instructions} & Actor actions & System responses \\ \cline{2-3} 
+					 & \begin{tabular}[c]{@{}l@{}}1.管理者設定資料庫\\    組態。\end{tabular} &  \\ \cline{2-3} 
+					 &  & \begin{tabular}[c]{@{}l@{}}2.資料庫依照管理人\\    員所做的組態設定\\    啟動服務。\end{tabular} \\ \cline{2-3} 
+					 & \begin{tabular}[c]{@{}l@{}}3.使用者修改資料庫\\    之資料及檔案。\end{tabular} &  \\ \cline{2-3} 
+					 &  & \begin{tabular}[c]{@{}l@{}}4.資料庫依照使用者\\    所做的組態設定啟\\    動服務。\end{tabular} \\ \hline
+					Expected result & \multicolumn{2}{l|}{成功設定完成資料庫的相關設定。} \\ \hline
+					Cleanup & \multicolumn{2}{l|}{無} \\ \hline
+					\end{tabular}
+					\end{table}
+
+	\section{Test Results and Analysis}
+		\subsection{Integration Testing Cases}
+
+		% Please add the following required packages to your document preamble:
+		% \usepackage{multirow}
+		\begin{table}[htbp]
+		\centering
+		\caption{整合子系統測試結果}
+		\label{table8}
+		\begin{tabular}{|l|l|l|}
+		\hline
+		Test Case \# & Results (PASS/FAIL) & Comment \\ \hline
+		\multirow{5}{*}{IT1} & \multirow{5}{*}{PASS} & 1.成功新增店家帳戶 \\ \cline{3-3} 
+		 &  & 2.成功新增/修改/刪除店員帳戶 \\ \cline{3-3} 
+		 &  & 3.成功新增/修改/刪除商品資訊 \\ \cline{3-3} 
+		 &  & 4.成功取得產品資訊 \\ \cline{3-3} 
+		 &  & 5.成功接收交易資訊 \\ \hline
+		\multirow{7}{*}{IT2} & \multirow{7}{*}{PASS} & 1.成功登入店員帳戶 \\ \cline{3-3} 
+		 &  & 2.成功掃描NFC標籤 \\ \cline{3-3} 
+		 &  & 3.成功讀取商品資訊 \\ \cline{3-3} 
+		 &  & 4.成功建立交易清單 \\ \cline{3-3} 
+		 &  & 5.成功傳送交易資訊 \\ \cline{3-3} 
+		 &  & 6.成功認證交易資訊 \\ \cline{3-3} 
+		 &  & 7.成功儲存交易明細 \\ \hline
+		\multirow{7}{*}{IT3} & \multirow{7}{*}{PASS} & 1.成功登入客戶帳號 \\ \cline{3-3} 
+		 &  & 2.成功讀取商品資訊 \\ \cline{3-3} 
+		 &  & 3.成功接收交易清單 \\ \cline{3-3} 
+		 &  & 4.成功認證交易資訊 \\ \cline{3-3} 
+		 &  & 5. 成功執行行動支付 \\ \cline{3-3} 
+		 &  & 6.成功儲存交易紀錄 \\ \cline{3-3} 
+		 &  & 7.成功查看交易紀錄 \\ \hline
+		RATE & 90\% & \begin{tabular}[c]{@{}l@{}}BPCS開發透過手機讓商家及顧客\\ 以手機傳送交易資訊，如：商品\\ 名稱、商品金額，商家收款地址。\\ 並且及時將商品資訊更新至伺服器\\ 之資料庫，以便商家控管商品資訊\\ 狀態，同時讓顧客可以享受數位加\\ 密貨幣的方便性。\end{tabular} \\ \hline
+		\end{tabular}
+		\end{table}
+
+		\subsection{Acceptance Testing Cases}
+			\begin{table}[htbp]
+			\centering
+			\caption{接受度測試結果}
+			\label{table9}
+			\begin{tabular}{|l|l|l|}
+			\hline
+			Test Case \# & Results(PASS/FAIL) & Comment \\ \hline
+			AT1 & PASS & 成功啟動伺服器的相關服務。 \\ \hline
+			AT2 & PASS & 成功完成手機的組態設定。 \\ \hline
+			AT3 & PASS & 成功設定完成資料庫的相關設定。 \\ \hline
+			Rate & 100\% & \begin{tabular}[c]{@{}l@{}}BPCS可透過組態設定的方式來設\\ 定各個子系統的環境參數。\end{tabular} \\ \hline
+			\end{tabular}
+			\end{table}
+
+		\subsection{Appendix A: Traceability}
+			\paragraph{Subsystems vs. Test Cases}
+				\begin{table}[htbp]
+				\centering
+				\caption{Subsystems vs. Test Cases Traceability Table}
+				\label{table10}
+				\begin{tabular}{|l|l|l|l|}
+				\hline
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}SMIMSS \\ 1.1.0\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}SMCTSS \\ 1.2.0\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}CMPISS \\ 1.3.0\end{tabular}} \\ \hline
+				IT1 & X &  &  \\ \hline
+				IT2 &  & X &  \\ \hline
+				IT3 &  &  & X \\ \hline
+				AT1 & X &  &  \\ \hline
+				AT2 &  & X & X \\ \hline
+				AT3 & X & X & X \\ \hline
+				\end{tabular}
+				\end{table}
+
+			\paragraph{Requirements vs. Test Cases}
+				\begin{table}[htbp]
+				\centering
+				\caption{Requirements vs. Test Cases Traceability Table(1)}
+				\label{table11}
+				\begin{tabular}{|l|c|c|c|}
+				\hline
+				 & \multicolumn{1}{l|}{IT1} & \multicolumn{1}{l|}{IT2} & \multicolumn{1}{l|}{IT3} \\ \hline
+				BPCS-F-001 & \multicolumn{1}{l|}{X} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+				BPCS-F-002 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{X} & \multicolumn{1}{l|}{} \\ \hline
+				BPCS-F-003 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{X} \\ \hline
+				SMIMSS-F-001 & \multicolumn{1}{l|}{X} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+				SMIMSS-F-002 & \multicolumn{1}{l|}{X} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+				SMIMSS-F-003 & X &  &  \\ \hline
+				SMIMSS-F-004 & X &  &  \\ \hline
+				SMIMSS-F-005 & X &  &  \\ \hline
+				SMCTSS-F-001 &  & X &  \\ \hline
+				SMCTSS-F-002 &  & X &  \\ \hline
+				SMCTSS-F-003 &  & X &  \\ \hline
+				SMCTSS-F-004 &  & X &  \\ \hline
+				SMCTSS-F-005 &  & X &  \\ \hline
+				SMCTSS-F-006 &  & X &  \\ \hline
+				SMCTSS-F-007 &  & X &  \\ \hline
+				CMPTSS-F-001 &  &  & X \\ \hline
+				CMPTSS-F-002 &  &  & X \\ \hline
+				CMPTSS-F-003 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
+				CMPTSS-F-004 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
+				CMPTSS-F-005 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
+				CMPTSS-F-006 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
+				CMPTSS-F-007 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
+				\end{tabular}
+				\end{table}
+
+				\begin{table}[htbp]
+				\centering
+				\caption{Requirements vs. Test Cases Traceability Table(2)}
+				\label{table12}
+				\begin{tabular}{@{}llll@{}}
+				\toprule
+				           & AT1 & AT2 & AT3 \\ \midrule
+				BPCS-F-001 & X   &     & X   \\
+				BPCS-F-002 &     & X   & X   \\
+				BPCS-F-003 &     & X   & X   \\ \bottomrule
+				\end{tabular}
+				\end{table}
+
+
+
+
+
 
 
 
@@ -85,7 +371,7 @@
 	根據比特幣點對點架構，儘管客戶和商店之間的交易細節已經快速存儲到雲數據庫，但官方確認交易與當前比特幣區塊鏈的交易通常需要更長的時間，因為需要確保確認的數量在交易廣播比特幣點對點網絡並存儲到緩存池後，是否存在雙重支付。
 	因此，為了驗證我們提出的BRTMS不會通過使用比特幣等加密貨幣影響交易完成時間，我們於2017年7月25日在Testnet實驗中連續記錄了30筆交易信息。首先，我們使用區塊鏈檢視器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的第一張快照所示，透過使用Testnet依序進行30筆比特幣交易，如圖\ref{fig9}的中間快照所示，最後30筆交易完成時間全部記錄在區塊鏈檢視器。實驗結果顯示，實驗中的所有交易都在3秒鐘左右（平均2.97秒，標準差小於1秒）發送到比特幣網絡緩存池，平均交易完成時間在比特幣區塊鏈中確認為522.33秒（小於9分鐘），標準差大約為339秒。根據比特幣Testnet上的初步實驗結果顯示，我們提出的BRTMS可以快速有效地執行區塊鏈支付收款監督。
 
-	\begin{figure}[h]
+	\begin{figure}[htbp]
 		\centering
 		\includegraphics[width = 0.7\textwidth]{fig9.png}
 		\caption{使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程}\label{fig9}
