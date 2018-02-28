@@ -140,7 +140,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{37}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{基於區塊鏈技術的收款監督系統(Blockchain-based Payment Collection Supervision system, BPCS)}{37}{paragraph*.70}
+\contentsline {paragraph}{區塊鏈的實名交易監督系統(Blockchain Real-name Transaction Monitoring System, BRTMS)}{37}{paragraph*.70}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)}{37}{paragraph*.71}
 \defcounter {refsection}{0}\relax 

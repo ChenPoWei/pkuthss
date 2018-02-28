@@ -5,7 +5,7 @@
 本論文將開發讓商家能夠結合商品與RFID標籤，以達到快速建構與管理商品資料庫之系統，並且讓商家及顧客可以運用手機NFC功能來實際運作比特幣的行動支付流程。店家只需要掃描商品上的RFID標籤，即可快速建立交易清單，再利用NFC功能與顧客之行動裝置進行訊息交換，輕鬆地將商家的收款地址以及交易資料傳送給顧客，收到資料後便能快速地以顧客之比特幣行動電子錢包付款，並將交易細項儲存下來，以便未來商家與顧客能夠快速查詢比特幣行動支付的交易紀錄。
 本系統主要是以完成區塊鏈之數位加密貨幣的收款監督系統為主要目標，本論文進而將積極利用自由軟體的利基：使用成本低、進入門檻低、開放原始碼、社群能力強、共通性及移植性強、資通安全性高等優勢來開發本論文收款監督系統的應用服務平台。
 本專案範圍包含建置下面主系統與各項子系統，主系統為：
-		\paragraph{基於區塊鏈技術的收款監督系統(Blockchain-based Payment Collection Supervision system, BPCS)}
+		\paragraph{區塊鏈的實名交易監督系統(Blockchain Real-name Transaction Monitoring System, BRTMS)}
 
 各子系統分別為：
  		\paragraph{商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)}本系統可以讓商家在進貨時，快速地將RFID標籤之識別碼與進貨商品資訊整合在一起，並且透過本系統新增、修改或刪除資料庫內部的資訊，包括產品名稱、詳細資訊，存貨數量等資訊，商家與顧客便可依照該資料庫取得當前商品資訊與狀態。不僅讓商店的存貨資訊更加清楚明瞭，也可以提供顧客更多的即時服務。
@@ -14,7 +14,7 @@
 
  	\section{測試說明}
 
- 		\subsection{測試範圍}本文件主要是描述基於區塊鏈技術的收款監督系統的測試計畫。確認在系統整合前，必須先確認所有的設計元件均可正確的輸出，在此我們著重於整合系統測試 (Integration Test) 及接受度測試 (Acceptance Test)。本文件內容將依據系統需求規格書與系統設計文件，描述關於整合測試的相關計畫與內容。並希望透過此文件之描述與實踐，達到順利進行測試工作之目的。
+ 		\subsection{測試範圍}本文件主要是描述區塊鏈的實名交易監督系統的測試計畫。確認在系統整合前，必須先確認所有的設計元件均可正確的輸出，在此我們著重於整合系統測試 (Integration Test) 及接受度測試 (Acceptance Test)。本文件內容將依據系統需求規格書與系統設計文件，描述關於整合測試的相關計畫與內容。並希望透過此文件之描述與實踐，達到順利進行測試工作之目的。
 
  		\subsection{驗收標準}本測試計劃需要滿足下列的測試接受準則： 
 
@@ -45,16 +45,16 @@
 
  			\begin{enumerate}
  				\item 各子系統之內部元件整合測試 (Module Test)(106/2/25~106/6/8)
- 				\item 基於區塊鏈技術的收款監督系統整合測試 (Integration Test) (106/6/8~106/6/21)
- 				\item 基於區塊鏈技術的收款監督系統接受度測試 (Acceptance Test) (106/7/10~106/7/21)
+ 				\item 區塊鏈的實名交易監督系統整合測試 (Integration Test) (106/6/8~106/6/21)
+ 				\item 區塊鏈的實名交易監督系統接受度測試 (Acceptance Test) (106/7/10~106/7/21)
 			\end{enumerate}
 
 		\paragraph{查核點}
 
 			\begin{enumerate}
  				\item 各子系統之內部元件整合測試 (Module Test)(106/5/10)
- 				\item 基於區塊鏈技術的收款監督系統整合測試 (Integration Test) (106/7/1)
- 				\item 基於區塊鏈技術的收款監督系統接受度測試 (Acceptance Test) (106/7/1)
+ 				\item 區塊鏈的實名交易監督系統整合測試 (Integration Test) (106/7/1)
+ 				\item 區塊鏈的實名交易監督系統接受度測試 (Acceptance Test) (106/7/1)
  			\end{enumerate}
 
  		\subsection{集成測試（Integration Testing）}
@@ -90,8 +90,8 @@
 				\begin{tabular}{|l|l|}
 				\hline
 				Identification & IT1 \\ \hline
-				Name & 整合SMIMSS至BPCS \\ \hline
-				Tested target & {[}SMIMSS 1.1.0{]}、{[}BPCS 1.0.0{]} \\ \hline
+				Name & 整合SMIMSS至BRTMS \\ \hline
+				Tested target & {[}SMIMSS 1.1.0{]}、{[}BRTMS 1.0.0{]} \\ \hline
 				Reference & SMIMSS-F-001$\sim$ SMIMSS-F-005 \\ \hline
 				Severity & 1(Critical) \\ \hline
 				\multirow{5}{*}{Instructions} & 1.     能夠新增店家帳戶 \\ \cline{2-2} 
@@ -120,8 +120,8 @@
 				\begin{tabular}{|l|l|}
 				\hline
 				Identification & IT2 \\ \hline
-				Name & 整合SMCTSS至BPCS \\ \hline
-				Tested target & {[}SMCTSS1.2.0{]}、{[}BPCS 1.0.0{]} \\ \hline
+				Name & 整合SMCTSS至BRTMS \\ \hline
+				Tested target & {[}SMCTSS1.2.0{]}、{[}BRTMS 1.0.0{]} \\ \hline
 				Reference & SMCTSS-F-001$\sim$ SMCTSS-F-007 \\ \hline
 				Severity & 1(Critical) \\ \hline
 				\multirow{7}{*}{Instructions} & 1.     能夠登入店員帳戶 \\ \cline{2-2} 
@@ -153,8 +153,8 @@
 					\begin{tabular}{|l|l|}
 					\hline
 					Identification & IT3 \\ \hline
-					Name & 整合CMPTSS至BPCS \\ \hline
-					Tested target & {[}CMPTSS.1.3.0{]}、{[}BPCS 1.0.0{]} \\ \hline
+					Name & 整合CMPTSS至BRTMS \\ \hline
+					Tested target & {[}CMPTSS.1.3.0{]}、{[}BRTMS 1.0.0{]} \\ \hline
 					Reference & CMPTSS-F-001$\sim$ CMPTSS-F-007 \\ \hline
 					Severity & 1(Critical) \\ \hline
 					\multirow{7}{*}{Instructions} & 1.     能夠登入客戶帳號 \\ \cline{2-2} 
@@ -189,8 +189,8 @@
 					\hline
 					Identification & \multicolumn{2}{l|}{AT1} \\ \hline
 					Name & \multicolumn{2}{l|}{伺服器的組態設定} \\ \hline
-					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}BPCS 1.0.0{]}\end{tabular}} \\ \hline
-					Reference & \multicolumn{2}{l|}{BPCS-F-001} \\ \hline
+					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}BRTMS 1.0.0{]}\end{tabular}} \\ \hline
+					Reference & \multicolumn{2}{l|}{BRTMS-F-001} \\ \hline
 					Severity & \multicolumn{2}{l|}{1} \\ \hline
 					\multirow{3}{*}{Instructions} & Actor actions & System responses \\ \cline{2-3} 
 					 & \begin{tabular}[c]{@{}l@{}}1.管理人員依照環境\\    設定伺服器組態。\end{tabular} &  \\ \cline{2-3} 
@@ -211,7 +211,7 @@
 					Identification & \multicolumn{2}{l|}{AT2} \\ \hline
 					Name & \multicolumn{2}{l|}{手機的組態設定} \\ \hline
 					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
-					Reference & \multicolumn{2}{l|}{BPCS-F-002$\sim$ BPCS-F-003} \\ \hline
+					Reference & \multicolumn{2}{l|}{BRTMS-F-002$\sim$ BRTMS-F-003} \\ \hline
 					Severity & \multicolumn{2}{l|}{1} \\ \hline
 					\multirow{3}{*}{Instructions} & Actor actions & System responses \\ \cline{2-3} 
 					 & \begin{tabular}[c]{@{}l@{}}1.使用者修改手機組\\    態設定參數。\end{tabular} &  \\ \cline{2-3} 
@@ -233,7 +233,7 @@
 					Identification & \multicolumn{2}{l|}{AT3} \\ \hline
 					Name & \multicolumn{2}{l|}{資料庫的組態設定} \\ \hline
 					Tested target & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
-					Reference & \multicolumn{2}{l|}{BPCS-F-001$\sim$ BPCS-F-003} \\ \hline
+					Reference & \multicolumn{2}{l|}{BRTMS-F-001$\sim$ BRTMS-F-003} \\ \hline
 					Severity & \multicolumn{2}{l|}{1} \\ \hline
 					\multirow{5}{*}{Instructions} & Actor actions & System responses \\ \cline{2-3} 
 					 & \begin{tabular}[c]{@{}l@{}}1.管理者設定資料庫\\    組態。\end{tabular} &  \\ \cline{2-3} 
@@ -276,7 +276,7 @@
 		 &  & 5. 成功執行行動支付 \\ \cline{3-3} 
 		 &  & 6.成功儲存交易紀錄 \\ \cline{3-3} 
 		 &  & 7.成功查看交易紀錄 \\ \hline
-		RATE & 90\% & \begin{tabular}[c]{@{}l@{}}BPCS開發透過手機讓商家及顧客\\ 以手機傳送交易資訊，如：商品\\ 名稱、商品金額，商家收款地址。\\ 並且及時將商品資訊更新至伺服器\\ 之資料庫，以便商家控管商品資訊\\ 狀態，同時讓顧客可以享受數位加\\ 密貨幣的方便性。\end{tabular} \\ \hline
+		RATE & 90\% & \begin{tabular}[c]{@{}l@{}}BRTMS開發透過手機讓商家及顧客\\ 以手機傳送交易資訊，如：商品\\ 名稱、商品金額，商家收款地址。\\ 並且及時將商品資訊更新至伺服器\\ 之資料庫，以便商家控管商品資訊\\ 狀態，同時讓顧客可以享受數位加\\ 密貨幣的方便性。\end{tabular} \\ \hline
 		\end{tabular}
 		\end{table}
 
@@ -291,7 +291,7 @@
 			AT1 & PASS & 成功啟動伺服器的相關服務。 \\ \hline
 			AT2 & PASS & 成功完成手機的組態設定。 \\ \hline
 			AT3 & PASS & 成功設定完成資料庫的相關設定。 \\ \hline
-			Rate & 100\% & \begin{tabular}[c]{@{}l@{}}BPCS可透過組態設定的方式來設\\ 定各個子系統的環境參數。\end{tabular} \\ \hline
+			Rate & 100\% & \begin{tabular}[c]{@{}l@{}}BRTMS可透過組態設定的方式來設\\ 定各個子系統的環境參數。\end{tabular} \\ \hline
 			\end{tabular}
 			\end{table}
 
@@ -321,9 +321,9 @@
 				\begin{tabular}{|l|c|c|c|}
 				\hline
 				 & \multicolumn{1}{l|}{IT1} & \multicolumn{1}{l|}{IT2} & \multicolumn{1}{l|}{IT3} \\ \hline
-				BPCS-F-001 & X &  &  \\ \hline
-				BPCS-F-002 &  & X &  \\ \hline
-				BPCS-F-003 &  &  & X \\ \hline
+				BRTMS-F-001 & X &  &  \\ \hline
+				BRTMS-F-002 &  & X &  \\ \hline
+				BRTMS-F-003 &  &  & X \\ \hline
 				SMIMSS-F-001 & X &  &  \\ \hline
 				SMIMSS-F-002 & X &  &  \\ \hline
 				SMIMSS-F-003 & X &  &  \\ \hline
@@ -353,9 +353,9 @@
 				\begin{tabular}{@{}llll@{}}
 				\toprule
 				           & AT1 & AT2 & AT3 \\ \midrule
-				BPCS-F-001 & X   &     & X   \\
-				BPCS-F-002 &     & X   & X   \\
-				BPCS-F-003 &     & X   & X   \\ \bottomrule
+				BRTMS-F-001 & X   &     & X   \\
+				BRTMS-F-002 &     & X   & X   \\
+				BRTMS-F-003 &     & X   & X   \\ \bottomrule
 				\end{tabular}
 				\end{table}
 
