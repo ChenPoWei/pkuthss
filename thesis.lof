@@ -46,35 +46,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.6}{\ignorespaces 實名對匿名再對實名交易示意圖\relax }}{23}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
-\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 魚骨圖（1）\relax }}{24}{figure.caption.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BRTMS數據庫分佈圖\relax }}{25}{figure.caption.51}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces BRTMS和商家註冊流程的核心架構圖\relax }}{27}{figure.caption.60}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces BRTMS的整體架構與功能示意圖\relax }}{28}{figure.caption.61}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 多重簽章優化後的BRTMS整體示意圖\relax }}{30}{figure.caption.62}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 魚骨圖（2）\relax }}{24}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SMIMSS的Java應用程序的註冊和登錄界面\relax }}{33}{figure.caption.63}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BRTMS數據庫分佈圖\relax }}{25}{figure.caption.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 在SMIMSS中插入或更新授權商家的產品目錄\relax }}{33}{figure.caption.64}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BRTMS和商家註冊流程的核心架構圖\relax }}{27}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 登錄、等待結帳的商品、刪除商品及支付確認\relax }}{34}{figure.caption.65}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces BRTMS的整體架構與功能示意圖\relax }}{28}{figure.caption.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票\relax }}{35}{figure.caption.66}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 多重簽章優化後的BRTMS整體示意圖\relax }}{30}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 整合子系統測試\relax }}{39}{figure.caption.75}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SMIMSS的Java應用程序的註冊和登錄界面\relax }}{33}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用案例圖 (use case diagram)\relax }}{40}{figure.caption.76}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 在SMIMSS中插入或更新授權商家的產品目錄\relax }}{33}{figure.caption.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 驗收測試（Acceptance Testing）\relax }}{40}{figure.caption.77}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 登錄、等待結帳的商品、刪除商品及支付確認\relax }}{34}{figure.caption.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程\relax }}{47}{figure.caption.97}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票\relax }}{35}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\addvspace {10.0pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 整合子系統測試\relax }}{39}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用案例圖 (use case diagram)\relax }}{40}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 驗收測試（Acceptance Testing）\relax }}{40}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程\relax }}{47}{figure.caption.99}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
