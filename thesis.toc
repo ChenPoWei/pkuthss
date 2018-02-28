@@ -182,9 +182,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5.1}交易效能實驗}{38}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗目的}{38}{paragraph*.79}
+\contentsline {paragraph}{實驗目的}{39}{paragraph*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗方法}{38}{paragraph*.80}
+\contentsline {paragraph}{實驗方法}{39}{paragraph*.80}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{實驗結果}{39}{paragraph*.81}
 \defcounter {refsection}{0}\relax 
