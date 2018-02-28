@@ -480,6 +480,9 @@ OUTPUT thesis.toc
 INPUT thesis.lof
 INPUT thesis.lof
 OUTPUT thesis.lof
+INPUT thesis.lot
+INPUT thesis.lot
+OUTPUT thesis.lot
 OUTPUT chap/introduction.aux
 INPUT chap/introduction.tex
 INPUT chap/introduction.tex
