@@ -364,6 +364,8 @@ INPUT chap/chap6.aux
 INPUT chap/chap6.aux
 INPUT chap/chap7.aux
 INPUT chap/chap7.aux
+INPUT chap/chap8.aux
+INPUT chap/chap8.aux
 INPUT chap/acknowledge.aux
 INPUT chap/acknowledge.aux
 INPUT chap/originauth.aux
@@ -558,10 +560,13 @@ INPUT chap/chap6.tex
 INPUT IntegrationTesting.png
 INPUT usecasediagram.png
 INPUT AcceptanceTesting.png
-INPUT fig9.png
 OUTPUT chap/chap7.aux
 INPUT chap/chap7.tex
 INPUT chap/chap7.tex
+INPUT fig9.png
+OUTPUT chap/chap8.aux
+INPUT chap/chap8.tex
+INPUT chap/chap8.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
@@ -597,6 +602,8 @@ INPUT chap/chap6.aux
 INPUT chap/chap6.aux
 INPUT chap/chap7.aux
 INPUT chap/chap7.aux
+INPUT chap/chap8.aux
+INPUT chap/chap8.aux
 INPUT chap/acknowledge.aux
 INPUT chap/acknowledge.aux
 INPUT chap/originauth.aux

@@ -3,12 +3,12 @@
   "chap6.xdv" 0 -1 0 "xelatex"
   (generated)
   "chap6.pdf"
-["xelatex"] 1519820029 "chap6.tex" "chap6.xdv" "chap6" 1519820029
+["xelatex"] 1519839076 "chap6.tex" "chap6.xdv" "chap6" 1519839078
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1516954329 3678530 5bee602439c91eeaeec06266a96b8175 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "chap6.aux" 1519819879 11452 a7e0702aef16092ae4da63a87dfc6b54 ""
-  "chap6.tex" 1519820029 14892 e8996ed1cd9c941a5a8c2d67e3d3da68 ""
+  "chap6.aux" 1519838424 16812 852fc30a36d7b252fa2e00365754b373 ""
+  "chap6.tex" 1519839076 29373 0a61ad5cf8ad128a7510fa0a137bf005 ""
   (generated)
-  "chap6.log"
   "chap6.xdv"
+  "chap6.log"
