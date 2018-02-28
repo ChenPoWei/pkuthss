@@ -7,7 +7,7 @@
 在設計一個區塊鏈的實名交易監督系統之前，必須要針對不同的交易模型做探討。
 在區塊鏈的實名交易監督系統中，會以加密貨幣的觀點重新設計一個新的支付系統，重新深究匿名者與匿名者之間的交易模式、實名與實名之間的交易模式、匿名與實名之間的交易模式、實名客戶透過實名第三方再實名商家的交易模式以及實名客戶透過匿名第三方再實名商家的交易模式，這五種交易模式所代表著意義與時代革新帶來的技術變革。
 %%fig allan
-\begin{figure}[h]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width = 0.8\textwidth]{modeall.png}
 	\caption{各種交易模型示意圖}\label{modeall}
@@ -61,6 +61,24 @@
 			\caption{實名對匿名再對實名交易示意圖}\label{modenan}
 		\end{figure}
 
+		\subsection{交易關係比較}
+		綜合上述五種交易方式，我們可以統整出一張交易關係比較表，如表\ref{txvs}。我們可以發現除了部分數位元貨幣以及用現金與未開收據的店家做交易，這兩種方式最能保障消費者，但後者會讓商家成為匿名交易者，否則現今絕大多數的交易商家皆為實名制，即是為了保障消費者的權益，然而目前最廣為人知的數位貨幣是比特幣，在它的區塊鏈上只能查看透過雜湊處理所得的地址，無法得知交易雙方的真實資訊，倘若比特幣被用來執行非法交易、或是交易產生爭議，都無法輕易認定區塊鏈上的交易與現實生活中的交易是有關聯的。因此本系統致力於將比特幣從匿名對匿名的交易，強化成匿名對實名的交易，一方面便於政府監督社會上的金流，另一方面也可讓使用者在以比特幣交易時更有保障。
+
+		\begin{table}[htbp]
+		\centering
+		\caption{交易關係比較表}
+		\label{txvs}
+		\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		 & 顧客 & 仲介單位 & 商家 & 商品 \\ \hline
+		現金 & 匿名 & 無 & 匿名/實名 & 匿名/實名 \\ \hline
+		VISA & 實名 & 無 & 實名 & 實名 \\ \hline
+		支付寶 & 實名 & 實名 & 實名 & 實名 \\ \hline
+		PayPal & 實名 & 匿名 & 實名 & 實名 \\ \hline
+		加密貨幣 & 匿名 & 無 & 匿名/實名 & 匿名/實名 \\ \hline
+		\end{tabular}
+		\end{table}
+
 	\section{特性要因分析}
 		\begin{figure}[htbp]
 			\centering
@@ -73,5 +91,35 @@
 			\includegraphics[width = 1\textwidth]{fish2.png}
 			\caption{魚骨圖（2）}\label{fish1}
 		\end{figure}
+	\section{國際情勢分析}
+	比特幣的應用有正向的也有反面的，因此世界各國政府的態度也並不一致，大略可以分成三種對應策略，第一種如以色列、法國、新加坡等…國家則認為比特幣對於金融發展是利大於弊，所以抱持者歡迎或放任的態度；另外一種，像韓國、菲律賓、馬來西亞等…國家則是認為比特幣這類的加密貨幣會影響國家金融策略或是危害人民的財產安全，因此正在著手修法監管相關貨幣；最後則是印尼、摩洛哥及眾所矚目的中國，這些國家認為比特幣這類的加密貨幣不應該國內流通甚至是發展，因此紛紛宣告境內禁止國內的加密貨幣交易，如表\ref{world}。
+		\begin{table}[htbp]
+		\centering
+		\caption{各國政府對比特幣態度統整表}
+		\label{world}
+		\begin{tabular}{@{}|l|l|c|c|l|@{}}
+		\toprule
+		\multicolumn{1}{|c|}{\multirow{2}{*}{序號}} & \multicolumn{1}{c|}{\multirow{2}{*}{國家}} & \multicolumn{2}{c|}{接納} & \multicolumn{1}{c|}{\multirow{2}{*}{禁止}} \\ \cmidrule(lr){3-4}
+		\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 歡迎/放任 & 監管 & \multicolumn{1}{c|}{} \\ \midrule
+		1 & 伊朗 & \begin{tabular}[c]{@{}c@{}}監管得當歡迎\\ 比特幣發展\end{tabular} &  &  \\ \midrule
+		2 & 以色列 & \begin{tabular}[c]{@{}c@{}}歡迎：欲發展\\ 國際ICO中心\end{tabular} &  &  \\ \midrule
+		3 & 法國 & \begin{tabular}[c]{@{}c@{}}放任：與實體\\ 經濟無關\end{tabular} &  &  \\ \midrule
+		4 & 美國 & 暫不構成威脅 &  &  \\ \midrule
+		5 & 新加坡 & \begin{tabular}[c]{@{}c@{}}不監管但注意\\ 周邊活動\end{tabular} &  &  \\ \midrule
+		6 & \begin{tabular}[c]{@{}l@{}}沙特阿拉\\ 伯王国\end{tabular} & \begin{tabular}[c]{@{}c@{}}加密貨幣尚未\\ 成熟，不監管\end{tabular} &  &  \\ \midrule
+		7 & 烏克蘭 & 不屬於貨幣 &  &  \\ \midrule
+		8 & 韓國 &  & \begin{tabular}[c]{@{}c@{}}很快將監管\\ 交易所\end{tabular} &  \\ \midrule
+		9 & 菲律賓 &  & 計劃監管ICO &  \\ \midrule
+		10 & 英國 &  & 考慮監管 &  \\ \midrule
+		11 & 馬來西亞 & \multicolumn{1}{l|}{} & 正規化監管框架 & \multicolumn{1}{c|}{} \\ \midrule
+		12 & 俄羅斯 & \multicolumn{1}{l|}{} & \begin{tabular}[c]{@{}c@{}}2018年7月前\\ 完成立法\end{tabular} & \multicolumn{1}{c|}{} \\ \midrule
+		13 & 日本 & \multicolumn{1}{l|}{} & \begin{tabular}[c]{@{}c@{}}任命加密貨幣\\ 監察長\end{tabular} & \multicolumn{1}{c|}{} \\ \midrule
+		14 & 香港 & \multicolumn{1}{l|}{} & ICO須受法規監管 & \multicolumn{1}{c|}{} \\ \midrule
+		15 & 辛巴威 & \multicolumn{1}{l|}{} &  & \multicolumn{1}{c|}{定法前，屬非法} \\ \midrule
+		16 & 摩洛哥 & \multicolumn{1}{l|}{} &  & \multicolumn{1}{c|}{禁止加密貨幣交易} \\ \midrule
+		17 & 印尼 & \multicolumn{1}{l|}{} &  & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}2018年前\\ 全面禁止\end{tabular}} \\ \midrule
+		18 & 中國 & \multicolumn{1}{l|}{} &  & \multicolumn{1}{c|}{禁止加密貨幣} \\ \bottomrule
+		\end{tabular}
+		\end{table}
 %		\subsection{匿名客戶對匿名商家}
 %	\section{各種交易模型比較}

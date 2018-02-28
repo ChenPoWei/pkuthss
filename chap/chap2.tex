@@ -14,7 +14,7 @@
 			\subsubsection{亂數產生器（Random number generator）}
 			亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公佈的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索的組態空間中擊中了15個比特幣地址，該團隊也成功將這15 個地址下的1.180899個比特幣轉走。
 
-			\begin{figure}[h]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = .9\textwidth]{LBC.png}
 				\caption{LBC窮舉比特幣私鑰算力狀態圖\supercite{TheLargeBitcoinCollider}}\label{LBC}
@@ -29,7 +29,7 @@
 			非對稱式加密與對稱式加密最大的不同在於，對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的使用者Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公佈在網絡上，這時希望聯繫Alice的使用者Bob在網絡上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，即使網絡存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易之數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花費的輸出（Unspent Transaction Output，UTXO）進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網絡的交易緩存池當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收入到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工將該筆交易收入至比特幣區塊鏈當中。
 			比特幣採用的secp256k1是屬於橢圓曲線密碼學中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線方程$$y^2=x^3+ax+b$$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F為巨大的素數、G點被稱爲⽣成點的常數點亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}顯示，當ECC產生571 bits的密鑰長度，RSA要達到相同的安全性需要生成15360 bits，這也導致生成時間產生高達471倍之差距。
 			
-			\begin{figure}[h]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = .5\textwidth]{ECCtime.png}
 				\caption{ECC與RSA的密鑰對生成時間比較圖\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}\label{ECCtime}
@@ -37,7 +37,7 @@
 
 			除了在密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS\supercite{LatticesignaturesandbimodalGaussians}做出了深度的安全性探討\supercite{LatticesignaturesandbimodalGaussians}，圖\ref{LatticesignaturesandbimodalGaussians}同樣達到80 bits的安全性級數，RSA 1024需要1024 bits，ECDSA 160\supercite{DeploymentsofEllipticCurveCryptography}僅需要160 bits，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來量子計算機的蓬勃發展擁有2000 qbits運算能力，量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽章算法。
 
-			\begin{figure}[h]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = 1\textwidth]{LatticesignaturesandbimodalGaussians.png}
 				\caption{算法BLISS、RSA、ECDSA安全級數比較圖\supercite{LatticesignaturesandbimodalGaussians}}\label{LatticesignaturesandbimodalGaussians}
@@ -50,7 +50,7 @@
 %
 		\subsection{比特幣地址生成過程}
 
-		\begin{figure}[h]
+		\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = .9\textwidth]{address.png}
 				\caption{比特幣地址生成流程圖}\label{address}
@@ -77,7 +77,7 @@
 
 		 	\paragraph{Green Address錢包生成過程}
 		 	此節將詳細闡述Green Address錢包生成過程的重要步驟，如圖\ref{gabuild}所示。
-		 	\begin{figure}[h]
+		 	\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = .5\textwidth]{gabuild.png}
 				\caption{Green Address錢包生成流程圖}\label{gabuild}
@@ -95,7 +95,7 @@
 		 	\paragraph{Green Address交易發起流程}
 		 	說明完Green Address地址是如何創建之後，本節將詳細說明如何運用多重簽章地址發起交易至比特幣網絡中，如圖\ref{gatx}所示。
 
-		 	\begin{figure}[h]
+		 	\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = .7\textwidth]{gatx.png}
 				\caption{Green Address交易發起流程圖}\label{gatx}
