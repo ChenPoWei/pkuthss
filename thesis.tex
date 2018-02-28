@@ -1,31 +1,7 @@
-% Copyright (c) 2008-2009 solvethis
-% Copyright (c) 2010-2016 Casper Ti. Vector
-% Public domain.
-%
-% 使用前请先仔细阅读 pkuthss 和 biblatex-caspervector 的文档，
-% 特别是其中的 FAQ 部分和用红色强调的部分。
-% 两者可在终端/命令提示符中用
-%   texdoc pkuthss
-%   texdoc biblatex-caspervector
-% 调出。
-
-% 采用了自定义的（包括大小写不同于原文档的）字体文档名，
-% 并改动 ctex.cfg 等配置文档的用户请自行加入 nofonts 选项；
-% 其它用户不用加入 nofonts 选项，加入之后反而会产生错误。
 \documentclass[UTF8]{pkuthss}
-
-% 使用 biblatex 排版参考文献，并规定其格式（详见 biblatex-caspervector 的文档）。
-% 这里按照英文文献在前，中文文献在后排序（“sorting = ecnty”）；
-% 若需按照中文文献在前，英文文献在后排序，请设置“sorting = centy”；
-% 若需按照引用顺序排序，请设置“sorting = none”。
-% 若需在排序中实现更复杂的需求，请参考 biblatex-caspervector 的文档。
 \usepackage[backend = biber, style = caspervector, utf8, sorting = none]{biblatex}
-% 按学校要求设定参考文献列表中的条目之内及之间的距离。
 \setlength{\bibitemsep}{3bp}
-% 对于 linespread 值的计算过程有兴趣的同学可以参考 pkuthss.cls。
 \renewcommand*{\bibfont}{\zihao{5}\linespread{1.27}\selectfont}
-
-% 设定文档的基本信息。
 \pkuthssinfo{
 	cthesisname = {硕士研究生学位论文}, ethesisname = {Master Thesis},
 	ctitle = {区块链的实名交易监督系统的设计与实现}, etitle = {Design and Realization of blockchain real-name transaction monitoring system},
@@ -39,11 +15,7 @@
 	cmentor = {李杰教授}, ementor = {Prof.\ Lijie},
 	ckeywords = {比特币，区块链，多重签章}, ekeywords = {Bitcoin, Blockchain, Multiple signatures}
 }
-% 载入参考文献数据库（注意不要省略“.bib”）。
 \addbibresource{thesis.bib}
-
-% 普通用户可删除此段，并相应地删除 chap/*.tex 中的
-% “\pkuthssffaq % 中文测试文本。”一行。
 \usepackage{color}
 \def\pkuthssffaq{%
 	\emph{\textcolor{red}{pkuthss 文档模版最常见问题：}}
@@ -99,7 +71,7 @@
 	\include{chap/chap5}
 	\include{chap/chap6}
 	\include{chap/chap7}
-	\include{chap/chap8}
+	% \include{chap/chap8}
 	% 结论。
 	%\include{chap/conclusion}
 	% 正文中的附录部分。

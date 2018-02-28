@@ -84,80 +84,122 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}點對點網絡與加密貨幣安全}{19}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}交易模型分析}{21}{chapter.3}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系統需求分析}{21}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}現金交易模型}{21}{section.3.1}
+\contentsline {section}{\numberline {3.1}交易模型分析}{21}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}匿名客戶對匿名商家}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}現金交易模型}{21}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}匿名客戶對實名商家}{22}{subsection.3.1.2}
+\contentsline {subsubsection}{匿名客戶對匿名商家}{21}{subsubsection*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}電子貨幣交易模型}{22}{section.3.2}
+\contentsline {subsubsection}{匿名客戶對實名商家}{22}{subsubsection*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}實名客戶支付實名商家}{22}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.1.2}電子貨幣交易模型}{22}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}實名客戶透過實名第三方再實名商家}{23}{subsection.3.2.2}
+\contentsline {subsubsection}{實名客戶支付實名商家}{22}{subsubsection*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}實名客戶透過匿名第三方再實名商家}{23}{subsection.3.2.3}
+\contentsline {subsubsection}{實名客戶透過實名第三方再實名商家}{23}{subsubsection*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}區塊鏈的實名交易監督系統設計}{25}{chapter.4}
+\contentsline {subsubsection}{實名客戶透過匿名第三方再實名商家}{23}{subsubsection*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}BRTMS數據庫設計}{25}{section.4.1}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統設計}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}原數據庫}{25}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.1}區塊鏈的實名交易監督系統設計}{25}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{店家數據庫}{26}{paragraph*.46}
+\contentsline {subsection}{\numberline {4.1.1}BRTMS數據庫設計}{25}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{產品數據庫}{26}{paragraph*.47}
+\contentsline {subsubsection}{原數據庫}{25}{subsubsection*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{交易數據庫}{26}{paragraph*.48}
+\contentsline {paragraph}{店家數據庫}{26}{paragraph*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{使用者數據庫}{26}{paragraph*.49}
+\contentsline {paragraph}{產品數據庫}{26}{paragraph*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}關聯數據庫}{26}{subsection.4.1.2}
+\contentsline {paragraph}{交易數據庫}{26}{paragraph*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-用戶數據庫}{26}{paragraph*.50}
+\contentsline {paragraph}{使用者數據庫}{26}{paragraph*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-產品數據庫}{26}{paragraph*.51}
+\contentsline {subsubsection}{關聯數據庫}{26}{subsubsection*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-交易數據庫}{26}{paragraph*.52}
+\contentsline {paragraph}{商家-用戶數據庫}{26}{paragraph*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}商店和商品信息管理子系統（SMIMSS）}{26}{section.4.2}
+\contentsline {paragraph}{商家-產品數據庫}{26}{paragraph*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}BRTMS架構與運作流程}{27}{section.4.3}
+\contentsline {paragraph}{商家-交易數據庫}{26}{paragraph*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}以多重簽章優化區塊鏈的實名交易監督系統之實作}{31}{chapter.5}
+\contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{26}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}區塊鏈的實名交易監督系統之實作}{33}{chapter.6}
+\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{27}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}區塊鏈的實名交易監督系統與優化後系統實驗}{37}{chapter.7}
+\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{29}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}區塊鏈的實名交易監督系統實驗}{37}{section.7.1}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統實現}{31}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}多重簽章優化區塊鏈的實名交易監督系統實驗}{37}{section.7.2}
+\contentsline {section}{\numberline {5.1}區塊鏈的實名交易監督系統實現}{31}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}交易效能實驗}{37}{subsection.7.2.1}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{35}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗目的}{38}{paragraph*.61}
+\contentsline {paragraph}{基於區塊鏈技術的收款監督系統(Blockchain-based Payment Collection Supervision system, BPCS)}{35}{paragraph*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗方法}{38}{paragraph*.62}
+\contentsline {paragraph}{商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)}{35}{paragraph*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗結果}{38}{paragraph*.63}
+\contentsline {paragraph}{商家端行動收銀與交易明細系統(Store Mobile payment Collection and Transaction Sub-System，SMCTSS)}{35}{paragraph*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}結論}{39}{chapter.8}
+\contentsline {paragraph}{顧客端行動支付與交易明細系統(Client Mobile Payment and Transaction Sub-System，CMPTSS)}{35}{paragraph*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}提出的BRTMS架構還包括以下特色}{39}{section.8.1}
+\contentsline {section}{\numberline {6.1}測試說明}{36}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}提議的BRTMS的優點總結}{39}{section.8.2}
+\contentsline {subsection}{\numberline {6.1.1}測試範圍}{36}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{消費者}{39}{paragraph*.64}
+\contentsline {subsection}{\numberline {6.1.2}驗收標準}{36}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家}{39}{paragraph*.65}
+\contentsline {section}{\numberline {6.2}測試環境}{36}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{政府}{40}{paragraph*.66}
+\contentsline {subsection}{\numberline {6.2.1}硬件規格}{36}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{41}{appendix*.67}
+\contentsline {paragraph}{系統主機}{36}{paragraph*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{45}{appendix*.68}
+\contentsline {paragraph}{周邊設備}{36}{paragraph*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{47}{appendix*.69}
+\contentsline {subsection}{\numberline {6.2.2}軟件規格}{36}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}測試數據源}{37}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}測試計劃和程序}{37}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}測試時間規劃}{37}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{時程}{37}{paragraph*.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{查核點}{37}{paragraph*.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}集成測試}{37}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}區塊鏈的實名交易監督系統實驗}{37}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}多重簽章優化區塊鏈的實名交易監督系統實驗}{38}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.1}交易效能實驗}{38}{subsection.6.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{實驗目的}{38}{paragraph*.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{實驗方法}{38}{paragraph*.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{實驗結果}{38}{paragraph*.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}結論}{41}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}提出的BRTMS架構還包括以下特色}{41}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}提議的BRTMS的優點總結}{41}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{消費者}{41}{paragraph*.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{商家}{41}{paragraph*.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{政府}{42}{paragraph*.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{参考文献}{43}{appendix*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{47}{appendix*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{49}{appendix*.84}

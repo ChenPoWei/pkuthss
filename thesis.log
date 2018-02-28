@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  18 FEB 2018 04:11
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  28 FEB 2018 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2269,14 +2269,14 @@ spervector-utf8.def
 File: biblatex-caspervector-utf8.def 2017/03/01 v0.2.7 Chinese punctuations and
  captions in UTF-8
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 63
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 35
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 63.
+(Font)              scaled to size 12.045pt on input line 35.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2289,73 +2289,72 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 63.
+(biblatex)                Setting 'seconds=true' on input line 35.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
 (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
-(./chap/chap7.aux) (./chap/chap8.aux) (./chap/acknowledge.aux)
-(./chap/originauth.aux))
+(./chap/chap7.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 63.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 63
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 35.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 35
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 63.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 35.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 63.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 63
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 35
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 6
-3.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 3
+5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 63.
+LaTeX Info: Redefining \selectfont on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2398,7 +2397,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2408,9 +2407,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count397
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
@@ -2427,10 +2426,10 @@ Package biblatex Info: ... file 'thesis.bbl' found.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 41.
 )
-Package biblatex Info: Reference section=0 on input line 63.
-Package biblatex Info: Reference segment=0 on input line 63.
+Package biblatex Info: Reference section=0 on input line 35.
+Package biblatex Info: Reference segment=0 on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 26.09749pt on input line 71.
+(Font)              scaled to size 26.09749pt on input line 43.
 File: pkulogo.pdf Graphic file (type QTm)
  <use  "pkulogo.pdf" >
 File: pkuword.pdf Graphic file (type QTm)
@@ -2438,53 +2437,53 @@ File: pkuword.pdf Graphic file (type QTm)
 <use  "pkuword.pdf" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <26.09749> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 26.09749pt on input line 71.
+(Font)              scaled to size 26.09749pt on input line 43.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 22.08249pt on input line 71.
+(Font)              scaled to size 22.08249pt on input line 43.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <22.08249> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 22.08249pt on input line 71.
+(Font)              scaled to size 22.08249pt on input line 43.
 \pkuthss@tmp@linecount=\count398
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 71.
-LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 7
-1.
+(Font)              scaled to size 16.06pt on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 4
+3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 71.
+(Font)              scaled to size 16.06pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 71.
+(Font)              scaled to size 14.05249pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 71.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 71.
+(Font)              scaled to size 10.53937pt on input line 43.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 43.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 71.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 43.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 71.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 43.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.06pt on input line 71.
+(Font)              scaled to size 16.06pt on input line 43.
 
 *************************************************
 * fontspec warning: "script-not-exist"
@@ -2525,7 +2524,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \pkuthss@tmp@linecount=\count404
 \pkuthss@tmp@linecount=\count405
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.06749pt on input line 71.
+(Font)              scaled to size 18.06749pt on input line 43.
 [1
 
 
@@ -2753,13 +2752,13 @@ File: bitcoinfullnode.png Graphic file (type QTm)
  (./chap/chap3.tex
 第三章
 File: modeall.png Graphic file (type QTm)
-<use  "modeall.png" >
-File: modeaa.png Graphic file (type QTm)
- <use  "modeaa.png" > [21
+<use  "modeall.png" > [21
 
 
 
 ]
+File: modeaa.png Graphic file (type QTm)
+ <use  "modeaa.png" >
 File: modean.png Graphic file (type QTm)
  <use  "modean.png" >
 File: modenn.png Graphic file (type QTm)
@@ -2772,21 +2771,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: modennn.png Graphic file (type QTm)
  <use  "modennn.png" >
 File: modenan.png Graphic file (type QTm)
- <use  "modenan.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [23] [24]
+ <use  "modenan.png" >) [23]
 \openout2 = `chap/chap4.aux'.
 
  (./chap/chap4.tex
-第四章
-File: db.png Graphic file (type QTm)
-<use  "db.png" > [25
+[24
 
 
 
 ]
+第四章
+File: db.png Graphic file (type QTm)
+<use  "db.png" > [25]
 File: fig3.png Graphic file (type QTm)
  <use  "fig3.png" >
 
@@ -2799,32 +2795,24 @@ File: fig4.png Graphic file (type QTm)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 1337) has occurred while \output is active []
+Underfull \vbox (badness 1466) has occurred while \output is active []
 
  [27]
-[28]) [29]
-\openout2 = `chap/chap5.aux'.
-
- (./chap/chap5.tex [30
-
-
-
-]
-第五章
+[28]
 File: gabpcss.png Graphic file (type QTm)
-<use  "gabpcss.png" >
+ <use  "gabpcss.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [31] [32]
-\openout2 = `chap/chap6.aux'.
+[29]) [30]
+\openout2 = `chap/chap5.aux'.
 
- (./chap/chap6.tex
-第六章
+ (./chap/chap5.tex
+第五章
 File: fig5.png Graphic file (type QTm)
 <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [33
+ <use  "fig6.png" > [31
 
 
 
@@ -2837,114 +2825,132 @@ File: fig8.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [34] [35]
+) [32] [33]
+\openout2 = `chap/chap6.aux'.
+
+ (./chap/chap6.tex [34
+
+
+
+]
+第六章
+Missing character: There is no   in font ntx-Regular-tlf-t1!
+[35]
+Missing character: There is no 度 in font STSong/OT!
+Missing character: There is no 利 in font STSong/OT!
+Missing character: There is no 行 in font STSong/OT!
+Missing character: There is no 列 in font STSong/OT!
+Missing character: There is no 列 in font STSong/OT!
+Missing character: There is no 行 in font STSong/OT!
+Missing character: There is no 例 in font STSong/OT!
+Missing character: There is no 行 in font STSong/OT!
+Missing character: There is no 說 in font STSong/OT!
+Missing character: There is no 列 in font STSong/OT!
+ [36]
+Missing character: There is no 度 in font STSong/OT!
+Missing character: There is no 度 in font STSong/OT!
+File: fig9.png Graphic file (type QTm)
+ <use  "fig9.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37]) [38] [39]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex [36
+ (./chap/chap7.tex [40
 
 
 
 ]
 第七章
-File: fig9.png Graphic file (type QTm)
-<use  "fig9.png" > [37]) [38]
-\openout2 = `chap/chap8.aux'.
-
- (./chap/chap8.tex
-第八章
-) [39
-
-
-
-] [40]
+) [41] [42]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 109.
+(Font)              scaled to size 10.53937pt on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 109.
-
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 109.
+(Font)              scaled to size 10.53937pt on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
 * Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 109
-.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 81.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 109.
+(Font)              scaled to size 10.53937pt on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
-[41
+[43
 
 
 ]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
-Overfull \hbox (12.55984pt too wide) in paragraph at lines 109--109
+Overfull \hbox (12.55984pt too wide) in paragraph at lines 81--81
 []\T1/ntxtlf/m/n/10.53937 Android De-vel-op-ers Blog. \T1/ntxtlf/m/it/10.53937 
 Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 /10.53937 https : / / android -[] developers .
@@ -2952,33 +2958,33 @@ Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
-[42]
-
-Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
-
+[44]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 109.
+(biblatex)                Using fallback driver on input line 81.
 
-[43] [44
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 81.
+
+[45] [46
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [45
+ (./chap/acknowledge.tex) [47
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [46
+ (./chap/originauth.tex [48
 
 
 
@@ -2991,28 +2997,27 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+) [49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
 (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
-(./chap/chap7.aux) (./chap/chap8.aux) (./chap/acknowledge.aux)
-(./chap/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 119.
+(./chap/chap7.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48363 strings out of 493005
- 949473 string characters out of 6134596
- 1363526 words of memory out of 5000000
- 51585 multiletter control sequences out of 15000+600000
+ 48355 strings out of 493005
+ 949338 string characters out of 6134596
+ 1361335 words of memory out of 5000000
+ 51584 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,12n,102p,10457b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,102p,10539b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (59 pages, 491176 bytes).
+Output written on thesis.xdv (61 pages, 522304 bytes).

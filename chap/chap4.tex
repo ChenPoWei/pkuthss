@@ -1,13 +1,15 @@
 % Copyright （c） 2014,2016 Casper Ti. Vector
 % Public domain.
 
-\chapter{區塊鏈的實名交易監督系統設計}
-%\pkuthssffaq % 中文測試文字。
+\chapter{系統設計}
+
+\section{區塊鏈的實名交易監督系統設計}
+
 本論文提出區塊鏈的實名交易監督系統（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以加密貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
 
-	\section{BRTMS數據庫設計}
+	\subsection{BRTMS數據庫設計}
 
-		\subsection{原數據庫}
+		\subsubsection{原數據庫}
 		區塊鏈的實名交易監督系統應用了四個原數據庫，分別為使用者數據庫、產品數據庫、商家數據庫、交易數據庫：
 
 		\begin{figure}[h]
@@ -21,13 +23,13 @@
 			\paragraph{交易數據庫}記錄包括交易序列號、產品識別號碼、產品交易金額、商戶加密貨幣收款人地址、消費者加密貨幣支付地址、商戶ID和最後確認字段的值。
 			\paragraph{使用者數據庫}存儲所有使用者信息，包括政府、商家及顧客之個人帳戶信息的數據庫，而使用者密碼則以哈希的方式保存，以增加用戶安全性。
 
-		\subsection{關聯數據庫}
+		\subsubsection{關聯數據庫}
 
 			\paragraph{商家-用戶數據庫}本數據庫存儲各個商家擁有的職員信息，包括各店家的商店編號、使用者編號及身分編碼。
 			\paragraph{商家-產品數據庫}此數據庫存儲各家公司當前商品存貨信息，由商店編號、產品編號及產品庫存所組成。
 			\paragraph{商家-交易數據庫}本數據庫記錄著每一筆交易的經手人是誰，並由交易編號、店家序號，及使用者序號組成。
 
-	\section{商店和商品信息管理子系統（SMIMSS）}
+	\subsection{商店和商品信息管理子系統（SMIMSS）}
 	圖\ref{fig3}為區塊鏈的實名交易監督系統架構，商家需要在以下4個步驟中對商店和商品信息管理子系統（SMIMSS）進行註冊:
 
 	\begin{figure}[h]
@@ -43,7 +45,7 @@
 		\item 商家可以自由地登錄賬戶並添加商家想要出售的產品，並檢查他們的加密貨幣交易數據，例如產品庫存和產品交易記錄。
 	\end{enumerate}
 
-	\section{BRTMS架構與運作流程}
+	\subsection{BRTMS架構與運作流程}
 	具體的加密貨幣商家收銀金流監控系統運行過程如圖\ref{fig4}所示，我們以圖\ref{fig3}所設計出的系統架構進行擴增，首先我們需要與區塊鏈檢視器 (blockchain explorer)對接，而之所以該監控系統需要與區塊鏈檢視器對接是為了能夠最直接的比對交易被記錄的成交狀況，能夠達到即時性以及正確性，倘若擔憂單方面的依賴相信區塊鏈檢視器的成果，亦可以使用多家區塊鏈檢視器進行交叉參考，以避免因為一家公司的錯誤所帶來的影響。區塊鏈檢視器的目的是為了能夠快速地準確地比對該筆交易的成交，做為整筆交易提出到結算的環節之一。
 
 	\begin{figure}[h]
@@ -65,3 +67,27 @@
 			\item 當“交易確認”字段中的值為“1”時，“交易已完成”消息可發送至商店平板電腦上運行的商店和商品信息管理子系統（SMCTSS）。
 			\item 政府財政監督部門可以審查擬議BRTMS中的所有交易信息，以作為稅收審計參考。
 		\end{enumerate}
+
+\section{以多重簽章優化區塊鏈的實名交易監督系統之設計} 
+
+在這樣的機制下，雖然Green Address 沒有減少交易確認時間，但是只要是用Green Address 即可確保雙重支付攻擊是不會發生的，對商家或是收款人而言，可以得到在即時交易中不被雙重支付攻擊的保障，提升未進入區塊鏈的交易可信度，進而創造出即時交易的可行性。 
+
+本節將詳述本系統之商家註冊、Green Address錢包創建與驗證交易的運作流程與相關數據庫架構，如圖\ref{gabpcss}所示。
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width = 0.8\textwidth]{gabpcss.png}
+		\caption{多重簽章優化後的BRTMS整體示意圖}\label{gabpcss}
+	\end{figure}
+
+	\begin{enumerate}
+		\item 商家以通過政府機構的審查稽覈的帳戶登入該系統。
+		\item 系統載入該店家註冊的商品信息，店員可以依照客戶的需求進行點單選取數量。
+		\item 快速建立交易清單，並透過Green Address建立一個全新的比特幣收款地址，再以Android Beam的方式將交易信息輕鬆地傳達給消費者。
+		\item 在商家店員的平板電腦收到這筆交易信息之後，會對本監督系統重送一個副本進行存檔。該交易信息包括由監督系統所提出的交易流水號、商家編號等信息。
+		\item 消費者收到交易信息後，手機會自動開啟Green Address的付款頁面，確認金額無誤之後便能進行支付，此時便會以客戶的比特幣私鑰簽署交易，並等待Green Address機構節點的認證及發布。
+		\item Green Address機構節點收到交易請求，並完成驗證非雙重支付攻擊後，以代理節點對應地址的私鑰簽署本次交易，並廣播至比特幣節點中。
+		\item 區塊鏈檢視器便會開始分析網絡中所有存在緩存池中的交易，以及已經被記錄到區塊鏈中的交易。
+		\item 本交易監督系統會向區塊鏈檢視器查找，檢查該筆交易是否已經存在於緩存池當中，若已經確認進入緩存池，則認定該筆交易成立並完成付款。
+		\item 在交易確認之後，便向商家店員的平板電腦送出交易已經成交的信息，此時完成交易，於此同時也將該筆交易信息建置於系統數據庫內。
+	\end{enumerate}
