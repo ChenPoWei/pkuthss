@@ -172,17 +172,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{查核點}{37}{paragraph*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}集成測試}{37}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}集成測試（Integration Testing）}{37}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}驗收測試}{37}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.3}驗收測試（Acceptance Testing）}{37}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}區塊鏈的實名交易監督系統實驗}{38}{section.6.4}
+\contentsline {section}{\numberline {6.4}區塊鏈的實名交易監督系統實驗}{37}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}多重簽章優化區塊鏈的實名交易監督系統實驗}{38}{section.6.5}
+\contentsline {section}{\numberline {6.5}多重簽章優化區塊鏈的實名交易監督系統實驗}{39}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.1}交易效能實驗}{38}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}交易效能實驗}{39}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗目的}{38}{paragraph*.78}
+\contentsline {paragraph}{實驗目的}{39}{paragraph*.78}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{實驗方法}{39}{paragraph*.79}
 \defcounter {refsection}{0}\relax 
