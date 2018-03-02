@@ -539,7 +539,6 @@ INPUT modenn.png
 INPUT modennn.png
 INPUT modenan.png
 INPUT fish1.png
-INPUT fish2.png
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
 INPUT chap/chap4.tex

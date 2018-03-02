@@ -106,7 +106,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}特性要因分析}{24}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}國際情勢分析}{25}{section.3.3}
+\contentsline {section}{\numberline {3.3}國際情勢分析}{24}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統設計}{27}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -114,23 +114,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}BRTMS數據庫設計}{27}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{原數據庫}{27}{subsubsection*.55}
+\contentsline {subsubsection}{原數據庫}{27}{subsubsection*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{店家數據庫}{28}{paragraph*.57}
+\contentsline {paragraph}{店家數據庫}{28}{paragraph*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{產品數據庫}{28}{paragraph*.58}
+\contentsline {paragraph}{產品數據庫}{28}{paragraph*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{交易數據庫}{28}{paragraph*.59}
+\contentsline {paragraph}{交易數據庫}{28}{paragraph*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{使用者數據庫}{28}{paragraph*.60}
+\contentsline {paragraph}{使用者數據庫}{28}{paragraph*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{關聯數據庫}{28}{subsubsection*.61}
+\contentsline {subsubsection}{關聯數據庫}{28}{subsubsection*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-用戶數據庫}{28}{paragraph*.62}
+\contentsline {paragraph}{商家-用戶數據庫}{28}{paragraph*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-產品數據庫}{28}{paragraph*.63}
+\contentsline {paragraph}{商家-產品數據庫}{28}{paragraph*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-交易數據庫}{28}{paragraph*.64}
+\contentsline {paragraph}{商家-交易數據庫}{28}{paragraph*.63}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{28}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
@@ -144,13 +144,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統軟體測試}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{區塊鏈的實名交易監督系統(Blockchain Real-name Transaction Monitoring System, BRTMS)}{39}{paragraph*.72}
+\contentsline {paragraph}{區塊鏈的實名交易監督系統(Blockchain Real-name Transaction Monitoring System, BRTMS)}{39}{paragraph*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)}{39}{paragraph*.73}
+\contentsline {paragraph}{商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)}{39}{paragraph*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家端行動收銀與交易明細系統(Store Mobile payment Collection and Transaction Sub-System，SMCTSS)}{39}{paragraph*.74}
+\contentsline {paragraph}{商家端行動收銀與交易明細系統(Store Mobile payment Collection and Transaction Sub-System，SMCTSS)}{39}{paragraph*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{顧客端行動支付與交易明細系統(Client Mobile Payment and Transaction Sub-System，CMPTSS)}{39}{paragraph*.75}
+\contentsline {paragraph}{顧客端行動支付與交易明細系統(Client Mobile Payment and Transaction Sub-System，CMPTSS)}{39}{paragraph*.74}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}測試說明}{40}{section.6.1}
 \defcounter {refsection}{0}\relax 
@@ -162,9 +162,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}硬件規格}{40}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{系統主機}{40}{paragraph*.76}
+\contentsline {paragraph}{系統主機}{40}{paragraph*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{周邊設備}{40}{paragraph*.77}
+\contentsline {paragraph}{周邊設備}{40}{paragraph*.76}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.2}軟件規格}{42}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
@@ -174,9 +174,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.1}測試時間規劃}{42}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{時程}{42}{paragraph*.80}
+\contentsline {paragraph}{時程}{42}{paragraph*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{查核點}{42}{paragraph*.81}
+\contentsline {paragraph}{查核點}{42}{paragraph*.80}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.2}整合測試（Integration Testing）}{42}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
@@ -186,19 +186,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.1}集成测试（Integration Test）}{44}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{IT1 测试用況}{44}{paragraph*.85}
+\contentsline {paragraph}{IT1 测试用況}{44}{paragraph*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{IT2测试用況}{44}{paragraph*.87}
+\contentsline {paragraph}{IT2测试用況}{44}{paragraph*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{IT3测试用況}{44}{paragraph*.89}
+\contentsline {paragraph}{IT3测试用況}{44}{paragraph*.88}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4.2}接受測試用況（Acceptance Testing Cases）}{44}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{AT1 Test Case}{44}{paragraph*.91}
+\contentsline {paragraph}{AT1 Test Case}{44}{paragraph*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{AT2 Test Case}{46}{paragraph*.93}
+\contentsline {paragraph}{AT2 Test Case}{46}{paragraph*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{AT3 Test Case}{46}{paragraph*.95}
+\contentsline {paragraph}{AT3 Test Case}{46}{paragraph*.94}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.5}測試結果和分析}{47}{section.6.5}
 \defcounter {refsection}{0}\relax 
@@ -208,9 +208,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5.3}可追蹤性（Traceability）}{47}{subsection.6.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{子系統與測試案例}{47}{paragraph*.99}
+\contentsline {paragraph}{子系統與測試案例}{47}{paragraph*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{需求與測試案例}{47}{paragraph*.101}
+\contentsline {paragraph}{需求與測試案例}{47}{paragraph*.100}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}系統效能實驗}{51}{chapter.7}
 \defcounter {refsection}{0}\relax 
@@ -220,26 +220,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.1}交易效能實驗}{53}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗目的}{53}{paragraph*.108}
+\contentsline {paragraph}{實驗目的}{53}{paragraph*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗方法}{53}{paragraph*.109}
+\contentsline {paragraph}{實驗方法}{53}{paragraph*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{實驗結果}{53}{paragraph*.110}
+\contentsline {paragraph}{實驗結果}{53}{paragraph*.109}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第八章\hspace {.3em}}結論}{55}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{提出的BRTMS架構還包括以下特色}{55}{paragraph*.113}
+\contentsline {paragraph}{提出的BRTMS架構還包括以下特色}{55}{paragraph*.112}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}提議的BRTMS的優點總結}{55}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{消費者}{55}{paragraph*.114}
+\contentsline {paragraph}{消費者}{55}{paragraph*.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家}{55}{paragraph*.115}
+\contentsline {paragraph}{商家}{55}{paragraph*.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{政府}{56}{paragraph*.116}
+\contentsline {paragraph}{政府}{56}{paragraph*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{57}{appendix*.117}
+\contentsline {chapter}{参考文献}{57}{appendix*.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{61}{appendix*.118}
+\contentsline {chapter}{致谢}{61}{appendix*.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{63}{appendix*.119}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{63}{appendix*.118}

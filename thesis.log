@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  1 MAR 2018 03:22
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  1 MAR 2018 03:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2334,12 +2334,9 @@ Package biblatex Warning: Conflicting options.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux)
 (./chap/introduction.aux) (./chap/chap1.aux) (./chap/chap2.aux)
-(./chap/chap3.aux
-
-LaTeX Warning: Label `fish1' multiply defined.
-
-) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux) (./chap/chap7.aux)
-(./chap/chap8.aux) (./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux) (./chap/chap6.aux)
+(./chap/chap7.aux) (./chap/chap8.aux) (./chap/acknowledge.aux)
+(./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 38.
@@ -2803,8 +2800,12 @@ File: modenan.png Graphic file (type QTm)
 File: fish1.png Graphic file (type QTm)
 
 <use  "fish1.png" >
-File: fish2.png Graphic file (type QTm)
- <use  "fish2.png" >) [24] [25] [26]
+Overfull \hbox (5.02498pt too wide) in paragraph at lines 83--89
+[]\TU/STSong(0)/m/n/12.045 透 過 特 性 要 因 分 析 可 以 將 区 块 链 的 实 名 交 易 监 督 系 统 大 致 分 
+為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.7[]\TU/STSong(0)/m/n/12.045 所
+ []
+
+) [24] [25] [26]
 \openout2 = `chap/chap4.aux'.
 
  (./chap/chap4.tex
@@ -3047,21 +3048,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 (./chap/originauth.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 98.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48658 strings out of 493005
- 955325 string characters out of 6134596
- 1380367 words of memory out of 5000000
- 51857 multiletter control sequences out of 15000+600000
+ 48656 strings out of 493005
+ 955307 string characters out of 6134596
+ 1380327 words of memory out of 5000000
+ 51856 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,17n,102p,10539b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (79 pages, 639536 bytes).
+Output written on thesis.xdv (79 pages, 644408 bytes).
