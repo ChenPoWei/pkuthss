@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  1 MAR 2018 03:46
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  5 MAR 2018 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2600,17 +2600,17 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
  (./chap/abstract.tex
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 6.
+(Font)              scaled to size 12.045pt on input line 5.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 6.
+(Font)              scaled to size 8.0pt on input line 5.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 6.
+(Font)              scaled to size 6.0pt on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 6.
+(Font)              scaled to size 8.0pt on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 11.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 11.
+(Font)              scaled to size 12.045pt on input line 10.
  [1
 
 
@@ -2635,14 +2635,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 . 
 . Could not resolve font "STXihei/I" (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 13.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 12.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.84042pt on input line 13.
+(Font)              scaled to size 10.84042pt on input line 12.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2660,9 +2660,9 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <18.06749> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 16.26062pt on input line 13.
+(Font)              scaled to size 16.26062pt on input line 12.
  [3
 
 ]) [4]
@@ -2705,20 +2705,20 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 ]
 第一章
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 6.
+(Font)              scaled to size 15.05624pt on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <15.05624> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 6.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 15.05624pt on input line 6.
+(Font)              scaled to size 15.05624pt on input line 5.
 File: TotalMarketCapitalization.png Graphic file (type QTm)
 <use  "TotalMarketCapitalization.png" >
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 15.
+(Font)              scaled to size 7.0pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 15.
+(Font)              scaled to size 5.0pt on input line 14.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 15.
+(Font)              scaled to size 7.0pt on input line 14.
  [3]
 File: Thetotalmarketcapitalization.png Graphic file (type QTm)
 
@@ -2727,12 +2727,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 32.
+(Font)              scaled to size 14.05249pt on input line 31.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.05249> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 32.
+(Font)              scaled to size 14.05249pt on input line 31.
 
 [5] [6]
 File: TPS.png Graphic file (type QTm)
@@ -2888,7 +2888,7 @@ File: fig9.png Graphic file (type QTm)
 <use  "fig9.png" >
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 14.
+               Default added (so using `tbp') on input line 13.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3055,10 +3055,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48656 strings out of 493005
  955307 string characters out of 6134596
- 1380327 words of memory out of 5000000
+ 1380328 words of memory out of 5000000
  51856 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,17n,102p,10539b,4682s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (79 pages, 644408 bytes).
+Output written on thesis.xdv (79 pages, 644156 bytes).
