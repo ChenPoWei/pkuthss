@@ -69,7 +69,7 @@
 			\end{figure}
 
 			\subsubsection{SHA-256}
-			SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3，如表\ref{hashtable}所示。
+			SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3，如表\ref{hashtable}所示。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈樹的不同。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。
 			
 
 				\begin{table}[htbp]
@@ -78,7 +78,7 @@
 				\label{hashtable}
 				\begin{tabular}{|c|c|c|c|c|c|c|}
 				\hline
-				算法 & 变体 & \begin{tabular}[c]{@{}c@{}}輸出\\ 哈希值\\ 長度\\ (bits)\end{tabular} & \begin{tabular}[c]{@{}c@{}}最大輸入\\ 信息長度\\ （bits）\end{tabular} & \begin{tabular}[c]{@{}c@{}}迴圈\\ 次數\end{tabular} & 使用到的運算子 & \begin{tabular}[c]{@{}c@{}}碰撞\\ 攻击\\ （bits）\end{tabular} \\ \hline
+				算法 & 分支 & \begin{tabular}[c]{@{}c@{}}輸出\\ 哈希值\\ 長度\\ (bits)\end{tabular} & \begin{tabular}[c]{@{}c@{}}最大輸入\\ 信息長度\\ （bits）\end{tabular} & \begin{tabular}[c]{@{}c@{}}迴圈\\ 次數\end{tabular} & 使用到的運算子 & \begin{tabular}[c]{@{}c@{}}碰撞\\ 攻击\\ （bits）\end{tabular} \\ \hline
 				\begin{tabular}[c]{@{}c@{}}MD5\\ 参考\end{tabular} & - & 128 & $\infty$ & 64 & \multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}And, Xor, Rot, Or, \\ Add (mod $2^{32}$)\end{tabular}} & \begin{tabular}[c]{@{}c@{}}$<64$ \\ 已碰撞\end{tabular} \\ \cline{1-5} \cline{7-7} 
 				SHA-0 & - & \multirow{2}{*}{160} & \multirow{2}{*}{$2^{64}-1$} & \multirow{2}{*}{80} &  & \begin{tabular}[c]{@{}c@{}}$<80$ \\ 已碰撞\end{tabular} \\ \cline{1-2} \cline{7-7} 
 				SHA-1 & - &  &  &  &  & \begin{tabular}[c]{@{}c@{}}$<80$ \\ 已碰撞\end{tabular} \\ \hline

@@ -66,7 +66,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Green Address錢包生成過程}{17}{paragraph*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Green Address交易發起流程}{18}{paragraph*.32}
+\contentsline {paragraph}{Green Address交易發起流程}{17}{paragraph*.32}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{19}{section.2.3}
 \defcounter {refsection}{0}\relax 
@@ -76,7 +76,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{前區塊的哈希值（256 bits）}{19}{paragraph*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Merkle Root（256 bits）}{19}{paragraph*.37}
+\contentsline {paragraph}{Merkle Root（256 bits）}{20}{paragraph*.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{難易度（32 bits）}{20}{paragraph*.39}
 \defcounter {refsection}{0}\relax 
