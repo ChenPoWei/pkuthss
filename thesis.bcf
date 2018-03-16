@@ -2202,14 +2202,15 @@
     <bcf:citekey order="77">DeploymentsofEllipticCurveCryptography</bcf:citekey>
     <bcf:citekey order="78">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="79">LatticesignaturesandbimodalGaussians</bcf:citekey>
-    <bcf:citekey order="80">Informationpropagationinthebitcoinnetwork</bcf:citekey>
-    <bcf:citekey order="81">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
-    <bcf:citekey order="82">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="80">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
+    <bcf:citekey order="81">Informationpropagationinthebitcoinnetwork</bcf:citekey>
+    <bcf:citekey order="82">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
     <bcf:citekey order="83">bitcoinfullnode</bcf:citekey>
     <bcf:citekey order="84">bitcoinfullnode</bcf:citekey>
-    <bcf:citekey order="85">bitcointestnet</bcf:citekey>
-    <bcf:citekey order="86">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="87">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
+    <bcf:citekey order="85">bitcoinfullnode</bcf:citekey>
+    <bcf:citekey order="86">bitcointestnet</bcf:citekey>
+    <bcf:citekey order="87">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="88">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
