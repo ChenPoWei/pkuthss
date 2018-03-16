@@ -69,7 +69,15 @@
 			\end{figure}
 
 			\subsubsection{SHA-256}
-			SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3，如表\ref{hashtable}所示。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈樹的不同。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。
+			SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3，如表\ref{hashtable}所示。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈樹的不同。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。表\ref{hashtable}中MD5不為SHA家族成員之一，但MD5為最早被廣泛使用的哈希算法，因此作為借鑒的標準。SHA-0為SHA家族中被最早提出的架構，輸出的長度為160 bits，而SHA-1提出後並無太大的變動。
+			哈希算法的主要功能在於，將信息或是檔案建立一個對一的指紋，也就是哈希值，而該指紋長度會依照算法的設計輸出的長度而略有不同，表\ref{hashtable}中顯示的輸出哈希值長度，而長度也意味著該指紋的組態空間應設的大小。倘若有著不同的輸入，但映射到了相同的指紋，則將此現象稱之為碰撞。通常在信息安全領域中，只要發現該哈希算法存在著碰撞，就會被棄用。甚至是專家們提早數年提出警告，要求提早更換該哈希算法，並更換上新制定的哈希算法做應用。
+			
+			\paragraph{哈希算法的應用}
+			哈希算法的功能包括藉由生成哈希值進行檔案校驗、比特幣工作量證明算法設計、區塊鏈中的哈希指針、比特幣交易的
+
+			\subparagraph{生成哈希值進行檔案校驗}
+			哈希值在過往的應用中，往往作為檔案完整性的校驗，軟件供應者會在網站中提供各式不同算法的哈希值供給使用者下載完軟件之後，使用者將檔案輸入哈希算法中生成出哈希值後進行比對。但倘若該哈希算法存在碰撞的發生，這會使得不同的檔案存在著同樣的哈希值。這也意味著軟體提供平台所提供的軟體可能存在著摻入惡意代碼後，還能生成同樣的哈希指紋，失去了檔案完整性的校驗的功能，這便成為信息安全中的重大漏洞，因此在表\ref{hashtable}中的MD5、SHA-0以及SHA-1皆為已經棄用之算法。
+
 			
 
 				\begin{table}[htbp]
