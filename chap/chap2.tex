@@ -4,7 +4,31 @@
 \chapter{文獻探討}
 
 	\section{比特幣（Bitcoin）}
-	比特幣（Bitcoin，BTC）是一個點對點式的電子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature Cryptography）\supercite{Apublickeycryptosystemandasignatureschemebasedondiscretelogarithms}、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash Function Cryptography）、共識算法（Consensus Algorithm）\supercite{Anonymousbyzantineconsensusfrommoderately-hardpuzzles:Amodelforbitcoin}諸多技術建構了一個分散式、不需要仰賴中心化機構加以維護的交易帳本。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
+
+	\begin{table}[htbp]
+	\centering
+	\caption{比特幣簡介}
+	\label{IntroductiontoBitcoin}
+	\begin{tabular}{|l|l|}
+	\hline
+	第一個區塊生成時間 & 2009年1月3日 \\ \hline
+	比特幣預計總產量 & 21,000,000 BTC \\ \hline
+	比特幣目前總產量 & 16,921,800 BTC \\ \hline
+	最新區塊高度 & 513743 \\ \hline
+	比特幣總市值（人民幣） & 5兆 \\ \hline
+	比特幣全節點的數量 & 11147 個 \\ \hline
+	單日比特幣交易金額（BTC） & 124,017.02430718 BTC \\ \hline
+	單日交易筆數 & 196,606 筆 \\ \hline
+	比特幣區塊鏈大小 & 188.89 GB \\ \hline
+	平均區塊大小 & 0.75 MB \\ \hline
+	平均生成單一區塊所需時間 & 9.67 分鐘 \\ \hline
+	單日產出比特幣數量 & 1,775 BTC \\ \hline
+	挖礦難易度參數 & 3,290,605,988,755 \\ \hline
+	全網挖礦算力 & 23,555,075.18 THash/s \\ \hline
+	\end{tabular}
+	\end{table}
+
+	比特幣（Bitcoin，BTC）表\ref{IntroductiontoBitcoin}是比特幣系統的相關參數簡介，比特幣是一個點對點式的電子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature Cryptography）\supercite{Apublickeycryptosystemandasignatureschemebasedondiscretelogarithms}、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash Function Cryptography）、共識算法（Consensus Algorithm）\supercite{Anonymousbyzantineconsensusfrommoderately-hardpuzzles:Amodelforbitcoin}諸多技術建構了一個分散式、不需要仰賴中心化機構加以維護的交易帳本。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
 
 	\section{比特幣地址（Bitcoin Address）}
 	⽐特幣地址為⽐特幣的載體，深⼊瞭解⽐特幣的地址⽣成相關算法、⽐特幣地址⽣成過程、多重簽章，可以近⼀步應⽤在區塊鏈的實名交易監督系統。

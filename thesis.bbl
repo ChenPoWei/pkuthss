@@ -192,6 +192,70 @@
       \verb https://solidity.readthedocs.io/en/develop/
       \endverb
     \endentry
+    \entry{Ethereum:Asecuredecentralisedgeneralisedtransactionledger}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9f252fbc7b8ff3c128b3e8dd806afa9b}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Gavin},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
+      \strng{fullhash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
+      \strng{authornamehash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
+      \strng{authorfullhash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ethereum Project Yellow Paper}
+      \field{title}{Ethereum: A secure decentralised generalised transaction ledger}
+      \field{userf}{en}
+      \field{volume}{151}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 32}
+      \range{pages}{32}
+    \endentry
+    \entry{Bitcoin:Economicstechnologyandgovernance}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b75a90bcdb494423d4d9bed6fbc29f33}{%
+           family={Böhme},
+           familyi={B\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=49b6e4efae3e3fb3bde55e0e65e09c8d}{%
+           family={Christin},
+           familyi={C\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=29a1a4692b61ccdb518a87bd6854a0bd}{%
+           family={Edelman},
+           familyi={E\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=daf5b824fdd1f6eefb27ea1c1743e32c}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fdfb8b281eb1ff7cab6f7ae6aa235ff}
+      \strng{fullhash}{0d9a433e29bb3c24df1f20ccae98f258}
+      \strng{authornamehash}{5fdfb8b281eb1ff7cab6f7ae6aa235ff}
+      \strng{authorfullhash}{0d9a433e29bb3c24df1f20ccae98f258}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{number}{2}
+      \field{title}{Bitcoin: Economics, technology, and governance}
+      \field{userf}{en}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{213\bibrangedash 38}
+      \range{pages}{26}
+    \endentry
     \entry{CryptocurrencyMarketCapitalizations}{webpage}{}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
@@ -297,8 +361,8 @@
       \strng{fullhash}{c4ca6b197d97757cd4e4f807a7ded17d}
       \strng{authornamehash}{c4ca6b197d97757cd4e4f807a7ded17d}
       \strng{authorfullhash}{c4ca6b197d97757cd4e4f807a7ded17d}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The use of bent sequences to achieve higher-order strict avalanche criterion in S-box design}
@@ -307,8 +371,8 @@
       \field{year}{1990}
     \endentry
     \entry{BitcoinImprovementProposals}{webpage}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labeltitlesource}{title}
       \field{title}{Bitcoin Improvement Proposals}
       \field{userf}{en}
@@ -387,8 +451,8 @@
       \strng{fullhash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authornamehash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authorfullhash}{ae67a5006df80a65b1c2d809e8c9409f}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Telecommunication Networks and Applications Conference (ITNAC), 2017 27th International}
@@ -415,8 +479,8 @@
       \strng{fullhash}{f210aa3ce6cff1854d8e83a45d04e647}
       \strng{authornamehash}{f210aa3ce6cff1854d8e83a45d04e647}
       \strng{authorfullhash}{f210aa3ce6cff1854d8e83a45d04e647}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Technical report}
@@ -628,8 +692,8 @@
       \strng{fullhash}{cc498fdca355b5ad3248f31c5734574d}
       \strng{authornamehash}{cc498fdca355b5ad3248f31c5734574d}
       \strng{authorfullhash}{cc498fdca355b5ad3248f31c5734574d}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Available on line: http://nakamotoinstitute. org/research/anonymous-byzantine-consensus}
@@ -873,8 +937,8 @@
       \strng{fullhash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authornamehash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authorfullhash}{a505088ac00d073baa17ad022ad49bf9}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -895,8 +959,8 @@
       \strng{fullhash}{42b3c8582b1ae93de201973499f05c72}
       \strng{authornamehash}{42b3c8582b1ae93de201973499f05c72}
       \strng{authorfullhash}{42b3c8582b1ae93de201973499f05c72}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -1150,8 +1214,8 @@
       \strng{fullhash}{0a609b766ef0a710480280c4fc474c4b}
       \strng{authornamehash}{0a609b766ef0a710480280c4fc474c4b}
       \strng{authorfullhash}{0a609b766ef0a710480280c4fc474c4b}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9~20}
@@ -1172,8 +1236,8 @@
       \strng{fullhash}{57af579700a7f1b95505caa26ac99651}
       \strng{authornamehash}{57af579700a7f1b95505caa26ac99651}
       \strng{authorfullhash}{57af579700a7f1b95505caa26ac99651}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mathematics of computation}
@@ -1293,8 +1357,8 @@
       \strng{fullhash}{a4c41072ff4ff40a89fa94150de406f8}
       \strng{authornamehash}{a4c41072ff4ff40a89fa94150de406f8}
       \strng{authorfullhash}{a4c41072ff4ff40a89fa94150de406f8}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Peer-to-Peer Computing (P2P), 2013 IEEE Thirteenth International Conference on}
@@ -1329,8 +1393,8 @@
       \strng{fullhash}{1e42e61af68f7880a2bf2a4e78993f75}
       \strng{authornamehash}{1e42e61af68f7880a2bf2a4e78993f75}
       \strng{authorfullhash}{1e42e61af68f7880a2bf2a4e78993f75}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2012 ACM conference on Computer and communications security}
