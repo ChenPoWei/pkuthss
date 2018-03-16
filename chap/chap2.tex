@@ -68,8 +68,32 @@
 				\caption{算法BLISS、RSA、ECDSA安全級數比較圖\supercite{LatticesignaturesandbimodalGaussians}}\label{LatticesignaturesandbimodalGaussians}
 			\end{figure}
 
-%			\subsubsection{SHA-256}
-%			哈希下數在比特幣系統中扮演著相當多的角色，包括比特幣地址生成、比特幣交易哈希指針、比特幣區塊哈希指針、比特幣挖礦算法工作量證明。哈希算法有幾大特色，分別為
+			\subsubsection{SHA-256}
+			SHA-256是SHA家族之一，
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+算法 & 变体 & \begin{tabular}[c]{@{}c@{}}輸出\\ 哈希值\\ 長度\\ (bits)\end{tabular} & \begin{tabular}[c]{@{}c@{}}最大輸\\ 入信息\\ 長度\\ （bits）\end{tabular} & \begin{tabular}[c]{@{}c@{}}迴圈\\ 次數\end{tabular} & 使用到的運算子 & \begin{tabular}[c]{@{}c@{}}碰撞\\ 攻击\\ （bits）\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}MD5\\ 参考\end{tabular} & - & 128 & $\infty$ & 64 & \multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}And, Xor, Rot, Or, \\ Add (mod $2^{32}$)\end{tabular}} & \begin{tabular}[c]{@{}c@{}}$<64$ \\ 已碰撞\end{tabular} \\ \cline{1-5} \cline{7-7} 
+SHA-0 & - & \multirow{2}{*}{160} & \multirow{2}{*}{$2^{64} − 1$} & \multirow{2}{*}{80} &  & \begin{tabular}[c]{@{}c@{}}$<80$ \\ 已碰撞\end{tabular} \\ \cline{1-2} \cline{7-7} 
+SHA-1 & - &  &  &  &  & \begin{tabular}[c]{@{}c@{}}$<80$ \\ 已碰撞\end{tabular} \\ \hline
+\multirow{4}{*}{SHA-2} & SHA-224 & 224 & \multirow{2}{*}{$2^{64} − 1$} & \multirow{2}{*}{64} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}And, Xor, Rot, Or, Shr, \\ Add (mod $2^{32}$)\end{tabular}} & 112 \\ \cline{2-3} \cline{7-7} 
+ & SHA-256 & 256 &  &  &  & 128 \\ \cline{2-7} 
+ & SHA-384 & 384 & \multirow{2}{*}{$2^{128} − 1$} & \multirow{2}{*}{80} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}And, Xor, Rot, Or, Shr, \\ Add (mod $2^{64}$)\end{tabular}} & 192 \\ \cline{2-3} \cline{7-7} 
+ & SHA-512 & 512 &  &  &  & 256 \\ \hline
+\multirow{4}{*}{SHA-3} & SHA3-224 & 224 & \multirow{4}{*}{$\infty$} & \multirow{4}{*}{24} & \multirow{4}{*}{And, Xor, Rot, Not} & 112 \\ \cline{2-3} \cline{7-7} 
+ & SHA3-256 & 256 &  &  &  & 128 \\ \cline{2-3} \cline{7-7} 
+ & SHA3-384 & 384 &  &  &  & 192 \\ \cline{2-3} \cline{7-7} 
+ & SHA3-512 & 512 &  &  &  & 256 \\ \hline
+\end{tabular}
+\end{table}
+			% Please add the following required packages to your document preamble:
+
 %			\subsubsection{RIPEMD-160}
 %			\subsubsection{Base58}
 %
