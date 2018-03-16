@@ -64,7 +64,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{工作量證明算法設計}{15}{subparagraph*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{16}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}多重簽章（Multi-Signature）}{17}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
@@ -72,7 +72,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Green Address錢包生成過程}{18}{paragraph*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Green Address交易發起流程}{19}{paragraph*.35}
+\contentsline {paragraph}{Green Address交易發起流程}{18}{paragraph*.35}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{20}{section.2.3}
 \defcounter {refsection}{0}\relax 
@@ -82,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{前區塊的哈希值（256 bits）}{20}{paragraph*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Merkle Root（256 bits）}{20}{paragraph*.40}
+\contentsline {paragraph}{Merkle Root（256 bits）}{21}{paragraph*.40}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{難易度（32 bits）}{21}{paragraph*.42}
 \defcounter {refsection}{0}\relax 
