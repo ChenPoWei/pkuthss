@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 MAR 2018 02:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  17 MAR 2018 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2758,38 +2758,33 @@ File: ECCtime.png Graphic file (type QTm)
 File: LatticesignaturesandbimodalGaussians.png Graphic file (type QTm)
 
 <use  "LatticesignaturesandbimodalGaussians.png" > [14] [15]
+File: 6confirm.jpg Graphic file (type QTm)
+
+<use  "6confirm.jpg" >
 File: address.png Graphic file (type QTm)
-
-<use  "address.png" >
+ <use  "address.png" > [16] [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
- [17]
-[18]
+ [18]
 File: gabuild.png Graphic file (type QTm)
- <use  "gabuild.png" >
-File: gatx.png Graphic file (type QTm)
- <use  "gatx.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<use  "gabuild.png" >
+Underfull \vbox (badness 5741) has occurred while \output is active []
 
  [19]
+File: gatx.png Graphic file (type QTm)
+
+<use  "gatx.png" > [20]
 File: blockchain.png Graphic file (type QTm)
-
-<use  "blockchain.png" >
-Underfull \vbox (badness 4819) has occurred while \output is active []
-
- [20]
-[21]
+ <use  "blockchain.png" > [21]
 File: MerkleRoot.png Graphic file (type QTm)
- <use  "MerkleRoot.png" > [22]
+ <use  "MerkleRoot.png" >
+[22]
 File: bitcoinfullnode.png Graphic file (type QTm)
  <use  "bitcoinfullnode.png" >) [23]
 \openout2 = `chap/chap3.aux'.
 
-
-(./chap/chap3.tex [24
+ (./chap/chap3.tex [24
 
 
 
@@ -3059,12 +3054,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48672 strings out of 493005
- 956294 string characters out of 6134596
- 1380720 words of memory out of 5000000
- 51872 multiletter control sequences out of 15000+600000
+ 48676 strings out of 493005
+ 956332 string characters out of 6134596
+ 1380766 words of memory out of 5000000
+ 51874 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (83 pages, 696604 bytes).
+Output written on thesis.xdv (83 pages, 697764 bytes).
