@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  19 MAR 2018 20:52
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  19 MAR 2018 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2721,18 +2721,14 @@ File: Thetotalmarketcapitalization.png Graphic file (type QTm)
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [4]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 56.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.05249> not availabl
-e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 56.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 56.
 File: TPS.png Graphic file (type QTm)
 
-<use  "TPS.png" > [5]
+<use  "TPS.png" >
 File: blockchainsize.png Graphic file (type QTm)
- <use  "blockchainsize.png" > [6]
+ <use  "blockchainsize.png" > [5]
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+ [6]
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
 <use  "Darklaunderworkflow.png" > [7]) [8]
@@ -2740,6 +2736,13 @@ File: Darklaunderworkflow.png Graphic file (type QTm)
 
  (./chap/chap2.tex
 第二章
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.05249pt on input line 35.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.05249> not availabl
+e
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.05249pt on input line 35.
 [9
 
 
@@ -3048,10 +3051,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48650 strings out of 493005
  955814 string characters out of 6134596
- 1372839 words of memory out of 5000000
+ 1372713 words of memory out of 5000000
  51855 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (79 pages, 677580 bytes).
+Output written on thesis.xdv (79 pages, 679900 bytes).
