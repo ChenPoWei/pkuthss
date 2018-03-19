@@ -20,43 +20,41 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces 小米3手機規格\relax }}{45}{table.caption.78}
+\contentsline {table}{\numberline {6.1}{\ignorespaces 小米3手機規格\relax }}{45}{table.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Google Nexus 5X手機規格\relax }}{45}{table.caption.79}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Google Nexus 5X手機規格\relax }}{45}{table.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces IT1 Test Case\relax }}{48}{table.caption.86}
+\contentsline {table}{\numberline {6.3}{\ignorespaces IT1 测试用例\relax }}{47}{table.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.4}{\ignorespaces IT2 Test Case\relax }}{49}{table.caption.88}
+\contentsline {table}{\numberline {6.4}{\ignorespaces IT2 测试用例\relax }}{48}{table.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.5}{\ignorespaces IT3 Test Case\relax }}{49}{table.caption.90}
+\contentsline {table}{\numberline {6.5}{\ignorespaces IT3 测试用例\relax }}{48}{table.caption.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.6}{\ignorespaces AT1 Test Case\relax }}{50}{table.caption.92}
+\contentsline {table}{\numberline {6.6}{\ignorespaces AT1 测试用例\relax }}{49}{table.caption.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.7}{\ignorespaces AT2 Test Case\relax }}{50}{table.caption.94}
+\contentsline {table}{\numberline {6.7}{\ignorespaces AT2 测试用例\relax }}{49}{table.caption.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.8}{\ignorespaces AT3 Test Case\relax }}{51}{table.caption.96}
+\contentsline {table}{\numberline {6.8}{\ignorespaces AT3 测试用例\relax }}{50}{table.caption.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.9}{\ignorespaces 整合子系統測試結果\relax }}{52}{table.caption.97}
+\contentsline {table}{\numberline {6.9}{\ignorespaces 集成子系統測試結果\relax }}{51}{table.caption.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.10}{\ignorespaces 接受測試結果\relax }}{52}{table.caption.98}
+\contentsline {table}{\numberline {6.10}{\ignorespaces 验收测试結果\relax }}{51}{table.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.11}{\ignorespaces 子系統與測試案例關係表\relax }}{53}{table.caption.100}
+\contentsline {table}{\numberline {6.11}{\ignorespaces 子系統與測試用例關係表\relax }}{52}{table.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.12}{\ignorespaces 需求與整合測試案例的關係表\relax }}{53}{table.caption.102}
+\contentsline {table}{\numberline {6.12}{\ignorespaces 需求與集成測試用例的關係表\relax }}{52}{table.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.13}{\ignorespaces 需求與接受測試案例的關係表\relax }}{53}{table.caption.103}
+\contentsline {table}{\numberline {6.13}{\ignorespaces 需求與验收测试案例的關係表\relax }}{52}{table.caption.87}
 \defcounter {refsection}{0}\relax 
-\addvspace {10.0pt}
+\contentsline {table}{\numberline {6.14}{\ignorespaces 第一次以Testnet 執行實驗之數據分析(2017/09/06)\relax }}{54}{table.caption.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces 初步的Green Address實驗測試數據 (2017/07/25)\relax }}{56}{table.caption.105}
+\contentsline {table}{\numberline {6.15}{\ignorespaces 第二次以Testnet 執行實驗之數據分析(2018/02/06)\relax }}{54}{table.caption.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.2}{\ignorespaces 第一次以Testnet 執行實驗之數據分析(2017/09/06)\relax }}{56}{table.caption.106}
+\contentsline {table}{\numberline {6.16}{\ignorespaces 初步的Green Address實驗測試數據 (2017/07/25)\relax }}{55}{table.caption.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.3}{\ignorespaces 第二次以Testnet 執行實驗之數據分析(2018/02/06)\relax }}{56}{table.caption.107}
+\contentsline {table}{\numberline {6.17}{\ignorespaces 第一次以GreenAddress 執行實驗之數據分析(2017/09/06)\relax }}{55}{table.caption.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.4}{\ignorespaces 第一次以GreenAddress 執行實驗之數據分析(2017/09/06)\relax }}{57}{table.caption.111}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.5}{\ignorespaces 第二次以GreenAddress執行實驗之數據分析(2018/02/06)\relax }}{58}{table.caption.112}
+\contentsline {table}{\numberline {6.18}{\ignorespaces 第二次以GreenAddress執行實驗之數據分析(2018/02/06)\relax }}{56}{table.caption.93}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  19 MAR 2018 22:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  20 MAR 2018 03:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2334,8 +2334,8 @@ Package biblatex Warning: Conflicting options.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
-(./chap/chap6.aux) (./chap/chap7.aux) (./chap/chap8.aux)
-(./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap6.aux) (./chap/chap7.aux) (./chap/acknowledge.aux)
+(./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 37.
@@ -2664,20 +2664,20 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 3.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 3.
+)
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
+
  [5
 
 
 
-])
-\tf@toc=\write7
-\openout7 = `thesis.toc'.
+] [6
 
- [6] (./thesis.lof
+] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
- [7
-
-])
+ [7])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
@@ -2738,16 +2738,16 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
  [6]
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" > [7]) [8] [9]
+<use  "Darklaunderworkflow.png" > [7] [8] [9]) [10]
 \openout2 = `chap/chap2.aux'.
 
- (./chap/chap2.tex [10
+ (./chap/chap2.tex
+第二章
+[11
 
 
 
 ]
-第二章
-[11]
 File: LBC.png Graphic file (type QTm)
  <use  "LBC.png" > [12] [13]
 File: ECCtime.png Graphic file (type QTm)
@@ -2855,7 +2855,16 @@ File: fig8.png Graphic file (type QTm)
 ]
 第六章
 Missing character: There is no   in font ntx-Regular-tlf-t1!
-[43]
+
+Overfull \hbox (4.93584pt too wide) in paragraph at lines 12--13
+[]\TU/STSong(0)/m/n/12.045 顧 客 端 行 動 支 付 與 交 易 明 細 系 統 \T1/ntxtlf/m/n/12.045 (C
+lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
+ []
+
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+ [43]
 Missing character: There is no 利 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
@@ -2865,9 +2874,15 @@ Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 說 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
- [44] [45]
 Missing character: There is no 度 in font STSong/OT!
+
+Overfull \hbox (7.94467pt too wide) in paragraph at lines 87--88
+[]\TU/STSong(0)/m/n/12.045 區 塊 鏈 的 實 名 交 易 監 督 系 統 接 受 度 測 試 \T1/ntxtlf/m/n/12.
+045 (Ac-cep-tance Test) (2017/7/10 2017/7/21) 
+ []
+
 Missing character: There is no 度 in font STSong/OT!
+[44] [45]
 File: IntegrationTesting.png Graphic file (type QTm)
  <use  "IntegrationTesting.png" >
 File: usecasediagram.png Graphic file (type QTm)
@@ -2875,33 +2890,28 @@ File: usecasediagram.png Graphic file (type QTm)
 File: AcceptanceTesting.png Graphic file (type QTm)
 
 <use  "AcceptanceTesting.png" > [46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (17.5436pt too wide) in paragraph at lines 226--228
+[]\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
+n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
+ 系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
+ []
 
- [47]
-[48] [49] [50]) [51] [52] [53]
+[47] [48] [49]
+File: fig9.png Graphic file (type QTm)
+ <use  "fig9.png" >
+Underfull \vbox (badness 7451) has occurred while \output is active []
+
+ [50]
+[51] [52] [53] [54]) [55] [56]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex [54
-
-
-
-]
+ (./chap/chap7.tex
 第七章
-File: fig9.png Graphic file (type QTm)
-<use  "fig9.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
-[56]) [57] [58]
-\openout2 = `chap/chap8.aux'.
-
- (./chap/chap8.tex
-第八章
-) [59
+[57
 
 
 
-] [60]
+]) [58]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -2970,7 +2980,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[61
+[59
 
 
 ]
@@ -3001,7 +3011,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[62]
+[60]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3010,18 +3020,18 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[63] [64
+[61] [62
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [65
+ (./chap/acknowledge.tex) [63
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [66
+ (./chap/originauth.tex [64
 
 
 
@@ -3034,14 +3044,14 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [67]
+) [65]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
-(./chap/chap6.aux) (./chap/chap7.aux) (./chap/chap8.aux)
-(./chap/acknowledge.aux) (./chap/originauth.aux))
+(./chap/chap6.aux) (./chap/chap7.aux) (./chap/acknowledge.aux)
+(./chap/originauth.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 100.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -3049,12 +3059,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48636 strings out of 493005
- 954913 string characters out of 6134596
- 1372568 words of memory out of 5000000
- 51841 multiletter control sequences out of 15000+600000
+ 48612 strings out of 493005
+ 953700 string characters out of 6134596
+ 1373045 words of memory out of 5000000
+ 51824 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (81 pages, 683372 bytes).
+Output written on thesis.xdv (79 pages, 703344 bytes).
