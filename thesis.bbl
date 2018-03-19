@@ -19,26 +19,6 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
-    \entry{bitcoinpaper}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1977190f018b398e43ede3de043de8ea}{%
-           family={Nakamoto},
-           familyi={N\bibinitperiod},
-           given={Satoshi},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
-      \field{userf}{en}
-      \field{year}{2008}
-    \endentry
     \entry{litecoin}{webpage}{}
       \name{author}{1}{}{%
         {{hash=520e1b71546d806ee6d2277f96624e17}{%
@@ -204,8 +184,8 @@
       \strng{fullhash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
       \strng{authornamehash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
       \strng{authorfullhash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Ethereum Project Yellow Paper}
@@ -361,8 +341,8 @@
       \strng{fullhash}{c4ca6b197d97757cd4e4f807a7ded17d}
       \strng{authornamehash}{c4ca6b197d97757cd4e4f807a7ded17d}
       \strng{authorfullhash}{c4ca6b197d97757cd4e4f807a7ded17d}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The use of bent sequences to achieve higher-order strict avalanche criterion in S-box design}
@@ -451,8 +431,8 @@
       \strng{fullhash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authornamehash}{ae67a5006df80a65b1c2d809e8c9409f}
       \strng{authorfullhash}{ae67a5006df80a65b1c2d809e8c9409f}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Telecommunication Networks and Applications Conference (ITNAC), 2017 27th International}
@@ -937,8 +917,8 @@
       \strng{fullhash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authornamehash}{a505088ac00d073baa17ad022ad49bf9}
       \strng{authorfullhash}{a505088ac00d073baa17ad022ad49bf9}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -1214,8 +1194,8 @@
       \strng{fullhash}{0a609b766ef0a710480280c4fc474c4b}
       \strng{authornamehash}{0a609b766ef0a710480280c4fc474c4b}
       \strng{authorfullhash}{0a609b766ef0a710480280c4fc474c4b}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9~20}
