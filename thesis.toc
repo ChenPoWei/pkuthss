@@ -142,18 +142,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{57}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{提出的BRTMS架構還包括以下特色}{57}{paragraph*.94}
+\contentsline {chapter}{参考文献}{59}{appendix*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}提議的BRTMS的優點總結}{57}{section.7.1}
+\contentsline {chapter}{致谢}{63}{appendix*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{消費者}{57}{paragraph*.95}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家}{57}{paragraph*.96}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{政府}{58}{paragraph*.97}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{59}{appendix*.98}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{63}{appendix*.99}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{65}{appendix*.100}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{65}{appendix*.95}
