@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 02:42
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 03:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2820,39 +2820,23 @@ Overfull \hbox (5.02498pt too wide) in paragraph at lines 83--89
 ]
 第四章
 File: db.png Graphic file (type QTm)
-<use  "db.png" >
-Overfull \hbox (99.10233pt too wide) in paragraph at lines 24--33
- [][] 
- []
-
-[33]
-Overfull \hbox (97.51234pt too wide) in paragraph at lines 40--48
- [][] 
- []
-
-
-Overfull \hbox (111.77365pt too wide) in paragraph at lines 55--64
- [][] 
- []
-
-
-Overfull \hbox (123.50551pt too wide) in paragraph at lines 71--78
- [][] 
- []
-
-
-Overfull \hbox (135.08069pt too wide) in paragraph at lines 102--110
+<use  "db.png" > [33]
+Overfull \hbox (17.86526pt too wide) in paragraph at lines 85--92
  [][] 
  []
 
 [34]
+Overfull \hbox (10.99965pt too wide) in paragraph at lines 114--122
+ [][] 
+ []
+
 File: fig3.png Graphic file (type QTm)
- <use  "fig3.png" > [35]
+<use  "fig3.png" > [35]
 File: fig4.png Graphic file (type QTm)
  <use  "fig4.png" > [36] [37]
 File: gabpcss.png Graphic file (type QTm)
-
-<use  "gabpcss.png" > [38] [39]) [40]
+ <use  "gabpcss.png" >
+[38] [39]) [40]
 \openout2 = `chap/chap5.aux'.
 
  (./chap/chap5.tex
@@ -3091,4 +3075,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (81 pages, 738272 bytes).
+Output written on thesis.xdv (81 pages, 739000 bytes).

@@ -74,22 +74,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}BRTMS數據庫設計}{33}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{原數據庫}{33}{subsubsection*.46}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{（一）商家信息表}{34}{paragraph*.48}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{（二）產品信息表}{34}{paragraph*.50}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{（三）交易信息表}{34}{paragraph*.52}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{用戶信息表}{34}{paragraph*.54}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{關聯數據庫}{34}{subsubsection*.56}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{職工信息表}{34}{paragraph*.57}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家產品信息表}{35}{paragraph*.59}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{35}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{35}{subsection.4.1.3}
@@ -116,8 +100,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{59}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{61}{appendix*.89}
+\contentsline {chapter}{参考文献}{61}{appendix*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{65}{appendix*.90}
+\contentsline {chapter}{致谢}{65}{appendix*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{67}{appendix*.91}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{67}{appendix*.83}
