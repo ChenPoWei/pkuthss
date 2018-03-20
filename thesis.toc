@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Green Address交易發起流程}{21}{paragraph*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{21}{section.2.3}
+\contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{22}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}區塊頭（Block Header）}{22}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
