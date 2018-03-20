@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  20 MAR 2018 15:55
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  20 MAR 2018 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2762,36 +2762,33 @@ File: 6confirm.jpg Graphic file (type QTm)
 
 <use  "6confirm.jpg" >
 File: address.png Graphic file (type QTm)
- <use  "address.png" > [16] [17]
+ <use  "address.png" > [16] [17] [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [19]
 File: gabuild.png Graphic file (type QTm)
 
-<use  "gabuild.png" > [19]
+<use  "gabuild.png" > [20]
 File: gatx.png Graphic file (type QTm)
- <use  "gatx.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
+ <use  "gatx.png" > [21]
 File: blockchain.png Graphic file (type QTm)
-
-<use  "blockchain.png" > [21]
+ <use  "blockchain.png" >
+[22]
 File: MerkleRoot.png Graphic file (type QTm)
- <use  "MerkleRoot.png" > [22]
+ <use  "MerkleRoot.png" > [23]
 File: bitcoinfullnode.png Graphic file (type QTm)
-
-<use  "bitcoinfullnode.png" >) [23]
+ <use  "bitcoinfullnode.png" >) [24]
 \openout2 = `chap/chap3.aux'.
 
- (./chap/chap3.tex [24
+
+(./chap/chap3.tex
+第三章
+File: modeall.png Graphic file (type QTm)
+<use  "modeall.png" > [25
 
 
 
 ]
-第三章
-File: modeall.png Graphic file (type QTm)
-<use  "modeall.png" > [25]
 File: modeaa.png Graphic file (type QTm)
  <use  "modeaa.png" >
 File: modean.png Graphic file (type QTm)
@@ -3062,12 +3059,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48610 strings out of 493005
- 953679 string characters out of 6134596
- 1372820 words of memory out of 5000000
- 51822 multiletter control sequences out of 15000+600000
+ 48611 strings out of 493005
+ 953684 string characters out of 6134596
+ 1380727 words of memory out of 5000000
+ 51823 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (79 pages, 704644 bytes).
+Output written on thesis.xdv (79 pages, 713172 bytes).

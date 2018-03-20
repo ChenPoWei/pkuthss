@@ -79,7 +79,7 @@
 
 				\begin{figure}[htbp]
 					\centering
-					\includegraphics[width = 1\textwidth]{6confirm.jpg}
+					\includegraphics[width = 0.9\textwidth]{6confirm.jpg}
 					\caption{區塊疊加示意圖}\label{6confirm}
 				\end{figure}
 
@@ -105,7 +105,60 @@
 					\end{table}
 
 	%			\subsubsection{RIPEMD-160}
-				\subsubsection{Base58}
+				\subsubsection{Base58 編碼}
+
+					\begin{table}[htbp]
+					\centering
+					\caption{Base58 編碼表}
+					\label{Base58}
+					\begin{tabular}{|c|c|c|c|c|c|c|c|}
+					\hline
+					数值 & 字符 & 数值 & 字符 & 数值 & 字符 & 数值 & 字符 \\ \hline
+					0 & 1 & 16 & H & 32 & Z & 48 & q \\ \hline
+					1 & 2 & 17 & J & 33 & a & 49 & r \\ \hline
+					2 & 3 & 18 & K & 34 & b & 50 & s \\ \hline
+					3 & 4 & 19 & L & 35 & c & 51 & t \\ \hline
+					4 & 5 & 20 & M & 36 & d & 52 & u \\ \hline
+					5 & 6 & 21 & N & 37 & e & 53 & v \\ \hline
+					6 & 7 & 22 & P & 38 & f & 54 & w \\ \hline
+					7 & 8 & 23 & Q & 39 & g & 55 & x \\ \hline
+					8 & 9 & 24 & R & 40 & h & 56 & y \\ \hline
+					9 & A & 25 & S & 41 & i & 57 & z \\ \hline
+					10 & B & 26 & T & 42 & j &  &  \\ \hline
+					11 & C & 27 & U & 43 & k &  &  \\ \hline
+					12 & D & 28 & V & 44 & m &  &  \\ \hline
+					13 & E & 29 & W & 45 & n &  &  \\ \hline
+					14 & F & 30 & X & 46 & o &  &  \\ \hline
+					15 & G & 31 & Y & 47 & p &  &  \\ \hline
+					\end{tabular}
+					\end{table}
+
+
+					\begin{table}[htbp]
+					\centering
+					\caption{Base64 編碼表}
+					\label{Base64}
+					\begin{tabular}{|c|c|c|c|c|c|c|c|}
+					\hline
+					数值 & 字符 & 数值 & 字符 & 数值 & 字符 & 数值 & 字符 \\ \hline
+					0 & A & 16 & Q & 32 & g & 48 & w \\ \hline
+					1 & B & 17 & R & 33 & h & 49 & x \\ \hline
+					2 & C & 18 & S & 34 & i & 50 & y \\ \hline
+					3 & D & 19 & T & 35 & j & 51 & z \\ \hline
+					4 & E & 20 & U & 36 & k & 52 & 0 \\ \hline
+					5 & F & 21 & V & 37 & l & 53 & 1 \\ \hline
+					6 & G & 22 & W & 38 & m & 54 & 2 \\ \hline
+					7 & H & 23 & X & 39 & n & 55 & 3 \\ \hline
+					8 & I & 24 & Y & 40 & o & 56 & 4 \\ \hline
+					9 & J & 25 & Z & 41 & p & 57 & 5 \\ \hline
+					10 & K & 26 & a & 42 & q & 58 & 6 \\ \hline
+					11 & L & 27 & b & 43 & r & 59 & 7 \\ \hline
+					12 & M & 28 & c & 44 & s & 60 & 8 \\ \hline
+					13 & N & 29 & d & 45 & t & 61 & 9 \\ \hline
+					14 & O & 30 & e & 46 & u & 62 & + \\ \hline
+					15 & P & 31 & f & 47 & v & 63 & / \\ \hline
+					\end{tabular}
+					\end{table}
 
 	%
 			\subsection{比特幣地址生成過程}
@@ -130,7 +183,7 @@
 
 			\subsection{多重簽章（Multi-Signature）}
 			% 	\subsubsection{多重簽名地址}
-			 	\subsubsection{Green Address}
+%			 	\subsubsection{Green Address}
 			 	比特幣區塊鏈技術，雖然已經利用工作量證明的方式解決了雙重支付（Double-spending）問題\supercite{Informationpropagationinthebitcoinnetwork}\supercite{Double-spendingfastpaymentsinbitcoin}，但工作量證明的算法所設定之題目困難度會直接影響到每一個比特幣區塊的產出時間，這個比特幣區塊的產出時間也考慮到比特幣全節點於全世界各地的網絡同步狀況，倘若今天的區塊生成時間過短會造成全世界的比特幣節點之區塊數據不一致，這樣的數據不一致將導致比特幣區塊鏈出現分岔，在更嚴重一點甚至會造成比特幣網絡的瓦解。
 
 			 	雙重支付問題存在於比特幣交易在未被區塊鏈確認收入到區塊鏈之前，都有機會受到惡意的攻擊者雙重支付同一筆款項。現今的比特幣區塊產出速度為十分鐘一塊，即便附上足夠的手續費也須等待將近十分鐘的時間，倘若是在手續費不足的情況下，該筆比特幣交易甚至會在比特幣交易緩存池中滯留一週的時間。在手續費足夠的情況下，十分鐘的確認時間會對實體店面的小額交易處理非常的不友善，為了在既有的比特幣區塊鏈的框架底下能夠提升交易速度，因此Green Address技術致力於在一開始創建交易的同時管控雙重支付交易的發生，他們採用了2-of-2多重簽章，也就是創建一個特殊的比特幣地址，這個比特幣地址的持有人有兩個代表人，分別為使用者與Green Address機構節點，這筆交易的建立必須要雙方同時簽署交易才被允許廣播至比特幣網絡中。若是遇到交易塞車，且節點緩存池空間不足的問題時，比特幣節點會優先遺棄手續費最低的交易，視同該筆交易不曾存在過，故若真的遇到交易被遺棄的情況，Green Address機構節點也會透內部的數據庫記錄再次廣播此筆交易，並確保此筆交易可以被收入至區塊內。Green Address機構節點也就成為了交易創建的把關者，過濾所有的雙重支付攻擊的發生，也避免交易因為比特幣網絡塞車而交易被礦工遺棄的情形。

@@ -3,12 +3,12 @@
   "abstract.xdv" 0 -1 0 "xelatex"
   (generated)
   "abstract.pdf"
-["xelatex"] 1517728618 "abstract.tex" "abstract.xdv" "abstract" 1517728618
+["xelatex"] 1521545439 "abstract.tex" "abstract.xdv" "abstract" 1521545439
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1516954329 3678530 5bee602439c91eeaeec06266a96b8175 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "abstract.aux" 1517552788 3854 2b3ea8aa04b77c268c8956d7dbe3ca9b ""
-  "abstract.tex" 1517551714 2776 2c549e27a8382b9aea399e8830e11fb2 ""
+  "abstract.aux" 1521544898 3854 0e8bbd4463a018c218582afa48af638d ""
+  "abstract.tex" 1521534084 5341 d6fd401839ee60d5acd5bd10bdaa03f8 ""
   (generated)
   "abstract.xdv"
   "abstract.log"
