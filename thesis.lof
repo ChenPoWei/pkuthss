@@ -20,65 +20,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces 算法BLISS、RSA、ECDSA安全級數比較圖\supercite {LatticesignaturesandbimodalGaussians}\relax }}{14}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 區塊疊加示意圖\relax }}{16}{figure.caption.24}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 區塊疊加示意圖\relax }}{16}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces 比特幣地址生成流程圖\relax }}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 比特幣地址生成流程圖\relax }}{17}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Green Address錢包生成流程圖\relax }}{20}{figure.caption.30}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Green Address錢包生成流程圖\relax }}{20}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Green Address交易發起流程圖\relax }}{21}{figure.caption.32}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Green Address交易發起流程圖\relax }}{21}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces 比特幣區塊鏈結構圖\relax }}{22}{figure.caption.33}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 比特幣區塊鏈結構圖\relax }}{22}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Merkle Tree示意圖\relax }}{22}{figure.caption.37}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Merkle Tree示意圖\relax }}{22}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces 比特幣全節點分佈圖\supercite {bitcoinfullnode}\relax }}{23}{figure.caption.41}
-\defcounter {refsection}{0}\relax 
-\addvspace {10.0pt}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 各種交易模型示意圖\relax }}{25}{figure.caption.42}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 匿名對匿名交易示意圖\relax }}{26}{figure.caption.44}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 匿名對實名交易示意圖\relax }}{26}{figure.caption.46}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 實名對實名交易示意圖\relax }}{27}{figure.caption.48}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 實名對實名再對實名交易示意圖\relax }}{27}{figure.caption.50}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 實名對匿名再對實名交易示意圖\relax }}{27}{figure.caption.52}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 魚骨圖（1）\relax }}{29}{figure.caption.54}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 比特幣全節點分佈圖\supercite {bitcoinfullnode}\relax }}{23}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BRTMS數據庫分佈圖\relax }}{31}{figure.caption.56}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 各種交易模型示意圖\relax }}{25}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces BRTMS和商家註冊流程的核心架構圖\relax }}{33}{figure.caption.65}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 匿名對匿名交易示意圖\relax }}{26}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces BRTMS的整體架構與功能示意圖\relax }}{34}{figure.caption.66}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 匿名對實名交易示意圖\relax }}{26}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 多重簽章優化後的BRTMS整體示意圖\relax }}{36}{figure.caption.67}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 實名對實名交易示意圖\relax }}{27}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 實名對實名再對實名交易示意圖\relax }}{27}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces SMIMSS的Java應用程序的註冊和登錄界面\relax }}{39}{figure.caption.68}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 實名對匿名再對實名交易示意圖\relax }}{27}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 在SMIMSS中插入或更新授權商家的產品目錄\relax }}{39}{figure.caption.69}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 登錄、等待結帳的商品、刪除商品及支付確認\relax }}{40}{figure.caption.70}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票\relax }}{41}{figure.caption.71}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 魚骨圖（1）\relax }}{29}{figure.caption.44}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 集成子系統測試\relax }}{46}{figure.caption.74}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BRTMS數據庫分佈圖\relax }}{31}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用者用例圖\relax }}{46}{figure.caption.75}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BRTMS和商家註冊流程的核心架構圖\relax }}{33}{figure.caption.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 验收测试（Acceptance Testing）\relax }}{46}{figure.caption.76}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces BRTMS的整體架構與功能示意圖\relax }}{34}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程\relax }}{53}{figure.caption.88}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 多重簽章優化後的BRTMS整體示意圖\relax }}{36}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\addvspace {10.0pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SMIMSS的Java應用程序的註冊和登錄界面\relax }}{39}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 在SMIMSS中插入或更新授權商家的產品目錄\relax }}{39}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 登錄、等待結帳的商品、刪除商品及支付確認\relax }}{40}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票\relax }}{41}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\addvspace {10.0pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 集成子系統測試\relax }}{46}{figure.caption.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用者用例圖\relax }}{46}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 验收测试（Acceptance Testing）\relax }}{46}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程\relax }}{53}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
