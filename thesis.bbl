@@ -1317,6 +1317,26 @@
       \field{userf}{en}
       \field{year}{2005}
     \endentry
+    \entry{bitcoinpaper}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{userf}{en}
+      \field{year}{2008}
+    \endentry
     \entry{Informationpropagationinthebitcoinnetwork}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=606da205069239a342783a6ff7f69711}{%
