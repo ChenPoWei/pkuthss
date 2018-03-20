@@ -16,16 +16,98 @@
 			\caption{BRTMS數據庫分佈圖}\label{db}
 		\end{figure}
 
-			\paragraph{店家數據庫}存儲正在審核中的企業信息或已經過審核的企業信息。存儲的信息包括商家ID、商戶名稱、商戶位置、商戶的加密貨幣地址以及GPS坐標。
-			\paragraph{產品數據庫}只有授權用戶才能登錄添加或修改交易產品信息。產品數據庫內容包括產品標識號、產品名稱、產品說明、日期和價格等相關信息。
-			\paragraph{交易數據庫}記錄包括交易序列號、產品識別號碼、產品交易金額、商戶加密貨幣收款人地址、消費者加密貨幣支付地址、商戶ID和最後確認字段的值。
-			\paragraph{使用者數據庫}存儲所有使用者信息，包括政府、商家及顧客之個人帳戶信息的數據庫，而使用者密碼則以哈希的方式保存，以增加用戶安全性。
+			\paragraph{（一）商家信息表}存儲正在審核中的企業信息或已經過審核的企業信息。存儲的信息包括商家ID、商戶名稱、商戶位置、商戶的加密貨幣地址以及GPS坐標。
+				\begin{table}[htbp]
+				\centering
+				\caption{商家信息表}
+				\label{store}
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				序號 & 字段名 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
+				1 & store\_id & STORE\_ID & 商家編號 & int & 否 & PK \\ \hline
+				2 & store\_name & STORE\_NAME & 商家名稱 & navarchar(20) & 否 &  \\ \hline
+				3 & store\_address & STORE\_ADDRESS & 商家地址 & navarchar(50) & 否 &  \\ \hline
+				4 & store\_btcaddress & STORE\_BTCADDRESS & 商家比特幣地址 & navarchar(50) & 否 &  \\ \hline
+				5 & store\_gps & STORE\_GPS & 商家定位信息 & navarchar(30) & 否 &  \\ \hline
+				\end{tabular}
+				\end{table}
+			\paragraph{（二）產品信息表}只有授權用戶才能登錄添加或修改交易產品信息。產品數據庫內容包括產品標識號、產品名稱、產品說明、日期和價格等相關信息。
+
+				\begin{table}[htbp]
+				\centering
+				\caption{產品信息表}
+				\label{product}
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				序號 & 字段名 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
+				1 & product\_id & PRODUCT\_ID & 產品編號 & int & 否 & PK \\ \hline
+				2 & product\_name & PRODUCT\_NAME & 產品名稱 & navarchar(10) & 否 &  \\ \hline
+				3 & product\_price & PRODUCT\_PRICE & 產品價格 & float & 否 &  \\ \hline
+				4 & product\_description & PRODUCT\_DESCRIPTION & 產品描述 & navarchar(50) & 是 &  \\ \hline
+				\end{tabular}
+				\end{table}
+
+			\paragraph{（三）交易信息表}記錄包括交易序列號、產品識別號碼、產品交易金額、商戶加密貨幣收款人地址、消費者加密貨幣支付地址、商戶ID和最後確認字段的值。
+				\begin{table}[htbp]
+				\centering
+				\caption{交易信息表}
+				\label{tx}
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				序號 & 字段名 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
+				1 & tx\_id & TX\_ID & 交易編號 & int & 否 & PK \\ \hline
+				2 & staff\_id & STAFF\_ID & 職工編號 & int & 否 & FK \\ \hline
+				3 & store\_id & STORE\_ID & 商家編號 & int & 否 & FK \\ \hline
+				4 & storeproduct\_id & STOREPRODUCT\_ID & 商家產品編號 & int & 否 & FK \\ \hline
+				5 & storeproduct\_Quantity & STOREPRODUCT\_QUANTITY & 商家產品數量 & int & 否 &  \\ \hline
+				\end{tabular}
+			\end{table}
+
+			\paragraph{用戶信息表}存儲所有使用者信息，包括政府、商家及顧客之個人帳戶信息的數據庫，而使用者密碼則以哈希的方式保存，以增加用戶安全性。
+				\begin{table}[htbp]
+				\centering
+				\caption{用戶信息表}
+				\label{user}
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				序號 & 字段名 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
+				1 & user\_id & USER\_ID & 用戶編號 & int & 否 & PK \\ \hline
+				2 & user\_account & USER\_ACCOUNT & 用戶帳號 & navarchar(30) & 否 &  \\ \hline
+				3 & user\_passwordhash & USER\_PASSWORDHASH & 用戶密碼哈希值 & navarchar(30) & 否 &  \\ \hline
+				\end{tabular}
+				\end{table}
 
 		\subsubsection{關聯數據庫}
 
-			\paragraph{商家-用戶數據庫}本數據庫存儲各個商家擁有的職員信息，包括各店家的商店編號、使用者編號及身分編碼。
-			\paragraph{商家-產品數據庫}此數據庫存儲各家公司當前商品存貨信息，由商店編號、產品編號及產品庫存所組成。
-			\paragraph{商家-交易數據庫}本數據庫記錄著每一筆交易的經手人是誰，並由交易編號、店家序號，及使用者序號組成。
+			\paragraph{職工信息表}本數據庫存儲各個商家擁有的職員信息，包括各店家的商店編號、使用者編號及身分編碼。
+				\begin{table}[htbp]
+				\centering
+				\caption{職工信息表}
+				\label{staff}
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				序號 & 字段名 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
+				1 & staff\_id & STAFF\_ID & 職工編號 & int & 否 & PK \\ \hline
+				2 & user\_id & USER\_ID & 用戶編號 & int & 否 & FK \\ \hline
+				3 & store\_id & STORE\_ID & 商家編號 & int & 否 & FK \\ \hline
+				4 & staff\_status & STAFF\_STATUS & 職工身份 & navarchar(20) & 否 &  \\ \hline
+				\end{tabular}
+				\end{table}
+
+			\paragraph{商家產品信息表}此數據庫存儲各家公司當前商品存貨信息，由商店編號、產品編號及產品庫存所組成。
+				\begin{table}[htbp]
+				\centering
+				\caption{商家產品信息表}
+				\label{storeproduct}
+				\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				序號 & 字段名 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
+				1 & storeproduct\_id & STOREPRODUCT\_ID & 商家產品編號 & int & 否 & PK \\ \hline
+				2 & product\_id & PRODUCT\_ID & 產品編號 & int & 否 & FK \\ \hline
+				3 & store\_id & STORE\_ID & 商家編號 & int & 否 & FK \\ \hline
+				4 & storeproduct\_inventory & STOREPRODUCT\_INVENTORY & 商家產品庫存量 & int & 否 &  \\ \hline
+				\end{tabular}
+				\end{table}
 
 	\subsection{商店和商品信息管理子系統（SMIMSS）}
 	圖\ref{fig3}為區塊鏈的實名交易監督系統架構，商家需要在以下4個步驟中對商店和商品信息管理子系統（SMIMSS）進行註冊:

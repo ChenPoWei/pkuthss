@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 01:06
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 02:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2681,15 +2681,13 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
- [8] (./thesis.lot)
+ [8] (./thesis.lot [9
+
+])
 \tf@lot=\write9
 \openout9 = `thesis.lot'.
 
- [9
-
-] [10
-
-]
+ [10]
 \openout2 = `chap/chap1.aux'.
 
 
@@ -2703,6 +2701,7 @@ e
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 9.
 [1
+
 
 
 ]
@@ -2821,29 +2820,51 @@ Overfull \hbox (5.02498pt too wide) in paragraph at lines 83--89
 ]
 第四章
 File: db.png Graphic file (type QTm)
-<use  "db.png" > [33]
-File: fig3.png Graphic file (type QTm)
- <use  "fig3.png" > [34]
-File: fig4.png Graphic file (type QTm)
- <use  "fig4.png" >
-Underfull \vbox (badness 1442) has occurred while \output is active []
+<use  "db.png" >
+Overfull \hbox (99.10233pt too wide) in paragraph at lines 24--33
+ [][] 
+ []
 
- [35]
-[36]
+[33]
+Overfull \hbox (97.51234pt too wide) in paragraph at lines 40--48
+ [][] 
+ []
+
+
+Overfull \hbox (111.77365pt too wide) in paragraph at lines 55--64
+ [][] 
+ []
+
+
+Overfull \hbox (123.50551pt too wide) in paragraph at lines 71--78
+ [][] 
+ []
+
+
+Overfull \hbox (135.08069pt too wide) in paragraph at lines 102--110
+ [][] 
+ []
+
+[34]
+File: fig3.png Graphic file (type QTm)
+ <use  "fig3.png" > [35]
+File: fig4.png Graphic file (type QTm)
+ <use  "fig4.png" > [36] [37]
 File: gabpcss.png Graphic file (type QTm)
- <use  "gabpcss.png" > [37] [38]) [39]
+
+<use  "gabpcss.png" > [38] [39]) [40]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex [40
-
-
-
-]
+ (./chap/chap5.tex
 第五章
 File: fig5.png Graphic file (type QTm)
 <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [41]
+ <use  "fig6.png" > [41
+
+
+
+]
 File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
@@ -3062,12 +3083,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48614 strings out of 493005
- 953797 string characters out of 6134596
- 1377780 words of memory out of 5000000
- 51826 multiletter control sequences out of 15000+600000
+ 48620 strings out of 493005
+ 953844 string characters out of 6134596
+ 1377016 words of memory out of 5000000
+ 51832 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (81 pages, 721976 bytes).
+Output written on thesis.xdv (81 pages, 738272 bytes).

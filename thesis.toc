@@ -76,27 +76,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{原數據庫}{33}{subsubsection*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{店家數據庫}{34}{paragraph*.48}
+\contentsline {paragraph}{（一）商家信息表}{34}{paragraph*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{產品數據庫}{34}{paragraph*.49}
+\contentsline {paragraph}{（二）產品信息表}{34}{paragraph*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{交易數據庫}{34}{paragraph*.50}
+\contentsline {paragraph}{（三）交易信息表}{34}{paragraph*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{使用者數據庫}{34}{paragraph*.51}
+\contentsline {paragraph}{用戶信息表}{34}{paragraph*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{關聯數據庫}{34}{subsubsection*.52}
+\contentsline {subsubsection}{關聯數據庫}{34}{subsubsection*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-用戶數據庫}{34}{paragraph*.53}
+\contentsline {paragraph}{職工信息表}{34}{paragraph*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-產品數據庫}{34}{paragraph*.54}
+\contentsline {paragraph}{商家產品信息表}{35}{paragraph*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{商家-交易數據庫}{34}{paragraph*.55}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{34}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{35}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{35}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{37}{section.4.2}
+\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{38}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統實現}{41}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -118,8 +116,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{59}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{61}{appendix*.84}
+\contentsline {chapter}{参考文献}{61}{appendix*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{65}{appendix*.85}
+\contentsline {chapter}{致谢}{65}{appendix*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{67}{appendix*.86}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{67}{appendix*.91}
