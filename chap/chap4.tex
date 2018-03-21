@@ -3,8 +3,17 @@
 
 \section{區塊鏈的實名交易監督系統設計}
 
-本論文提出區塊鏈的實名交易監督系統（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以加密貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
+	本論文提出區塊鏈的實名交易監督系統（Blockchain Real-name Transaction Monitoring System，BRTMS），以下簡稱BRTMS，BRTMS以加密貨幣比特幣實作，BRTMS包含三個子系統，商店和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）、商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction、Sub-System，SMCTSS）、客戶端移動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS），我們將在稍後描述這些子系統。
 
+	本論文將開發讓商家能夠結合商品與RFID標籤，以達到快速建構與管理商品資料庫之系統，並且讓商家及顧客可以運用手機NFC功能來實際運作比特幣的行動支付流程。店家只需要掃描商品上的RFID標籤，即可快速建立交易清單，再利用NFC功能與顧客之行動裝置進行訊息交換，輕鬆地將商家的收款地址以及交易資料傳送給顧客，收到資料後便能快速地以顧客之比特幣行動電子錢包付款，並將交易細項儲存下來，以便未來商家與顧客能夠快速查詢比特幣行動支付的交易紀錄。
+	本系統主要是以完成區塊鏈之數位加密貨幣的收款監督系統為主要目標，本論文進而將積極利用自由軟體的利基：使用成本低、進入門檻低、開放原始碼、社群能力強、共通性及移植性強、資通安全性高等優勢來開發本論文收款監督系統的應用服務平台。本系統範圍包含建置下面主系統與各項子系統如下：
+		\begin{enumerate}
+		\item 區塊鏈的實名交易監督系統(Blockchain Real-name Transaction Monitoring System, BRTMS)
+		\item 商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)：本系統可以讓商家在進貨時，快速地將RFID標籤之識別碼與進貨商品資訊集成在一起，並且透過本系統新增、修改或刪除資料庫內部的資訊，包括產品名稱、詳細資訊，存貨數量等資訊，商家與顧客便可依照該資料庫取得當前商品資訊與狀態。不僅讓商店的存貨資訊更加清楚明瞭，也可以提供顧客更多的即時服務。
+		\item 商家端行動收銀與交易明細系統(Store Mobile payment Collection and Transaction Sub-System，SMCTSS)：本系統使商家在結帳時，能夠以手機NFC功能掃描商品上的RFID 標籤，即可簡單地建立交易清單，並透過NFC與顧客手機碰觸，將交易清單以及商家之比特幣收款地址等等重要交易資訊一併傳遞給顧客，可以簡短結帳的速度，使結帳效率大幅提升。 
+		\item 顧客端行動支付與交易明細系統(Client Mobile Payment and Transaction Sub-System，CMPTSS)：顧客在結帳時，不必再麻煩的拿出信用卡或是零錢包，只需要拿出手機讓店員以NFC將交易清單與比特幣地址轉送給自己，即可自動連結至比特幣電子錢包的應用程式當中，並且自動填妥相關資料，如:交易金額、收款地址等等與此同時也能將交易紀錄儲存於客戶端，以便日後顧客快速取得過往的交易紀錄，除此之外亦可讓廣大的民眾體驗數位加密貨幣與行動支付帶來的便利生活。
+		
+	\end{enumerate}
 	\subsection{BRTMS數據庫設計}
 
 	區塊鏈的實名交易監督系統應用了六個信息表，分別為商家信息、產品信息、交易信息、用戶信息、職工信息以及商家產品信息，以下將逐一說明：
@@ -77,7 +86,7 @@
 				\end{table}
 
 		\item 用戶信息表：表\ref{user}存儲所有使用者信息，包括政府、商家及顧客之個人的帳戶編號與帳號，而使用者密碼則以哈希值的方式保存以增加用戶安全性。
-		
+
 				\begin{table}[!htbp]
 				\centering
 				\caption{用戶信息表}

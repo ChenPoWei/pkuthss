@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 03:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 03:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2819,60 +2819,56 @@ Overfull \hbox (5.02498pt too wide) in paragraph at lines 83--89
 
 ]
 第四章
+Missing character: There is no   in font ntx-Regular-tlf-t1!
+[33]
+Overfull \hbox (4.93584pt too wide) in paragraph at lines 14--15
+[]\TU/STSong(0)/m/n/12.045 顧 客 端 行 動 支 付 與 交 易 明 細 系 統 \T1/ntxtlf/m/n/12.045 (C
+lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
+ []
+
 File: db.png Graphic file (type QTm)
-<use  "db.png" > [33]
-Overfull \hbox (17.86526pt too wide) in paragraph at lines 85--92
+<use  "db.png" > [34] [35]
+Overfull \hbox (17.86526pt too wide) in paragraph at lines 94--101
  [][] 
  []
 
-[34]
-Overfull \hbox (10.99965pt too wide) in paragraph at lines 114--122
+
+Overfull \hbox (10.99965pt too wide) in paragraph at lines 123--131
  [][] 
  []
 
 File: fig3.png Graphic file (type QTm)
-<use  "fig3.png" > [35]
+<use  "fig3.png" > [36]
 File: fig4.png Graphic file (type QTm)
- <use  "fig4.png" > [36] [37]
+ <use  "fig4.png" > [37] [38]
 File: gabpcss.png Graphic file (type QTm)
  <use  "gabpcss.png" >
-[38] [39]) [40]
+[39] [40]) [41]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex
-第五章
-File: fig5.png Graphic file (type QTm)
-<use  "fig5.png" >
-File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [41
+ (./chap/chap5.tex [42
 
 
 
 ]
+第五章
+File: fig5.png Graphic file (type QTm)
+<use  "fig5.png" >
+File: fig6.png Graphic file (type QTm)
+ <use  "fig6.png" > [43]
 File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
 
-<use  "fig8.png" >) [42] [43]
+<use  "fig8.png" >) [44] [45]
 \openout2 = `chap/chap6.aux'.
 
- (./chap/chap6.tex [44
+ (./chap/chap6.tex [46
 
 
 
 ]
 第六章
-Missing character: There is no   in font ntx-Regular-tlf-t1!
-
-Overfull \hbox (4.93584pt too wide) in paragraph at lines 12--13
-[]\TU/STSong(0)/m/n/12.045 顧 客 端 行 動 支 付 與 交 易 明 細 系 統 \T1/ntxtlf/m/n/12.045 (C
-lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
- []
-
-
-Underfull \vbox (badness 1694) has occurred while \output is active []
-
- [45]
 Missing character: There is no 利 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
@@ -2882,35 +2878,31 @@ Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 說 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
+[47] [48]
 Missing character: There is no 度 in font STSong/OT!
 
-Overfull \hbox (7.94467pt too wide) in paragraph at lines 87--88
+Overfull \hbox (7.94467pt too wide) in paragraph at lines 76--77
 []\TU/STSong(0)/m/n/12.045 區 塊 鏈 的 實 名 交 易 監 督 系 統 接 受 度 測 試 \T1/ntxtlf/m/n/12.
 045 (Ac-cep-tance Test) (2017/7/10 2017/7/21) 
  []
 
 Missing character: There is no 度 in font STSong/OT!
-[46] [47]
 File: IntegrationTesting.png Graphic file (type QTm)
- <use  "IntegrationTesting.png" >
+<use  "IntegrationTesting.png" >
 File: usecasediagram.png Graphic file (type QTm)
  <use  "usecasediagram.png" >
 File: AcceptanceTesting.png Graphic file (type QTm)
 
-<use  "AcceptanceTesting.png" > [48]
-Overfull \hbox (17.5436pt too wide) in paragraph at lines 226--228
+<use  "AcceptanceTesting.png" > [49] [50] [51]
+Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
 n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
  系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
-[49] [50] [51]
+[52]
 File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" >
-Underfull \vbox (badness 7451) has occurred while \output is active []
-
- [52]
-[53] [54] [55] [56] [57]) [58]
+ <use  "fig9.png" > [53] [54] [55] [56] [57]) [58]
 \openout2 = `chap/chap7.aux'.
 
  (./chap/chap7.tex
@@ -3075,4 +3067,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (81 pages, 739000 bytes).
+Output written on thesis.xdv (81 pages, 740200 bytes).
