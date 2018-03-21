@@ -35,7 +35,7 @@
 			\subsection{比特幣地址生成相關算法}
 			在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來將詳述每一個函數的運作過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
 			
-				\subsubsection{亂數產生器（Random number generator）}
+				\subsubsection{（一）亂數產生器（Random number generator）}
 				亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公佈的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索的組態空間中擊中了15個比特幣地址，該團隊也成功將這15 個地址下的1.180899個比特幣轉走。
 
 				\begin{figure}[!htbp]
@@ -48,26 +48,53 @@
 		
 				在過去的歷史事件中，發現Android手機版以及平板版的亂數產生器中存在著不隨機，於2013年8月比特幣開發者Mike Hearn提及“All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values” \supercite{SomeSecureRandomThoughts}，Bitcoin.org也發布了警告\supercite{AndroidSecurityVulnerability}簡要說明該事件的原因，以及表明影響到的比特幣錢包客戶端有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。這樣的錯誤源於Android本身支持的亂數產生器並不隨機，隨後Android解釋了亂數的問題並加以修正。在這Android手機亂數不夠亂的事件中，有自願者自發性地公佈自己的損失狀態，總金額為55.82152538個比特幣\supercite{Badsignaturesleading}，但因為比特幣屬於被動的性質，無人主動回報即不會加入統計中，所以總損失估計會超過55.82152538個比特幣。
 
-				\subsubsection{Secp256k1}
+				\subsubsection{（二）非對稱事加密算法 Secp256k1}
 				在密碼學中有分對稱式加密與非對稱式加密，對稱式加密又分為信息流加密與信息塊加密，信息流加密著名的是由美國密碼學家Ron Rivest教授設計，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息塊加密著名的有數據加密標準（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重數據加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高級加密標準（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非對稱式加密最廣為人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、橢圓曲線密碼學（Elliptic curve cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
 				非對稱式加密與對稱式加密最大的不同在於，對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的使用者Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公佈在網絡上，這時希望聯繫Alice的使用者Bob在網絡上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，即使網絡存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易之數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花費的輸出（Unspent Transaction Output，UTXO）進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網絡的交易緩存池當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收入到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工將該筆交易收入至比特幣區塊鏈當中。
 				比特幣採用的secp256k1是屬於橢圓曲線密碼學中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線方程$$y^2=x^3+ax+b$$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F為巨大的素數、G點被稱爲⽣成點的常數點亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}顯示，當ECC產生571 bits的密鑰長度，RSA要達到相同的安全性需要生成15360 bits，這也導致生成時間產生高達471倍之差距。
-				
-				\begin{figure}[!htbp]
-					\centering
-					\includegraphics[width = .5\textwidth]{ECCtime.png}
-					\caption{ECC與RSA的密鑰對生成時間比較圖\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}\label{ECCtime}
-				\end{figure}
+
+				\begin{table}[!htbp]
+				\centering
+				\caption{ECC與RSA的密鑰對生成時間比較表\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}
+				\label{ECCtime}
+				\begin{tabular}{|c|c|c|c|}
+				\hline
+				\multicolumn{2}{|c|}{密钥长度} & \multicolumn{2}{c|}{时间 (秒)} \\ \hline
+				ECC & RSA & ECC & RSA \\ \hline
+				163 & 1024 & 0.08 & 0.16 \\ \hline
+				33 & 2240 & 0.18 & 7.47 \\ \hline
+				283 & 3072 & 0.27 & 9.8 \\ \hline
+				409 & 7680 & 0.64 & 133.9 \\ \hline
+				571 & 15360 & 1.44 & 679.06 \\ \hline
+				\end{tabular}
+				\end{table}
 
 				除了在密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS\supercite{LatticesignaturesandbimodalGaussians}做出了深度的安全性探討\supercite{LatticesignaturesandbimodalGaussians}，圖\ref{LatticesignaturesandbimodalGaussians}同樣達到80 bits的安全性級數，RSA 1024需要1024 bits，ECDSA 160\supercite{DeploymentsofEllipticCurveCryptography}僅需要160 bits，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來量子計算機的蓬勃發展擁有2000 qbits運算能力，量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽章算法。
 
-				\begin{figure}[!htbp]
-					\centering
-					\includegraphics[width = 1\textwidth]{LatticesignaturesandbimodalGaussians.png}
-					\caption{算法BLISS、RSA、ECDSA安全級數比較圖\supercite{LatticesignaturesandbimodalGaussians}}\label{LatticesignaturesandbimodalGaussians}
-				\end{figure}
+				\begin{table}[!htbp]
+				\centering
+				\caption{算法BLISS、RSA、ECDSA安全級數比較圖表\supercite{LatticesignaturesandbimodalGaussians}}
+				\label{LatticesignaturesandbimodalGaussians}
+				\resizebox{\textwidth}{!}{%
+				\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+				\hline
+				算法 & 安全性 & \begin{tabular}[c]{@{}c@{}}签名\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}私鑰\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}公鑰\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}簽名\\ (微秒)\end{tabular} & 簽名/秒 & \begin{tabular}[c]{@{}c@{}}验证\\ (微秒)\end{tabular} & 驗證/秒 \\ \hline
+				BLISS-0 & $<=$60bits & 3.3kb & 1.5kb & 3.3kb & 0.241 & 4k & 0.017 & 59k \\ \hline
+				BLISS-I & 128bits & 5.6kb & 2kb & 7kb & 0.124 & 8k & 0.03 & 33k \\ \hline
+				BLISS-II & 128bits & 5kb & 2kb & 7kb & 0.48 & 2k & 0.03 & 33k \\ \hline
+				BLISS-III & 160bits & 6kb & 3kb & 7kb & 0.203 & 5k & 0.031 & 32k \\ \hline
+				BLISS-IV & 192bits & 6.5kb & 3kb & 7kb & 0.375 & 2.5k & 0.032 & 31k \\ \hline
+				RSA-1024 & 72-80bits & 1kb & 1kb & 1kb & 0.167 & 6k & 0.004 & 91k \\ \hline
+				RSA-2048 & 103-112bits & 2kb & 2kb & 2kb & 1.18 & 0.8k & 0.038 & 27k \\ \hline
+				RSA-4096 & $>$128bits & 4kb & 4kb & 4kb & 8.66 & 0.1k & 0.138 & 7.5k \\ \hline
+				ECDSA-160 & 80bits & 0.32kb & 0.16kb & 0.16kb & 0.058 & 17k & 0.205 & 5k \\ \hline
+				ECDSA-256 & 128bits & 0.5kb & 0.25kb & 0.25kb & 0.106 & 9.5k & 0.384 & 2.5k \\ \hline
+				ECDSA-384 & 192bits & 0.75kb & 0.37kb & 0.37kb & 0.195 & 5k & 0.853 & 1k \\ \hline
+				\end{tabular}%
+				}
+				\end{table}
 
-				\subsubsection{哈希算法 SHA-256}
+				\subsubsection{（三）哈希算法 SHA-256}
 				SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3，如表\ref{hashtable}所示。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈樹的不同。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。表\ref{hashtable}中MD5不為SHA家族成員之一，但MD5為最早被廣泛使用的哈希算法，因此作為借鑒的標準。SHA-0為SHA家族中被最早提出的架構，輸出的長度為160 bits，而SHA-1提出後並無太大的變動。
 				哈希算法的主要功能在於，將信息或是檔案建立一個對一的指紋，也就是哈希值，而該指紋長度會依照算法的設計輸出的長度而略有不同，表\ref{hashtable}中顯示的輸出哈希值長度，而長度也意味著該指紋的組態空間應設的大小。倘若有著不同的輸入，但映射到了相同的指紋，則將此現象稱之為碰撞。通常在信息安全領域中，只要發現該哈希算法存在著碰撞，就會被棄用。甚至是專家們提早數年提出警告，要求提早更換該哈希算法，並更換上新制定的哈希算法做應用。哈希算法的功能包括藉由生成哈希值進行檔案校驗、工作量證明算法設計以及區塊鏈中的哈希指針。
 
@@ -112,7 +139,7 @@
 					
 
 	%			\subsubsection{RIPEMD-160}
-				\subsubsection{Base58 編碼}
+				\subsubsection{（四）Base58 編碼}
 
 				表\ref{Base58}為Base58編碼表，Base58編碼的首次出現自Satoshi Nakamoto所提出的論文\supercite{bitcoinpaper}當中，Base58編碼是源自於Base64編碼表，如表\ref{Base64}中所示。Base64編碼中包括大寫英文26個字母、小寫英文26個字母、阿拉伯數字以及字符"/"和"+"。在比特幣地址生成過程中Base58的功能是將比特幣地址的公鑰哈希值重新編碼，比特幣地址的公鑰哈希值是二進制的資料型態，既使是將二進制碼轉換成十六進制碼輸出也是對人類辨識上有一定的不便性。倘若採用Base64對比特幣公鑰哈希值進行編碼有效縮短二進制碼的長度，但Base64的編碼存在著不適於作為地址的特殊字符"+"和"-"。在Base58編碼中移除了特殊字符之外，移除了較不易人類判讀的相關字符數字"0"與大寫英文字母"O"，因為該兩字符在不同字型的體現相當相似，大寫英文字母"I"以及小寫英文字母"l"，在人類判讀上也有些為相似。因此於Base64移除上述6個字符後，便形成了Base58編碼表。值得一提的是，Base58編碼與Base64編碼表中的字符排序有些許異動，Base58編碼表將數字的部分一致了最前面，這使得比特幣地址以Base58編碼後的第一個字符呈現為"1"的主要原因。
 

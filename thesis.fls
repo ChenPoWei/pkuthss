@@ -514,8 +514,6 @@ OUTPUT chap/chap2.aux
 INPUT chap/chap2.tex
 INPUT chap/chap2.tex
 INPUT LBC.png
-INPUT ECCtime.png
-INPUT LatticesignaturesandbimodalGaussians.png
 INPUT 6confirm.jpg
 INPUT address.png
 INPUT gabuild.png

@@ -13,9 +13,8 @@
 	\end{figure}
 
 	本論文將開發讓商家能夠結合商品與RFID標籤，以達到快速建構與管理商品資料庫之系統，並且讓商家及顧客可以運用手機NFC功能來實際運作比特幣的行動支付流程。店家只需要掃描商品上的RFID標籤，即可快速建立交易清單，再利用NFC功能與顧客之行動裝置進行訊息交換，輕鬆地將商家的收款地址以及交易資料傳送給顧客，收到資料後便能快速地以顧客之比特幣行動電子錢包付款，並將交易細項儲存下來，以便未來商家與顧客能夠快速查詢比特幣行動支付的交易紀錄。
-	本系統主要是以完成區塊鏈之數位加密貨幣的收款監督系統為主要目標，本論文進而將積極利用自由軟體的利基：使用成本低、進入門檻低、開放原始碼、社群能力強、共通性及移植性強、資通安全性高等優勢來開發本論文收款監督系統的應用服務平台。本系統範圍包含建置下面主系統與各項子系統如下：
+	本系統主要是以完成區塊鏈之數位加密貨幣的收款監督系統為主要目標，本論文進而將積極利用自由軟體的利基：使用成本低、進入門檻低、開放原始碼、社群能力強、共通性及移植性強、資通安全性高等優勢來開發本論文收款監督系統的應用服務平台。本系統範圍包含建置下各項子系統如下：
 		\begin{enumerate}
-		\item 區塊鏈的實名交易監督系統(Blockchain Real-name Transaction Monitoring System, BRTMS)
 		\item 商家端建置與管理商品資訊子系統(Store and Merchandise Information Management Sub-System，SMIMSS)：本系統可以讓商家在進貨時，快速地將RFID標籤之識別碼與進貨商品資訊集成在一起，並且透過本系統新增、修改或刪除資料庫內部的資訊，包括產品名稱、詳細資訊，存貨數量等資訊，商家與顧客便可依照該資料庫取得當前商品資訊與狀態。不僅讓商店的存貨資訊更加清楚明瞭，也可以提供顧客更多的即時服務，圖\ref{model1}所示。
 
 			\begin{figure}[!htbp]
@@ -80,6 +79,7 @@
 				\centering
 				\caption{產品信息表}
 				\label{product}
+				
 				\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
 				序號 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
@@ -120,13 +120,15 @@
 				\centering
 				\caption{用戶信息表}
 				\label{user}
+				\resizebox{\textwidth}{!}{%
 				\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
 				序號 & 字段名 & 字段說明 & 類型 & 是否為空 & 主外鍵 \\ \hline
 				1 & USER\_ID & 用戶編號 & int & 否 & PK \\ \hline
 				2 & USER\_ACCOUNT & 用戶帳號 & navarchar(30) & 否 &  \\ \hline
 				3 & USER\_PASSWORDHASH & 用戶密碼哈希值 & navarchar(30) & 否 &  \\ \hline
-				\end{tabular}
+				\end{tabular}%
+				}
 				\end{table}
 
 		\item 職工信息表：表\ref{staff}信息表存儲各個商家擁有的職工信息，包括各職工編號、用戶編號商家編號及職工身份。
