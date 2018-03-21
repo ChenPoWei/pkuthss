@@ -404,12 +404,18 @@
 		\end{enumerate}
 
 
+
+
+
 	\section{性能測試}
+
+
 		\begin{figure}[!htbp]
 			\centering
 			\includegraphics[width = 0.8\textwidth]{fig9.png}
 			\caption{使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程}\label{fig9}
 		\end{figure}
+
 
 		根據比特幣點對點架構，儘管客戶和商店之間的交易細節已經快速存儲到雲數據庫，但官方確認交易與當前比特幣區塊鏈的交易通常需要更長的時間，因為需要確保確認的數量在交易廣播比特幣點對點網絡並存儲到緩存池後，是否存在雙重支付。本文設計了区块链的实名交易监督系统以及引用多重簽章算法重新設計的区块链的实名交易實時监督系统，以下將分別針對有無採用多重簽章算法的性能測試。
 
@@ -418,14 +424,14 @@
 		為了驗證本文提出的BRTMS不會通過使用比特幣等加密貨幣影響交易完成時間，我們於2017年7月25日和2017年9月6日，在Testnet實驗中連續記錄了25筆交易信息，每2秒發出一筆交易，分別歷時50分鐘。
 
 		\begin{enumerate}
-			\item 第一次測試（2017年7月25日）：
+			\item 初始測試（2017年7月25日）：
 			首先，我們使用區塊鏈檢視器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的快照所示，透過使用Testnet依序進行25筆比特幣交易，如圖\ref{fig9}的中間快照所示，最後25筆交易完成時間全部記錄在區塊鏈檢視器。實驗結果顯示，實驗中的所有交易都在3秒鐘左右（平均2.97秒，標準差小於1秒）發送到比特幣網絡緩存池，平均交易完成時間在比特幣區塊鏈中確認為522.33秒（小於9分鐘），標準差大約為339秒。
 
-			\item 第二次測試（2017年9月6日）：表\ref{1general}為第二次實驗數據，該次的比特幣交易法起廣播至比特幣交易緩存持的時間平均為1.918秒，標準差為0.55586秒。但為了預防雙花攻擊需要等待平均654.8秒（小於11分鐘，標準差346.63秒）的時間。
+			\item 第一次測試（2017年9月6日）：表\ref{1general}為第一次實驗數據，該次的比特幣交易法起廣播至比特幣交易緩存持的時間平均為1.918秒，標準差為0.55586秒。但為了預防雙花攻擊需要等待平均654.8秒（小於11分鐘，標準差346.63秒）的時間。
 
 				\begin{table}[!htbp]
 				\centering
-				\caption{第二次以Testnet 執行實驗之數據分析(2017/09/06)}
+				\caption{第一次以Testnet 執行實驗之數據分析(2017年9月6日)}
 				\label{1general}
 				\begin{tabular}{|l|l|l|l|}
 				\hline
@@ -437,10 +443,10 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第三次測試（2018年3月21日）：
+			\item 第二次測試（2018年3月21日）：表\ref{2general}，表\ref{2general-1}
 				\begin{table}[!htbp]
 				\centering
-				\caption{第三次以Testnet 執行實驗之數據(2018年3月21日)}
+				\caption{第二次以Testnet 執行實驗數據(2018年3月21日)}
 				\label{2general}
 				\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
@@ -471,7 +477,7 @@
 
 				\begin{table}[!htbp]
 				\centering
-				\caption{第三次以Testnet 執行實驗之數據分析(2018年3月21日)}
+				\caption{第三次以Testnet 執行實驗數據分析(2018年3月21日)}
 				\label{2general-1}
 				\begin{tabular}{|c|c|c|}
 				\hline
@@ -494,11 +500,11 @@
 
 		\begin{table}[!htbp]
 			\centering
-			\caption{初步的Green Address實驗測試數據 (2017/07/25)}
+			\caption{初步的Green Address實驗測試數據 (2017年7月25日)}
 			\label{0test}
 			\begin{tabular}{|l|l|l|l|l|}
 			\hline
-			\multicolumn{1}{|c|}{GA發起時間} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}GA進入緩存\\ 池時間差\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}緩存池\\ 收到時間\end{tabular}} & \multicolumn{1}{c|}{入塊時間} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}入塊花\\ 費時間\end{tabular}} \\ \hline
+			\multicolumn{1}{|c|}{付款時間} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}進入緩存池\\ 所花時間(秒)\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}進入緩存池\\ 時間點\end{tabular}} & \multicolumn{1}{c|}{入塊時間} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}寫入區塊\\ 費時間\end{tabular}} \\ \hline
 			06:36:25 & 02:14 & 06:36:27.14 & 06:52:00 & 16:25 \\ \hline
 			06:38:25 & 1.075 & 06:38:26.075 & 06:52:00 & 14:25 \\ \hline
 			06:40:25 & 1.722 & 06:40:26.722 & 06:52:00 & 12:25 \\ \hline
@@ -522,6 +528,7 @@
 		本次的實驗分為兩部份，分別是透過比特幣 Testnet錢包以及使用本論文所採用的Green Address比特幣錢包上執行25次付款，皆以相同地址收款，交易金額都設定為0.00001BTC，實驗時間為2017年9月6日與2018年2月6日，每隔兩分鐘執行一次付款的動作，總共歷時50分鐘。兩款錢包同時發起交易，並透過區塊鏈檢視器進行記錄時間，最後再比較使用一般比特幣錢包及Green Address錢包兩者之間的差距。
 
 		\begin{enumerate}
+			\item 
 			\item 第一次測試（2017年9月6日）：表\ref{1green}
 
 			\begin{table}[!htbp]
@@ -538,31 +545,13 @@
 				\end{tabular}
 				\end{table}
 
-
-			\item 第二次測試（2018年2月6日）：表\ref{2green}
-
-
-			\begin{table}[!htbp]
-				\centering
-				\caption{第二次以GreenAddress執行實驗之數據分析(2018/02/06)}
-				\label{2green}
-				\begin{tabular}{|l|l|l|l|}
-				\hline
-				 & 進入緩存池時間(秒) & 進入區塊鏈時間(秒) & 完成交易時間 \\ \hline
-				平均 & 1.96 & 92.4 & 1.96 \\ \hline
-				樣本標準差 & 0.538516 & 86.43012 & 0.538516 \\ \hline
-				95\%信賴區間 & 1.74$\sim$2.18 & 56.72$\sim$128.08 & 1.74$\sim$2.18 \\ \hline
-				99\%信賴區間 & 1.66$\sim$2.26 & 44.05$\sim$140.75 & 1.66$\sim$2.26 \\ \hline
-				\end{tabular}
-				\end{table}
-
-			\item 第三次測試（2018年3月21日）：表\ref{3green}
+			\item 第二次測試（2018年3月21日）：表\ref{2green}，表\ref{2green-1}
 
 		\end{enumerate}
 			\begin{table}[!htbp]
 				\centering
-				\caption{第三次以GreenAddress執行實驗之數據(2018年3月21日)}
-				\label{3green}
+				\caption{第二次以GreenAddress執行實驗之數據(2018年3月21日)}
+				\label{2green}
 				\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
 				\begin{tabular}[c]{@{}c@{}}交易\\ 次數\end{tabular} & 付款時間 & \begin{tabular}[c]{@{}c@{}}進入緩存池\\ 所花時間(秒)\end{tabular} & \begin{tabular}[c]{@{}c@{}}進入緩存池\\ 時間點\end{tabular} & \begin{tabular}[c]{@{}c@{}}寫入區塊鏈\\ 所花時間(秒)\end{tabular} & \begin{tabular}[c]{@{}c@{}}寫入區塊\\ 時間點\end{tabular} \\ \hline
@@ -593,7 +582,7 @@
 			\begin{table}[!htbp]
 				\centering
 				\caption{第三次以GreenAddress執行實驗之數據分析(2018年3月21日)}
-				\label{3green-1}
+				\label{2green-1}
 				\begin{tabular}{|c|c|c|}
 				\hline
 				 & 進入緩存池所花時間(秒) & 寫入區塊所花時間(秒) \\ \hline
