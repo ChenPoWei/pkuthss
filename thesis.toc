@@ -30,9 +30,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{哈希算法 SHA-256}{14}{subsubsection*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Base58 編碼}{16}{subsubsection*.22}
+\contentsline {subsubsection}{Base58 編碼}{17}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{17}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}比特幣地址生成過程}{18}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}多重簽章（Multi-Signature）}{20}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
@@ -42,64 +42,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{22}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}區塊頭（Block Header）}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}區塊頭（Block Header）}{22}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}點對點網絡與加密貨幣安全}{24}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系統需求分析}{27}{chapter.3}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系統需求分析}{25}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}交易模型分析}{27}{section.3.1}
+\contentsline {section}{\numberline {3.1}交易模型分析}{25}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}現金交易模型}{27}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}現金交易模型}{25}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{匿名客戶對匿名商家}{27}{subsubsection*.34}
+\contentsline {subsubsection}{匿名客戶對匿名商家}{25}{subsubsection*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{匿名客戶對實名商家}{28}{subsubsection*.36}
+\contentsline {subsubsection}{匿名客戶對實名商家}{26}{subsubsection*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}電子貨幣交易模型}{28}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}電子貨幣交易模型}{26}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{實名客戶支付實名商家}{28}{subsubsection*.38}
+\contentsline {subsubsection}{實名客戶支付實名商家}{26}{subsubsection*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{實名客戶透過實名第三方再實名商家}{29}{subsubsection*.40}
+\contentsline {subsubsection}{實名客戶透過實名第三方再實名商家}{27}{subsubsection*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{實名客戶透過匿名第三方再實名商家}{29}{subsubsection*.42}
+\contentsline {subsubsection}{實名客戶透過匿名第三方再實名商家}{27}{subsubsection*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}交易關係比較}{30}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}交易關係比較}{28}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}特性要因分析}{30}{section.3.2}
+\contentsline {section}{\numberline {3.2}特性要因分析}{28}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統設計}{33}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統設計}{31}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}區塊鏈的實名交易監督系統設計}{33}{section.4.1}
+\contentsline {section}{\numberline {4.1}區塊鏈的實名交易監督系統設計}{31}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}BRTMS數據庫設計}{35}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.1}BRTMS數據庫設計}{33}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{38}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{36}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{38}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{37}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{41}{section.4.2}
+\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{39}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統實現}{45}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統實現}{43}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{49}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{47}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}功能測試}{49}{section.6.1}
+\contentsline {section}{\numberline {6.1}功能測試}{47}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}测试用例}{51}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}测试用例}{49}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{55}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{53}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}性能測試}{55}{section.6.2}
+\contentsline {section}{\numberline {6.2}性能測試}{53}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{58}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{56}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{59}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{58}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{61}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{63}{appendix*.85}
+\contentsline {chapter}{参考文献}{63}{appendix*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{67}{appendix*.86}
+\contentsline {chapter}{致谢}{67}{appendix*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{69}{appendix*.87}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{69}{appendix*.91}

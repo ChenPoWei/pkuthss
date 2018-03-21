@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 18:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  21 MAR 2018 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2753,10 +2753,7 @@ File: ECCtime.png Graphic file (type QTm)
  <use  "ECCtime.png" >
 File: LatticesignaturesandbimodalGaussians.png Graphic file (type QTm)
 
-<use  "LatticesignaturesandbimodalGaussians.png" > [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
+<use  "LatticesignaturesandbimodalGaussians.png" > [14] [15]
 File: 6confirm.jpg Graphic file (type QTm)
 
 <use  "6confirm.jpg" > [16]
@@ -2765,43 +2762,43 @@ File: address.png Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-[20]
 File: gabuild.png Graphic file (type QTm)
- <use  "gabuild.png" >
+
+<use  "gabuild.png" >
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [20]
 File: gatx.png Graphic file (type QTm)
- <use  "gatx.png" > [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+<use  "gatx.png" > [21]
 File: blockchain.png Graphic file (type QTm)
-
-<use  "blockchain.png" >
+ <use  "blockchain.png" > [22]
 File: MerkleRoot.png Graphic file (type QTm)
- <use  "MerkleRoot.png" > [23]
+ <use  "MerkleRoot.png" >
+[23]
 File: bitcoinfullnode.png Graphic file (type QTm)
-
-<use  "bitcoinfullnode.png" >) [24] [25]
+ <use  "bitcoinfullnode.png" >) [24]
 \openout2 = `chap/chap3.aux'.
 
- (./chap/chap3.tex [26
+ (./chap/chap3.tex
+第三章
+File: modeall.png Graphic file (type QTm)
+<use  "modeall.png" > [25
 
 
 
 ]
-第三章
-File: modeall.png Graphic file (type QTm)
-<use  "modeall.png" > [27]
 File: modeaa.png Graphic file (type QTm)
  <use  "modeaa.png" >
 File: modean.png Graphic file (type QTm)
  <use  "modean.png" >
 File: modenn.png Graphic file (type QTm)
 
-<use  "modenn.png" > [28]
+<use  "modenn.png" > [26]
 File: modennn.png Graphic file (type QTm)
  <use  "modennn.png" >
 File: modenan.png Graphic file (type QTm)
- <use  "modenan.png" > [29]
+ <use  "modenan.png" > [27]
 File: fish1.png Graphic file (type QTm)
 
 <use  "fish1.png" >
@@ -2810,17 +2807,17 @@ Overfull \hbox (5.02498pt too wide) in paragraph at lines 83--89
 為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.7[]\TU/STSong(0)/m/n/12.045 所
  []
 
-) [30] [31]
+) [28] [29]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [32
+ (./chap/chap4.tex [30
 
 
 
 ]
 第四章
 File: model0.jpg Graphic file (type QTm)
-<use  "model0.jpg" > [33]
+<use  "model0.jpg" > [31]
 File: model1.jpg Graphic file (type QTm)
  <use  "model1.jpg" >
 Missing character: There is no   in font ntx-Regular-tlf-t1!
@@ -2834,9 +2831,9 @@ Overfull \hbox (4.93584pt too wide) in paragraph at lines 38--44
 lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
  []
 
-[34]
+[32]
 File: er.jpg Graphic file (type QTm)
- <use  "er.jpg" > [35] [36]
+ <use  "er.jpg" > [33] [34]
 Overfull \hbox (17.86526pt too wide) in paragraph at lines 123--130
  [][] 
  []
@@ -2847,15 +2844,15 @@ Overfull \hbox (10.99965pt too wide) in paragraph at lines 152--160
  []
 
 File: fig3.png Graphic file (type QTm)
-<use  "fig3.png" > [37]
+<use  "fig3.png" > [35] [36]
 File: fig4.png Graphic file (type QTm)
- <use  "fig4.png" > [38] [39] [40]
+ <use  "fig4.png" > [37] [38]
 File: gabpcss.png Graphic file (type QTm)
 
-<use  "gabpcss.png" > [41] [42]) [43]
+<use  "gabpcss.png" > [39] [40]) [41]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex [44
+ (./chap/chap5.tex [42
 
 
 
@@ -2864,15 +2861,15 @@ File: gabpcss.png Graphic file (type QTm)
 File: fig5.png Graphic file (type QTm)
 <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [45]
+ <use  "fig6.png" > [43]
 File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
 
-<use  "fig8.png" >) [46] [47]
+<use  "fig8.png" >) [44] [45]
 \openout2 = `chap/chap6.aux'.
 
- (./chap/chap6.tex [48
+ (./chap/chap6.tex [46
 
 
 
@@ -2887,7 +2884,7 @@ Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 說 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
-[49] [50]
+[47] [48]
 Missing character: There is no 度 in font STSong/OT!
 
 Overfull \hbox (7.94467pt too wide) in paragraph at lines 76--77
@@ -2902,19 +2899,20 @@ File: usecasediagram.png Graphic file (type QTm)
  <use  "usecasediagram.png" >
 File: AcceptanceTesting.png Graphic file (type QTm)
 
-<use  "AcceptanceTesting.png" > [51] [52] [53]
+<use  "AcceptanceTesting.png" > [49] [50] [51]
 Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
 n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
  系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
-[54]
+[52]
 File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" > [55] [56] [57] [58] [59]) [60]
+ <use  "fig9.png" > [53] [54] [55] [56] [57] [58] [59]) [60]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex
+
+(./chap/chap7.tex
 第七章
 ) [61
 
@@ -3068,12 +3066,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48632 strings out of 493005
- 953956 string characters out of 6134596
- 1377229 words of memory out of 5000000
- 51840 multiletter control sequences out of 15000+600000
+ 48636 strings out of 493005
+ 953996 string characters out of 6134596
+ 1373505 words of memory out of 5000000
+ 51844 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (83 pages, 746828 bytes).
+Output written on thesis.xdv (83 pages, 763944 bytes).
