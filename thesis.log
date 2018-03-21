@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  22 MAR 2018 01:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  22 MAR 2018 04:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2785,38 +2785,43 @@ File: bitcoinfullnode.png Graphic file (type QTm)
 
 ]
 第三章
+File: UC.jpg Graphic file (type QTm)
+<use  "UC.jpg" >
 File: modeall.png Graphic file (type QTm)
-<use  "modeall.png" > [29]
+ <use  "modeall.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
 File: modeaa.png Graphic file (type QTm)
- <use  "modeaa.png" >
+
+<use  "modeaa.png" > [30]
 File: modean.png Graphic file (type QTm)
  <use  "modean.png" >
 File: modenn.png Graphic file (type QTm)
-
-<use  "modenn.png" > [30]
+ <use  "modenn.png" > [31]
 File: modennn.png Graphic file (type QTm)
- <use  "modennn.png" >
-File: modenan.png Graphic file (type QTm)
- <use  "modenan.png" > [31]
-File: fish1.png Graphic file (type QTm)
 
-<use  "fish1.png" >
-Overfull \hbox (5.02498pt too wide) in paragraph at lines 83--89
+<use  "modennn.png" >
+File: modenan.png Graphic file (type QTm)
+ <use  "modenan.png" > [32]
+File: fish1.png Graphic file (type QTm)
+ <use  "fish1.png" >
+Overfull \hbox (5.02498pt too wide) in paragraph at lines 95--101
 []\TU/STSong(0)/m/n/12.045 透 過 特 性 要 因 分 析 可 以 將 区 块 链 的 实 名 交 易 监 督 系 统 大 致 分 
-為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.7[]\TU/STSong(0)/m/n/12.045 所
+為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.8[]\TU/STSong(0)/m/n/12.045 所
  []
 
-) [32] [33]
+) [33] [34]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [34
+ (./chap/chap4.tex
+第四章
+File: model0.jpg Graphic file (type QTm)
+<use  "model0.jpg" > [35
 
 
 
 ]
-第四章
-File: model0.jpg Graphic file (type QTm)
-<use  "model0.jpg" > [35]
 File: model1.jpg Graphic file (type QTm)
  <use  "model1.jpg" >
 Missing character: There is no   in font ntx-Regular-tlf-t1!
@@ -2831,7 +2836,11 @@ lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
  []
 
 File: er.jpg Graphic file (type QTm)
-<use  "er.jpg" > [36] [37] [38]
+<use  "er.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37] [38]
 Overfull \hbox (10.99965pt too wide) in paragraph at lines 154--162
  [][] 
  []
@@ -3059,12 +3068,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48631 strings out of 493005
- 953886 string characters out of 6134596
- 1374426 words of memory out of 5000000
- 51841 multiletter control sequences out of 15000+600000
+ 48634 strings out of 493005
+ 953902 string characters out of 6134596
+ 1373588 words of memory out of 5000000
+ 51843 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (87 pages, 780852 bytes).
+Output written on thesis.xdv (87 pages, 782764 bytes).
