@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  22 MAR 2018 16:07
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  22 MAR 2018 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2766,7 +2766,7 @@ File: gabuild.png Graphic file (type QTm)
  <use  "gabuild.png" > [23]
 File: gatx.png Graphic file (type QTm)
  <use  "gatx.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3930) has occurred while \output is active []
 
  [24]
 File: blockchain.png Graphic file (type QTm)
@@ -3076,4 +3076,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (87 pages, 787572 bytes).
+Output written on thesis.xdv (87 pages, 787636 bytes).

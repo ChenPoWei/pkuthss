@@ -36,9 +36,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}多重簽章（Multi-Signature）}{22}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Green Address錢包生成過程}{23}{paragraph*.26}
+\contentsline {subsubsection}{（一）Green Address錢包生成過程}{23}{subsubsection*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Green Address交易發起流程}{24}{paragraph*.28}
+\contentsline {subsubsection}{（二）Green Address交易發起流程}{24}{subsubsection*.28}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}區塊鏈（Blockchain）}{25}{section.2.3}
 \defcounter {refsection}{0}\relax 
