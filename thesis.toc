@@ -78,7 +78,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}商家和商品信息管理子系統（SMIMSS）}{40}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{42}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{41}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{45}{section.4.2}
 \defcounter {refsection}{0}\relax 

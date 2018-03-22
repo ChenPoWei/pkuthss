@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  22 MAR 2018 22:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  22 MAR 2018 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2853,15 +2853,12 @@ File: time3.jpg Graphic file (type QTm)
  <use  "time3.jpg" >
 File: time2.jpg Graphic file (type QTm)
 
-<use  "time2.jpg" > [41]
+<use  "time2.jpg" >
 File: fig4.png Graphic file (type QTm)
  <use  "fig4.png" >
 File: time4.jpg Graphic file (type QTm)
- <use  "time4.jpg" >
-Underfull \vbox (badness 1189) has occurred while \output is active []
-
- [42]
-[43] [44]
+ <use  "time4.jpg" > [41] [42] [43]
+[44]
 File: gabpcss.png Graphic file (type QTm)
  <use  "gabpcss.png" > [45] [46]) [47]
 \openout2 = `chap/chap5.aux'.
@@ -3088,4 +3085,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (89 pages, 795764 bytes).
+Output written on thesis.xdv (89 pages, 796248 bytes).
