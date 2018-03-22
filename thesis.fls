@@ -541,7 +541,11 @@ INPUT model2.jpg
 INPUT model3.jpg
 INPUT er.jpg
 INPUT fig3.png
+INPUT time1.jpg
+INPUT time3.jpg
+INPUT time2.jpg
 INPUT fig4.png
+INPUT time4.jpg
 INPUT gabpcss.png
 OUTPUT chap/chap5.aux
 INPUT chap/chap5.tex

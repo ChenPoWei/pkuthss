@@ -76,32 +76,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}BRTMS數據庫設計}{38}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}商店和商品信息管理子系統（SMIMSS）}{40}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}商家和商品信息管理子系統（SMIMSS）}{40}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{41}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.3}BRTMS架構與運作流程}{42}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{43}{section.4.2}
+\contentsline {section}{\numberline {4.2}以多重簽章優化區塊鏈的實名交易監督系統之設計}{45}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統實現}{47}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統實現}{49}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{51}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{53}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}功能測試}{51}{section.6.1}
+\contentsline {section}{\numberline {6.1}功能測試}{53}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}测试用例}{53}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}测试用例}{55}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{57}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{59}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}性能測試}{57}{section.6.2}
+\contentsline {section}{\numberline {6.2}性能測試}{59}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{60}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{62}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{62}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{64}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{65}{chapter.7}
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{67}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{67}{appendix*.90}
+\contentsline {chapter}{参考文献}{69}{appendix*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{71}{appendix*.91}
+\contentsline {chapter}{致谢}{73}{appendix*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{73}{appendix*.92}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{75}{appendix*.96}
