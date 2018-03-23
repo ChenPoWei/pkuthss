@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 02:55
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 03:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2853,7 +2853,7 @@ File: er.jpg Graphic file (type QTm)
 
 
 ]
-Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
+Overfull \hbox (10.99965pt too wide) in paragraph at lines 116--124
  [][] 
  []
 
@@ -2866,9 +2866,9 @@ File: c2.jpg Graphic file (type QTm)
  <use  "c2.jpg" >
 File: time3.jpg Graphic file (type QTm)
 
-<use  "time3.jpg" > [47]
+<use  "time3.jpg" > [47] [48]
 File: c1.jpg Graphic file (type QTm)
- <use  "c1.jpg" > [48]
+ <use  "c1.jpg" >
 File: time2.jpg Graphic file (type QTm)
  <use  "time2.jpg" > [49]
 File: c4.jpg Graphic file (type QTm)
@@ -2884,20 +2884,17 @@ File: time4.jpg Graphic file (type QTm)
 
 <use  "time4.jpg" >
 File: c7.jpg Graphic file (type QTm)
- <use  "c7.jpg" >
-Underfull \vbox (badness 5245) has occurred while \output is active []
-
- [50]
-[51] [52] [53] [54] [55]
+ <use  "c7.jpg" > [50] [51] [52] [53] [54] [55]
 File: fig5.png Graphic file (type QTm)
- <use  "fig5.png" >
+
+<use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
  <use  "fig6.png" >
 File: fig7.png Graphic file (type QTm)
-
-<use  "fig7.png" > [56] [57]
+ <use  "fig7.png" > [56] [57]
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [58]
+
+<use  "fig8.png" >) [58]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -3105,4 +3102,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (95 pages, 838476 bytes).
+Output written on thesis.xdv (95 pages, 838756 bytes).

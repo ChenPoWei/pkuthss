@@ -70,7 +70,7 @@
 				6 & STOREPRODUCT\_QUANTITY & 商家產品數量 & int & 否 &  \\ \hline
 				7 & TX\_AMOUNT & 交易金額 & float & 否 &  \\ \hline
 				8 & CONSUMER\_BTCADDRESS & 顧客比特幣地址 & navarchar(50) & 否 &  \\ \hline
-				9 & CHEK & 校驗值 & int & 否 &  \\ \hline
+				9 & CHEK & 校驗值 & bool & 否 &  \\ \hline
 				\end{tabular}%
 				}
 				\end{table}
@@ -88,7 +88,8 @@
 				1 & USER\_ID & 用戶編號 & int & 否 & PK \\ \hline
 				2 & USER\_ACCOUNT & 用戶帳號 & navarchar(30) & 否 &  \\ \hline
 				3 & USER\_PASSWORDHASH & 用戶密碼哈希值 & navarchar(30) & 否 &  \\ \hline
-				\end{tabular}%
+				4 & GOVT\_AUTH & 政府審查 & bool & 否 &  \\ \hline
+				\end{tabular}
 				}
 				\end{table}
 
