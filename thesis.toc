@@ -92,11 +92,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（三）職工管理模塊}{49}{subsubsection*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（四）顧客交易管理模塊}{49}{subsubsection*.70}
+\contentsline {subsubsection}{（四）顧客交易管理模塊}{50}{subsubsection*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（五）職工交易管理模塊}{49}{subsubsection*.73}
+\contentsline {subsubsection}{（五）職工交易管理模塊}{50}{subsubsection*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}系統實現}{49}{section.5.3}
+\contentsline {section}{\numberline {5.3}系統實現}{55}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{59}{chapter.6}
 \defcounter {refsection}{0}\relax 

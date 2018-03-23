@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  23 MAR 2018 21:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 02:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2834,7 +2834,7 @@ lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
 
 File: fig3.png Graphic file (type QTm)
 <use  "fig3.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1377) has occurred while \output is active []
 
  [36]
 [37] [38]
@@ -2868,35 +2868,34 @@ File: time3.jpg Graphic file (type QTm)
 
 <use  "time3.jpg" > [47]
 File: c1.jpg Graphic file (type QTm)
- <use  "c1.jpg" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
+ <use  "c1.jpg" > [48]
 File: time2.jpg Graphic file (type QTm)
-
-<use  "time2.jpg" >
+ <use  "time2.jpg" > [49]
 File: c4.jpg Graphic file (type QTm)
- <use  "c4.jpg" >
+
+<use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
  <use  "time5.jpg" >
 File: c5.jpg Graphic file (type QTm)
  <use  "c5.jpg" >
 File: time4.jpg Graphic file (type QTm)
+ <use  "time4.jpg" >
+Underfull \vbox (badness 5245) has occurred while \output is active []
 
-<use  "time4.jpg" >
+ [50]
+[51] [52] [53] [54]
 File: fig5.png Graphic file (type QTm)
- <use  "fig5.png" > [49] [50]
+ <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" >
+ <use  "fig6.png" > [55]
 File: fig7.png Graphic file (type QTm)
 
 <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [51] [52] [53] [54] [55] [56] [57]
+ <use  "fig8.png" >) [56] [57]
 \openout2 = `chap/chap6.aux'.
 
-
-(./chap/chap6.tex [58
+ (./chap/chap6.tex [58
 
 
 
@@ -3095,10 +3094,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48675 strings out of 493005
  954767 string characters out of 6134596
- 1376119 words of memory out of 5000000
+ 1376118 words of memory out of 5000000
  51874 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (95 pages, 836284 bytes).
+Output written on thesis.xdv (95 pages, 836280 bytes).
