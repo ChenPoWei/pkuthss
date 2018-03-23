@@ -4,7 +4,7 @@
 	
 	\section{比特幣（Bitcoin）}
 
-		\begin{table}[!htbp]
+		\begin{table}[htbp]
 		\centering
 		\caption{比特幣簡介}
 		\label{IntroductiontoBitcoin}
@@ -38,7 +38,7 @@
 				\subsubsection{（一）亂數產生器（Random number generator）}
 				亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公佈的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索的組態空間中擊中了15個比特幣地址，該團隊也成功將這15 個地址下的1.180899個比特幣轉走。
 
-				\begin{figure}[!htbp]
+				\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = .9\textwidth]{LBC.png}
 					\caption{LBC窮舉比特幣私鑰算力狀態圖\supercite{TheLargeBitcoinCollider}}\label{LBC}
@@ -53,7 +53,7 @@
 				非對稱式加密與對稱式加密最大的不同在於，對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的使用者Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公佈在網絡上，這時希望聯繫Alice的使用者Bob在網絡上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，即使網絡存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易之數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花費的輸出（Unspent Transaction Output，UTXO）進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網絡的交易緩存池當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收入到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工將該筆交易收入至比特幣區塊鏈當中。
 				比特幣採用的secp256k1是屬於橢圓曲線密碼學中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線方程$$y^2=x^3+ax+b$$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F為巨大的素數、G點被稱爲⽣成點的常數點亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更佳快速，圖\ref{ECCtime}為Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}顯示，當ECC產生571 bits的密鑰長度，RSA要達到相同的安全性需要生成15360 bits，這也導致生成時間產生高達471倍之差距。
 
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{ECC與RSA的密鑰對生成時間比較表\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}
 				\label{ECCtime}
@@ -71,7 +71,7 @@
 
 				除了在密鑰對生成時間ECC有著比RSA更高效的算法外，在安全性上ECC可以更短的密鑰長度達到與RSA相同的安全強度，L Ducas針對ECC、RSA、BLISS\supercite{LatticesignaturesandbimodalGaussians}做出了深度的安全性探討\supercite{LatticesignaturesandbimodalGaussians}，圖\ref{LatticesignaturesandbimodalGaussians}同樣達到80 bits的安全性級數，RSA 1024需要1024 bits，ECDSA 160\supercite{DeploymentsofEllipticCurveCryptography}僅需要160 bits，該篇論文除了探討RSA與ECDSA之外，更大的部分在闡述量子計算機對於既有的傳統密碼帶來的抨擊，有機會快速窮舉$2^{256}$的比特幣私鑰，在未來量子計算機的蓬勃發展擁有2000 qbits運算能力，量子計算機可以快速窮舉破解所有的比特幣私鑰。因此發展針對量子計算機設計的數字簽名算法成為密碼學上嶄新的議題，而BLISS則為針對量子計算機所設計的抗量子計算的簽章算法。
 
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{算法BLISS、RSA、ECDSA安全級數比較圖表\supercite{LatticesignaturesandbimodalGaussians}}
 				\label{LatticesignaturesandbimodalGaussians}
@@ -98,7 +98,7 @@
 				SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3，如表\ref{hashtable}所示。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈樹的不同。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。表\ref{hashtable}中MD5不為SHA家族成員之一，但MD5為最早被廣泛使用的哈希算法，因此作為借鑒的標準。SHA-0為SHA家族中被最早提出的架構，輸出的長度為160 bits，而SHA-1提出後並無太大的變動。
 				哈希算法的主要功能在於，將信息或是檔案建立一個對一的指紋，也就是哈希值，而該指紋長度會依照算法的設計輸出的長度而略有不同，表\ref{hashtable}中顯示的輸出哈希值長度，而長度也意味著該指紋的組態空間應設的大小。倘若有著不同的輸入，但映射到了相同的指紋，則將此現象稱之為碰撞。通常在信息安全領域中，只要發現該哈希算法存在著碰撞，就會被棄用。甚至是專家們提早數年提出警告，要求提早更換該哈希算法，並更換上新制定的哈希算法做應用。哈希算法的功能包括藉由生成哈希值進行檔案校驗、工作量證明算法設計以及區塊鏈中的哈希指針。
 
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 					\centering
 					\caption{MD5、SHA-0、SHA-1、SHA-2和SHA-3比較表}
 					\label{hashtable}
@@ -124,7 +124,7 @@
 				\item 工作量證明算法設計：起出工作量證明算法的概念為設計一個求解困難，但驗算的過程中卻相當簡單快速。如對一個大數做因式分解是一個相當困難的事，但要驗算其結果僅需要將所有的解相乘確認是否為該大數即可證明。同樣的理念在比特幣系統中是以hash-puzzle的方式實現，hash-puzzle是利用哈希函數有著不可預期的特性，不可預期指的是假設輸入連續性的數值$1$到$n$進入到哈希函數生成哈希值，而生成的哈希值無法觀察出關聯性，可說是完全不相關的數值，且無法預期下個輸入的哈希值輸出。
 				比特幣系統中的困難度變數，在hash-puzzle中定義了何謂真正的答案。在SHA-256當中輸出的值為256 bits的哈希值，困難度變數則規定了在這256bit當中，自最左邊起必須為零的位數的門檻，而在困難度變數要求必須為零的位數變多，則意味著要在連續性的數值$1$到$n$的hash-puzzle中，符合門檻的解越少。在hash-puzzle中，求得一個符合困難度變數的哈希值是困難的，但要驗算求得的觧是否符合困難度的門檻相當快速，這符合起出工作量證明算法的概念。
 
-				\begin{figure}[!htbp]
+				\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = 0.9\textwidth]{6confirm.jpg}
 					\caption{區塊疊加示意圖}\label{6confirm}
@@ -143,7 +143,7 @@
 
 				表\ref{Base58}為Base58編碼表，Base58編碼的首次出現自Satoshi Nakamoto所提出的論文\supercite{bitcoinpaper}當中，Base58編碼是源自於Base64編碼表，如表\ref{Base64}中所示。Base64編碼中包括大寫英文26個字母、小寫英文26個字母、阿拉伯數字以及字符"/"和"+"。在比特幣地址生成過程中Base58的功能是將比特幣地址的公鑰哈希值重新編碼，比特幣地址的公鑰哈希值是二進制的資料型態，既使是將二進制碼轉換成十六進制碼輸出也是對人類辨識上有一定的不便性。倘若採用Base64對比特幣公鑰哈希值進行編碼有效縮短二進制碼的長度，但Base64的編碼存在著不適於作為地址的特殊字符"+"和"-"。在Base58編碼中移除了特殊字符之外，移除了較不易人類判讀的相關字符數字"0"與大寫英文字母"O"，因為該兩字符在不同字型的體現相當相似，大寫英文字母"I"以及小寫英文字母"l"，在人類判讀上也有些為相似。因此於Base64移除上述6個字符後，便形成了Base58編碼表。值得一提的是，Base58編碼與Base64編碼表中的字符排序有些許異動，Base58編碼表將數字的部分一致了最前面，這使得比特幣地址以Base58編碼後的第一個字符呈現為"1"的主要原因。
 
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{Base58 編碼表}
 					\label{Base58}
@@ -169,7 +169,7 @@
 					\end{tabular}
 					\end{table}
 
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{Base64 編碼表}
 					\label{Base64}
@@ -198,7 +198,7 @@
 			\subsection{比特幣地址生成過程}
 			於上述章節中已經詳細說明比特幣在地址生成的過程中，使用到的所有的相關算法技術以及算法在現今的比特幣系統中存在的問題，於本節中將闡述如何將比特幣地址生相關算法帶入比特幣地址生成的過程中，地址生成的總共分為八個步驟，分別為生成私鑰、生成公鑰、生成公鑰SHA-256、生成公鑰SHA-256的RIPEMD-160、取得版本號、校驗碼生成、版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併，最後一步則是將合併的結果以Base58編碼創建出一個比特幣地址。
 
-			\begin{figure}[!htbp]
+			\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = .9\textwidth]{address.png}
 					\caption{比特幣地址生成流程圖}\label{address}
@@ -226,7 +226,7 @@
 
 			 	\subsubsection{（一）Green Address錢包生成過程}
 			 	此節將詳細闡述Green Address錢包生成過程的重要步驟，如圖\ref{gabuild}所示。
-			 	\begin{figure}[!htbp]
+			 	\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = .5\textwidth]{gabuild.png}
 					\caption{Green Address錢包生成流程圖}\label{gabuild}
@@ -244,7 +244,7 @@
 			 	\subsubsection{（二）Green Address交易發起流程}
 			 	說明完Green Address地址是如何創建之後，本節將詳細說明如何運用多重簽章地址發起交易至比特幣網絡中，如圖\ref{gatx}所示。
 
-			 	\begin{figure}[!htbp]
+			 	\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = .6\textwidth]{gatx.png}
 					\caption{Green Address交易發起流程圖}\label{gatx}
@@ -266,7 +266,7 @@
 			\subsection{區塊頭（Block Header）}
 			比特幣區塊鏈可視為一種專門存儲交易信息的數據庫，該數據庫的結構嚴謹。區塊鏈之所以稱職為鍊是因為由許多區塊構成，區塊頭存在於區塊中記錄區塊中的重要信息共六項，分別為區塊版本、前區塊的哈希值、Merkle Root、難易度、時間戳以及Nonce，以下將逐一說明：
 
-			\begin{figure}[!htbp]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = 1\textwidth]{blockchain.png}
 				\caption{比特幣區塊鏈結構圖}\label{blockchain}
@@ -276,7 +276,7 @@
 				\item 區塊版本（32 bits）：該欄位存儲比特幣區塊鏈中的區塊版本。
 				\item 前區塊的哈希值（256 bits）：記錄前一個區塊的哈希值。 根據當前區塊的前一個區塊哈希值進而形成哈希指針，所有塊可以因為哈希指針連接在一起形成比特幣區塊鏈，不僅可以在區塊與區塊間建立虛擬鏈接，還可以使得區塊更難以被篡改。而通過新區塊不斷疊加在舊區塊過程，舊區塊的哈希值將繼續傳遞到最新的區塊。若區塊上面堆疊更多的區塊，促使的哈希值間接引用越多次，因此較早創建的區塊更難以修改。
 
-				\begin{figure}[!htbp]
+				\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = 0.7\textwidth]{MerkleRoot.png}
 					\caption{Merkle Tree示意圖}\label{MerkleRoot}

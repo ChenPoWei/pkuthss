@@ -17,7 +17,7 @@
 
 		加密貨幣中最具代表性的是比特幣，但除了比特幣之外也存在許多模仿比特幣的加密貨幣，有的是為其利益，有的是鑒於比特幣的各種不足，進而希望藉由其他貨幣改善⽐特幣不夠完美之處。加密貨幣市場中有成千上萬種的加密貨幣，其中較廣為人知的加密貨幣會在Cryptocurrency Market Capitalizations\supercite{CryptocurrencyMarketCapitalizations}的排行榜中出現，截至2018年2月8日該排行榜已經收入了1510種加密貨幣。在Cryptocurrency Market Capitalizations統計的數據當中，可知整體的加密貨幣市場，如圖\ref{TotalMarketCapitalization}所示，於2018年1月7日創下了歷史新高，加密貨幣市場的總市值也高達了829,579,000,000美金，相當於五兆人民幣的總市值。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = .9\textwidth]{TotalMarketCapitalization.png}
 			\caption{2017加密貨幣總市值走勢圖\supercite{CryptocurrencyMarketCapitalizations}}\label{TotalMarketCapitalization}
@@ -27,7 +27,7 @@
 		\supercite{HavethesecurityflawssurroundingBITCOINeffectedthecurrencysvalue?}
 		作出詳盡的市場調研，致力於探討在各個比特幣市場大事件中對比特幣價格的波動影響，針對影響的程度該論文給出影響指數，當中影響最為嚴重的是於2014年2月發生的日本交易所Mt.Gox倒閉事件，因為早期的加密貨幣市場中無完善的法律規範，各國對加密貨幣的接受度有所不同，日本對金融科技的接受度相較於較為開放的情況下成立了全世界第一家比特幣交易所Mt.Gox，也因為交易所不夠普及，使得大部分的加密貨幣交易都集中在Mt.Gox交易所中，使Mt.Gox 倒閉事件成為震盪市場價格重⼤因⼦之⼀，也造成2014與2015年的加密貨幣市場低迷。而在2017年，比特幣又以2016年總市值之35倍的姿態攀上新高點，主要是因為美國最大的期權交易中心芝加哥期權交易所於2017年12月10日支宣布支持比特幣期貨交易，此舉將比特幣價格推升到20,000美金的歷史新高，圖\ref{Thetotalmarketcapitalization}為2013年至2018年歷年的加密貨幣總市值的統計圖表。
 
-			\begin{figure}[!htbp]
+			\begin{figure}[htbp]
 				\centering
 				\includegraphics[width = .7\textwidth]{Thetotalmarketcapitalization.png}
 				\caption{加密貨幣歷年最高總市值折線圖\supercite{CryptocurrencyMarketCapitalizations}}\label{Thetotalmarketcapitalization}
@@ -60,13 +60,13 @@
 
 				第一，每秒處理的交易量上限僅為七筆。圖\ref{TPS}為國際上較為廣泛使用的⽀付系統之每秒⽀持交易量⽐較圖，以VISA為例，其以公司中心化運營的方式可以支持高達每秒2,000筆交易。但是以區塊鏈技術為基礎的比特幣最大能夠接受的每秒處理交易量僅為7筆。一般認為只要提升區塊大小的限制，就可以提升每秒處理的交易量。以下說明提升每秒處理的交易量的同時也存下述的兩項問題，分別為區塊鏈成長速度過快造成節點崩潰以及區塊同步延遲造成區塊鏈分岔：
 
-					\begin{figure}[!htbp]
+					\begin{figure}[htbp]
 						\centering
 						\includegraphics[width = .7\textwidth]{TPS.png}
 						\caption{Bitcoin、Western Union\supercite{WesternUnion}、PayPal\supercite{PayPal}以及VISA每秒支持交易量比較圖\supercite{digibyte}}\label{TPS}
 					\end{figure}
 
-					\begin{figure}[!htbp]
+					\begin{figure}[htbp]
 						\centering
 						\includegraphics[width = .8\textwidth]{blockchainsize.png}
 						\caption{比特幣區塊鏈成長走勢圖\supercite{blockchainsize}}\label{blockchainsize}
@@ -82,7 +82,7 @@
 
 				第二，洗錢防治困難。匿名性為比特幣系統一大特色，比特幣的地址生成的熵是256 bits，亂數是在$2^{256}$的組態空間中隨機選取，這樣的地址與現實生活中的身份並無任何關聯，使得黑市交易、洗錢防治變的困難，甚至有更為前沿的加密貨幣Monero\supercite{noether2014monero}導入了環簽章（Ring Signature）\supercite{Thresholdringsignaturesandapplicationstoad-hocgroups}算法、Zcash\supercite{zhong2002faster}導入零知識證明算法\supercite{Zero-KnowledgeProofsofIdentity}，使得原本公開透明的區塊鏈，變得無法檢視，進而造成加密貨幣在洗錢防治上更加的困難。2017年由Thibault de Balthasar and Julio Hernandez-Castro 所提出的論文"An Analysis of Bitcoin Laundry Services."\supercite{AnAnalysisofBitcoinLaundryServices}，致⼒探究⽐特幣匿名交易下的資⾦流動模型，試圖以機械學習的方法找出比特幣洗錢模型作為洗錢的工具，圖\ref{Darklaunderworkflow}為該論文針對黑市交易中的洗錢服務運營商Darklaunder進行洗錢機械學習識別有著傑出的成果。
 
-					\begin{figure}[!htbp]
+					\begin{figure}[htbp]
 						\centering
 						\includegraphics[width = .7\textwidth]{Darklaunderworkflow.png}
 						\caption{Darklaunder 洗錢模型\supercite{AnAnalysisofBitcoinLaundryServices}}\label{Darklaunderworkflow}
@@ -101,7 +101,7 @@
 				在比特幣系統中，其區塊鏈僅用於記錄交易記錄，不能擴展更多功能和應用程序。有很多開發者希望將比特幣系統擴展到智能合約等其他應用程序。但是，後來發現改變原始比特幣系統框架是具有挑戰性的工作。因此，全球第二大加密貨幣以太坊（Ethereum，ETH）的作者Vitalik也創建了以太坊虛擬機（Ethereum Virtual Machine，EVM）。其所創建的智能合約可以在統一的以太坊平臺上運行，而以太坊也藉此突破了比特幣之技術瓶頸。
 	
 	\subsection{國際情勢分析}
-	\begin{table}[!htbp]
+	\begin{table}[htbp]
 		\centering
 		\caption{各國政府對比特幣態度統整表}
 		\label{world}

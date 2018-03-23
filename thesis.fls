@@ -1,4 +1,4 @@
-PWD /Users/davidfish/Desktop/pkuthss
+PWD /Users/davidfish/Desktop/pkuthss 拷貝
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt
@@ -539,17 +539,23 @@ INPUT model0.jpg
 INPUT model1.jpg
 INPUT model2.jpg
 INPUT model3.jpg
-INPUT er.jpg
 INPUT fig3.png
-INPUT time1.jpg
-INPUT time3.jpg
-INPUT time2.jpg
 INPUT fig4.png
-INPUT time4.jpg
 INPUT gabpcss.png
 OUTPUT chap/chap5.aux
 INPUT chap/chap5.tex
 INPUT chap/chap5.tex
+INPUT er.jpg
+INPUT c3.jpg
+INPUT time1.jpg
+INPUT c2.jpg
+INPUT time3.jpg
+INPUT c1.jpg
+INPUT time2.jpg
+INPUT c4.jpg
+INPUT time5.jpg
+INPUT c5.jpg
+INPUT time4.jpg
 INPUT fig5.png
 INPUT fig6.png
 INPUT fig7.png

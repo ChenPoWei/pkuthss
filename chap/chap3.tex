@@ -6,7 +6,7 @@
 \section{功能性需求分析}
 
 
-\begin{figure}[!htbp]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width = 1\textwidth]{UC.jpg}
 	\caption{系統用例圖}\label{UC}
@@ -19,7 +19,7 @@
 在設計一個區塊鏈的實名交易監督系統之前，必須要針對不同的交易模型做探討。
 在區塊鏈的實名交易監督系統中，會以加密貨幣的觀點重新設計一個新的支付系統，重新深究匿名者與匿名者之間的交易模式、實名與實名之間的交易模式、匿名與實名之間的交易模式、實名客戶透過實名第三方再實名商家的交易模式以及實名客戶透過匿名第三方再實名商家的交易模式，這五種交易模式所代表著意義與時代革新帶來的技術變革。
 %%fig allan
-\begin{figure}[!htbp]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width = 0.8\textwidth]{modeall.png}
 	\caption{各種交易模型示意圖}\label{modeall}
@@ -29,7 +29,7 @@
 		\subsubsection{（一）匿名客戶對匿名商家}最早人類的交易行為可以探究到以物易物的交易行為模式，進而發展出銅幣、紙幣、金幣，甚至是現今常聽聞的金本位制度。 
 		在交易的過程中商家無法知道消費者的真實身分，而在一些沒有收據的環境下，如雜貨店或是攤販、一些沒有開收據的商家，消費者也不知道商家的真實身分，故將此交易模式定義為”匿名者與匿名者之間的交易模式”。在這樣的交易模式下，消費者保持匿名，對消費者而言，可以有效的保護消費者的個人信息安全，因為在貨幣的持有方式，並不需要登記姓名，資產轉移的過程中一概不需要。對於消費者而言，雖然消費者的匿名保護了自己的個人信息，但商家的交易信息也是匿名，對整個交易結果若有爭議，這便是追訴無門的結果。而在交易並未被有效記錄的情況下，政府對稅收的計算，會進入無法計算的灰色地帶。圖\ref{modeaa}為匿名的消費者對未開立收據或是實名制的商家的交易模型。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 0.4\textwidth]{modeaa.png}
 			\caption{匿名對匿名交易示意圖}\label{modeaa}
@@ -38,7 +38,7 @@
 		\subsubsection{（二）匿名客戶對實名商家}
 		在另一個場景中，在交易進行的過程中，消費者為匿名，商家為實名，對消費者而言因為自己本身並無綁定個人信息，故對個人信息有很大的保障，消費者消費物件的店傢具有實名而開立收據，對消費者而言會得到消費記錄的保障，對消費的糾紛有店家可以追溯。對政府，因為交易的紀載使得稅收的計算變得容易。圖\ref{modean}為匿名消費者使用現金對已經實名制或是開立收據的商家之消費模型。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 0.4\textwidth]{modean.png}
 			\caption{匿名對實名交易示意圖}\label{modean}
@@ -49,7 +49,7 @@
 		\subsubsection{（一）實名客戶支付實名商家}
 		在現在最為常見的塑膠貨幣支付管道VISA中，因為當年的設計並無類似區塊鏈去中心化的理論、技術提出，因而資金的轉移設計會是通過銀行進行帳戶與帳戶之間的資金轉移，也因為這樣的設計，造成交易的基礎被規範在實名與實名之間的交易模式，這樣的交易模式，雖然快速且方便，但在無形之中透漏了許多消費者的個人信息。在交易手續費方面，VISA的手續在跨國刷卡的場景下，皆需要收取高達百分之一點五的手續費，對於消費者而言使用VISA作為支付會帶來不小的負擔。圖\ref{modenn}為透過實名制支付管道對商家進行交易的模型。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 0.4\textwidth]{modenn.png}
 			\caption{實名對實名交易示意圖}\label{modenn}
@@ -58,7 +58,7 @@
 		\subsubsection{（二）實名客戶透過實名第三方再實名商家}
 		在中國VISA較不為常見，但除了VISA電子支付還有中國本身自營的銀聯，但因為中國的銀行眾多林立，且在科技化的世代中隨身帶著許多的卡片會造成不便，所以支付寶致力於將所有的卡片電子化，將所有中國在地銀行卡統合在一起，透過結合所有品牌的銀行卡以達有效提升卡片交易的方便性與使用率，圖\ref{modennn}為以實名制的銀聯卡透過支付寶進行支付給實名制的店家的交易模型。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 0.6\textwidth]{modennn.png}
 			\caption{實名對實名再對實名交易示意圖}\label{modennn}
@@ -67,7 +67,7 @@
 		\subsubsection{（三）實名客戶透過匿名第三方再實名商家}
 		為減低在進行交易的過程中使用VISA支付管道會透露太多的消費者個人信息的問題，PayPal便致力於將消費者銀行卡的相關個人信息存儲在PayPal身上，PayPal再以公司的身分，將資金轉移給商家，消費者與店家的交易中間多了一個仲介的角色，也讓這樣的交易模式看似匿名的消費者對上實名的商家。但在這樣的交易過程中，消費者的信任需要寄附在PayPal身上，畢竟大部分的銀行卡與個人信息皆存儲在PayPal公司內，PayPal公司的信息安全將成為最重要的議題。圖\ref{modenan}為先以實名制的支付管道將資金轉移到代支付的PayPal公司，PayPal代為支付的過程中將原資金來源的個人相關信息保護在PayPal公司中，以製造出一種匿名支付方法保護消費者的個人信息之模型。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 0.6\textwidth]{modenan.png}
 			\caption{實名對匿名再對實名交易示意圖}\label{modenan}
@@ -76,7 +76,7 @@
 		\subsection{交易關係比較}
 		綜合上述五種交易方式，我們可以統整出一張交易關係比較表，如表\ref{txvs}。我們可以發現除了部分數位元貨幣以及用現金與未開收據的店家做交易，這兩種方式最能保障消費者，但後者會讓商家成為匿名交易者，否則現今絕大多數的交易商家皆為實名制，即是為了保障消費者的權益，然而目前最廣為人知的數位貨幣是比特幣，在它的區塊鏈上只能查看透過雜湊處理所得的地址，無法得知交易雙方的真實資訊，倘若比特幣被用來執行非法交易、或是交易產生爭議，都無法輕易認定區塊鏈上的交易與現實生活中的交易是有關聯的。因此本系統致力於將比特幣從匿名對匿名的交易，強化成匿名對實名的交易，一方面便於政府監督社會上的金流，另一方面也可讓使用者在以比特幣交易時更有保障。
 
-		\begin{table}[!htbp]
+		\begin{table}[htbp]
 		\centering
 		\caption{交易關係比較表}
 		\label{txvs}
@@ -93,13 +93,13 @@
 
 	\section{特性要因分析}
 	透過特性要因分析可以將区块链的实名交易监督系统大致分為四個主題，如圖\ref{fish1}所示，分別為信息安全技術、加密貨幣錢包、近場通訊技術以及數據庫。針對四項主軸，最為一個金流系統，信息安全是不可或缺的環節，著重於商家認證機制、用戶權力控管、身份識別管理、使用者訪問控制四個方向；本系統致力於奠定匿名對實名的加密貨幣系統，必須對區塊鏈技術、公鑰私鑰生成算法、點對點交易技術、錢包地址產出以及貨幣發行技術五個方向進行探討；在交易場影中，本系統採用近場通信技術，因此需要對商品RFID標籤建置、讀取商品RFID標籤以及Android Beam傳輸商品交易進行基礎的API調研；為了使的加密貨幣實名制的實現，數據庫必須存儲與政府和商家相關的信息。此時數據庫加密、個資去識別化安全以及數據庫連接便相當重要。
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 1\textwidth]{fish1.png}
 			\caption{魚骨圖（1）}\label{fish1}
 		\end{figure}
 
-%		\begin{figure}[!htbp]
+%		\begin{figure}[htbp]
 %			\centering
 %			\includegraphics[width = 1\textwidth]{fish2.png}
 %			\caption{魚骨圖（2）}\label{fish1}

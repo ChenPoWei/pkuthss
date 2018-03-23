@@ -30,7 +30,7 @@
 %			\end{enumerate}
 	 	
 
-	 				\begin{table}[!htbp]
+	 				\begin{table}[htbp]
 					\centering
 					\caption{小米3手機規格}
 					\label{mi}
@@ -49,7 +49,7 @@
 					\end{tabular}
 					\end{table}
 
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{Google Nexus 5X手機規格}
 					\label{5x}
@@ -85,7 +85,7 @@
 	 			\end{enumerate}
 
 	 		\item 集成测试規劃（Integration Testing）：
-	 			\begin{figure}[!htbp]
+	 			\begin{figure}[htbp]
 					\centering
 					\includegraphics[width = 0.8\textwidth]{IntegrationTesting.png}
 					\caption{集成子系統測試}\label{IntegrationTesting}
@@ -93,14 +93,14 @@
 			\item 验收测试規劃（Acceptance Testing，AT）：
 				本系統須達成以下三組接受用例陳列的所有功能，測試本論文搭設計與搭建的系統功能是否能夠順利運行。測試的角色有兩個，分別為管理員以及使用者，如圖\ref{usecasediagram}為BRTMS用例示意圖，預計測試服務器的組態設定、手機的組態設定以及數據庫的組態設定：
 
-					\begin{figure}[!htbp]
+					\begin{figure}[htbp]
 						\centering
 						\includegraphics[width = 0.5\textwidth]{usecasediagram.png}
 						\caption{BRTMS使用者用例圖}\label{usecasediagram}
 					\end{figure}
 
 				圖\ref{AcceptanceTesting}為三組验收测试的示意圖，對本區塊鏈的實名交易監督系統進行測試。
-					\begin{figure}[!htbp]
+					\begin{figure}[htbp]
 						\centering
 						\includegraphics[width = 0.3\textwidth]{AcceptanceTesting.png}
 						\caption{验收测试（Acceptance Testing）}\label{AcceptanceTesting}
@@ -117,7 +117,7 @@
 				\item IT1 测试用例：
 					表\ref{IT1TestCase}為IT1 测试用例，測試對象為商家端建置與管理商品資訊子系統。目的：驗證〔SMIMSS 1.1.0〕子系統能否正確管理商品資訊。
 
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{IT1 测试用例}
 					\label{IT1TestCase}
@@ -146,7 +146,7 @@
 				\item IT2测试用例：
 					表\ref{IT2TestCase}為IT2 测试用例麽目標，測試對象為商家端行動收銀與交易明細系統。目的：驗證〔SMCTSS 1.2.0〕子系統是否能夠完成一筆行動支付之交易。
 
-						\begin{table}[!htbp]
+						\begin{table}[htbp]
 						\caption{IT2 测试用例} % title of Table
 						\centering % used for centering table
 						\label{IT2TestCase} % is used to refer this table in the text
@@ -178,7 +178,7 @@
 				\item IT3测试用例：
 					表\ref{IT3TestCase}為IT3 测试用例，目標檢測對象為顧客端行動支付與交易明細系統。目的：驗證〔CMPTSS1.3.0〕能正確接收SMCTSS所傳送的交易資料，並以其交易資訊執行以比特幣付款之動作。可以查詢商品資訊，且能夠儲存並且查看使用者過往之交易紀錄。
 
-						\begin{table}[!htbp]
+						\begin{table}[htbp]
 						\caption{IT3 测试用例} % title of Table
 						\centering % used for centering table
 						\label{IT3TestCase} % is used to refer this table in the text
@@ -215,7 +215,7 @@
 				\item AT1 测试用例：
 					表\ref{AT1TestCase}所示，目標測試管理人員是否能夠順利使用子系統SMIMSS順利與母系統BRTMS教戶。目的：驗證使用用例（Use case）1，透過組態檔案的修改對伺服器進行組態設定。
 
-						\begin{table}[!htbp]
+						\begin{table}[htbp]
 						\centering
 						\caption{AT1 测试用例}
 						\label{AT1TestCase}
@@ -236,7 +236,7 @@
 
 				\item AT2 测试用例：
 					如表\ref{AT2TestCase}所示，參與者為使用者。目的：驗證用例（Use case ）2 透過組態檔案的修改對手機進行組態設定。
-						\begin{table}[!htbp]
+						\begin{table}[htbp]
 						\centering
 						\caption{AT2 测试用例}
 						\label{AT2TestCase}
@@ -258,7 +258,7 @@
 				\item AT3 测试用例：
 					如表\ref{AT3TestCase}所示，目的：驗證用例（Use case ）3，透過組態檔案的修改對資料庫進行組態設定。
 
-						\begin{table}[!htbp]
+						\begin{table}[htbp]
 						\centering
 						\caption{AT3 测试用例}
 						\label{AT3TestCase}
@@ -287,7 +287,7 @@
 			\item 集成測試用例（Integration Testing Cases）
 			表\ref{table8}為IT 1、為IT 2、為IT 3的集成子系統測試結果，皆順利運作。
 
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{集成子系統測試結果}
 				\label{table8}
@@ -319,7 +319,7 @@
 
 			\item 验收测试用例（Acceptance Testing Cases）
 			表\ref{table9}為前節所設計的三種AT 1、AT 2與AT 3的验收测试結果，皆順利運行。
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{验收测试結果}
 				\label{table9}
@@ -338,7 +338,7 @@
 			
 
 				\item 子系統與測試用例：表\ref{table10}為測試組IT 1、IT 2、IT 3、AT 1、AT 2、AT 3與子系統SMIMSS、SMCTSS、CMPISS的關係表。
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{子系統與測試用例關係表}
 					\label{table10}
@@ -356,7 +356,7 @@
 
 				\item 需求與測試用例：表\ref{table11}為本系統需求與集成測試用例的關係表，表\ref{table12}為需求與验收测试案例的關係表。
 
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{需求與集成測試用例的關係表}
 					\label{table11}
@@ -388,7 +388,7 @@
 					\end{tabular}
 					\end{table}
 
-					\begin{table}[!htbp]
+					\begin{table}[htbp]
 					\centering
 					\caption{需求與验收测试案例的關係表}
 					\label{table12}
@@ -410,7 +410,7 @@
 	\section{性能測試}
 
 
-		\begin{figure}[!htbp]
+		\begin{figure}[htbp]
 			\centering
 			\includegraphics[width = 0.8\textwidth]{fig9.png}
 			\caption{使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程}\label{fig9}
@@ -429,7 +429,7 @@
 
 			\item 第一次測試（2017年9月6日）：表\ref{1general}為第一次實驗數據，該次的比特幣交易法起廣播至比特幣交易緩存持的時間平均為1.918秒，標準差為0.55586秒。但為了預防雙花攻擊需要等待平均654.8秒（小於11分鐘，標準差346.63秒）的時間。
 
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{第一次Testnet 執行實驗之數據分析(2017年9月6日)}
 				\label{1general}
@@ -444,7 +444,7 @@
 				\end{table}
 
 			\item 第二次測試（2018年3月21日）：表\ref{2general}，表\ref{2general-1}
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{第二次Testnet 執行實驗數據(2018年3月21日)}
 				\label{2general}
@@ -474,7 +474,7 @@
 				\end{tabular}
 				\end{table}
 
-				\begin{table}[!htbp]
+				\begin{table}[htbp]
 				\centering
 				\caption{第二次以Testnet 執行實驗數據分析(2018年3月21日)}
 				\label{2general-1}
@@ -498,7 +498,7 @@
 		\subsection{實時系统性能測試}
 		本主要介紹比特幣測試幣於Green Address錢包進行交易的效能實驗與結果分析，包含該實驗的目的、方法及結果分析。實驗的目的是要確認我們的系統在商家端進行行動支付時能快速、精準且高效率的進行交易，並瞭解使用一般Testnet錢包與Green Address錢包作為交易媒介的確認交易時間的差距。表\ref{0test}為2017年7月25日初步的採用多重簽章算法的測試數據，數據顯示交易存儲到區塊鏈的平均時間為10分鐘，但Green Address採用的多重簽章算法，可以有效拒絕雙重花費的交易發起，因此可將交易的有效時間，從交易進入區塊鏈的時間，重新訂定為交易進入比特幣交易緩存持的時間。
 
-		\begin{table}[!htbp]
+		\begin{table}[htbp]
 			\centering
 			\caption{初步的Green Address實驗測試數據 (2017年7月25日)}
 			\label{0test}
@@ -530,7 +530,7 @@
 		\begin{enumerate}
 			\item 第一次測試（2017年9月6日）：表\ref{1green}
 
-			\begin{table}[!htbp]
+			\begin{table}[htbp]
 				\centering
 				\caption{第一次以GreenAddress 執行實驗之數據分析(2017年9月6日)}
 				\label{1green}
@@ -547,7 +547,7 @@
 			\item 第二次測試（2018年3月21日）：表\ref{2green}，表\ref{2green-1}
 
 		\end{enumerate}
-			\begin{table}[!htbp]
+			\begin{table}[htbp]
 				\centering
 				\caption{第二次以GreenAddress執行實驗之數據(2018年3月21日)}
 				\label{2green}
@@ -577,7 +577,7 @@
 				\end{tabular}
 				\end{table}
 
-			\begin{table}[!htbp]
+			\begin{table}[htbp]
 				\centering
 				\caption{第二次以GreenAddress執行實驗之數據分析(2018年3月21日)}
 				\label{2green-1}
@@ -596,7 +596,7 @@
 				
 				
 
-	%			\begin{figure}[!htbp]
+	%			\begin{figure}[htbp]
 	%				\centering
 	%				\includegraphics[width = 0.7\textwidth]{fig12.png}
 	%				\caption{fig12}\label{fig12}
@@ -606,7 +606,7 @@
 
 	本次實驗分別記錄以Testnet錢包及Green Address錢包執行20次交易的進入緩存池等待時間和寫入區塊等待時間。若以Testnet錢包交易，必須等到交易寫入才能保證此筆交易不會被礦工遺棄，也才算真的完成這筆交易；但若以Green Address錢包發起交易就大不相同，當交易進入緩存池，即使遇到交易被礦工遺棄的情況，Green Address機構節點也會重新發起此筆交易，保證讓交易寫入區塊，所以只要進入緩存池我們就可以視為交易完成，透過兩者錢包的交易數據，本文分析兩種錢包交易的時間數據。
 
-	\begin{table}[!htbp]
+	\begin{table}[htbp]
 	\centering
 	\caption{原始系統與實時系統比較表}
 	\label{generalvsga}
