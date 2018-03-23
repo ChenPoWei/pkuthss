@@ -84,27 +84,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.9}{\ignorespaces 顧客交易管理時序圖\relax }}{52}{figure.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 職工交易管理模塊類圖\relax }}{53}{figure.caption.74}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 顧客交易管理GA模塊類圖\relax }}{53}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces 職工交易管理時序圖\relax }}{54}{figure.caption.75}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 商家交易管理模塊類圖\relax }}{54}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces SMIMSS的Java應用程序的註冊和登錄界面\relax }}{55}{figure.caption.76}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 商家交易管理時序圖\relax }}{55}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces 在SMIMSS中插入或更新授權商家的產品目錄\relax }}{55}{figure.caption.77}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces 商家交易管理模塊類圖\relax }}{56}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces 登錄、等待結帳的商品、刪除商品及支付確認\relax }}{56}{figure.caption.78}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces SMIMSS的Java應用程序的註冊和登錄界面\relax }}{57}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces 在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票\relax }}{57}{figure.caption.79}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces 在SMIMSS中插入或更新授權商家的產品目錄\relax }}{57}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces 登錄、等待結帳的商品、刪除商品及支付確認\relax }}{57}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces 在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票\relax }}{58}{figure.caption.81}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 集成子系統測試\relax }}{61}{figure.caption.82}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 集成子系統測試\relax }}{61}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用者用例圖\relax }}{61}{figure.caption.83}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用者用例圖\relax }}{61}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 验收测试（Acceptance Testing）\relax }}{62}{figure.caption.84}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 验收测试（Acceptance Testing）\relax }}{62}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程\relax }}{68}{figure.caption.96}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 使用區塊鏈瀏覽器驗證存儲在比特幣區塊鏈中的交易過程\relax }}{68}{figure.caption.98}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
