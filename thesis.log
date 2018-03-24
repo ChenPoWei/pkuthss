@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 04:34
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2756,19 +2756,16 @@ Underfull \vbox (badness 2318) has occurred while \output is active []
 [17]
 File: 6confirm.jpg Graphic file (type QTm)
  <use  "6confirm.jpg" > [18]
-File: address.png Graphic file (type QTm)
- <use  "address.png" > [19] [20]
+File: address.jpg Graphic file (type QTm)
+ <use  "address.jpg" > [19] [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
 [22]
-File: gabuild.png Graphic file (type QTm)
- <use  "gabuild.png" > [23]
-File: gatx.png Graphic file (type QTm)
- <use  "gatx.png" >
-Underfull \vbox (badness 3930) has occurred while \output is active []
-
- [24]
+File: gabuild.jpg Graphic file (type QTm)
+ <use  "gabuild.jpg" > [23]
+File: gatx.jpg Graphic file (type QTm)
+ <use  "gatx.jpg" > [24]
 File: blockchain.png Graphic file (type QTm)
 
 <use  "blockchain.png" >
@@ -2832,16 +2829,16 @@ Overfull \hbox (4.93584pt too wide) in paragraph at lines 35--41
 lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
  []
 
-File: fig3.png Graphic file (type QTm)
-<use  "fig3.png" >
+File: fig3.jpg Graphic file (type QTm)
+<use  "fig3.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
 [37] [38]
-File: fig4.png Graphic file (type QTm)
- <use  "fig4.png" > [39]
-File: gabpcss.png Graphic file (type QTm)
- <use  "gabpcss.png" > [40] [41]) [42]
+File: fig4.jpg Graphic file (type QTm)
+ <use  "fig4.jpg" > [39]
+File: gabpcss.jpg Graphic file (type QTm)
+ <use  "gabpcss.jpg" > [40] [41]) [42]
 \openout2 = `chap/chap5.aux'.
 
 
@@ -2879,25 +2876,29 @@ File: time5.jpg Graphic file (type QTm)
 File: c6.jpg Graphic file (type QTm)
  <use  "c6.jpg" >
 File: c5.jpg Graphic file (type QTm)
- <use  "c5.jpg" >
+ <use  "c5.jpg" > [50]
+[51] [52] [53]
 File: time4.jpg Graphic file (type QTm)
-
-<use  "time4.jpg" >
+ <use  "time4.jpg" >
 File: c7.jpg Graphic file (type QTm)
- <use  "c7.jpg" > [50] [51] [52] [53] [54] [55]
+ <use  "c7.jpg" >
 File: fig5.png Graphic file (type QTm)
-
-<use  "fig5.png" >
+ <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" >
-File: fig7.png Graphic file (type QTm)
- <use  "fig7.png" > [56] [57]
-File: fig8.png Graphic file (type QTm)
 
-<use  "fig8.png" >) [58]
+<use  "fig6.png" >
+File: fig7.png Graphic file (type QTm)
+ <use  "fig7.png" >
+File: fig8.png Graphic file (type QTm)
+ <use  "fig8.png" >) [54] [55] [56]
+[57] [58] [59]
 \openout2 = `chap/chap6.aux'.
 
- (./chap/chap6.tex
+ (./chap/chap6.tex [60
+
+
+
+]
 第六章
 Missing character: There is no 利 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
@@ -2908,11 +2909,7 @@ Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 說 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
-[59
-
-
-
-] [60]
+[61] [62]
 Missing character: There is no 度 in font STSong/OT!
 
 Overfull \hbox (7.94467pt too wide) in paragraph at lines 76--77
@@ -2923,30 +2920,30 @@ Overfull \hbox (7.94467pt too wide) in paragraph at lines 76--77
 Missing character: There is no 度 in font STSong/OT!
 File: IntegrationTesting.png Graphic file (type QTm)
 <use  "IntegrationTesting.png" >
-File: usecasediagram.png Graphic file (type QTm)
- <use  "usecasediagram.png" >
+File: usecasediagram.jpg Graphic file (type QTm)
+ <use  "usecasediagram.jpg" >
 File: AcceptanceTesting.png Graphic file (type QTm)
 
-<use  "AcceptanceTesting.png" > [61] [62] [63]
+<use  "AcceptanceTesting.png" > [63] [64] [65]
 Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
 n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
  系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
-[64]
+[66]
 File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" > [65] [66] [67] [68] [69] [70] [71]) [72]
+ <use  "fig9.png" > [67] [68] [69] [70] [71] [72] [73]) [74]
 \openout2 = `chap/chap7.aux'.
 
 
 (./chap/chap7.tex
 第七章
-) [73
+) [75
 
 
 
-] [74
+] [76
 
 
 ]
@@ -3018,7 +3015,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[75]
+[77]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3046,7 +3043,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[76]
+[78]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3055,18 +3052,18 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[77] [78
+[79] [80
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [79
+ (./chap/acknowledge.tex) [81
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [80
+ (./chap/originauth.tex [82
 
 
 
@@ -3079,7 +3076,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [81]
+) [83]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
 
@@ -3096,10 +3093,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48681 strings out of 493005
  954799 string characters out of 6134596
- 1376214 words of memory out of 5000000
+ 1376253 words of memory out of 5000000
  51878 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (95 pages, 838976 bytes).
+Output written on thesis.xdv (97 pages, 840440 bytes).

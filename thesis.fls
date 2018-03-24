@@ -515,9 +515,9 @@ INPUT chap/chap2.tex
 INPUT chap/chap2.tex
 INPUT LBC.png
 INPUT 6confirm.jpg
-INPUT address.png
-INPUT gabuild.png
-INPUT gatx.png
+INPUT address.jpg
+INPUT gabuild.jpg
+INPUT gatx.jpg
 INPUT blockchain.png
 INPUT MerkleRoot.png
 INPUT bitcoinfullnode.png
@@ -539,9 +539,9 @@ INPUT model0.jpg
 INPUT model1.jpg
 INPUT model3.jpg
 INPUT model2.jpg
-INPUT fig3.png
-INPUT fig4.png
-INPUT gabpcss.png
+INPUT fig3.jpg
+INPUT fig4.jpg
+INPUT gabpcss.jpg
 OUTPUT chap/chap5.aux
 INPUT chap/chap5.tex
 INPUT chap/chap5.tex
@@ -566,7 +566,7 @@ OUTPUT chap/chap6.aux
 INPUT chap/chap6.tex
 INPUT chap/chap6.tex
 INPUT IntegrationTesting.png
-INPUT usecasediagram.png
+INPUT usecasediagram.jpg
 INPUT AcceptanceTesting.png
 INPUT fig9.png
 OUTPUT chap/chap7.aux

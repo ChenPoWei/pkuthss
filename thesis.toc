@@ -94,28 +94,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（四）顧客交易管理模塊}{50}{subsubsection*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（五）商家交易管理模塊}{50}{subsubsection*.74}
+\contentsline {subsubsection}{（五）商家交易管理模塊}{54}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}系統實現}{56}{section.5.3}
+\contentsline {section}{\numberline {5.3}系統實現}{54}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{59}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{61}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}功能測試}{59}{section.6.1}
+\contentsline {section}{\numberline {6.1}功能測試}{61}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}测试用例}{61}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}测试用例}{63}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{65}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{67}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}性能測試}{65}{section.6.2}
+\contentsline {section}{\numberline {6.2}性能測試}{67}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{68}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{70}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{70}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{72}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{73}{chapter.7}
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{75}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{75}{appendix*.107}
+\contentsline {chapter}{参考文献}{77}{appendix*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{79}{appendix*.108}
+\contentsline {chapter}{致谢}{81}{appendix*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{81}{appendix*.109}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{83}{appendix*.109}
