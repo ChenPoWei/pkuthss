@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 17:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2783,41 +2783,41 @@ File: bitcoinfullnode.png Graphic file (type QTm)
 ]
 第三章
 File: UC.jpg Graphic file (type QTm)
-<use  "UC.jpg" >
+<use  "UC.jpg" > [29] [30]
 File: modeall.png Graphic file (type QTm)
- <use  "modeall.png" >
+ <use  "modeall.png" > [31]
 File: modeaa.png Graphic file (type QTm)
  <use  "modeaa.png" >
 File: modean.png Graphic file (type QTm)
 
-<use  "modean.png" > [29] [30] [31]
+<use  "modean.png" >
 File: modenn.png Graphic file (type QTm)
- <use  "modenn.png" >
+ <use  "modenn.png" > [32]
 File: modennn.png Graphic file (type QTm)
  <use  "modennn.png" >
-[32]
 File: modenan.png Graphic file (type QTm)
- <use  "modenan.png" >
+
+<use  "modenan.png" > [33]
 File: fish1.png Graphic file (type QTm)
  <use  "fish1.png" >
-Overfull \hbox (5.02498pt too wide) in paragraph at lines 95--101
+Overfull \hbox (5.02498pt too wide) in paragraph at lines 114--120
 []\TU/STSong(0)/m/n/12.045 透 過 特 性 要 因 分 析 可 以 將 区 块 链 的 实 名 交 易 监 督 系 统 大 致 分 
 為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.8[]\TU/STSong(0)/m/n/12.045 所
  []
 
-[33]) [34]
+) [34] [35]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex
-第四章
-File: model0.jpg Graphic file (type QTm)
-<use  "model0.jpg" >
-File: model1.jpg Graphic file (type QTm)
- <use  "model1.jpg" > [35
+ (./chap/chap4.tex [36
 
 
 
 ]
+第四章
+File: model0.jpg Graphic file (type QTm)
+<use  "model0.jpg" >
+File: model1.jpg Graphic file (type QTm)
+ <use  "model1.jpg" > [37]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
 File: model3.jpg Graphic file (type QTm)
  <use  "model3.jpg" >
@@ -2833,19 +2833,19 @@ File: fig3.jpg Graphic file (type QTm)
 <use  "fig3.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-[37] [38]
+ [38]
+[39] [40]
 File: fig4.jpg Graphic file (type QTm)
- <use  "fig4.jpg" > [39]
+ <use  "fig4.jpg" > [41]
 File: gabpcss.jpg Graphic file (type QTm)
- <use  "gabpcss.jpg" > [40] [41]) [42]
+ <use  "gabpcss.jpg" > [42] [43]) [44]
 \openout2 = `chap/chap5.aux'.
 
 
 (./chap/chap5.tex
 第五章
 File: er.jpg Graphic file (type QTm)
-<use  "er.jpg" > [43
+<use  "er.jpg" > [45
 
 
 
@@ -2854,20 +2854,20 @@ Overfull \hbox (10.99965pt too wide) in paragraph at lines 116--124
  [][] 
  []
 
-[44]
+[46]
 File: c3.jpg Graphic file (type QTm)
  <use  "c3.jpg" >
 File: time1.jpg Graphic file (type QTm)
- <use  "time1.jpg" > [45] [46]
+ <use  "time1.jpg" > [47] [48]
 File: c2.jpg Graphic file (type QTm)
  <use  "c2.jpg" >
 File: time3.jpg Graphic file (type QTm)
 
-<use  "time3.jpg" > [47] [48]
+<use  "time3.jpg" > [49] [50]
 File: c1.jpg Graphic file (type QTm)
  <use  "c1.jpg" >
 File: time2.jpg Graphic file (type QTm)
- <use  "time2.jpg" > [49]
+ <use  "time2.jpg" > [51]
 File: c4.jpg Graphic file (type QTm)
 
 <use  "c4.jpg" >
@@ -2876,29 +2876,25 @@ File: time5.jpg Graphic file (type QTm)
 File: c6.jpg Graphic file (type QTm)
  <use  "c6.jpg" >
 File: c5.jpg Graphic file (type QTm)
- <use  "c5.jpg" > [50]
-[51] [52] [53]
+ <use  "c5.jpg" >
 File: time4.jpg Graphic file (type QTm)
- <use  "time4.jpg" >
+
+<use  "time4.jpg" > [52] [53] [54] [55] [56] [57]
 File: c7.jpg Graphic file (type QTm)
  <use  "c7.jpg" >
 File: fig5.png Graphic file (type QTm)
- <use  "fig5.png" >
-File: fig6.png Graphic file (type QTm)
 
-<use  "fig6.png" >
+<use  "fig5.png" >
+File: fig6.png Graphic file (type QTm)
+ <use  "fig6.png" > [58] [59]
 File: fig7.png Graphic file (type QTm)
  <use  "fig7.png" >
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [54] [55] [56]
-[57] [58] [59]
+
+<use  "fig8.png" >) [60]
 \openout2 = `chap/chap6.aux'.
 
- (./chap/chap6.tex [60
-
-
-
-]
+ (./chap/chap6.tex
 第六章
 Missing character: There is no 利 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
@@ -2909,7 +2905,11 @@ Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 說 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
-[61] [62]
+[61
+
+
+
+] [62]
 Missing character: There is no 度 in font STSong/OT!
 
 Overfull \hbox (7.94467pt too wide) in paragraph at lines 76--77
@@ -3093,10 +3093,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48681 strings out of 493005
  954799 string characters out of 6134596
- 1376253 words of memory out of 5000000
+ 1376263 words of memory out of 5000000
  51878 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 840440 bytes).
+Output written on thesis.xdv (97 pages, 858524 bytes).

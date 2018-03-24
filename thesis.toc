@@ -50,53 +50,53 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}功能性需求分析}{29}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}交易模型分析}{29}{section.3.2}
+\contentsline {section}{\numberline {3.2}交易模型分析}{31}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}現金交易模型}{29}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}現金交易模型}{31}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）匿名客戶對匿名商家}{29}{subsubsection*.35}
+\contentsline {subsubsection}{（一）匿名客戶對匿名商家}{31}{subsubsection*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）匿名客戶對實名商家}{29}{subsubsection*.37}
+\contentsline {subsubsection}{（二）匿名客戶對實名商家}{32}{subsubsection*.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}電子貨幣交易模型}{32}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（一）實名客戶支付實名商家}{32}{subsubsection*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）實名客戶透過實名第三方再實名商家}{32}{subsubsection*.41}
+\contentsline {subsubsection}{（二）實名客戶透過實名第三方再實名商家}{33}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）實名客戶透過匿名第三方再實名商家}{32}{subsubsection*.43}
+\contentsline {subsubsection}{（三）實名客戶透過匿名第三方再實名商家}{33}{subsubsection*.43}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}交易關係比較}{33}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}特性要因分析}{33}{section.3.3}
+\contentsline {section}{\numberline {3.3}特性要因分析}{34}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統概要設計}{35}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統概要設計}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.0.1}商家和商品信息管理子系統（SMIMSS）}{38}{subsection.4.0.1}
+\contentsline {subsection}{\numberline {4.0.1}商家和商品信息管理子系統（SMIMSS）}{40}{subsection.4.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.0.2}BRTMS架構與運作流程}{38}{subsection.4.0.2}
+\contentsline {subsection}{\numberline {4.0.2}BRTMS架構與運作流程}{40}{subsection.4.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.0.3}實時BRTMS架構與運作流程}{40}{subsection.4.0.3}
+\contentsline {subsection}{\numberline {4.0.3}實時BRTMS架構與運作流程}{42}{subsection.4.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統詳細設計與實現}{43}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統詳細設計與實現}{45}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}區塊鏈的實名交易監督系統設計}{43}{section.5.1}
+\contentsline {section}{\numberline {5.1}區塊鏈的實名交易監督系統設計}{45}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}BRTMS數據庫設計}{43}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}BRTMS數據庫設計}{45}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}系統模塊設計}{45}{section.5.2}
+\contentsline {section}{\numberline {5.2}系統模塊設計}{47}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）用戶註冊與登入模塊}{45}{subsubsection*.61}
+\contentsline {subsubsection}{（一）用戶註冊與登入模塊}{47}{subsubsection*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）產品管理模塊}{47}{subsubsection*.64}
+\contentsline {subsubsection}{（二）產品管理模塊}{49}{subsubsection*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）職工管理模塊}{49}{subsubsection*.67}
+\contentsline {subsubsection}{（三）職工管理模塊}{51}{subsubsection*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（四）顧客交易管理模塊}{50}{subsubsection*.70}
+\contentsline {subsubsection}{（四）顧客交易管理模塊}{52}{subsubsection*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（五）商家交易管理模塊}{54}{subsubsection*.74}
+\contentsline {subsubsection}{（五）商家交易管理模塊}{52}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}系統實現}{54}{section.5.3}
+\contentsline {section}{\numberline {5.3}系統實現}{58}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{61}{chapter.6}
 \defcounter {refsection}{0}\relax 
