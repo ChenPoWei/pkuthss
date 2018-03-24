@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 19:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2672,12 +2672,12 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 
 
 
-] [6
-
-] (./thesis.lof
+] [6] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
- [7])
+ [7
+
+])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
@@ -3095,12 +3095,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48681 strings out of 493005
- 954799 string characters out of 6134596
- 1376263 words of memory out of 5000000
- 51878 multiletter control sequences out of 15000+600000
+ 48682 strings out of 493005
+ 954810 string characters out of 6134596
+ 1376784 words of memory out of 5000000
+ 51879 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 868100 bytes).
+Output written on thesis.xdv (97 pages, 870256 bytes).
