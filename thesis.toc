@@ -48,27 +48,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}系統需求分析}{29}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}功能性需求分析}{29}{section.3.1}
+\contentsline {section}{\numberline {3.1}交易模型分析}{29}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}交易模型分析}{31}{section.3.2}
+\contentsline {subsection}{\numberline {3.1.1}現金交易模型}{29}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}現金交易模型}{31}{subsection.3.2.1}
+\contentsline {subsubsection}{（一）匿名客戶對匿名商家}{29}{subsubsection*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）匿名客戶對匿名商家}{31}{subsubsection*.35}
+\contentsline {subsubsection}{（二）匿名客戶對實名商家}{30}{subsubsection*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）匿名客戶對實名商家}{32}{subsubsection*.37}
+\contentsline {subsection}{\numberline {3.1.2}電子貨幣交易模型}{30}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}電子貨幣交易模型}{32}{subsection.3.2.2}
+\contentsline {subsubsection}{（一）實名客戶支付實名商家}{30}{subsubsection*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）實名客戶支付實名商家}{32}{subsubsection*.39}
+\contentsline {subsubsection}{（二）實名客戶透過實名第三方再實名商家}{31}{subsubsection*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）實名客戶透過實名第三方再實名商家}{33}{subsubsection*.41}
+\contentsline {subsubsection}{（三）實名客戶透過匿名第三方再實名商家}{31}{subsubsection*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）實名客戶透過匿名第三方再實名商家}{33}{subsubsection*.43}
+\contentsline {subsection}{\numberline {3.1.3}交易關係比較}{32}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}交易關係比較}{33}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.2}功能性需求分析}{32}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}特性要因分析}{34}{section.3.3}
+\contentsline {section}{\numberline {3.3}特性要因分析}{35}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統概要設計}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
