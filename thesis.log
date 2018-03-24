@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 03:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  24 MAR 2018 04:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2822,11 +2822,11 @@ File: model1.jpg Graphic file (type QTm)
 
 ]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
-File: model2.jpg Graphic file (type QTm)
- <use  "model2.jpg" >
 File: model3.jpg Graphic file (type QTm)
+ <use  "model3.jpg" >
+File: model2.jpg Graphic file (type QTm)
 
-<use  "model3.jpg" >
+<use  "model2.jpg" >
 Overfull \hbox (4.93584pt too wide) in paragraph at lines 35--41
 []\TU/STSong(0)/m/n/12.045 顧 客 端 行 動 支 付 與 交 易 明 細 系 統 \T1/ntxtlf/m/n/12.045 (C
 lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
@@ -3102,4 +3102,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (95 pages, 838756 bytes).
+Output written on thesis.xdv (95 pages, 838976 bytes).

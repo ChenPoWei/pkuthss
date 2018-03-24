@@ -537,8 +537,8 @@ INPUT chap/chap4.tex
 INPUT chap/chap4.tex
 INPUT model0.jpg
 INPUT model1.jpg
-INPUT model2.jpg
 INPUT model3.jpg
+INPUT model2.jpg
 INPUT fig3.png
 INPUT fig4.png
 INPUT gabpcss.png
