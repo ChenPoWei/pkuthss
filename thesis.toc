@@ -94,7 +94,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（五）商家交易管理模塊}{56}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}系統實現}{61}{section.5.3}
+\contentsline {section}{\numberline {5.3}系統實現}{60}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{65}{chapter.6}
 \defcounter {refsection}{0}\relax 

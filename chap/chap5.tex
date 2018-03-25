@@ -128,7 +128,7 @@
 在本系統中共有三種使用者，分別為顧客、商家以及職工，首先是用戶登入與註冊模塊，其餘總共有四個管理模塊分別為商家產品管理模塊、職工管理模塊、顧客交易管理模塊和商家交易管理模塊，以下將說明各個模塊類圖設計以及時序圖運作。
 
 \subsubsection{（一）用戶註冊與登入模塊}
-在本系統中僅職工與商家需要進行註冊，並且需要經過政府的審查批准。職工與商家皆為使用者皆可使用用戶註冊模塊。
+在本系統中僅職工與商家需要進行註冊，並且需要經過政府的審查批准。職工與商家皆為使用者皆可使用用戶註冊模塊。圖\ref{c3}為用戶註冊與登入模塊類圖，在LoginManagement類當中分別需要調用RegistNewUser類實現用戶註冊以及LoginUser類實現用戶登入。RegistNewUser類中hash()方法是將用戶輸入的用戶密碼使用哈希算法生成哈用戶密碼哈希值，addnewuser()方法則是將用戶帳號和密碼傳送至User類。在LoginUser類中getuserpasswordhsh()方法是向User類取得該用戶帳號的密碼哈希值。
 
 	\begin{figure}[htbp]
 		\centering
@@ -158,7 +158,8 @@
 
 
 \subsubsection{（二）產品管理模塊}
-商家的運營需要管理本身所需販售的商品，在商家完成註冊用戶帳號並且通過政府審核之後，便可檢視所有的產品，近一步可以透過產品管理模塊新增、修改以及刪除商家商品。
+商家的運營需要管理本身所需販售的商品，在商家完成註冊用戶帳號並且通過政府審核之後，便可檢視所有的產品，近一步可以透過產品管理模塊新增、修改以及刪除商家商品。圖\ref{c2}為商家產品管理類圖，其中StoreProductManagement類中有四個方法需要實現分別為顯示商家信息的showstoreinfo()方法、顯示商家產品信息的showstoreproductinfo()方法、顯示產品信息的showproductinfo()
+以及修改商家產品信息的edit()方法。其中StoreProductCompare類與EditStoreProduct類需要向StoreProduct請求商家產品信息，StoreProductCompare類中的compare()方法是向商家產品信息表取得與store\_ID相符的所有相關商家產品。EditStoreProduct類中的addstoreproduct()方法editstoreproduct()方法以及deletestoreproduct()方法分別為新增、修改以及刪除商家產品信息。StoreCompare類中的compare()方法是向Store類請求與store\_id相符的商家信息。
 
 	\begin{figure}[htbp]
 		\centering
@@ -192,7 +193,7 @@
 
 
 \subsubsection{（三）職工管理模塊}
-商家需要職工進行商家的運營，在商家用戶完成政府審查之後，便可以進入職工管理模塊，透過提交用戶編號以及商家編號新增、修改以及刪除職工信息。
+商家需要職工進行商家的運營，在商家用戶完成政府審查之後，便可以進入職工管理模塊，透過提交用戶編號以及商家編號新增、修改以及刪除職工信息。圖\ref{c1}為職工管理模塊類圖，StaffManagement類當中有四種方法分別為顯示與該商家store\_id相符的完整信息showstore()方法、顯示符合該商家store\_id職工信息的showstorestaff()方法、顯示用戶編號的showuser()方法。UserCompare類需要向User類提取用戶相關信息實現查詢，StoreCompare類需要向Store類請求商家信相關信息，其中EditStoreStaff類與StoreStaffCompare類需要使用到Staff類修改職工信息表的內容，EditStoreStaff類中的addstaff()、editstaff()以及deletestaff方法分別為新增、修改以及刪除職工，StoreStaffCompare類中的compare方法是取得符合STORE\_ID的所有職工信息。
 
 	\begin{figure}[htbp]
 		\centering
