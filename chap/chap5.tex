@@ -225,8 +225,60 @@
 	\item 職工信息表傳回修改完成。
 	\end{enumerate}
 
+\subsubsection{（四）商家交易管理模塊}
+在用戶完成註冊後且在商家將該用戶加入成為公司職工後，該職工可以透過用戶帳號進入到商家教管理模塊，該模塊為移動裝置的應用程序，在進入到本模塊後會自動加再商家商品、商家信息以及職工信息，製成一個基於區塊鏈加密貨幣的移動收銀機，可以掃描帶有RFID的商家產品標籤，創建交易給等待用戶交易管理模塊讀取以及驗證交易是否完成的信息。在StoreTransactionManagement()類當中有五個方法分別為顯示所有的商家產品信息的showstoreproduct()方法、顯示職工信息的showstorestaff()方法、顯示商家信息的showstore()方法、檢查交易是否完成的check()方法以及透過nfc傳輸協議傳輸信息的nfc()方法。StoreCompare類中的compare()方法事項Store類取得與store\_id相符的商家信息，StoreProductCompare類中的compare()方法是向StoreProduct類請求與store\_id相符的所有商家產品信息。StoreStaffCompare類中的compare()方法是向Staff類中請與user\_ID相符的職工信息。在NFCMessage類中有兩個方法分別recivenfcmessage()方法使得商家可以快速的掃描商品的RFID標籤以及sendnfcmessage()方法使得職工再創建完交易清單後可以將交易信息傳送給顧客。CheckTx類中有兩個方法分別為取得於Tx類中交易信息的compare()方法以，getcheck()方法是檢查該筆交易的CHECK值是否已經在Tx類中被修改為"1"，倘若被修改為一則意味著該筆交易已經被寫入區塊鏈中。
+在本模塊要做到驗證比特幣交易是否已經被存儲在比特幣區塊鏈當中，必須使用BlockchainExplore類中的getblockchain()方法取得所有區塊鏈相關的信息，再透過getbitcointx()方法取得該筆比特幣交易的狀態以及詳細信息。Tx類中可以調用txcheck()方法調用BlockchainExplore類檢查，該筆交易是否已經進入了區塊鏈，如果已經進入區塊鏈，則將相關的交易信息的CHECK修改為"1"，執得一提的是在此將CHECK修改為"1"的標準為該比較進入區塊鏈的時間，因為比特幣區塊鏈的生成速度平均為每十分鐘一塊，這使得交易確認速度不夠即時。
 
-\subsubsection{（四）顧客交易管理模塊}
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width = 0.9\textwidth]{c5.jpg}
+		\caption{商家交易管理模塊類圖}\label{c5}
+	\end{figure}
+
+
+圖\ref{time4}為商家交易管理時序圖，以下為流程說明：
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width = 1\textwidth]{time4.jpg}
+		\caption{商家交易管理時序圖}\label{time4}
+	\end{figure}
+
+	\begin{enumerate}
+	\item 首先職工填寫用戶的帳號密碼到用戶登入頁面。
+	\item 用戶登入頁面模塊將用戶填寫的密碼透過哈希算法生成本地端的用戶密碼哈希值。
+	\item 將用戶填寫的帳號發送到用戶信息表請求遠端的用戶密碼哈希值以及商家編號。
+	\item 用戶信息表傳回遠端的用戶密碼哈希值。
+	\item 用戶登入頁面模塊進行本地用戶密碼哈希值和遠端用戶密碼哈希值得比的筆對是否一樣。
+	\item 倘若一致則登入成功。
+	\item 此時用戶登入頁面向商家交易管理模塊發送商家編號的信息，商家交易管理模塊將信息保存。
+	\item 商家交易管理模塊向商家產品信息表請求與商家編號相關的所有商家產品信息。
+	\item 商家產品信息表傳回所有與商家相關的商家產品信息至商家交易模塊。
+	\item 商家交易管理模塊向商家信息表請求商家商家比特幣地址信息。
+	\item 商家信息表將商家比特幣地址信息傳回到商家交易管理模塊。
+	\item 商家產品信息表將所有與商家編號有關的商家產品信息傳回到商家交易管理模塊，此時商家交易管理模塊已經有完整的商家產品信息以及商家信息。將帶有RFID標籤的商品透過NFC線圈進行感測對應到相關的商家產品信息。
+	\item 將產品信息建立交易清單顯示在移動裝置的屏幕上，等待顧客的手持裝置進行感應，感應的同時會將交易清單以及商家比特幣地址傳送到顧客交易管理模塊。
+
+	\item 在感應的同時顧客交易管理會將比特幣錢包模塊中的比特幣地址提交給商家交易管理模塊。
+	\item 商家交易管理模塊發送信息至交易信息表查找該筆交易信息。
+	\item 交易信息表不斷的向區塊鏈檢視器查找該筆比特幣交易是否已經被寫入比特幣區塊鏈內，倘若寫入區塊連則將交易信息的CHEK信息由"0"改為"1"。
+	\item 交易信息表傳回該筆交易的CHEK已經為"1"則完成交易
+	
+	\end{enumerate}
+
+	在比特幣系統中，使得一筆比特幣交易得到比特幣網路的認可，交易的驗證需要等待六個區塊的交易驗證，相當於需要費時60分鐘的時間等待一個交易的完成，這使得比特幣交易在商家進行小額交易造成很大的不便，因此為了改善此問題，便導入了基於多重簽章算法的GreenAddress地址錢包，使得交易時間可以從60分鐘的等待時間，縮短為一秒鐘左右。圖\ref{c7}為商家GreenAddress交易管理模塊類圖，在此模塊類圖中針對Tx類中添加gatxcheck()方法，使得商家交易管理模塊可以支持GreenAddress地址格式的辨別，當檢測到為GreenAddress地址格式，將交易信息中的CHECK欄位修改為"1"，這使得比特幣交易信息可以在平均一秒鐘的時間得到交易確認，gatxcheck()方法需要調用BlockchainExplore類中的getblockchain()取得比特幣區塊鏈的信息以及getbitcointx()方法得到比特幣交易信息。在GreenaddressCheckTx類中提供compare()方法可以針對GreenAddress地址向交易信息類查詢相關信息以及gacheck()方法檢測該比較易是否存儲於交易信息中的CHEK值已經被修改為"1"。
+
+	
+
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width = 1\textwidth]{c7.jpg}
+		\caption{商家Greenaddress交易管理模塊類圖}\label{c7}
+	\end{figure}
+
+
+
+\subsubsection{（五）顧客交易管理模塊}
 
 	\begin{figure}[htbp]
 		\centering
@@ -275,54 +327,7 @@
 	
 
 
-\subsubsection{（五）商家交易管理模塊}
 
-	\begin{figure}[htbp]
-		\centering
-		\includegraphics[width = 0.9\textwidth]{c5.jpg}
-		\caption{商家交易管理模塊類圖}\label{c5}
-	\end{figure}
-
-
-圖\ref{time4}為商家交易管理時序圖，以下為流程說明：
-
-	\begin{figure}[htbp]
-		\centering
-		\includegraphics[width = 1\textwidth]{time4.jpg}
-		\caption{商家交易管理時序圖}\label{time4}
-	\end{figure}
-
-	\begin{enumerate}
-	\item 首先職工填寫用戶的帳號密碼到用戶登入頁面。
-	\item 用戶登入頁面模塊將用戶填寫的密碼透過哈希算法生成本地端的用戶密碼哈希值。
-	\item 將用戶填寫的帳號發送到用戶信息表請求遠端的用戶密碼哈希值以及商家編號。
-	\item 用戶信息表傳回遠端的用戶密碼哈希值。
-	\item 用戶登入頁面模塊進行本地用戶密碼哈希值和遠端用戶密碼哈希值得比的筆對是否一樣。
-	\item 倘若一致則登入成功。
-	\item 此時用戶登入頁面向商家交易管理模塊發送商家編號的信息，商家交易管理模塊將信息保存。
-	\item 商家交易管理模塊向商家產品信息表請求與商家編號相關的所有商家產品信息。
-	\item 商家產品信息表傳回所有與商家相關的商家產品信息至商家交易模塊。
-	\item 商家交易管理模塊向商家信息表請求商家商家比特幣地址信息。
-	\item 商家信息表將商家比特幣地址信息傳回到商家交易管理模塊。
-	\item 商家產品信息表將所有與商家編號有關的商家產品信息傳回到商家交易管理模塊，此時商家交易管理模塊已經有完整的商家產品信息以及商家信息。將帶有RFID標籤的商品透過NFC線圈進行感測對應到相關的商家產品信息。
-	\item 將產品信息建立交易清單顯示在移動裝置的屏幕上，等待顧客的手持裝置進行感應，感應的同時會將交易清單以及商家比特幣地址傳送到顧客交易管理模塊。
-
-	\item 在感應的同時顧客交易管理會將比特幣錢包模塊中的比特幣地址提交給商家交易管理模塊。
-	\item 商家交易管理模塊發送信息至交易信息表查找該筆交易信息。
-	\item 交易信息表不斷的向區塊鏈檢視器查找該筆比特幣交易是否已經被寫入比特幣區塊鏈內，倘若寫入區塊連則將交易信息的CHEK信息由"0"改為"1"。
-	\item 交易信息表傳回該筆交易的CHEK已經為"1"則完成交易
-	
-	\end{enumerate}
-
-	圖\ref{c6}為商家Greenaddress交易管理模塊類圖，
-
-	
-
-	\begin{figure}[htbp]
-		\centering
-		\includegraphics[width = 1\textwidth]{c7.jpg}
-		\caption{商家Greenaddress交易管理模塊類圖}\label{c7}
-	\end{figure}
 
 
 

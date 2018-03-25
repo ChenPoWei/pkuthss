@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  25 MAR 2018 20:59
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  26 MAR 2018 01:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2872,37 +2872,39 @@ File: c1.jpg Graphic file (type QTm)
  <use  "c1.jpg" >
 File: time2.jpg Graphic file (type QTm)
  <use  "time2.jpg" >
-[52]
+[52] [53]
+File: c5.jpg Graphic file (type QTm)
+ <use  "c5.jpg" >
+File: time4.jpg Graphic file (type QTm)
+ <use  "time4.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+[55] [56]
+File: c7.jpg Graphic file (type QTm)
+ <use  "c7.jpg" >
 File: c4.jpg Graphic file (type QTm)
  <use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
- <use  "time5.jpg" > [53] [54] [55]
+ <use  "time5.jpg" > [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+[59] [60]
 File: c6.jpg Graphic file (type QTm)
  <use  "c6.jpg" >
-File: c5.jpg Graphic file (type QTm)
-
-<use  "c5.jpg" >
-File: time4.jpg Graphic file (type QTm)
- <use  "time4.jpg" > [56] [57] [58] [59]
-File: c7.jpg Graphic file (type QTm)
- <use  "c7.jpg" >
 File: fig5.png Graphic file (type QTm)
-
-<use  "fig5.png" >
+ <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [60] [61]
+ <use  "fig6.png" > [61] [62]
 File: fig7.png Graphic file (type QTm)
- <use  "fig7.png" >
-File: fig8.png Graphic file (type QTm)
 
-<use  "fig8.png" >) [62] [63]
+<use  "fig7.png" >
+File: fig8.png Graphic file (type QTm)
+ <use  "fig8.png" >) [63] [64]
 \openout2 = `chap/chap6.aux'.
 
- (./chap/chap6.tex [64
-
-
-
-]
+ (./chap/chap6.tex
 第六章
 Missing character: There is no 利 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
@@ -2913,7 +2915,11 @@ Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 說 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
-[65] [66]
+[65
+
+
+
+] [66]
 Missing character: There is no 度 in font STSong/OT!
 
 Overfull \hbox (7.94467pt too wide) in paragraph at lines 76--77
@@ -3097,10 +3103,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48682 strings out of 493005
  954810 string characters out of 6134596
- 1376752 words of memory out of 5000000
+ 1376751 words of memory out of 5000000
  51879 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 914564 bytes).
+Output written on thesis.xdv (101 pages, 932708 bytes).
