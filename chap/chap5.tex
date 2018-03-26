@@ -6,7 +6,7 @@
 
 	區塊鏈的實名交易監督系統應用了六個信息表，分別為商家信息、產品信息、交易信息、用戶信息、職工信息以及商家產品信息，以下將逐一說明：
 
-		\begin{figure}[htbp]
+		\begin{figure}[!htbp]
 			\centering
 			\includegraphics[width = 1\textwidth]{er.jpg}
 			\caption{BRTMS數據庫實體關係圖}\label{db}
@@ -16,7 +16,7 @@
 		\item 商家信息表：存儲正在審核中的企業信息或已經過審核的企業信息。表\ref{store}存儲的信息包括商家編號、商家名稱、商家地址、商家比特幣地址以及商家定位信息。
 
 
-				\begin{table}[htbp]
+				\begin{table}[!htbp]
 				\centering
 				\caption{商家信息表}
 				\label{store}
@@ -35,7 +35,7 @@
 
 		\item 產品信息表：只有授權用戶才能登錄添加或修改交易產品信息。表\ref{product}產品信息表內容包括產品編號、產品名稱、產品價格以及產品描述信息。
 
-				\begin{table}[htbp]
+				\begin{table}[!htbp]
 				\centering
 				\caption{產品信息表}
 				\label{product}
@@ -53,7 +53,7 @@
 		\item 交易信息表：表\ref{tx}記錄包括交易編號、職工編號、商家編號、商家產品編號、商家地址、商家產品數量、交易金額、顧客比特幣地址和最後確認字段的值。
 
 				% \usepackage{graphicx}
-				\begin{table}[htbp]
+				\begin{table}[!htbp]
 				\centering
 				\caption{交易信息表}
 				\label{tx}
@@ -74,9 +74,9 @@
 				}
 				\end{table}
 
-		\item 用戶信息表：表\ref{user}存儲所有使用者信息，包括政府、商家及顧客之個人的帳戶編號與帳號，而使用者密碼則以哈希值的方式保存以增加用戶安全性。
+		\item 用戶信息表：表\ref{user}存儲所有使用者信息，包括政府、商家及顧客之個人的帳戶編號與帳號，而使用者密碼則以哈希值的方式保存以增加用戶安全性，最後則是政府審查值，倘若通過為"1"，未通過為"0"。
 
-				\begin{table}[htbp]
+				\begin{table}[!htbp]
 				\centering
 				\caption{用戶信息表}
 				\label{user}
@@ -93,7 +93,7 @@
 				\end{table}
 
 		\item 職工信息表：表\ref{staff}信息表存儲各個商家擁有的職工信息，包括各職工編號、用戶編號商家編號及職工身份。
-				\begin{table}[htbp]
+				\begin{table}[!htbp]
 				\centering
 				\caption{職工信息表}
 				\label{staff}
@@ -108,7 +108,7 @@
 				\end{table}
 
 		\item 商家產品信息表：表\ref{storeproduct}存儲各家商家當前商家產品存貨信息，由商家產品編號、產品編號、商家編號及商家產品庫存量所組成。
-				\begin{table}[htbp]
+				\begin{table}[!htbp]
 				\centering
 				\caption{商家產品信息表}
 				\label{storeproduct}
@@ -130,7 +130,7 @@
 \subsubsection{（一）用戶註冊與登入模塊}
 在本系統中僅職工與商家需要進行註冊，並且需要經過政府的審查批准。職工與商家皆為使用者皆可使用用戶註冊模塊。圖\ref{c3}為用戶註冊與登入模塊類圖，在LoginManagement類當中分別需要調用RegistNewUser類實現用戶註冊以及LoginUser類實現用戶登入。RegistNewUser類中hash()方法是將用戶輸入的用戶密碼使用哈希算法生成哈用戶密碼哈希值，addnewuser()方法則是將用戶帳號和密碼傳送至User類。在LoginUser類中getuserpasswordhsh()方法是向User類取得該用戶帳號的密碼哈希值。
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{c3.jpg}
 		\caption{用戶註冊與登入模塊類圖}\label{c3}
@@ -138,7 +138,7 @@
 
 	圖\ref{time1}為職工與商家註冊時序圖，以下為流程說明：
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{time1.jpg}
 		\caption{職工與商家註冊時序圖}\label{time1}
@@ -161,7 +161,7 @@
 商家的運營需要管理本身所需販售的商品，在商家完成註冊用戶帳號並且通過政府審核之後，便可檢視所有的產品，近一步可以透過產品管理模塊新增、修改以及刪除商家商品。圖\ref{c2}為商家產品管理類圖，其中StoreProductManagement類中有四個方法需要實現分別為顯示商家信息的showstoreinfo()方法、顯示商家產品信息的showstoreproductinfo()方法、顯示產品信息的showproductinfo()
 以及修改商家產品信息的edit()方法。其中StoreProductCompare類與EditStoreProduct類需要向StoreProduct請求商家產品信息，StoreProductCompare類中的compare()方法是向商家產品信息表取得與store\_ID相符的所有相關商家產品。EditStoreProduct類中的addstoreproduct()方法editstoreproduct()方法以及deletestoreproduct()方法分別為新增、修改以及刪除商家產品信息。StoreCompare類中的compare()方法是向Store類請求與store\_id相符的商家信息。
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{c2.jpg}
 		\caption{商家產品管理類圖}\label{c2}
@@ -169,7 +169,7 @@
 
 	圖\ref{time3}為商家產品管理時序圖，以下為流程說明：
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{time3.jpg}
 		\caption{商家產品管理時序圖}\label{time3}
@@ -195,7 +195,7 @@
 \subsubsection{（三）職工管理模塊}
 商家需要職工進行商家的運營，在商家用戶完成政府審查之後，便可以進入職工管理模塊，透過提交用戶編號以及商家編號新增、修改以及刪除職工信息。圖\ref{c1}為職工管理模塊類圖，StaffManagement類當中有四種方法分別為顯示與該商家store\_id相符的完整信息showstore()方法、顯示符合該商家store\_id職工信息的showstorestaff()方法、顯示用戶編號的showuser()方法。UserCompare類需要向User類提取用戶相關信息實現查詢，StoreCompare類需要向Store類請求商家信相關信息，其中EditStoreStaff類與StoreStaffCompare類需要使用到Staff類修改職工信息表的內容，EditStoreStaff類中的addstaff()、editstaff()以及deletestaff方法分別為新增、修改以及刪除職工，StoreStaffCompare類中的compare方法是取得符合STORE\_ID的所有職工信息。
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 0.9\textwidth]{c1.jpg}
 		\caption{職工管理模塊類圖}\label{c1}
@@ -205,7 +205,7 @@
 
 	圖\ref{time2}為商家職工管理時序圖，以下為流程說明：
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{time2.jpg}
 		\caption{商家職工管理時序圖}\label{time2}
@@ -226,10 +226,10 @@
 	\end{enumerate}
 
 \subsubsection{（四）商家交易管理模塊}
-在用戶完成註冊後且在商家將該用戶加入成為公司職工後，該職工可以透過用戶帳號進入到商家教管理模塊，該模塊為移動裝置的應用程序，在進入到本模塊後會自動加再商家商品、商家信息以及職工信息，製成一個基於區塊鏈加密貨幣的移動收銀機，可以掃描帶有RFID的商家產品標籤，創建交易給等待用戶交易管理模塊讀取以及驗證交易是否完成的信息。在StoreTransactionManagement()類當中有五個方法分別為顯示所有的商家產品信息的showstoreproduct()方法、顯示職工信息的showstorestaff()方法、顯示商家信息的showstore()方法、檢查交易是否完成的check()方法以及透過nfc傳輸協議傳輸信息的nfc()方法。StoreCompare類中的compare()方法事項Store類取得與store\_id相符的商家信息，StoreProductCompare類中的compare()方法是向StoreProduct類請求與store\_id相符的所有商家產品信息。StoreStaffCompare類中的compare()方法是向Staff類中請與user\_ID相符的職工信息。在NFCMessage類中有兩個方法分別recivenfcmessage()方法使得商家可以快速的掃描商品的RFID標籤以及sendnfcmessage()方法使得職工再創建完交易清單後可以將交易信息傳送給顧客。CheckTx類中有兩個方法分別為取得於Tx類中交易信息的compare()方法以，getcheck()方法是檢查該筆交易的CHECK值是否已經在Tx類中被修改為"1"，倘若被修改為一則意味著該筆交易已經被寫入區塊鏈中。
+在用戶完成註冊後且在商家將該用戶加入成為公司職工後，該職工可以透過用戶帳號進入到商家教管理模塊，該模塊為移動裝置的應用程序，在進入到本模塊後會自動加再商家商品、商家信息以及職工信息，製成一個基於區塊鏈加密貨幣的移動收銀機，可以掃描帶有RFID的商家產品標籤，創建交易給等待用戶交易管理模塊讀取以及驗證交易是否完成的信息。在StoreTransactionManagement類當中有五個方法分別為顯示所有的商家產品信息的showstoreproduct()方法、顯示職工信息的showstorestaff()方法、顯示商家信息的showstore()方法、檢查交易是否完成的check()方法以及透過nfc傳輸協議傳輸信息的nfc()方法。StoreCompare類中的compare()方法事項Store類取得與store\_id相符的商家信息，StoreProductCompare類中的compare()方法是向StoreProduct類請求與store\_id相符的所有商家產品信息。StoreStaffCompare類中的compare()方法是向Staff類中請與user\_ID相符的職工信息。在NFCMessage類中有兩個方法分別recivenfcmessage()方法使得商家可以快速的掃描商品的RFID標籤以及sendnfcmessage()方法使得職工再創建完交易清單後可以將交易信息傳送給顧客。CheckTx類中有兩個方法分別為取得於Tx類中交易信息的compare()方法以，getcheck()方法是檢查該筆交易的CHECK值是否已經在Tx類中被修改為"1"，倘若被修改為一則意味著該筆交易已經被寫入區塊鏈中。
 在本模塊要做到驗證比特幣交易是否已經被存儲在比特幣區塊鏈當中，必須使用BlockchainExplore類中的getblockchain()方法取得所有區塊鏈相關的信息，再透過getbitcointx()方法取得該筆比特幣交易的狀態以及詳細信息。Tx類中可以調用txcheck()方法調用BlockchainExplore類檢查，該筆交易是否已經進入了區塊鏈，如果已經進入區塊鏈，則將相關的交易信息的CHECK修改為"1"，執得一提的是在此將CHECK修改為"1"的標準為該比較進入區塊鏈的時間，因為比特幣區塊鏈的生成速度平均為每十分鐘一塊，這使得交易確認速度不夠即時。
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 0.9\textwidth]{c5.jpg}
 		\caption{商家交易管理模塊類圖}\label{c5}
@@ -238,7 +238,7 @@
 
 圖\ref{time4}為商家交易管理時序圖，以下為流程說明：
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{time4.jpg}
 		\caption{商家交易管理時序圖}\label{time4}
@@ -270,7 +270,7 @@
 
 	
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{c7.jpg}
 		\caption{商家Greenaddress交易管理模塊類圖}\label{c7}
@@ -279,8 +279,9 @@
 
 
 \subsubsection{（五）顧客交易管理模塊}
+在本系統中顧客需要在手持度動端安裝手機程序包括顧客交易管理模塊，使得顧客移動裝置可以支持比特幣支付、查詢過去的交易信息、以NFC通信協議接收商家交易管理模塊創建的交易信息以及詳細的商家商品信息。圖\ref{c4}為顧客交易管理模塊類圖，在CustomerTxManagement類中包括六個方法分別為顯示所有該用戶擁有比特幣交易信息相關的交易明細的showtx()方法、取得交易信息後取得相對應的商家產品信息的showstoreproduct()方法、檢查於交易信息表中的交易信息CHECK欄位得值是否已經被填入"1"的check()方法、發送詳細的交易信息至交易信息表保存的sendtx2table()方法、透過NFC協議接收於StoreTransactionManagement類所創建的交易信息以及發送用戶比特幣地址的nfc()方法，最後控制比特幣錢包的bitcoinpayment()方法。CheckTx類中的getcheck()方法可以向Tx類詢問該筆交易是否已經得到認證，TxCompare類中的compare()方法提供用戶向交易信息表查找與用戶交易信息相關的交易，TransferTx類中的sendtx()方法是將顧客完成交易的交易信息提交到交易信息表，BitcoinPay類使用pay()方法支付比特幣，NFCMessage類中的recivenfcmessage()和sendnfcmessage()分別為透過NFC協議發送以及接收交易信息和顧客比特幣地址。StoreProductCompare類則是向StoreProduct類請求顧客移動裝置中所有交易信息中相關的商家商品。
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{c4.jpg}
 		\caption{顧客交易管理模塊類圖}\label{c4}
@@ -290,7 +291,7 @@
 
 	圖\ref{time5}為顧客交易管理時序圖，以下為流程說明：
 
-	\begin{figure}[htbp]
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{time5.jpg}
 		\caption{顧客交易管理時序圖}\label{time5}
@@ -314,23 +315,14 @@
 		\item 發現交易信息中的CHECK值為"1"之後，變發送完成交易的信息到顧客交易管理模塊。
 	\end{enumerate}
 
-	圖\ref{c6}為顧客Greenaddress交易管理模塊類圖，以下將說明採用Greenaddress與未採用Greenaddress技術的顧客交易管理類圖設計之間的差異。
+	圖\ref{c6}為顧客Greenaddress交易管理模塊類圖，以下將說明採用Greenaddress與未採用Greenaddress技術的顧客交易管理類圖設計之間的差異。於Tx類中添加gachek()方法，該方法可以不斷檢查交易信息表中的交易是否來自GreenAddress地址，倘若是則不需要等待區塊鏈的驗證時間可以即刻認定該筆交易為有效，快速提交比特幣交易速度。GreenaddressCheck類中compare()方法是為了查找與Tx\_ID相符的交易信息，getchek()方法則是向交易信息表中詢問符合Tx\_ID的交易信息是否已經被修改為"1"。其中GreenaddressBitcoinPay類中的multiplesignature()方法可以實現多重簽章算法，使得本系統可以支持即時交易。greedaddresspay()方法是將多重簽名的算法廣播報導比特幣網路。
 
-	\begin{figure}[htbp]
+
+	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 0.7\textwidth]{c6.jpg}
 		\caption{顧客Greenaddress交易管理模塊類圖}\label{c6}
 	\end{figure}
-
-
-
-	
-
-
-
-
-
-
 
 \section{系統實現}
 
@@ -339,13 +331,13 @@
 為了驗證和證明所提議的BRTMS用於比特幣支付收款監督的可行性和有效性，我們將其運行在用於商家商品管理和維護的Java應用程序的SMIMSS子系統，用於商家職工的運行在Android App上的SMCTSS以及運行在App上的用於客戶的CMPTSS。
 如圖\ref{fig5}所示，SMIMSS Java應用程序可以幫助商家登錄到系統或創建一個新帳戶。 授權商家成功登錄系統後，商家可以插入或更新產品列表，如圖\ref{fig6}所示。實施的SMIMSS Java應用程序執行前面部分中所述的功能。
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering
 	\includegraphics[width = 0.9\textwidth]{fig5.png}
 	\caption{SMIMSS的Java應用程序的註冊和登錄界面}\label{fig5}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering
 	\includegraphics[width = 0.6\textwidth]{fig6.png}
 	\caption{在SMIMSS中插入或更新授權商家的產品目錄}\label{fig6}
@@ -353,7 +345,7 @@
 
 商家的產品信息可以通過RFID標籤掃描，存儲到雲端數據庫中，商家職工可以使用我們實現的SMCTSS Android客戶端，啟用NFC監聽器，從購物車中的客戶購買產品中讀取RFID標籤信息。 在如圖\ref{fig7}所示的第一項活動中，商家職工必須登錄才能獲得授權訪問SMCTSS功能。 然後，在第二項活動中，SMCTSS應用程序可以通過使用SMIMSS中應用的雲數據庫檢查產品RFID標籤信息並將其展示給客戶，從而將掃描的產品列入購物車。 在圖\ref{fig7}的第三項活動中，顧客可以要求職工取消購買物品以確認最終購買。 最後，SMCTSS應用程序將自動使用比特幣測試網絡（Bitcoin Testnet）\supercite{bitcointestnet}幫助職工確認發布此加密貨幣交易的收款人地址，如圖\ref{fig7}所示。    
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering
 	\includegraphics[width = 1\textwidth]{fig7.png}
 	\caption{登錄、等待結帳的商品、刪除商品及支付確認}\label{fig7}
@@ -361,7 +353,7 @@
 
 同時，客戶將使用與SMCTSS App相對應的CMPTSS Android App通過比特幣加密貨幣完成採購產品交易。 如圖\ref{fig8}所示，第一個活動表示顧客確認購買產品創建交易數據庫的交易清單，第二個活動顯示包括金額和付款人比特幣地址在內的付款確認，第三個活動顯示交易歷史記錄 的交易作為買方甚至是賣方，最後在第四項活動中顯示了該筆交易詳細採購產品的發票。    
 
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering
 	\includegraphics[width = 1\textwidth]{fig8.png}
 	\caption{在CMPTSS App中，交易確認，付款確認、交易歷史記錄和發票}\label{fig8}

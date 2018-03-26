@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  26 MAR 2018 01:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  26 MAR 2018 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2849,20 +2849,20 @@ File: gabpcss.jpg Graphic file (type QTm)
 (./chap/chap5.tex
 第五章
 File: er.jpg Graphic file (type QTm)
-<use  "er.jpg" >
-Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
- [][] 
- []
-
-[45
+<use  "er.jpg" > [45
 
 
 
 ] [46]
+Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
+ [][] 
+ []
+
+[47]
 File: c3.jpg Graphic file (type QTm)
  <use  "c3.jpg" >
 File: time1.jpg Graphic file (type QTm)
- <use  "time1.jpg" > [47] [48]
+ <use  "time1.jpg" > [48]
 File: c2.jpg Graphic file (type QTm)
  <use  "c2.jpg" >
 File: time3.jpg Graphic file (type QTm)
@@ -2882,26 +2882,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [54]
 [55] [56]
 File: c7.jpg Graphic file (type QTm)
- <use  "c7.jpg" >
+ <use  "c7.jpg" > [57]
 File: c4.jpg Graphic file (type QTm)
  <use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
- <use  "time5.jpg" > [57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <use  "time5.jpg" >
+Underfull \vbox (badness 2626) has occurred while \output is active []
 
  [58]
 [59] [60]
 File: c6.jpg Graphic file (type QTm)
- <use  "c6.jpg" >
+ <use  "c6.jpg" > [61] [62]
 File: fig5.png Graphic file (type QTm)
  <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [61] [62]
+ <use  "fig6.png" >
 File: fig7.png Graphic file (type QTm)
 
-<use  "fig7.png" >
+<use  "fig7.png" > [63]
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [63] [64]
+ <use  "fig8.png" >) [64]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -3103,10 +3103,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48682 strings out of 493005
  954810 string characters out of 6134596
- 1376751 words of memory out of 5000000
+ 1376725 words of memory out of 5000000
  51879 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 932708 bytes).
+Output written on thesis.xdv (101 pages, 948968 bytes).
