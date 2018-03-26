@@ -525,11 +525,6 @@ OUTPUT chap/chap3.aux
 INPUT chap/chap3.tex
 INPUT chap/chap3.tex
 INPUT modeall.png
-INPUT modeaa.png
-INPUT modean.png
-INPUT modenn.png
-INPUT modennn.png
-INPUT modenan.png
 INPUT UC.jpg
 INPUT fish1.png
 OUTPUT chap/chap4.aux
