@@ -266,14 +266,14 @@
 	
 	\end{enumerate}
 
-	在比特幣系統中，使得一筆比特幣交易得到比特幣網路的認可，交易的驗證需要等待六個區塊的交易驗證，相當於需要費時60分鐘的時間等待一個交易的完成，這使得比特幣交易在商家進行小額交易造成很大的不便，因此為了改善此問題，便導入了基於多重簽章算法的GreenAddress地址錢包，使得交易時間可以從60分鐘的等待時間，縮短為一秒鐘左右。圖\ref{c7}為商家GreenAddress交易管理模塊類圖，在此模塊類圖中針對Tx類中添加gatxcheck()方法，使得商家交易管理模塊可以支持GreenAddress地址格式的辨別，當檢測到為GreenAddress地址格式，將交易信息中的CHECK欄位修改為"1"，這使得比特幣交易信息可以在平均一秒鐘的時間得到交易確認，gatxcheck()方法需要調用BlockchainExplore類中的getblockchain()取得比特幣區塊鏈的信息以及getbitcointx()方法得到比特幣交易信息。在GreenaddressCheckTx類中提供compare()方法可以針對GreenAddress地址向交易信息類查詢相關信息以及gacheck()方法檢測該比較易是否存儲於交易信息中的CHEK值已經被修改為"1"。
+	在比特幣系統中，使得一筆比特幣交易得到比特幣網路的認可，交易的驗證需要等待六個區塊的交易驗證，相當於需要費時60分鐘的時間等待一個交易的完成，這使得比特幣交易在商家進行小額交易造成很大的不便，因此為了改善此問題，便導入了基於多重簽章算法的GreenAddress地址錢包，使得交易時間可以從60分鐘的等待時間，縮短為一秒鐘左右。圖\ref{c7}為商家Goverment Green Address交易管理模塊類圖，在此模塊類圖中針對Tx類中添加ggatxcheck()方法，使得商家交易管理模塊可以支持Goverment Green Address地址格式的辨別，當檢測到為Goverment Green Address地址格式，將交易信息中的CHECK欄位修改為"1"，這使得比特幣交易信息可以在平均一秒鐘的時間得到交易確認，ggatxcheck()方法需要調用BlockchainExplore類中的getblockchain()取得比特幣區塊鏈的信息以及getbitcointx()方法得到比特幣交易信息。在GovermentGreenaddressCheckTx類中提供compare()方法可以針對Goverment Green Address地址向交易信息類查詢相關信息以及ggacheck()方法檢測該比較易是否存儲於交易信息中的CHEK值已經被修改為"1"。
 
 	
 
 	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 1\textwidth]{c7.jpg}
-		\caption{商家Greenaddress交易管理模塊類圖}\label{c7}
+		\caption{商家Goverment Green Address交易管理模塊類圖}\label{c7}
 	\end{figure}
 
 
@@ -315,13 +315,13 @@
 		\item 發現交易信息中的CHECK值為"1"之後，變發送完成交易的信息到顧客交易管理模塊。
 	\end{enumerate}
 
-	圖\ref{c6}為顧客Greenaddress交易管理模塊類圖，以下將說明採用Greenaddress與未採用Greenaddress技術的顧客交易管理類圖設計之間的差異。於Tx類中添加gachek()方法，該方法可以不斷檢查交易信息表中的交易是否來自GreenAddress地址，倘若是則不需要等待區塊鏈的驗證時間可以即刻認定該筆交易為有效，快速提交比特幣交易速度。GreenaddressCheck類中compare()方法是為了查找與Tx\_ID相符的交易信息，getchek()方法則是向交易信息表中詢問符合Tx\_ID的交易信息是否已經被修改為"1"。其中GreenaddressBitcoinPay類中的multiplesignature()方法可以實現多重簽章算法，使得本系統可以支持即時交易。greedaddresspay()方法是將多重簽名的算法廣播報導比特幣網路。
+	圖\ref{c6}為顧客Goverment Green Address交易管理模塊類圖，以下將說明採用Goverment Green Address與未採用Goverment Green Address技術的顧客交易管理類圖設計之間的差異。於Tx類中添加ggachek()方法，該方法可以不斷檢查交易信息表中的交易是否來自Goverment Green Address地址，倘若是則不需要等待區塊鏈的驗證時間可以即刻認定該筆交易為有效，快速提交比特幣交易速度。GovermentGreenaddressCheck類中compare()方法是為了查找與Tx\_ID相符的交易信息，getchek()方法則是向交易信息表中詢問符合Tx\_ID的交易信息是否已經被修改為"1"。其中GovermentGreenaddressBitcoinPay類中的multiplesignature()方法可以實現多重簽章算法，使得本系統可以支持即時交易。govermentgreedaddresspay()方法是將多重簽名的算法廣播報導比特幣網路。
 
 
 	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 0.7\textwidth]{c6.jpg}
-		\caption{顧客Greenaddress交易管理模塊類圖}\label{c6}
+		\caption{顧客Goverment Green Address交易管理模塊類圖}\label{c6}
 	\end{figure}
 
 \section{系統實現}
