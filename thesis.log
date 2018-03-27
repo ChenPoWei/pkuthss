@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  27 MAR 2018 20:27
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  27 MAR 2018 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2810,28 +2810,31 @@ File: model0.jpg Graphic file (type QTm)
 <use  "model0.jpg" >
 File: model1.jpg Graphic file (type QTm)
  <use  "model1.jpg" > [37]
-File: fig3.jpg Graphic file (type QTm)
- <use  "fig3.jpg" >
 Missing character: There is no   in font ntx-Regular-tlf-t1!
 File: model3.jpg Graphic file (type QTm)
-
-<use  "model3.jpg" >
+ <use  "model3.jpg" >
 File: model2.jpg Graphic file (type QTm)
- <use  "model2.jpg" >
-Overfull \hbox (4.93584pt too wide) in paragraph at lines 50--56
+
+<use  "model2.jpg" >
+Overfull \hbox (4.93584pt too wide) in paragraph at lines 35--41
 []\TU/STSong(0)/m/n/12.045 顧 客 端 行 動 支 付 與 交 易 明 細 系 統 \T1/ntxtlf/m/n/12.045 (C
 lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
  []
 
-[38] [39]
+File: fig3.jpg Graphic file (type QTm)
+<use  "fig3.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+[39] [40]
 File: fig4.jpg Graphic file (type QTm)
- <use  "fig4.jpg" > [40] [41] [42]
+ <use  "fig4.jpg" > [41]
 File: gabpcss.jpg Graphic file (type QTm)
- <use  "gabpcss.jpg" > [43])
-[44]
+ <use  "gabpcss.jpg" > [42] [43]) [44]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex
+
+(./chap/chap5.tex
 第五章
 File: er.jpg Graphic file (type QTm)
 <use  "er.jpg" > [45
@@ -3088,10 +3091,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48666 strings out of 493005
  954502 string characters out of 6134596
- 1376447 words of memory out of 5000000
+ 1376446 words of memory out of 5000000
  51868 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 966012 bytes).
+Output written on thesis.xdv (101 pages, 965520 bytes).
