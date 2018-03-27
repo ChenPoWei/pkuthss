@@ -84,23 +84,23 @@
 
 \section{實時BRTMS架構與運作流程}
 
-		在這樣的機制下，雖然Green Address 沒有減少交易確認時間，但是只要是用Green Address 即可確保雙重支付攻擊是不會發生的，對商家或是收款人而言，可以得到在即時交易中不被雙重支付攻擊的保障，提升未進入區塊鏈的交易可信度，進而創造出即時交易的可行性\supercite{tanet}。 
+		在這樣的機制下，提出比特幣多重簽章算法實踐於政府端，將該方法稱為Government Green Address，與過去Green Address 比特幣錢包地址不同的在於Green Address生成需要生成兩把私鑰分別為用戶私鑰以及Green Address 機構的私鑰，並將兩把私鑰加以合併行程形成綠色錢包地址。在用戶發起基於Green Address機制的比特幣交易時，用戶生成交易並使用數字簽名，再將該筆交易發送至Green Address機構進行下一個步驟的數字簽名，在這過程中完成Green Address機制交易必需依賴Green Address機構，且該機構位於海外再封包傳輸上會有一定程度的延遲。為了提升國內用戶可以更快速地透過多重簽章技術提升交易速度，實時BRTMS將取代原有的Green Address機構，使得國內的用戶擁有更快的網路傳輸速度，更快的完成多重簽章算法簽名。\supercite{tanet}。 
 
-本節將詳述本系統之商家註冊、Green Address錢包創建與驗證交易的運作流程與相關數據庫架構，如圖\ref{gabpcss}所示。
+本節將詳述本系統之商家註冊、Government Green Address錢包創建與驗證交易的運作流程與相關數據庫架構，如圖\ref{gabpcss}所示。
 
 	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width = 0.8\textwidth]{gabpcss.jpg}
-		\caption{多重簽章優化後的BRTMS整體示意圖}\label{gabpcss}
+		\caption{基於Government Green Address的實時BRTMS整體示意圖}\label{gabpcss}
 	\end{figure}
 
 	\begin{enumerate}
 		\item 商家以通過政府機構的審查稽覈的帳戶登入該系統。
 		\item 系統載入該店家註冊的商品信息，職工可以依照客戶的需求進行點單選取數量。
-		\item 快速建立交易清單，並透過Green Address建立一個全新的比特幣收款地址，再以Android Beam的方式將交易信息輕鬆地傳達給消費者。
+		\item 快速建立交易清單，並透過Government Green Address建立一個全新的比特幣收款地址，再以Android Beam的方式將交易信息輕鬆地傳達給消費者。
 		\item 在商家職工的平板電腦收到這筆交易信息之後，會對本監督系統重送一個副本進行存檔。該交易信息包括由監督系統所提出的交易流水號、商家編號等信息。
-		\item 消費者收到交易信息後，手機會自動開啟Green Address的付款頁面，確認金額無誤之後便能進行支付，此時便會以客戶的比特幣私鑰簽署交易，並等待Green Address機構節點的認證及發布。
-		\item Green Address機構節點收到交易請求，並完成驗證非雙重支付攻擊後，以代理節點對應地址的私鑰簽署本次交易，並廣播至比特幣節點中。
+		\item 消費者收到交易信息後，手機會自動開啟Government Green Address的付款頁面，確認金額無誤之後便能進行支付，此時便會以客戶的比特幣私鑰簽署交易，並等待Government Green Address機構節點的認證及發布。
+		\item Government Green Address機構節點收到交易請求，並完成驗證非雙重支付攻擊後，以代理節點對應地址的私鑰簽署本次交易，並廣播至比特幣節點中。
 		\item 區塊鏈檢視器便會開始分析網絡中所有存在緩存池中的交易，以及已經被記錄到區塊鏈中的交易。
 		\item 本交易監督系統會向區塊鏈檢視器查找，檢查該筆交易是否已經存在於緩存池當中，若已經確認進入緩存池，則認定該筆交易成立並完成付款。
 		\item 在交易確認之後，便向商家職工的平板電腦送出交易已經成交的信息，此時完成交易，於此同時也將該筆交易信息建置於系統數據庫內。
