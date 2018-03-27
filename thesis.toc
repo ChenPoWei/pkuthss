@@ -72,11 +72,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統概要設計}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}商家和商品信息管理子系統（SMIMSS）}{40}{section.4.1}
+\contentsline {section}{\numberline {4.1}BRTMS架構與運作流程}{40}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}BRTMS架構與運作流程}{40}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}實時BRTMS架構與運作流程}{42}{section.4.3}
+\contentsline {section}{\numberline {4.2}實時BRTMS架構與運作流程}{42}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統詳細設計與實現}{45}{chapter.5}
 \defcounter {refsection}{0}\relax 
