@@ -68,7 +68,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}功能性需求分析}{32}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}特性要因分析}{35}{section.3.3}
+\contentsline {section}{\numberline {3.3}非功能性需求分析}{35}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}特性要因分析}{35}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統概要設計}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
