@@ -4,35 +4,35 @@
 
 	比特幣是一個集成網絡學、密碼學、貨幣銀行學的加密貨幣，加密貨幣市場中，有數以千計的貨幣種類在市場流動著。值得一提的是，至今比特幣的點對點式電子現金系統還未出現過錯誤。比特幣最大的特色在於去中心化與匿名化，以去中心化的基礎建構出一個其他人無法管控的點對點金流，但也因為其匿名之特性，存在著三項問題，分別為無法追蹤、無法得到稅收以及在交易的過程中無法保障消費者權益。第一，在比特幣系統中，沒有任何一個使用者可以要求每一個人落實實名制，政府主管機關與相關人士難以追查每⼀筆資金的真正持有者，進而增加洗錢防制的困難性。第二，稅收更是國家經濟基礎運作的資金來源，現今的國家並無支持以比特幣交易相關的收銀系統或是制定出相關的稅務標準，使得政府無法從加密貨幣這方面的金融交易獲得稅收。第三，現有的比特幣交易模型皆為匿名與匿名之間的交易，並無開立收據，無法保障消費者權益。
 
-	本論文設計與實現一個区块链匿名加密貨幣為主的实名交易监督系统，論文工作包括五項。第一，交易模型分析：分析五種交易模型，藉由匿名支付給實名交易的實時監督，達到保障消費者權益、保護消費者隱私以及使政府可以課徵稅收。第二，系統設計：以匿名支付給實名交易模型為基礎以設計出支持加密貨幣的實時交易監督系統架構。第三，系統實現：使用Java編程語言，實現主要系統、商店和商品信息管理子系統、移動裝置收款及交易子系統以及客戶端移動支付和交易子系統。第四，系統優化：
-	解決區塊鏈速度緩慢，引入多重簽章算法構建實時監督系統。第五，功能與性能測試：實現系統後，對本系統進行功能測試，且對原始監督系統與實時監督系統進行性能測試與分析。
+	本論文設計與實現一個区块链匿名加密貨幣為主的實時实名交易监督系统，論文工作包括五項。第一，交易模型分析：分析五種交易模型，藉由匿名支付給實名交易的實時監督，達到保障消費者權益、保護消費者隱私以及使政府可以課徵稅收。第二，系統設計：以匿名支付給實名交易模型為基礎以設計出支持加密貨幣的實時交易監督系統架構。第三，系統實現：使用Java編程語言與比特幣開源錢包，實現主要系統、商店和商品信息管理子系統、移動裝置收款及交易子系統以及客戶端移動支付和交易子系統。第四，系統優化：
+	解決區塊鏈速度緩慢，引入多重簽章算法構建實時監督系統。第五，功能與性能測試：實現系統後，對本系統進行功能測試，且對原始監督系統與有多重簽章演算法支援的實時監督系統進行性能測試與分析。
 
 	本論文貢獻如下：
 	\begin{enumerate}
 		\item 引入匿名支付給實名的交易模型至加密貨幣交易系統。
 		\item 設計與實現於加密貨幣中匿名支付給實名的交易監督系統。
-		\item 於政府實現多重簽章算法，使實時的交易監督系統比GreenAddress更加快速。
+		\item 於政府端實現多重簽章算法，使實時的交易監督比透過GreenAddress網站更加快速。
 		\item 透過多重簽章算法使得商家可以預防雙重支付攻擊。
 		\item 商家商品管理讓商家可進行庫存管理及商家商品管理。
 		\item 實現於加密貨幣中，消費者匿名同時也讓消費者擁有消費者權益。
-		\item 藉由將商家實名，使政府主管機關可以獲得稅收的有效加密貨幣交易監督模型。
+		\item 藉由將商家實名，實時加密貨幣交易監督模型使政府主管機關可以有效獲得稅收。
 	\end{enumerate}
 
 
 \end{cabstract}
 
 \begin{eabstract}
-	Bitcoin is a cryptocurrency that integrates cybernetics, cryptography, and currency banking. In the cryptocurrency market, there are thousands of currency types that flow in the market. It is worth mentioning that Bitcoin's peer-to-peer e-cash system has not made mistakes so far. The biggest feature of Bitcoin is decentralization and anonymization, and a decentralized foundation creates a peer-to-peer flow that others cannot control. However, because of its anonymity, there are three problems: the inability to track the flow of funds, the inability to receive taxes, and the inability to protect consumer rights in the course of transactions. First, in the Bitcoin system, no one user can require everyone to implement the real name system, and it is difficult for the government authorities and related parties to trace the true holder of each fund, thereby increasing the difficulty of money-laundering prevention. Second, taxation is a source of funding for the operation of the country’s economic base. Today’s countries do not support the use of bitcoin transactions related to the cash register system or formulate relevant tax standards, making it impossible for the government to obtain tax revenues from cryptocurrency financial transactions. Third, the existing bitcoin transaction models are all transactions between anonymous and anonymous transactions, and no receipts have been issued to protect consumer rights.
+	Bitcoin is a cryptocurrency that integrates networking, cryptography, and currency banking. In the cryptocurrency market, there are thousands of different currencies that flow in the market. It is worth mentioning that Bitcoin's peer-to-peer e-cash system has not made mistakes so far. The biggest feature of Bitcoin is decentralization and anonymization, and the decentralized foundation creates a peer-to-peer currency flow that others cannot control. However, because of its anonymity, there are three issues: the inability to track the flow of funds, the inability to receive taxes, and the inability to protect consumer rights in the course of transactions. First, in the Bitcoin system, no one can require every user to realize the real name system, and it is difficult for the government authorities and related person to trace the true holder of each fund, thereby increasing the difficulty of money-laundering prevention. Second, taxation is a source of funding for the operation of the country’s economic base. Today’s countries do not support the use of Bitcoin transactions related to the cash register system or formulating relevant tax standards, so making it impossible for the government to obtain tax revenues from cryptocurrency financial transactions. Third, the existing Bitcoin transaction models are all transactions between anonymous and anonymous transactions, and no receipts have been issued to protect consumer rights.
 
-	This thesis designs and implements a real-name transaction monitoring system based on blockchain anonymous cryptocurrency. The work of the thesis includes five items. First, transaction model analysis: analyzing five transaction models and discovering anonymous payments to real-name transactions to protect consumer rights, protect consumer privacy, and enable the government to collect taxes. Second, the system design: Designed to support the cryptocurrency system architecture based on anonymous payments to real-name transactions. Third, the system is implemented: Using the Java programming language, the main system, store and merchandise information management subsystem, mobile device collection and payment subsystem, and client mobile payment and transaction subsystem are implemented. Fourth, system optimization: to solve the slow blockchain speed, the introduction of multiple signature algorithms to build a real-time monitoring system. Fifth, functional and performance tests: After the system is implemented, functional tests are performed on the system, and performance testing and analysis are performed on the original supervisory system and the real-time supervisory system.
+	This thesis designs and implements a real-time real-name transaction monitoring system based on anonymous blockchain cryptocurrency. The work of the thesis includes five parts. First, transaction model analysis: analyzing five transaction models and discovering anonymous payments to real-name transactions to protect consumer rights, protect consumer privacy, and enable government to collect taxes. Second, the system design: designing a real-time cryptocurrency transaction monitoring system architecture to support anonymous payments to real-name transactions. Third, the system is implemented: using the Java programming language and opensource Bitcoin wallet to implement the main system including store and merchandise information management subsystem, mobile device collection and payment subsystem, and client mobile payment and transaction subsystem. Fourth, system optimization: to solve the problem of slow blockchain transaction speed, the multiple signature algorithms are introduced to build a real-time transaction monitoring system. Fifth, functional and performance tests: after the system is implemented, functional tests are conducted on the implemented system, and performance testing and analysis are performed on the original supervisory system without multiple signature algorithm and the real-time supervisory system.
 
 	The contributions of this paper are as follows:
 	\begin{enumerate}
-		\item Introduce anonymous payment to real-name trading models to the cryptocurrency system.
-		\item Design and implementation of anonymous payments to cryptocurrencies to real-name transaction monitoring systems.
-		\item Import multiple signature algorithms, design and implement real-time transaction monitoring systems, and increase transaction speed.
-		\item In cryptocurrency, consumer anonymity also allows consumers to have consumer rights.
-		\item By putting the real name of the merchant, the government authorities can obtain an effective cryptocurrency transaction supervision model for taxation.
+		\item Introduce anonymous payment to real-name trading models for the transaction cryptocurrency system for cryptocurrencies.
+		\item Design and implementation of anonymous payments to real-name transaction monitoring systems.
+		\item The multiple signature algorithm is implemented on government site, the transaction speed is faster than using GreenAddress web site for proposed real-time transaction monitoring system. 
+		\item For cryptocurrency, consumer anonymity also allows consumers to have consumer rights.
+		\item By putting the real name on the merchandise store, the government authorities can obtain an effective cryptocurrency transaction supervision model for taxation.
 	\end{enumerate}
 
 
