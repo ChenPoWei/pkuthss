@@ -14,29 +14,29 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces LBC窮舉比特幣私鑰算力狀態圖\supercite {TheLargeBitcoinCollider}\relax }}{14}{figure.caption.15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 比特幣全節點分佈圖\supercite {bitcoinfullnode}\relax }}{14}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 區塊疊加示意圖\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces LBC窮舉比特幣私鑰算力狀態圖\supercite {TheLargeBitcoinCollider}\relax }}{15}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 比特幣地址生成流程圖\relax }}{20}{figure.caption.25}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 區塊疊加示意圖\relax }}{19}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Green Address錢包生成流程圖\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 比特幣地址生成流程圖\relax }}{21}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Green Address交易發起流程圖\relax }}{24}{figure.caption.29}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Green Address錢包生成流程圖\relax }}{24}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces 比特幣區塊鏈結構圖\relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Green Address交易發起流程圖\relax }}{25}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Merkle Tree示意圖\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 比特幣區塊鏈結構圖\relax }}{25}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces 比特幣全節點分佈圖\supercite {bitcoinfullnode}\relax }}{26}{figure.caption.32}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Merkle Tree示意圖\relax }}{26}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 各種交易模型示意圖\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 魚骨圖\relax }}{27}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 系統用例圖\relax }}{33}{figure.caption.40}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 各種交易模型示意圖\relax }}{28}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 魚骨圖\relax }}{35}{figure.caption.46}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 系統用例圖\relax }}{33}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 

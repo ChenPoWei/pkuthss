@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  31 MAR 2018 03:54
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  31 MAR 2018 04:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2747,61 +2747,62 @@ File: Darklaunderworkflow.png Graphic file (type QTm)
 
 ]
 第二章
-
-Underfull \vbox (badness 2726) has occurred while \output is active []
+File: bitcoinfullnode.png Graphic file (type QTm)
+<use  "bitcoinfullnode.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
 File: LBC.png Graphic file (type QTm)
 
-<use  "LBC.png" > [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-[16] [17]
+<use  "LBC.png" > [14] [15] [16] [17]
 File: 6confirm.jpg Graphic file (type QTm)
- <use  "6confirm.jpg" > [18] [19]
-File: address.jpg Graphic file (type QTm)
- <use  "address.jpg" > [20]
+ <use  "6confirm.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-[22]
+ [18]
+[19]
+File: address.jpg Graphic file (type QTm)
+ <use  "address.jpg" > [20] [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
 File: gabuild.jpg Graphic file (type QTm)
- <use  "gabuild.jpg" >
+
+<use  "gabuild.jpg" > [23]
 File: gatx.jpg Graphic file (type QTm)
- <use  "gatx.jpg" > [23]
+ <use  "gatx.jpg" > [24]
 File: blockchain.png Graphic file (type QTm)
  <use  "blockchain.png" >
-[24]
+[25]
 File: MerkleRoot.png Graphic file (type QTm)
- <use  "MerkleRoot.png" > [25]
-File: bitcoinfullnode.png Graphic file (type QTm)
- <use  "bitcoinfullnode.png" >) [26]
+ <use  "MerkleRoot.png" >) [26]
 \openout2 = `chap/chap3.aux'.
 
-
-(./chap/chap3.tex
+ (./chap/chap3.tex
 第三章
+File: fish1.png Graphic file (type QTm)
+<use  "fish1.png" >
+Overfull \hbox (5.02498pt too wide) in paragraph at lines 5--11
+[]\TU/STSong(0)/m/n/12.045 透 過 特 性 要 因 分 析 可 以 將 区 块 链 的 实 名 交 易 监 督 系 统 大 致 分 
+為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.1[]\TU/STSong(0)/m/n/12.045 所
+ []
+
 File: modeall.png Graphic file (type QTm)
 <use  "modeall.png" > [27
 
 
 
-] [28] [29] [30]
-Underfull \vbox (badness 2334) has occurred while \output is active []
+]
+Underfull \vbox (badness 4492) has occurred while \output is active []
 
- [31]
+ [28]
+[29] [30] [31]
 File: UC.jpg Graphic file (type QTm)
+ <use  "UC.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use  "UC.jpg" > [32] [33]
-File: fish1.png Graphic file (type QTm)
- <use  "fish1.png" >
-Overfull \hbox (5.02498pt too wide) in paragraph at lines 126--132
-[]\TU/STSong(0)/m/n/12.045 透 過 特 性 要 因 分 析 可 以 將 区 块 链 的 实 名 交 易 监 督 系 统 大 致 分 
-為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.3[]\TU/STSong(0)/m/n/12.045 所
- []
-
-[34]) [35]
+ [32]
+[33] [34]) [35]
 \openout2 = `chap/chap4.aux'.
 
  (./chap/chap4.tex [36
@@ -2879,7 +2880,7 @@ File: c4.jpg Graphic file (type QTm)
  <use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
  <use  "time5.jpg" >
-Underfull \vbox (badness 2626) has occurred while \output is active []
+Underfull \vbox (badness 4048) has occurred while \output is active []
 
  [58]
 [59] [60]
@@ -3031,6 +3032,10 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
 
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 90.
+
+
 Overfull \hbox (12.55984pt too wide) in paragraph at lines 90--90
 []\T1/ntxtlf/m/n/10.53937 Android De-vel-op-ers Blog. \T1/ntxtlf/m/it/10.53937 
 Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
@@ -3046,10 +3051,6 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
 [82]
-
-Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 90.
-
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3093,12 +3094,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48647 strings out of 493005
- 953159 string characters out of 6134596
- 1374264 words of memory out of 5000000
- 51849 multiletter control sequences out of 15000+600000
+ 48627 strings out of 493005
+ 951811 string characters out of 6134596
+ 1375044 words of memory out of 5000000
+ 51829 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 989420 bytes).
+Output written on thesis.xdv (101 pages, 987752 bytes).
