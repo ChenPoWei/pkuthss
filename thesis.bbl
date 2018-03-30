@@ -1462,42 +1462,35 @@
       \field{pages}{139\bibrangedash 146}
       \range{pages}{8}
     \endentry
-    \entry{tanet}{misc}{}
-      \name{author}{4}{}{%
-        {{hash=ab552a444ce8c8d3e13890b19c3f0f85}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Bo-Sian},
-           giveni={B\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=d0dd0f83c98f55326b863655fae8daa0}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Po-Wei},
-           giveni={P\bibinithyphendelim W\bibinitperiod}}}%
-        {{hash=3abdc51570dc2c2ed968911115caf650}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Chia-Hui},
-           giveni={C\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=cbdb7e7b74e91e2ce77e519bcd8e83bb}{%
-           family={Ho},
-           familyi={H\bibinitperiod},
-           given={Jan-Ming},
-           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+    \entry{tanet}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0f76c53e3661f94e9789f16256b62985}{%
+           family={江柏宪、陈伯韦、王家辉、何建明},
+           familyi={江\bibinitperiod}}}%
       }
-      \strng{namehash}{f9a1eb5117d2480edc9d03c2ce224d26}
-      \strng{fullhash}{b4b2a40066505a46d7ca35cbbf28848f}
-      \strng{authornamehash}{f9a1eb5117d2480edc9d03c2ce224d26}
-      \strng{authorfullhash}{b4b2a40066505a46d7ca35cbbf28848f}
+      \name{editor}{1}{}{%
+        {{hash=705dc88385f6cb20f8f600e92eb26eee}{%
+           family={东海大学},
+           familyi={东\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {华艺在线图书馆}%
+      }
+      \strng{namehash}{0f76c53e3661f94e9789f16256b62985}
+      \strng{fullhash}{0f76c53e3661f94e9789f16256b62985}
+      \strng{authornamehash}{0f76c53e3661f94e9789f16256b62985}
+      \strng{authorfullhash}{0f76c53e3661f94e9789f16256b62985}
+      \strng{editornamehash}{705dc88385f6cb20f8f600e92eb26eee}
+      \strng{editorfullhash}{705dc88385f6cb20f8f600e92eb26eee}
       \field{sortinit}{8}
       \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{TANET2017}
-      \field{month}{10}
-      \field{title}{The Construction and Implementation of an Effective Action Payment Monitoring Platform for Anonymous Cryptonic Currency and Real-name Merchant Transactions - Take Bitcoin as example}
+      \field{journaltitle}{TANET2017 台湾因特网研讨会}
+      \field{month}{2}
+      \field{title}{匿名加密货币与实名商家交易的有效行动支付监督平台之建置与实作-以比特币为例}
       \field{userf}{en}
-      \field{year}{2017}
+      \field{year}{2018}
     \endentry
     \entry{bitcointestnet}{webpage}{}
       \field{sortinit}{8}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  30 MAR 2018 03:03
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  31 MAR 2018 03:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2599,14 +2599,16 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
  (./chap/abstract.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 22.
+(Font)              scaled to size 12.045pt on input line 12.
  [1
 
 
 
-] [2]
+] [2
+
+]
 *************************************************
 * fontspec warning: "script-not-exist-latn"
 * 
@@ -2624,14 +2626,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 . 
 . Could not resolve font "STXihei/I" (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 24.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 14.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.84042pt on input line 24.
+(Font)              scaled to size 10.84042pt on input line 14.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2649,11 +2651,10 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <18.06749> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 16.26062pt on input line 24.
+(Font)              scaled to size 16.26062pt on input line 14.
  [3
-
 
 ]) [4]
 (./thesis.toc
@@ -2671,12 +2672,12 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 
 
 
-] [6] (./thesis.lof
+] [6
+
+] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
- [7
-
-])
+ [7])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
 
@@ -2746,69 +2747,73 @@ File: Darklaunderworkflow.png Graphic file (type QTm)
 
 ]
 第二章
-[13]
-File: LBC.png Graphic file (type QTm)
- <use  "LBC.png" > [14] [15]
-Underfull \vbox (badness 2318) has occurred while \output is active []
 
- [16]
-[17]
+Underfull \vbox (badness 2726) has occurred while \output is active []
+
+ [13]
+File: LBC.png Graphic file (type QTm)
+
+<use  "LBC.png" > [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16] [17]
 File: 6confirm.jpg Graphic file (type QTm)
- <use  "6confirm.jpg" > [18]
+ <use  "6confirm.jpg" > [18] [19]
 File: address.jpg Graphic file (type QTm)
- <use  "address.jpg" > [19] [20]
+ <use  "address.jpg" > [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
 [22]
 File: gabuild.jpg Graphic file (type QTm)
- <use  "gabuild.jpg" > [23]
+ <use  "gabuild.jpg" >
 File: gatx.jpg Graphic file (type QTm)
- <use  "gatx.jpg" > [24]
+ <use  "gatx.jpg" > [23]
 File: blockchain.png Graphic file (type QTm)
-
-<use  "blockchain.png" >
+ <use  "blockchain.png" >
+[24]
 File: MerkleRoot.png Graphic file (type QTm)
  <use  "MerkleRoot.png" > [25]
 File: bitcoinfullnode.png Graphic file (type QTm)
-
-<use  "bitcoinfullnode.png" >) [26] [27]
+ <use  "bitcoinfullnode.png" >) [26]
 \openout2 = `chap/chap3.aux'.
 
- (./chap/chap3.tex [28
 
-
-
-]
+(./chap/chap3.tex
 第三章
 File: modeall.png Graphic file (type QTm)
-<use  "modeall.png" > [29] [30] [31] [32]
+<use  "modeall.png" > [27
+
+
+
+] [28] [29] [30]
 Underfull \vbox (badness 2334) has occurred while \output is active []
 
- [33]
+ [31]
 File: UC.jpg Graphic file (type QTm)
 
-<use  "UC.jpg" >
+<use  "UC.jpg" > [32] [33]
 File: fish1.png Graphic file (type QTm)
  <use  "fish1.png" >
-Overfull \hbox (5.02498pt too wide) in paragraph at lines 94--100
+Overfull \hbox (5.02498pt too wide) in paragraph at lines 126--132
 []\TU/STSong(0)/m/n/12.045 透 過 特 性 要 因 分 析 可 以 將 区 块 链 的 实 名 交 易 监 督 系 统 大 致 分 
 為 四 個 主 題，|  如 圖[]\T1/ntxtlf/m/n/12.045 3.3[]\TU/STSong(0)/m/n/12.045 所
  []
 
-) [34] [35] [36]
+[34]) [35]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex
-第四章
-File: model0.jpg Graphic file (type QTm)
-<use  "model0.jpg" >
-File: model1.jpg Graphic file (type QTm)
- <use  "model1.jpg" > [37
+ (./chap/chap4.tex [36
 
 
 
 ]
+第四章
+File: model0.jpg Graphic file (type QTm)
+<use  "model0.jpg" >
+File: model1.jpg Graphic file (type QTm)
+ <use  "model1.jpg" > [37]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
 File: model3.jpg Graphic file (type QTm)
  <use  "model3.jpg" >
@@ -3088,12 +3093,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48666 strings out of 493005
- 954502 string characters out of 6134596
- 1376578 words of memory out of 5000000
- 51868 multiletter control sequences out of 15000+600000
+ 48647 strings out of 493005
+ 953159 string characters out of 6134596
+ 1374264 words of memory out of 5000000
+ 51849 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 967776 bytes).
+Output written on thesis.xdv (101 pages, 989420 bytes).

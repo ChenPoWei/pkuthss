@@ -2,8 +2,6 @@
 
 \chapter{相關理論與技術}
 	
-	\section{比特幣（Bitcoin）}
-
 		比特幣（Bitcoin，BTC）表\ref{IntroductiontoBitcoin}是比特幣系統的相關參數簡介，比特幣是一個點對點式的電子現金系統，集成了非對稱式金鑰密碼學（Asymmetric Key Cryptography）\supercite{AsymmetricKeyCryptography}、簽章密碼學（Signature Cryptography）\supercite{Apublickeycryptosystemandasignatureschemebasedondiscretelogarithms}、零知識證明密碼學（Zero Knowledge Proof Cryptography）\supercite{Zero-KnowledgeProofsofIdentity}、哈希函數密碼學（Hash Function Cryptography）、共識算法（Consensus Algorithm）\supercite{Anonymousbyzantineconsensusfrommoderately-hardpuzzles:Amodelforbitcoin}諸多技術建構了一個分散式、不需要仰賴中心化機構加以維護的交易帳本。在接下來的章節中將逐一進行詳盡的說明每個技術在各個環節中所扮演的角色。
 
 		\begin{table}[!htbp]
@@ -30,11 +28,10 @@
 		\end{table}
 
 
-		\section{比特幣地址（Bitcoin Address）}
+		\section{比特幣地址}
 		⽐特幣地址為⽐特幣的載體，深⼊瞭解⽐特幣的地址⽣成相關算法、⽐特幣地址⽣成過程、多重簽章，可以近⼀步應⽤在區塊鏈的實名交易監督系統。
-
-			\subsection{比特幣地址生成相關算法}
-			在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來將詳述每一個函數的運作過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
+		
+		在點對點的現金系統中，首先必須先生成一個地址，在比特幣的協議中有著既定的程序生成地址。運用到的技術包括亂數產生器、secp256k1\supercite{johnson2001elliptic}、SHA-256（哈希函數）\supercite{DBLP:conf/fse/KhovratovichRS12}、RIPEMD-160（哈希函數）\supercite{DBLP:conf/isw/MendelPRR06}、Base58\supercite{Base58}。接下來將詳述每一個函數的運作過程以及意義，最後說明比特幣交易地址生成的每一個步驟。
 			
 				\subsubsection{（一）亂數產生器（Random number generator）}
 				亂數在密碼學中是個相當重要的一環，在比特幣系統中更是重要，畢竟生成的亂數會變成比特幣的私鑰，私鑰是簽署資產轉移的唯一方式，在比特幣地址中的亂數產生器會產出一個256 bits長度的亂數，也就是私鑰，256 bits的長度可以表現的組態空間為$2^{256}$，換算成十進位表示為$1.1579209x10^{77}$，要在這組態空間中，以亂數產生同樣的一把私鑰是一件困難的事，但也有國際的實驗室\supercite{TheLargeBitcoinCollider}團隊正在努力的窮舉比特幣$2^{256}$的組態空間，如圖\ref{LBC}所示，根據LBC公佈的數據顯示，目前已經完成了$2.330109x10^{16}$個地址探索。雖然$10^{16}$的級別與$10^{77}$的級別相距甚遠，但LBC已探索的組態空間中擊中了15個比特幣地址，該團隊也成功將這15 個地址下的1.180899個比特幣轉走。
@@ -196,7 +193,6 @@
 					\end{tabular}
 					\end{table}
 	%
-			\subsection{比特幣地址生成過程}
 			於上述章節中已經詳細說明比特幣在地址生成的過程中，使用到的所有的相關算法技術以及算法在現今的比特幣系統中存在的問題，於本節中將闡述如何將比特幣地址生相關算法帶入比特幣地址生成的過程中，地址生成的總共分為八個步驟，分別為生成私鑰、生成公鑰、生成公鑰SHA-256、生成公鑰SHA-256的RIPEMD-160、取得版本號、校驗碼生成、版本號、公鑰SHA-256的RIPEMD-160和校驗碼合併，最後一步則是將合併的結果以Base58編碼創建出一個比特幣地址。
 
 			\begin{figure}[!htbp]
@@ -259,13 +255,10 @@
 					\item 將該筆交易封包廣播至比特幣網絡。
 				\end{enumerate}
 
-		\section{區塊鏈（Blockchain）}
+		\section{區塊鏈}
 		%區塊頭所有的結構
-		自2009年以來，加密貨幣比特幣的誕生引發了新的貨幣革命浪潮，基於密碼學，點對點網絡，共識算法和區塊鏈技術，它們被結合成比特幣等加密貨幣。到目前為止，它在九年內發生大量的襲擊和欺詐事件後仍然在積極努力。 比特幣一直是互聯網上最具代表性的加密貨幣，同時是區塊鏈技術最重要的應用之一，以下我們將描述區塊鏈技術的一些細節。
-
-			%%%%%%\subsection{本區塊大小的值 }
-			\subsection{區塊頭（Block Header）}
-			比特幣區塊鏈可視為一種專門存儲交易信息的數據庫，該數據庫的結構嚴謹。區塊鏈之所以稱職為鍊是因為由許多區塊構成，區塊頭存在於區塊中記錄區塊中的重要信息共六項，分別為區塊版本、前區塊的哈希值、Merkle Root、難易度、時間戳以及Nonce，以下將逐一說明：
+		自2009年以來，加密貨幣比特幣的誕生引發了新的貨幣革命浪潮，基於密碼學，點對點網絡，共識算法和區塊鏈技術，它們被結合成比特幣等加密貨幣。到目前為止，它在九年內發生大量的襲擊和欺詐事件後仍然在積極努力。 比特幣一直是互聯網上最具代表性的加密貨幣，同時是區塊鏈技術最重要的應用之一。
+		比特幣區塊鏈可視為一種專門存儲交易信息的數據庫，該數據庫的結構嚴謹。區塊鏈之所以稱職為鍊是因為由許多區塊構成，區塊頭存在於區塊中記錄區塊中的重要信息共六項，分別為區塊版本、前區塊的哈希值、Merkle Root、難易度、時間戳以及Nonce，以下將逐一說明：
 
 			\begin{figure}[!htbp]
 				\centering
@@ -298,7 +291,7 @@
 			%	\subsubsection{交易信息}
 
 		%\section{工作量證明（Proof of Work）}
-		\section{點對點網絡與加密貨幣安全}
+		\section{點對點網絡}
 
 		去中⼼化的加密貨幣系統給社會和傳統中⼼化的⾦融體系，以及政府帶來了很重⼤的衝擊，Satoshi Nakamoto建構了一個不需要中央銀行發行貨幣的貨幣系統，在比特幣的貨幣發行上全靠區塊鏈既定的算法。除了貨幣發行，也將交易記錄的帳本以明文的方式存儲在去中心化的區塊鏈中，以比特幣為例，現今完整的比特幣區塊鏈帳本已經高達180GB，這樣保存完整交易數據的計算機稱之為全節點，在比特幣去中心化的網絡中，如圖\ref{bitcoinfullnode}所示，截至2018年1月25比特幣網絡中全節點數量為10552個\supercite{bitcoinfullnode}，全節點的數量決定了比特幣帳本的可靠度，倘若有著更多的全節點，會使得比特幣網絡堅不可摧，更難去修改歷史發生過的交易數據。
 
