@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 02:29
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 02:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2794,7 +2794,7 @@ File: fish1.png Graphic file (type QTm)
 <use  "fish1.png" >
 File: modeall.png Graphic file (type QTm)
  <use  "modeall.png" >
-Underfull \vbox (badness 1874) has occurred while \output is active []
+Underfull \vbox (badness 2253) has occurred while \output is active []
 
  [27
 
