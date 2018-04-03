@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 02:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 04:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2961,7 +2961,7 @@ Underfull \vbox (badness 1460) has occurred while \output is active []
 
 ]
 第七章
-[81]) [82]
+) [81] [82]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3115,10 +3115,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48641 strings out of 493005
  952648 string characters out of 6134596
- 1373516 words of memory out of 5000000
+ 1373533 words of memory out of 5000000
  51843 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 996852 bytes).
+Output written on thesis.xdv (103 pages, 993512 bytes).
