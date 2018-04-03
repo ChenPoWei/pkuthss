@@ -24,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Green Address錢包生成流程圖\relax }}{24}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Green Address交易發起流程圖\relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Green Address交易發起流程圖\relax }}{24}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces 比特幣區塊鏈結構圖\relax }}{25}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
@@ -32,7 +32,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 魚骨圖\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 特性要因分析图\relax }}{27}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 各種交易模型示意圖\relax }}{28}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
@@ -40,23 +40,23 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BRTMS系統功能模塊圖\relax }}{37}{figure.caption.47}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BTMS系統功能模塊圖\relax }}{37}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 商家端建置與管理商品資訊子系統功能模塊圖\relax }}{38}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 商家端行動收銀與交易明細系統功能模塊圖\relax }}{39}{figure.caption.49}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 商家端行動收銀與交易明細系統功能模塊圖\relax }}{38}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 顧客端行動支付與交易明細系統功能模塊圖\relax }}{39}{figure.caption.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces BRTMS和商家註冊流程架構圖\relax }}{40}{figure.caption.51}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces BTMS和商家註冊流程架構圖\relax }}{40}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces BRTMS的整體架構與功能示意圖\relax }}{41}{figure.caption.52}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces BTMS的整體架構與功能示意圖\relax }}{41}{figure.caption.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 基於Government Green Address的實時BRTMS整體示意圖\relax }}{43}{figure.caption.53}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 基於Government Green Address的BRTMS整體示意圖\relax }}{43}{figure.caption.53}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces BRTMS數據庫實體關係圖\relax }}{46}{figure.caption.54}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces BTMS數據庫實體關係圖\relax }}{45}{figure.caption.54}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces 用戶註冊與登入模塊類圖\relax }}{48}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
@@ -74,7 +74,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.9}{\ignorespaces 商家交易管理時序圖\relax }}{56}{figure.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 商家Government Green Address交易管理模塊類圖\relax }}{58}{figure.caption.73}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 商家Government Green Address交易管理模塊類圖\relax }}{57}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.11}{\ignorespaces 顧客交易管理模塊類圖\relax }}{59}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
@@ -94,7 +94,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.1}{\ignorespaces 集成子系統測試\relax }}{67}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces BRTMS使用者用例圖\relax }}{67}{figure.caption.85}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces BTMS使用者用例圖\relax }}{67}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.3}{\ignorespaces 验收测试（Acceptance Testing）\relax }}{68}{figure.caption.86}
 \defcounter {refsection}{0}\relax 

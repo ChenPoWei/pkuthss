@@ -2,7 +2,7 @@
 \chapter{系統測試}
 於本章將進行功能測試與性能測試，執行功能測試已確認本文所提出之系統的所有功能是否皆順利運行，透過性能測試可知本系統的交易速度在優化前與優化後之間的差異。
 	\section{功能測試}
-	 	本段主要是描述區塊鏈的實名交易監督系統的測試計畫。確認在系統集成前，必須先確認所有的設計元件均可正確的輸出，在此我們著重於集成系統測試 (Integration Test) 及验收测试 (Acceptance Test)。本章節內容將依據系統需求規格書與系統設計，描述關於集成測試的相關計畫與內容。並希望透過此章節之描述與實踐，達到順利進行測試工作之目的。
+	 	本段主要是描述比特幣的交易監督系統的測試計畫。確認在系統集成前，必須先確認所有的設計元件均可正確的輸出，在此著重於集成系統測試 (Integration Test) 及验收测试 (Acceptance Test)。本章節內容將依據系統需求規格書與系統設計，描述關於集成測試的相關計畫與內容。並希望透過此章節之描述與實踐，達到順利進行測試工作之目的。
 	 		\begin{enumerate}
 	 			
 	 			\item 接受標準：本測試計畫需要滿足下列的測試接受準則： 
@@ -22,7 +22,7 @@
 						\item 周邊設備：一台以上智慧型手機，與用來代表虛擬商品的數個RFID標籤；已可供測試NFC用的智慧型手機包含小米3 WCDMA版，詳細規格於表\ref{mi}，Google Nexus 5X，詳細規格於表\ref{5x}。
 					
 					\end{enumerate}
-					\item 軟件規格：關於測試環境所需的軟體規格說明，如下列所示：作業系統：Window 10、Android 6.0.1/7.1.1
+					\item 軟件規格：關於測試環境所需的軟體規格說明，如下列所示：作業系統：Windows 10、Android 6.0.1/7.1.1
 
 				\end{enumerate}
 				\item 測試地點：在銘傳大學桃園校區資工系實驗室，透過Android手機進行的交易模擬實驗，測試環境如圖\ref{fig4}的示意。
@@ -72,16 +72,16 @@
 
 	 			\begin{enumerate}
 	 				\item 各子系統之內部元件集成測試 (Module Test)(2017/2/25~2017/6/8)
-	 				\item 區塊鏈的實名交易監督系統集成測試 (Integration Test) (2017/6/8~2017/6/21)
-	 				\item 區塊鏈的實名交易監督系統接受度測試 (Acceptance Test) (2017/7/10~2017/7/21)
+	 				\item 比特幣的交易監督系統集成測試 (Integration Test) (2017/6/8~2017/6/21)
+	 				\item 比特幣的交易監督系統接受度測試 (Acceptance Test) (2017/7/10~2017/7/21)
 				\end{enumerate}
 
 			\item 查核點：
 
 				\begin{enumerate}
 	 				\item 各子系統之內部元件集成測試 (2017/5/10)
-	 				\item 區塊鏈的實名交易監督系統集成測試 (2017/7/1)
-	 				\item 區塊鏈的實名交易監督系統接受度測試 (2017/7/1)
+	 				\item 比特幣的交易監督系統集成測試 (2017/7/1)
+	 				\item 比特幣的交易監督系統接受度測試 (2017/7/1)
 	 			\end{enumerate}
 
 	 		\item 集成测试規劃（Integration Testing）：
@@ -91,15 +91,15 @@
 					\caption{集成子系統測試}\label{IntegrationTesting}
 				\end{figure}
 			\item 验收测试規劃（Acceptance Testing，AT）：
-				本系統須達成以下三組接受用例陳列的所有功能，測試本論文搭設計與搭建的系統功能是否能夠順利運行。測試的角色有兩個，分別為管理員以及使用者，如圖\ref{usecasediagram}為BRTMS用例示意圖，預計測試服務器的組態設定、手機的組態設定以及數據庫的組態設定：
+				本系統須達成以下三組接受用例陳列的所有功能，測試本論文搭設計與搭建的系統功能是否能夠順利運行。測試的角色有兩個，分別為管理員以及使用者，如圖\ref{usecasediagram}為BTMS用例示意圖，預計測試服務器的組態設定、手機的組態設定以及數據庫的組態設定：
 
 					\begin{figure}[!htbp]
 						\centering
-						\includegraphics[width = 0.5\textwidth]{usecasediagram.jpg}
-						\caption{BRTMS使用者用例圖}\label{usecasediagram}
+						\includegraphics[width = 0.4\textwidth]{usecasediagram.jpg}
+						\caption{BTMS使用者用例圖}\label{usecasediagram}
 					\end{figure}
 
-				圖\ref{AcceptanceTesting}為三組验收测试的示意圖，對本區塊鏈的實名交易監督系統進行測試。
+				圖\ref{AcceptanceTesting}為三組验收测试的示意圖，對本比特幣的交易監督系統進行測試。
 					\begin{figure}[!htbp]
 						\centering
 						\includegraphics[width = 0.3\textwidth]{AcceptanceTesting.png}
@@ -124,8 +124,8 @@
 					\begin{tabular}{|l|l|}
 					\hline
 					用例ID & IT1 \\ \hline
-					用例名稱 & 集成SMIMSS至BRTMS \\ \hline
-					測試目標 & {[}SMIMSS 1.1.0{]}、{[}BRTMS 1.0.0{]} \\ \hline
+					用例名稱 & 集成SMIMSS至BTMS \\ \hline
+					測試目標 & {[}SMIMSS 1.1.0{]}、{[}BTMS 1.0.0{]} \\ \hline
 					依賴關係 & SMIMSS-F-001$\sim$ SMIMSS-F-005 \\ \hline
 					嚴重程度 & 1(Critical) \\ \hline
 					\multirow{5}{*}{用例描述} & 1.     能夠新增店家帳戶 \\ \cline{2-2} 
@@ -153,8 +153,8 @@
 						\begin{tabular}{|l|l|}
 						\hline
 						用例ID & IT2 \\ \hline
-						用例名稱 & 集成SMCTSS至BRTMS \\ \hline
-						測試目標 & {[}SMCTSS1.2.0{]}、{[}BRTMS 1.0.0{]} \\ \hline
+						用例名稱 & 集成SMCTSS至BTMS \\ \hline
+						測試目標 & {[}SMCTSS1.2.0{]}、{[}BTMS 1.0.0{]} \\ \hline
 						依賴關係 & SMCTSS-F-001$\sim$ SMCTSS-F-007 \\ \hline
 						嚴重程度 & 1(Critical) \\ \hline
 						\multirow{7}{*}{用例描述} & 1.     能夠登入店員帳戶 \\ \cline{2-2} 
@@ -185,8 +185,8 @@
 						\begin{tabular}{|l|l|}
 						\hline
 						用例ID & IT3 \\ \hline
-						用例名稱 & 集成CMPTSS至BRTMS \\ \hline
-						測試目標 & {[}CMPTSS.1.3.0{]}、{[}BRTMS 1.0.0{]} \\ \hline
+						用例名稱 & 集成CMPTSS至BTMS \\ \hline
+						測試目標 & {[}CMPTSS.1.3.0{]}、{[}BTMS 1.0.0{]} \\ \hline
 						依賴關係 & CMPTSS-F-001$\sim$ CMPTSS-F-007 \\ \hline
 						嚴重程度 & 1(Critical) \\ \hline
 						\multirow{7}{*}{用例描述} & 1.     能夠登入客戶帳號 \\ \cline{2-2} 
@@ -209,11 +209,11 @@
 				\end{enumerate}
 
 		\item 验收测试用例（Acceptance Testing Cases）：
-			验收测试用例目的在於測試母系統BRTMS、子系統SMIMSS、SMCTSS與CMPTSS是否能夠順利的進行信息傳遞完成交互。
+			验收测试用例目的在於測試母系統BTMS、子系統SMIMSS、SMCTSS與CMPTSS是否能夠順利的進行信息傳遞完成交互。
 
 			\begin{enumerate}
 				\item AT1 测试用例：
-					表\ref{AT1TestCase}所示，目標測試管理人員是否能夠順利使用子系統SMIMSS順利與母系統BRTMS教戶。目的：驗證使用用例（Use case）1，透過組態檔案的修改對伺服器進行組態設定。
+					表\ref{AT1TestCase}所示，目標測試管理人員是否能夠順利使用子系統SMIMSS順利與母系統BTMS交互。目的：驗證使用用例（Use case）1，透過組態檔案的修改對伺服器進行組態設定。
 
 						\begin{table}[!htbp]
 						\centering
@@ -223,8 +223,8 @@
 						\hline
 						用例ID & \multicolumn{2}{l|}{AT1} \\ \hline
 						用例名稱 & \multicolumn{2}{l|}{伺服器的組態設定} \\ \hline
-						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}BRTMS 1.0.0{]}\end{tabular}} \\ \hline
-						依賴關係 & \multicolumn{2}{l|}{BRTMS-F-001} \\ \hline
+						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}BTMS 1.0.0{]}\end{tabular}} \\ \hline
+						依賴關係 & \multicolumn{2}{l|}{BTMS-F-001} \\ \hline
 						嚴重程度 & \multicolumn{2}{l|}{1} \\ \hline
 						\multirow{3}{*}{用例描述} & 使用者操作 & 系統響應 \\ \cline{2-3} 
 						 & \begin{tabular}[c]{@{}l@{}}1.管理人員依照環境\\    設定伺服器組態。\end{tabular} &  \\ \cline{2-3} 
@@ -245,7 +245,7 @@
 						用例ID & \multicolumn{2}{l|}{AT2} \\ \hline
 						用例名稱 & \multicolumn{2}{l|}{手機的組態設定} \\ \hline
 						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
-						依賴關係 & \multicolumn{2}{l|}{BRTMS-F-002$\sim$ BRTMS-F-003} \\ \hline
+						依賴關係 & \multicolumn{2}{l|}{BTMS-F-002$\sim$ BTMS-F-003} \\ \hline
 						嚴重程度 & \multicolumn{2}{l|}{1} \\ \hline
 						\multirow{3}{*}{用例描述} & 使用者操作 & 系統響應 \\ \cline{2-3} 
 						 & \begin{tabular}[c]{@{}l@{}}1.使用者修改手機組\\    態設定參數。\end{tabular} &  \\ \cline{2-3} 
@@ -267,7 +267,7 @@
 						用例ID & \multicolumn{2}{l|}{AT3} \\ \hline
 						用例名稱 & \multicolumn{2}{l|}{資料庫的組態設定} \\ \hline
 						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
-						依賴關係 & \multicolumn{2}{l|}{BRTMS-F-001$\sim$ BRTMS-F-003} \\ \hline
+						依賴關係 & \multicolumn{2}{l|}{BTMS-F-001$\sim$ BTMS-F-003} \\ \hline
 						嚴重程度 & \multicolumn{2}{l|}{1} \\ \hline
 						\multirow{5}{*}{用例描述} & 使用者操作 & 系統響應 \\ \cline{2-3} 
 						 & \begin{tabular}[c]{@{}l@{}}1.管理者設定資料庫\\    組態。\end{tabular} &  \\ \cline{2-3} 
@@ -313,7 +313,7 @@
 				 &  & 5. 成功執行行動支付 \\ \cline{3-3} 
 				 &  & 6.成功儲存交易紀錄 \\ \cline{3-3} 
 				 &  & 7.成功查看交易紀錄 \\ \hline
-				RATE & 90\% & \begin{tabular}[c]{@{}l@{}}BRTMS開發透過手機讓商家及顧客\\ 以手機傳送交易資訊，如：商品\\ 名稱、商品金額，商家收款地址。\\ 並且及時將商品資訊更新至伺服器\\ 之資料庫，以便商家控管商品資訊\\ 狀態，同時讓顧客可以享受數位加\\ 密貨幣的方便性。\end{tabular} \\ \hline
+				RATE & 90\% & \begin{tabular}[c]{@{}l@{}}BTMS開發透過手機讓商家及顧客\\ 以手機傳送交易資訊，如：商品\\ 名稱、商品金額，商家收款地址。\\ 並且及時將商品資訊更新至伺服器\\ 之資料庫，以便商家控管商品資訊\\ 狀態，同時讓顧客可以享受數位加\\ 密貨幣的方便性。\end{tabular} \\ \hline
 				\end{tabular}
 				\end{table}
 
@@ -329,7 +329,7 @@
 				AT1 & 通過 & 成功啟動伺服器的相關服務。 \\ \hline
 				AT2 & 通過 & 成功完成手機的組態設定。 \\ \hline
 				AT3 & 通過 & 成功設定完成資料庫的相關設定。 \\ \hline
-				Rate & 100\% & \begin{tabular}[c]{@{}l@{}}BRTMS可透過組態設定的方式來設\\ 定各個子系統的環境參數。\end{tabular} \\ \hline
+				Rate & 100\% & \begin{tabular}[c]{@{}l@{}}BTMS可透過組態設定的方式來設\\ 定各個子系統的環境參數。\end{tabular} \\ \hline
 				\end{tabular}
 				\end{table}
 						\begin{table}[!htbp]
@@ -355,9 +355,9 @@
 					\begin{tabular}{|l|c|c|c|}
 					\hline
 					 & \multicolumn{1}{l|}{IT1} & \multicolumn{1}{l|}{IT2} & \multicolumn{1}{l|}{IT3} \\ \hline
-					BRTMS-F-001 & X &  &  \\ \hline
-					BRTMS-F-002 &  & X &  \\ \hline
-					BRTMS-F-003 &  &  & X \\ \hline
+					BTMS-F-001 & X &  &  \\ \hline
+					BTMS-F-002 &  & X &  \\ \hline
+					BTMS-F-003 &  &  & X \\ \hline
 					SMIMSS-F-001 & X &  &  \\ \hline
 					SMIMSS-F-002 & X &  &  \\ \hline
 					SMIMSS-F-003 & X &  &  \\ \hline
@@ -388,9 +388,9 @@
 					\begin{tabular}{|l|c|c|c|}
 					\hline
 					 & \multicolumn{1}{l|}{AT1} & \multicolumn{1}{l|}{AT2} & \multicolumn{1}{l|}{AT3} \\ \hline
-					BRTMS-F-001 & X &  & X \\ \hline
-					BRTMS-F-002 &  & X & X \\ \hline
-					BRTMS-F-003 &  & X & X \\ \hline
+					BTMS-F-001 & X &  & X \\ \hline
+					BTMS-F-002 &  & X & X \\ \hline
+					BTMS-F-003 &  & X & X \\ \hline
 					\end{tabular}
 					\end{table}
 
@@ -421,17 +421,17 @@
 		\end{figure}
 
 
-		根據比特幣點對點架構，儘管客戶和商家之間的交易細節已經快速存儲到雲數據庫，但官方確認交易與當前比特幣區塊鏈的交易通常需要更長的時間，因為需要確保確認的數量在交易廣播比特幣點對點網絡並存儲到緩存池後，是否存在雙重支付。本文設計了区块链的实名交易监督系统以及引用多重簽章算法重新設計的区块链的实名交易實時监督系统，以下將分別針對有無採用多重簽章算法的性能測試。
+		根據比特幣點對點架構，儘管客戶和商家之間的交易細節已經快速存儲到雲數據庫，但官方確認交易與當前比特幣區塊鏈的交易通常需要更長的時間，因為需要確保確認的數量在交易廣播比特幣點對點網絡並存儲到緩存池後，是否存在雙重支付。本文設計了比特幣的交易监督系统以及引用多重簽章算法重新設計的比特幣的實時交易监督系统，以下將分別針對有無採用多重簽章算法的性能測試。
 
 
 		\subsection{系统性能測試}
-		為了驗證本文提出的BRTMS不會通過使用比特幣等加密貨幣影響交易完成時間，我們於2017年7月25日、2017年9月6日以及2018年3月21日，在Testnet實驗中連續記錄了20筆交易信息，每1秒發出一筆交易，分別歷時20分鐘。
+		為了驗證本文提出的BTMS不會通過使用比特幣等加密貨幣影響交易完成時間，於2017年7月25日、2017年9月6日以及2018年3月21日，在Testnet實驗中連續記錄了20筆交易信息，每1秒發出一筆交易，分別歷時20分鐘。
 
 		\begin{enumerate}
 			\item 初始測試（2017年7月25日）：
-			首先，我們使用區塊鏈檢視器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的快照所示，透過使用Testnet依序進行20筆比特幣交易，如圖\ref{fig9}的中間快照所示，最後20筆交易完成時間全部記錄在區塊鏈檢視器。實驗結果顯示，實驗中的所有交易都在3秒鐘左右（平均2.97秒，標準差小於1秒）發送到比特幣網絡緩存池，平均交易完成時間在比特幣區塊鏈中確認為522.33秒（小於9分鐘），標準差大約為339秒。
+			首先，使用區塊鏈檢視器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的快照所示，透過使用Testnet依序進行20筆比特幣交易，如圖\ref{fig9}的中間快照所示，最後20筆交易完成時間全部記錄在區塊鏈檢視器。實驗結果顯示，實驗中的所有交易都在3秒鐘左右（平均2.97秒，標準差小於1秒）發送到比特幣網絡緩存池，平均交易完成時間在比特幣區塊鏈中確認為522.33秒（小於9分鐘），標準差大約為339秒。
 
-			\item 第一次測試（2017年9月6日）：表\ref{1general}為第一次實驗數據，該次的比特幣交易法起廣播至比特幣交易緩存持的時間平均為1.918秒，標準差為0.55586秒。但為了預防雙花攻擊需要等待平均654.8秒（小於11分鐘，標準差346.63秒）的時間。
+			\item 第一次測試（2017年9月6日）：表\ref{1general}為第一次實驗數據，該次的比特幣交易發起廣播至比特幣交易緩存持的時間平均為1.918秒，標準差為0.55586秒。但為了預防雙重支付攻擊需要等待平均654.8秒（小於11分鐘，標準差346.63秒）的時間。
 
 				\begin{table}[!htbp]
 				\centering
@@ -447,7 +447,7 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第二次測試（2018年3月21日）：表\ref{2general}為第二次測試的實驗原始數據，表\ref{2general-1}為將數據進行分析後的結過可以看出，平均進入緩存持的時間為1.12秒，進入區塊鏈的時間為287.12秒，因為並未採用多重簽章算法，所以交易完成時間以287.12秒計算。
+			\item 第二次測試（2018年3月21日）：表\ref{2general}為第二次測試的實驗原始數據，表\ref{2general-1}為將數據進行分析後的結果可以看出，平均進入緩存持的時間為1.12秒，進入區塊鏈的時間為287.12秒，因為並未採用多重簽章算法，所以交易完成時間以287.12秒計算。
 				\begin{table}[!htbp]
 				\centering
 				\caption{第二次Testnet 執行實驗數據(2018年3月21日)}
@@ -495,16 +495,16 @@
 
 		\end{enumerate}
 
-			在未引用多重簽章算法的監督系統中，第一次與第二次的測試相比並無太大的差異，交易完成時間與比特幣區塊生成所需時間相同，平均時間皆為十分鐘。根據比特幣Testnet上的初步實驗結果顯示，本文提出的BRTMS可以快速有效地執行区块链的实名交易监督系统。
+			在未引用多重簽章算法的監督系統中，第一次與第二次的測試相比並無太大的差異，交易完成時間與比特幣區塊生成所需時間相同，平均時間皆為十分鐘。根據比特幣Testnet上的初步實驗結果顯示，本文提出的BTMS可以快速有效地執行比特幣的交易监督系统。
 
 			%
 
 		\subsection{實時系统性能測試}
-		本主要介紹比特幣測試幣於Green Address錢包進行交易的效能實驗與結果分析，包含該實驗的目的、方法及結果分析。實驗的目的是要確認我們的系統在商家端進行行動支付時能快速、精準且高效率的進行交易，並瞭解使用一般Testnet錢包與Green Address錢包作為交易媒介的確認交易時間的差距。表\ref{0test}為2017年7月25日初步的採用多重簽章算法的測試數據，數據顯示交易存儲到區塊鏈的平均時間為10分鐘，但Green Address採用的多重簽章算法，可以有效拒絕雙重花費的交易發起，因此可將交易的有效時間，從交易進入區塊鏈的時間，重新訂定為交易進入比特幣交易緩存持的時間。
+		本主要介紹比特幣測試幣於Government Green Address錢包進行交易的效能實驗與結果分析，包含該實驗的目的、方法及結果分析。實驗的目的是要確認的系統在商家端進行行動支付時能快速、精準且高效率的進行交易，並瞭解使用一般Testnet錢包與Government Green Address錢包作為交易媒介的確認交易時間的差距。表\ref{0test}為2017年7月25日初步的採用多重簽章算法的測試數據，數據顯示交易存儲到區塊鏈的平均時間為10分鐘，但Government Green Address採用的多重簽章算法，可以有效拒絕雙重花費的交易發起，因此可將交易的有效時間，從交易進入區塊鏈的時間，重新訂定為交易進入比特幣交易緩存持的時間。
 
 		\begin{table}[!htbp]
 			\centering
-			\caption{初步的Green Address實驗測試數據 (2017年7月25日)}
+			\caption{初步的Government Green Address實驗測試數據 (2017年7月25日)}
 			\label{0test}
 			\begin{tabular}{|l|l|l|l|l|}
 			\hline
@@ -529,14 +529,14 @@
 			\end{table}
 
 
-		本次的實驗分為兩部份，分別是透過比特幣 Testnet錢包以及使用本論文所採用的Green Address比特幣錢包上執行20次付款，皆以相同地址收款，交易金額都設定為0.00001BTC，實驗時間為2017年9月6日與2018年2月6日，每隔一分鐘執行一次付款的動作，總共歷時20分鐘。兩款錢包同時發起交易，並透過區塊鏈檢視器進行記錄時間，最後再比較使用一般比特幣錢包及Green Address錢包兩者之間的差距。
+		本次的實驗分為兩部份，分別是透過比特幣 Testnet錢包以及使用本論文所採用的Government Green Address比特幣錢包上執行20次付款，皆以相同地址收款，交易金額都設定為0.00001BTC，實驗時間為2017年9月6日與2018年2月6日，每隔一分鐘執行一次付款的動作，總共歷時20分鐘。兩款錢包同時發起交易，並透過區塊鏈檢視器進行記錄時間，最後再比較使用一般比特幣錢包及Government Green Address錢包兩者之間的差距。
 
 		\begin{enumerate}
-			\item 第一次測試（2017年9月6日）：表\ref{1green}為第一次測試實驗的數據分析結果，平均進入交易緩存池的時間為2.11秒，真正寫入區塊鏈的時間為654.24秒，採用多重簽章算法，這些交易不存在雙重支付的問題，因此完成時間既為2.11秒。
+			\item 第一次測試（2017年9月6日）：表\ref{1green}為第一次測試實驗的數據分析結果，平均進入交易緩存池的時間為2.11秒，真正寫入區塊鏈的時間為654.24秒，採用多重簽章算法，這些交易不存在雙重支付的問題，因此完成時間記為2.11秒。
 
 			\begin{table}[!htbp]
 				\centering
-				\caption{第一次以GreenAddress執行實驗之數據分析(2017年9月6日)}
+				\caption{第一次以Government Green Address執行實驗之數據分析(2017年9月6日)}
 				\label{1green}
 				\begin{tabular}{|l|l|l|l|}
 				\hline
@@ -548,12 +548,12 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第二次測試（2018年3月21日）：表\ref{2green}為第二次次是的原始數據，表\ref{2green-1}為基於第二次測試的數據分析結果，進入緩存持的平均時間為1.55秒，進入區塊鏈的平均時間為431.4秒，因為採用多重簽章算法將完成交易時間以1.55秒計算。
+			\item 第二次測試（2018年3月21日）：表\ref{2green}為第二次以Government Green Address執行實驗數據，表\ref{2green-1}為基於第二次測試的數據分析結果，進入緩存池的平均時間為1.55秒，進入區塊鏈的平均時間為431.4秒，因為採用多重簽章算法將完成交易時間以1.55秒計算。
 
 		\end{enumerate}
 			\begin{table}[!htbp]
 				\centering
-				\caption{第二次以GreenAddress執行實驗之數據(2018年3月21日)}
+				\caption{第二次以Government Green Address執行實驗數據(2018年3月21日)}
 				\label{2green}
 				\begin{tabular}{|c|c|c|c|c|c|}
 				\hline
@@ -583,7 +583,7 @@
 
 			\begin{table}[!htbp]
 				\centering
-				\caption{第二次以GreenAddress執行實驗之數據分析(2018年3月21日)}
+				\caption{第二次以Government Green Address執行實驗之數據分析(2018年3月21日)}
 				\label{2green-1}
 				\begin{tabular}{|l|l|l|l|}
 				\hline
@@ -608,7 +608,7 @@
 
 %				\end{figure}
 
-	本次實驗分別記錄以Testnet錢包及Green Address錢包執行20次交易的進入緩存池等待時間和寫入區塊等待時間。若以Testnet錢包交易，必須等到交易寫入才能保證此筆交易不會被礦工遺棄，也才算真的完成這筆交易；但若以Green Address錢包發起交易就大不相同，當交易進入緩存池，即使遇到交易被礦工遺棄的情況，Green Address機構節點也會重新發起此筆交易，保證讓交易寫入區塊，所以只要進入緩存池我們就可以視為交易完成，透過兩者錢包的交易數據，本文分析兩種錢包交易的時間數據。
+	本次實驗分別記錄以Testnet錢包及Government Green Address錢包執行20次交易的進入緩存池等待時間和寫入區塊等待時間。若以Testnet錢包交易，必須等到交易寫入才能保證此筆交易不會被礦工遺棄，也才算真的完成這筆交易；但若以Government Green Address錢包發起交易就大不相同，當交易進入緩存池，即使遇到交易被礦工遺棄的情況，Government Green Address機構節點也會重新發起此筆交易，保證讓交易寫入區塊，所以只要進入緩存池就可以視為交易完成，透過兩者錢包的交易數據，本文分析兩種錢包交易的時間數據。
 
 	\begin{table}[!htbp]
 	\centering
@@ -622,7 +622,7 @@
 	\end{tabular}
 	\end{table}
 
-	透過本次的實驗可以發現雖然以兩種錢包交易進入區塊的等待時間完全相同，但因為Green Address錢包的特性，只要進入緩存池就算完成交易確認，因此Green Address錢包的完成交易確認的時間遠遠快於一般Testnet。相信以此⽅式作為主要⽀付管道，可以省去消費者在現金⽀付時掏零錢、算錢及找零等繁瑣的動作及時間，以此達成提升⽇常⽣活中的便利性與安全性。
+	透過本次的實驗可以發現雖然以兩種錢包交易進入區塊的等待時間完全相同，但因為Government Green Address錢包的特性，只要進入緩存池就算完成交易確認，因此Government Green Address錢包的完成交易確認的時間遠遠快於一般Testnet。相信以此⽅式作為主要⽀付管道，可以省去顧客在現金⽀付時掏零錢、算錢及找零等繁瑣的動作及時間，以此達成提升⽇常⽣活中的便利性與安全性。
 
 
 
