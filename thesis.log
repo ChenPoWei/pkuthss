@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 04:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 05:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2961,7 +2961,10 @@ Underfull \vbox (badness 1460) has occurred while \output is active []
 
 ]
 第七章
-) [81] [82]
+) [81] [82
+
+
+]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3030,10 +3033,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[83
-
-
-]
+[83]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3121,4 +3121,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 993512 bytes).
+Output written on thesis.xdv (103 pages, 983228 bytes).
