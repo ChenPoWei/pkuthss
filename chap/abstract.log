@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  23 MAR 2018 18:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  5 APR 2018 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -26,17 +26,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ^^I比
-          特幣是一個集成網絡學、密碼學、貨幣銀行學的加...
+l.5 ^^I⽐
+          特幣是⼀個集成網絡學、密碼學、貨幣銀⾏學並以...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 是 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no ⼀ in font nullfont!
 Missing character: There is no 個 in font nullfont!
 Missing character: There is no 集 in font nullfont!
 Missing character: There is no 成 in font nullfont!
@@ -51,115 +51,77 @@ Missing character: There is no 、 in font nullfont!
 Missing character: There is no 貨 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 銀 in font nullfont!
-Missing character: There is no 行 in font nullfont!
+Missing character: There is no ⾏ in font nullfont!
 Missing character: There is no 學 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 市 in font nullfont!
-Missing character: There is no 場 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 數 in font nullfont!
+Missing character: There is no 並 in font nullfont!
 Missing character: There is no 以 in font nullfont!
-Missing character: There is no 千 in font nullfont!
-Missing character: There is no 計 in font nullfont!
+Missing character: There is no 區 in font nullfont!
+Missing character: There is no 塊 in font nullfont!
+Missing character: There is no 鏈 in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 基 in font nullfont!
+Missing character: There is no 礎 in font nullfont!
 Missing character: There is no 的 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 密 in font nullfont!
 Missing character: There is no 貨 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 種 in font nullfont!
-Missing character: There is no 類 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 市 in font nullfont!
-Missing character: There is no 場 in font nullfont!
-Missing character: There is no 流 in font nullfont!
-Missing character: There is no 動 in font nullfont!
-Missing character: There is no 著 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-Missing character: There is no 值 in font nullfont!
-Missing character: There is no 得 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 提 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 至 in font nullfont!
-Missing character: There is no 今 in font nullfont!
-Missing character: There is no 比 in font nullfont!
-Missing character: There is no 特 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 點 in font nullfont!
-Missing character: There is no 對 in font nullfont!
-Missing character: There is no 點 in font nullfont!
-Missing character: There is no 式 in font nullfont!
-Missing character: There is no 電 in font nullfont!
-Missing character: There is no 子 in font nullfont!
-Missing character: There is no 現 in font nullfont!
-Missing character: There is no 金 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no 還 in font nullfont!
-Missing character: There is no 未 in font nullfont!
-Missing character: There is no 出 in font nullfont!
-Missing character: There is no 現 in font nullfont!
-Missing character: There is no 過 in font nullfont!
-Missing character: There is no 錯 in font nullfont!
-Missing character: There is no 誤 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 比 in font nullfont!
-Missing character: There is no 特 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 最 in font nullfont!
-Missing character: There is no 大 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 特 in font nullfont!
-Missing character: There is no 色 in font nullfont!
-Missing character: There is no 在 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 別 in font nullfont!
 Missing character: There is no 於 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 他 in font nullfont!
+Missing character: There is no 加 in font nullfont!
+Missing character: There is no 密 in font nullfont!
+Missing character: There is no 貨 in font nullfont!
+Missing character: There is no 幣 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 幣 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 去 in font nullfont!
 Missing character: There is no 中 in font nullfont!
-Missing character: There is no 心 in font nullfont!
+Missing character: There is no ⼼ in font nullfont!
 Missing character: There is no 化 in font nullfont!
 Missing character: There is no 與 in font nullfont!
 Missing character: There is no 匿 in font nullfont!
 Missing character: There is no 名 in font nullfont!
 Missing character: There is no 化 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 去 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 心 in font nullfont!
-Missing character: There is no 化 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 區 in font nullfont!
+Missing character: There is no 塊 in font nullfont!
+Missing character: There is no 鏈 in font nullfont!
+Missing character: There is no 技 in font nullfont!
+Missing character: There is no 術 in font nullfont!
+Missing character: There is no 雖 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 保 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 信 in font nullfont!
+Missing character: There is no 息 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 礎 in font nullfont!
-Missing character: There is no 建 in font nullfont!
-Missing character: There is no 構 in font nullfont!
-Missing character: There is no 出 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 個 in font nullfont!
-Missing character: There is no 其 in font nullfont!
-Missing character: There is no 他 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 無 in font nullfont!
-Missing character: There is no 法 in font nullfont!
-Missing character: There is no 管 in font nullfont!
-Missing character: There is no 控 in font nullfont!
+Missing character: There is no 透 in font nullfont!
+Missing character: There is no 明 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no 據 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 點 in font nullfont!
-Missing character: There is no 對 in font nullfont!
-Missing character: There is no 點 in font nullfont!
-Missing character: There is no 金 in font nullfont!
-Missing character: There is no 流 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 變 in font nullfont!
+Missing character: There is no 動 in font nullfont!
+Missing character: There is no 性 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 但 in font nullfont!
 Missing character: There is no 也 in font nullfont!
@@ -171,7 +133,6 @@ Missing character: There is no 名 in font nullfont!
 Missing character: There is no 之 in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 性 in font nullfont!
-Missing character: There is no ， in font nullfont!
 Missing character: There is no 存 in font nullfont!
 Missing character: There is no 在 in font nullfont!
 Missing character: There is no 著 in font nullfont!
@@ -179,134 +140,42 @@ Missing character: There is no 三 in font nullfont!
 Missing character: There is no 項 in font nullfont!
 Missing character: There is no 問 in font nullfont!
 Missing character: There is no 題 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 別 in font nullfont!
-Missing character: There is no 為 in font nullfont!
-Missing character: There is no 無 in font nullfont!
-Missing character: There is no 法 in font nullfont!
-Missing character: There is no 追 in font nullfont!
-Missing character: There is no 蹤 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 無 in font nullfont!
-Missing character: There is no 法 in font nullfont!
-Missing character: There is no 得 in font nullfont!
-Missing character: There is no 到 in font nullfont!
-Missing character: There is no 稅 in font nullfont!
-Missing character: There is no 收 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 及 in font nullfont!
-Missing character: There is no 在 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 過 in font nullfont!
-Missing character: There is no 程 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 無 in font nullfont!
-Missing character: There is no 法 in font nullfont!
-Missing character: There is no 保 in font nullfont!
-Missing character: There is no 障 in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 費 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 權 in font nullfont!
-Missing character: There is no 益 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 第 in font nullfont!
 Missing character: There is no 一 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 在 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 沒 in font nullfont!
 Missing character: There is no 有 in font nullfont!
-Missing character: There is no 任 in font nullfont!
-Missing character: There is no 何 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 個 in font nullfont!
-Missing character: There is no 使 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 要 in font nullfont!
-Missing character: There is no 求 in font nullfont!
-Missing character: There is no 每 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 個 in font nullfont!
-Missing character: There is no 人 in font nullfont!
 Missing character: There is no 落 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 名 in font nullfont!
 Missing character: There is no 制 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 政 in font nullfont!
-Missing character: There is no 府 in font nullfont!
-Missing character: There is no 主 in font nullfont!
-Missing character: There is no 管 in font nullfont!
-Missing character: There is no 機 in font nullfont!
-Missing character: There is no 關 in font nullfont!
-Missing character: There is no 與 in font nullfont!
-Missing character: There is no 相 in font nullfont!
-Missing character: There is no 關 in font nullfont!
-Missing character: There is no 人 in font nullfont!
-Missing character: There is no 士 in font nullfont!
-Missing character: There is no 難 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 追 in font nullfont!
-Missing character: There is no 查 in font nullfont!
-Missing character: There is no 每 in font nullfont!
-Missing character: There is no ⼀ in font nullfont!
-Missing character: There is no 筆 in font nullfont!
+Missing character: There is no 造 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 流 in font nullfont!
+Missing character: There is no 動 in font nullfont!
 Missing character: There is no 資 in font nullfont!
 Missing character: There is no 金 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 真 in font nullfont!
-Missing character: There is no 正 in font nullfont!
-Missing character: There is no 持 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 進 in font nullfont!
-Missing character: There is no 而 in font nullfont!
-Missing character: There is no 增 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 洗 in font nullfont!
-Missing character: There is no 錢 in font nullfont!
-Missing character: There is no 防 in font nullfont!
-Missing character: There is no 制 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 困 in font nullfont!
-Missing character: There is no 難 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 透 in font nullfont!
+Missing character: There is no 明 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 稅 in font nullfont!
-Missing character: There is no 收 in font nullfont!
-Missing character: There is no 更 in font nullfont!
-Missing character: There is no 是 in font nullfont!
-Missing character: There is no 國 in font nullfont!
-Missing character: There is no 家 in font nullfont!
-Missing character: There is no 經 in font nullfont!
-Missing character: There is no 濟 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 礎 in font nullfont!
-Missing character: There is no 運 in font nullfont!
-Missing character: There is no 作 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 資 in font nullfont!
-Missing character: There is no 金 in font nullfont!
-Missing character: There is no 來 in font nullfont!
-Missing character: There is no 源 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 次 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 現 in font nullfont!
 Missing character: There is no 今 in font nullfont!
@@ -315,10 +184,10 @@ Missing character: There is no 國 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 並 in font nullfont!
 Missing character: There is no 無 in font nullfont!
-Missing character: There is no 支 in font nullfont!
+Missing character: There is no ⽀ in font nullfont!
 Missing character: There is no 持 in font nullfont!
 Missing character: There is no 以 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -326,8 +195,8 @@ Missing character: There is no 易 in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 關 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 收 in font nullfont!
-Missing character: There is no 銀 in font nullfont!
+Missing character: There is no ⽀ in font nullfont!
+Missing character: There is no 付 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
 Missing character: There is no 或 in font nullfont!
@@ -355,10 +224,10 @@ Missing character: There is no 密 in font nullfont!
 Missing character: There is no 貨 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 這 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 面 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
+Missing character: There is no ⾯ in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 金 in font nullfont!
+Missing character: There is no ⾦ in font nullfont!
 Missing character: There is no 融 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
@@ -373,7 +242,7 @@ Missing character: There is no ， in font nullfont!
 Missing character: There is no 現 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -396,10 +265,11 @@ Missing character: There is no ， in font nullfont!
 Missing character: There is no 並 in font nullfont!
 Missing character: There is no 無 in font nullfont!
 Missing character: There is no 開 in font nullfont!
-Missing character: There is no 立 in font nullfont!
+Missing character: There is no ⽴ in font nullfont!
 Missing character: There is no 收 in font nullfont!
 Missing character: There is no 據 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 亦 in font nullfont!
 Missing character: There is no 無 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 保 in font nullfont!
@@ -423,41 +293,39 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.7 ^^I本
-          論文設計與實現一個区块链匿名加密貨幣為主的实...
+          論⽂設計與實現⼀個比特幣的實時交易監督系統-BR...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 本 in font nullfont!
 Missing character: There is no 論 in font nullfont!
-Missing character: There is no 文 in font nullfont!
+Missing character: There is no ⽂ in font nullfont!
 Missing character: There is no 設 in font nullfont!
 Missing character: There is no 計 in font nullfont!
 Missing character: There is no 與 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 現 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no ⼀ in font nullfont!
 Missing character: There is no 個 in font nullfont!
-Missing character: There is no 区 in font nullfont!
-Missing character: There is no 块 in font nullfont!
-Missing character: There is no 链 in font nullfont!
-Missing character: There is no 匿 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 為 in font nullfont!
-Missing character: There is no 主 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 实 in font nullfont!
-Missing character: There is no 名 in font nullfont!
+Missing character: There is no 實 in font nullfont!
+Missing character: There is no 時 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no 监 in font nullfont!
+Missing character: There is no 監 in font nullfont!
 Missing character: There is no 督 in font nullfont!
 Missing character: There is no 系 in font nullfont!
-Missing character: There is no 统 in font nullfont!
+Missing character: There is no 統 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no S in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 論 in font nullfont!
 Missing character: There is no 文 in font nullfont!
@@ -465,19 +333,6 @@ Missing character: There is no 工 in font nullfont!
 Missing character: There is no 作 in font nullfont!
 Missing character: There is no 包 in font nullfont!
 Missing character: There is no 括 in font nullfont!
-Missing character: There is no 五 in font nullfont!
-Missing character: There is no 項 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 模 in font nullfont!
-Missing character: There is no 型 in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 析 in font nullfont!
-Missing character: There is no ： in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 析 in font nullfont!
 Missing character: There is no 五 in font nullfont!
@@ -489,18 +344,28 @@ Missing character: There is no 型 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 發 in font nullfont!
 Missing character: There is no 現 in font nullfont!
+Missing character: There is no 由 in font nullfont!
 Missing character: There is no 匿 in font nullfont!
 Missing character: There is no 名 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
+Missing character: There is no 客 in font nullfont!
 Missing character: There is no 支 in font nullfont!
 Missing character: There is no 付 in font nullfont!
 Missing character: There is no 給 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 名 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 達 in font nullfont!
-Missing character: There is no 到 in font nullfont!
+Missing character: There is no 監 in font nullfont!
+Missing character: There is no 督 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 同 in font nullfont!
+Missing character: There is no 時 in font nullfont!
+Missing character: There is no 實 in font nullfont!
+Missing character: There is no 踐 in font nullfont!
 Missing character: There is no 保 in font nullfont!
 Missing character: There is no 障 in font nullfont!
 Missing character: There is no 消 in font nullfont!
@@ -511,9 +376,8 @@ Missing character: There is no 益 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 保 in font nullfont!
 Missing character: There is no 護 in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 費 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
+Missing character: There is no 客 in font nullfont!
 Missing character: There is no 隱 in font nullfont!
 Missing character: There is no 私 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -528,50 +392,60 @@ Missing character: There is no 徵 in font nullfont!
 Missing character: There is no 稅 in font nullfont!
 Missing character: There is no 收 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 析 in font nullfont!
+Missing character: There is no 將 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
-Missing character: There is no 設 in font nullfont!
-Missing character: There is no 計 in font nullfont!
-Missing character: There is no ： in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 匿 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 支 in font nullfont!
-Missing character: There is no 付 in font nullfont!
-Missing character: There is no 給 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 名 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 塊 in font nullfont!
+Missing character: There is no 劃 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
+Missing character: There is no 註 in font nullfont!
+Missing character: There is no 冊 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 登 in font nullfont!
+Missing character: There is no 入 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 產 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 職 in font nullfont!
+Missing character: There is no 工 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no 為 in font nullfont!
-Missing character: There is no 基 in font nullfont!
-Missing character: There is no 礎 in font nullfont!
-Missing character: There is no 設 in font nullfont!
-Missing character: There is no 計 in font nullfont!
-Missing character: There is no 支 in font nullfont!
-Missing character: There is no 持 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no 架 in font nullfont!
-Missing character: There is no 構 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 三 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 現 in font nullfont!
-Missing character: There is no ： in font nullfont!
-Missing character: There is no 使 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 及 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
+Missing character: There is no 客 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 五 in font nullfont!
+Missing character: There is no 種 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 塊 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 同 in font nullfont!
+Missing character: There is no 時 in font nullfont!
+Missing character: There is no 採 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no J in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -581,16 +455,34 @@ Missing character: There is no 編 in font nullfont!
 Missing character: There is no 程 in font nullfont!
 Missing character: There is no 語 in font nullfont!
 Missing character: There is no 言 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 幣 in font nullfont!
+Missing character: There is no 開 in font nullfont!
+Missing character: There is no 源 in font nullfont!
+Missing character: There is no 錢 in font nullfont!
+Missing character: There is no 包 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 五 in font nullfont!
+Missing character: There is no 種 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 塊 in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 基 in font nullfont!
+Missing character: There is no 礎 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 現 in font nullfont!
 Missing character: There is no 主 in font nullfont!
 Missing character: There is no 要 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
-Missing character: There is no 、 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 及 in font nullfont!
 Missing character: There is no 商 in font nullfont!
-Missing character: There is no 店 in font nullfont!
+Missing character: There is no 家 in font nullfont!
 Missing character: There is no 和 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 品 in font nullfont!
@@ -598,9 +490,6 @@ Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
-Missing character: There is no 子 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 移 in font nullfont!
 Missing character: There is no 動 in font nullfont!
@@ -611,11 +500,7 @@ Missing character: There is no 款 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no 子 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 及 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no 客 in font nullfont!
 Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 端 in font nullfont!
@@ -626,18 +511,15 @@ Missing character: There is no 付 in font nullfont!
 Missing character: There is no 和 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 個 in font nullfont!
 Missing character: There is no 子 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 四 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no 優 in font nullfont!
-Missing character: There is no 化 in font nullfont!
-Missing character: There is no ： in font nullfont!
+Missing character: There is no 並 in font nullfont!
+Missing character: There is no 且 in font nullfont!
+Missing character: There is no 為 in font nullfont!
 Missing character: There is no 解 in font nullfont!
 Missing character: There is no 決 in font nullfont!
 Missing character: There is no 區 in font nullfont!
@@ -647,7 +529,8 @@ Missing character: There is no 速 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no 緩 in font nullfont!
 Missing character: There is no 慢 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 問 in font nullfont!
+Missing character: There is no 題 in font nullfont!
 Missing character: There is no 引 in font nullfont!
 Missing character: There is no 入 in font nullfont!
 Missing character: There is no 多 in font nullfont!
@@ -665,17 +548,6 @@ Missing character: There is no 督 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 五 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 功 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 與 in font nullfont!
-Missing character: There is no 性 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 測 in font nullfont!
-Missing character: There is no 試 in font nullfont!
-Missing character: There is no ： in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 現 in font nullfont!
 Missing character: There is no 系 in font nullfont!
@@ -702,6 +574,17 @@ Missing character: There is no 督 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
 Missing character: There is no 與 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 多 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 簽 in font nullfont!
+Missing character: There is no 章 in font nullfont!
+Missing character: There is no 演 in font nullfont!
+Missing character: There is no 算 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no 支 in font nullfont!
+Missing character: There is no 援 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 時 in font nullfont!
 Missing character: There is no 監 in font nullfont!
@@ -718,86 +601,89 @@ Missing character: There is no 與 in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 析 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 7--9
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ^^I本
-           論文貢獻如下：
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 幣 in font nullfont!
+Missing character: There is no 通 in font nullfont!
+Missing character: There is no 過 in font nullfont!
 Missing character: There is no 本 in font nullfont!
-Missing character: There is no 論 in font nullfont!
-Missing character: There is no 文 in font nullfont!
-Missing character: There is no 貢 in font nullfont!
-Missing character: There is no 獻 in font nullfont!
-Missing character: There is no 如 in font nullfont!
-Missing character: There is no 下 in font nullfont!
-Missing character: There is no ： in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
-[] 
- []
-
-Missing character: There is no 引 in font nullfont!
-Missing character: There is no 入 in font nullfont!
-Missing character: There is no 匿 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 支 in font nullfont!
-Missing character: There is no 付 in font nullfont!
-Missing character: There is no 給 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 名 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no 統 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 當 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
+Missing character: There is no 客 in font nullfont!
+Missing character: There is no 使 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 移 in font nullfont!
+Missing character: There is no 動 in font nullfont!
+Missing character: There is no 裝 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 客 in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 擁 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 詳 in font nullfont!
+Missing character: There is no 細 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no 模 in font nullfont!
-Missing character: There is no 型 in font nullfont!
-Missing character: There is no 至 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
+Missing character: There is no 明 in font nullfont!
+Missing character: There is no 細 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 同 in font nullfont!
+Missing character: There is no 時 in font nullfont!
+Missing character: There is no 保 in font nullfont!
+Missing character: There is no 障 in font nullfont!
+Missing character: There is no 消 in font nullfont!
+Missing character: There is no 費 in font nullfont!
+Missing character: There is no 者 in font nullfont!
+Missing character: There is no 權 in font nullfont!
+Missing character: There is no 益 in font nullfont!
+Missing character: There is no ； in font nullfont!
+Missing character: There is no 藉 in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 信 in font nullfont!
+Missing character: There is no 息 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 子 in font nullfont!
 Missing character: There is no 系 in font nullfont!
 Missing character: There is no 統 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 設 in font nullfont!
-Missing character: There is no 計 in font nullfont!
-Missing character: There is no 與 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 讓 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 更 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 進 in font nullfont!
+Missing character: There is no ⾏ in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 及 in font nullfont!
+Missing character: There is no 庫 in font nullfont!
+Missing character: There is no 存 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no ； in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 政 in font nullfont!
+Missing character: There is no 府 in font nullfont!
+Missing character: There is no 端 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 現 in font nullfont!
-Missing character: There is no 於 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 匿 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 支 in font nullfont!
-Missing character: There is no 付 in font nullfont!
-Missing character: There is no 給 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 監 in font nullfont!
-Missing character: There is no 督 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 導 in font nullfont!
-Missing character: There is no 入 in font nullfont!
 Missing character: There is no 多 in font nullfont!
 Missing character: There is no 重 in font nullfont!
 Missing character: There is no 簽 in font nullfont!
@@ -805,65 +691,35 @@ Missing character: There is no 章 in font nullfont!
 Missing character: There is no 算 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 設 in font nullfont!
-Missing character: There is no 計 in font nullfont!
-Missing character: There is no 與 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 現 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 時 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 監 in font nullfont!
-Missing character: There is no 督 in font nullfont!
-Missing character: There is no 系 in font nullfont!
-Missing character: There is no 統 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 提 in font nullfont!
-Missing character: There is no 升 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 速 in font nullfont!
-Missing character: There is no 度 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 現 in font nullfont!
-Missing character: There is no 於 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 費 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 匿 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 同 in font nullfont!
-Missing character: There is no 時 in font nullfont!
-Missing character: There is no 也 in font nullfont!
 Missing character: There is no 讓 in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 費 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 擁 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 消 in font nullfont!
-Missing character: There is no 費 in font nullfont!
-Missing character: There is no 者 in font nullfont!
-Missing character: There is no 權 in font nullfont!
-Missing character: There is no 益 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-Missing character: There is no 藉 in font nullfont!
-Missing character: There is no 由 in font nullfont!
-Missing character: There is no 將 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
-Missing character: There is no 實 in font nullfont!
-Missing character: There is no 名 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 預 in font nullfont!
+Missing character: There is no 防 in font nullfont!
+Missing character: There is no 雙 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no ⽀ in font nullfont!
+Missing character: There is no 付 in font nullfont!
+Missing character: There is no 攻 in font nullfont!
+Missing character: There is no 擊 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 且 in font nullfont!
+Missing character: There is no 大 in font nullfont!
+Missing character: There is no 幅 in font nullfont!
+Missing character: There is no 減 in font nullfont!
+Missing character: There is no 少 in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 均 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 時 in font nullfont!
+Missing character: There is no 間 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 也 in font nullfont!
+Missing character: There is no 能 in font nullfont!
 Missing character: There is no 使 in font nullfont!
 Missing character: There is no 政 in font nullfont!
 Missing character: There is no 府 in font nullfont!
@@ -871,26 +727,18 @@ Missing character: There is no 主 in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 機 in font nullfont!
 Missing character: There is no 關 in font nullfont!
-Missing character: There is no 可 in font nullfont!
-Missing character: There is no 以 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 效 in font nullfont!
 Missing character: There is no 獲 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 稅 in font nullfont!
 Missing character: There is no 收 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 有 in font nullfont!
-Missing character: There is no 效 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 監 in font nullfont!
-Missing character: There is no 督 in font nullfont!
-Missing character: There is no 模 in font nullfont!
-Missing character: There is no 型 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
+[] 
+ []
+
 
 ! LaTeX Error: \begin{document} ended by \end{cabstract}.
 
@@ -898,7 +746,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \end{cabstract}
+l.11 \end{cabstract}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -911,7 +759,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \begin{eabstract}
+l.13 \begin{eabstract}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -924,8 +772,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ^^IB
-         itcoin is a cryptocurrency that integrates cybernetics, cryptograph...
+l.14 ^^IB
+         itcoin is a cryptocurrency that integrates networking, cryptography...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -968,17 +816,16 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1057,6 +904,15 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1064,10 +920,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1234,7 +1087,9 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -1278,6 +1133,14 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -1349,13 +1212,11 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1513,10 +1374,6 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1532,20 +1389,19 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1618,12 +1474,11 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1825,7 +1680,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no b in font nullfont!
+Missing character: There is no B in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -1884,7 +1739,9 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -1906,6 +1763,8 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no k in font nullfont!
@@ -2016,7 +1875,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no b in font nullfont!
+Missing character: There is no B in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -2151,7 +2010,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--15
 []
  []
 
@@ -2162,8 +2021,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ^^IT
-         his thesis designs and implements a real-name transaction monitorin...
+l.16 ^^IT
+         his thesis designs and implements a real-time real-name transaction...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2199,6 +2058,15 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -2242,6 +2110,15 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2252,15 +2129,6 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -2306,10 +2174,10 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
@@ -2483,9 +2351,6 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no v in font nullfont!
@@ -2534,25 +2399,24 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no D in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no - in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -2568,6 +2432,27 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2586,13 +2471,15 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2663,7 +2550,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no U in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -2694,7 +2581,43 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2708,7 +2631,15 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2846,20 +2777,6 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2897,6 +2814,15 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2911,6 +2837,17 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2920,20 +2857,6 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -2961,6 +2884,18 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -2978,6 +2913,17 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -3031,7 +2977,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no A in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3077,13 +3023,13 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3091,6 +3037,17 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3171,6 +3128,39 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -3205,23 +3195,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 ^^IT
-         he contributions of this paper are as follows:
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3262,11 +3235,6 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
-[]
- []
-
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -3316,11 +3284,23 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -3341,7 +3321,26 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ; in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3386,24 +3385,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -3441,13 +3422,10 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -3465,6 +3443,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no g in font nullfont!
@@ -3474,17 +3453,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3494,6 +3464,91 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -3530,38 +3585,10 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -3633,7 +3660,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no ; in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3655,7 +3682,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -3666,7 +3693,15 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -3766,13 +3801,18 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--18
+[]
+ []
+
+
 ! LaTeX Error: \begin{document} ended by \end{eabstract}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \end{eabstract}
+l.19 \end{eabstract}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3786,11 +3826,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 10 strings out of 493005
- 104 string characters out of 6134596
+ 8 strings out of 493005
+ 88 string characters out of 6134596
  62634 words of memory out of 5000000
- 4083 multiletter control sequences out of 15000+600000
+ 4081 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 8i,1n,6p,1448b,71s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 6i,0n,6p,1461b,19s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

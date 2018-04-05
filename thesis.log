@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  5 APR 2018 05:32
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  5 APR 2018 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2599,9 +2599,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
  (./chap/abstract.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 13.
+(Font)              scaled to size 12.045pt on input line 11.
  [1
 
 
@@ -2626,14 +2626,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 . 
 . Could not resolve font "STXihei/I" (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 15.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 13.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <12.045> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 15.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.84042pt on input line 15.
+(Font)              scaled to size 10.84042pt on input line 13.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2651,9 +2651,9 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <18.06749> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 15.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 16.26062pt on input line 15.
+(Font)              scaled to size 16.26062pt on input line 13.
  [3
 
 ]) [4]
@@ -3113,12 +3113,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48641 strings out of 493005
- 952648 string characters out of 6134596
- 1373533 words of memory out of 5000000
- 51843 multiletter control sequences out of 15000+600000
+ 48631 strings out of 493005
+ 952001 string characters out of 6134596
+ 1373534 words of memory out of 5000000
+ 51833 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 985268 bytes).
+Output written on thesis.xdv (103 pages, 982580 bytes).
