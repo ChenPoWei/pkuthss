@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  6 APR 2018 17:07
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  6 APR 2018 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2738,7 +2738,7 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
 <use  "Darklaunderworkflow.png" > [7]
-Underfull \vbox (badness 3375) has occurred while \output is active []
+Underfull \vbox (badness 2512) has occurred while \output is active []
 
  [8]
 [9] [10]) [11]
@@ -3124,4 +3124,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 984488 bytes).
+Output written on thesis.xdv (103 pages, 984228 bytes).
