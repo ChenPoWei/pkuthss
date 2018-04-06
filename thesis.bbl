@@ -795,85 +795,6 @@
       \verb https://doi.org/10.1007/978-3-642-34047-5_15
       \endverb
     \endentry
-    \entry{DBLP:conf/isw/MendelPRR06}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=e320abcdc96582fe2b9956c4e9dd4bc9}{%
-           family={Mendel},
-           familyi={M\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=1606bd07896bc404382d070f4ff7e627}{%
-           family={Pramstaller},
-           familyi={P\bibinitperiod},
-           given={Norbert},
-           giveni={N\bibinitperiod}}}%
-        {{hash=29a803b439def048d1bbec17d5c5be6e}{%
-           family={Rechberger},
-           familyi={R\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=d2e51b6dbeb039e27ea5d1a6f5d63302}{%
-           family={Rijmen},
-           familyi={R\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-      }
-      \name{editor}{5}{}{%
-        {{hash=eb04eac6d2f225caf40eb37f51e3e3da}{%
-           family={Katsikas},
-           familyi={K\bibinitperiod},
-           given={Sokratis\bibnamedelima K.},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=6fd77728efc47ea4b651372367fdc499}{%
-           family={Lopez},
-           familyi={L\bibinitperiod},
-           given={Javier},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4b96cad75f27ce1349d97e2aea69ac76}{%
-           family={Backes},
-           familyi={B\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=47540ae2d02cd791312926fa15602cc8}{%
-           family={Gritzalis},
-           familyi={G\bibinitperiod},
-           given={Stefanos},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0b9d4896fca22178c881b5236f351e05}{%
-           family={Preneel},
-           familyi={P\bibinitperiod},
-           given={Bart},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{3571e999ae254c7d74c1cb23e7c63830}
-      \strng{fullhash}{a66db41a4e905fc9a37d320afba17e51}
-      \strng{authornamehash}{3571e999ae254c7d74c1cb23e7c63830}
-      \strng{authorfullhash}{a66db41a4e905fc9a37d320afba17e51}
-      \strng{editornamehash}{761bfeb1ef18c022e1934b76b545a73a}
-      \strng{editorfullhash}{670b463f475e4f052dda4ddfb767d152}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Information Security, 9th International Conference, {ISC} 2006, Samos Island, Greece, August 30 - September 2, 2006, Proceedings}
-      \field{isbn}{3-540-38341-7}
-      \field{series}{Lecture Notes in Computer Science}
-      \field{title}{On the Collision Resistance of {RIPEMD-160}}
-      \field{userf}{en}
-      \field{volume}{4176}
-      \field{year}{2006}
-      \field{pages}{101\bibrangedash 116}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/11836810_8
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/11836810_8
-      \endverb
-    \endentry
     \entry{Base58}{webpage}{}
       \name{author}{1}{}{%
         {{hash=97cd8079f06e3e25bf8f371797d946dd}{%
@@ -1155,8 +1076,8 @@
       \strng{fullhash}{77b5e50a3e274f4ff8da704d75a3f3ca}
       \strng{authornamehash}{77b5e50a3e274f4ff8da704d75a3f3ca}
       \strng{authorfullhash}{77b5e50a3e274f4ff8da704d75a3f3ca}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Federal Information Processing Standards Publication}
@@ -1276,6 +1197,26 @@
       \field{pages}{203\bibrangedash 209}
       \range{pages}{7}
     \endentry
+    \entry{bitcoinpaper}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{userf}{en}
+      \field{year}{2008}
+    \endentry
     \entry{Performancecomparisonofellipticcurveandrsadigitalsignatures}{article}{}
       \name{author}{2}{}{%
         {{hash=0e804496ff524482a4528dc44b22d6e7}{%
@@ -1363,26 +1304,6 @@
       \field{title}{Deployments of Elliptic Curve Cryptography}
       \field{userf}{en}
       \field{year}{2005}
-    \endentry
-    \entry{bitcoinpaper}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1977190f018b398e43ede3de043de8ea}{%
-           family={Nakamoto},
-           familyi={N\bibinitperiod},
-           given={Satoshi},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
-      \field{userf}{en}
-      \field{year}{2008}
     \endentry
     \entry{Informationpropagationinthebitcoinnetwork}{inproceedings}{}
       \name{author}{2}{}{%

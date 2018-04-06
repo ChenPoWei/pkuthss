@@ -6,9 +6,9 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces 比特幣簡介\relax }}{13}{table.caption.13}
+\contentsline {table}{\numberline {2.1}{\ignorespaces 比特幣系統的相關參數簡介\relax }}{13}{table.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces ECC與RSA的密鑰對生成時間比較表\supercite {Performancecomparisonofellipticcurveandrsadigitalsignatures}\relax }}{16}{table.caption.18}
+\contentsline {table}{\numberline {2.2}{\ignorespaces ECC與RSA相同安全等級的密鑰對生成時間比較表\supercite {Performancecomparisonofellipticcurveandrsadigitalsignatures}\relax }}{16}{table.caption.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.3}{\ignorespaces 算法BLISS、RSA、ECDSA安全級數比較圖表\supercite {LatticesignaturesandbimodalGaussians}\relax }}{17}{table.caption.19}
 \defcounter {refsection}{0}\relax 
@@ -16,7 +16,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.5}{\ignorespaces Base58 編碼表\relax }}{20}{table.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.6}{\ignorespaces Base64 編碼表\relax }}{20}{table.caption.25}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Base64 編碼表\relax }}{21}{table.caption.25}
 \defcounter {refsection}{0}\relax 
 \addvspace {10.0pt}
 \defcounter {refsection}{0}\relax 
