@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  6 APR 2018 15:33
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  6 APR 2018 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2721,9 +2721,9 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 21.
  [2]
-File: Thetotalmarketcapitalization.png Graphic file (type QTm)
+File: Thetotalmarketcapitalization.jpg Graphic file (type QTm)
 
-<use  "Thetotalmarketcapitalization.png" > [3]
+<use  "Thetotalmarketcapitalization.jpg" > [3]
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [4]
@@ -2737,11 +2737,14 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
  [6]
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" > [7] [8] [9] [10]) [11]
+<use  "Darklaunderworkflow.png" > [7]
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [8]
+[9] [10]) [11]
 \openout2 = `chap/chap2.aux'.
 
- (./chap/chap2.tex
-[12
+ (./chap/chap2.tex [12
 
 
 
@@ -3115,10 +3118,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48631 strings out of 493005
  952001 string characters out of 6134596
- 1373560 words of memory out of 5000000
+ 1373569 words of memory out of 5000000
  51833 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 982824 bytes).
+Output written on thesis.xdv (103 pages, 984488 bytes).

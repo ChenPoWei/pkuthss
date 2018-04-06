@@ -12,9 +12,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.4}國際情勢分析}{8}{subsection.1.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}研究目標與內容}{8}{section.1.2}
+\contentsline {section}{\numberline {1.2}研究目標與內容}{10}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}論文組織結構}{10}{section.1.3}
+\contentsline {section}{\numberline {1.3}論文組織結構}{11}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第二章\hspace {.3em}}相關理論與技術}{13}{chapter.2}
 \defcounter {refsection}{0}\relax 
