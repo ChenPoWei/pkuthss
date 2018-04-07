@@ -86,7 +86,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（四）商家交易管理模塊}{53}{subsubsection*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（五）顧客交易管理模塊}{58}{subsubsection*.74}
+\contentsline {subsubsection}{（五）顧客交易管理模塊}{57}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}系統實現}{61}{section.5.3}
 \defcounter {refsection}{0}\relax 
