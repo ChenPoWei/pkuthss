@@ -1,6 +1,6 @@
 % Copyright （c） 2014,2016 Casper Ti. Vecto
 \chapter{系統測試}
-於本章將進行功能測試與性能測試，執行功能測試已確認本文所提出之系統的所有功能是否皆順利運行，透過性能測試可知本系統的交易速度在優化前與優化後之間的差異。
+於本章將進行功能測試與性能測試，執行功能測試以確認本文所提出之系統的所有功能是否皆順利運行，透過性能測試可知本系統的交易速度在優化前與優化後之間的差異。
 	\section{功能測試}
 	 	本段主要是描述比特幣的交易監督系統的測試計畫。確認在系統集成前，必須先確認所有的設計元件均可正確的輸出，在此著重於集成系統測試 (Integration Test) 及验收测试 (Acceptance Test)。本章節內容將依據系統需求規格書與系統設計，描述關於集成測試的相關計畫與內容。並希望透過此章節之描述與實踐，達到順利進行測試工作之目的。
 	 		\begin{enumerate}
@@ -91,12 +91,12 @@
 					\caption{集成子系統測試}\label{IntegrationTesting}
 				\end{figure}
 			\item 验收测试規劃（Acceptance Testing，AT）：
-				本系統須達成以下三組接受用例陳列的所有功能，測試本論文搭設計與搭建的系統功能是否能夠順利運行。測試的角色有兩個，分別為管理員以及使用者，如圖\ref{usecasediagram}為BTMS用例示意圖，預計測試服務器的組態設定、手機的組態設定以及數據庫的組態設定：
+				本系統須達成以下三組接受用例陳列的所有功能，測試本論文搭設計與搭建的系統功能是否能夠順利運行。測試的角色有兩個，分別為管理員以及用戶，如圖\ref{usecasediagram}為BTMS用例示意圖，預計測試服務器的組態設定、手機的組態設定以及數據庫的組態設定：
 
 					\begin{figure}[!htbp]
 						\centering
 						\includegraphics[width = 0.4\textwidth]{usecasediagram.jpg}
-						\caption{BTMS使用者用例圖}\label{usecasediagram}
+						\caption{BTMS用戶用例圖}\label{usecasediagram}
 					\end{figure}
 
 				圖\ref{AcceptanceTesting}為三組验收测试的示意圖，對本比特幣的交易監督系統進行測試。
@@ -176,7 +176,7 @@
 						\end{table}
 
 				\item IT3测试用例：
-					表\ref{IT3TestCase}為IT3 测试用例，目標檢測對象為顧客端行動支付與交易明細系統。目的：驗證〔CMPTSS1.3.0〕能正確接收SMCTSS所傳送的交易資料，並以其交易資訊執行以比特幣付款之動作。可以查詢商品資訊，且能夠儲存並且查看使用者過往之交易紀錄。
+					表\ref{IT3TestCase}為IT3 测试用例，目標檢測對象為客戶端行動支付與交易明細系統。目的：驗證〔CMPTSS1.3.0〕能正確接收SMCTSS所傳送的交易資料，並以其交易資訊執行以比特幣付款之動作。可以查詢商品資訊，且能夠儲存並且查看用戶過往之交易紀錄。
 
 						\begin{table}[!htbp]
 						\caption{IT3 测试用例} % title of Table
@@ -226,7 +226,7 @@
 						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}BTMS 1.0.0{]}\end{tabular}} \\ \hline
 						依賴關係 & \multicolumn{2}{l|}{BTMS-F-001} \\ \hline
 						嚴重程度 & \multicolumn{2}{l|}{1} \\ \hline
-						\multirow{3}{*}{用例描述} & 使用者操作 & 系統響應 \\ \cline{2-3} 
+						\multirow{3}{*}{用例描述} & 用戶操作 & 系統響應 \\ \cline{2-3} 
 						 & \begin{tabular}[c]{@{}l@{}}1.管理人員依照環境\\    設定伺服器組態。\end{tabular} &  \\ \cline{2-3} 
 						 &  & \begin{tabular}[c]{@{}l@{}}2.伺服器依照管理人\\    員所做的組態設定\\    啟動服務。\end{tabular} \\ \hline
 						預期結果 & \multicolumn{2}{l|}{成功啟動伺服器的相關服務。} \\ \hline
@@ -235,7 +235,7 @@
 						\end{table}
 
 				\item AT2 测试用例：
-					如表\ref{AT2TestCase}所示，參與者為使用者。目的：驗證用例（Use case ）2 透過組態檔案的修改對手機進行組態設定。
+					如表\ref{AT2TestCase}所示，參與者為用戶。目的：驗證用例（Use case ）2 透過組態檔案的修改對手機進行組態設定。
 						\begin{table}[!htbp]
 						\centering
 						\caption{AT2 测试用例}
@@ -247,9 +247,9 @@
 						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
 						依賴關係 & \multicolumn{2}{l|}{BTMS-F-002$\sim$ BTMS-F-003} \\ \hline
 						嚴重程度 & \multicolumn{2}{l|}{1} \\ \hline
-						\multirow{3}{*}{用例描述} & 使用者操作 & 系統響應 \\ \cline{2-3} 
-						 & \begin{tabular}[c]{@{}l@{}}1.使用者修改手機組\\    態設定參數。\end{tabular} &  \\ \cline{2-3} 
-						 &  & \begin{tabular}[c]{@{}l@{}}2.手機依照使用者在\\    設定檔中所填入的\\    數值運作。\end{tabular} \\ \hline
+						\multirow{3}{*}{用例描述} & 用戶操作 & 系統響應 \\ \cline{2-3} 
+						 & \begin{tabular}[c]{@{}l@{}}1.用戶修改手機組\\    態設定參數。\end{tabular} &  \\ \cline{2-3} 
+						 &  & \begin{tabular}[c]{@{}l@{}}2.手機依照用戶在\\    設定檔中所填入的\\    數值運作。\end{tabular} \\ \hline
 						預期結果 & \multicolumn{2}{l|}{成功完成手機的組態設定} \\ \hline
 						Cleanup & \multicolumn{2}{l|}{無} \\ \hline
 						\end{tabular}
@@ -269,11 +269,11 @@
 						測試目標 & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}{[}SMIMSS 1.1.0{]}\\ {[}SMCTSS 1.2.0{]}\\ {[}CMPTSS 1.3.0{]}\end{tabular}} \\ \hline
 						依賴關係 & \multicolumn{2}{l|}{BTMS-F-001$\sim$ BTMS-F-003} \\ \hline
 						嚴重程度 & \multicolumn{2}{l|}{1} \\ \hline
-						\multirow{5}{*}{用例描述} & 使用者操作 & 系統響應 \\ \cline{2-3} 
+						\multirow{5}{*}{用例描述} & 用戶操作 & 系統響應 \\ \cline{2-3} 
 						 & \begin{tabular}[c]{@{}l@{}}1.管理者設定資料庫\\    組態。\end{tabular} &  \\ \cline{2-3} 
 						 &  & \begin{tabular}[c]{@{}l@{}}2.資料庫依照管理人\\    員所做的組態設定\\    啟動服務。\end{tabular} \\ \cline{2-3} 
-						 & \begin{tabular}[c]{@{}l@{}}3.使用者修改資料庫\\    之資料及檔案。\end{tabular} &  \\ \cline{2-3} 
-						 &  & \begin{tabular}[c]{@{}l@{}}4.資料庫依照使用者\\    所做的組態設定啟\\    動服務。\end{tabular} \\ \hline
+						 & \begin{tabular}[c]{@{}l@{}}3.用戶修改資料庫\\    之資料及檔案。\end{tabular} &  \\ \cline{2-3} 
+						 &  & \begin{tabular}[c]{@{}l@{}}4.資料庫依照用戶\\    所做的組態設定啟\\    動服務。\end{tabular} \\ \hline
 						預期結果 & \multicolumn{2}{l|}{成功設定完成資料庫的相關設定。} \\ \hline
 						Cleanup & \multicolumn{2}{l|}{無} \\ \hline
 						\end{tabular}

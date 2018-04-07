@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  7 APR 2018 20:26
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  7 APR 2018 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2839,28 +2839,26 @@ File: model3.jpg Graphic file (type QTm)
 File: model2.jpg Graphic file (type QTm)
 
 <use  "model2.jpg" >
-Overfull \hbox (4.93584pt too wide) in paragraph at lines 35--41
-[]\TU/STSong(0)/m/n/12.045 顧 客 端 行 動 支 付 與 交 易 明 細 系 統 \T1/ntxtlf/m/n/12.045 (C
-lient Mo-bile Pay-ment and Trans-ac-tion Sub-System\TU/STSong(0)/m/n/12.045 ，|
- []
-
 File: fig3.jpg Graphic file (type QTm)
-<use  "fig3.jpg" > [39]
+ <use  "fig3.jpg" > [39]
 File: fig4.jpg Graphic file (type QTm)
- <use  "fig4.jpg" > [40] [41]
+ <use  "fig4.jpg" >
+Underfull \vbox (badness 5189) has occurred while \output is active []
+
+ [40]
+[41]
 File: gabpcss.jpg Graphic file (type QTm)
- <use  "gabpcss.jpg" >
-[42]) [43]
+ <use  "gabpcss.jpg" > [42] [43]) [44]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex [44
+ (./chap/chap5.tex
+第五章
+File: er.jpg Graphic file (type QTm)
+<use  "er.jpg" > [45
 
 
 
 ]
-第五章
-File: er.jpg Graphic file (type QTm)
-<use  "er.jpg" > [45]
 Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
  [][] 
  []
@@ -2893,10 +2891,7 @@ File: c7.jpg Graphic file (type QTm)
 File: c4.jpg Graphic file (type QTm)
  <use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
- <use  "time5.jpg" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
+ <use  "time5.jpg" > [58]
 [59] [60]
 File: c6.jpg Graphic file (type QTm)
  <use  "c6.jpg" >
@@ -2906,9 +2901,9 @@ File: fig6.png Graphic file (type QTm)
  <use  "fig6.png" > [61] [62]
 File: fig7.png Graphic file (type QTm)
 
-<use  "fig7.png" >
+<use  "fig7.png" > [63]
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [63] [64]
+ <use  "fig8.png" >) [64]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -3115,10 +3110,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48635 strings out of 493005
  952336 string characters out of 6134596
- 1372681 words of memory out of 5000000
+ 1372676 words of memory out of 5000000
  51837 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 991924 bytes).
+Output written on thesis.xdv (103 pages, 992144 bytes).

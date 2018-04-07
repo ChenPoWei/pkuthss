@@ -56,7 +56,7 @@
 
 				\subsubsection{（二）非對稱式加密算法 Secp256k1}
 				在密碼學中有分對稱式加密與非對稱式加密，對稱式加密又分為信息流加密與信息塊加密，信息流加密著名的是由美國密碼學家Ron Rivest教授發表，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息塊加密著名的有數據加密標準（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重數據加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高級加密標準（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非對稱式加密最廣為人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、橢圓曲線密碼學（Elliptic curve cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
-				非對稱式加密與對稱式加密最大的不同，在於對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙，分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的使用者Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公佈在網絡上，這時希望聯繫Alice的使用者Bob在網絡上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，即使網絡存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易之數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花費的輸出（Unspent Transaction Output，UTXO）\supercite{bitcoinpaper}進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網絡的交易緩存池當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收錄到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工將該筆交易收入至比特幣區塊鏈當中。
+				非對稱式加密與對稱式加密最大的不同，在於對稱式加密在加密解密的過程中只需要一把鑰匙，而非對稱式加密會生成兩把鑰匙，分別為私鑰與公鑰，在算法的設計上一開始會以亂數產生一把私鑰，再經由非對稱式加密算法推導出公鑰，推導出的公鑰在非對稱式密碼學中並無直接的方法可以反推至私鑰，如此一來確立私鑰的安全性。非對稱式密碼的使用場景有兩種，第一種是希望收到加密信息的用戶Alice，Alice會生成私鑰存儲在自己本地端的電腦中，並將推導出的公鑰公佈在網絡上，這時希望聯繫Alice的用戶Bob在網絡上取得公鑰後，Bob會以Alice的公鑰進行加密，之後將密文寄送給Alice，在傳遞信息的過程中，即使網絡存在著監聽，也無法將信息順利解密，唯有Alice收到信息後使用Alice原本產生該公鑰的私鑰，才可以解出明文。第二種則應用在比特幣的交易之數字簽名以及交易驗證交易，比特幣地址的創建過程中會透過secp256k1生成私鑰公鑰對，在創建比特幣交易的過程中，使用該地址的私鑰對該地址未花費的輸出（Unspent Transaction Output，UTXO）\supercite{bitcoinpaper}進行數字簽名，完成數字簽名後會與公鑰以及交易信息一起廣播到比特幣網絡的交易緩存池當中，比特幣交易緩存池存在於所有比特幣全節點當中，主要存儲所有未被收錄到比特幣區塊鏈內的所有交易，也就是零確認交易，等待礦工將該筆交易收入至比特幣區塊鏈當中。
 				比特幣採用的secp256k1是屬於橢圓曲線密碼學中的一個版本，不同的橢圓曲線版本的差異在於不同的初始參數，包括橢圓曲線方程式$$y^2=x^3+ax+b$$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F為巨大的素數、G點被稱爲⽣成點的常數點亦稱為基點。至於為什麼選擇ECC而非RSA的主要原因，其一在於ECC在生成密鑰對所需的時間更加快速，根據表\ref{ECCtime}顯示，Nicholas Jansma於2004年針對ECC與RSA的密鑰對生成時間與數字簽名所需時間的論文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}顯示，當ECC產生571 bits的密鑰長度，要達到相同安全等級的情形下，RSA則需要⽣成15360 bits，這也讓兩種非對稱式的加密方式之間，⽣成的時間產生了⾼達471 倍之差距。
 
 				\begin{table}[!htbp]
@@ -102,7 +102,7 @@
 
 				\subsubsection{（三）哈希算法 SHA-256}
 				SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈數的不同，如表\ref{hashtable}所示。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。表\ref{hashtable}中MD5不為SHA家族成員之一，但MD5為最早被廣泛使用的哈希算法，因此此表將其作為借鑒的標準。SHA-0為SHA家族中被最早提出的架構，輸出的長度為160 bits，而SHA-1提出後並無太大的變動。
-				哈希算法的主要功能在於將信息或是檔案建⽴專屬的對應指紋，也就是哈希值，依照不同的算法設計，該指紋的輸出⾧度也略有不同，表\ref{hashtable}顯示了MD5與SHA 家族的輸出哈希值⾧度，而長度也意味著該指紋的組態空間所映射的大小。倘若有著不同的輸入，但映射到了相同的指紋，則將此現象稱之為碰撞。通常在信息安全領域中，只要發現該哈希算法存在著碰撞，就會被棄用。有些專家甚⾄會提早數年建議使用者盡早更換該哈希算法，並更換上新制定的哈希算法做應⽤。哈希算法的功能包括藉由生成哈希值進行檔案校驗、工作量證明算法設計以及區塊鏈中的哈希指針\supercite{Double-spendAttackModelswithTimeAdvantangeforBitcoin}。
+				哈希算法的主要功能在於將信息或是檔案建⽴專屬的對應指紋，也就是哈希值，依照不同的算法設計，該指紋的輸出⾧度也略有不同，表\ref{hashtable}顯示了MD5與SHA 家族的輸出哈希值⾧度，而長度也意味著該指紋的組態空間所映射的大小。倘若有著不同的輸入，但映射到了相同的指紋，則將此現象稱之為碰撞。通常在信息安全領域中，只要發現該哈希算法存在著碰撞，就會被棄用。有些專家甚⾄會提早數年建議用戶盡早更換該哈希算法，並更換上新制定的哈希算法做應⽤。哈希算法的功能包括藉由生成哈希值進行檔案校驗、工作量證明算法設計以及區塊鏈中的哈希指針\supercite{Double-spendAttackModelswithTimeAdvantangeforBitcoin}。
 
 				\begin{table}[!htbp]
 					\centering
@@ -235,12 +235,12 @@
 				\end{figure}
 
 			 	\begin{enumerate}
-			 		\item 使用者安裝Green Address比特幣錢包。
-			 		\item 使用者於本地端透過亂數產生器生成一個比特幣私鑰。
+			 		\item 用戶安裝Green Address比特幣錢包。
+			 		\item 用戶於本地端透過亂數產生器生成一個比特幣私鑰。
 			 		\item 向Green Address機構節點請求創建2-of-2多重簽章比特幣地址。
 			 		\item Green Address機構節點使用亂數產生器生成私鑰。
 					\item 創建2-of-2多重簽章比特幣地址如"2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwPbZfQ"，該地址的為多重簽章地址，因此在地址的第一個字為"2"，倘若為一般非多重簽章地址，則地址的第一個字為"1"。
-					\item 將生成的2-of-2多重簽章比特幣地址傳回使用者的Green Address比特幣錢包。
+					\item 將生成的2-of-2多重簽章比特幣地址傳回用戶的Green Address比特幣錢包。
 			 	\end{enumerate}
 
 			 	\subsubsection{（二）Green Address交易發起流程}
@@ -253,7 +253,7 @@
 				\end{figure}
 
 				\begin{enumerate}
-					\item 使用者使用原本創建Green Address的私鑰，並完成簽署交易。
+					\item 用戶使用原本創建Green Address的私鑰，並完成簽署交易。
 					\item 因為是多重簽章地址，所以該交易需傳送至Green Address機構節點。
 					\item Green Address機構節點收到交易信息後檢查該交易的發起地址是否存在雙重支付，倘若有雙重支付則遺棄該筆交易；若無雙重支付則往下一個步驟。
 					\item Green Address機構以Green Address的私鑰簽署該筆交易。

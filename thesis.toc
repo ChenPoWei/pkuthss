@@ -70,7 +70,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}BTMS架構與運作流程}{39}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}實時BTMS架構與運作流程}{41}{section.4.2}
+\contentsline {section}{\numberline {4.2}實時BTMS架構與運作流程}{42}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統詳細設計與實現}{45}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -80,13 +80,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（一）用戶註冊與登入模塊}{47}{subsubsection*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）產品管理模塊}{49}{subsubsection*.64}
+\contentsline {subsubsection}{（二）商家產品管理模塊}{49}{subsubsection*.64}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（三）職工管理模塊}{51}{subsubsection*.67}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（四）商家交易管理模塊}{53}{subsubsection*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（五）顧客交易管理模塊}{57}{subsubsection*.74}
+\contentsline {subsubsection}{（五）顧客交易管理模塊}{58}{subsubsection*.74}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}系統實現}{61}{section.5.3}
 \defcounter {refsection}{0}\relax 
