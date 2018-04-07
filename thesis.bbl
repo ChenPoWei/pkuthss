@@ -1305,6 +1305,38 @@
       \field{userf}{en}
       \field{year}{2005}
     \endentry
+    \entry{Double-spendAttackModelswithTimeAdvantangeforBitcoin}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8329a2dc21d05fd997ed77c90c927319}{%
+           family={Pinzón},
+           familyi={P\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bc2f75ee23e701be10bec5c7a4afb3cf}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Camilo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7d989b7bac6c8b3fa768127986435584}
+      \strng{fullhash}{7d989b7bac6c8b3fa768127986435584}
+      \strng{authornamehash}{7d989b7bac6c8b3fa768127986435584}
+      \strng{authorfullhash}{7d989b7bac6c8b3fa768127986435584}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronic Notes in Theoretical Computer Science}
+      \field{title}{Double-spend Attack Models with Time Advantange for Bitcoin}
+      \field{userf}{en}
+      \field{volume}{329}
+      \field{year}{2016}
+      \field{pages}{79\bibrangedash 103}
+      \range{pages}{25}
+    \endentry
     \entry{Informationpropagationinthebitcoinnetwork}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=606da205069239a342783a6ff7f69711}{%
@@ -1432,8 +1464,8 @@
       \strng{fullhash}{f9d1ce4d00079d49d477770341052e67}
       \strng{authornamehash}{f9d1ce4d00079d49d477770341052e67}
       \strng{authorfullhash}{f9d1ce4d00079d49d477770341052e67}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JDBC database access with Java: a tutorial and annotated reference}
