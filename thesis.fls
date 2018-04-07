@@ -519,7 +519,7 @@ INPUT 6confirm.jpg
 INPUT address.jpg
 INPUT gabuild.jpg
 INPUT gatx.jpg
-INPUT blockchain.png
+INPUT blockchain.jpg
 INPUT MerkleRoot.png
 OUTPUT chap/chap3.aux
 INPUT chap/chap3.tex

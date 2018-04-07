@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  7 APR 2018 23:33
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  8 APR 2018 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2783,9 +2783,9 @@ File: gatx.jpg Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-File: blockchain.png Graphic file (type QTm)
+File: blockchain.jpg Graphic file (type QTm)
 
-<use  "blockchain.png" > [25]
+<use  "blockchain.jpg" > [25]
 File: MerkleRoot.png Graphic file (type QTm)
  <use  "MerkleRoot.png" >) [26]
 \openout2 = `chap/chap3.aux'.
@@ -3113,7 +3113,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48627 strings out of 493005
  951804 string characters out of 6134596
- 1372676 words of memory out of 5000000
+ 1372674 words of memory out of 5000000
  51829 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
