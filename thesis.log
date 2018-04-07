@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  8 APR 2018 00:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  8 APR 2018 04:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2933,33 +2933,29 @@ File: usecasediagram.jpg Graphic file (type QTm)
  <use  "usecasediagram.jpg" >
 File: AcceptanceTesting.png Graphic file (type QTm)
 
-<use  "AcceptanceTesting.png" > [67] [68]
+<use  "AcceptanceTesting.png" > [67] [68] [69]
 Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
 n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
  系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
-[69] [70]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[70]
+File: fig9.png Graphic file (type QTm)
+ <use  "fig9.png" >
+Underfull \vbox (badness 7451) has occurred while \output is active []
 
  [71]
-File: fig9.png Graphic file (type QTm)
-
-<use  "fig9.png" >
-Underfull \vbox (badness 1460) has occurred while \output is active []
-
- [72]
-[73] [74] [75] [76] [77] [78]) [79]
+[72] [73] [74] [75] [76]) [77] [78]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex [80
-
-
-
-]
+ (./chap/chap7.tex
 第七章
-) [81] [82
+) [79
+
+
+
+] [80
 
 
 ]
@@ -3031,7 +3027,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[83]
+[81]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3063,7 +3059,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[84]
+[82]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
@@ -3072,18 +3068,18 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 90.
 
-[85] [86
+[83] [84
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [87
+ (./chap/acknowledge.tex) [85
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [88
+ (./chap/originauth.tex [86
 
 
 
@@ -3096,7 +3092,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [89]
+) [87]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
 
@@ -3111,12 +3107,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48627 strings out of 493005
- 951804 string characters out of 6134596
- 1372674 words of memory out of 5000000
- 51829 multiletter control sequences out of 15000+600000
+ 48635 strings out of 493005
+ 952336 string characters out of 6134596
+ 1374675 words of memory out of 5000000
+ 51837 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10539b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (103 pages, 991964 bytes).
+Output written on thesis.xdv (101 pages, 994744 bytes).

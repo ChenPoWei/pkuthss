@@ -13,7 +13,7 @@
 	本論文設計讓商家能夠結合商品與RFID標籤，以達到快速建構與管理商品數據庫之系統，並且讓商家及顧客可以運用手機NFC功能來實際運作比特幣的行動支付流程。商家只需要掃描商品上的RFID標籤，即可快速建立交易清單，再利用NFC功能與顧客之行動裝置進行信息交換，輕鬆地將商家的收款地址以及交易資料傳送給顧客，收到資料後便能快速地以顧客之比特幣行動電子錢包付款，並將交易細項儲存下來，以便未來商家與顧客能夠快速查詢比特幣行動支付的交易記錄。
 	本系統主要是以完成區塊鏈之加密貨幣的收款監督系統為主要目標，本論文進而將積極利用自由軟體的利基：使用成本低、進入門檻低、開放原始碼、社群能力強、共通性及移植性強、資通安全性高等優勢來開發本論文收款監督系統的應用服務平台。本系統範圍包含建置下各項子系統如下：
 		\begin{enumerate}
-		\item 商家和商品信息管理子系統(Store and Merchandise Information Management Sub-System，SMIMSS)：本系統可以讓商家在進貨時，快速地將RFID標籤之識別碼與進貨商品資訊集成在一起，並且透過本系統新增、修改或刪除資料庫內部的資訊，包括產品名稱、詳細資訊，存貨數量等資訊，商家與顧客便可依照該資料庫取得當前商品資訊與狀態。不僅讓商家的存貨資訊更加清楚明瞭，也可以提供顧客更多的即時服務，圖\ref{model1}所示。
+		\item 商家和商品信息管理子系統（Store and Merchandise Information Management Sub-System，SMIMSS）：本系統可以讓商家在進貨時，快速地將RFID標籤之識別碼與進貨商品資訊集成在一起，並且透過本系統新增、修改或刪除資料庫內部的資訊，包括產品名稱、詳細資訊，存貨數量等資訊，商家與顧客便可依照該資料庫取得當前商品資訊與狀態。不僅讓商家的存貨資訊更加清楚明瞭，也可以提供顧客更多的即時服務，圖\ref{model1}所示。
 
 			\begin{figure}[!htbp]
 			\centering
@@ -23,7 +23,7 @@
 
 
 
-		\item 商家移動裝置收款及交易子系統(Store Mobile payment Collection and Transaction Sub-System，SMCTSS)：本系統使商家在結帳時，能夠以手機NFC功能掃描商品上的RFID 標籤，即可簡單地建立交易清單，並透過NFC與顧客手機碰觸，將交易清單以及商家之比特幣收款地址等等重要交易資訊一併傳遞給顧客，可以減短結帳的速度，使結帳效率大幅提升，圖\ref{model3}所示。
+		\item 商家移動裝置收款及交易子系統（Store Mobile payment Collection and Transaction Sub-System，SMCTSS）：本系統使商家在結帳時，能夠以手機NFC功能掃描商品上的RFID 標籤，即可簡單地建立交易清單，並透過NFC與顧客手機碰觸，將交易清單以及商家之比特幣收款地址等等重要交易資訊一併傳遞給顧客，可以減短結帳的速度，使結帳效率大幅提升，圖\ref{model3}所示。
 		 
 			\begin{figure}[!htbp]
 			\centering
@@ -32,7 +32,7 @@
 			\end{figure}
 
 
-		\item 客戶端行動支付和交易子系統(Client Mobile Payment and Transaction Sub-System，CMPTSS)：顧客在結帳時，不必再麻煩的拿出信用卡或是零錢包，只需要拿出手機讓職工以NFC將交易清單與比特幣地址轉送給自己，即可自動連結至比特幣電子錢包的應用程式當中，並且自動填妥相關資料，如:交易金額、收款地址等等與此同時也能將交易紀錄儲存於客戶端，以便日後顧客快速取得過往的交易紀錄，除此之外亦可讓廣大的民眾體驗加密貨幣與行動支付帶來的便利生活，圖\ref{model2}所示。
+		\item 客戶端行動支付和交易子系統（Client Mobile Payment and Transaction Sub-System，CMPTSS）：顧客在結帳時，不必再麻煩的拿出信用卡或是零錢包，只需要拿出手機讓職工以NFC將交易清單與比特幣地址轉送給自己，即可自動連結至比特幣電子錢包的應用程式當中，並且自動填妥相關資料，如:交易金額、收款地址等等與此同時也能將交易紀錄儲存於客戶端，以便日後顧客快速取得過往的交易紀錄，除此之外亦可讓廣大的民眾體驗加密貨幣與行動支付帶來的便利生活，圖\ref{model2}所示。
 			\begin{figure}[!htbp]
 			\centering
 			\includegraphics[width = 0.7\textwidth]{model2.jpg}
@@ -59,7 +59,7 @@
 		\item 商家可以自由地登錄帳戶並添加商家想要出售的產品信息，亦可透過職工管理添加修改刪除職工信息。
 	\end{enumerate}
 
-	具體的加密貨幣商家收銀金流監控系統運行過程如圖\ref{fig4}所示，以圖\ref{fig3}所設計出的系統架構進行擴增，首先需要與區塊鏈檢視器 (Blockchain Explorer)\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}對接，而之所以該監控系統需要與區塊鏈檢視器對接是為了能夠最直接的比對交易被記錄的成交狀況，能夠達到即時性以及正確性，倘若擔憂單方面的依賴相信區塊鏈檢視器的成果，亦可以使用多家區塊鏈檢視器進行交叉參考，以避免因為一家公司的錯誤所帶來的影響。區塊鏈檢視器的目的是為了能夠快速地準確地比對該筆交易的成交，做為整筆交易提出到結算的環節之一。
+	具體的加密貨幣商家收銀金流監控系統運行過程如圖\ref{fig4}所示，以圖\ref{fig3}所設計出的系統架構進行擴增，首先需要與區塊鏈檢視器 （Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}對接，而之所以該監控系統需要與區塊鏈檢視器對接是為了能夠最直接的比對交易被記錄的成交狀況，能夠達到即時性以及正確性，倘若擔憂單方面的依賴相信區塊鏈檢視器的成果，亦可以使用多家區塊鏈檢視器進行交叉參考，以避免因為一家公司的錯誤所帶來的影響。區塊鏈檢視器的目的是為了能夠快速地準確地比對該筆交易的成交，做為整筆交易提出到結算的環節之一。
 
 	\begin{figure}[!htbp]
 		\centering
@@ -84,7 +84,7 @@
 
 \section{實時BTMS架構與運作流程}
 
-		在BTMS的機制前提下，提出比特幣多重簽章算法實踐於政府端，將該方法稱為Government Green Address，將優化後的系統稱為比特幣的實時交易監督系統（Bitcoin Real-time Transaction Monitoring System，BRTMS），以下則將該實時系統簡稱為BRTMS，BRTMS與過去Green Address 比特幣錢包地址不同的在於Green Address生成需要生成兩把私鑰分別為用戶私鑰以及Green Address 機構的私鑰，並將兩把私鑰加以合併形成Green Address錢包地址。在用戶發起基於Green Address機制的比特幣交易時，用戶生成交易並使用數字簽名，再將該筆交易發送至Green Address機構進行下一個步驟的數字簽名，在這過程中完成Green Address機制交易必需依賴Green Address機構，且該機構位於海外，在封包傳輸上會有一定程度的延遲。為了提升國內用戶可以更快速地透過多重簽章技術提升交易速度，BRTMS將取代原有的Green Address機構，使得國內的用戶擁有更快的網路傳輸速度，更快的完成多重簽章算法簽名。\supercite{tanet}。 
+		在BTMS的機制前提下，提出比特幣多重簽章算法實踐於政府端，將該方法稱為Government Green Address，將優化後的系統稱為比特幣的實時交易監督系統（Bitcoin Real-time Transaction Monitoring System，BRTMS）\supercite{tanet}，以下則將該實時系統簡稱為BRTMS，BRTMS與過去Green Address 比特幣錢包地址不同的在於Green Address生成需要生成兩把私鑰分別為用戶私鑰以及Green Address 機構的私鑰，並將兩把私鑰加以合併形成Green Address錢包地址。在用戶發起基於Green Address機制的比特幣交易時，用戶生成交易並使用數字簽名，再將該筆交易發送至Green Address機構進行下一個步驟的數字簽名，在這過程中完成Green Address機制交易必需依賴Green Address機構，且該機構位於海外，在封包傳輸上會有一定程度的延遲。為了提升國內用戶可以更快速地透過多重簽章技術提升交易速度，BRTMS將取代原有的Green Address機構，使得國內的用戶擁有更快的網路傳輸速度，更快的完成多重簽章算法簽名。 
 
 本節將詳述本系統之商家註冊、Government Green Address錢包創建與驗證交易的運作流程與相關數據庫架構，如圖\ref{gabpcss}所示。
 

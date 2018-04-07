@@ -84,7 +84,7 @@
 				\resizebox{\textwidth}{!}{%
 				\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 				\hline
-				算法 & 安全性 & \begin{tabular}[c]{@{}c@{}}签名\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}私鑰\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}公鑰\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}簽名\\ (微秒)\end{tabular} & 簽名/秒 & \begin{tabular}[c]{@{}c@{}}验证\\ (微秒)\end{tabular} & 驗證/秒 \\ \hline
+				算法 & 安全性 & \begin{tabular}[c]{@{}c@{}}签名\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}私鑰\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}公鑰\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}簽名\\ (微秒）\end{tabular} & 簽名/秒 & \begin{tabular}[c]{@{}c@{}}验证\\ (微秒）\end{tabular} & 驗證/秒 \\ \hline
 				BLISS-0 & $<=$60bits & 3.3kb & 1.5kb & 3.3kb & 0.241 & 4k & 0.017 & 59k \\ \hline
 				BLISS-I & 128bits & 5.6kb & 2kb & 7kb & 0.124 & 8k & 0.03 & 33k \\ \hline
 				BLISS-II & 128bits & 5kb & 2kb & 7kb & 0.48 & 2k & 0.03 & 33k \\ \hline
@@ -101,7 +101,7 @@
 				\end{table}
 
 				\subsubsection{（三）哈希算法 SHA-256}
-				SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈數的不同，如表\ref{hashtable}所示。上述的參數差異皆由聯邦資訊處理標準(Federal Information Processing Standards，FIPS)中定義。表\ref{hashtable}中MD5不為SHA家族成員之一，但MD5為最早被廣泛使用的哈希算法，因此此表將其作為借鑒的標準。SHA-0為SHA家族中被最早提出的架構，輸出的長度為160 bits，而SHA-1提出後並無太大的變動。
+				SHA-256是SHA（Secure Hash Algorithm，FIPS 182-2）\supercite{DBLP:conf/fse/KhovratovichRS12}哈希算法的家族之一。SHA家族當中有著四大分支，分別為SHA-0、SHA-1、SHA-2和SHA-3。各種哈希算法的差異在於運算初始變數、算法所採用的運算子、接受的信息長度以及迴圈數的不同，如表\ref{hashtable}所示。上述的參數差異皆由聯邦資訊處理標準（Federal Information Processing Standards，FIPS）中定義。表\ref{hashtable}中MD5不為SHA家族成員之一，但MD5為最早被廣泛使用的哈希算法，因此此表將其作為借鑒的標準。SHA-0為SHA家族中被最早提出的架構，輸出的長度為160 bits，而SHA-1提出後並無太大的變動。
 				哈希算法的主要功能在於將信息或是檔案建⽴專屬的對應指紋，也就是哈希值，依照不同的算法設計，該指紋的輸出⾧度也略有不同，表\ref{hashtable}顯示了MD5與SHA 家族的輸出哈希值⾧度，而長度也意味著該指紋的組態空間所映射的大小。倘若有著不同的輸入，但映射到了相同的指紋，則將此現象稱之為碰撞。通常在信息安全領域中，只要發現該哈希算法存在著碰撞，就會被棄用。有些專家甚⾄會提早數年建議用戶盡早更換該哈希算法，並更換上新制定的哈希算法做應⽤。哈希算法的功能包括藉由生成哈希值進行檔案校驗、工作量證明算法設計以及區塊鏈中的哈希指針\supercite{Double-spendAttackModelswithTimeAdvantangeforBitcoin}。
 
 				\begin{table}[!htbp]
