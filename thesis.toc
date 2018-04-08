@@ -78,7 +78,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}系统模块设计}{47}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）用户注册与登录模块}{47}{subsubsection*.59}
+\contentsline {subsubsection}{（一）用户注册与登入模块}{47}{subsubsection*.59}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（二）商家产品管理模块}{49}{subsubsection*.62}
 \defcounter {refsection}{0}\relax 
