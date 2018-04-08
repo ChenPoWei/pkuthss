@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 00:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,6 +146,12 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2017/04/01 v2.4.9 Option configuration file (CTEX)
 )
+*************************************************
+* ctex warning: "deprecated-option"
+* 
+* Option `adobefonts' is deprecated.
+* Option `fontset=adobe' is set. It is better to use fontset option.
+*************************************************
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk12.clo
@@ -1108,63 +1114,217 @@ File: ctex-cs4size.clo 2017/04/01 v2.4.9 cs4size option (CTEX)
 . Defining command \CTeX with sig. '' on line 1437.
 .................................................
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
-File: ctex-fontset-mac.def 2017/04/01 v2.4.9 Mac OS X fonts definition (CTEX)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-adobe.d
+ef
+File: ctex-fontset-adobe.def 2017/04/01 v2.4.9 Adobe fonts definition (CTEX)
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeSongStd-Light" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'STSong' does not contain script 'CJK'.
+* Font 'AdobeSongStd-Light' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STSong_int=\count149
+\g__fontspec_family_AdobeSongStd-Light_int=\count149
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "STKaiti/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "STHeiti/I" (it probably doesn't exist).
+. Could not resolve font "AdobeKaitiStd-Regular/B" (it probably doesn't
+. exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "STSong/BI" (it probably doesn't exist).
+. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
+. exist).
 .................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeSongStd-Light/BI" (it probably doesn't exist).
+.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeSongStd-Light" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeSongStd-Light" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeHeitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeHeitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeKaitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeKaitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.98   }
+        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'STSong(0)' created for font 'STSong' with options
-. [Script={CJK},BoldFont={STHeiti},ItalicFont={STKaiti}].
+. Font family 'AdobeSongStd-Light(0)' created for font 'AdobeSongStd-Light'
+. with options
+. [Script={CJK},BoldFont={AdobeHeitiStd-Regular},ItalicFont={AdobeKaitiStd-Regu
+lar}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"STSong/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"STHeiti/OT"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->"STKaiti/OT"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.: <->"AdobeSongStd-Light/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"AdobeSongStd-Light/OT"
+. - 'bold' (bx/n) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
+. - 'italic' (m/it) with NFSS spec.: <->"AdobeKaitiStd-Regular/OT"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"AdobeKaitiStd-Regular/OT"
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \songti with sig. '' on line 48.
+. Defining command \songti with sig. '' on line 99.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \heiti with sig. '' on line 49.
+. Defining command \heiti with sig. '' on line 100.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fangsong with sig. '' on line 50.
+. Defining command \fangsong with sig. '' on line 101.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kaishu with sig. '' on line 51.
+. Defining command \kaishu with sig. '' on line 102.
 .................................................
 )) (/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2017/04/01 v2.4.9 Configuration file (CTEX)
@@ -1955,6 +2115,7 @@ File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
 Package hyperref Info: Option `unicode' set `true' on input line 4374.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/puenc.def
@@ -1982,7 +2143,7 @@ Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
 Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring ON on input line 6376.
 Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
@@ -2021,7 +2182,7 @@ tly
 *************************************************
 * xeCJK warning: "CJKfamily-redef"
 * 
-* Redefining CJKfamily `\CJKrmdefault' (STSong(0)).
+* Redefining CJKfamily `\CJKrmdefault' (AdobeSongStd-Light(0)).
 *************************************************
 \g__fontspec_family_SimSun_int=\count272
 .................................................
@@ -2369,10 +2530,6 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 42.
 
-
-LaTeX Warning: Unused global option(s):
-    [nocolorlinks].
-
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
 (./chap/chap6.aux) (./chap/chap7.aux) (./chap/acknowledge.aux)
@@ -2479,7 +2636,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2567,43 +2724,158 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 16.06pt on input line 50.
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeFangsongStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.50 ^^I\cleardoublepage
+                        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'STFangsong' does not contain script 'CJK'.
+* Font 'AdobeFangsongStd-Regular' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STFangsong_int=\count405
+\g__fontspec_family_AdobeFangsongStd-Regular_int=\count405
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "STFangsong/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "STFangsong/B" (it probably doesn't exist).
+. Could not resolve font "AdobeFangsongStd-Regular/BI" (it probably doesn't
+. exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "STFangsong/I" (it probably doesn't exist).
+. Could not resolve font "AdobeFangsongStd-Regular/B" (it probably doesn't
+. exist).
 .................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeFangsongStd-Regular/I" (it probably doesn't
+. exist).
+.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeFangsongStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.50 ^^I\cleardoublepage
+                        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeFangsongStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.50 ^^I\cleardoublepage
+                        
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'STFangsong(0)' created for font 'STFangsong' with options
-. [Script={CJK}].
+. Font family 'AdobeFangsongStd-Regular(0)' created for font
+. 'AdobeFangsongStd-Regular' with options [Script={CJK}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"STFangsong/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.: <->"AdobeFangsongStd-Regular/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"AdobeFangsongStd-Regular/OT"
 .................................................
+! Font TU/AdobeFangsongStd-Regular(0)/m/n/16.06=AdobeFangsongStd-Regular/OT at 
+16.06pt not loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.50 ^^I\cleardoublepage
+                        
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+Missing character: There is no 陈 in font nullfont!
+Missing character: There is no 伯 in font nullfont!
+Missing character: There is no 韦 in font nullfont!
 \pkuthss@tmp@linecount=\count406
 \pkuthss@tmp@linecount=\count407
+Missing character: There is no 软 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 微 in font nullfont!
+Missing character: There is no 电 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 院 in font nullfont!
 \pkuthss@tmp@linecount=\count408
+Missing character: There is no 软 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 工 in font nullfont!
+Missing character: There is no 程 in font nullfont!
+Missing character: There is no 专 in font nullfont!
+Missing character: There is no 业 in font nullfont!
 \pkuthss@tmp@linecount=\count409
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 挖 in font nullfont!
+Missing character: There is no 掘 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 务 in font nullfont!
+Missing character: There is no 智 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 向 in font nullfont!
 \pkuthss@tmp@linecount=\count410
+Missing character: There is no 李 in font nullfont!
+Missing character: There is no 杰 in font nullfont!
+Missing character: There is no 教 in font nullfont!
+Missing character: There is no 授 in font nullfont!
+Missing character: There is no 、 in font nullfont!
+Missing character: There is no 刘 in font nullfont!
+Missing character: There is no 京 in font nullfont!
+Missing character: There is no 讲 in font nullfont!
+Missing character: There is no 师 in font nullfont!
 \pkuthss@tmp@linecount=\count411
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 18.06749pt on input line 50.
@@ -2669,23 +2941,93 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 ] [2
 
 ]
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeHeitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.11 \begin{eabstract}
+                      
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 *************************************************
-* fontspec warning: "script-not-exist-latn"
+* fontspec warning: "script-not-exist"
 * 
-* Font 'STXihei' does not contain script 'CJK'.
-*  'Latin' script used instead.
+* Font 'AdobeHeitiStd-Regular' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STXihei_int=\count412
+\g__fontspec_family_AdobeHeitiStd-Regular_int=\count412
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "STHeiti/I" (it probably doesn't exist).
+. Could not resolve font "AdobeHeitiStd-Regular/BI" (it probably doesn't
+. exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "STXihei/I" (it probably doesn't exist).
+. Could not resolve font "AdobeHeitiStd-Regular/B" (it probably doesn't
+. exist).
 .................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
+. exist).
+.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeHeitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.11 \begin{eabstract}
+                      
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeHeitiStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.11 \begin{eabstract}
+                      
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 LaTeX Font Info:    Try loading font information for T1+qhv on input line 11.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -2697,18 +3039,13 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Script={CJK},BoldFont={STHeiti}].
+. Font family 'AdobeHeitiStd-Regular(0)' created for font
+. 'AdobeHeitiStd-Regular' with options [Script={CJK}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"STXihei/OT:script=latn;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"STHeiti/OT:script=latn;language=DFLT;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.:
-. <->"STXihei/BI/OT:script=latn;language=DFLT;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
 .................................................
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <18.06749> not available
 (Font)              Font shape `T1/qhv/b/n' tried instead on input line 11.
@@ -3599,9 +3936,9 @@ File: AcceptanceTesting.png Graphic file (type QTm)
 
 <use  "AcceptanceTesting.png" > [67] [68] [69]
 Overfull \hbox (15.12332pt too wide) in paragraph at lines 215--217
-[]\T1/ntxtlf/m/n/12.045 AT1 \TU/SimSun(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
-n/12.045 6.6[]\TU/SimSun(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
- 系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
+[]\T1/ntxtlf/m/n/12.045 AT1 \TU/SimSun(0)/m/n/12.045 测 试 用 例：| 表[][]\T1/ntxtlf/
+m/n/12.045 6.6[][]\TU/SimSun(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使
+ 用 子 系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
 [70]
@@ -3659,10 +3996,31 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.53937pt on input line 95.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! fontspec error: "font-not-found"
+! 
+! The font "AdobeFangsongStd-Regular" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.95 ^^I\printbibliography[heading = bibintoc]
+                                              
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| A font might not be found for many reasons.
+|  Check the spelling, where the font is installed etc. etc.
+| 
+|  When in doubt, ask someone for help!
+|...............................................
+
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'STFangsong' does not contain script 'CJK'.
+* Font 'AdobeFangsongStd-Regular' does not contain script 'CJK'.
 *************************************************
 LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 95.
 
@@ -3736,8 +4094,8 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 
 Overfull \hbox (12.55984pt too wide) in paragraph at lines 95--95
 []\T1/ntxtlf/m/n/10.53937 Android De-vel-op-ers Blog. \T1/ntxtlf/m/it/10.53937 
-Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
-/10.53937 https : / / android -[] developers .
+Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. [][]$\T1/ntxtt/m
+/n/10.53937 https : / / android -[] developers .
  []
 
 
@@ -3796,12 +4154,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48669 strings out of 493005
- 953294 string characters out of 6134596
- 1376126 words of memory out of 5000000
- 51855 multiletter control sequences out of 15000+600000
- 101777 words of font info for 135 fonts, out of 8000000 for 9000
+ 48653 strings out of 493005
+ 953232 string characters out of 6134596
+ 1376377 words of memory out of 5000000
+ 51854 multiletter control sequences out of 15000+600000
+ 101721 words of font info for 128 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10475b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 994832 bytes).
+Output written on thesis.xdv (101 pages, 1003432 bytes).
