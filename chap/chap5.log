@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  4 APR 2018 02:19
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  8 APR 2018 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,6 +1072,8 @@ Missing character: There is no 認 in font nullfont!
 Missing character: There is no 字 in font nullfont!
 Missing character: There is no 段 in font nullfont!
 Missing character: There is no 的 in font nullfont!
+Missing character: There is no 校 in font nullfont!
+Missing character: There is no 驗 in font nullfont!
 Missing character: There is no 值 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
@@ -1370,6 +1372,7 @@ Missing character: There is no 9 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no 校 in font nullfont!
 Missing character: There is no 驗 in font nullfont!
@@ -1403,7 +1406,7 @@ Missing character: There is no 表 in font nullfont!
 <write> ...ing: Reference `user' on page \thepage 
                                                   \space undefined\on@line .^^J
 l.77 ^^I^^I\item 用戶信息表：表\ref{user}
-                                                存儲所有使用者信息�...
+                                                存儲所有用戶信息，�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1417,9 +1420,8 @@ Missing character: There is no 存 in font nullfont!
 Missing character: There is no 儲 in font nullfont!
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 有 in font nullfont!
-Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no ， in font nullfont!
@@ -1446,9 +1448,8 @@ Missing character: There is no 帳 in font nullfont!
 Missing character: There is no 號 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 而 in font nullfont!
-Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 密 in font nullfont!
 Missing character: There is no 碼 in font nullfont!
 Missing character: There is no 則 in font nullfont!
@@ -1754,6 +1755,7 @@ Missing character: There is no 用 in font nullfont!
 Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 編 in font nullfont!
 Missing character: There is no 號 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 編 in font nullfont!
@@ -2186,9 +2188,8 @@ Missing character: There is no 共 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 三 in font nullfont!
 Missing character: There is no 種 in font nullfont!
-Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
@@ -2208,11 +2209,11 @@ Missing character: There is no 先 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no 戶 in font nullfont!
-Missing character: There is no 登 in font nullfont!
-Missing character: There is no 入 in font nullfont!
-Missing character: There is no 與 in font nullfont!
 Missing character: There is no 註 in font nullfont!
 Missing character: There is no 冊 in font nullfont!
+Missing character: There is no 與 in font nullfont!
+Missing character: There is no 登 in font nullfont!
+Missing character: There is no 入 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no ， in font nullfont!
@@ -2246,8 +2247,8 @@ Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 、 in font nullfont!
-Missing character: There is no 顧 in font nullfont!
-Missing character: There is no 客 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 管 in font nullfont!
@@ -2255,8 +2256,8 @@ Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 和 in font nullfont!
-Missing character: There is no 商 in font nullfont!
-Missing character: There is no 家 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
+Missing character: There is no 客 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 管 in font nullfont!
@@ -2350,9 +2351,9 @@ Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 皆 in font nullfont!
 Missing character: There is no 為 in font nullfont!
-Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 皆 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 使 in font nullfont!
@@ -2567,6 +2568,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ( in font nullfont!
@@ -2626,7 +2628,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.135 ^^I^^I\includegraphics
-                            [width = 0.9\textwidth]{c3.jpg}
+                            [width = 1\textwidth]{c3.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2640,14 +2642,12 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.135 ...^I\includegraphics[width = 0.9\textwidth]
-                                                  {c3.jpg}
+l.135 ^^I^^I\includegraphics[width = 1\textwidth]
+                                                 {c3.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2655,8 +2655,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.135 ...^I\includegraphics[width = 0.9\textwidth]
-                                                  {c3.jpg}
+l.135 ^^I^^I\includegraphics[width = 1\textwidth]
+                                                 {c3.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2919,9 +2919,8 @@ Missing character: There is no 為 in font nullfont!
 Missing character: There is no 了 in font nullfont!
 Missing character: There is no 提 in font nullfont!
 Missing character: There is no 升 in font nullfont!
-Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 密 in font nullfont!
 Missing character: There is no 碼 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -2930,9 +2929,8 @@ Missing character: There is no 安 in font nullfont!
 Missing character: There is no 全 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 將 in font nullfont!
-Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
-Missing character: There is no 者 in font nullfont!
+Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 密 in font nullfont!
 Missing character: There is no 碼 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -3156,7 +3154,7 @@ Missing character: There is no 過 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
 l.160 \subsubsection
-                    {（二）產品管理模塊}
+                    {（二）商家產品管理模塊}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3166,6 +3164,8 @@ and I'll forget about whatever was undefined.
 Missing character: There is no （ in font nullfont!
 Missing character: There is no 二 in font nullfont!
 Missing character: There is no ） in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
 Missing character: There is no 產 in font nullfont!
 Missing character: There is no 品 in font nullfont!
 Missing character: There is no 管 in font nullfont!
@@ -3182,7 +3182,7 @@ Missing character: There is no 要 in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 本 in font nullfont!
-Missing character: There is no 身 in font nullfont!
+Missing character: There is no ⾝ in font nullfont!
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 需 in font nullfont!
 Missing character: There is no 販 in font nullfont!
@@ -3190,7 +3190,7 @@ Missing character: There is no 售 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 品 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 在 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
@@ -3198,8 +3198,8 @@ Missing character: There is no 完 in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 註 in font nullfont!
 Missing character: There is no 冊 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 帳 in font nullfont!
 Missing character: There is no 號 in font nullfont!
 Missing character: There is no 並 in font nullfont!
@@ -3224,7 +3224,7 @@ Missing character: There is no 產 in font nullfont!
 Missing character: There is no 品 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 近 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no ⼀ in font nullfont!
 Missing character: There is no 步 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -3304,17 +3304,18 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 四 in font nullfont!
 Missing character: There is no 個 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 需 in font nullfont!
 Missing character: There is no 要 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 現 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -3335,11 +3336,11 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 產 in font nullfont!
@@ -3369,11 +3370,11 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 產 in font nullfont!
 Missing character: There is no 品 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -3413,7 +3414,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 其 in font nullfont!
@@ -3511,7 +3512,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 向 in font nullfont!
@@ -3525,11 +3526,11 @@ Missing character: There is no 表 in font nullfont!
 Missing character: There is no 取 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 與 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
@@ -3580,8 +3581,9 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -3600,8 +3602,9 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -3624,7 +3627,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
@@ -3634,6 +3637,7 @@ Missing character: There is no 增 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 修 in font nullfont!
 Missing character: There is no 改 in font nullfont!
+Missing character: There is no 、 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no 刪 in font nullfont!
@@ -3669,7 +3673,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 向 in font nullfont!
@@ -3682,13 +3686,13 @@ Missing character: There is no 類 in font nullfont!
 Missing character: There is no 請 in font nullfont!
 Missing character: There is no 求 in font nullfont!
 Missing character: There is no 與 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -3698,12 +3702,12 @@ Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 160--163
+Overfull \hbox (20.0pt too wide) in paragraph at lines 160--162
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 160--163
+Overfull \hbox (10.86pt too wide) in paragraph at lines 160--162
 []
  []
 
@@ -3714,7 +3718,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 ^^I\begin{figure}
+l.163 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3728,7 +3732,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.166 ^^I^^I\includegraphics
+l.165 ^^I^^I\includegraphics
                             [width = 0.9\textwidth]{c2.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3749,7 +3753,7 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.166 ...^I\includegraphics[width = 0.9\textwidth]
+l.165 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {c2.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3758,7 +3762,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.166 ...^I\includegraphics[width = 0.9\textwidth]
+l.165 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {c2.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -3781,7 +3785,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 ^^I^^I\caption
+l.166 ^^I^^I\caption
                     {商家產品管理類圖}\label{c2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3801,14 +3805,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 ^^I\end{figure}
+l.167 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 164--169
+Overfull \hbox (20.0pt too wide) in paragraph at lines 163--168
 []
  []
 
@@ -3816,7 +3820,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `time3' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.170 ^^I圖\ref{time3}
+l.169 ^^I圖\ref{time3}
                        為商家產品管理時序圖，以下為流程說�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3825,7 +3829,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `time3' on page  undefined on input line 170.
+LaTeX Warning: Reference `time3' on page  undefined on input line 169.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 商 in font nullfont!
@@ -3847,7 +3851,7 @@ Missing character: There is no 說 in font nullfont!
 Missing character: There is no 明 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (30.86pt too wide) in paragraph at lines 170--171
+Overfull \hbox (30.86pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
@@ -3858,7 +3862,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 ^^I\begin{figure}
+l.171 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3872,7 +3876,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.174 ^^I^^I\includegraphics
+l.173 ^^I^^I\includegraphics
                             [width = 0.9\textwidth]{time3.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3893,7 +3897,7 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.174 ...^I\includegraphics[width = 0.9\textwidth]
+l.173 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {time3.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3902,7 +3906,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.174 ...^I\includegraphics[width = 0.9\textwidth]
+l.173 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {time3.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -3928,7 +3932,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 ^^I^^I\caption
+l.174 ^^I^^I\caption
                     {商家產品管理時序圖}\label{time3}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3949,19 +3953,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ^^I\end{figure}
+l.175 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 172--177
+Overfull \hbox (20.0pt too wide) in paragraph at lines 171--176
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 178--178
+Overfull \hbox (20.0pt too wide) in paragraph at lines 177--177
 [] 
  []
 
@@ -4166,7 +4170,7 @@ Missing character: There is no 。 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 確 in font nullfont!
 Missing character: There is no 認 in font nullfont!
-Missing character: There is no 預 in font nullfont!
+Missing character: There is no 欲 in font nullfont!
 Missing character: There is no 修 in font nullfont!
 Missing character: There is no 改 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -4367,7 +4371,7 @@ Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
-l.195 \subsubsection
+l.194 \subsubsection
                     {（三）職工管理模塊}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4389,20 +4393,20 @@ Missing character: There is no 家 in font nullfont!
 Missing character: There is no 需 in font nullfont!
 Missing character: There is no 要 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 行 in font nullfont!
+Missing character: There is no ⾏ in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 運 in font nullfont!
 Missing character: There is no 營 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 在 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 完 in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 政 in font nullfont!
@@ -4416,9 +4420,9 @@ Missing character: There is no 便 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
@@ -4428,8 +4432,8 @@ Missing character: There is no 透 in font nullfont!
 Missing character: There is no 過 in font nullfont!
 Missing character: There is no 提 in font nullfont!
 Missing character: There is no 交 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 編 in font nullfont!
 Missing character: There is no 號 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -4448,7 +4452,7 @@ Missing character: There is no 及 in font nullfont!
 Missing character: There is no 刪 in font nullfont!
 Missing character: There is no 除 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 。 in font nullfont!
@@ -4456,8 +4460,8 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...rning: Reference `c1' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.196 ...改以及刪除職工信息。圖\ref{c1}
-                                                  為職工管理模塊類�...
+l.195 ...改以及刪除職⼯信息。圖\ref{c1}
+                                                  為職⼯管理模塊類�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4465,11 +4469,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `c1' on page  undefined on input line 196.
+LaTeX Warning: Reference `c1' on page  undefined on input line 195.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
@@ -4498,24 +4502,28 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 四 in font nullfont!
 Missing character: There is no 種 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 前 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 種 in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 與 in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -4534,25 +4542,25 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 合 in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -4572,13 +4580,13 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 編 in font nullfont!
 Missing character: There is no 號 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -4592,9 +4600,18 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+Missing character: There is no 而 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 四 in font nullfont!
+Missing character: There is no 種 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no U in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -4617,8 +4634,8 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no 類 in font nullfont!
 Missing character: There is no 提 in font nullfont!
 Missing character: There is no 取 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 關 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -4699,7 +4716,7 @@ Missing character: There is no 類 in font nullfont!
 Missing character: There is no 需 in font nullfont!
 Missing character: There is no 要 in font nullfont!
 Missing character: There is no 使 in font nullfont!
-Missing character: There is no 用 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -4710,7 +4727,7 @@ Missing character: There is no 類 in font nullfont!
 Missing character: There is no 修 in font nullfont!
 Missing character: There is no 改 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 表 in font nullfont!
@@ -4770,7 +4787,9 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
@@ -4785,7 +4804,7 @@ Missing character: There is no 及 in font nullfont!
 Missing character: There is no 刪 in font nullfont!
 Missing character: There is no 除 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -4814,7 +4833,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 取 in font nullfont!
@@ -4832,18 +4851,18 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 195--197
+Overfull \hbox (20.0pt too wide) in paragraph at lines 194--196
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 195--197
-[][][][] 
+Overfull \hbox (10.86pt too wide) in paragraph at lines 194--196
+[]
  []
 
 
@@ -4853,7 +4872,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.198 ^^I\begin{figure}
+l.197 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4867,7 +4886,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.200 ^^I^^I\includegraphics
+l.199 ^^I^^I\includegraphics
                             [width = 0.8\textwidth]{c1.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4888,7 +4907,7 @@ Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.200 ...^I\includegraphics[width = 0.8\textwidth]
+l.199 ...^I\includegraphics[width = 0.8\textwidth]
                                                   {c1.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4897,7 +4916,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.200 ...^I\includegraphics[width = 0.8\textwidth]
+l.199 ...^I\includegraphics[width = 0.8\textwidth]
                                                   {c1.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -4920,7 +4939,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 ^^I^^I\caption
+l.200 ^^I^^I\caption
                     {職工管理模塊類圖}\label{c1}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4940,14 +4959,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 ^^I\end{figure}
+l.201 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 198--203
+Overfull \hbox (20.0pt too wide) in paragraph at lines 197--202
 []
  []
 
@@ -4955,7 +4974,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `time2' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.206 ^^I圖\ref{time2}
+l.205 ^^I圖\ref{time2}
                        為商家職工管理時序圖，以下為流程說�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4964,7 +4983,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `time2' on page  undefined on input line 206.
+LaTeX Warning: Reference `time2' on page  undefined on input line 205.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 商 in font nullfont!
@@ -4986,7 +5005,7 @@ Missing character: There is no 說 in font nullfont!
 Missing character: There is no 明 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (30.86pt too wide) in paragraph at lines 206--207
+Overfull \hbox (30.86pt too wide) in paragraph at lines 205--206
 [][] 
  []
 
@@ -4997,7 +5016,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 ^^I\begin{figure}
+l.207 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5011,7 +5030,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.210 ^^I^^I\includegraphics
+l.209 ^^I^^I\includegraphics
                             [width = 0.9\textwidth]{time2.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5032,7 +5051,7 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.210 ...^I\includegraphics[width = 0.9\textwidth]
+l.209 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {time2.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5041,7 +5060,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.210 ...^I\includegraphics[width = 0.9\textwidth]
+l.209 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {time2.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -5067,7 +5086,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.211 ^^I^^I\caption
+l.210 ^^I^^I\caption
                     {商家職工管理時序圖}\label{time2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5088,19 +5107,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.212 ^^I\end{figure}
+l.211 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 208--213
+Overfull \hbox (20.0pt too wide) in paragraph at lines 207--212
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 214--214
+Overfull \hbox (20.0pt too wide) in paragraph at lines 213--213
 [] 
  []
 
@@ -5281,7 +5300,7 @@ Missing character: There is no 編 in font nullfont!
 Missing character: There is no 號 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
-Missing character: There is no 預 in font nullfont!
+Missing character: There is no 欲 in font nullfont!
 Missing character: There is no 添 in font nullfont!
 Missing character: There is no 加 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -5380,7 +5399,7 @@ Missing character: There is no 完 in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
-l.228 \subsubsection
+l.227 \subsubsection
                     {（四）商家交易管理模塊}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5400,8 +5419,8 @@ Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 在 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 完 in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 註 in font nullfont!
@@ -5413,35 +5432,36 @@ Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 將 in font nullfont!
 Missing character: There is no 該 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 加 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 公 in font nullfont!
 Missing character: There is no 司 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 後 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 透 in font nullfont!
 Missing character: There is no 過 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 帳 in font nullfont!
 Missing character: There is no 號 in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
-Missing character: There is no 教 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
@@ -5457,20 +5477,20 @@ Missing character: There is no 裝 in font nullfont!
 Missing character: There is no 置 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 應 in font nullfont!
-Missing character: There is no 用 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
 Missing character: There is no 程 in font nullfont!
 Missing character: There is no 序 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 在 in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no 本 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 後 in font nullfont!
 Missing character: There is no 會 in font nullfont!
-Missing character: There is no 自 in font nullfont!
+Missing character: There is no ⾃ in font nullfont!
 Missing character: There is no 動 in font nullfont!
 Missing character: There is no 加 in font nullfont!
 Missing character: There is no 載 in font nullfont!
@@ -5486,13 +5506,13 @@ Missing character: There is no 息 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 製 in font nullfont!
 Missing character: There is no 成 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no ⼀ in font nullfont!
 Missing character: There is no 個 in font nullfont!
 Missing character: There is no 基 in font nullfont!
 Missing character: There is no 於 in font nullfont!
@@ -5520,23 +5540,23 @@ Missing character: There is no R in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
+Missing character: There is no 標 in font nullfont!
+Missing character: There is no 籤 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 產 in font nullfont!
 Missing character: There is no 品 in font nullfont!
-Missing character: There is no 標 in font nullfont!
-Missing character: There is no 籤 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 創 in font nullfont!
 Missing character: There is no 建 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no 給 in font nullfont!
+Missing character: There is no 後 in font nullfont!
 Missing character: There is no 等 in font nullfont!
 Missing character: There is no 待 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 管 in font nullfont!
@@ -5559,6 +5579,22 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 家 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 塊 in font nullfont!
+Missing character: There is no 類 in font nullfont!
+Missing character: There is no 圖 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 在 in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -5592,13 +5628,14 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 五 in font nullfont!
 Missing character: There is no 個 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -5627,13 +5664,13 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -5653,11 +5690,11 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -5674,7 +5711,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 檢 in font nullfont!
@@ -5693,15 +5730,15 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no 透 in font nullfont!
 Missing character: There is no 過 in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no 傳 in font nullfont!
 Missing character: There is no 輸 in font nullfont!
 Missing character: There is no 協 in font nullfont!
@@ -5716,7 +5753,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no S in font nullfont!
@@ -5743,7 +5780,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 向 in font nullfont!
@@ -5756,13 +5793,13 @@ Missing character: There is no 類 in font nullfont!
 Missing character: There is no 取 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 與 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -5802,7 +5839,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 向 in font nullfont!
@@ -5822,13 +5859,13 @@ Missing character: There is no 類 in font nullfont!
 Missing character: There is no 請 in font nullfont!
 Missing character: There is no 求 in font nullfont!
 Missing character: There is no 與 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -5870,7 +5907,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 向 in font nullfont!
@@ -5883,17 +5920,17 @@ Missing character: There is no 類 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 請 in font nullfont!
 Missing character: There is no 與 in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 。 in font nullfont!
@@ -5913,13 +5950,13 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 兩 in font nullfont!
 Missing character: There is no 個 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
-Missing character: There is no 分 in font nullfont!
-Missing character: There is no 別 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -5935,7 +5972,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 使 in font nullfont!
 Missing character: There is no 得 in font nullfont!
@@ -5957,8 +5994,7 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no 標 in font nullfont!
 Missing character: There is no 籤 in font nullfont!
-Missing character: There is no 以 in font nullfont!
-Missing character: There is no 及 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -5975,13 +6011,13 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 使 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 職 in font nullfont!
-Missing character: There is no 工 in font nullfont!
-Missing character: There is no 再 in font nullfont!
+Missing character: There is no ⼯ in font nullfont!
+Missing character: There is no 在 in font nullfont!
 Missing character: There is no 創 in font nullfont!
 Missing character: There is no 建 in font nullfont!
 Missing character: There is no 完 in font nullfont!
@@ -6015,8 +6051,9 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 兩 in font nullfont!
 Missing character: There is no 個 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
 Missing character: There is no 為 in font nullfont!
@@ -6041,10 +6078,11 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
-Missing character: There is no 以 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 及 in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6055,7 +6093,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 檢 in font nullfont!
@@ -6094,11 +6132,12 @@ Missing character: There is no 被 in font nullfont!
 Missing character: There is no 修 in font nullfont!
 Missing character: There is no 改 in font nullfont!
 Missing character: There is no 為 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no " in font nullfont!
 Missing character: There is no 則 in font nullfont!
-Missing character: There is no 意 in font nullfont!
-Missing character: There is no 味 in font nullfont!
-Missing character: There is no 著 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 示 in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 筆 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -6107,7 +6146,7 @@ Missing character: There is no 已 in font nullfont!
 Missing character: There is no 經 in font nullfont!
 Missing character: There is no 被 in font nullfont!
 Missing character: There is no 寫 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 區 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 鏈 in font nullfont!
@@ -6122,7 +6161,7 @@ Missing character: There is no 做 in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no 驗 in font nullfont!
 Missing character: There is no 證 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -6135,7 +6174,7 @@ Missing character: There is no 被 in font nullfont!
 Missing character: There is no 存 in font nullfont!
 Missing character: There is no 儲 in font nullfont!
 Missing character: There is no 在 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 區 in font nullfont!
@@ -6147,7 +6186,7 @@ Missing character: There is no ， in font nullfont!
 Missing character: There is no 必 in font nullfont!
 Missing character: There is no 須 in font nullfont!
 Missing character: There is no 使 in font nullfont!
-Missing character: There is no 用 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -6183,7 +6222,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 取 in font nullfont!
 Missing character: There is no 得 in font nullfont!
@@ -6215,13 +6254,13 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 取 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 筆 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -6243,7 +6282,7 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
 Missing character: There is no 調 in font nullfont!
-Missing character: There is no 用 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -6253,10 +6292,9 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
-Missing character: There is no 調 in font nullfont!
-Missing character: There is no 用 in font nullfont!
+Missing character: There is no 對 in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -6277,7 +6315,6 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no 類 in font nullfont!
 Missing character: There is no 檢 in font nullfont!
 Missing character: There is no 查 in font nullfont!
-Missing character: There is no ， in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 筆 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -6287,7 +6324,7 @@ Missing character: There is no 否 in font nullfont!
 Missing character: There is no 已 in font nullfont!
 Missing character: There is no 經 in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 了 in font nullfont!
 Missing character: There is no 區 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
@@ -6298,7 +6335,7 @@ Missing character: There is no 果 in font nullfont!
 Missing character: There is no 已 in font nullfont!
 Missing character: There is no 經 in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 區 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 鏈 in font nullfont!
@@ -6318,19 +6355,21 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
+Missing character: There is no 值 in font nullfont!
 Missing character: There is no 修 in font nullfont!
 Missing character: There is no 改 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no " in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no " in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 值 in font nullfont!
 Missing character: There is no 得 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no ⼀ in font nullfont!
 Missing character: There is no 提 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 是 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 在 in font nullfont!
 Missing character: There is no 此 in font nullfont!
 Missing character: There is no 將 in font nullfont!
@@ -6339,6 +6378,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
+Missing character: There is no 值 in font nullfont!
 Missing character: There is no 修 in font nullfont!
 Missing character: There is no 改 in font nullfont!
 Missing character: There is no 為 in font nullfont!
@@ -6348,30 +6388,31 @@ Missing character: There is no " in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 標 in font nullfont!
 Missing character: There is no 準 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 該 in font nullfont!
 Missing character: There is no 筆 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 進 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no 區 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 鏈 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 時 in font nullfont!
 Missing character: There is no 間 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 因 in font nullfont!
-Missing character: There is no 為 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 於 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 區 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 鏈 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 生 in font nullfont!
+Missing character: There is no ⽣ in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 速 in font nullfont!
 Missing character: There is no 度 in font nullfont!
@@ -6379,13 +6420,14 @@ Missing character: There is no 平 in font nullfont!
 Missing character: There is no 均 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 每 in font nullfont!
-Missing character: There is no 十 in font nullfont!
+Missing character: There is no ⼗ in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 鐘 in font nullfont!
-Missing character: There is no 一 in font nullfont!
+Missing character: There is no ⼀ in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 這 in font nullfont!
+Missing character: There is no 將 in font nullfont!
 Missing character: There is no 使 in font nullfont!
 Missing character: There is no 得 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -6400,7 +6442,7 @@ Missing character: There is no 即 in font nullfont!
 Missing character: There is no 時 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 228--231
+Overfull \hbox (20.0pt too wide) in paragraph at lines 227--229
 []
  []
 
@@ -6411,7 +6453,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ^^I\begin{figure}
+l.231 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6425,7 +6467,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.234 ^^I^^I\includegraphics
+l.233 ^^I^^I\includegraphics
                             [width = 0.9\textwidth]{c5.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6446,7 +6488,7 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.234 ...^I\includegraphics[width = 0.9\textwidth]
+l.233 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {c5.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6455,7 +6497,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.234 ...^I\includegraphics[width = 0.9\textwidth]
+l.233 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {c5.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -6478,7 +6520,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 ^^I^^I\caption
+l.234 ^^I^^I\caption
                     {商家交易管理模塊類圖}\label{c5}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6500,14 +6542,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236 ^^I\end{figure}
+l.235 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 232--237
+Overfull \hbox (20.0pt too wide) in paragraph at lines 231--236
 []
  []
 
@@ -6515,7 +6557,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `time4' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.239 圖\ref{time4}
+l.238 圖\ref{time4}
                     為商家交易管理時序圖，以下為流程說明：
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6524,7 +6566,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `time4' on page  undefined on input line 239.
+LaTeX Warning: Reference `time4' on page  undefined on input line 238.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 商 in font nullfont!
@@ -6546,7 +6588,7 @@ Missing character: There is no 說 in font nullfont!
 Missing character: There is no 明 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (30.86pt too wide) in paragraph at lines 239--240
+Overfull \hbox (30.86pt too wide) in paragraph at lines 238--239
 [][] 
  []
 
@@ -6557,7 +6599,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.241 ^^I\begin{figure}
+l.240 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6571,7 +6613,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.243 ^^I^^I\includegraphics
+l.242 ^^I^^I\includegraphics
                             [width = 1\textwidth]{time4.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6590,7 +6632,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.243 ^^I^^I\includegraphics[width = 1\textwidth]
+l.242 ^^I^^I\includegraphics[width = 1\textwidth]
                                                  {time4.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6599,7 +6641,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.243 ^^I^^I\includegraphics[width = 1\textwidth]
+l.242 ^^I^^I\includegraphics[width = 1\textwidth]
                                                  {time4.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -6625,7 +6667,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244 ^^I^^I\caption
+l.243 ^^I^^I\caption
                     {商家交易管理時序圖}\label{time4}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6646,19 +6688,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.245 ^^I\end{figure}
+l.244 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 241--246
+Overfull \hbox (20.0pt too wide) in paragraph at lines 240--245
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 247--247
+Overfull \hbox (20.0pt too wide) in paragraph at lines 246--246
 [] 
  []
 
@@ -6922,6 +6964,8 @@ Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
+Missing character: There is no 管 in font nullfont!
+Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 。 in font nullfont!
@@ -6941,8 +6985,6 @@ Missing character: There is no 息 in font nullfont!
 Missing character: There is no 表 in font nullfont!
 Missing character: There is no 請 in font nullfont!
 Missing character: There is no 求 in font nullfont!
-Missing character: There is no 商 in font nullfont!
-Missing character: There is no 家 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 比 in font nullfont!
@@ -7264,7 +7306,7 @@ Missing character: There is no 寫 in font nullfont!
 Missing character: There is no 入 in font nullfont!
 Missing character: There is no 區 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
-Missing character: There is no 連 in font nullfont!
+Missing character: There is no 鏈 in font nullfont!
 Missing character: There is no 則 in font nullfont!
 Missing character: There is no 將 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -7275,6 +7317,7 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
@@ -7303,6 +7346,7 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no 已 in font nullfont!
 Missing character: There is no 經 in font nullfont!
@@ -7343,11 +7387,6 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 認 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no 驗 in font nullfont!
-Missing character: There is no 證 in font nullfont!
 Missing character: There is no 需 in font nullfont!
 Missing character: There is no 要 in font nullfont!
 Missing character: There is no 等 in font nullfont!
@@ -7415,6 +7454,13 @@ Missing character: There is no 因 in font nullfont!
 Missing character: There is no 此 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 了 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no 中 in font nullfont!
 Missing character: There is no 改 in font nullfont!
 Missing character: There is no 善 in font nullfont!
 Missing character: There is no 此 in font nullfont!
@@ -7481,7 +7527,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...rning: Reference `c7' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.269 ...，縮短為一秒鐘左右。圖\ref{c7}
+l.268 ...，縮短為一秒鐘左右。圖\ref{c7}
                                                   為商家Government Green ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7490,7 +7536,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `c7' on page  undefined on input line 269.
+LaTeX Warning: Reference `c7' on page  undefined on input line 268.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 商 in font nullfont!
@@ -7847,10 +7893,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no 地 in font nullfont!
 Missing character: There is no 址 in font nullfont!
 Missing character: There is no 向 in font nullfont!
-Missing character: There is no 交 in font nullfont!
-Missing character: There is no 易 in font nullfont!
-Missing character: There is no 信 in font nullfont!
-Missing character: There is no 息 in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no x in font nullfont!
 Missing character: There is no 類 in font nullfont!
 Missing character: There is no 查 in font nullfont!
 Missing character: There is no 詢 in font nullfont!
@@ -7863,6 +7907,8 @@ Missing character: There is no 及 in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no x in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -7875,8 +7921,8 @@ Missing character: There is no 法 in font nullfont!
 Missing character: There is no 檢 in font nullfont!
 Missing character: There is no 測 in font nullfont!
 Missing character: There is no 該 in font nullfont!
-Missing character: There is no 比 in font nullfont!
-Missing character: There is no 較 in font nullfont!
+Missing character: There is no 筆 in font nullfont!
+Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 否 in font nullfont!
@@ -7892,6 +7938,7 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no 值 in font nullfont!
 Missing character: There is no 已 in font nullfont!
@@ -7905,8 +7952,13 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no " in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (30.86pt too wide) in paragraph at lines 269--270
-[][]
+Overfull \hbox (20.0pt too wide) in paragraph at lines 268--269
+[]
+ []
+
+
+Overfull \hbox (10.86pt too wide) in paragraph at lines 268--269
+[]
  []
 
 
@@ -7916,7 +7968,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.273 ^^I\begin{figure}
+l.272 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7930,8 +7982,8 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.275 ^^I^^I\includegraphics
-                            [width = 0.7\textwidth]{c7.jpg}
+l.274 ^^I^^I\includegraphics
+                            [width = 0.8\textwidth]{c7.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7947,11 +7999,11 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.275 ...^I\includegraphics[width = 0.7\textwidth]
+l.274 ...^I\includegraphics[width = 0.8\textwidth]
                                                   {c7.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -7960,7 +8012,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.275 ...^I\includegraphics[width = 0.7\textwidth]
+l.274 ...^I\includegraphics[width = 0.8\textwidth]
                                                   {c7.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -7983,7 +8035,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ^^I^^I\caption
+l.275 ^^I^^I\caption
                     {商家Government Green Address交易管理模塊類圖}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -8028,19 +8080,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.277 ^^I\end{figure}
+l.276 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 273--278
+Overfull \hbox (20.0pt too wide) in paragraph at lines 272--277
 []
  []
 
 ! Undefined control sequence.
-l.281 \subsubsection
+l.280 \subsubsection
                     {（五）顧客交易管理模塊}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8160,7 +8212,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...rning: Reference `c4' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.282 ...詳細的商家商品信息。圖\ref{c4}
+l.281 ...詳細的商家商品信息。圖\ref{c4}
                                                   為顧客交易管理模�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8169,7 +8221,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `c4' on page  undefined on input line 282.
+LaTeX Warning: Reference `c4' on page  undefined on input line 281.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 顧 in font nullfont!
@@ -8210,21 +8262,22 @@ Missing character: There is no 包 in font nullfont!
 Missing character: There is no 括 in font nullfont!
 Missing character: There is no 六 in font nullfont!
 Missing character: There is no 個 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
+Missing character: There is no ， in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 別 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 該 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 擁 in font nullfont!
 Missing character: There is no 有 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -8247,7 +8300,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 取 in font nullfont!
@@ -8288,7 +8341,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 檢 in font nullfont!
@@ -8312,7 +8365,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no 欄 in font nullfont!
 Missing character: There is no 位 in font nullfont!
-Missing character: There is no 得 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 值 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 否 in font nullfont!
@@ -8320,7 +8373,7 @@ Missing character: There is no 已 in font nullfont!
 Missing character: There is no 經 in font nullfont!
 Missing character: There is no 被 in font nullfont!
 Missing character: There is no 填 in font nullfont!
-Missing character: There is no 入 in font nullfont!
+Missing character: There is no ⼊ in font nullfont!
 Missing character: There is no " in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no " in font nullfont!
@@ -8332,7 +8385,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 發 in font nullfont!
@@ -8344,7 +8397,7 @@ Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
-Missing character: There is no 至 in font nullfont!
+Missing character: There is no ⾄ in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -8367,7 +8420,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 透 in font nullfont!
@@ -8419,9 +8472,9 @@ Missing character: There is no 以 in font nullfont!
 Missing character: There is no 及 in font nullfont!
 Missing character: There is no 發 in font nullfont!
 Missing character: There is no 送 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 地 in font nullfont!
@@ -8432,14 +8485,15 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 最 in font nullfont!
 Missing character: There is no 後 in font nullfont!
+Missing character: There is no 是 in font nullfont!
 Missing character: There is no 控 in font nullfont!
 Missing character: There is no 制 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 錢 in font nullfont!
@@ -8461,7 +8515,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no C in font nullfont!
@@ -8484,7 +8538,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 以 in font nullfont!
@@ -8528,12 +8582,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 提 in font nullfont!
 Missing character: There is no 供 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 向 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
@@ -8543,8 +8597,8 @@ Missing character: There is no 表 in font nullfont!
 Missing character: There is no 查 in font nullfont!
 Missing character: There is no 找 in font nullfont!
 Missing character: There is no 與 in font nullfont!
-Missing character: There is no 用 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
+Missing character: There is no ⼾ in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
 Missing character: There is no 信 in font nullfont!
@@ -8576,7 +8630,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 是 in font nullfont!
 Missing character: There is no 將 in font nullfont!
@@ -8612,17 +8666,17 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no 類 in font nullfont!
 Missing character: There is no 使 in font nullfont!
-Missing character: There is no 用 in font nullfont!
+Missing character: There is no ⽤ in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no 法 in font nullfont!
-Missing character: There is no 支 in font nullfont!
+Missing character: There is no ⽀ in font nullfont!
 Missing character: There is no 付 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no ， in font nullfont!
@@ -8642,6 +8696,7 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -8697,7 +8752,7 @@ Missing character: There is no 息 in font nullfont!
 Missing character: There is no 和 in font nullfont!
 Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 地 in font nullfont!
@@ -8764,13 +8819,13 @@ Missing character: There is no 商 in font nullfont!
 Missing character: There is no 品 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 281--283
+Overfull \hbox (20.0pt too wide) in paragraph at lines 280--282
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 281--283
-[] 
+Overfull \hbox (10.86pt too wide) in paragraph at lines 280--282
+[]
  []
 
 
@@ -8780,7 +8835,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 ^^I\begin{figure}
+l.283 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8794,7 +8849,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.286 ^^I^^I\includegraphics
+l.285 ^^I^^I\includegraphics
                             [width = 0.9\textwidth]{c4.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8815,7 +8870,7 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.286 ...^I\includegraphics[width = 0.9\textwidth]
+l.285 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {c4.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -8824,7 +8879,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.286 ...^I\includegraphics[width = 0.9\textwidth]
+l.285 ...^I\includegraphics[width = 0.9\textwidth]
                                                   {c4.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -8847,7 +8902,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.287 ^^I^^I\caption
+l.286 ^^I^^I\caption
                     {顧客交易管理模塊類圖}\label{c4}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8869,14 +8924,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 ^^I\end{figure}
+l.287 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 284--289
+Overfull \hbox (20.0pt too wide) in paragraph at lines 283--288
 []
  []
 
@@ -8884,7 +8939,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `time5' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.292 ^^I圖\ref{time5}
+l.291 ^^I圖\ref{time5}
                        為顧客交易管理時序圖，以下為流程說�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8893,7 +8948,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `time5' on page  undefined on input line 292.
+LaTeX Warning: Reference `time5' on page  undefined on input line 291.
 
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 顧 in font nullfont!
@@ -8915,7 +8970,7 @@ Missing character: There is no 說 in font nullfont!
 Missing character: There is no 明 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (30.86pt too wide) in paragraph at lines 292--293
+Overfull \hbox (30.86pt too wide) in paragraph at lines 291--292
 [][] 
  []
 
@@ -8926,7 +8981,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 ^^I\begin{figure}
+l.293 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8940,7 +8995,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.296 ^^I^^I\includegraphics
+l.295 ^^I^^I\includegraphics
                             [width = 1\textwidth]{time5.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8959,7 +9014,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.296 ^^I^^I\includegraphics[width = 1\textwidth]
+l.295 ^^I^^I\includegraphics[width = 1\textwidth]
                                                  {time5.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -8968,7 +9023,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.296 ^^I^^I\includegraphics[width = 1\textwidth]
+l.295 ^^I^^I\includegraphics[width = 1\textwidth]
                                                  {time5.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -8994,7 +9049,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297 ^^I^^I\caption
+l.296 ^^I^^I\caption
                     {顧客交易管理時序圖}\label{time5}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9015,19 +9070,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 ^^I\end{figure}
+l.297 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 294--299
+Overfull \hbox (20.0pt too wide) in paragraph at lines 293--298
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 300--300
+Overfull \hbox (20.0pt too wide) in paragraph at lines 299--299
 [] 
  []
 
@@ -9056,7 +9111,7 @@ Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
-Missing character: There is no 在 in font nullfont!
+Missing character: There is no 再 in font nullfont!
 Missing character: There is no 同 in font nullfont!
 Missing character: There is no 步 in font nullfont!
 Missing character: There is no 最 in font nullfont!
@@ -9113,6 +9168,8 @@ Missing character: There is no 交 in font nullfont!
 Missing character: There is no 到 in font nullfont!
 Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no 模 in font nullfont!
@@ -9180,7 +9237,7 @@ Missing character: There is no 易 in font nullfont!
 Missing character: There is no 管 in font nullfont!
 Missing character: There is no 理 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 屆 in font nullfont!
+Missing character: There is no 此 in font nullfont!
 Missing character: There is no 時 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -9335,7 +9392,7 @@ Missing character: There is no 所 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
-Missing character: There is no 預 in font nullfont!
+Missing character: There is no 欲 in font nullfont!
 Missing character: There is no 購 in font nullfont!
 Missing character: There is no 買 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -9367,8 +9424,7 @@ Missing character: There is no 之 in font nullfont!
 Missing character: There is no 後 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 便 in font nullfont!
-Missing character: There is no 商 in font nullfont!
-Missing character: There is no 家 in font nullfont!
+Missing character: There is no 向 in font nullfont!
 Missing character: There is no 商 in font nullfont!
 Missing character: There is no 家 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -9575,13 +9631,13 @@ Missing character: There is no 易 in font nullfont!
 Missing character: There is no 信 in font nullfont!
 Missing character: There is no 息 in font nullfont!
 Missing character: There is no 會 in font nullfont!
-Missing character: There is no 盡 in font nullfont!
+Missing character: There is no 進 in font nullfont!
 Missing character: There is no 到 in font nullfont!
-Missing character: There is no 比 in font nullfont!
+Missing character: There is no ⽐ in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 網 in font nullfont!
-Missing character: There is no 路 in font nullfont!
+Missing character: There is no 絡 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 交 in font nullfont!
@@ -9590,13 +9646,6 @@ Missing character: There is no 緩 in font nullfont!
 Missing character: There is no 存 in font nullfont!
 Missing character: There is no 等 in font nullfont!
 Missing character: There is no 待 in font nullfont!
-Missing character: There is no 比 in font nullfont!
-Missing character: There is no 特 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 網 in font nullfont!
-Missing character: There is no 路 in font nullfont!
-Missing character: There is no 中 in font nullfont!
-Missing character: There is no 的 in font nullfont!
 Missing character: There is no 礦 in font nullfont!
 Missing character: There is no 工 in font nullfont!
 Missing character: There is no 解 in font nullfont!
@@ -9721,7 +9770,7 @@ Missing character: There is no 表 in font nullfont!
 Missing character: There is no 模 in font nullfont!
 Missing character: There is no 塊 in font nullfont!
 Missing character: There is no 會 in font nullfont!
-Missing character: There is no 掉 in font nullfont!
+Missing character: There is no 調 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no 比 in font nullfont!
 Missing character: There is no 特 in font nullfont!
@@ -9749,7 +9798,7 @@ Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
-Missing character: There is no 使 in font nullfont!
+Missing character: There is no 是 in font nullfont!
 Missing character: There is no 否 in font nullfont!
 Missing character: There is no 已 in font nullfont!
 Missing character: There is no 經 in font nullfont!
@@ -9827,7 +9876,7 @@ Missing character: There is no " in font nullfont!
 Missing character: There is no 之 in font nullfont!
 Missing character: There is no 後 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 變 in font nullfont!
+Missing character: There is no 便 in font nullfont!
 Missing character: There is no 發 in font nullfont!
 Missing character: There is no 送 in font nullfont!
 Missing character: There is no 完 in font nullfont!
@@ -9851,8 +9900,8 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...rning: Reference `c6' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.318 ^^I圖\ref{c6}
-                    為顧客Government Green Address交易管理模塊類�...
+l.317 ^^I圖\ref{c6}
+                    為BRTMS中的顧客Government Green Address交易管理...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9860,9 +9909,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `c6' on page  undefined on input line 318.
+LaTeX Warning: Reference `c6' on page  undefined on input line 317.
 
 Missing character: There is no 為 in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
 Missing character: There is no G in font nullfont!
@@ -9980,9 +10036,12 @@ Missing character: There is no 加 in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no x in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -10126,7 +10185,7 @@ Missing character: There is no 查 in font nullfont!
 Missing character: There is no 找 in font nullfont!
 Missing character: There is no 與 in font nullfont!
 Missing character: There is no T in font nullfont!
-Missing character: There is no x in font nullfont!
+Missing character: There is no X in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no 相 in font nullfont!
@@ -10162,7 +10221,7 @@ Missing character: There is no 問 in font nullfont!
 Missing character: There is no 符 in font nullfont!
 Missing character: There is no 合 in font nullfont!
 Missing character: There is no T in font nullfont!
-Missing character: There is no x in font nullfont!
+Missing character: There is no X in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -10299,8 +10358,7 @@ Missing character: There is no 將 in font nullfont!
 Missing character: There is no 多 in font nullfont!
 Missing character: There is no 重 in font nullfont!
 Missing character: There is no 簽 in font nullfont!
-Missing character: There is no 名 in font nullfont!
-Missing character: There is no 的 in font nullfont!
+Missing character: There is no 章 in font nullfont!
 Missing character: There is no 算 in font nullfont!
 Missing character: There is no 法 in font nullfont!
 Missing character: There is no 廣 in font nullfont!
@@ -10314,7 +10372,7 @@ Missing character: There is no 網 in font nullfont!
 Missing character: There is no 路 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (30.86pt too wide) in paragraph at lines 318--319
+Overfull \hbox (30.86pt too wide) in paragraph at lines 317--318
 [][]
  []
 
@@ -10325,7 +10383,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.321 ^^I\begin{figure}
+l.320 ^^I\begin{figure}
                        [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10339,8 +10397,8 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.323 ^^I^^I\includegraphics
-                            [width = 0.6\textwidth]{c6.jpg}
+l.322 ^^I^^I\includegraphics
+                            [width = 0.7\textwidth]{c6.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10356,11 +10414,11 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.323 ...^I\includegraphics[width = 0.6\textwidth]
+l.322 ...^I\includegraphics[width = 0.7\textwidth]
                                                   {c6.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -10369,7 +10427,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.323 ...^I\includegraphics[width = 0.6\textwidth]
+l.322 ...^I\includegraphics[width = 0.7\textwidth]
                                                   {c6.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -10392,7 +10450,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.324 ^^I^^I\caption
+l.323 ^^I^^I\caption
                     {顧客Government Green Address交易管理模塊類圖}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10437,19 +10495,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.325 ^^I\end{figure}
+l.324 ^^I\end{figure}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 321--326
+Overfull \hbox (20.0pt too wide) in paragraph at lines 320--325
 []
  []
 
 ! Undefined control sequence.
-l.327 \section
+l.326 \section
               {系統實現}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10462,7 +10520,7 @@ Missing character: There is no 統 in font nullfont!
 Missing character: There is no 實 in font nullfont!
 Missing character: There is no 現 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 327--328
+Overfull \hbox (20.0pt too wide) in paragraph at lines 326--327
 [] 
  []
 
@@ -10577,8 +10635,8 @@ Missing character: There is no 上 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 用 in font nullfont!
 Missing character: There is no 於 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no M in font nullfont!
@@ -10592,7 +10650,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ing: Reference `fig5' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.332 如圖\ref{fig5}
+l.331 如圖\ref{fig5}
                       所示，SMIMSS 的 Java應用程序可以幫助商家...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10601,7 +10659,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig5' on page  undefined on input line 332.
+LaTeX Warning: Reference `fig5' on page  undefined on input line 331.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
@@ -10672,7 +10730,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ing: Reference `fig6' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.332 ...�或更新產品列表，如圖\ref{fig6}
+l.331 ...�或更新產品列表，如圖\ref{fig6}
                                                   所示。實現的SMIMSS J...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10681,7 +10739,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig6' on page  undefined on input line 332.
+LaTeX Warning: Reference `fig6' on page  undefined on input line 331.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
@@ -10717,17 +10775,17 @@ Missing character: There is no 功 in font nullfont!
 Missing character: There is no 能 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 331--333
+Overfull \hbox (20.0pt too wide) in paragraph at lines 330--332
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 331--333
+Overfull \hbox (10.86pt too wide) in paragraph at lines 330--332
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 331--333
+Overfull \hbox (10.86pt too wide) in paragraph at lines 330--332
 []
  []
 
@@ -10738,7 +10796,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.334 \begin{figure}
+l.333 \begin{figure}
                     [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10752,7 +10810,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.336 ^^I\includegraphics
+l.335 ^^I\includegraphics
                          [width = 0.9\textwidth]{fig5.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10773,7 +10831,7 @@ Missing character: There is no 9 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.336 ^^I\includegraphics[width = 0.9\textwidth]
+l.335 ^^I\includegraphics[width = 0.9\textwidth]
                                                 {fig5.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -10782,7 +10840,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.336 ^^I\includegraphics[width = 0.9\textwidth]
+l.335 ^^I\includegraphics[width = 0.9\textwidth]
                                                 {fig5.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -10807,7 +10865,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.337 ^^I\caption
+l.336 ^^I\caption
                  {SMIMSS的Java應用程序的註冊和登錄界面}\label{f...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10843,14 +10901,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 \end{figure}
+l.337 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 334--339
+Overfull \hbox (20.0pt too wide) in paragraph at lines 333--338
 []
  []
 
@@ -10861,7 +10919,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340 \begin{figure}
+l.339 \begin{figure}
                     [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10875,7 +10933,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.342 ^^I\includegraphics
+l.341 ^^I\includegraphics
                          [width = 0.6\textwidth]{fig6.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10896,7 +10954,7 @@ Missing character: There is no 6 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.342 ^^I\includegraphics[width = 0.6\textwidth]
+l.341 ^^I\includegraphics[width = 0.6\textwidth]
                                                 {fig6.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -10905,7 +10963,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.342 ^^I\includegraphics[width = 0.6\textwidth]
+l.341 ^^I\includegraphics[width = 0.6\textwidth]
                                                 {fig6.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -10930,7 +10988,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.343 ^^I\caption
+l.342 ^^I\caption
                  {在SMIMSS中插入或更新授權商家的產品目錄}\la...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10965,14 +11023,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 \end{figure}
+l.343 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 340--345
+Overfull \hbox (20.0pt too wide) in paragraph at lines 339--344
 []
  []
 
@@ -11049,8 +11107,8 @@ Missing character: There is no 物 in font nullfont!
 Missing character: There is no 車 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 的 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 購 in font nullfont!
 Missing character: There is no 買 in font nullfont!
 Missing character: There is no 產 in font nullfont!
@@ -11073,7 +11131,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ing: Reference `fig7' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.346 ...��RFID標籤信息。 在如圖\ref{fig7}
+l.345 ...��RFID標籤信息。 在如圖\ref{fig7}
                                                   所示的第一項活動�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11082,7 +11140,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig7' on page  undefined on input line 346.
+LaTeX Warning: Reference `fig7' on page  undefined on input line 345.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
@@ -11178,8 +11236,8 @@ Missing character: There is no 其 in font nullfont!
 Missing character: There is no 展 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 給 in font nullfont!
+Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 從 in font nullfont!
 Missing character: There is no 而 in font nullfont!
@@ -11200,7 +11258,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ing: Reference `fig7' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.346 ...產品列入購物車。 在圖\ref{fig7}
+l.345 ...產品列入購物車。 在圖\ref{fig7}
                                                   的第三項活動中，�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11209,7 +11267,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig7' on page  undefined on input line 346.
+LaTeX Warning: Reference `fig7' on page  undefined on input line 345.
 
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 第 in font nullfont!
@@ -11227,19 +11285,23 @@ Missing character: There is no 要 in font nullfont!
 Missing character: There is no 求 in font nullfont!
 Missing character: There is no 職 in font nullfont!
 Missing character: There is no 工 in font nullfont!
-Missing character: There is no 取 in font nullfont!
-Missing character: There is no 消 in font nullfont!
+Missing character: There is no 刪 in font nullfont!
+Missing character: There is no 除 in font nullfont!
 Missing character: There is no 購 in font nullfont!
 Missing character: There is no 買 in font nullfont!
 Missing character: There is no 物 in font nullfont!
 Missing character: There is no 品 in font nullfont!
 Missing character: There is no 以 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 並 in font nullfont!
 Missing character: There is no 確 in font nullfont!
 Missing character: There is no 認 in font nullfont!
 Missing character: There is no 最 in font nullfont!
 Missing character: There is no 終 in font nullfont!
-Missing character: There is no 購 in font nullfont!
-Missing character: There is no 買 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 清 in font nullfont!
+Missing character: There is no 單 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 最 in font nullfont!
 Missing character: There is no 後 in font nullfont!
@@ -11283,7 +11345,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ） in font nullfont!
 ! Undefined control sequence.
-l.346 ...�試網絡（Bitcoin Testnet）\supercite
+l.345 ...�試網絡（Bitcoin Testnet）\supercite
                                                   {bitcointestnet}幫助職�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11314,9 +11376,8 @@ Missing character: There is no 認 in font nullfont!
 Missing character: There is no 發 in font nullfont!
 Missing character: There is no 布 in font nullfont!
 Missing character: There is no 此 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
@@ -11332,7 +11393,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ing: Reference `fig7' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.346 ...�易的收款人地址，如圖\ref{fig7}
+l.345 ...�易的收款人地址，如圖\ref{fig7}
                                                   所示。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11341,28 +11402,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig7' on page  undefined on input line 346.
+LaTeX Warning: Reference `fig7' on page  undefined on input line 345.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 346--347
+Overfull \hbox (20.0pt too wide) in paragraph at lines 345--346
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 346--347
+Overfull \hbox (10.86pt too wide) in paragraph at lines 345--346
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 346--347
+Overfull \hbox (10.86pt too wide) in paragraph at lines 345--346
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 346--347
+Overfull \hbox (10.86pt too wide) in paragraph at lines 345--346
 [] 
  []
 
@@ -11373,7 +11434,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.348 \begin{figure}
+l.347 \begin{figure}
                     [!htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11387,7 +11448,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.350 ^^I\includegraphics
+l.349 ^^I\includegraphics
                          [width = 1\textwidth]{fig7.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11406,7 +11467,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.350 ^^I\includegraphics[width = 1\textwidth]
+l.349 ^^I\includegraphics[width = 1\textwidth]
                                               {fig7.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -11415,7 +11476,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.350 ^^I\includegraphics[width = 1\textwidth]
+l.349 ^^I\includegraphics[width = 1\textwidth]
                                               {fig7.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, bp, or sp; but yours is a new one!
@@ -11440,7 +11501,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.351 ^^I\caption
+l.350 ^^I\caption
                  {登錄、等待結帳的商品、刪除商品及支付確�...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -11473,22 +11534,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.352 \end{figure}
+l.351 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 348--353
+Overfull \hbox (20.0pt too wide) in paragraph at lines 347--352
 []
  []
 
 Missing character: There is no 同 in font nullfont!
 Missing character: There is no 時 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 顧 in font nullfont!
 Missing character: There is no 客 in font nullfont!
-Missing character: There is no 戶 in font nullfont!
 Missing character: There is no 將 in font nullfont!
 Missing character: There is no 使 in font nullfont!
 Missing character: There is no 用 in font nullfont!
@@ -11527,10 +11588,6 @@ Missing character: There is no 過 in font nullfont!
 Missing character: There is no 比 in font nullfont!
 Missing character: There is no 特 in font nullfont!
 Missing character: There is no 幣 in font nullfont!
-Missing character: There is no 加 in font nullfont!
-Missing character: There is no 密 in font nullfont!
-Missing character: There is no 貨 in font nullfont!
-Missing character: There is no 幣 in font nullfont!
 Missing character: There is no 完 in font nullfont!
 Missing character: There is no 成 in font nullfont!
 Missing character: There is no 採 in font nullfont!
@@ -11545,7 +11602,7 @@ Missing character: There is no 圖 in font nullfont!
 ! Undefined control sequence.
 <write> ...ing: Reference `fig8' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.354 ...成採購產品交易。 如圖\ref{fig8}
+l.353 ...成採購產品交易。 如圖\ref{fig8}
                                                   所示，第一個活動�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11554,7 +11611,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig8' on page  undefined on input line 354.
+LaTeX Warning: Reference `fig8' on page  undefined on input line 353.
 
 Missing character: There is no 所 in font nullfont!
 Missing character: There is no 示 in font nullfont!
@@ -11621,25 +11678,51 @@ Missing character: There is no 個 in font nullfont!
 Missing character: There is no 活 in font nullfont!
 Missing character: There is no 動 in font nullfont!
 Missing character: There is no 顯 in font nullfont!
-Missing character: There is no 示 in font nullfont!
+Missing character: There is no ⽰ in font nullfont!
+Missing character: There is no 該 in font nullfont!
+Missing character: There is no 錢 in font nullfont!
+Missing character: There is no 包 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 歷 in font nullfont!
 Missing character: There is no 史 in font nullfont!
 Missing character: There is no 記 in font nullfont!
 Missing character: There is no 錄 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 凡 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 入 in font nullfont!
+Missing character: There is no 該 in font nullfont!
+Missing character: There is no 錢 in font nullfont!
+Missing character: There is no 包 in font nullfont!
 Missing character: There is no 的 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 有 in font nullfont!
 Missing character: There is no 交 in font nullfont!
 Missing character: There is no 易 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 會 in font nullfont!
+Missing character: There is no 被 in font nullfont!
+Missing character: There is no 顯 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 來 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 錢 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 同 in font nullfont!
+Missing character: There is no 時 in font nullfont!
 Missing character: There is no 作 in font nullfont!
 Missing character: There is no 為 in font nullfont!
 Missing character: There is no 買 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 甚 in font nullfont!
-Missing character: There is no 至 in font nullfont!
-Missing character: There is no 是 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
+Missing character: There is no 和 in font nullfont!
 Missing character: There is no 賣 in font nullfont!
-Missing character: There is no 方 in font nullfont!
+Missing character: There is no ⽅ in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 最 in font nullfont!
 Missing character: There is no 後 in font nullfont!
@@ -11664,16 +11747,18 @@ Missing character: There is no 購 in font nullfont!
 Missing character: There is no 產 in font nullfont!
 Missing character: There is no 品 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 發 in font nullfont!
-Missing character: There is no 票 in font nullfont!
+Missing character: There is no 交 in font nullfont!
+Missing character: There is no 易 in font nullfont!
+Missing character: There is no 憑 in font nullfont!
+Missing character: There is no 據 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 354--355
+Overfull \hbox (20.0pt too wide) in paragraph at lines 353--355
 []
  []
 
 
-Overfull \hbox (10.86pt too wide) in paragraph at lines 354--355
+Overfull \hbox (10.86pt too wide) in paragraph at lines 353--355
 []
  []
 
@@ -11815,5 +11900,5 @@ Here is how much of TeX's memory you used:
  4110 multiletter control sequences out of 15000+600000
  3656 words of font info for 16 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 19i,7n,16p,748b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,7n,16p,1093b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
