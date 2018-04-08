@@ -2,112 +2,112 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}選題背景}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}选题背景}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}加密貨幣市場}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}加密货币市场}{2}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}加密貨幣的優勢}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}加密货币的优势}{3}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}加密貨幣的劣勢}{5}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}加密货币的劣势}{5}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.4}國際情勢分析}{8}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.4}国际情势分析}{8}{subsection.1.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}研究目標與內容}{10}{section.1.2}
+\contentsline {section}{\numberline {1.2}研究目标与内容}{10}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}論文組織結構}{11}{section.1.3}
+\contentsline {section}{\numberline {1.3}论文组织结构}{11}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}相關理論與技術}{13}{chapter.2}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}相关理论与技术}{13}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}比特幣地址}{14}{section.2.1}
+\contentsline {section}{\numberline {2.1}比特币地址}{14}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）亂數產生器（Random number generator）}{14}{subsubsection*.15}
+\contentsline {subsubsection}{（一）乱数产生器（Random number generator）}{14}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）非對稱式加密算法 Secp256k1}{15}{subsubsection*.17}
+\contentsline {subsubsection}{（二）非对称式加密算法 Secp256k1}{15}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）哈希算法 SHA-256}{17}{subsubsection*.20}
+\contentsline {subsubsection}{（三）哈希算法 SHA-256}{17}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（四）Base58 編碼}{19}{subsubsection*.23}
+\contentsline {subsubsection}{（四）Base58 编码}{19}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）Green Address錢包生成過程}{23}{subsubsection*.27}
+\contentsline {subsubsection}{（一）Green Address钱包生成过程}{23}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）Green Address交易發起流程}{24}{subsubsection*.29}
+\contentsline {subsubsection}{（二）Green Address交易发起流程}{24}{subsubsection*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}區塊鏈}{25}{section.2.2}
+\contentsline {section}{\numberline {2.2}区块链}{25}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系統需求分析}{27}{chapter.3}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系统需求分析}{27}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}交易模型分析}{27}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}現金交易類型}{28}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}现金交易类型}{28}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）匿名顧客支付匿名商家交易模型}{28}{subsubsection*.35}
+\contentsline {subsubsection}{（一）匿名顾客支付匿名商家交易模型}{28}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）匿名顧客支付實名商家交易模型}{29}{subsubsection*.36}
+\contentsline {subsubsection}{（二）匿名顾客支付实名商家交易模型}{29}{subsubsection*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}電子支付類型}{29}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}电子支付类型}{29}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）實名顧客支付實名商家交易模型}{29}{subsubsection*.37}
+\contentsline {subsubsection}{（一）实名顾客支付实名商家交易模型}{29}{subsubsection*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）實名顧客透過實名第三方支付實名商家交易模型}{30}{subsubsection*.38}
+\contentsline {subsubsection}{（二）实名顾客透过实名第三方支付实名商家交易模型}{30}{subsubsection*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）實名顧客透過匿名第三方支付實名商家交易模型}{30}{subsubsection*.39}
+\contentsline {subsubsection}{（三）实名顾客透过匿名第三方支付实名商家交易模型}{30}{subsubsection*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}交易比較}{30}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}交易比较}{30}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}功能性需求分析}{31}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}非功能性需求分析}{34}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）性能需求}{34}{subsubsection*.42}
+\contentsline {subsubsection}{（一）性能需求}{34}{subsubsection*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）可拓展性}{34}{subsubsection*.43}
+\contentsline {subsubsection}{（二）可拓展性}{34}{subsubsection*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）可操作性}{34}{subsubsection*.44}
+\contentsline {subsubsection}{（三）可操作性}{34}{subsubsection*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（四）軟件與硬件環境需求}{34}{subsubsection*.45}
+\contentsline {subsubsection}{（四）软件与硬件环境需求}{34}{subsubsection*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系統概要設計}{37}{chapter.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}系统概要设计}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}BTMS架構與運作流程}{39}{section.4.1}
+\contentsline {section}{\numberline {4.1}BTMS架构与运作流程}{39}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}實時BTMS架構與運作流程}{42}{section.4.2}
+\contentsline {section}{\numberline {4.2}实时BTMS架构与运作流程}{42}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系統詳細設計與實現}{45}{chapter.5}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}系统详细设计与实现}{45}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}BTMS數據庫設計}{45}{section.5.1}
+\contentsline {section}{\numberline {5.1}BTMS数据库设计}{45}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}系統模塊設計}{47}{section.5.2}
+\contentsline {section}{\numberline {5.2}系统模块设计}{47}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）用戶註冊與登入模塊}{47}{subsubsection*.61}
+\contentsline {subsubsection}{（一）用户注册与登录模块}{47}{subsubsection*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）商家產品管理模塊}{49}{subsubsection*.64}
+\contentsline {subsubsection}{（二）商家产品管理模块}{49}{subsubsection*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（三）職工管理模塊}{51}{subsubsection*.67}
+\contentsline {subsubsection}{（三）职工管理模块}{51}{subsubsection*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（四）商家交易管理模塊}{53}{subsubsection*.70}
+\contentsline {subsubsection}{（四）商家交易管理模块}{53}{subsubsection*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（五）顧客交易管理模塊}{57}{subsubsection*.74}
+\contentsline {subsubsection}{（五）顾客交易管理模块}{57}{subsubsection*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}系統實現}{61}{section.5.3}
+\contentsline {section}{\numberline {5.3}系统实现}{61}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系統測試}{65}{chapter.6}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}系统测试}{65}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}功能測試}{65}{section.6.1}
+\contentsline {section}{\numberline {6.1}功能测试}{65}{section.6.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}测试用例}{68}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}測試結果和分析}{71}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}测试结果和分析}{71}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}性能測試}{74}{section.6.2}
+\contentsline {section}{\numberline {6.2}性能测试}{74}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}系统性能測試}{74}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}系统性能测试}{74}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}實時系统性能測試}{76}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}实时系统性能测试}{76}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{79}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{81}{appendix*.107}
+\contentsline {chapter}{参考文献}{81}{appendix*.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{致谢}{85}{appendix*.108}
+\contentsline {chapter}{致谢}{85}{appendix*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{87}{appendix*.109}
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{87}{appendix*.107}

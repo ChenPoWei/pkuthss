@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 01:06
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 03:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2674,24 +2674,10 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 
 ] [6
 
-] (./thesis.lof
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 5.
- [7])
-\tf@lof=\write8
-\openout8 = `thesis.lof'.
-
- [8] (./thesis.lot [9
-
-])
-\tf@lot=\write9
-\openout9 = `thesis.lot'.
-
- [10]
+]
 \openout2 = `chap/chap1.aux'.
 
-
-(./chap/chap1.tex
+ (./chap/chap1.tex
 第一章
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 15.05624pt on input line 9.
@@ -2700,8 +2686,9 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 9.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 11.
 [1
-
 
 
 ]
@@ -2737,14 +2724,11 @@ Underfull \vbox (badness 4673) has occurred while \output is active []
  [6]
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" > [7]
-Underfull \vbox (badness 2512) has occurred while \output is active []
-
- [8]
-[9] [10]) [11]
+<use  "Darklaunderworkflow.png" > [7] [8] [9] [10]) [11]
 \openout2 = `chap/chap2.aux'.
 
- (./chap/chap2.tex [12
+ (./chap/chap2.tex
+[12
 
 
 
@@ -2773,8 +2757,8 @@ File: gabuild.jpg Graphic file (type QTm)
 
 <use  "gabuild.jpg" > [23]
 Overfull \hbox (15.89716pt too wide) in paragraph at lines 242--243
-[]\TU/STSong(0)/m/n/12.045 創 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
-2.045 多 重 簽 章 比 特 幣 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
+[]\TU/STSong(0)/m/n/12.045 创 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
+2.045 多 重 签 章 比 特 币 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
 bZfQ"\TU/STSong(0)/m/n/12.045 ，|
  []
 
@@ -2824,7 +2808,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 第四章
 
 Overfull \hbox (8.84303pt too wide) in paragraph at lines 5--6
-[]\TU/STSong(0)/m/n/12.045 本 論 文 提 出 比 特 幣 的 交 易 監 督 系 統  |（\T1/ntxtlf/m/n/12.0
+[]\TU/STSong(0)/m/n/12.045 本 论 文 提 出 比 特 币 的 交 易 监 督 系 统  |（\T1/ntxtlf/m/n/12.0
 45 Bit-coin Trans-ac-tion Mon-i-tor-ing Sys-tem\TU/STSong(0)/m/n/12.045 ，| \T1/
 ntxtlf/m/n/12.045 BTMS\TU/STSong(0)/m/n/12.045 ）|$[]$，|
  []
@@ -2936,8 +2920,8 @@ File: AcceptanceTesting.png Graphic file (type QTm)
 <use  "AcceptanceTesting.png" > [67] [68] [69]
 Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
-n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
- 系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
+n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 员 是 否 能 够 顺 利 使 用 子
+ 系 统 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
 [70]
@@ -2961,91 +2945,91 @@ Underfull \vbox (badness 7451) has occurred while \output is active []
 ]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 93.
+(Font)              scaled to size 10.53937pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 93.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 93.
+(Font)              scaled to size 10.53937pt on input line 94.
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
 * Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 93.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 93.
+(Font)              scaled to size 10.53937pt on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 [81]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
-Overfull \hbox (12.55984pt too wide) in paragraph at lines 93--93
+Overfull \hbox (12.55984pt too wide) in paragraph at lines 94--94
 []\T1/ntxtlf/m/n/10.53937 Android De-vel-op-ers Blog. \T1/ntxtlf/m/it/10.53937 
 Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 /10.53937 https : / / android -[] developers .
@@ -3053,20 +3037,20 @@ Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 [82]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 93.
+(biblatex)                Using fallback driver on input line 94.
 
 [83] [84
 
@@ -3093,26 +3077,26 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
 ) [87]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
 (./chap/chap6.aux) (./chap/chap7.aux) (./chap/acknowledge.aux)
 (./chap/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 104.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48635 strings out of 493005
- 952336 string characters out of 6134596
- 1374675 words of memory out of 5000000
- 51837 multiletter control sequences out of 15000+600000
+ 48627 strings out of 493005
+ 952268 string characters out of 6134596
+ 1374670 words of memory out of 5000000
+ 51835 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,20n,102p,10457b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,20n,102p,10457b,4686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 994832 bytes).
+Output written on thesis.xdv (97 pages, 950564 bytes).

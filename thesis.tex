@@ -58,17 +58,18 @@
 
 	\include{chap/abstract}
 	% 自动生成目录。
+	\makeatletter
+	\renewcommand*\l@chapter{\@dottedtocline{1}{0em}{0.0em}}
+	\renewcommand*\l@section{\@dottedtocline{1}{12pt}{12pt}}
+	\renewcommand*\l@subsection{\@dottedtocline{2}{24pt}{24pt}}
+	\renewcommand*\l@subsubsection{\@dottedtocline{3}{36pt}{36pt}}
+	\renewcommand*\l@paragraph{\@dottedtocline{4}{48pt}{48pt}}
+	\renewcommand*\l@subparagraph{\@dottedtocline{5}{60pt}{60pt}}
+	\makeatother
+
+	
 	\setcounter{tocdepth}{1}
 	\tableofcontents
-
-	\renewcommand\listfigurename{图目录}
-	\newcommand{\loflabel}{图}
-	\renewcommand{\numberline}[1]{\loflabel~#1\hspace*{1em}}
-	\listoffigures
-	\renewcommand\listtablename{表目录}
-	\newcommand{\lotlabel}{表}
-	\renewcommand{\numberline}[1]{\lotlabel~#1\hspace*{1em}}
-	\listoftables
 
 	%% 以下为正文部分，默认要进行章节编号。
 	\mainmatter
