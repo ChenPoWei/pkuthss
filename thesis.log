@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 00:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 01:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,12 +146,6 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2017/04/01 v2.4.9 Option configuration file (CTEX)
 )
-*************************************************
-* ctex warning: "deprecated-option"
-* 
-* Option `adobefonts' is deprecated.
-* Option `fontset=adobe' is set. It is better to use fontset option.
-*************************************************
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk12.clo
@@ -1114,217 +1108,63 @@ File: ctex-cs4size.clo 2017/04/01 v2.4.9 cs4size option (CTEX)
 . Defining command \CTeX with sig. '' on line 1437.
 .................................................
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-adobe.d
-ef
-File: ctex-fontset-adobe.def 2017/04/01 v2.4.9 Adobe fonts definition (CTEX)
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeSongStd-Light" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
+File: ctex-fontset-mac.def 2017/04/01 v2.4.9 Mac OS X fonts definition (CTEX)
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'AdobeSongStd-Light' does not contain script 'CJK'.
+* Font 'STSong' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_AdobeSongStd-Light_int=\count149
+\g__fontspec_family_STSong_int=\count149
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "AdobeKaitiStd-Regular/B" (it probably doesn't
-. exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
-. exist).
+. Could not resolve font "STKaiti/B" (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "AdobeSongStd-Light/BI" (it probably doesn't exist).
+. Could not resolve font "STHeiti/I" (it probably doesn't exist).
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeSongStd-Light" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeSongStd-Light" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeHeitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeHeitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeKaitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeKaitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.98   }
-        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "STSong/BI" (it probably doesn't exist).
+.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'AdobeSongStd-Light(0)' created for font 'AdobeSongStd-Light'
-. with options
-. [Script={CJK},BoldFont={AdobeHeitiStd-Regular},ItalicFont={AdobeKaitiStd-Regu
-lar}].
+. Font family 'STSong(0)' created for font 'STSong' with options
+. [Script={CJK},BoldFont={STHeiti},ItalicFont={STKaiti}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"AdobeSongStd-Light/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"AdobeSongStd-Light/OT"
-. - 'bold' (bx/n) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
-. - 'italic' (m/it) with NFSS spec.: <->"AdobeKaitiStd-Regular/OT"
-. - 'italic small caps'  (m/itsc) with NFSS spec.:
-. <->"AdobeKaitiStd-Regular/OT"
+. - 'normal' (m/n) with NFSS spec.: <->"STSong/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.: <->"STHeiti/OT"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.: <->"STKaiti/OT"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \songti with sig. '' on line 99.
+. Defining command \songti with sig. '' on line 48.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \heiti with sig. '' on line 100.
+. Defining command \heiti with sig. '' on line 49.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fangsong with sig. '' on line 101.
+. Defining command \fangsong with sig. '' on line 50.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kaishu with sig. '' on line 102.
+. Defining command \kaishu with sig. '' on line 51.
 .................................................
 )) (/usr/local/texlive/2017/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2017/04/01 v2.4.9 Configuration file (CTEX)
@@ -2115,7 +1955,6 @@ File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
 Package hyperref Info: Option `unicode' set `true' on input line 4374.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/puenc.def
@@ -2143,7 +1982,7 @@ Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
 Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring OFF on input line 6378.
 Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
@@ -2179,57 +2018,12 @@ tly
 )
 \Hy@SectionHShift=\skip108
 )
-*************************************************
-* xeCJK warning: "CJKfamily-redef"
-* 
-* Redefining CJKfamily `\CJKrmdefault' (AdobeSongStd-Light(0)).
-*************************************************
-\g__fontspec_family_SimSun_int=\count272
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/B" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimHei/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/BI" (it probably doesn't exist).
-.................................................
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 5.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
-File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
-)
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 5.
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SimSun(0)' created for font 'SimSun' with options
-. [Script={CJK},BoldFont={SimHei},ItalicFont={FangSong}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"SimSun/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->"SimHei/OT:script=hani;language=DFLT;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.:
-. <->"FangSong/OT:script=hani;language=DFLT;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-.................................................
-
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count273
+\lrq@indent=\count272
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2240,49 +2034,49 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count274
-\decimalpart=\count275
+\integerpart=\count273
+\decimalpart=\count274
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count276
-\c@listtotal=\count277
-\c@listcount=\count278
-\c@liststart=\count279
-\c@liststop=\count280
-\c@citecount=\count281
-\c@citetotal=\count282
-\c@multicitecount=\count283
-\c@multicitetotal=\count284
-\c@instcount=\count285
-\c@maxnames=\count286
-\c@minnames=\count287
-\c@maxitems=\count288
-\c@minitems=\count289
-\c@citecounter=\count290
-\c@savedcitecounter=\count291
-\c@uniquelist=\count292
-\c@uniquename=\count293
-\c@refsection=\count294
-\c@refsegment=\count295
-\c@maxextratitle=\count296
-\c@maxextratitleyear=\count297
-\c@maxextrayear=\count298
-\c@maxextraalpha=\count299
-\c@abbrvpenalty=\count300
-\c@highnamepenalty=\count301
-\c@lownamepenalty=\count302
-\c@maxparens=\count303
-\c@parenlevel=\count304
-\blx@tempcnta=\count305
-\blx@tempcntb=\count306
-\blx@tempcntc=\count307
-\blx@maxsection=\count308
-\blx@maxsegment@0=\count309
-\blx@notetype=\count310
-\blx@parenlevel@text=\count311
-\blx@parenlevel@foot=\count312
-\blx@sectionciteorder@0=\count313
+\c@tabx@nest=\count275
+\c@listtotal=\count276
+\c@listcount=\count277
+\c@liststart=\count278
+\c@liststop=\count279
+\c@citecount=\count280
+\c@citetotal=\count281
+\c@multicitecount=\count282
+\c@multicitetotal=\count283
+\c@instcount=\count284
+\c@maxnames=\count285
+\c@minnames=\count286
+\c@maxitems=\count287
+\c@minitems=\count288
+\c@citecounter=\count289
+\c@savedcitecounter=\count290
+\c@uniquelist=\count291
+\c@uniquename=\count292
+\c@refsection=\count293
+\c@refsegment=\count294
+\c@maxextratitle=\count295
+\c@maxextratitleyear=\count296
+\c@maxextrayear=\count297
+\c@maxextraalpha=\count298
+\c@abbrvpenalty=\count299
+\c@highnamepenalty=\count300
+\c@lownamepenalty=\count301
+\c@maxparens=\count302
+\c@parenlevel=\count303
+\blx@tempcnta=\count304
+\blx@tempcntb=\count305
+\blx@tempcntc=\count306
+\blx@maxsection=\count307
+\blx@maxsegment@0=\count308
+\blx@notetype=\count309
+\blx@parenlevel@text=\count310
+\blx@parenlevel@foot=\count311
+\blx@sectionciteorder@0=\count312
 \labelnumberwidth=\skip109
 \labelalphawidth=\skip110
 \biblabelsep=\skip111
@@ -2293,9 +2087,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip116
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count314
-\c@maxcomprange=\count315
-\c@mincompwidth=\count316
+\c@mincomprange=\count313
+\c@maxcomprange=\count314
+\c@mincompwidth=\count315
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2304,72 +2098,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'caspervector.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count317
-\c@savedafterword=\count318
-\c@annotator=\count319
-\c@savedannotator=\count320
-\c@author=\count321
-\c@savedauthor=\count322
-\c@bookauthor=\count323
-\c@savedbookauthor=\count324
-\c@commentator=\count325
-\c@savedcommentator=\count326
-\c@editor=\count327
-\c@savededitor=\count328
-\c@editora=\count329
-\c@savededitora=\count330
-\c@editorb=\count331
-\c@savededitorb=\count332
-\c@editorc=\count333
-\c@savededitorc=\count334
-\c@foreword=\count335
-\c@savedforeword=\count336
-\c@holder=\count337
-\c@savedholder=\count338
-\c@introduction=\count339
-\c@savedintroduction=\count340
-\c@namea=\count341
-\c@savednamea=\count342
-\c@nameb=\count343
-\c@savednameb=\count344
-\c@namec=\count345
-\c@savednamec=\count346
-\c@translator=\count347
-\c@savedtranslator=\count348
-\c@shortauthor=\count349
-\c@savedshortauthor=\count350
-\c@shorteditor=\count351
-\c@savedshorteditor=\count352
-\c@labelname=\count353
-\c@savedlabelname=\count354
-\c@institution=\count355
-\c@savedinstitution=\count356
-\c@lista=\count357
-\c@savedlista=\count358
-\c@listb=\count359
-\c@savedlistb=\count360
-\c@listc=\count361
-\c@savedlistc=\count362
-\c@listd=\count363
-\c@savedlistd=\count364
-\c@liste=\count365
-\c@savedliste=\count366
-\c@listf=\count367
-\c@savedlistf=\count368
-\c@location=\count369
-\c@savedlocation=\count370
-\c@organization=\count371
-\c@savedorganization=\count372
-\c@origlocation=\count373
-\c@savedoriglocation=\count374
-\c@origpublisher=\count375
-\c@savedorigpublisher=\count376
-\c@publisher=\count377
-\c@savedpublisher=\count378
-\c@language=\count379
-\c@savedlanguage=\count380
-\c@pageref=\count381
-\c@savedpageref=\count382
+\c@afterword=\count316
+\c@savedafterword=\count317
+\c@annotator=\count318
+\c@savedannotator=\count319
+\c@author=\count320
+\c@savedauthor=\count321
+\c@bookauthor=\count322
+\c@savedbookauthor=\count323
+\c@commentator=\count324
+\c@savedcommentator=\count325
+\c@editor=\count326
+\c@savededitor=\count327
+\c@editora=\count328
+\c@savededitora=\count329
+\c@editorb=\count330
+\c@savededitorb=\count331
+\c@editorc=\count332
+\c@savededitorc=\count333
+\c@foreword=\count334
+\c@savedforeword=\count335
+\c@holder=\count336
+\c@savedholder=\count337
+\c@introduction=\count338
+\c@savedintroduction=\count339
+\c@namea=\count340
+\c@savednamea=\count341
+\c@nameb=\count342
+\c@savednameb=\count343
+\c@namec=\count344
+\c@savednamec=\count345
+\c@translator=\count346
+\c@savedtranslator=\count347
+\c@shortauthor=\count348
+\c@savedshortauthor=\count349
+\c@shorteditor=\count350
+\c@savedshorteditor=\count351
+\c@labelname=\count352
+\c@savedlabelname=\count353
+\c@institution=\count354
+\c@savedinstitution=\count355
+\c@lista=\count356
+\c@savedlista=\count357
+\c@listb=\count358
+\c@savedlistb=\count359
+\c@listc=\count360
+\c@savedlistc=\count361
+\c@listd=\count362
+\c@savedlistd=\count363
+\c@liste=\count364
+\c@savedliste=\count365
+\c@listf=\count366
+\c@savedlistf=\count367
+\c@location=\count368
+\c@savedlocation=\count369
+\c@organization=\count370
+\c@savedorganization=\count371
+\c@origlocation=\count372
+\c@savedoriglocation=\count373
+\c@origpublisher=\count374
+\c@savedorigpublisher=\count375
+\c@publisher=\count376
+\c@savedpublisher=\count377
+\c@language=\count378
+\c@savedlanguage=\count379
+\c@pageref=\count380
+\c@savedpageref=\count381
 \shorthandwidth=\skip117
 \shortjournalwidth=\skip118
 \shortserieswidth=\skip119
@@ -2387,13 +2181,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count383
-\c@textcitetotal=\count384
-\c@textcitemaxnames=\count385
-\c@biburlnumpenalty=\count386
-\c@biburlucpenalty=\count387
-\c@biburllcpenalty=\count388
-\c@smartand=\count389
+\c@textcitecount=\count382
+\c@textcitetotal=\count383
+\c@textcitemaxnames=\count384
+\c@biburlnumpenalty=\count385
+\c@biburlucpenalty=\count386
+\c@biburllcpenalty=\count387
+\c@smartand=\count388
 )
 Package biblatex Info: Trying to load bibliography style 'caspervector'...
 Package biblatex Info: ... file 'caspervector.bbx' found.
@@ -2411,8 +2205,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count390
-\c@bbx:relatedtotal=\count391
+\c@bbx:relatedcount=\count389
+\c@bbx:relatedtotal=\count390
 ))
 
 Package biblatex Warning: 'iso8601' date format specifier is deprecated, use 'e
@@ -2447,8 +2241,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count392
-\c@cbx@tempcntb=\count393
+\c@cbx@tempcnta=\count391
+\c@cbx@tempcntb=\count392
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2478,7 +2272,7 @@ File: biblatex-caspervector-utf8.def 2017/03/01 v0.2.7 Chinese punctuations and
 (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip123
-\multirow@cntb=\count394
+\multirow@cntb=\count393
 \multirow@dima=\skip124
 \bigstrutjot=\dimen307
 )
@@ -2494,12 +2288,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen315
 \cmidrulekern=\dimen316
 \defaultaddspace=\dimen317
-\@cmidla=\count395
-\@cmidlb=\count396
+\@cmidla=\count394
+\@cmidlb=\count395
 \@aboverulesep=\dimen318
 \@belowrulesep=\dimen319
-\@thisruleclass=\count397
-\@lastruleclass=\count398
+\@thisruleclass=\count396
+\@lastruleclass=\count397
 \@thisrulewidth=\dimen320
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
@@ -2516,19 +2310,27 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \everycr=\toks41
 \minrowclearance=\skip127
 )
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 40
+.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.045pt on input line 40.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count399
-\@quotereset=\count400
+\@quotelevel=\count398
+\@quotereset=\count399
 
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 42.
+(biblatex)                Setting 'seconds=true' on input line 40.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
@@ -2536,64 +2338,64 @@ Package biblatex Warning: Conflicting options.
 (./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 42.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 42
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 40.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 40
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 42.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 40.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 42.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 42
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 40
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 40.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 4
-2.
+0.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 42.
+LaTeX Info: Redefining \selectfont on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2629,14 +2431,14 @@ LaTeX Info: Redefining \selectfont on input line 42.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count401
-\c@mv@boldtabular=\count402
+\c@mv@tabular=\count400
+\c@mv@boldtabular=\count401
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 42.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2644,11 +2446,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count403
+\c@section@level=\count402
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
@@ -2665,10 +2467,10 @@ Package biblatex Info: ... file 'thesis.bbl' found.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 44.
 )
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 26.09749pt on input line 50.
+(Font)              scaled to size 26.09749pt on input line 48.
 File: pkulogo.pdf Graphic file (type QTm)
  <use  "pkulogo.pdf" >
 File: pkuword.pdf Graphic file (type QTm)
@@ -2676,209 +2478,94 @@ File: pkuword.pdf Graphic file (type QTm)
 <use  "pkuword.pdf" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <26.09749> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 26.09749pt on input line 50.
+(Font)              scaled to size 26.09749pt on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 22.08249pt on input line 50.
+(Font)              scaled to size 22.08249pt on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <22.08249> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 22.08249pt on input line 50.
-\pkuthss@tmp@linecount=\count404
+(Font)              scaled to size 22.08249pt on input line 48.
+\pkuthss@tmp@linecount=\count403
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 50.
-LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 5
-0.
+(Font)              scaled to size 16.06pt on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 4
+8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 50.
+(Font)              scaled to size 16.06pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 50.
+(Font)              scaled to size 14.05249pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 50.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 50.
+(Font)              scaled to size 10.53937pt on input line 48.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 48.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 50.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 48.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 50.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 48.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.06pt on input line 50.
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeFangsongStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.50 ^^I\cleardoublepage
-                        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
+(Font)              scaled to size 16.06pt on input line 48.
 
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'AdobeFangsongStd-Regular' does not contain script 'CJK'.
+* Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_AdobeFangsongStd-Regular_int=\count405
+\g__fontspec_family_STFangsong_int=\count404
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "AdobeFangsongStd-Regular/BI" (it probably doesn't
-. exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "AdobeFangsongStd-Regular/B" (it probably doesn't
-. exist).
+. Could not resolve font "STFangsong/BI" (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "AdobeFangsongStd-Regular/I" (it probably doesn't
-. exist).
+. Could not resolve font "STFangsong/B" (it probably doesn't exist).
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeFangsongStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.50 ^^I\cleardoublepage
-                        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeFangsongStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.50 ^^I\cleardoublepage
-                        
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "STFangsong/I" (it probably doesn't exist).
+.................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'AdobeFangsongStd-Regular(0)' created for font
-. 'AdobeFangsongStd-Regular' with options [Script={CJK}].
+. Font family 'STFangsong(0)' created for font 'STFangsong' with options
+. [Script={CJK}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"AdobeFangsongStd-Regular/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"AdobeFangsongStd-Regular/OT"
+. - 'normal' (m/n) with NFSS spec.: <->"STFangsong/OT"
+. - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-! Font TU/AdobeFangsongStd-Regular(0)/m/n/16.06=AdobeFangsongStd-Regular/OT at 
-16.06pt not loadable: Metric (TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.50 ^^I\cleardoublepage
-                        
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 陈 in font nullfont!
-Missing character: There is no 伯 in font nullfont!
-Missing character: There is no 韦 in font nullfont!
+\pkuthss@tmp@linecount=\count405
 \pkuthss@tmp@linecount=\count406
 \pkuthss@tmp@linecount=\count407
-Missing character: There is no 软 in font nullfont!
-Missing character: There is no 件 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 微 in font nullfont!
-Missing character: There is no 电 in font nullfont!
-Missing character: There is no 子 in font nullfont!
-Missing character: There is no 学 in font nullfont!
-Missing character: There is no 院 in font nullfont!
 \pkuthss@tmp@linecount=\count408
-Missing character: There is no 软 in font nullfont!
-Missing character: There is no 件 in font nullfont!
-Missing character: There is no 工 in font nullfont!
-Missing character: There is no 程 in font nullfont!
-Missing character: There is no 专 in font nullfont!
-Missing character: There is no 业 in font nullfont!
 \pkuthss@tmp@linecount=\count409
-Missing character: There is no 数 in font nullfont!
-Missing character: There is no 据 in font nullfont!
-Missing character: There is no 挖 in font nullfont!
-Missing character: There is no 掘 in font nullfont!
-Missing character: There is no 与 in font nullfont!
-Missing character: There is no 商 in font nullfont!
-Missing character: There is no 务 in font nullfont!
-Missing character: There is no 智 in font nullfont!
-Missing character: There is no 能 in font nullfont!
-Missing character: There is no 方 in font nullfont!
-Missing character: There is no 向 in font nullfont!
 \pkuthss@tmp@linecount=\count410
-Missing character: There is no 李 in font nullfont!
-Missing character: There is no 杰 in font nullfont!
-Missing character: There is no 教 in font nullfont!
-Missing character: There is no 授 in font nullfont!
-Missing character: There is no 、 in font nullfont!
-Missing character: There is no 刘 in font nullfont!
-Missing character: There is no 京 in font nullfont!
-Missing character: There is no 讲 in font nullfont!
-Missing character: There is no 师 in font nullfont!
-\pkuthss@tmp@linecount=\count411
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.06749pt on input line 50.
+(Font)              scaled to size 18.06749pt on input line 48.
 [1
 
 
@@ -2911,25 +2598,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \openout2 = `chap/abstract.aux'.
 
  (./chap/abstract.tex
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼼ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽂ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -2941,93 +2609,23 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 ] [2
 
 ]
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeHeitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.11 \begin{eabstract}
-                      
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
 *************************************************
-* fontspec warning: "script-not-exist"
+* fontspec warning: "script-not-exist-latn"
 * 
-* Font 'AdobeHeitiStd-Regular' does not contain script 'CJK'.
+* Font 'STXihei' does not contain script 'CJK'.
+*  'Latin' script used instead.
 *************************************************
-\g__fontspec_family_AdobeHeitiStd-Regular_int=\count412
+\g__fontspec_family_STXihei_int=\count411
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "AdobeHeitiStd-Regular/BI" (it probably doesn't
-. exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "AdobeHeitiStd-Regular/B" (it probably doesn't
-. exist).
+. Could not resolve font "STHeiti/I" (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font "AdobeHeitiStd-Regular/I" (it probably doesn't
-. exist).
+. Could not resolve font "STXihei/I" (it probably doesn't exist).
 .................................................
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeHeitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.11 \begin{eabstract}
-                      
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeHeitiStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.11 \begin{eabstract}
-                      
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
 LaTeX Font Info:    Try loading font information for T1+qhv on input line 11.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -3039,13 +2637,18 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'AdobeHeitiStd-Regular(0)' created for font
-. 'AdobeHeitiStd-Regular' with options [Script={CJK}].
+. Font family 'STXihei(0)' created for font 'STXihei' with options
+. [Script={CJK},BoldFont={STHeiti}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"AdobeHeitiStd-Regular/OT"
+. - 'normal' (m/n) with NFSS spec.: <->"STXihei/OT:script=latn;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.: <->"STHeiti/OT:script=latn;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"STXihei/BI/OT:script=latn;language=DFLT;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <18.06749> not available
 (Font)              Font shape `T1/qhv/b/n' tried instead on input line 11.
@@ -3074,9 +2677,6 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 ] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 5.
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
  [7])
 \tf@lof=\write8
 \openout8 = `thesis.lof'.
@@ -3093,13 +2693,6 @@ Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
 
 (./chap/chap1.tex
 第一章
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾃ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽂ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾨ in font SimSun/OT:script=hani;language=DFLT;!
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 15.05624pt on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <15.05624> not availabl
@@ -3107,12 +2700,6 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 15.05624pt on input line 9.
-Missing character: There is no ⼭ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
 [1
 
 
@@ -3125,7 +2712,6 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.05249pt on input line 14.
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
 File: TotalMarketCapitalization.png Graphic file (type QTm)
  <use  "TotalMarketCapitalization.png" >
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -3134,61 +2720,28 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.0pt on input line 21.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 21.
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
  [2]
 File: Thetotalmarketcapitalization.jpg Graphic file (type QTm)
 
-<use  "Thetotalmarketcapitalization.jpg" >
-Missing character: There is no ⾃ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼼ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
- [3]
+<use  "Thetotalmarketcapitalization.jpg" > [3]
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [4]
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
 File: TPS.png Graphic file (type QTm)
 
 <use  "TPS.png" >
 File: blockchainsize.png Graphic file (type QTm)
- <use  "blockchainsize.png" >
-Missing character: There is no ⾧ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
- [5]
-Missing character: There is no ⾃ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-
+ <use  "blockchainsize.png" > [5]
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
  [6]
-Missing character: There is no ⼒ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
 File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" >
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
- [7]
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-
+<use  "Darklaunderworkflow.png" > [7]
 Underfull \vbox (badness 2512) has occurred while \output is active []
 
  [8]
-[9]
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
- [10]) [11]
+[9] [10]) [11]
 \openout2 = `chap/chap2.aux'.
 
  (./chap/chap2.tex [12
@@ -3197,487 +2750,69 @@ Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
 
 ]
 第二章
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼼ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼼ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
 File: bitcoinfullnode.png Graphic file (type QTm)
 <use  "bitcoinfullnode.png" >
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
 File: LBC.png Graphic file (type QTm)
 
-<use  "LBC.png" >
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾼ in font SimSun/OT:script=hani;language=DFLT;!
- [14]
-Missing character: There is no ⽉ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
- [15]
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾼ in font SimSun/OT:script=hani;language=DFLT;!
+<use  "LBC.png" > [14] [15]
+Underfull \vbox (badness 7326) has occurred while \output is active []
+
  [16]
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾧ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾧ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
- [17]
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
- [18]
+[17] [18]
 File: 6confirm.jpg Graphic file (type QTm)
- <use  "6confirm.jpg" >
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
- [19]
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
+ <use  "6confirm.jpg" > [19]
 File: address.jpg Graphic file (type QTm)
-
-<use  "address.jpg" >
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾧ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
- [20] [21]
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾧ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾧ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⿊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-
+ <use  "address.jpg" > [20] [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-Missing character: There is no ⾃ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼗ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾜ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼗ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾜ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼗ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼩ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾮ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾞ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾜ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾞ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
 File: gabuild.jpg Graphic file (type QTm)
 
 <use  "gabuild.jpg" > [23]
-Overfull \hbox (15.52565pt too wide) in paragraph at lines 242--243
-[]\TU/SimSun(0)/m/n/12.045 創 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/SimSun(0)/m/n/1
+Overfull \hbox (15.89716pt too wide) in paragraph at lines 242--243
+[]\TU/STSong(0)/m/n/12.045 創 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
 2.045 多 重 簽 章 比 特 幣 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
-bZfQ"\TU/SimSun(0)/m/n/12.045 ，|
+bZfQ"\TU/STSong(0)/m/n/12.045 ，|
  []
 
 File: gatx.jpg Graphic file (type QTm)
-<use  "gatx.jpg" > [24]
+<use  "gatx.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
 File: blockchain.jpg Graphic file (type QTm)
- <use  "blockchain.jpg" > [25]
+
+<use  "blockchain.jpg" > [25]
 File: MerkleRoot.png Graphic file (type QTm)
  <use  "MerkleRoot.png" >) [26]
 \openout2 = `chap/chap3.aux'.
 
  (./chap/chap3.tex
 第三章
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
 File: fish1.png Graphic file (type QTm)
 <use  "fish1.png" >
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽂ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
 File: modeall.png Graphic file (type QTm)
- <use  "modeall.png" >
-Missing character: There is no ⿈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾛ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
- [27
+ <use  "modeall.png" > [27
 
 
 
 ]
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾒ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼼ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾝ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼼ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-
-[29]
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽇ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾒ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽚ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽚ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾸ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽇ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽉ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽽ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
- [30]
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽴ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽂ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼒ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽇ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾝ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
- [31]
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾝ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-
+[29] [30] [31]
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
  [32]
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
 File: UC.jpg Graphic file (type QTm)
 
 <use  "UC.jpg" >
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼒ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼈ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼿ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽬ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼦ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾔ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-
 [34]) [35]
 \openout2 = `chap/chap4.aux'.
 
@@ -3688,10 +2823,10 @@ Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
 ]
 第四章
 
-Overfull \hbox (9.4743pt too wide) in paragraph at lines 5--6
-[]\TU/SimSun(0)/m/n/12.045 本 論 文 提 出 比 特 幣 的 交 易 監 督 系 統  |（\T1/ntxtlf/m/n/12.0
-45 Bit-coin Trans-ac-tion Mon-i-tor-ing Sys-tem\TU/SimSun(0)/m/n/12.045 ，| \T1/
-ntxtlf/m/n/12.045 BTMS\TU/SimSun(0)/m/n/12.045 ）|$[]$，|
+Overfull \hbox (8.84303pt too wide) in paragraph at lines 5--6
+[]\TU/STSong(0)/m/n/12.045 本 論 文 提 出 比 特 幣 的 交 易 監 督 系 統  |（\T1/ntxtlf/m/n/12.0
+45 Bit-coin Trans-ac-tion Mon-i-tor-ing Sys-tem\TU/STSong(0)/m/n/12.045 ，| \T1/
+ntxtlf/m/n/12.045 BTMS\TU/STSong(0)/m/n/12.045 ）|$[]$，|
  []
 
 File: model0.jpg Graphic file (type QTm)
@@ -3733,117 +2868,16 @@ File: c3.jpg Graphic file (type QTm)
  <use  "c3.jpg" >
 File: time1.jpg Graphic file (type QTm)
  <use  "time1.jpg" > [47] [48]
-Missing character: There is no ⾝ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
 File: c2.jpg Graphic file (type QTm)
  <use  "c2.jpg" >
 File: time3.jpg Graphic file (type QTm)
 
-<use  "time3.jpg" > [49] [50]
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾏ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
- [51]
+<use  "time3.jpg" > [49] [50] [51]
 File: c1.jpg Graphic file (type QTm)
  <use  "c1.jpg" >
 File: time2.jpg Graphic file (type QTm)
  <use  "time2.jpg" >
-[52]
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾃ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼯ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼗ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼀ in font SimSun/OT:script=hani;language=DFLT;!
- [53]
+[52] [53]
 File: c5.jpg Graphic file (type QTm)
  <use  "c5.jpg" >
 File: time4.jpg Graphic file (type QTm)
@@ -3853,37 +2887,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [54]
 [55] [56]
 File: c7.jpg Graphic file (type QTm)
- <use  "c7.jpg" >
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼊ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⾄ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⼾ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽤ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
- [57]
+ <use  "c7.jpg" > [57]
 File: c4.jpg Graphic file (type QTm)
  <use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
@@ -3892,7 +2896,6 @@ Underfull \vbox (badness 2334) has occurred while \output is active []
 
  [58]
 [59] [60]
-Missing character: There is no ⽐ in font SimSun/OT:script=hani;language=DFLT;!
 File: c6.jpg Graphic file (type QTm)
  <use  "c6.jpg" >
 File: fig5.png Graphic file (type QTm)
@@ -3901,33 +2904,29 @@ File: fig6.png Graphic file (type QTm)
  <use  "fig6.png" > [61] [62]
 File: fig7.png Graphic file (type QTm)
 
-<use  "fig7.png" >
-Missing character: There is no ⽰ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
- [63]
+<use  "fig7.png" > [63]
 File: fig8.png Graphic file (type QTm)
  <use  "fig8.png" >) [64]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
 第六章
-Missing character: There is no 利 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 行 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 列 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 列 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 行 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 例 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 行 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 說 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 列 in font SimSun/OT:script=hani;language=DFLT;!
+Missing character: There is no 利 in font STSong/OT!
+Missing character: There is no 行 in font STSong/OT!
+Missing character: There is no 列 in font STSong/OT!
+Missing character: There is no 列 in font STSong/OT!
+Missing character: There is no 行 in font STSong/OT!
+Missing character: There is no 例 in font STSong/OT!
+Missing character: There is no 行 in font STSong/OT!
+Missing character: There is no 說 in font STSong/OT!
+Missing character: There is no 列 in font STSong/OT!
 [65
 
 
 
 ] [66]
-Missing character: There is no 度 in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no 度 in font SimSun/OT:script=hani;language=DFLT;!
+Missing character: There is no 度 in font STSong/OT!
+Missing character: There is no 度 in font STSong/OT!
 File: IntegrationTesting.png Graphic file (type QTm)
  <use  "IntegrationTesting.png" >
 File: usecasediagram.jpg Graphic file (type QTm)
@@ -3935,44 +2934,19 @@ File: usecasediagram.jpg Graphic file (type QTm)
 File: AcceptanceTesting.png Graphic file (type QTm)
 
 <use  "AcceptanceTesting.png" > [67] [68] [69]
-Overfull \hbox (15.12332pt too wide) in paragraph at lines 215--217
-[]\T1/ntxtlf/m/n/12.045 AT1 \TU/SimSun(0)/m/n/12.045 测 试 用 例：| 表[][]\T1/ntxtlf/
-m/n/12.045 6.6[][]\TU/SimSun(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使
- 用 子 系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
+Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
+[]\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
+n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 標 測 試 管 理 人 員 是 否 能 夠 順 利 使 用 子
+ 系 統 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
 [70]
 File: fig9.png Graphic file (type QTm)
  <use  "fig9.png" >
-Underfull \vbox (badness 7667) has occurred while \output is active []
+Underfull \vbox (badness 7451) has occurred while \output is active []
 
  [71]
-[72] [73]
-Overfull \hbox (2.55432pt too wide) in paragraph at lines 435--443
- [][] 
- []
-
-[74]
-Overfull \hbox (2.55432pt too wide) in paragraph at lines 480--488
- [][] 
- []
-
-[75] [76]
-Overfull \hbox (2.55432pt too wide) in paragraph at lines 536--544
- [][] 
- []
-
-
-Overfull \hbox (2.55432pt too wide) in paragraph at lines 583--591
- [][] 
- []
-
-Missing character: There is no ⽅ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽀ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽇ in font SimSun/OT:script=hani;language=DFLT;!
-Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
-) [77] [78]
+[72] [73] [74] [75] [76]) [77] [78]
 \openout2 = `chap/chap7.aux'.
 
  (./chap/chap7.tex
@@ -3987,133 +2961,112 @@ Missing character: There is no ⽣ in font SimSun/OT:script=hani;language=DFLT;!
 ]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 95.
+(Font)              scaled to size 10.53937pt on input line 93.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 95.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 93.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 95.
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "AdobeFangsongStd-Regular" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.95 ^^I\printbibliography[heading = bibintoc]
-                                              
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-|  Check the spelling, where the font is installed etc. etc.
-| 
-|  When in doubt, ask someone for help!
-|...............................................
-
+(Font)              scaled to size 10.53937pt on input line 93.
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
-* Font 'AdobeFangsongStd-Regular' does not contain script 'CJK'.
+* Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 95.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 93.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 95.
+(Font)              scaled to size 10.53937pt on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 [81]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
-Overfull \hbox (12.55984pt too wide) in paragraph at lines 95--95
+Overfull \hbox (12.55984pt too wide) in paragraph at lines 93--93
 []\T1/ntxtlf/m/n/10.53937 Android De-vel-op-ers Blog. \T1/ntxtlf/m/it/10.53937 
-Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. [][]$\T1/ntxtt/m
-/n/10.53937 https : / / android -[] developers .
+Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
+/10.53937 https : / / android -[] developers .
  []
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 [82]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 95.
+(biblatex)                Using fallback driver on input line 93.
 
 [83] [84
 
@@ -4140,26 +3093,26 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
 ) [87]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
 (./chap/chap6.aux) (./chap/chap7.aux) (./chap/acknowledge.aux)
 (./chap/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48653 strings out of 493005
- 953232 string characters out of 6134596
- 1376377 words of memory out of 5000000
- 51854 multiletter control sequences out of 15000+600000
- 101721 words of font info for 128 fonts, out of 8000000 for 9000
+ 48635 strings out of 493005
+ 952336 string characters out of 6134596
+ 1374675 words of memory out of 5000000
+ 51837 multiletter control sequences out of 15000+600000
+ 101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,20n,102p,10475b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,20n,102p,10457b,4688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 1003432 bytes).
+Output written on thesis.xdv (101 pages, 994832 bytes).
