@@ -1497,8 +1497,8 @@
       \strng{fullhash}{8aec261638630c60d7992724d6f8fc4f}
       \strng{authornamehash}{8aec261638630c60d7992724d6f8fc4f}
       \strng{authorfullhash}{8aec261638630c60d7992724d6f8fc4f}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Wireless and Mobile Computing, Networking and Communications (WiMob),}

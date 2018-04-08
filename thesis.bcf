@@ -2201,24 +2201,23 @@
     <bcf:citekey order="65">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
     <bcf:citekey order="66">Performancecomparisonofellipticcurveandrsadigitalsignatures</bcf:citekey>
     <bcf:citekey order="67">LatticesignaturesandbimodalGaussians</bcf:citekey>
-    <bcf:citekey order="68">LatticesignaturesandbimodalGaussians</bcf:citekey>
-    <bcf:citekey order="69">DeploymentsofEllipticCurveCryptography</bcf:citekey>
+    <bcf:citekey order="68">DeploymentsofEllipticCurveCryptography</bcf:citekey>
+    <bcf:citekey order="69">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="70">LatticesignaturesandbimodalGaussians</bcf:citekey>
-    <bcf:citekey order="71">LatticesignaturesandbimodalGaussians</bcf:citekey>
-    <bcf:citekey order="72">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
-    <bcf:citekey order="73">Double-spendAttackModelswithTimeAdvantangeforBitcoin</bcf:citekey>
-    <bcf:citekey order="74">bitcoinpaper</bcf:citekey>
-    <bcf:citekey order="75">Informationpropagationinthebitcoinnetwork</bcf:citekey>
-    <bcf:citekey order="76">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
-    <bcf:citekey order="77">GreenAddress</bcf:citekey>
-    <bcf:citekey order="78">Bitcoinclients</bcf:citekey>
-    <bcf:citekey order="79">JDBCdatabaseaccesswithJava:atutorialandannotatedreference</bcf:citekey>
-    <bcf:citekey order="80">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
-    <bcf:citekey order="81">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="82">tanet</bcf:citekey>
-    <bcf:citekey order="83">bitcointestnet</bcf:citekey>
-    <bcf:citekey order="84">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="85">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
+    <bcf:citekey order="71">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
+    <bcf:citekey order="72">Double-spendAttackModelswithTimeAdvantangeforBitcoin</bcf:citekey>
+    <bcf:citekey order="73">bitcoinpaper</bcf:citekey>
+    <bcf:citekey order="74">Informationpropagationinthebitcoinnetwork</bcf:citekey>
+    <bcf:citekey order="75">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
+    <bcf:citekey order="76">GreenAddress</bcf:citekey>
+    <bcf:citekey order="77">Bitcoinclients</bcf:citekey>
+    <bcf:citekey order="78">JDBCdatabaseaccesswithJava:atutorialandannotatedreference</bcf:citekey>
+    <bcf:citekey order="79">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
+    <bcf:citekey order="80">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="81">tanet</bcf:citekey>
+    <bcf:citekey order="82">bitcointestnet</bcf:citekey>
+    <bcf:citekey order="83">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="84">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

@@ -225,7 +225,7 @@
 	\end{enumerate}
 
 \subsubsection{（四）商家交易管理模块}
-在⽤⼾完成注册后且在商家将该⽤⼾加⼊成为公司职⼯后，该职⼯可以透过⽤⼾帐号进⼊到商家交易管理模块，该模块为移动设备的应⽤程序。在进⼊到本模块后会⾃动加载商家商品、商家信息以及职⼯信息，制成⼀个基于区块链加密货币的移动收银机，可以扫描带有RFID 标签的商家产品，创建交易后等待⽤⼾交易管理模块读取以及验证交易是否完成的信息。图5.8为商家交易管理模块类图，在StoreTransactionManagement 类当中有五个⽅法，分别为显⽰所有的商家产品信息的showstoreproduct() ⽅法、显⽰职⼯信息的showstorestaff()⽅法、显⽰商家信息的showstore() ⽅法、检查交易是否完成的check() ⽅法以及透过NFC 传输协议传输信息的nfc() ⽅法。StoreCompare 类中的compare() ⽅法是向Store类取得与STORE\_ID 相符的商家信息，StoreProductCompare 类中的compare() ⽅法是向StoreProduct 类请求与STORE\_ID 相符的所有商家产品信息。StoreStaffCompare 类中的compare() ⽅法是向Staff 类中请与USER\_ID 相符的职⼯信息。在NFCMessage 类中有两个⽅法，receivenfcmessage() ⽅法使得商家可以快速的扫描商品的RFID 标签，sendnfcmessage() ⽅法使得职⼯在创建完交易清单后可以将交易信息发送给顾客。CheckTx 类中有两个⽅法，分别为取得于Tx 类中交易信息的compare() ⽅法，以及getcheck()⽅法是检查该笔交易的CHECK 值是否已经在Tx 类中被修改为"1"，倘若被修改为"1"则表示该笔交易已经被写⼊区块链中。在本模块要做到验证⽐特币交易是否已经被存储在⽐特币区块链当中，必须使⽤BlockchainExplore 类中的getblockchain() ⽅法取得所有区块链相关的信息，再透过getbitcointx() ⽅法取得该笔⽐特币交易的状态以及详细信息。Tx 类中可以调⽤txcheck() ⽅法对BlockchainExplore 类检查该笔交易是否已经进⼊了区块链，如果已经进⼊区块链，则将相关的交易信息的CHECK 值修改为"1"。值得⼀提的是，在此将CHECK 值修改为"1" 的标准，为该笔交易进⼊区块链的时间。由于⽐特币区块链的⽣成速度平均为每⼗分钟⼀块，这将使得交易确认速度不够即时。
+在⽤⼾完成注册后且在商家将该⽤⼾加⼊成为公司职⼯后，该职⼯可以透过⽤⼾帐号进⼊到商家交易管理模块，该模块为手持移动装置的应⽤程序。在进⼊到本模块后会⾃动加载商家商品、商家信息以及职⼯信息，制成⼀个基于区块链加密货币的移动收银机，可以扫描带有RFID 标签的商家产品，创建交易后等待⽤⼾交易管理模块读取以及验证交易是否完成的信息。图5.8为商家交易管理模块类图，在StoreTransactionManagement 类当中有五个⽅法，分别为显⽰所有的商家产品信息的showstoreproduct() ⽅法、显⽰职⼯信息的showstorestaff()⽅法、显⽰商家信息的showstore() ⽅法、检查交易是否完成的check() ⽅法以及透过NFC 传输协议传输信息的nfc() ⽅法。StoreCompare 类中的compare() ⽅法是向Store类取得与STORE\_ID 相符的商家信息，StoreProductCompare 类中的compare() ⽅法是向StoreProduct 类请求与STORE\_ID 相符的所有商家产品信息。StoreStaffCompare 类中的compare() ⽅法是向Staff 类中请与USER\_ID 相符的职⼯信息。在NFCMessage 类中有两个⽅法，receivenfcmessage() ⽅法使得商家可以快速的扫描商品的RFID 标签，sendnfcmessage() ⽅法使得职⼯在创建完交易清单后可以将交易信息发送给顾客。CheckTx 类中有两个⽅法，分别为取得于Tx 类中交易信息的compare() ⽅法，以及getcheck()⽅法是检查该笔交易的CHECK 值是否已经在Tx 类中被修改为"1"，倘若被修改为"1"则表示该笔交易已经被写⼊区块链中。在本模块要做到验证⽐特币交易是否已经被存储在⽐特币区块链当中，必须使⽤BlockchainExplorer 类中的getblockchain() ⽅法取得所有区块链相关的信息，再透过getbitcointx() ⽅法取得该笔⽐特币交易的状态以及详细信息。Tx 类中可以调⽤txcheck() ⽅法对BlockchainExplorer 类检查该笔交易是否已经进⼊了区块链，如果已经进⼊区块链，则将相关的交易信息的CHECK 值修改为"1"。值得⼀提的是，在此将CHECK 值修改为"1" 的标准，为该笔交易进⼊区块链的时间。由于⽐特币区块链的⽣成速度平均为每⼗分钟⼀块，这将使得交易确认速度不够即时。
 
 
 	\begin{figure}[!htbp]
@@ -256,7 +256,7 @@
 	\item 商家交易管理模块向商家信息表请求商家比特币地址信息。
 	\item 商家信息表将商家比特币地址信息传回到商家交易管理模块。
 	\item 商家产品信息表将所有与商家编号有关的商家产品信息传回到商家交易管理模块，此时商家交易管理模块已经有完整的商家产品信息以及商家信息。将带有RFID标签的商品透过NFC线圈进行传感对应到相关的商家产品信息。
-	\item 将产品信息创建交易清单显示在移动设备的屏幕上，等待顾客的手持设备进行感应，感应的同时会将交易清单以及商家比特币地址发送到顾客交易管理模块。
+	\item 将产品信息创建交易清单显示在手持移动装置的屏幕上，等待顾客的手持设备进行感应，感应的同时会将交易清单以及商家比特币地址发送到顾客交易管理模块。
 
 	\item 在感应的同时顾客交易管理模块会将比特币钱包模块中的比特币地址提交给商家交易管理模块。
 	\item 商家交易管理模块发送信息至交易信息表查找该笔交易信息。
@@ -265,7 +265,7 @@
 	
 	\end{enumerate}
 
-	在比特币系统中，使得一笔比特币交易得到比特币网络的认可，需要等待六个区块的交易验证，相当于需要费时60分钟的时间等待一个交易的完成，这使得比特币交易在商家进行小额交易造成很大的不便，因此为了在BRTMS中改善此问题，便导入了基于Green Address钱包的多重签章算法，使得交易时间可以从60分钟的等待时间，缩短为一秒钟左右。图\ref{c7}为商家Government Green Address交易管理模块类图，在此模块类图中针对Tx类中添加ggatxcheck()方法，使得商家交易管理模块可以支持Government Green Address地址格式的辨别，当检测到为Government Green Address地址格式，将交易信息中的CHECK字段修改为"1"，这使得比特币交易信息可以在平均一秒钟的时间得到交易确认，ggatxcheck()方法需要调用BlockchainExplore类中的getblockchain()取得比特币区块链的信息以及getbitcointx()方法得到比特币交易信息。在GovernmentGreenaddressCheckTx类中提供compare()方法可以针对Government Green Address地址向Tx类查找相关信息以及ggatxcheck()方法检测该笔交易是否存储于交易信息中的CHECK值已经被修改为"1"。
+	在比特币系统中，使得一笔比特币交易得到比特币网络的认可，需要等待六个区块的交易验证，相当于需要费时60分钟的时间等待一个交易的完成，这使得比特币交易在商家进行小额交易造成很大的不便，因此为了在BRTMS中改善此问题，便导入了基于Green Address钱包的多重签章算法，使得交易时间可以从60分钟的等待时间，缩短为一秒钟左右。图\ref{c7}为商家Government Green Address交易管理模块类图，在此模块类图中针对Tx类中添加ggatxcheck()方法，使得商家交易管理模块可以支持Government Green Address地址格式的辨别，当检测到为Government Green Address地址格式，将交易信息中的CHECK字段修改为"1"，这使得比特币交易信息可以在平均一秒钟的时间得到交易确认，ggatxcheck()方法需要调用BlockchainExplorer类中的getblockchain()取得比特币区块链的信息以及getbitcointx()方法得到比特币交易信息。在GovernmentGreenaddressCheckTx类中提供compare()方法可以针对Government Green Address地址向Tx类查找相关信息以及ggatxcheck()方法检测该笔交易是否存储于交易信息中的CHECK值已经被修改为"1"。
 
 	
 
@@ -278,7 +278,7 @@
 
 
 \subsubsection{（五）顾客交易管理模块}
-在本系统中顾客需要在手持移动端安装手机程序包括顾客交易管理模块，使得顾客移动设备可以支持比特币支付、查找过去的交易信息、以NFC通信协议接收商家交易管理模块创建的交易信息以及详细的商家商品信息。图\ref{c4}为顾客交易管理模块类图，在CustomerTxManagement 类中包括六个⽅法，分别为显⽰所有该⽤⼾拥有⽐特币交易信息相关的交易明细的showtx() ⽅法、取得交易信息后取得相对应的商家产品信息的showstoreproduct() ⽅法、检查于交易信息表中的交易信息CHECK 字段的值是否已经被填⼊"1" 的check() ⽅法、发送详细的交易信息⾄交易信息表保存的sendtx2table()⽅法、透过NFC 协议接收于StoreTransactionManagement 类所创建的交易信息以及发送⽤⼾⽐特币地址的nfc() ⽅法，最后是控制⽐特币钱包的bitcoinpayment() ⽅法。CheckTx类中的getcheck() ⽅法可以向Tx 类询问该笔交易是否已经得到认证，TxCompare 类中的compare() ⽅法提供⽤⼾向交易信息表查找与⽤⼾交易信息相关的交易，TransferTx类中的sendtx() ⽅法是将顾客完成交易的交易信息提交到交易信息表，BitcoinPay 类使⽤pay() ⽅法⽀付⽐特币，NFCMessage 类中的receivenfcmessage() 和sendnfcmessage()分别为透过NFC 协议发送以及接收交易信息和顾客⽐特币地址。StoreProductCompare类则是向StoreProduct 类请求顾客移动设备中所有交易信息中相关的商家商品。
+在本系统中顾客需要在手持移动端安装手持移动装置程序包括顾客交易管理模块，使得顾客手持移动装置可以支持比特币支付、查找过去的交易信息、以NFC通信协议接收商家交易管理模块创建的交易信息以及详细的商家商品信息。图\ref{c4}为顾客交易管理模块类图，在CustomerTxManagement 类中包括六个⽅法，分别为显⽰所有该⽤⼾拥有⽐特币交易信息相关的交易明细的showtx() ⽅法、取得交易信息后取得相对应的商家产品信息的showstoreproduct() ⽅法、检查于交易信息表中的交易信息CHECK 字段的值是否已经被填⼊"1" 的check() ⽅法、发送详细的交易信息⾄交易信息表保存的sendtx2table()⽅法、透过NFC 协议接收于StoreTransactionManagement 类所创建的交易信息以及发送⽤⼾⽐特币地址的nfc() ⽅法，最后是控制⽐特币钱包的bitcoinpayment() ⽅法。CheckTx类中的getcheck() ⽅法可以向Tx 类询问该笔交易是否已经得到认证，TxCompare 类中的compare() ⽅法提供⽤⼾向交易信息表查找与⽤⼾交易信息相关的交易，TransferTx类中的sendtx() ⽅法是将顾客完成交易的交易信息提交到交易信息表，BitcoinPay 类使⽤pay() ⽅法⽀付⽐特币，NFCMessage 类中的receivenfcmessage() 和sendnfcmessage()分别为透过NFC 协议发送以及接收交易信息和顾客⽐特币地址。StoreProductCompare类则是向StoreProduct 类请求顾客手持移动装置中所有交易信息中相关的商家商品。
 
 	\begin{figure}[!htbp]
 		\centering
@@ -297,11 +297,11 @@
 	\end{figure}
 
 	\begin{enumerate}
-		\item 顾客启动比特币钱包管理模块，届时比特币钱包管理模块再同步最新的区块链信息至手机本地端，并将与手机本身存在的比特币地址进行核对。
+		\item 顾客启动比特币钱包管理模块，届时比特币钱包管理模块再同步最新的区块链信息至手持移动装置本地端，并将与手持移动装置本身存在的比特币地址进行核对。
 		\item 将所有在比特币钱包模块的地址提交到顾客交易管理模块。
 		\item 顾客交易管理模块将所有拿到的比特币地址发送到交易信息表，请求完整的交易信息内容。
 		\item 交易信息表将概要的交易信息传回顾客交易管理，此时的交易信息并非相当完整，只有商家产品编号。
-		\item 为了使得交易信息更加的完整可以显示更多的商家产品说明，便将手机本地端数据库存在的商家产品编号向商家产品信息表提出请求更详细的说明。
+		\item 为了使得交易信息更加的完整可以显示更多的商家产品说明，便将手持移动装置本地端数据库存在的商家产品编号向商家产品信息表提出请求更详细的说明。
 		\item 商家产品信息表传回详细的商家产品信息到顾客交易管理模块。
 		\item 顾客交易管理模块将收到的信息显示在画面上。
 		\item 当顾客前往商家时，商家扫描完所有顾客欲购买的商家比特币地址、商家商品、数量、价格以及应付金额之后，便向商家交易管理启动NFC准备等待顾客的手持设备进行信息传输，此时的顾客将手持设备与商家手持设备靠近。
