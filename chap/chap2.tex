@@ -52,7 +52,7 @@
 
 				如何建构一个乱数，在过往的乱数产生器往往会加入时间作为参数，但对于一个攻击者而言，只需要去猜测在这段时间内目标者所有生成的可能性有极高的机率可猜出乱数。而乱数在密码学中常会是一把私钥的生成，在HTTPS 协议中，服务器端与客⼾端建⽴⼀个加密连接的过程中，也需要⼀个乱数去建⽴⾼安全性的加密信道-传输层安全性协定Transport Layer Security，TLS）\supercite{dierks2008transport}，在SSH协议\supercite{ThesecureshellSSHprotocolarchitecture}中也采用了乱数。
 		
-				于2013 年8 ⽉⽐特币开发者Mike Hearn 于论文"All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values" \supercite{SomeSecureRandomThoughts}中提及在过去的历史事件中，发现Android手持移动装置版以及平板版的乱数产生器中存在着不随机，在不同的手持移动装置中有机会生成同样的私钥。Bitcoin.org也发布了警告\supercite{AndroidSecurityVulnerability}简要说明该乱数不随机事件的原因，以及表明受到该事件影响的⽐特币钱包客⼾端包含有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。这样的错误源于Android本身支持的乱数产生器并不随机，随后Android解释了乱数的问题并加以修正。在这Android手持移动装置乱数不够乱的事件中，有自愿者自发性地公布自己的损失状态，总金额为55.82152538个比特币\supercite{Badsignaturesleading}，但因为比特币属于被动的性质，无人主动回报即不会加入统计中，所以总损失估计会超过55.82152538个比特币。
+				于2013 年8 ⽉⽐特币开发者Mike Hearn 于论文"All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values"\supercite{SomeSecureRandomThoughts}中提及在过去的历史事件中，发现Android手持移动装置版以及平板版的乱数产生器中存在着不随机，在不同的手持移动装置中有机会生成同样的私钥。Bitcoin.org也发布了警告\supercite{AndroidSecurityVulnerability}简要说明该乱数不随机事件的原因，以及表明受到该事件影响的⽐特币钱包客⼾端包含有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。这样的错误源于Android本身支持的乱数产生器并不随机，随后Android解释了乱数的问题并加以修正。在这Android手持移动装置乱数不够乱的事件中，有自愿者自发性地公布自己的损失状态，总金额为55.82152538个比特币\supercite{Badsignaturesleading}，但因为比特币属于被动的性质，无人主动回报即不会加入统计中，所以总损失估计会超过55.82152538个比特币。
 
 				\subsubsection{（二）非对称式加密算法 Secp256k1}
 				在密码学中有分对称式加密与非对称式加密，对称式加密又分为信息流加密与信息块加密，信息流加密著名的是由美国密码学家Ron Rivest教授发表，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息块加密著名的有数据加密标准（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非对称式加密最广为人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic curve cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
@@ -86,13 +86,13 @@
 				\hline
 				算法 & 安全性 & \begin{tabular}[c]{@{}c@{}}签名\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}私钥\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}公钥\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}签名\\ (微秒）\end{tabular} & 签名/秒 & \begin{tabular}[c]{@{}c@{}}验证\\ (微秒）\end{tabular} & 验证/秒 \\ \hline
 				BLISS-0 & $\leq$60 bits & 3.3 kb & 1.5 kb & 3.3 kb & 0.241 & 4k & 0.017 & 59k \\ \hline
-				BLISS-I & 128 bits & 5.6 kb & 2 kb & 7kb & 0.124 & 8k & 0.03 & 33k \\ \hline
-				BLISS-II & 128 bits & 5 kb & 2 kb & 7kb & 0.48 & 2k & 0.03 & 33k \\ \hline
-				BLISS-III & 160 bits & 6 kb & 3 kb & 7kb & 0.203 & 5k & 0.031 & 32k \\ \hline
-				BLISS-IV & 192 bits & 6.5 kb & 3 kb & 7kb & 0.375 & 2.5k & 0.032 & 31k \\ \hline
-				RSA-1024 & 72-80 bits & 1 kb & 1 kb & 1kb & 0.167 & 6k & 0.004 & 91k \\ \hline
-				RSA-2048 & 103-112 bits & 2 kb & 2 kb & 2kb & 1.18 & 0.8k & 0.038 & 27k \\ \hline
-				RSA-4096 & $>$128 bits & 4 kb & 4 kb & 4kb & 8.66 & 0.1k & 0.138 & 7.5k \\ \hline
+				BLISS-I & 128 bits & 5.6 kb & 2 kb & 7 kb & 0.124 & 8k & 0.03 & 33k \\ \hline
+				BLISS-II & 128 bits & 5 kb & 2 kb & 7 kb & 0.48 & 2k & 0.03 & 33k \\ \hline
+				BLISS-III & 160 bits & 6 kb & 3 kb & 7 kb & 0.203 & 5k & 0.031 & 32k \\ \hline
+				BLISS-IV & 192 bits & 6.5 kb & 3 kb & 7 kb & 0.375 & 2.5k & 0.032 & 31k \\ \hline
+				RSA-1024 & 72-80 bits & 1 kb & 1 kb & 1 kb & 0.167 & 6k & 0.004 & 91k \\ \hline
+				RSA-2048 & 103-112 bits & 2 kb & 2 kb & 2 kb & 1.18 & 0.8k & 0.038 & 27k \\ \hline
+				RSA-4096 & $>$128 bits & 4 kb & 4 kb & 4 kb & 8.66 & 0.1k & 0.138 & 7.5k \\ \hline
 				ECDSA-160 & 80 bits & 0.32 kb & 0.16 kb & 0.16 kb & 0.058 & 17k & 0.205 & 5k \\ \hline
 				ECDSA-256 & 128 bits & 0.5 kb & 0.25 kb & 0.25 kb & 0.106 & 9.5k & 0.384 & 2.5k \\ \hline
 				ECDSA-384 & 192 bits & 0.75 kb & 0.37 kb & 0.37 kb & 0.195 & 5k & 0.853 & 1k \\ \hline
@@ -219,7 +219,7 @@
 				\item 取得版本号：在比特币系统初始的设计中，已经定义了些不同功能的比特币地址，这些特殊功能的比特币地址有着特殊的版本号，最为常见的为以"1"为头的比特币地址，该地址为比特币系统中最早被使用且最为普遍的地址版本，该种地址为一把私钥进行比特币地址推倒，所以仅需要一把钥匙就可以移动该地址下的比特币资产；第二种是以"3"为地址开头的比特币地址，该地址采用多重签章技术，该技术为后续经过多项BIP才完成落实于比特币系统。在第五个步骤中会加入版本号加以区分不同的地址。
 				\item 生成校验码：校验码是⽐特币地址⽣成过程中重要的⼀环。校验码可降低⽐特币的⽀付过程中因⼿误而转⼊到不存在（不符合⽐特币地址⽣成规则）地址的可能性。在第六个步骤中对公钥SHA-256 的RIPEMD-160 再做两次SHA-256 ，取该哈希值前32 bits 的值作为校验码。
 				\item 版本号与公钥SHA-256 的RIPEMD-160 和校验码合并：即将第五步骤产⽣的版本号、第四个步骤产⽣的公钥RIPEMD-160 及第六个步骤产⽣之校验码三者进行合并。
-				\item 合并的结果以Base58 编码：Base58 修改⾃Base64 ，其与Base64 最⼤不同之处在于移除了"0"、"O"、"I"、"l"、"+"、"/" 的字符，可以降低⼈⼯在判读地址的错误率。在这个步骤中使⽤Base58 将第七步骤合并的组合结果进⾏编码。
+				\item 合并的结果以Base58 编码：Base58 修改⾃Base64 ，其与Base64 最⼤不同之处在于移除了"0"、"O"、"I"、"l"、"+"、"/"的字符，可以降低⼈⼯在判读地址的错误率。在这个步骤中使⽤Base58 将第七步骤合并的组合结果进⾏编码。
 			\end{enumerate}
 
 			 	比特币区块链技术，虽然已经利用工作量证明的方式解决了双重支付（Double-spending）问题\supercite{Informationpropagationinthebitcoinnetwork}\supercite{Double-spendingfastpaymentsinbitcoin}，但工作量证明的算法所设置之题目困难度会直接影响到每一个比特币区块的产出时间，这个比特币区块的产出时间也考虑到比特币全节点于全世界各地的网络同步状况，倘若今天的区块生成时间过短会造成全世界的比特币节点之区块数据不一致，这样的数据不一致将导致比特币区块链出现分岔，再更严重一点甚至会造成比特币网络的瓦解。
