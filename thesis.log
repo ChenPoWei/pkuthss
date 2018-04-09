@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 07:42
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2773,9 +2773,9 @@ File: gatx.jpg Graphic file (type QTm)
  <use  "gatx.jpg" > [24]
 File: blockchain.jpg Graphic file (type QTm)
  <use  "blockchain.jpg" > [25]
-File: MerkleRoot.png Graphic file (type QTm)
+File: MerkleRoot.jpg Graphic file (type QTm)
 
-<use  "MerkleRoot.png" >) [26]
+<use  "MerkleRoot.jpg" >) [26]
 \openout2 = `chap/chap3.aux'.
 
  (./chap/chap3.tex
@@ -3097,10 +3097,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48623 strings out of 493005
  952014 string characters out of 6134596
- 1375635 words of memory out of 5000000
+ 1376638 words of memory out of 5000000
  51831 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4686s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 953276 bytes).
+Output written on thesis.xdv (97 pages, 953560 bytes).
