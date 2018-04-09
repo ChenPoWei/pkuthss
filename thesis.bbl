@@ -1539,6 +1539,16 @@
       \field{pages}{9\bibrangedash 16}
       \range{pages}{8}
     \endentry
+    \entry{bitcointestnet}{webpage}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labeltitlesource}{title}
+      \field{title}{Bitcoin Testnet}
+      \field{userf}{en}
+      \verb{url}
+      \verb https://en.bitcoin.it/wiki/Testnet
+      \endverb
+    \endentry
     \entry{tanet}{article}{}
       \name{author}{1}{}{%
         {{hash=0f76c53e3661f94e9789f16256b62985}{%
@@ -1568,16 +1578,6 @@
       \field{title}{匿名加密货币与实名商家交易的有效行动支付监督平台之建置与实作-以比特币为例}
       \field{userf}{en}
       \field{year}{2018}
-    \endentry
-    \entry{bitcointestnet}{webpage}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
-      \field{labeltitlesource}{title}
-      \field{title}{Bitcoin Testnet}
-      \field{userf}{en}
-      \verb{url}
-      \verb https://en.bitcoin.it/wiki/Testnet
-      \endverb
     \endentry
   \endsortlist
 \endrefsection

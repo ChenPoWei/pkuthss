@@ -84,7 +84,7 @@
 
 \section{实时BTMS架构与运作流程}
 
-		在BTMS的机制前提下，提出比特币多重签章算法实践于政府端，将该方法称为Government Green Address，将优化后的系统称为比特币的实时交易监督系统（Bitcoin Real-time Transaction Monitoring System，BRTMS）\supercite{tanet}，以下则将该实时系统简称为BRTMS，BRTMS与过去Green Address 比特币钱包地址不同的在于Green Address生成需要生成两把私钥分别为用户私钥以及Green Address 机构的私钥，并将两把私钥加以合并形成Green Address钱包地址。在用户发起基于Green Address机制的比特币交易时，用户生成交易并使用数字签名，再将该笔交易发送至Green Address机构进行下一个步骤的数字签名，在这过程中完成Green Address机制交易必需依赖Green Address机构，且该机构位于海外，在封包传输上会有一定程度的延迟。为了提升国内用户可以更快速地透过多重签章技术提升交易速度，BRTMS将取代原有的Green Address机构，使得国内的用户拥有更快的网络传输速度，更快的完成多重签章算法签名。 
+		在BTMS的机制前提下，提出比特币多重签章算法实践于政府端，将该方法称为Government Green Address，将优化后的系统称为比特币的实时交易监督系统（Bitcoin Real-time Transaction Monitoring System，BRTMS），以下则将该实时系统简称为BRTMS，BRTMS与过去Green Address 比特币钱包地址不同的在于Green Address生成需要生成两把私钥分别为用户私钥以及Green Address 机构的私钥，并将两把私钥加以合并形成Green Address钱包地址。在用户发起基于Green Address机制的比特币交易时，用户生成交易并使用数字签名，再将该笔交易发送至Green Address机构进行下一个步骤的数字签名，在这过程中完成Green Address机制交易必需依赖Green Address机构，且该机构位于海外，在封包传输上会有一定程度的延迟。为了提升国内用户可以更快速地透过多重签章技术提升交易速度，BRTMS将取代原有的Green Address机构，使得国内的用户拥有更快的网络传输速度，更快的完成多重签章算法签名。 
 
 本节将详述本系统之商家注册、Government Green Address钱包创建与验证交易的运作流程与相关数据库架构，如图\ref{gabpcss}所示。
 

@@ -2214,10 +2214,9 @@
     <bcf:citekey order="78">JDBCdatabaseaccesswithJava:atutorialandannotatedreference</bcf:citekey>
     <bcf:citekey order="79">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
     <bcf:citekey order="80">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="81">tanet</bcf:citekey>
-    <bcf:citekey order="82">bitcointestnet</bcf:citekey>
-    <bcf:citekey order="83">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="84">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
+    <bcf:citekey order="81">bitcointestnet</bcf:citekey>
+    <bcf:citekey order="82">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="83">tanet</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
