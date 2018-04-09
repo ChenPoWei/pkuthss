@@ -19,6 +19,26 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
+    \entry{bitcoinpaper}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{userf}{en}
+      \field{year}{2008}
+    \endentry
     \entry{litecoin}{webpage}{}
       \name{author}{1}{}{%
         {{hash=520e1b71546d806ee6d2277f96624e17}{%
@@ -31,8 +51,8 @@
       \strng{fullhash}{520e1b71546d806ee6d2277f96624e17}
       \strng{authornamehash}{520e1b71546d806ee6d2277f96624e17}
       \strng{authorfullhash}{520e1b71546d806ee6d2277f96624e17}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Litecoin Official website}
@@ -54,8 +74,8 @@
       \strng{fullhash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
       \strng{authornamehash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
       \strng{authorfullhash}{5ac7d6d6c4f3bc7309328c247bcf6e59}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -78,8 +98,8 @@
       \strng{fullhash}{80800cf4b9b10e0213d263824996e488}
       \strng{authornamehash}{80800cf4b9b10e0213d263824996e488}
       \strng{authorfullhash}{80800cf4b9b10e0213d263824996e488}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
@@ -102,8 +122,8 @@
       \strng{fullhash}{7bcb1c75f895e90edae35d495464c4e9}
       \strng{authornamehash}{7bcb1c75f895e90edae35d495464c4e9}
       \strng{authorfullhash}{7bcb1c75f895e90edae35d495464c4e9}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -126,8 +146,8 @@
       \strng{fullhash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
       \strng{authornamehash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
       \strng{authorfullhash}{6174b5ee0b9f4283af3cac3a1f8c1f1a}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -150,8 +170,8 @@
       \strng{fullhash}{f7943a9501cee85f2e97cb654b75a57d}
       \strng{authornamehash}{f7943a9501cee85f2e97cb654b75a57d}
       \strng{authorfullhash}{f7943a9501cee85f2e97cb654b75a57d}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -163,8 +183,8 @@
       \endverb
     \endentry
     \entry{solidity}{webpage}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labeltitlesource}{title}
       \field{title}{solidity}
       \field{userf}{en}
@@ -184,8 +204,8 @@
       \strng{fullhash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
       \strng{authornamehash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
       \strng{authorfullhash}{9f252fbc7b8ff3c128b3e8dd806afa9b}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Ethereum Project Yellow Paper}
@@ -223,8 +243,8 @@
       \strng{fullhash}{0d9a433e29bb3c24df1f20ccae98f258}
       \strng{authornamehash}{5fdfb8b281eb1ff7cab6f7ae6aa235ff}
       \strng{authorfullhash}{0d9a433e29bb3c24df1f20ccae98f258}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Economic Perspectives}
@@ -351,8 +371,8 @@
       \field{year}{1990}
     \endentry
     \entry{BitcoinImprovementProposals}{webpage}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{title}{Bitcoin Improvement Proposals}
       \field{userf}{en}
@@ -459,8 +479,8 @@
       \strng{fullhash}{f210aa3ce6cff1854d8e83a45d04e647}
       \strng{authornamehash}{f210aa3ce6cff1854d8e83a45d04e647}
       \strng{authorfullhash}{f210aa3ce6cff1854d8e83a45d04e647}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Technical report}
@@ -672,8 +692,8 @@
       \strng{fullhash}{cc498fdca355b5ad3248f31c5734574d}
       \strng{authornamehash}{cc498fdca355b5ad3248f31c5734574d}
       \strng{authorfullhash}{cc498fdca355b5ad3248f31c5734574d}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Available on line: http://nakamotoinstitute. org/research/anonymous-byzantine-consensus}
@@ -840,8 +860,8 @@
       \strng{fullhash}{774d4268a758d45ede8870ebd6e40083}
       \strng{authornamehash}{774d4268a758d45ede8870ebd6e40083}
       \strng{authorfullhash}{774d4268a758d45ede8870ebd6e40083}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The transport layer security (TLS) protocol version 1.2}
@@ -1099,8 +1119,8 @@
       \strng{fullhash}{d25ef1b214ff82af9833245c05caba02}
       \strng{authornamehash}{d25ef1b214ff82af9833245c05caba02}
       \strng{authorfullhash}{d25ef1b214ff82af9833245c05caba02}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ANSI X9}
@@ -1196,26 +1216,6 @@
       \field{year}{1987}
       \field{pages}{203\bibrangedash 209}
       \range{pages}{7}
-    \endentry
-    \entry{bitcoinpaper}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=1977190f018b398e43ede3de043de8ea}{%
-           family={Nakamoto},
-           familyi={N\bibinitperiod},
-           given={Satoshi},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
-      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
-      \field{userf}{en}
-      \field{year}{2008}
     \endentry
     \entry{Performancecomparisonofellipticcurveandrsadigitalsignatures}{article}{}
       \name{author}{2}{}{%
@@ -1497,8 +1497,8 @@
       \strng{fullhash}{8aec261638630c60d7992724d6f8fc4f}
       \strng{authornamehash}{8aec261638630c60d7992724d6f8fc4f}
       \strng{authorfullhash}{8aec261638630c60d7992724d6f8fc4f}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Wireless and Mobile Computing, Networking and Communications (WiMob),}

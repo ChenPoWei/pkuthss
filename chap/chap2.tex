@@ -15,7 +15,7 @@
 		比特币目前总产量 & 16,921,800 BTC \\ \hline
 		最新区块高度 & 513743 块 \\ \hline
 		比特币总市值 & 5兆 人民币 \\ \hline
-		比特币全节点的数量 & 10552 个 \\ \hline
+		比特币全节点的数量 & 11147 个 \\ \hline
 		单日比特币交易金额 & 124,017.02430718 BTC \\ \hline
 		单日交易笔数 & 196,606 笔 \\ \hline
 		比特币区块链大小 & 188.89 GB \\ \hline
@@ -27,7 +27,7 @@
 		\end{tabular}
 		\end{table}
 		
-		去中⼼化的加密货币系统给社会和传统中⼼化的⾦融体系以及政府带来了重⼤的冲击，Satoshi Nakamoto建构了一个不需要经过中央银行发行货币的货币系统，在比特币的货币发行上全靠区块链既定的算法。除了货币发行，也将交易记录的帐本以明文的方式存储在去中心化的区块链中，以比特币为例，现今完整的比特币区块链帐本已经高达180 GB，这样保存完整交易数据的计算机称之为全节点，在比特币去中心化的网络中，如图\ref{bitcoinfullnode}所示，截至2018年1月25比特币网络中全节点数量为10552个\supercite{bitcoinfullnode}，全节点的数量决定了比特币帐本的可靠度，越多的全节点数量越能巩固⽐特币网络中过去的交易数据，使其难以被窜改。
+		去中⼼化的加密货币系统给社会和传统中⼼化的⾦融体系以及政府带来了重⼤的冲击，Satoshi Nakamoto建构了一个不需要经过中央银行发行货币的货币系统，在比特币的货币发行上全靠区块链既定的算法。除了货币发行，也将交易记录的帐本以明文的方式存储在去中心化的区块链中，以比特币为例，现今完整的比特币区块链帐本已经高达188.89 GB，这样保存完整交易数据的计算机称之为全节点，在比特币去中心化的网络中，如图\ref{bitcoinfullnode}所示，截至2018年1月25比特币网络中全节点数量为11147个\supercite{bitcoinfullnode}，全节点的数量决定了比特币帐本的可靠度，越多的全节点数量越能巩固⽐特币网络中过去的交易数据，使其难以被窜改。
 
 		\begin{figure}
 			\centering
@@ -50,12 +50,12 @@
 					\caption{LBC穷举比特币私钥算力状态图\supercite{TheLargeBitcoinCollider}}\label{LBC}
 				\end{figure}
 
-				如何建构一个乱数，在过往的乱数产生器往往会加入时间作为参数，但对于一个攻击者而言，只需要去猜测在这段时间内目标者所有生成的可能性有极高的机率可猜出乱数。而乱数在密码学中常会是一把私钥的生成，在HTTPS 协议中，服务器端与客⼾端建⽴⼀个加密连接的过程中，也需要⼀个乱数去建⽴⾼安全性的加密信道-传输层安全性协定Transport Layer Security，TLS）\supercite{dierks2008transport}，在SSH协议\supercite{ThesecureshellSSHprotocolarchitecture}中也采用了乱数。
+				如何建构一个乱数，在过往的乱数产生器往往会加入时间作为参数，但对于一个攻击者而言，只需要去猜测在这段时间内目标者所有生成的可能性有极高的机率可猜出乱数。而乱数在密码学中常会是一把私钥的生成，在HTTPS 协议中，服务器端与客⼾端建⽴⼀个加密连接的过程中，也需要⼀个乱数去建⽴⾼安全性的加密信道-传输层安全性协定（Transport Layer Security，TLS）\supercite{dierks2008transport}，在SSH协议\supercite{ThesecureshellSSHprotocolarchitecture}中也采用了乱数。
 		
 				于2013 年8 ⽉⽐特币开发者Mike Hearn 于论文"All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values"\supercite{SomeSecureRandomThoughts}中提及在过去的历史事件中，发现Android手持移动装置版以及平板版的乱数产生器中存在着不随机，在不同的手持移动装置中有机会生成同样的私钥。Bitcoin.org也发布了警告\supercite{AndroidSecurityVulnerability}简要说明该乱数不随机事件的原因，以及表明受到该事件影响的⽐特币钱包客⼾端包含有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。这样的错误源于Android本身支持的乱数产生器并不随机，随后Android解释了乱数的问题并加以修正。在这Android手持移动装置乱数不够乱的事件中，有自愿者自发性地公布自己的损失状态，总金额为55.82152538个比特币\supercite{Badsignaturesleading}，但因为比特币属于被动的性质，无人主动回报即不会加入统计中，所以总损失估计会超过55.82152538个比特币。
 
 				\subsubsection{（二）非对称式加密算法 Secp256k1}
-				在密码学中有分对称式加密与非对称式加密，对称式加密又分为信息流加密与信息块加密，信息流加密著名的是由美国密码学家Ron Rivest教授发表，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息块加密著名的有数据加密标准（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非对称式加密最广为人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic curve cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
+				在密码学中有分对称式加密与非对称式加密，对称式加密又分为信息流加密与信息块加密，信息流加密著名的是由美国密码学家Ron Rivest教授发表，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息块加密著名的有数据加密标准（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非对称式加密最广为人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic Curve Cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
 				非对称式加密与对称式加密最大的不同，在于对称式加密在加密解密的过程中只需要一把钥匙，而非对称式加密会生成两把钥匙，分别为私钥与公钥，在算法的设计上一开始会以乱数产生一把私钥，再经由非对称式加密算法推导出公钥，推导出的公钥在非对称式密码学中并无直接的方法可以反推至私钥，如此一来确立私钥的安全性。非对称式密码的使用场景有两种，第一种是希望收到加密信息的用户Alice，Alice会生成私钥存储在自己本地端的电脑中，并将推导出的公钥公布在网络上，这时希望联系Alice的用户Bob在网络上取得公钥后，Bob会以Alice的公钥进行加密，之后将密文寄送给Alice，在传递信息的过程中，即使网络存在着监听，也无法将信息顺利解密，唯有Alice收到信息后使用Alice原本产生该公钥的私钥，才可以解出明文。第二种则应用在比特币的交易之数字签名以及验证比特币交易，比特币地址的创建过程中会透过secp256k1生成私钥公钥对，在创建比特币交易的过程中，使用该地址的私钥对该地址未花费的输出（Unspent Transaction Output，UTXO）\supercite{bitcoinpaper}进行数字签名，完成数字签名后会与公钥以及交易信息一起广播到比特币网络的交易缓存池当中，比特币交易缓存池存在于所有比特币全节点当中，主要存储所有未被收录到比特币区块链内的所有交易，也就是零确认交易，等待矿工将该笔交易收入至比特币区块链当中。
 				比特币采用的secp256k1是属于椭圆曲线密码学中的一个版本，不同的椭圆曲线版本的差异在于不同的初始参数，包括椭圆曲线方程$y^2=x^3+ax+b$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F为巨大的素数、$G$点被称为⽣成点的常数点亦称为基点。至于为什么选择ECC而非RSA的主要原因，其一在于ECC在生成密钥对所需的时间更加快速，根据表\ref{ECCtime}显示，Nicholas Jansma于2004年针对ECC与RSA的密钥对生成时间与数字签名所需时间的论文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}显示，当ECC产生571 bits的密钥长度，要达到相同安全等级的情形下，RSA则需要⽣成15360 bits，这也让两种非对称式的加密方式之间，⽣成的时间产生了⾼达471 倍之差距。
 
@@ -79,7 +79,7 @@
 
 				\begin{table}[!htbp]
 				\centering
-				\caption{算法BLISS、RSA、ECDSA安全级数比较图表\supercite{LatticesignaturesandbimodalGaussians}}
+				\caption{算法BLISS、RSA及ECDSA安全级数比较图表\supercite{LatticesignaturesandbimodalGaussians}}
 				\label{LatticesignaturesandbimodalGaussians}
 				\resizebox{\textwidth}{!}{%
 				\begin{tabular}{|c|c|c|c|c|c|c|c|c|}

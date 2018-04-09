@@ -32,7 +32,7 @@
 
 	 				\begin{table}[!htbp]
 					\centering
-					\caption{小米3手机规格}
+					\caption{小米3手机规格表}
 					\label{mi}
 					\begin{tabular}{|l|l|}
 					\hline
@@ -51,7 +51,7 @@
 
 					\begin{table}[!htbp]
 					\centering
-					\caption{Google Nexus 5X手机规格}
+					\caption{Google Nexus 5X手机规格表}
 					\label{5x}
 					\begin{tabular}{|l|l|}
 					\hline
@@ -412,7 +412,7 @@
 		\begin{figure}[!htbp]
 			\centering
 			\includegraphics[width = 0.8\textwidth]{fig9.png}
-			\caption{使用区块链查看器验证存储在比特币区块链中的交易过程}\label{fig9}
+			\caption{使用区块链检视器验证存储在比特币区块链中的交易过程}\label{fig9}
 		\end{figure}
 
 
@@ -424,7 +424,7 @@
 
 		\begin{enumerate}
 			\item 初始测试（2017年7月25日）：
-			首先，使用区块链查看器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的快照所示，透过使用Testnet依序进行20笔比特币交易，如图\ref{fig9}的中间快照所示，最后20笔交易完成时间全部记录在区块链查看器。实验结果显示，实验中的所有交易都在3秒钟左右（平均2.97秒，标准差小于1秒）发送到比特币网络缓存池，平均交易完成时间在比特币区块链中确认为522.33秒（小于9分钟），标准差大约为339秒。
+			首先，使用区块链检视器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的快照所示，透过使用Testnet依序进行20笔比特币交易，如图\ref{fig9}的中间快照所示，最后20笔交易完成时间全部记录在区块链检视器。实验结果显示，实验中的所有交易都在3秒钟左右（平均2.97秒，标准差小于1秒）发送到比特币网络缓存池，平均交易完成时间在比特币区块链中确认为522.33秒（小于9分钟），标准差大约为339秒。
 
 			\item 第一次测试（2017年9月6日）：表\ref{1general}为第一次实验数据，该次的比特币交易发起广播至比特币交易缓存池的时间平均为1.918秒，标准差为0.55586秒。但为了预防双重支付攻击需要等待平均654.8秒（小于11分钟，标准差346.63秒）的时间。
 
@@ -524,7 +524,7 @@
 			\end{table}
 
 
-		本次的实验分为两部份，分别是透过比特币 Testnet钱包以及使用本论文所采用的Government Green Address比特币钱包上运行20次付款，皆以相同地址收款，交易金额都设置为0.00001 BTC，实验时间为2017年9月6日与2018年2月6日，每隔一分钟运行一次付款的动作，总共历时20分钟。两款钱包同时发起交易，并透过区块链查看器进行记录时间，最后再比较使用一般比特币钱包及Government Green Address钱包两者之间的差距。
+		本次的实验分为两部份，分别是透过比特币 Testnet钱包以及使用本论文所采用的Government Green Address比特币钱包上运行20次付款，皆以相同地址收款，交易金额都设置为0.00001 BTC，实验时间为2017年9月6日与2018年2月6日，每隔一分钟运行一次付款的动作，总共历时20分钟。两款钱包同时发起交易，并透过区块链检视器进行记录时间，最后再比较使用一般比特币钱包及Government Green Address钱包两者之间的差距。
 
 		\begin{enumerate}
 			\item 第一次测试（2017年9月6日）：表\ref{1green}为第一次测试实验的数据分析结果，平均进入交易缓存池的时间为2.11秒，真正写入区块链的时间为654.24秒，采用多重签章算法，这些交易不存在双重支付的问题，因此完成时间记为2.11秒。
