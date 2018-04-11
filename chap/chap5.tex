@@ -158,7 +158,7 @@
 
 
 \subsubsection{（二）商家产品管理模块}
-商家的运营需要管理本⾝所需贩售的商品。在商家完成注册⽤⼾帐号并且通过政府审核之后，便可查看所有的产品，近⼀步可以透过产品管理模块添加、修改以及删除商家商品。图\ref{c2}为商家产品管理类图，其中StoreProductManagement 类中有四个⽅法需要实现，分别为显⽰商家信息的showstoreinfo() ⽅法、显⽰商家产品信息的showstoreproductinfo() ⽅法、显⽰产品信息的showproductinfo() 以及修改商家产品信息的edit()⽅法。其中StoreProductCompare 类与EditStoreProduct 类需要向StoreProduct 请求商家产品信息，StoreProductCompare 类中的compare() ⽅法是向商家产品信息表取得与STORE\_ID 相符的所有相关商家产品。EditStoreProduct 类中的addstoreproduct() ⽅法、editstoreproduct() ⽅法、以及deletestoreproduct() ⽅法分别为添加、修改、以及删除商家产品信息。StoreCompare 类中的compare() ⽅法是向Store 类请求与STORE\_ID 相符的商家信息。
+商家的运营需要管理本⾝所需贩售的商品。在商家完成注册⽤⼾帐号并且通过政府审核之后，便可查看所有的产品，近⼀步可以透过产品管理模块添加、修改以及删除商家商品。图\ref{c2}为商家产品管理类图，其中StoreProductManagement 类中有四个⽅法需要实现，分别为显⽰商家信息的showstoreinfo() ⽅法、显⽰商家产品信息的showstoreproductinfo() ⽅法、显⽰产品信息的showproductinfo() 方法以及修改商家产品信息的edit()⽅法。其中StoreProductCompare 类与EditStoreProduct 类需要向StoreProduct 类请求商家产品信息，StoreProductCompare 类中的compare() ⽅法是向商家产品信息表取得与STORE\_ID 相符的所有相关商家产品。EditStoreProduct 类中的addstoreproduct() ⽅法、editstoreproduct() ⽅法、以及deletestoreproduct() ⽅法分别为添加、修改、以及删除商家产品信息。StoreCompare 类中的compare() ⽅法是向Store 类请求与STORE\_ID 相符的商家信息。
 
 	\begin{figure}[!htbp]
 		\centering
@@ -192,7 +192,7 @@
 
 
 \subsubsection{（三）职工管理模块}
-商家需要职⼯进⾏商家的运营。在商家⽤⼾完成政府审查之后，便可以进⼊职⼯管理模块，透过提交⽤⼾编号以及商家编号添加、修改以及删除职⼯信息。图\ref{c1}为职⼯管理模块类图，StaffManagement 类当中有四种⽅法，前三种分别为显⽰与该商家STORE\_ID 相符的完整信息showstore() ⽅法、显⽰符合该商家STORE\_ID 职⼯信息的showstorestaff() ⽅法、显⽰⽤⼾编号的showuser() ⽅法。而在第四种方法中，UserCompare 类需要向User 类提取⽤⼾相关信息实现查找，StoreCompare 类需要向Store 类请求商家信相关信息，其中EditStoreStaff 类与StoreStaffCompare 类需要使⽤到Staff 类修改职⼯信息表的内容，EditStoreStaff 类中的addstaff()、editstaff() 以及deletestaff() ⽅法分别为添加、修改以及删除职⼯，StoreStaffCompare 类中的compare ⽅法是取得符合STORE\_ID 的所有职⼯信息。
+商家需要职⼯进⾏商家的运营。在商家⽤⼾完成政府审查之后，便可以进⼊职⼯管理模块，透过提交⽤⼾编号以及商家编号添加、修改以及删除职⼯信息。图\ref{c1}为职⼯管理模块类图，StaffManagement 类当中有四种⽅法，前三种分别为显⽰与该商家STORE\_ID 相符的完整信息showstore() ⽅法、显⽰符合该商家STORE\_ID 职⼯信息的showstorestaff() ⽅法、显⽰⽤⼾编号的showuser() ⽅法。而在第四种方法中，UserCompare 类需要向User 类提取⽤⼾相关信息实现查找，StoreCompare 类需要向Store 类请求商家信相关信息，其中EditStoreStaff 类与StoreStaffCompare 类需要使⽤到Staff 类修改职⼯信息表的内容，EditStoreStaff 类中的addstaff()、editstaff() 以及deletestaff() ⽅法分别为添加、修改以及删除职⼯，StoreStaffCompare 类中的compare() ⽅法是取得符合STORE\_ID 的所有职⼯信息。
 
 	\begin{figure}[!htbp]
 		\centering
@@ -225,7 +225,7 @@
 	\end{enumerate}
 
 \subsubsection{（四）商家交易管理模块}
-在⽤⼾完成注册后且在商家将该⽤⼾加⼊成为公司职⼯后，该职⼯可以透过⽤⼾帐号进⼊到商家交易管理模块，该模块为手持移动装置的应⽤程序。在进⼊到本模块后会⾃动加载商家商品、商家信息以及职⼯信息，制成⼀个基于区块链加密货币的移动收银机，可以扫描带有RFID 标签的商家产品，创建交易后等待⽤⼾交易管理模块读取以及验证交易是否完成的信息。图5.8为商家交易管理模块类图，在StoreTransactionManagement 类当中有五个⽅法，分别为显⽰所有的商家产品信息的showstoreproduct() ⽅法、显⽰职⼯信息的showstorestaff()⽅法、显⽰商家信息的showstore() ⽅法、检查交易是否完成的check() ⽅法以及透过NFC 传输协议传输信息的nfc() ⽅法。StoreCompare 类中的compare() ⽅法是向Store类取得与STORE\_ID 相符的商家信息，StoreProductCompare 类中的compare() ⽅法是向StoreProduct 类请求与STORE\_ID 相符的所有商家产品信息。StoreStaffCompare 类中的compare() ⽅法是向Staff 类中请与USER\_ID 相符的职⼯信息。在NFCMessage 类中有两个⽅法，receivenfcmessage() ⽅法使得商家可以快速的扫描商品的RFID 标签，sendnfcmessage() ⽅法使得职⼯在创建完交易清单后可以将交易信息发送给顾客。CheckTx 类中有两个⽅法，分别为取得于Tx 类中交易信息的compare() ⽅法，以及getcheck()⽅法是检查该笔交易的CHECK 值是否已经在Tx 类中被修改为"1"，倘若被修改为"1"则表示该笔交易已经被写⼊区块链中。在本模块要做到验证⽐特币交易是否已经被存储在⽐特币区块链当中，必须使⽤BlockchainExplorer 类中的getblockchain() ⽅法取得所有区块链相关的信息，再透过getbitcointx() ⽅法取得该笔⽐特币交易的状态以及详细信息。Tx 类中可以调⽤txcheck() ⽅法对BlockchainExplorer 类检查该笔交易是否已经进⼊了区块链，如果已经进⼊区块链，则将相关的交易信息的CHECK 值修改为"1"。值得⼀提的是，在此将CHECK 值修改为"1"的标准，为该笔交易进⼊区块链的时间。由于⽐特币区块链的⽣成速度平均为每⼗分钟⼀块，这将使得交易确认速度不够即时。
+在⽤⼾完成注册后且在商家将该⽤⼾加⼊成为公司职⼯后，该职⼯可以透过⽤⼾帐号进⼊到商家交易管理模块，该模块为手持移动装置的应⽤程序。在进⼊到本模块后会⾃动加载商家商品、商家信息以及职⼯信息，制成⼀个基于区块链加密货币的移动收银机，可以扫描带有RFID 标签的商家产品，创建交易后等待⽤⼾交易管理模块读取以及验证交易是否完成的信息。图5.8为商家交易管理模块类图，在StoreTransactionManagement 类当中有五个⽅法，分别为显⽰所有的商家产品信息的showstoreproduct() ⽅法、显⽰职⼯信息的showstorestaff()⽅法、显⽰商家信息的showstore() ⽅法、检查交易是否完成的check() ⽅法以及透过NFC 传输协议传输信息的nfc() ⽅法。StoreCompare 类中的compare() ⽅法是向Store类取得与STORE\_ID 相符的商家信息，StoreProductCompare 类中的compare() ⽅法是向StoreProduct 类请求与STORE\_ID 相符的所有商家产品信息。StoreStaffCompare 类中的compare() ⽅法是向Staff 类中请与USER\_ID 相符的职⼯信息。在NFCMessage 类中有两个⽅法，receivenfcmessage() 方法⽅法使得商家可以快速的扫描商品的RFID 标签，sendnfcmessage() 方法⽅法使得职⼯在创建完交易清单后可以将交易信息发送给顾客。CheckTx 类中有两个⽅法，分别为取得于Tx 类中交易信息的compare() ⽅法，以及getcheck()⽅法是检查该笔交易的CHECK 值是否已经在Tx 类中被修改为"1"，倘若被修改为"1"则表示该笔交易已经被写⼊区块链中。在本模块要做到验证⽐特币交易是否已经被存储在⽐特币区块链当中，必须使⽤BlockchainExplorer 类中的getblockchain() ⽅法取得所有区块链相关的信息，再透过getbitcointx() ⽅法取得该笔⽐特币交易的状态以及详细信息。Tx 类中可以调⽤txcheck() ⽅法对BlockchainExplorer 类检查该笔交易是否已经进⼊了区块链，如果已经进⼊区块链，则将相关的交易信息的CHECK 值修改为"1"。值得⼀提的是，在此将CHECK 值修改为"1"的标准，为该笔交易进⼊区块链的时间。由于⽐特币区块链的⽣成速度平均为每⼗分钟⼀块，这将使得交易确认速度不够即时。
 
 
 	\begin{figure}[!htbp]
