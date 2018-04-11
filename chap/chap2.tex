@@ -50,18 +50,18 @@
 					\caption{LBC穷举比特币私钥算力状态图\supercite{TheLargeBitcoinCollider}}\label{LBC}
 				\end{figure}
 
-				如何建构一个乱数，在过往的乱数产生器往往会加入时间作为参数，但对于一个攻击者而言，只需要去猜测在这段时间内目标者所有生成的可能性有极高的机率可猜出乱数。而乱数在密码学中常会是一把私钥的生成，在HTTPS 协议中，服务器端与客⼾端建⽴⼀个加密连接的过程中，也需要⼀个乱数去建⽴⾼安全性的加密信道-传输层安全性协定（Transport Layer Security，TLS）\supercite{dierks2008transport}，在SSH协议\supercite{ThesecureshellSSHprotocolarchitecture}中也采用了乱数。
+				如何建构一个乱数，在过往的乱数产生器往往会加入时间作为参数，但对于一个攻击者而言，只需要去猜测在这段时间内目标者所有生成的可能性有极高的机率可猜出乱数。而乱数在密码学中常会是一把私钥的生成，在HTTPS 协议中，服务器端与客⼾端建⽴⼀个加密连接的过程中，也需要⼀个乱数去建⽴⾼安全性的加密信道-传输层安全性协定（Transport Layer Security，TLS）\supercite{dierks2008transport}，在SSH 协议\supercite{ThesecureshellSSHprotocolarchitecture}中也采用了乱数。
 		
-				于2013 年8 ⽉⽐特币开发者Mike Hearn 于论文"All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values"\supercite{SomeSecureRandomThoughts}中提及在过去的历史事件中，发现Android手持移动装置版以及平板版的乱数产生器中存在着不随机，在不同的手持移动装置中有机会生成同样的私钥。Bitcoin.org也发布了警告\supercite{AndroidSecurityVulnerability}简要说明该乱数不随机事件的原因，以及表明受到该事件影响的⽐特币钱包客⼾端包含有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。这样的错误源于Android本身支持的乱数产生器并不随机，随后Android解释了乱数的问题并加以修正。在这Android手持移动装置乱数不够乱的事件中，有自愿者自发性地公布自己的损失状态，总金额为55.82152538个比特币\supercite{Badsignaturesleading}，但因为比特币属于被动的性质，无人主动回报即不会加入统计中，所以总损失估计会超过55.82152538个比特币。
+				于2013 年8 ⽉⽐特币开发者Mike Hearn 于论文"All private keys generated on Android phones/tablets are weak and some signatures have been observed to have colliding R values"\supercite{SomeSecureRandomThoughts}中提及在过去的历史事件中，发现Android 手持移动装置版以及平板版的乱数产生器中存在着不随机，在不同的手持移动装置中有机会生成同样的私钥。Bitcoin.org 也发布了警告\supercite{AndroidSecurityVulnerability}简要说明该乱数不随机事件的原因，以及表明受到该事件影响的⽐特币钱包客⼾端包含有Bitcoin Wallet、BitcoinSpinner、Mycelium Bitcoin Wallet、blockchain.info。这样的错误源于Android本身支持的乱数产生器并不随机，随后Android解释了乱数的问题并加以修正。在这Android手持移动装置乱数不够乱的事件中，有自愿者自发性地公布自己的损失状态，总金额为55.82152538个比特币\supercite{Badsignaturesleading}，但因为比特币属于被动的性质，无人主动回报即不会加入统计中，所以总损失估计会超过55.82152538个比特币。
 
 				\subsubsection{（二）非对称式加密算法 Secp256k1}
-				在密码学中有分对称式加密与非对称式加密，对称式加密又分为信息流加密与信息块加密，信息流加密著名的是由美国密码学家Ron Rivest教授发表，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息块加密著名的有数据加密标准（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非对称式加密最广为人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic Curve Cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
-				非对称式加密与对称式加密最大的不同，在于对称式加密在加密解密的过程中只需要一把钥匙，而非对称式加密会生成两把钥匙，分别为私钥与公钥，在算法的设计上一开始会以乱数产生一把私钥，再经由非对称式加密算法推导出公钥，推导出的公钥在非对称式密码学中并无直接的方法可以反推至私钥，如此一来确立私钥的安全性。非对称式密码的使用场景有两种，第一种是希望收到加密信息的用户Alice，Alice会生成私钥存储在自己本地端的电脑中，并将推导出的公钥公布在网络上，这时希望联系Alice的用户Bob在网络上取得公钥后，Bob会以Alice的公钥进行加密，之后将密文寄送给Alice，在传递信息的过程中，即使网络存在着监听，也无法将信息顺利解密，唯有Alice收到信息后使用Alice原本产生该公钥的私钥，才可以解出明文。第二种则应用在比特币的交易之数字签名以及验证比特币交易，比特币地址的创建过程中会透过secp256k1生成私钥公钥对，在创建比特币交易的过程中，使用该地址的私钥对该地址未花费的输出（Unspent Transaction Output，UTXO）\supercite{bitcoinpaper}进行数字签名，完成数字签名后会与公钥以及交易信息一起广播到比特币网络的交易缓存池当中，比特币交易缓存池存在于所有比特币全节点当中，主要存储所有未被收录到比特币区块链内的所有交易，也就是零确认交易，等待矿工将该笔交易收入至比特币区块链当中。
-				比特币采用的secp256k1是属于椭圆曲线密码学中的一个版本，不同的椭圆曲线版本的差异在于不同的初始参数，包括椭圆曲线方程$y^2=x^3+ax+b$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F为巨大的素数、$G$点被称为⽣成点的常数点亦称为基点。至于为什么选择ECC而非RSA的主要原因，其一在于ECC在生成密钥对所需的时间更加快速，根据表\ref{ECCtime}显示，Nicholas Jansma于2004年针对ECC与RSA的密钥对生成时间与数字签名所需时间的论文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}显示，当ECC产生571 bits的密钥长度，要达到相同安全等级的情形下，RSA则需要⽣成15360 bits，这也让两种非对称式的加密方式之间，⽣成的时间产生了⾼达471 倍之差距。
+				在密码学中有分对称式加密与非对称式加密，对称式加密又分为信息流加密与信息块加密，信息流加密著名的是由美国密码学家Ron Rivest 教授发表，包括RC2（1987年）\supercite{OnthedesignandsecurityofRC2}、RC4（1987年）\supercite{Rc4}、RC5（1994年）\supercite{TheRC5encryptionalgorithm}、RC6（1998年）\supercite{TheRC6blockcipher.v1.1August201998}；信息块加密著名的有数据加密标准（Data Encryption Standard，DES，1975年）\supercite{Dataencryptionstandard}、三重数据加密算法（Triple Data Encryption Algorithm，Triple DES，1998年）\supercite{TrippleDataEncryptionAlgorithmModesofOperation}、高级加密标准（Advanced Encryption Standard，AES，1998年）\supercite{ThedesignofRijndael:AES-theadvancedencryptionstandard}；非对称式加密最广为人知的有RSA（Rivest–Shamir–Adleman，1977年）\supercite{Cryptographiccommunicationssystemandmethod}、椭圆曲线密码学（Elliptic Curve Cryptography，ECC，1985年）\supercite{Ellipticcurvecryptosystems}。
+				非对称式加密与对称式加密最大的不同，在于对称式加密在加密解密的过程中只需要一把钥匙，而非对称式加密会生成两把钥匙，分别为私钥与公钥，在算法的设计上一开始会以乱数产生一把私钥，再经由非对称式加密算法推导出公钥，推导出的公钥在非对称式密码学中并无直接的方法可以反推至私钥，如此一来确立私钥的安全性。非对称式密码的使用场景有两种，第一种是希望收到加密信息的用户Alice ，Alice 会生成私钥存储在自己本地端的电脑中，并将推导出的公钥公布在网络上，这时希望联系Alice 的用户Bob在网络上取得公钥后，Bob 会以Alice 的公钥进行加密，之后将密文寄送给Alice ，在传递信息的过程中，即使网络存在着监听，也无法将信息顺利解密，唯有Alice收到信息后使用Alice 原本产生该公钥的私钥，才可以解出明文。第二种则应用在比特币的交易之数字签名以及验证比特币交易，比特币地址的创建过程中会透过secp256k1生成私钥公钥对，在创建比特币交易的过程中，使用该地址的私钥对该地址未花费的输出（Unspent Transaction Output，UTXO）\supercite{bitcoinpaper}进行数字签名，完成数字签名后会与公钥以及交易信息一起广播到比特币网络的交易缓存池当中，比特币交易缓存池存在于所有比特币全节点当中，主要存储所有未被收录到比特币区块链内的所有交易，也就是零确认交易，等待矿工将该笔交易收入至比特币区块链当中。
+				比特币采用的secp256k1 是属于椭圆曲线密码学中的一个版本，不同的椭圆曲线版本的差异在于不同的初始参数，包括椭圆曲线方程$y^2=x^3+ax+b$、$p$=FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F为巨大的素数、$G$点被称为⽣成点的常数点亦称为基点。至于为什么选择ECC 而非RSA 的主要原因，其一在于ECC 在生成密钥对所需的时间更加快速，根据表\ref{ECCtime}显示，Nicholas Jansma于2004年针对ECC 与RSA 的密钥对生成时间与数字签名所需时间的论文\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}显示，当ECC 产生571 bits的密钥长度，要达到相同安全等级的情形下，RSA 则需要⽣成15360 bits，这也让两种非对称式的加密方式之间，⽣成的时间产生了⾼达471 倍之差距。
 
 				\begin{table}[!htbp]
 				\centering
-				\caption{ECC与RSA相同安全等级的密钥对生成时间比较表\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}
+				\caption{ECC 与RSA 相同安全等级的密钥对生成时间比较表\supercite{Performancecomparisonofellipticcurveandrsadigitalsignatures}}
 				\label{ECCtime}
 				\begin{tabular}{|c|c|c|c|}
 				\hline
@@ -75,7 +75,7 @@
 				\end{tabular}
 				\end{table}	
 
-				除了在密钥对生成时间ECC有着比RSA更高效的算法外，在安全性上ECC可以更短的密钥长度达到与RSA相同的安全强度，Léo Ducas针对ECCRSA、BLISS（Bimodal Lattice Signature Scheme）\supercite{LatticesignaturesandbimodalGaussians}做出了深度的安全性探讨，表\ref{LatticesignaturesandbimodalGaussians}同样达到80 bits的安全性级数，RSA 1024需要1024 bits，ECDSA 160\supercite{DeploymentsofEllipticCurveCryptography}仅需要160 bits，该篇论文除了探讨RSA与ECDSA（Elliptic Curve Digital Signature Algorithm）之外，更大的部分在阐述量子计算机对于既有的传统密码带来的抨击，有机会快速穷举$2^{256}$的比特币私钥，在未来量子计算机的蓬勃发展拥有2000 qbits运算能力，量子计算机可以快速穷举破解所有的比特币私钥。因此发展针对量子计算机设计的数字签名算法成为密码学上崭新的议题，而BLISS则为针对量子计算机所设计的抗量子计算的签章算法。
+				除了在密钥对生成时间ECC 有着比RSA 更高效的算法外，在安全性上ECC 可以更短的密钥长度达到与RSA相同的安全强度，Léo Ducas针对ECC、RSA、BLISS（Bimodal Lattice Signature Scheme）\supercite{LatticesignaturesandbimodalGaussians}做出了深度的安全性探讨，表\ref{LatticesignaturesandbimodalGaussians}同样达到80 bits的安全性级数，RSA 1024需要1024 bits，ECDSA-160\supercite{DeploymentsofEllipticCurveCryptography}仅需要160 bits，该篇论文除了探讨RSA与ECDSA（Elliptic Curve Digital Signature Algorithm）之外，更大的部分在阐述量子计算机对于既有的传统密码带来的抨击，有机会快速穷举$2^{256}$的比特币私钥，在未来量子计算机的蓬勃发展拥有2000 qbits运算能力，量子计算机可以快速穷举破解所有的比特币私钥。因此发展针对量子计算机设计的数字签名算法成为密码学上崭新的议题，而BLISS 则为针对量子计算机所设计的抗量子计算的签章算法。
 
 				\begin{table}[!htbp]
 				\centering
@@ -84,7 +84,7 @@
 				\resizebox{\textwidth}{!}{%
 				\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 				\hline
-				算法 & 安全性 & \begin{tabular}[c]{@{}c@{}}签名\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}私钥\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}公钥\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}签名\\（微秒）\end{tabular} & 签名/秒 & \begin{tabular}[c]{@{}c@{}}验证\\（微秒）\end{tabular} & 验证/秒 \\ \hline
+				算法 & 安全性 & \begin{tabular}[c]{@{}c@{}}签名\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}私钥\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}}公钥\\ 大小\end{tabular} & \begin{tabular}[c]{@{}c@{}} 签名\\(微秒)\end{tabular} & 签名/秒 & \begin{tabular}[c]{@{}c@{}} 验证\\ (微秒)\end{tabular} & 验证/秒 \\ \hline
 				BLISS-0 & $\leq$60 bits & 3.3 kb & 1.5 kb & 3.3 kb & 0.241 & 4k & 0.017 & 59k \\ \hline
 				BLISS-I & 128 bits & 5.6 kb & 2 kb & 7 kb & 0.124 & 8k & 0.03 & 33k \\ \hline
 				BLISS-II & 128 bits & 5 kb & 2 kb & 7 kb & 0.48 & 2k & 0.03 & 33k \\ \hline
@@ -110,7 +110,7 @@
 					\label{hashtable}
 					\begin{tabular}{|c|c|c|c|c|c|c|}
 					\hline
-					算法 & 分支 & \begin{tabular}[c]{@{}c@{}}输出\\ 哈希值\\ 长度\\ （bits）\end{tabular} & \begin{tabular}[c]{@{}c@{}}最大输入\\ 信息长度\\ （bits）\end{tabular} & \begin{tabular}[c]{@{}c@{}}循环\\ （次数）\end{tabular} & 使用到的运算子 & \begin{tabular}[c]{@{}c@{}}碰撞\\ 攻击\\ （bits）\end{tabular} \\ \hline
+					算法 & 分支 & \begin{tabular}[c]{@{}c@{}}输出\\ 哈希值\\ 长度\\ (bits)\end{tabular} & \begin{tabular}[c]{@{}c@{}}最大输入\\ 信息长度\\ (bits)\end{tabular} & \begin{tabular}[c]{@{}c@{}}循环\\ (次数)\end{tabular} & 使用到的运算子 & \begin{tabular}[c]{@{}c@{}}碰撞\\ 攻击\\ (bits)\end{tabular} \\ \hline
 					\begin{tabular}[c]{@{}c@{}}MD5\\ 参考\end{tabular} & - & 128 & $\infty$ & 64 & \multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}And, Xor, Rot, Or, \\ Add (mod $2^{32}$)\end{tabular}} & \begin{tabular}[c]{@{}c@{}}$<64$ \\ 已碰撞\end{tabular} \\ \cline{1-5} \cline{7-7} 
 					SHA-0 & - & \multirow{2}{*}{160} & \multirow{2}{*}{$2^{64}-1$} & \multirow{2}{*}{80} &  & \begin{tabular}[c]{@{}c@{}}$<80$ \\ 已碰撞\end{tabular} \\ \cline{1-2} \cline{7-7} 
 					SHA-1 & - &  &  &  &  & \begin{tabular}[c]{@{}c@{}}$<80$ \\ 已碰撞\end{tabular} \\ \hline
@@ -126,10 +126,10 @@
 					\end{table}
 
 				\begin{enumerate}
-				\item 生成哈希值进行文件校验：哈希值在过往的应用中，往往作为文件完整性的校验，软件供应方会在网站中提供各式不同算法的哈希值，让使⽤者在下载完软件之后输⼊使⽤者方以哈希算法所⽣成的哈希值进⾏⽐对。但倘若该哈希算法存在碰撞的发生，这会使得不同的文件存在着同样的哈希值。这也意味着软件供应方所提供的软件可能存在着掺入恶意代码后，还能生成同样的哈希指纹，失去了文件完整性的校验功能，这便成为信息安全中的重大漏洞，由表\ref{hashtable}可以看出软件提供方若使用MD5、SHA-0以及SHA-1会造成发生碰撞导致指纹失去校验意义成为安全漏洞，因此MD5、SHA-0以及SHA-1已被弃用。
+				\item 生成哈希值进行文件校验：哈希值在过往的应用中，往往作为文件完整性的校验，软件供应方会在网站中提供各式不同算法的哈希值，让使⽤者在下载完软件之后输⼊使⽤者方以哈希算法所⽣成的哈希值进⾏⽐对。但倘若该哈希算法存在碰撞的发生，这会使得不同的文件存在着同样的哈希值。这也意味着软件供应方所提供的软件可能存在着掺入恶意代码后，还能生成同样的哈希指纹，失去了文件完整性的校验功能，这便成为信息安全中的重大漏洞，由表\ref{hashtable}可以看出软件提供方若使用MD5、SHA-0 以及SHA-1 会造成发生碰撞导致指纹失去校验意义成为安全漏洞，因此MD5、SHA-0 以及SHA-1 已被弃用。
 
-				\item 工作量证明算法设计：起初工作量证明算法的概念为设计一个相当困难耗时的解，但验算的过程中却相当简单快速。如对一个大数做因式分解是一个相当困难的事，但要验算其结果仅需要将所有的解相乘确认是否为该大数即可证明。同样的理念在比特币系统中是以hash-puzzle的方式实现，hash-puzzle是利用哈希函数有着不可预期的特性，不可预期指的是假设输入连续性的数值$1$到$n$进入到哈希函数生成哈希值，而生成的哈希值无法观察出关联性，可说是完全不相关的数值，且无法预期下个输入的输出哈希值。
-				比特币系统中的困难度变量，在hash-puzzle中定义了何谓真正的答案。在SHA-256当中输出的值为256 bits的哈希值，困难度变量则规定了在这256 bits当中，自最左边起必须为零的位数的门槛，而在困难度变量要求必须为零的位数变多，则意味着要在连续性的数值$1$到$n$的hash-puzzle中，符合门槛的解越少。在hash-puzzle中，求得一个符合困难度变量的哈希值是困难的，但要验算求得的解是否符合困难度的门槛相当快速，这符合起初工作量证明算法的概念。
+				\item 工作量证明算法设计：起初工作量证明算法的概念为设计一个相当困难耗时的解，但验算的过程中却相当简单快速。如对一个大数做因式分解是一个相当困难的事，但要验算其结果仅需要将所有的解相乘确认是否为该大数即可证明。同样的理念在比特币系统中是以hash-puzzle 的方式实现，hash-puzzle 是利用哈希函数有着不可预期的特性，不可预期指的是假设输入连续性的数值$1$到$n$进入到哈希函数生成哈希值，而生成的哈希值无法观察出关联性，可说是完全不相关的数值，且无法预期下个输入的输出哈希值。
+				比特币系统中的困难度变量，在hash-puzzle 中定义了何谓真正的答案。在SHA-256 当中输出的值为256 bits的哈希值，困难度变量则规定了在这256 bits当中，自最左边起必须为零的位数的门槛，而在困难度变量要求必须为零的位数变多，则意味着要在连续性的数值$1$到$n$的hash-puzzle中，符合门槛的解越少。在hash-puzzle 中，求得一个符合困难度变量的哈希值是困难的，但要验算求得的解是否符合困难度的门槛相当快速，这符合起初工作量证明算法的概念。
 
 				\begin{figure}[!htbp]
 					\centering
@@ -137,7 +137,7 @@
 					\caption{区块叠加示意图}\label{6confirm}
 				\end{figure}
 
-				\item 区块链中的哈希指针：比特币区块链的区块头当中，当前区块存储着前区块头的双重哈希的哈希值。当前区块则会如数据结构链结串列一样，直到链结到第一个比特币区块的创世区块，区块链中的哈希指针将区块链结在一起，也就形成了比特币区块链的基础。在比特币挖矿的过程中，矿工参与着最新区块的hash-puzzle解题，寻找一个符合困难度变量的输入。但hash-puzzle 的工作证明当中解可能不只一个，但只要符合困难度变量的解都可以创建一个新的区块，届时就会在当前的区块上同时产生分岔，分岔的区块在比特币系统中皆为有效，但经过多个区块的叠加之后，便可以抉择出最长的链，该最长链则成为主链，而其他的分岔链，则成为孤儿块被丢弃，当中曾记载的交易信息变为无效，造成该分岔链的交易信息回溯。比特币区块链的分岔好发于最新的区块，如图\ref{6confirm}所示，而越旧的区块则越不易发生，所以在比特币交易中默认该笔交易要在六个区块确认后，该公司才会承认该笔交易有效。
+				\item 区块链中的哈希指针：比特币区块链的区块头当中，当前区块存储着前区块头的双重哈希的哈希值。当前区块则会如数据结构链结串列一样，直到链结到第一个比特币区块的创世区块，区块链中的哈希指针将区块链结在一起，也就形成了比特币区块链的基础。在比特币挖矿的过程中，矿工参与着最新区块的hash-puzzle 解题，寻找一个符合困难度变量的输入。但hash-puzzle  的工作证明当中解可能不只一个，但只要符合困难度变量的解都可以创建一个新的区块，届时就会在当前的区块上同时产生分岔，分岔的区块在比特币系统中皆为有效，但经过多个区块的叠加之后，便可以抉择出最长的链，该最长链则成为主链，而其他的分岔链，则成为孤儿块被丢弃，当中曾记载的交易信息变为无效，造成该分岔链的交易信息回溯。比特币区块链的分岔好发于最新的区块，如图\ref{6confirm}所示，而越旧的区块则越不易发生，所以在比特币交易中默认该笔交易要在六个区块确认后，该公司才会承认该笔交易有效。
 
 				\end{enumerate}
 
@@ -148,7 +148,7 @@
 	%			\subsubsection{RIPEMD-160}
 				\subsubsection{（四）Base58 编码}
 
-				表\ref{Base58}为Base58编码表，Base58编码的首次出现自Satoshi Nakamoto所提出的论文\supercite{bitcoinpaper}当中，Base58编码是源自于Base64编码表，如表\ref{Base64}中所示。Base64编码中包括大写英文26个字母、小写英文26个字母、阿拉伯数字以及字符"/"和"+"。在比特币地址生成过程中，Base58的功能是将比特币地址的公钥哈希值重新编码，比特币地址的公钥哈希值是二进制的数据型态，既使是将二进制码转换成十六进制码输出也是对人类辨识上有一定的不便性。倘若采用Base64对比特币公钥哈希值进行编码有效缩短二进制码的长度，但Base64的编码存在着不适于作为地址的特殊字符"+"和"-"。在Base58编码中移除了特殊字符"+"和"-"之外，也移除了⼈类较不易判读的相关字符，数字"0"与大写英文字母"O"，因为该两字符在不同字体的体现相当相似，大写英文字母"I"以及小写英文字母"l"，在人类判读上也有些为相似。因此于Base64移除上述6个字符后，便形成了Base58编码表。值得一提的是，Base58编码与Base64编码表中的字符排序有些许异动，Base58编码表将数字的部分移置到最前面，这也是比特币地址在以Base58编码后所呈现的第一个字符为"1"的主要原因。
+				表\ref{Base58}为Base58 编码表，Base58编码的首次出现自Satoshi Nakamoto所提出的论文\supercite{bitcoinpaper}当中，Base58 编码是源自于Base64 编码表，如表\ref{Base64}中所示。Base64 编码中包括大写英文26个字母、小写英文26个字母、阿拉伯数字以及字符"/"和"+"。在比特币地址生成过程中，Base58 的功能是将比特币地址的公钥哈希值重新编码，比特币地址的公钥哈希值是二进制的数据型态，既使是将二进制码转换成十六进制码输出也是对人类辨识上有一定的不便性。倘若采用Base64 对比特币公钥哈希值进行编码有效缩短二进制码的长度，但Base64 的编码存在着不适于作为地址的特殊字符"+"和"-"。在Base58 编码中移除了特殊字符"+"和"-"之外，也移除了⼈类较不易判读的相关字符，数字"0"与大写英文字母"O"，因为该两字符在不同字体的体现相当相似，大写英文字母"I"以及小写英文字母"l"，在人类判读上也有些为相似。因此于Base64 移除上述6个字符后，便形成了Base58 编码表。值得一提的是，Base58 编码与Base64 编码表中的字符排序有些许异动，Base58 编码表将数字的部分移置到最前面，这也是比特币地址在以Base58 编码后所呈现的第一个字符为"1"的主要原因。
 
 					\begin{table}[!htbp]
 					\centering
@@ -202,7 +202,7 @@
 					\end{tabular}
 					\end{table}
 	%
-			于上述章节中已经详细说明⽐特币地址⽣成过程中使⽤到的所有相关算法技术，以及算法在现今的⽐特币系统中存在的问题。于本节中将阐述如何将比特币地址生成的相关算法实际带入比特币地址生成的过程中，地址的生成总共分为八个步骤，分别为生成私钥、生成公钥、生成公钥SHA-256 、生成公钥SHA-256 的RIPEMD-160 、取得版本号、生成校验码、版本号与公钥SHA-256的RIPEMD-160和校验码合并，最后一步则是将合并的结果以Base58编码创建出一个比特币地址。
+			于上述章节中已经详细说明⽐特币地址⽣成过程中使⽤到的所有相关算法技术，以及算法在现今的⽐特币系统中存在的问题。于本节中将阐述如何将比特币地址生成的相关算法实际带入比特币地址生成的过程中，地址的生成总共分为八个步骤，分别为生成私钥、生成公钥、生成公钥SHA-256 、生成公钥SHA-256 的RIPEMD-160 、取得版本号、生成校验码、版本号与公钥SHA-256 的RIPEMD-160 和校验码合并，最后一步则是将合并的结果以Base58 编码创建出一个比特币地址。
 
 			\begin{figure}[!htbp]
 					\centering
@@ -211,10 +211,9 @@
 			\end{figure}
 
 			\begin{enumerate}
-				\item 生成私钥：使用乱数产生器产生一个长度为256 bits的乱数，而此乱数即成为该比特币地址的私钥。在比特币的系统当中，私钥可以透过椭圆曲线签章算法secp256k1签署一笔交易，广播到⽐特币网络当中。由于私钥为该地址资金转移的关键，黑客攻击的对象皆会聚焦在比特币私钥，因此私钥的保存成为比特币系统中最为热门的课题之一。
-				\item 生成公钥：在以乱数产生器生成私钥之后，接下来将运用到非对称式密码学中的私钥公钥转换算法，于比特币系统中采用的是secp256k1
-				，secp256k1 是椭圆曲线密码学中的其中一个版本，不同的版本差异在于采用不同的变量。于比特币地址生成的过程中，secp256k1 负责将上述步骤所生成的私钥透过椭圆曲线算法计算出公钥，生成的公钥长度为512 bits，这比第一个步骤所生成的 256 bits 私钥多出⼀倍的⾧度。在比特币交易中，私钥可以签署一笔交易，在签署完之后便会将公钥、签名以及交易信息广播至比特币网络中，等待被收入到比特币区块链当中。此时该笔交易在⽐特币交易缓存池中等待secp256k1 算法对其公钥、签名以及交易信息进⾏验算，若计算出的值为真，则该笔交易被视为有效且继续待在交易缓存池中，等待被收⼊区块链内。
-				\item 生成公钥SHA-256 ：SHA-256 为SHA家族之一，也是哈希算法的一种，因此符合哈希算法的特征包括雪崩效应、不可预测、不可逆（单向性）以及校验文件是否完整的诸多特性。将前一个步骤所⽣成的⾧度为512 bits 的公钥作为SHA-256的输入，产出长度仅为公钥一半的公钥SHA-256哈希值。这个步骤将使即使知道公钥SHA-256的攻击者，更难以⽤穷举攻击推导出该地址的公钥。
+				\item 生成私钥：使用乱数产生器产生一个长度为256 bits的乱数，而此乱数即成为该比特币地址的私钥。在比特币的系统当中，私钥可以透过椭圆曲线签章算法secp256k1 签署一笔交易，广播到⽐特币网络当中。由于私钥为该地址资金转移的关键，黑客攻击的对象皆会聚焦在比特币私钥，因此私钥的保存成为比特币系统中最为热门的课题之一。
+				\item 生成公钥：在以乱数产生器生成私钥之后，接下来将运用到非对称式密码学中的私钥公钥转换算法，于比特币系统中采用的是secp256k1 ，secp256k1 是椭圆曲线密码学中的其中一个版本，不同的版本差异在于采用不同的变量。于比特币地址生成的过程中，secp256k1 负责将上述步骤所生成的私钥透过椭圆曲线算法计算出公钥，生成的公钥长度为512 bits，这比第一个步骤所生成的 256 bits 私钥多出⼀倍的⾧度。在比特币交易中，私钥可以签署一笔交易，在签署完之后便会将公钥、签名以及交易信息广播至比特币网络中，等待被收入到比特币区块链当中。此时该笔交易在⽐特币交易缓存池中等待secp256k1 算法对其公钥、签名以及交易信息进⾏验算，若计算出的值为真，则该笔交易被视为有效且继续待在交易缓存池中，等待被收⼊区块链内。
+				\item 生成公钥SHA-256 ：SHA-256 为SHA 家族之一，也是哈希算法的一种，因此符合哈希算法的特征包括雪崩效应、不可预测、不可逆（单向性）以及校验文件是否完整的诸多特性。将前一个步骤所⽣成的⾧度为512 bits 的公钥作为SHA-256 的输入，产出长度仅为公钥一半的公钥SHA-256哈希值。这个步骤将使即使知道公钥SHA-256 的攻击者，更难以⽤穷举攻击推导出该地址的公钥。
 				\item 生成公钥SHA-256 的RIPEMD-160 ：RIPEMD-160 也是哈希算法的⼀种，和其他哈希算法的特征相符，与SHA-256 不同的部分在于RIPEMD-160 所⽣成的哈希值⾧度为160 bits。在前一步骤中进⾏SHA-256 计算的公钥已经有了第⼀层的保护，⽽在第四个步骤中，再次透过RIPEMD-160 取得哈希值。这将使得攻击者既使取得了⽐特币地址，也必须先针对RIPEMD-160 进⾏破译，再进⼀步对SHA-256 破译，才有机会取得该地址的公钥。因为这样的设计，让只收取却不花费的⽐特币地址，在⿊客攻击上造成相当⼤的难度。
 				\item 取得版本号：在比特币系统初始的设计中，已经定义了些不同功能的比特币地址，这些特殊功能的比特币地址有着特殊的版本号，最为常见的为以"1"为头的比特币地址，该地址为比特币系统中最早被使用且最为普遍的地址版本，该种地址为一把私钥进行比特币地址推倒，所以仅需要一把钥匙就可以移动该地址下的比特币资产；第二种是以"3"为地址开头的比特币地址，该地址采用多重签章技术，该技术为后续经过多项BIP才完成落实于比特币系统。在第五个步骤中会加入版本号加以区分不同的地址。
 				\item 生成校验码：校验码是⽐特币地址⽣成过程中重要的⼀环。校验码可降低⽐特币的⽀付过程中因⼿误而转⼊到不存在（不符合⽐特币地址⽣成规则）地址的可能性。在第六个步骤中对公钥SHA-256 的RIPEMD-160 再做两次SHA-256 ，取该哈希值前32 bits 的值作为校验码。
@@ -226,37 +225,37 @@
 
 			 	现今的⽐特币区块产出速度为⼗分钟⼀块，附上⾜够的⼿续费也须等待将近⼗分钟的交易时间，若是在⼿续费较低的情况下，该笔⽐特币交易甚⾄可能会在交易缓存池中滞留⼀周的时间才被矿工运算。即使在⼿续费⾜够的情况下，⼗分钟的确认时间会对实体商家的⼩额交易处理⾮常不友善，为了在既有的⽐特币区块链框架底下能够提升交易速度，因此产生了多重签章（Multi-Signature）技术。多重签章于在交易开始创建的同时管控双重⽀付交易的发⽣，采⽤了2-of-2 多重签章创建⼀个特殊的⽐特币地址，这个地址由两个代表⼈所持有，分别为使⽤者与Green Address\supercite{GreenAddress}机构节点，每笔交易的建⽴必须要双⽅同时签署才被允许广播⾄⽐特币网络中。若是遇到交易塞⾞，且节点缓存池空间不⾜的情况时，⽐特币节点会优先遗弃⼿续费最低的交易，视同该笔交易不曾存在过。若真的遇到交易被遗弃的情况，Green Address 机构节点也会在之后透过内部的数据库记录再次广播此笔交易，并确保此笔交易可以被收⼊⾄区块内。Green Address 机构节点因此成为了交易创建的把关者，过滤所有双重⽀付攻击的发⽣，也避免交易因为⽐特币网络塞⾞⽽被矿⼯遗弃的情形。在这样的机制下，只要是使⽤Green Address 钱包交易就可避免双重⽀付攻击的发⽣，对商家或是收款⼈⽽⾔，可以在即时交易中同时得到双重⽀付攻击的保护，也提高了交易在未进⼊区块链前的可确定性，达到即时交易的可能。
 
-			 	\subsubsection{（一）Green Address钱包生成过程}
-			 	此节将详细阐述Green Address钱包生成过程的重要步骤，如图\ref{gabuild}所示。
+			 	\subsubsection{（一）Green Address 钱包生成过程}
+			 	此节将详细阐述Green Address 钱包生成过程的重要步骤，如图\ref{gabuild}所示。
 			 	\begin{figure}[!htbp]
 					\centering
 					\includegraphics[width = .4\textwidth]{gabuild.jpg}
-					\caption{Green Address钱包生成流程图}\label{gabuild}
+					\caption{Green Address 钱包生成流程图}\label{gabuild}
 				\end{figure}
 
 			 	\begin{enumerate}
-			 		\item 用户安装Green Address比特币钱包。
+			 		\item 用户安装Green Address 比特币钱包。
 			 		\item 用户于本地端透过乱数产生器生成一个比特币私钥。
-			 		\item 向Green Address机构节点请求创建2-of-2多重签章比特币地址。
+			 		\item 向Green Address机构节点请求创建2-of-2 多重签章比特币地址。
 			 		\item Green Address机构节点使用乱数产生器生成私钥。
 					\item 创建2-of-2多重签章比特币地址如"2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwPbZfQ"，该地址的为多重签章地址，因此在地址的第一个字为"2"，倘若为一般非多重签章地址，则地址的第一个字为"1"。
-					\item 将生成的2-of-2多重签章比特币地址传回用户的Green Address比特币钱包。
+					\item 将生成的2-of-2 多重签章比特币地址传回用户的Green Address 比特币钱包。
 			 	\end{enumerate}
 
-			 	\subsubsection{（二）Green Address交易发起流程}
-			 	说明完Green Address地址是如何创建之后，本节将详细说明如何运用多重签章地址发起交易至比特币网络中，如图\ref{gatx}所示。
+			 	\subsubsection{（二）Green Address 交易发起流程}
+			 	说明完Green Address 地址是如何创建之后，本节将详细说明如何运用多重签章地址发起交易至比特币网络中，如图\ref{gatx}所示。
 
 			 	\begin{figure}[!htbp]
 					\centering
 					\includegraphics[width = .5\textwidth]{gatx.jpg}
-					\caption{Green Address交易发起流程图}\label{gatx}
+					\caption{Green Address 交易发起流程图}\label{gatx}
 				\end{figure}
 
 				\begin{enumerate}
-					\item 用户使用原本创建Green Address的私钥，并完成签署交易。
-					\item 因为是多重签章地址，所以该交易需发送至Green Address机构节点。
-					\item Green Address机构节点收到交易信息后检查该交易的发起地址是否存在双重支付，倘若有双重支付则遗弃该笔交易；若无双重支付则往下一个步骤。
-					\item Green Address机构以Green Address的私钥签署该笔交易。
+					\item 用户使用原本创建Green Address 的私钥，并完成签署交易。
+					\item 因为是多重签章地址，所以该交易需发送至Green Address 机构节点。
+					\item Green Address 机构节点收到交易信息后检查该交易的发起地址是否存在双重支付，倘若有双重支付则遗弃该笔交易；若无双重支付则往下一个步骤。
+					\item Green Address 机构以Green Address 的私钥签署该笔交易。
 					\item 将该笔交易封包广播至比特币网络。
 				\end{enumerate}
 
@@ -278,16 +277,16 @@
 				\begin{figure}[!htbp]
 					\centering
 					\includegraphics[width = 0.6\textwidth]{MerkleRoot.jpg}
-					\caption{Merkle Tree示意图}\label{MerkleRoot}
+					\caption{Merkle Tree 示意图}\label{MerkleRoot}
 				\end{figure}
 
-				\item Merkle Root（256 bits）：Merkle Root的生成方法是将当前区块的所有交易为$n$个进行排序后，Merkle Root为Merkle Tree的树根，交易为树叶$n$个，将每个树叶进行两次SHA-256 哈希算法取得哈希值得到$n$个哈希值，再将哈希值两两配对合并进行两次SHA-256 ，得到$n*2^{-1}$个哈希值后，在$k$轮后会使得$n*2^{-k}=1$时，合并到只剩下一个哈希值，最后一个哈希值则为Merkle Root，如图所示\ref{MerkleRoot}，图中的Hash()函数为双重SHA-256 ，在区块链中的Merkle Root可用于快速检查当前区块中所有存储交易的正确性。
+				\item Merkle Root（256 bits）：Merkle Root 的生成方法是将当前区块的所有交易为$n$个进行排序后，Merkle Root 为Merkle Tree 的树根，交易为树叶$n$个，将每个树叶进行两次SHA-256 哈希算法取得哈希值得到$n$个哈希值，再将哈希值两两配对合并进行两次SHA-256 ，得到$n*2^{-1}$个哈希值后，在$k$轮后会使得$n*2^{-k}=1$时，合并到只剩下一个哈希值，最后一个哈希值则为Merkle Root，如图所示\ref{MerkleRoot}，图中的Hash()函数为双重SHA-256 ，在区块链中的Merkle Root可用于快速检查当前区块中所有存储交易的正确性。
 
 				
 
 				\item 难易度（32 bits）：难易度参数主要调控比特币挖矿过程中采用工作量证明算法的变量，值得一提的是比特币的难易度参数为动态调整。在过去加密货币的设计中，有着因为没有动态修改区块难度，而导致区块链生成速度太快，甚至导致区块链系统崩溃。
 				\item 时间戳（32 bits）：以年、月、日、小时、分钟和秒的格式记录区块生成时间。
-				\item Nonce（32 bits）：Nonce记录着矿工在进行挖矿时，必须要不断的尝试Nonce参数，直到符合难易度参数，才可以创建一个全新的比特币区块。该值为32 bits ，意为着矿工尝试的组态空间为$2^{32}$个可能性。
+				\item Nonce（32 bits）：Nonce 记录着矿工在进行挖矿时，必须要不断的尝试Nonce 参数，直到符合难易度参数，才可以创建一个全新的比特币区块。该值为32 bits ，意为着矿工尝试的组态空间为$2^{32}$个可能性。
 				\end{enumerate}
 				
 		%区块内容 交易手续费攻击

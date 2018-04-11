@@ -28,9 +28,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（四）Base58 编码}{19}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（一）Green Address钱包生成过程}{23}{subsubsection*.25}
+\contentsline {subsubsection}{（一）Green Address 钱包生成过程}{23}{subsubsection*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）Green Address交易发起流程}{24}{subsubsection*.27}
+\contentsline {subsubsection}{（二）Green Address 交易发起流程}{24}{subsubsection*.27}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}区块链}{24}{section.2.2}
 \defcounter {refsection}{0}\relax 

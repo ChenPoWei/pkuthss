@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  9 APR 2018 14:00
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  11 APR 2018 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2747,35 +2747,30 @@ Overfull \hbox (7.56561pt too wide) in paragraph at lines 58--61
 FFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F \TU/STSong(0)/m/n/12.045 为
  []
 
-[15] [16] [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
+[15] [16] [17] [18]
 File: 6confirm.jpg Graphic file (type QTm)
-
-<use  "6confirm.jpg" > [19]
+ <use  "6confirm.jpg" > [19]
 File: address.jpg Graphic file (type QTm)
- <use  "address.jpg" > [20] [21]
+ <use  "address.jpg" > [20]
+[21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 File: gabuild.jpg Graphic file (type QTm)
 
-<use  "gabuild.jpg" >
-Overfull \hbox (15.89716pt too wide) in paragraph at lines 242--243
+<use  "gabuild.jpg" > [23]
+Overfull \hbox (15.89716pt too wide) in paragraph at lines 241--242
 []\TU/STSong(0)/m/n/12.045 创 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
 2.045 多 重 签 章 比 特 币 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
 bZfQ"\TU/STSong(0)/m/n/12.045 ，|
  []
 
-[23]
 File: gatx.jpg Graphic file (type QTm)
- <use  "gatx.jpg" > [24]
+<use  "gatx.jpg" > [24]
 File: blockchain.jpg Graphic file (type QTm)
  <use  "blockchain.jpg" > [25]
 File: MerkleRoot.jpg Graphic file (type QTm)
-
-<use  "MerkleRoot.jpg" >) [26]
+ <use  "MerkleRoot.jpg" >) [26]
 \openout2 = `chap/chap3.aux'.
 
  (./chap/chap3.tex
@@ -3098,10 +3093,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48623 strings out of 493005
  952014 string characters out of 6134596
- 1376565 words of memory out of 5000000
+ 1376570 words of memory out of 5000000
  51831 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 948676 bytes).
+Output written on thesis.xdv (97 pages, 948668 bytes).
