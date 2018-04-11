@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  12 APR 2018 01:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  12 APR 2018 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2782,8 +2782,8 @@ File: MerkleRoot.jpg Graphic file (type QTm)
 第三章
 File: fish1.png Graphic file (type QTm)
 <use  "fish1.png" >
-File: modeall.png Graphic file (type QTm)
- <use  "modeall.png" > [27
+File: modeall.jpg Graphic file (type QTm)
+ <use  "modeall.jpg" > [27
 
 
 
@@ -2831,7 +2831,7 @@ File: fig3.jpg Graphic file (type QTm)
  <use  "fig3.jpg" > [39]
 File: fig4.jpg Graphic file (type QTm)
  <use  "fig4.jpg" >
-Underfull \vbox (badness 5189) has occurred while \output is active []
+Underfull \vbox (badness 5274) has occurred while \output is active []
 
  [40]
 [41]
@@ -2880,7 +2880,7 @@ File: c4.jpg Graphic file (type QTm)
  <use  "c4.jpg" >
 File: time5.jpg Graphic file (type QTm)
  <use  "time5.jpg" >
-Underfull \vbox (badness 2334) has occurred while \output is active []
+Underfull \vbox (badness 2302) has occurred while \output is active []
 
  [58]
 [59] [60]
@@ -2915,13 +2915,13 @@ Missing character: There is no 列 in font STSong/OT!
 ] [66]
 Missing character: There is no 度 in font STSong/OT!
 Missing character: There is no 度 in font STSong/OT!
-File: IntegrationTesting.png Graphic file (type QTm)
- <use  "IntegrationTesting.png" >
+File: IntegrationTesting.jpg Graphic file (type QTm)
+ <use  "IntegrationTesting.jpg" >
 File: usecasediagram.jpg Graphic file (type QTm)
  <use  "usecasediagram.jpg" >
-File: AcceptanceTesting.png Graphic file (type QTm)
+File: AcceptanceTesting.jpg Graphic file (type QTm)
 
-<use  "AcceptanceTesting.png" > [67] [68] [69]
+<use  "AcceptanceTesting.jpg" > [67] [68] [69]
 Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
 n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 员 是 否 能 够 顺 利 使 用 子
@@ -3104,4 +3104,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 949584 bytes).
+Output written on thesis.xdv (97 pages, 949572 bytes).

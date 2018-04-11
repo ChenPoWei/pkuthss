@@ -519,7 +519,7 @@ OUTPUT chap/chap3.aux
 INPUT chap/chap3.tex
 INPUT chap/chap3.tex
 INPUT fish1.png
-INPUT modeall.png
+INPUT modeall.jpg
 INPUT UC.jpg
 OUTPUT chap/chap4.aux
 INPUT chap/chap4.tex
@@ -554,9 +554,9 @@ INPUT fig8.png
 OUTPUT chap/chap6.aux
 INPUT chap/chap6.tex
 INPUT chap/chap6.tex
-INPUT IntegrationTesting.png
+INPUT IntegrationTesting.jpg
 INPUT usecasediagram.jpg
-INPUT AcceptanceTesting.png
+INPUT AcceptanceTesting.jpg
 INPUT fig9.png
 OUTPUT chap/chap7.aux
 INPUT chap/chap7.tex
