@@ -1305,6 +1305,26 @@
       \field{userf}{en}
       \field{year}{2005}
     \endentry
+    \entry{TheMD5message-digestalgorithm}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5614cb2ff8306dd22ca98f90f5b096af}{%
+           family={Rivest},
+           familyi={R\bibinitperiod},
+           given={Ronald},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5614cb2ff8306dd22ca98f90f5b096af}
+      \strng{fullhash}{5614cb2ff8306dd22ca98f90f5b096af}
+      \strng{authornamehash}{5614cb2ff8306dd22ca98f90f5b096af}
+      \strng{authorfullhash}{5614cb2ff8306dd22ca98f90f5b096af}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The MD5 message-digest algorithm}
+      \field{userf}{en}
+      \field{year}{1992}
+    \endentry
     \entry{Double-spendAttackModelswithTimeAdvantangeforBitcoin}{article}{}
       \name{author}{2}{}{%
         {{hash=8329a2dc21d05fd997ed77c90c927319}{%
@@ -1464,8 +1484,8 @@
       \strng{fullhash}{f9d1ce4d00079d49d477770341052e67}
       \strng{authornamehash}{f9d1ce4d00079d49d477770341052e67}
       \strng{authorfullhash}{f9d1ce4d00079d49d477770341052e67}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JDBC database access with Java: a tutorial and annotated reference}

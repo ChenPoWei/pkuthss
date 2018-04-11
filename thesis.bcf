@@ -2206,18 +2206,19 @@
     <bcf:citekey order="70">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="71">LatticesignaturesandbimodalGaussians</bcf:citekey>
     <bcf:citekey order="72">DBLP:conf/fse/KhovratovichRS12</bcf:citekey>
-    <bcf:citekey order="73">Double-spendAttackModelswithTimeAdvantangeforBitcoin</bcf:citekey>
-    <bcf:citekey order="74">bitcoinpaper</bcf:citekey>
-    <bcf:citekey order="75">Informationpropagationinthebitcoinnetwork</bcf:citekey>
-    <bcf:citekey order="76">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
-    <bcf:citekey order="77">GreenAddress</bcf:citekey>
-    <bcf:citekey order="78">Bitcoinclients</bcf:citekey>
-    <bcf:citekey order="79">JDBCdatabaseaccesswithJava:atutorialandannotatedreference</bcf:citekey>
-    <bcf:citekey order="80">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
-    <bcf:citekey order="81">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="82">bitcointestnet</bcf:citekey>
-    <bcf:citekey order="83">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
-    <bcf:citekey order="84">tanet</bcf:citekey>
+    <bcf:citekey order="73">TheMD5message-digestalgorithm</bcf:citekey>
+    <bcf:citekey order="74">Double-spendAttackModelswithTimeAdvantangeforBitcoin</bcf:citekey>
+    <bcf:citekey order="75">bitcoinpaper</bcf:citekey>
+    <bcf:citekey order="76">Informationpropagationinthebitcoinnetwork</bcf:citekey>
+    <bcf:citekey order="77">Double-spendingfastpaymentsinbitcoin</bcf:citekey>
+    <bcf:citekey order="78">GreenAddress</bcf:citekey>
+    <bcf:citekey order="79">Bitcoinclients</bcf:citekey>
+    <bcf:citekey order="80">JDBCdatabaseaccesswithJava:atutorialandannotatedreference</bcf:citekey>
+    <bcf:citekey order="81">Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet</bcf:citekey>
+    <bcf:citekey order="82">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="83">bitcointestnet</bcf:citekey>
+    <bcf:citekey order="84">Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin</bcf:citekey>
+    <bcf:citekey order="85">tanet</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

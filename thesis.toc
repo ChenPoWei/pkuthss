@@ -22,7 +22,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（一）乱数产生器（Random number generator）}{14}{subsubsection*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{（二）非对称式加密算法 Secp256k1}{15}{subsubsection*.15}
+\contentsline {subsubsection}{（二）非对称式加密算法 secp256k1}{15}{subsubsection*.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（三）哈希算法 SHA-256}{17}{subsubsection*.18}
 \defcounter {refsection}{0}\relax 
