@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  12 APR 2018 03:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  12 APR 2018 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2699,8 +2699,8 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.05249pt on input line 14.
-File: TotalMarketCapitalization.png Graphic file (type QTm)
- <use  "TotalMarketCapitalization.png" >
+File: TotalMarketCapitalization.pdf Graphic file (type QTm)
+ <use  "TotalMarketCapitalization.pdf" >
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 21.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -2708,23 +2708,23 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 21.
  [2]
-File: Thetotalmarketcapitalization.jpg Graphic file (type QTm)
+File: Thetotalmarketcapitalization.pdf Graphic file (type QTm)
 
-<use  "Thetotalmarketcapitalization.jpg" > [3]
+<use  "Thetotalmarketcapitalization.pdf" > [3]
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [4]
-File: TPS.png Graphic file (type QTm)
+File: TPS.pdf Graphic file (type QTm)
 
-<use  "TPS.png" >
+<use  "TPS.pdf" >
 File: blockchainsize.png Graphic file (type QTm)
  <use  "blockchainsize.png" > [5]
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
  [6]
-File: Darklaunderworkflow.png Graphic file (type QTm)
+File: Darklaunderworkflow.pdf Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.png" > [7] [8] [9] [10]) [11]
+<use  "Darklaunderworkflow.pdf" > [7] [8] [9] [10]) [11]
 \openout2 = `chap/chap2.aux'.
 
  (./chap/chap2.tex
@@ -2734,14 +2734,14 @@ File: Darklaunderworkflow.png Graphic file (type QTm)
 
 ]
 第二章
-File: bitcoinfullnode.png Graphic file (type QTm)
-<use  "bitcoinfullnode.png" >
+File: bitcoinfullnode.pdf Graphic file (type QTm)
+<use  "bitcoinfullnode.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-File: LBC.png Graphic file (type QTm)
+File: LBC.pdf Graphic file (type QTm)
 
-<use  "LBC.png" > [14]
+<use  "LBC.pdf" > [14]
 Overfull \hbox (7.56561pt too wide) in paragraph at lines 58--61
 \OML/ntxmi/m/it/12.045 p$\T1/ntxtlf/m/n/12.045 =FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F \TU/STSong(0)/m/n/12.045 为
@@ -2751,54 +2751,52 @@ FFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F \TU/STSong(0)/m/n/12.045 为
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-File: 6confirm.jpg Graphic file (type QTm)
+File: 6confirm.pdf Graphic file (type QTm)
 
-<use  "6confirm.jpg" > [19]
-File: address.jpg Graphic file (type QTm)
- <use  "address.jpg" > [20] [21]
+<use  "6confirm.pdf" > [19]
+File: address.pdf Graphic file (type QTm)
+ <use  "address.pdf" > [20] [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-File: gabuild.jpg Graphic file (type QTm)
+File: gabuild.pdf Graphic file (type QTm)
 
-<use  "gabuild.jpg" >
+<use  "gabuild.pdf" > [23]
 Overfull \hbox (15.89716pt too wide) in paragraph at lines 241--242
 []\TU/STSong(0)/m/n/12.045 创 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
 2.045 多 重 签 章 比 特 币 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
 bZfQ"\TU/STSong(0)/m/n/12.045 ，|
  []
 
-[23]
-File: gatx.jpg Graphic file (type QTm)
- <use  "gatx.jpg" > [24]
-File: blockchain.jpg Graphic file (type QTm)
- <use  "blockchain.jpg" > [25]
+File: gatx.pdf Graphic file (type QTm)
+<use  "gatx.pdf" > [24]
+File: blockchain.pdf Graphic file (type QTm)
+ <use  "blockchain.pdf" > [25]
 File: MerkleRoot.jpg Graphic file (type QTm)
-
-<use  "MerkleRoot.jpg" >) [26]
+ <use  "MerkleRoot.jpg" >) [26]
 \openout2 = `chap/chap3.aux'.
 
  (./chap/chap3.tex
 第三章
-File: fish1.png Graphic file (type QTm)
-<use  "fish1.png" >
-File: modeall.jpg Graphic file (type QTm)
- <use  "modeall.jpg" > [27
+File: fish1.pdf Graphic file (type QTm)
+<use  "fish1.pdf" >
+File: modeall.pdf Graphic file (type QTm)
+ <use  "modeall.pdf" > [27
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3590) has occurred while \output is active []
 
  [28]
 [29] [30] [31]
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
  [32]
-File: UC.jpg Graphic file (type QTm)
+File: UC.pdf Graphic file (type QTm)
 
-<use  "UC.jpg" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use  "UC.pdf" >
+Underfull \vbox (badness 5119) has occurred while \output is active []
 
  [33]
 [34]) [35]
@@ -2817,32 +2815,33 @@ Overfull \hbox (8.84303pt too wide) in paragraph at lines 5--6
 ntxtlf/m/n/12.045 BTMS\TU/STSong(0)/m/n/12.045 ）|$[]$，|
  []
 
-File: model0.jpg Graphic file (type QTm)
-<use  "model0.jpg" >
-File: model1.jpg Graphic file (type QTm)
- <use  "model1.jpg" >
+File: model0.pdf Graphic file (type QTm)
+<use  "model0.pdf" >
+File: model1.pdf Graphic file (type QTm)
+ <use  "model1.pdf" > [37]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
-File: model3.jpg Graphic file (type QTm)
- <use  "model3.jpg" > [37] [38]
-File: model2.jpg Graphic file (type QTm)
+File: model3.pdf Graphic file (type QTm)
+ <use  "model3.pdf" >
+File: model2.pdf Graphic file (type QTm)
 
-<use  "model2.jpg" >
-File: fig3.jpg Graphic file (type QTm)
- <use  "fig3.jpg" > [39]
-File: fig4.jpg Graphic file (type QTm)
- <use  "fig4.jpg" >
-Underfull \vbox (badness 5274) has occurred while \output is active []
+<use  "model2.pdf" >
+File: fig3.pdf Graphic file (type QTm)
+ <use  "fig3.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-[41]
-File: gabpcss.jpg Graphic file (type QTm)
- <use  "gabpcss.jpg" > [42] [43]) [44]
+ [38]
+[39]
+File: fig4.pdf Graphic file (type QTm)
+ <use  "fig4.pdf" > [40] [41] [42]
+File: gabpcss.pdf Graphic file (type QTm)
+ <use  "gabpcss.pdf" > [43]) [44]
 \openout2 = `chap/chap5.aux'.
 
- (./chap/chap5.tex
+
+(./chap/chap5.tex
 第五章
-File: er.jpg Graphic file (type QTm)
-<use  "er.jpg" > [45
+File: er.pdf Graphic file (type QTm)
+<use  "er.pdf" > [45
 
 
 
@@ -2852,49 +2851,50 @@ Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
  []
 
 [46]
-File: c3.jpg Graphic file (type QTm)
- <use  "c3.jpg" >
-File: time1.jpg Graphic file (type QTm)
- <use  "time1.jpg" > [47] [48]
-File: c2.jpg Graphic file (type QTm)
- <use  "c2.jpg" >
-File: time3.jpg Graphic file (type QTm)
+File: c3.pdf Graphic file (type QTm)
+ <use  "c3.pdf" >
+File: time1.pdf Graphic file (type QTm)
+ <use  "time1.pdf" > [47] [48]
+File: c2.pdf Graphic file (type QTm)
+ <use  "c2.pdf" >
+File: time3.pdf Graphic file (type QTm)
 
-<use  "time3.jpg" > [49] [50] [51]
-File: c1.jpg Graphic file (type QTm)
- <use  "c1.jpg" >
-File: time2.jpg Graphic file (type QTm)
- <use  "time2.jpg" >
+<use  "time3.pdf" > [49] [50] [51]
+File: c1.pdf Graphic file (type QTm)
+ <use  "c1.pdf" >
+File: time2.pdf Graphic file (type QTm)
+ <use  "time2.pdf" >
 [52] [53]
-File: c5.jpg Graphic file (type QTm)
- <use  "c5.jpg" >
-File: time4.jpg Graphic file (type QTm)
- <use  "time4.jpg" >
+File: c5.pdf Graphic file (type QTm)
+ <use  "c5.pdf" >
+File: time4.pdf Graphic file (type QTm)
+ <use  "time4.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54]
 [55] [56]
-File: c7.jpg Graphic file (type QTm)
- <use  "c7.jpg" > [57]
-File: c4.jpg Graphic file (type QTm)
- <use  "c4.jpg" >
-File: time5.jpg Graphic file (type QTm)
- <use  "time5.jpg" >
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [58]
+File: c7.pdf Graphic file (type QTm)
+ <use  "c7.pdf" > [57]
+File: c4.pdf Graphic file (type QTm)
+ <use  "c4.pdf" >
+File: time5.pdf Graphic file (type QTm)
+ <use  "time5.pdf" > [58]
 [59] [60]
-File: c6.jpg Graphic file (type QTm)
- <use  "c6.jpg" > [61]
-File: fig5.png Graphic file (type QTm)
- <use  "fig5.png" >
-File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [62]
-File: fig7.png Graphic file (type QTm)
+File: c6.pdf Graphic file (type QTm)
+ <use  "c6.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use  "fig7.png" >
-File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [63] [64]
+ [61]
+File: fig5.pdf Graphic file (type QTm)
+
+<use  "fig5.pdf" >
+File: fig6.pdf Graphic file (type QTm)
+ <use  "fig6.pdf" >
+File: fig7.pdf Graphic file (type QTm)
+ <use  "fig7.pdf" > [62] [63]
+File: fig8.pdf Graphic file (type QTm)
+
+<use  "fig8.pdf" >) [64]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2915,13 +2915,13 @@ Missing character: There is no 列 in font STSong/OT!
 ] [66]
 Missing character: There is no 度 in font STSong/OT!
 Missing character: There is no 度 in font STSong/OT!
-File: IntegrationTesting.jpg Graphic file (type QTm)
- <use  "IntegrationTesting.jpg" >
+File: IntegrationTesting.pdf Graphic file (type QTm)
+ <use  "IntegrationTesting.pdf" >
 File: usecasediagram.jpg Graphic file (type QTm)
  <use  "usecasediagram.jpg" >
-File: AcceptanceTesting.jpg Graphic file (type QTm)
+File: AcceptanceTesting.pdf Graphic file (type QTm)
 
-<use  "AcceptanceTesting.jpg" > [67] [68] [69]
+<use  "AcceptanceTesting.pdf" > [67] [68] [69]
 Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
 []\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
 n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 员 是 否 能 够 顺 利 使 用 子
@@ -2929,8 +2929,8 @@ n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 
  []
 
 [70]
-File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" >
+File: fig9.pdf Graphic file (type QTm)
+ <use  "fig9.pdf" >
 Underfull \vbox (badness 7451) has occurred while \output is active []
 
  [71]
@@ -3098,10 +3098,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48626 strings out of 493005
  952178 string characters out of 6134596
- 1376657 words of memory out of 5000000
+ 1376658 words of memory out of 5000000
  51834 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 949572 bytes).
+Output written on thesis.xdv (97 pages, 949604 bytes).
