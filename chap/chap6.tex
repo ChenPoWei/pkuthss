@@ -5,7 +5,7 @@
 	 	本段主要是描述⽐特币的交易监督系统的测试计划。确认在系统集成前，必须先确认所有的设计组件均可正确的输出，並着重于集成系统测试（Integration Test）及验收测试（Acceptance Test）。測試過程詳如下所述：
 	 		\begin{enumerate}
 	 			
-	 			\item 接受标准：本测试计划需要满足下列的测试接受准则： 
+	 			\item 接受标准：本测试计划需要满足下列的测试接受准则
 
 	 			\begin{enumerate}
 					\item 本系统需要对所有列为必要（Critical、Important、Desirable）之需求作完整测试。
@@ -19,7 +19,7 @@
 					
 					\begin{enumerate}
 						\item 系统主机：一台以上主机，每台主机CPU为Intel Pentium 4 1.0 GHz或以上，256 MB RAM或以上，60 GB以上硬盘空间。
-						\item 周边设备：⼀台以上⼿持移动装置，与⽤来代表虚拟商品的数个RFID标签，及可供测试NFC ⽤的⼿持移动装置。本測試以一台⼩⽶3 WCDMA 版及一台Google Nexus 5X分別進行測試，详细规格如表\ref{mi}、表\ref{5x}所示。
+						\item 周边设备：⼀台以上⼿持移动装置，与⽤来代表虚拟商品的数个RFID标签，及可供测试NFC ⽤的⼿持移动装置。本測試以一台⼩⽶3 WCDMA 版及一台Google Nexus 5X進行測試，详细规格如表\ref{mi}、表\ref{5x}所示。
 					
 					\end{enumerate}
 					\item 软件规格：以Windows 10 、Android 6.0.1/7.1.1操作系统為测试环境。
@@ -88,21 +88,21 @@
 	 			\begin{figure}[!htbp]
 					\centering
 					\includegraphics[width = 0.75\textwidth]{IntegrationTesting.pdf}
-					\caption{集成子系统测试}\label{IntegrationTesting}
+					\caption{集成子系统测试示意图}\label{IntegrationTesting}
 				\end{figure}
 			\item 验收测试规划（Acceptance Testing，AT）：
 				本系统须达成以下三组接受用例陈列的所有功能，测试本论文设计与搭建的系统功能是否能够顺利运行。测试的角色有两个，分别为管理员以及用户，如图\ref{usecasediagram}为BTMS用例示意图，预计测试服务器的组态设置、手机的组态设置以及数据库的组态设置：
 
 					\begin{figure}[!htbp]
 						\centering
-						\includegraphics[width = 0.4\textwidth]{usecasediagram.pdf}
+						\includegraphics[width = 0.5\textwidth]{usecasediagram.pdf}
 						\caption{BTMS用户用例图}\label{usecasediagram}
 					\end{figure}
 
 				图\ref{AcceptanceTesting}为三组验收测试的示意图，对本比特币的交易监督系统进行测试。
 					\begin{figure}[!htbp]
 						\centering
-						\includegraphics[width = 0.3\textwidth]{AcceptanceTesting.pdf}
+						\includegraphics[width = 0.35\textwidth]{AcceptanceTesting.pdf}
 						\caption{验收测试（Acceptance Testing）}\label{AcceptanceTesting}
 					\end{figure}
 
@@ -115,7 +115,7 @@
 				\begin{enumerate}
 
 				\item IT1 测试用例：
-					表\ref{IT1TestCase}为IT1 测试用例，测试对象为参与者商家装载于手机的商家和商品信息管理子系统（SMIMSS）的五项功能分别为添加店家帐户、添加/修改/删除职工帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，上述SMIMSS的五项功能需与母系统BTMS交互，BRTMS皆以BTMS-F-001 的ID进行。目的：验证［SMIMSS 1.1.0］子系统能否正确管理商家商品信息。
+					表\ref{IT1TestCase}为IT1 测试用例，测试对象为参与者商家装载于手机的商家和商品信息管理子系统（SMIMSS）的五项功能分别为添加店家帐户、添加/修改/删除职工帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，上述SMIMSS的五项功能需与母系统BTMS交互，BTMS皆以BTMS-F-001 的ID进行。目的：验证［SMIMSS 1.1.0］子系统能否正确管理商家商品信息。
 
 					\begin{table}[!htbp]
 					\centering
@@ -144,7 +144,7 @@
 
 
 				\item IT2测试用例：
-					表\ref{IT2TestCase}为IT2 测试用例目标，测试对象为装载于商家装载于商家职工Google Nexus 5X 手机的商家手持移动装置收款及交易子系统（SMCTSS），于IT2 应测试的SMCTSS 子系统的功能包括登入职工帐户、扫描RFID标签、读取商品信息、创建交易清单、发送交易信息、认证交易信息以及存储交易明细七项功能，上述七项功能需与母系统BTMS进行交互，BTMS接受测试的ID 为BTMS-F-002。目的：验证［SMCTSS 1.2.0］子系统是否能够完成一笔行动支付之交易。
+					表\ref{IT2TestCase}为IT2 测试用例目标，目标测试对象为装载于Google Nexus 5X 手机的商家手持移动装置收款及交易子系统（SMCTSS）的七项功能是否能够顺利运行，其功能包括登入职工帐户、扫描RFID 标签、读取商品信息、创建交易清单、发送交易信息、认证交易信息、以及存储交易明细，上述七项功能需与母系统BTMS 进行交互，母系统于SMCTSS 之间七项的功能性测试的ID 为BTMS-F-002。目的：验证［SMCTSS 1.2.0］子系统是否能够完成一笔行動支付之交易。
 
 						\begin{table}[!htbp]
 						\caption{IT2 测试用例} % title of Table
@@ -284,7 +284,7 @@
 		\subsection{测试结果和分析}
 		\begin{enumerate}
 
-			\item 集成测试用例（Integration Testing Cases）：其中IT1测试对象为装载于Windows 10 主机中的BTMS系统与装在于商家Windows 10 主机的SMIMSS子系统，当中测试用户商家在操作以Java 编成语言实现的商家和商品信息子系统时所使用到的每一像功能，包括添加店家帐户、添加/修改/删除职工帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，在IT1 的功能测试中都能够顺利运行。IT2 测试对象为装载于Windows 10 的BTMS 系统与装载于商家职工Google Nexus 5X 手机的SMCTSS子系统，测试功能包括登入职工帐户、扫描RFID 标签、读取商品信息、创建交易清单、发送交易信息、认证交易信息以及存储交易明细的功能，在功能测试的结果中显示，上述功能皆可顺利运行。在IT3 功能性测试中，测试对象为装载于Windows 10 的BTMS 系统以及装载于顾客小米 3 手机的CMPTSS 子系统，测试功能包括登入顾客帐号、读取商品信息、接收交易清单、认证交易信息、运行行动支付、存储交易明细以及查看交易纪录，于测试结果中显示上述功能皆能顺利运行。
+			\item 集成测试用例（Integration Testing Cases）：其中IT1测试对象为装载于Windows 10 主机中的BTMS系统与装在于商家Windows 10 主机的SMIMSS子系统，当中测试用户商家在操作以Java 编程语言实现的商家和商品信息子系统时所使用到的每一项功能，包括添加店家帐户、添加/修改/删除职工帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，在IT1 的功能测试中都能够顺利运行。IT2 测试对象为装载于Windows 10 的BTMS 系统与装载于商家职工Google Nexus 5X 手机的SMCTSS子系统，测试功能包括登入职工帐户、扫描RFID 标签、读取商品信息、创建交易清单、发送交易信息、认证交易信息以及存储交易明细的功能，在功能测试的结果中显示，上述功能皆可顺利运行。在IT3 功能性测试中，测试对象为装载于Windows 10 的BTMS 系统以及装载于顾客小米 3 手机的CMPTSS 子系统，测试功能包括登入顾客帐号、读取商品信息、接收交易清单、认证交易信息、运行行动支付、存储交易明细以及查看交易纪录，于测试结果中显示上述功能皆能顺利运行。
 			表\ref{table8}为IT1、为IT2、为IT3的集成子系统测试结果，皆顺利运作。
 
 				\begin{table}[!htbp]
@@ -313,9 +313,11 @@
 				 &  & 5. 成功运行行动支付 \\ \cline{3-3} 
 				 &  & 6.成功存储交易纪录 \\ \cline{3-3} 
 				 &  & 7.成功查看交易纪录 \\ \hline
-				RATE & 100\% & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \\ \\ \\ \end{tabular} \\ \hline
+				RATE & 100\% & \begin{tabular}[c]{@{}l@{}}\\ 经过IT1、IT2以及IT3三项 \\ 功能测试，可以验证BTMS、\\CMPTSS、SMCTSS以及SM\\ IMSS皆可顺利运行。 \\ \\ \end{tabular} \\ \hline
 				\end{tabular}
 				\end{table}
+
+				
 
 			\item 验收测试用例（Acceptance Testing Cases）：
 			表\ref{table9}为前节所设计的三种AT1、AT2与AT3的验收测试，分别对启动服务器的相关服务、完成手机的组态设置以及设置完成数据库的相关设置三种进行测试，皆顺利运行。
@@ -405,7 +407,7 @@
 				\end{enumerate}
 		\end{enumerate}
 
-	BTMS开发透过手机让商家及顾客以手机发送交易信息，如：商品名称、商品金额，商家收款地址。并且及时将商品信息更新至服务器之数据库，以便商家控管商品信息状态，同时让顾客可以享受数字加密货币的方便性。
+	BTMS开发透过手机让商家及顾客以手机发送交易信息，如：商品名称、商品价格，商家收款地址。并且即时将商品信息更新至服务器之数据库，以便商家控管商品信息状态，同时让顾客可以享受数字加密货币的方便性。
 
 	\section{性能测试}
 
@@ -417,7 +419,7 @@
 		\end{figure}
 
 
-		根据比特币点对点架构，尽管顾客和商家之间的交易细节已经快速存储到云数据库，但官方确认交易与当前比特币区块链的交易通常需要更长的时间，因为需要确保确认的数量在交易广播比特币点对点网络并存储到缓存池后，是否存在双重支付。本文设计了比特币的交易监督系统以及引用多重签章算法重新设计的比特币的实时交易监督系统，以下将分别针对有无采用多重签章算法的性能测试。
+		根据比特币点对点架构，尽管顾客和商家之间的交易细节已经可以快速存储到云数据库，但官方确认交易的時間比起当前比特币区块链的交易通常需要更长的时间，因为需要确保确认的数量在交易廣播到比特币点对点網络并存储到缓存池后，是否存在双重支付。本文设计了比特币的交易监督系统以及引用多重签章算法重新设计了比特币的实时交易监督系统，以下将分别针对有無采用多重签章算法的性能测试。
 
 
 		\subsection{系统性能测试}
@@ -443,7 +445,7 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2general}为第二次测试的实验原始数据，表\ref{2general-1}为将数据进行分析后的结果可以看出，平均进入缓存池的时间为1.12秒，进入区块链的时间为287.12秒，因为并未采用多重签章算法，所以交易完成时间以287.12秒计算。
+			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2general}为第二次测试的实验原始数据，表\ref{2general-1}为将数据进行分析后的结果可以看出，平均进入缓存池的时间为1.12秒，进入区块链的时间为287.12秒。
 				\begin{table}[!htbp]
 				\centering
 				\caption{第二次Testnet 运行实验数据（2018年3月21日）}
@@ -491,7 +493,7 @@
 
 		\end{enumerate}
 
-			在未引用多重签章算法的监督系统中，第一次与第二次的实验结果显示，当一笔笔特币交易广播到笔特币网路之后，并不会立刻被矿工收入到比特币区块链当中，于表\ref{2general}中的写入区块链写入区块所花时间栏位可看出，最快写入区块链的交易仅需12秒的时间，而等待最久的比特币交易为810秒，样本标准差达到了246.59秒，这使得顾客在商家进行消费时，需要承担不可确定的交易时间，使比特币交易落实于商店相当困难。在BTMS中，因为位使用多重签章算法，交易完成时间与比特币区块生成所需时间相同，平均时间为十分钟。根据比特币Testnet上的初步实验结果显示，本文提出的BTMS可以快速有效地运行比特币的交易监督系统。
+			在未引用多重签章算法的监督系统中，第一次与第二次的实验结果显示，当一笔交易广播到网络之后，并不会立刻被矿工收入到比特币区块链当中，于表\ref{2general}中的写入区块链所花时间栏位可看出，最快写入区块链的交易仅需12秒的时间，而等待最久的比特币交易为810秒，样本标准差达到了246.59秒，这使得顾客在商家进行消费时，需要承担不可确定的交易时间，使比特币交易落实于商店相当困难。在BTMS中，因为未使用多重签章算法，交易完成时间与比特币区块生成所需时间相同，平均时间为十分钟。根据比特币Testnet上的初步实验结果显示，本文提出的BTMS可以有效地运行比特币的交易监督系统。
 
 			%
 
@@ -504,7 +506,7 @@
 			\label{0test}
 			\begin{tabular}{|c|c|c|c|c|}
 			\hline
-			\multicolumn{1}{|c|}{付款时间} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}进入缓存池\\ 所花时间（秒）\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}进入缓存池\\ 时间点\end{tabular}} & \multicolumn{1}{c|}{入块时间} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}写入区块\\ 费时间\end{tabular}} \\ \hline
+			\multicolumn{1}{|c|}{付款时间} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}进入缓存池\\ 所花时间（秒）\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}进入缓存池\\ 时间点\end{tabular}} & \multicolumn{1}{c|}{入块时间} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}写入区块\\ 所花时间\end{tabular}} \\ \hline
 			06:36:25 & 2.14 & 06:36:27.14 & 06:52:00 & 16:25 \\ \hline
 			06:38:25 & 1.075 & 06:38:26.075 & 06:52:00 & 14:25 \\ \hline
 			06:40:25 & 1.722 & 06:40:26.722 & 06:52:00 & 12:25 \\ \hline
@@ -525,7 +527,7 @@
 			\end{table}
 
 
-		本次的实验分为两部份，分别是透过比特币 Testnet钱包以及使用本论文所采用的Government Green Address比特币钱包上运行20次付款，皆以相同地址收款，交易金额都设置为0.00001 BTC，实验时间为2017年9月6日与2018年2月6日，每隔一分钟运行一次付款的动作，总共历时20分钟。两款钱包同时发起交易，并透过区块链检视器进行记录时间，最后再比较使用一般比特币钱包及Government Green Address钱包两者之间的差距。
+		本次的实验分为两部份，分别是透过比特币 Testnet钱包以及使用本论文所采用的Government Green Address比特币钱包上运行20次付款，皆以相同地址收款，交易金额都设置为0.00001 BTC，实验时间为2017年9月6日与2018年2月6日，每隔一分钟运行一次付款的动作，总共历时20分钟。两款钱包同时发起交易，并透过区块链检视器进行记录时间，最后再比较使用一般Testnet钱包及Government Green Address钱包两者之间的差距。
 
 		\begin{enumerate}
 			\item 第一次测试结果与分析（2017年9月6日）：表\ref{1green}为第一次测试实验的数据分析结果，平均进入交易缓存池的时间为2.11秒，真正写入区块链的时间为654.24秒，采用多重签章算法，这些交易不存在双重支付的问题，因此完成时间记为2.11秒。
@@ -544,7 +546,7 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2green}为第二次以Government Green Address运行实验数据，表\ref{2green-1}为基于第二次测试的数据分析结果，进入缓存池的平均时间为1.55秒，进入区块链的平均时间为431.4秒，因为采用多重签章算法将完成交易时间以1.55秒计算。
+			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2green}为第二次以Government Green Address 钱包运行实验数据，表\ref{2green-1}为基于第二次测试的数据分析结果，进入缓存池的平均时间为1.55秒，进入区块链的平均时间为431.4秒，因为采用多重签章算法将完成交易时间以1.55秒计算。
 
 		\end{enumerate}
 			\begin{table}[!htbp]
@@ -591,11 +593,12 @@
 				\end{tabular}
 				\end{table}
 
+本次实验分别记录以Testnet钱包及Government Green Address钱包运行20次交易的进入缓存池等待时间和写入区块等待时间。若以Testnet钱包交易，必须等到交易写入才能保证此笔交易不会被矿工遗弃，也才算真的完成这笔交易；但若以Government Green Address钱包发起交易就大不相同，当交易进入缓存池，即使遇到交易被矿工遗弃的情况，Government Green Address机构节点也会重新发起此笔交易，保证让交易写入区块，所以只要进入缓存池就可以视为交易完成，透过两者钱包的交易数据，本文分析两种钱包交易的时间数据。
 
-			在BRTMS引入多重签章算法后，透过Government Green Address 机制创建的比特币交易，可以有效预防比特币双重支付攻击，即使该比特币交易存在于比特币交易缓存池当中，并未写入到比特币区块链上，该笔交易可标记为已经完成的交易。于表\ref{2green}中所示，将有效的比特币交易标准从写入区块链的时间更改为进入缓存池的时间点，可大幅降低交易等待时间，在表\ref{2general}中BTMS最大交易等待时间为810秒，表\ref{2green}显示，在透过Government Green Address 机制发起交易所需的最大交易等待时间为2秒。在顾客于商家进行交易时，不需等待长久的交易确认时间，使得顾客于商家交易更加便利且快速。
+在BRTMS引入多重签章算法后，透过Government Green Address 机制创建的比特币交易，可以有效预防比特币双重支付攻击，即使该比特币交易存在于比特币交易缓存池当中，并未写入到比特币区块链上，该笔交易可标记为已经完成的交易。于表\ref{2green}中所示，将有效的比特币交易标准从写入区块链的时间更改为进入缓存池的时间点，可大幅降低交易等待时间，在表\ref{2general}中BTMS最大交易等待时间为810秒，表\ref{2green}显示，在透过Government Green Address 机制发起交易所需的最大交易等待时间为2秒。在顾客于商家进行交易时，不需等待长久的交易确认时间，使得顾客于商家交易更加便利且快速。
 
 
-	本次实验分别记录以Testnet钱包及Government Green Address钱包运行20次交易的进入缓存池等待时间和写入区块等待时间。若以Testnet钱包交易，必须等到交易写入才能保证此笔交易不会被矿工遗弃，也才算真的完成这笔交易；但若以Government Green Address钱包发起交易就大不相同，当交易进入缓存池，即使遇到交易被矿工遗弃的情况，Government Green Address机构节点也会重新发起此笔交易，保证让交易写入区块，所以只要进入缓存池就可以视为交易完成，透过两者钱包的交易数据，本文分析两种钱包交易的时间数据。
+	
 
 	\begin{table}[!htbp]
 	\centering
@@ -609,7 +612,7 @@
 	\end{tabular}
 	\end{table}
 
-	透过本次的实验可以发现虽然以两种钱包交易进入区块的等待时间完全相同，但因为Government Green Address钱包的特性，只要进入缓存池就算完成交易确认，因此Government Green Address钱包的完成交易确认的时间远远快于一般Testnet。相信以此⽅式作为主要⽀付管道，可以省去顾客在现金⽀付时掏零钱、算钱及找零等繁琐的动作及时间，以此达成提升⽇常⽣活中的便利性与安全性。
+	透过本次的实验可以发现，以两种钱包交易进入区块的时间皆存在平均200秒以上的等待時間，但因为Government Green Address钱包的特性，只要进入缓存池就算完成交易确认，因此Government Green Address钱包的完成交易确认的时间远远快于一般Testnet。相信以此⽅式作为主要⽀付管道，可以省去顾客在现金⽀付时掏零钱、算钱及找零等繁琐的动作及时间，以此达成提升⽇常⽣活中的便利性与安全性。
 
 
 
