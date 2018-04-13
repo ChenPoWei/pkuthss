@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 02:25
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 03:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2931,16 +2931,17 @@ Underfull \vbox (badness 6658) has occurred while \output is active []
  [74]
 [75]
 File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" > [76] [77] [78] [79] [80] [81]) [82]
+ <use  "fig9.png" > [76] [77] [78] [79] [80] [81] [82]) [83]
 \openout2 = `chap/chap7.aux'.
 
- (./chap/chap7.tex
+
+(./chap/chap7.tex [84
+
+
+
+]
 第七章
-) [83
-
-
-
-] [84
+) [85] [86
 
 
 ]
@@ -3013,7 +3014,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
 
-[85]
+[87]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
@@ -3045,7 +3046,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
 
-[86]
+[88]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
@@ -3054,18 +3055,18 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
 
-[87] [88
+[89] [90
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [89
+ (./chap/acknowledge.tex) [91
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [90
+ (./chap/originauth.tex [92
 
 
 
@@ -3078,7 +3079,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [91]
+) [93]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 
@@ -3101,4 +3102,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 976080 bytes).
+Output written on thesis.xdv (103 pages, 984784 bytes).
