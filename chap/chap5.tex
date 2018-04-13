@@ -314,7 +314,7 @@
 		\item 发现交易信息中的CHECK值为"1"之后，便发送完成交易的信息到顾客交易管理模块。
 	\end{enumerate}
 
-	图\ref{c6}为BRTMS中的顾客Government Green Address交易管理模块类图，以下将说明采用Government Green Address与未采用Government Green Address技术的顾客交易管理类图设计之间的差异。于Tx类中添加ggatxcheck()方法，该方法可以不断检查交易信息表中的交易是否来自Government Green Address地址，倘若是则不需要等待区块链的验证时间可以即刻认定该笔交易为有效，快速提交比特币交易速度。GovernmentGreenaddressCheckTx类中compare()方法是为了查找与TX\_ID相符的交易信息，getchek()方法则是向交易信息表中询问符合TX\_ID的交易信息是否已经被修改为"1"。其中GovernmentGreenaddressBitcoinPay类中的multiplesignature()方法可以实现多重签章算法，使得本系统可以支持即时交易。governmentgreedaddresspay()方法是将多重签章算法广播报到比特币网络。
+	图\ref{c6}为BRTMS中的顾客Government Green Address交易管理模块类图，以下将说明采用Government Green Address与未采用Government Green Address技术的顾客交易管理类图设计之间的差异。于Tx类中添加ggatxcheck()方法，该方法可以不断检查交易信息表中的交易是否来自Government Green Address地址，倘若是则不需要等待区块链的验证时间可以即刻认定该笔交易为有效，快速提交比特币交易速度。GovernmentGreenaddressCheckTx类中compare()方法是为了查找与TX\_ID相符的交易信息，getchek()方法则是向交易信息表中询问符合TX\_ID的交易信息是否已经被修改为"1"。其中GovernmentGreenaddressBitcoinPay类中的multiplesignature()方法可以实现多重签章算法，使得本系统可以支持即时交易。governmentgreedaddresspay()方法是将多重签章算法广播到比特币网络。
 
 
 	\begin{figure}[!htbp]
