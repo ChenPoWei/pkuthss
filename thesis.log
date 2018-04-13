@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 APR 2018 15:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 APR 2018 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2699,8 +2699,8 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.05249pt on input line 14.
-File: TotalMarketCapitalization.pdf Graphic file (type QTm)
- <use  "TotalMarketCapitalization.pdf" >
+File: TotalMarketCapitalization.png Graphic file (type QTm)
+ <use  "TotalMarketCapitalization.png" >
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 21.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -2708,23 +2708,23 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.0pt on input line 21.
  [2]
-File: Thetotalmarketcapitalization.pdf Graphic file (type QTm)
+File: Thetotalmarketcapitalization.jpg Graphic file (type QTm)
 
-<use  "Thetotalmarketcapitalization.pdf" > [3]
+<use  "Thetotalmarketcapitalization.jpg" > [3]
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
  [4]
-File: TPS.pdf Graphic file (type QTm)
+File: TPS.png Graphic file (type QTm)
 
-<use  "TPS.pdf" >
+<use  "TPS.png" >
 File: blockchainsize.png Graphic file (type QTm)
  <use  "blockchainsize.png" > [5]
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
  [6]
-File: Darklaunderworkflow.pdf Graphic file (type QTm)
+File: Darklaunderworkflow.png Graphic file (type QTm)
 
-<use  "Darklaunderworkflow.pdf" > [7] [8] [9] [10]) [11]
+<use  "Darklaunderworkflow.png" > [7] [8] [9] [10]) [11]
 \openout2 = `chap/chap2.aux'.
 
  (./chap/chap2.tex
@@ -2734,14 +2734,14 @@ File: Darklaunderworkflow.pdf Graphic file (type QTm)
 
 ]
 第二章
-File: bitcoinfullnode.pdf Graphic file (type QTm)
-<use  "bitcoinfullnode.pdf" >
+File: bitcoinfullnode.png Graphic file (type QTm)
+<use  "bitcoinfullnode.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-File: LBC.pdf Graphic file (type QTm)
+File: LBC.png Graphic file (type QTm)
 
-<use  "LBC.pdf" > [14]
+<use  "LBC.png" > [14]
 Overfull \hbox (7.56561pt too wide) in paragraph at lines 58--61
 \OML/ntxmi/m/it/12.045 p$\T1/ntxtlf/m/n/12.045 =FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F \TU/STSong(0)/m/n/12.045 为
@@ -2885,16 +2885,16 @@ File: c6.pdf Graphic file (type QTm)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
-File: fig5.pdf Graphic file (type QTm)
+File: fig5.png Graphic file (type QTm)
 
-<use  "fig5.pdf" >
-File: fig6.pdf Graphic file (type QTm)
- <use  "fig6.pdf" >
-File: fig7.pdf Graphic file (type QTm)
- <use  "fig7.pdf" > [62] [63]
-File: fig8.pdf Graphic file (type QTm)
+<use  "fig5.png" >
+File: fig6.png Graphic file (type QTm)
+ <use  "fig6.png" >
+File: fig7.png Graphic file (type QTm)
+ <use  "fig7.png" > [62] [63]
+File: fig8.png Graphic file (type QTm)
 
-<use  "fig8.pdf" >) [64]
+<use  "fig8.png" >) [64]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2929,8 +2929,8 @@ n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 
  []
 
 [70]
-File: fig9.pdf Graphic file (type QTm)
- <use  "fig9.pdf" >
+File: fig9.png Graphic file (type QTm)
+ <use  "fig9.png" >
 Underfull \vbox (badness 7451) has occurred while \output is active []
 
  [71]
@@ -3096,12 +3096,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48625 strings out of 493005
- 952174 string characters out of 6134596
+ 48626 strings out of 493005
+ 952178 string characters out of 6134596
  1376658 words of memory out of 5000000
  51834 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 949608 bytes).
+Output written on thesis.xdv (97 pages, 949612 bytes).
