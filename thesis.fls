@@ -526,8 +526,8 @@ INPUT chap/chap4.tex
 INPUT chap/chap4.tex
 INPUT model0.pdf
 INPUT model1.pdf
-INPUT model3.pdf
 INPUT model2.pdf
+INPUT model3.pdf
 INPUT fig3.pdf
 INPUT fig4.pdf
 INPUT gabpcss.pdf

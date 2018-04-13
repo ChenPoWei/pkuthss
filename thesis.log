@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 APR 2018 16:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 APR 2018 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2820,11 +2820,11 @@ File: model0.pdf Graphic file (type QTm)
 File: model1.pdf Graphic file (type QTm)
  <use  "model1.pdf" > [37]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
-File: model3.pdf Graphic file (type QTm)
- <use  "model3.pdf" >
 File: model2.pdf Graphic file (type QTm)
+ <use  "model2.pdf" >
+File: model3.pdf Graphic file (type QTm)
 
-<use  "model2.pdf" >
+<use  "model3.pdf" >
 File: fig3.pdf Graphic file (type QTm)
  <use  "fig3.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2881,33 +2881,25 @@ File: time5.pdf Graphic file (type QTm)
  <use  "time5.pdf" > [58]
 [59] [60]
 File: c6.pdf Graphic file (type QTm)
- <use  "c6.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61]
+ <use  "c6.pdf" > [61]
 File: fig5.png Graphic file (type QTm)
-
-<use  "fig5.png" >
+ <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" >
+ <use  "fig6.png" > [62]
 File: fig7.png Graphic file (type QTm)
- <use  "fig7.png" > [62] [63]
-File: fig8.png Graphic file (type QTm)
 
-<use  "fig8.png" >) [64]
+<use  "fig7.png" > [63]
+File: fig8.png Graphic file (type QTm)
+ <use  "fig8.png" >) [64]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
 第六章
-Missing character: There is no 利 in font STSong/OT!
-Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
 Missing character: There is no 列 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
-Missing character: There is no 說 in font STSong/OT!
-Missing character: There is no 列 in font STSong/OT!
 [65
 
 
@@ -3104,4 +3096,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 949612 bytes).
+Output written on thesis.xdv (97 pages, 951372 bytes).

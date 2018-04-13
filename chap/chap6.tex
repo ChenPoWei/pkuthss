@@ -1,8 +1,8 @@
 % Copyright （c） 2014,2016 Casper Ti. Vecto
 \chapter{系统测试}
-于本章将进行功能测试与性能测试，运行功能测试以确认本文所提出之系统的所有功能是否皆顺利运行，透过性能测试可知本系统的交易速度在优化前与优化后之间的差异，在本章中以手机作为手持移动装置的测试环境。
+本章节内容将依据系统需求规格书与系统设计，描述关于集成测试的相关计划与内容。于本章将进⾏功能测试与性能测试，运⾏功能测试以确认本⽂所提出之系统的所有功能是否皆顺利运⾏，透过性能测试可知本系统的交易速度在优化前与优化后之间的差异，在本章中以⼿机作为⼿持移动装置的测试环境，并希望透过此章节之描述与实践，达到顺利进⾏测试⼯作之⽬的。
 	\section{功能测试}
-	 	本段主要是描述比特币的交易监督系统的测试计划。确认在系统集成前，必须先确认所有的设计组件均可正确的输出，在此着重于集成系统测试（Integration Test）及验收测试 （Acceptance Test）。本章节内容将依据系统需求规格书与系统设计，描述关于集成测试的相关计划与内容。并希望透过此章节之描述与实践，达到顺利进行测试工作之目的。
+	 	本段主要是描述⽐特币的交易监督系统的测试计划。确认在系统集成前，必须先确认所有的设计组件均可正确的输出，並着重于集成系统测试（Integration Test）及验收测试（Acceptance Test）。測試過程詳如下所述：
 	 		\begin{enumerate}
 	 			
 	 			\item 接受标准：本测试计划需要满足下列的测试接受准则： 
@@ -19,13 +19,13 @@
 					
 					\begin{enumerate}
 						\item 系统主机：一台以上主机，每台主机CPU为Intel Pentium 4 1.0 GHz或以上，256 MB RAM或以上，60 GB以上硬盘空间。
-						\item 周边设备：一台以上手持移动装置，与用来代表虚拟商品的数个RFID标签；已可供测试NFC用的手持移动装置包含小米3 WCDMA版，详细规格于表\ref{mi}，Google Nexus 5X，详细规格于表\ref{5x}。
+						\item 周边设备：⼀台以上⼿持移动装置，与⽤来代表虚拟商品的数个RFID标签，及可供测试NFC ⽤的⼿持移动装置。本測試以一台⼩⽶3 WCDMA 版及一台Google Nexus 5X分別進行測試，详细规格如表\ref{mi}、表\ref{5x}所示。
 					
 					\end{enumerate}
-					\item 软件规格：关于测试环境所需的软件规格說明，如下列所示：操作系统：Windows 10 、Android 6.0.1/7.1.1。
+					\item 软件规格：以Windows 10 、Android 6.0.1/7.1.1操作系统為测试环境。
 
 				\end{enumerate}
-				\item 测试地点：在铭传大学桃园校区资工系实验室，透过Android手机进行的交易仿真实验，测试环境如图\ref{fig4}的示意。
+				\item 测试地点：在铭传大学桃园校区资工系实验室，透过Android手机进行的交易仿真实验，测试流程如图\ref{fig4}的示意。
 
 %			\end{enumerate}
 	 	
@@ -84,7 +84,7 @@
 	 				\item 比特币的交易监督系统接受度测试（2017年7月1日）
 	 			\end{enumerate}
 
-	 		\item 集成测试规划（Integration Testing）：\ref{IntegrationTesting}為集成子系统测试示意图。
+	 		\item 集成测试规划（Integration Testing，IT）：图\ref{IntegrationTesting}為集成子系统测试示意图。
 	 			\begin{figure}[!htbp]
 					\centering
 					\includegraphics[width = 0.75\textwidth]{IntegrationTesting.pdf}
@@ -125,7 +125,7 @@
 					\hline
 					用例ID & IT1 \\ \hline
 					用例名称 & 集成SMIMSS至BTMS \\ \hline
-					测试目标 & {［}SMIMSS 1.1.0{］}、{［}BTMS 1.0.0{］} \\ \hline
+					测试目标 & {［}BTMS 1.0.0{］}、{［}SMIMSS 1.1.0{］} \\ \hline
 					依赖关系 & SMIMSS-F-001$\sim$ SMIMSS-F-005 \\ \hline
 					严重程度 & 1（Critical） \\ \hline
 					\multirow{5}{*}{用例描述} & 1.     能够添加店家帐户 \\ \cline{2-2} 
@@ -154,7 +154,7 @@
 						\hline
 						用例ID & IT2 \\ \hline
 						用例名称 & 集成SMCTSS至BTMS \\ \hline
-						测试目标 & {［}SMCTSS 1.2.0{］}、{［}BTMS 1.0.0{］} \\ \hline
+						测试目标 & {［}BTMS 1.0.0{］}、{［}SMCTSS 1.2.0{］} \\ \hline
 						依赖关系 & SMCTSS-F-001$\sim$ SMCTSS-F-007 \\ \hline
 						严重程度 & 1（Critical） \\ \hline
 						\multirow{7}{*}{用例描述} & 1.     能够登入店员帐户 \\ \cline{2-2} 
@@ -186,7 +186,7 @@
 						\hline
 						用例ID & IT3 \\ \hline
 						用例名称 & 集成CMPTSS至BTMS \\ \hline
-						测试目标 & {［}CMPTSS 1.3.0{］}、{［}BTMS 1.0.0{］} \\ \hline
+						测试目标 & {［}BTMS 1.0.0{］}、{［}CMPTSS 1.3.0{］} \\ \hline
 						依赖关系 & CMPTSS-F-001$\sim$ CMPTSS-F-007 \\ \hline
 						严重程度 & 1（Critical） \\ \hline
 						\multirow{7}{*}{用例描述} & 1.     能够登入顾客帐号 \\ \cline{2-2} 
@@ -424,9 +424,9 @@
 
 		\begin{enumerate}
 			\item 初始测试（2017年7月25日）：
-			首先，使用区块链检视器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如\ref{fig9}的快照所示，透过使用Testnet依序进行20笔比特币交易，如图\ref{fig9}的中间快照所示，最后20笔交易完成时间全部记录在区块链检视器。实验结果显示，实验中的所有交易都在3秒钟左右（平均2.97秒，标准差小于1秒）发送到比特币网络缓存池，平均交易完成时间在比特币区块链中确认为522.33秒（小于9分钟），标准差大约为339秒。
+			首先，使用区块链检视器（Blockchain Explorer）\supercite{Blockchainexplorer:Ananalyticalprocessandinvestigationenvironmentforbitcoin}，如图\ref{fig9}的快照所示，透过使用Testnet依序进行20笔比特币交易，如图\ref{fig9}的中间快照所示，最后20笔交易完成时间全部记录在区块链检视器。实验结果显示，实验中的所有交易都在3秒钟左右（平均2.97秒，标准差小于1秒）发送到比特币网络缓存池，平均交易完成时间在比特币区块链中确认为522.33秒（小于9分钟），标准差大约为339秒。
 
-			\item 第一次测试（2017年9月6日）：表\ref{1general}为第一次实验数据，该次的比特币交易发起广播至比特币交易缓存池的时间平均为1.918秒，标准差为0.55586秒。但为了预防双重支付攻击需要等待平均654.8秒（小于11分钟，标准差346.63秒）的时间。
+			\item 第一次测试结果与分析（2017年9月6日）：表\ref{1general}为第一次实验数据，该次的比特币交易发起广播至比特币交易缓存池的时间平均为1.918秒，标准差为0.55586秒。但为了预防双重支付攻击需要等待平均654.8秒（小于11分钟，标准差346.63秒）的时间。
 
 				\begin{table}[!htbp]
 				\centering
@@ -442,7 +442,7 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第二次测试（2018年3月21日）：表\ref{2general}为第二次测试的实验原始数据，表\ref{2general-1}为将数据进行分析后的结果可以看出，平均进入缓存池的时间为1.12秒，进入区块链的时间为287.12秒，因为并未采用多重签章算法，所以交易完成时间以287.12秒计算。
+			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2general}为第二次测试的实验原始数据，表\ref{2general-1}为将数据进行分析后的结果可以看出，平均进入缓存池的时间为1.12秒，进入区块链的时间为287.12秒，因为并未采用多重签章算法，所以交易完成时间以287.12秒计算。
 				\begin{table}[!htbp]
 				\centering
 				\caption{第二次Testnet 运行实验数据（2018年3月21日）}
@@ -527,7 +527,7 @@
 		本次的实验分为两部份，分别是透过比特币 Testnet钱包以及使用本论文所采用的Government Green Address比特币钱包上运行20次付款，皆以相同地址收款，交易金额都设置为0.00001 BTC，实验时间为2017年9月6日与2018年2月6日，每隔一分钟运行一次付款的动作，总共历时20分钟。两款钱包同时发起交易，并透过区块链检视器进行记录时间，最后再比较使用一般比特币钱包及Government Green Address钱包两者之间的差距。
 
 		\begin{enumerate}
-			\item 第一次测试（2017年9月6日）：表\ref{1green}为第一次测试实验的数据分析结果，平均进入交易缓存池的时间为2.11秒，真正写入区块链的时间为654.24秒，采用多重签章算法，这些交易不存在双重支付的问题，因此完成时间记为2.11秒。
+			\item 第一次测试结果与分析（2017年9月6日）：表\ref{1green}为第一次测试实验的数据分析结果，平均进入交易缓存池的时间为2.11秒，真正写入区块链的时间为654.24秒，采用多重签章算法，这些交易不存在双重支付的问题，因此完成时间记为2.11秒。
 
 			\begin{table}[!htbp]
 				\centering
@@ -543,7 +543,7 @@
 				\end{tabular}
 				\end{table}
 
-			\item 第二次测试（2018年3月21日）：表\ref{2green}为第二次以Government Green Address运行实验数据，表\ref{2green-1}为基于第二次测试的数据分析结果，进入缓存池的平均时间为1.55秒，进入区块链的平均时间为431.4秒，因为采用多重签章算法将完成交易时间以1.55秒计算。
+			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2green}为第二次以Government Green Address运行实验数据，表\ref{2green-1}为基于第二次测试的数据分析结果，进入缓存池的平均时间为1.55秒，进入区块链的平均时间为431.4秒，因为采用多重签章算法将完成交易时间以1.55秒计算。
 
 		\end{enumerate}
 			\begin{table}[!htbp]

@@ -88,7 +88,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{（五）顾客交易管理模块}{57}{subsubsection*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}系统实现}{62}{section.5.3}
+\contentsline {section}{\numberline {5.3}系统实现}{61}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}系统测试}{65}{chapter.6}
 \defcounter {refsection}{0}\relax 
