@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 01:11
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2920,17 +2920,17 @@ n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 
  系 统 \T1/ntxtlf/m/n/12.045 SMIMSS
  []
 
+[69] [70]
+Underfull \vbox (badness 6542) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69]
-[70] [71]
+ [71]
 File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" > [72] [73] [74] [75] [76] [77] [78]) [79]
+
+<use  "fig9.png" > [72] [73] [74] [75] [76] [77] [78]) [79]
 \openout2 = `chap/chap7.aux'.
 
-
-(./chap/chap7.tex [80
+ (./chap/chap7.tex
+[80
 
 
 
@@ -3091,10 +3091,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48625 strings out of 493005
  952174 string characters out of 6134596
- 1380657 words of memory out of 5000000
+ 1379657 words of memory out of 5000000
  51834 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (99 pages, 963604 bytes).
+Output written on thesis.xdv (99 pages, 967672 bytes).
