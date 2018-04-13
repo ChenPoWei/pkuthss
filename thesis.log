@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 APR 2018 15:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  13 APR 2018 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2917,8 +2917,8 @@ Missing character: There is no 度 in font STSong/OT!
 Missing character: There is no 度 in font STSong/OT!
 File: IntegrationTesting.pdf Graphic file (type QTm)
  <use  "IntegrationTesting.pdf" >
-File: usecasediagram.jpg Graphic file (type QTm)
- <use  "usecasediagram.jpg" >
+File: usecasediagram.pdf Graphic file (type QTm)
+ <use  "usecasediagram.pdf" >
 File: AcceptanceTesting.pdf Graphic file (type QTm)
 
 <use  "AcceptanceTesting.pdf" > [67] [68] [69]
@@ -3096,8 +3096,8 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48626 strings out of 493005
- 952178 string characters out of 6134596
+ 48625 strings out of 493005
+ 952174 string characters out of 6134596
  1376658 words of memory out of 5000000
  51834 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000

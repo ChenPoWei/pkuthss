@@ -555,7 +555,7 @@ OUTPUT chap/chap6.aux
 INPUT chap/chap6.tex
 INPUT chap/chap6.tex
 INPUT IntegrationTesting.pdf
-INPUT usecasediagram.jpg
+INPUT usecasediagram.pdf
 INPUT AcceptanceTesting.pdf
 INPUT fig9.pdf
 OUTPUT chap/chap7.aux
