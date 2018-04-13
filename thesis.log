@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 01:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 02:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2762,47 +2762,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: gabuild.pdf Graphic file (type QTm)
 
 <use  "gabuild.pdf" > [23]
-Overfull \hbox (15.89716pt too wide) in paragraph at lines 241--242
+Overfull \hbox (15.89716pt too wide) in paragraph at lines 243--244
 []\TU/STSong(0)/m/n/12.045 创 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
 2.045 多 重 签 章 比 特 币 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
 bZfQ"\TU/STSong(0)/m/n/12.045 ，|
  []
 
 File: gatx.pdf Graphic file (type QTm)
-<use  "gatx.pdf" > [24]
+<use  "gatx.pdf" >
+Underfull \vbox (badness 7595) has occurred while \output is active []
+
+ [24]
 File: blockchain.pdf Graphic file (type QTm)
- <use  "blockchain.pdf" > [25]
+
+<use  "blockchain.pdf" >
 File: MerkleRoot.pdf Graphic file (type QTm)
- <use  "MerkleRoot.pdf" >) [26]
+ <use  "MerkleRoot.pdf" >
+Underfull \vbox (badness 3623) has occurred while \output is active []
+
+ [25]
+[26]) [27]
 \openout2 = `chap/chap3.aux'.
 
- (./chap/chap3.tex
-第三章
-File: fish1.pdf Graphic file (type QTm)
-<use  "fish1.pdf" >
-File: modeall.pdf Graphic file (type QTm)
- <use  "modeall.pdf" > [27
+ (./chap/chap3.tex [28
 
 
 
 ]
+第三章
+File: fish1.pdf Graphic file (type QTm)
+<use  "fish1.pdf" >
+File: modeall.pdf Graphic file (type QTm)
+ <use  "modeall.pdf" > [29]
 Underfull \vbox (badness 3590) has occurred while \output is active []
 
- [28]
-[29] [30] [31]
+ [30]
+[31] [32] [33]
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
- [32]
+ [34]
 File: UC.pdf Graphic file (type QTm)
 
 <use  "UC.pdf" >
 Underfull \vbox (badness 5119) has occurred while \output is active []
 
- [33]
-[34]) [35]
+ [35]
+[36]) [37]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [36
+ (./chap/chap4.tex [38
 
 
 
@@ -2818,7 +2826,7 @@ ntxtlf/m/n/12.045 BTMS\TU/STSong(0)/m/n/12.045 ）|$[]$，|
 File: model0.pdf Graphic file (type QTm)
 <use  "model0.pdf" >
 File: model1.pdf Graphic file (type QTm)
- <use  "model1.pdf" > [37]
+ <use  "model1.pdf" > [39]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
 File: model2.pdf Graphic file (type QTm)
  <use  "model2.pdf" >
@@ -2829,19 +2837,19 @@ File: fig3.pdf Graphic file (type QTm)
  <use  "fig3.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39]
+ [40]
+[41]
 File: fig4.pdf Graphic file (type QTm)
- <use  "fig4.pdf" > [40] [41] [42]
+ <use  "fig4.pdf" > [42] [43] [44]
 File: gabpcss.pdf Graphic file (type QTm)
- <use  "gabpcss.pdf" > [43]) [44]
+ <use  "gabpcss.pdf" > [45]) [46]
 \openout2 = `chap/chap5.aux'.
 
 
 (./chap/chap5.tex
 第五章
 File: er.pdf Graphic file (type QTm)
-<use  "er.pdf" > [45
+<use  "er.pdf" > [47
 
 
 
@@ -2850,47 +2858,47 @@ Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
  [][] 
  []
 
-[46]
+[48]
 File: c3.pdf Graphic file (type QTm)
  <use  "c3.pdf" >
 File: time1.pdf Graphic file (type QTm)
- <use  "time1.pdf" > [47] [48]
+ <use  "time1.pdf" > [49] [50]
 File: c2.pdf Graphic file (type QTm)
  <use  "c2.pdf" >
 File: time3.pdf Graphic file (type QTm)
 
-<use  "time3.pdf" > [49] [50] [51]
+<use  "time3.pdf" > [51] [52] [53]
 File: c1.pdf Graphic file (type QTm)
  <use  "c1.pdf" >
 File: time2.pdf Graphic file (type QTm)
  <use  "time2.pdf" >
-[52] [53]
+[54] [55]
 File: c5.pdf Graphic file (type QTm)
  <use  "c5.pdf" >
 File: time4.pdf Graphic file (type QTm)
  <use  "time4.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-[55] [56]
+ [56]
+[57] [58]
 File: c7.pdf Graphic file (type QTm)
- <use  "c7.pdf" > [57]
+ <use  "c7.pdf" > [59]
 File: c4.pdf Graphic file (type QTm)
  <use  "c4.pdf" >
 File: time5.pdf Graphic file (type QTm)
- <use  "time5.pdf" > [58]
-[59] [60]
+ <use  "time5.pdf" > [60]
+[61] [62]
 File: c6.pdf Graphic file (type QTm)
- <use  "c6.pdf" > [61]
+ <use  "c6.pdf" > [63]
 File: fig5.png Graphic file (type QTm)
  <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [62]
+ <use  "fig6.png" > [64]
 File: fig7.png Graphic file (type QTm)
 
-<use  "fig7.png" > [63]
+<use  "fig7.png" > [65]
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [64]
+ <use  "fig8.png" >) [66]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2900,11 +2908,11 @@ Missing character: There is no 列 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
-[65
+[67
 
 
 
-] [66]
+] [68]
 Missing character: There is no 度 in font STSong/OT!
 Missing character: There is no 度 in font STSong/OT!
 File: IntegrationTesting.pdf Graphic file (type QTm)
@@ -2913,30 +2921,26 @@ File: usecasediagram.pdf Graphic file (type QTm)
  <use  "usecasediagram.pdf" >
 File: AcceptanceTesting.pdf Graphic file (type QTm)
 
-<use  "AcceptanceTesting.pdf" > [67] [68]
-Overfull \hbox (17.5436pt too wide) in paragraph at lines 215--217
-[]\T1/ntxtlf/m/n/12.045 AT1 \TU/STSong(0)/m/n/12.045 测 试 用 例：| 表[]\T1/ntxtlf/m/
-n/12.045 6.6[]\TU/STSong(0)/m/n/12.045 所 示，|  目 标 测 试 管 理 人 员 是 否 能 够 顺 利 使 用 子
- 系 统 \T1/ntxtlf/m/n/12.045 SMIMSS
- []
+<use  "AcceptanceTesting.pdf" > [69] [70] [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[69] [70]
-Underfull \vbox (badness 6542) has occurred while \output is active []
+ [72]
+[73]
+Underfull \vbox (badness 6658) has occurred while \output is active []
 
- [71]
+ [74]
+[75]
 File: fig9.png Graphic file (type QTm)
-
-<use  "fig9.png" > [72] [73] [74] [75] [76] [77] [78]) [79]
+ <use  "fig9.png" > [76] [77] [78] [79] [80] [81]) [82]
 \openout2 = `chap/chap7.aux'.
 
  (./chap/chap7.tex
-[80
-
-
-
-]
 第七章
-) [81] [82
+) [83
+
+
+
+] [84
 
 
 ]
@@ -3009,7 +3013,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
 
-[83]
+[85]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
@@ -3041,7 +3045,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
 
-[84]
+[86]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
@@ -3050,18 +3054,18 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 86.
 
-[85] [86
+[87] [88
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [87
+ (./chap/acknowledge.tex) [89
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [88
+ (./chap/originauth.tex [90
 
 
 
@@ -3074,7 +3078,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [89]
+) [91]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 
@@ -3091,10 +3095,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  48625 strings out of 493005
  952174 string characters out of 6134596
- 1379657 words of memory out of 5000000
+ 1374771 words of memory out of 5000000
  51834 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (99 pages, 967880 bytes).
+Output written on thesis.xdv (101 pages, 976080 bytes).
