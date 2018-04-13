@@ -96,13 +96,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}测试用例}{68}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}测试结果和分析}{71}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}测试结果和分析}{72}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}性能测试}{74}{section.6.2}
+\contentsline {section}{\numberline {6.2}性能测试}{72}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}系统性能测试}{74}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}系统性能测试}{75}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}实时系统性能测试}{75}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.2}实时系统性能测试}{77}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{81}{chapter.7}
 \defcounter {refsection}{0}\relax 

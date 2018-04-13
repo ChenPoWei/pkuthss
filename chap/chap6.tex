@@ -37,7 +37,7 @@
 					\begin{tabular}{|l|l|}
 					\hline
 					系统频率 & GSM四频、WCDMA \\ \hline
-					操作系统 & Android 4.3 \\ \hline
+					操作系统 & Android 6.0.1 \\ \hline
 					处理器 & Qualcomm Snapdragon 800 2.3 GHz四核心 \\ \hline
 					内存 & 2 GB RAM 、16 GB ROM \\ \hline
 					记忆卡 & 不支持 \\ \hline
@@ -56,7 +56,7 @@
 					\begin{tabular}{|l|l|}
 					\hline
 					系统频率 & GSM四频、WCDMA \\ \hline
-					操作系统 & Android 6.0 \\ \hline
+					操作系统 & Android 7.1.1 \\ \hline
 					处理器 & Qualcomm Snapdragon 800 1.8 GHz 六核 \\ \hline
 					内存 & 2 GB RAM 、16 GB ROM \\ \hline
 					记忆卡 & 不支持 \\ \hline
@@ -115,7 +115,7 @@
 				\begin{enumerate}
 
 				\item IT1 测试用例：
-					表\ref{IT1TestCase}为IT1 测试用例，测试对象为商家和商品信息管理子系统。目的：验证［SMIMSS 1.1.0］子系统能否正确管理商品信息。
+					表\ref{IT1TestCase}为IT1 测试用例，测试对象为参与者商家装载于手机的商家和商品信息管理子系统（SMIMSS）的五项功能分别为添加店家帐户、添加/修改/删除店员帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，针对上述SMIMSS的五项功能需与母系统BTMS 1.0.0交互。目的：验证［SMIMSS 1.1.0］子系统能否正确管理商家商品信息。
 
 					\begin{table}[!htbp]
 					\centering
@@ -313,7 +313,7 @@
 				 &  & 5. 成功运行行动支付 \\ \cline{3-3} 
 				 &  & 6.成功存储交易纪录 \\ \cline{3-3} 
 				 &  & 7.成功查看交易纪录 \\ \hline
-				RATE & 90\% & \begin{tabular}[c]{@{}l@{}}BTMS开发透过手机让商家及顾客\\ 以手机发送交易信息，如：商品\\ 名称、商品金额，商家收款地址。\\ 并且及时将商品信息更新至服务器\\ 之数据库，以便商家控管商品信息\\ 状态，同时让顾客可以享受数字加\\ 密货币的方便性。\end{tabular} \\ \hline
+				RATE & 100\% & \begin{tabular}[c]{@{}l@{}}\\ \\ \\ \\ \\ \\ \end{tabular} \\ \hline
 				\end{tabular}
 				\end{table}
 
@@ -352,31 +352,31 @@
 					\centering
 					\caption{需求与集成测试用例的关系表}
 					\label{table11}
-					\begin{tabular}{|l|c|c|c|}
+					\begin{tabular}{|c|c|c|c|c|}
 					\hline
-					 & \multicolumn{1}{l|}{IT1} & \multicolumn{1}{l|}{IT2} & \multicolumn{1}{l|}{IT3} \\ \hline
-					BTMS-F-001 & X &  &  \\ \hline
-					BTMS-F-002 &  & X &  \\ \hline
-					BTMS-F-003 &  &  & X \\ \hline
-					SMIMSS-F-001 & X &  &  \\ \hline
-					SMIMSS-F-002 & X &  &  \\ \hline
-					SMIMSS-F-003 & X &  &  \\ \hline
-					SMIMSS-F-004 & X &  &  \\ \hline
-					SMIMSS-F-005 & X &  &  \\ \hline
-					SMCTSS-F-001 &  & X &  \\ \hline
-					SMCTSS-F-002 &  & X &  \\ \hline
-					SMCTSS-F-003 &  & X &  \\ \hline
-					SMCTSS-F-004 &  & X &  \\ \hline
-					SMCTSS-F-005 &  & X &  \\ \hline
-					SMCTSS-F-006 &  & X &  \\ \hline
-					SMCTSS-F-007 &  & X &  \\ \hline
-					CMPTSS-F-001 &  &  & X \\ \hline
-					CMPTSS-F-002 &  &  & X \\ \hline
-					CMPTSS-F-003 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
-					CMPTSS-F-004 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
-					CMPTSS-F-005 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
-					CMPTSS-F-006 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
-					CMPTSS-F-007 & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & X \\ \hline
+					ID & 描述 & IT1 & IT2 & IT3 \\ \hline
+					BTMS-F-001 & 接收SMIMSS信息 & X &  &  \\ \hline
+					BTMS-F-002 & 接收SMCTSS信息 &  & X &  \\ \hline
+					BTMS-F-003 & 接收CMPTSS信息 &  &  & X \\ \hline
+					SMIMSS-F-001 & 添加店家帐户 & X &  &  \\ \hline
+					SMIMSS-F-002 & 添加/修改/删除店员帐户 & X &  &  \\ \hline
+					SMIMSS-F-003 & 添加/修改/删除商品信息 & X &  &  \\ \hline
+					SMIMSS-F-004 & 取得产品信息 & X &  &  \\ \hline
+					SMIMSS-F-005 & 接收交易信息 & X &  &  \\ \hline
+					SMCTSS-F-001 & 登入店员帐户 &  & X &  \\ \hline
+					SMCTSS-F-002 & 扫描 RFID 标签 &  & X &  \\ \hline
+					SMCTSS-F-003 & 读取商品信息 &  & X &  \\ \hline
+					SMCTSS-F-004 & 创建交易清单 &  & X &  \\ \hline
+					SMCTSS-F-005 & 发送交易信息 &  & X &  \\ \hline
+					SMCTSS-F-006 & 认证交易信息 &  & X &  \\ \hline
+					SMCTSS-F-007 & 存储交易明细 &  & X &  \\ \hline
+					CMPTSS-F-001 & 登入顾客帐号 &  &  & X \\ \hline
+					CMPTSS-F-002 & 读取商品信息 &  &  & X \\ \hline
+					CMPTSS-F-003 & 接收交易清单 &  &  & X \\ \hline
+					CMPTSS-F-004 & 认证交易信息 &  &  & X \\ \hline
+					CMPTSS-F-005 & 运行行动支付 &  &  & X \\ \hline
+					CMPTSS-F-006 & 存储交易纪录 &  &  & X \\ \hline
+					CMPTSS-F-007 & 查看交易纪录 &  &  & X \\ \hline
 					\end{tabular}
 					\end{table}
 
@@ -405,6 +405,7 @@
 				\end{enumerate}
 		\end{enumerate}
 
+	BTMS开发透过手机让商家及顾客以手机发送交易信息，如：商品名称、商品金额，商家收款地址。并且及时将商品信息更新至服务器之数据库，以便商家控管商品信息状态，同时让顾客可以享受数字加密货币的方便性。
 
 	\section{性能测试}
 
