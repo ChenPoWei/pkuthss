@@ -514,7 +514,7 @@ INPUT address.pdf
 INPUT gabuild.pdf
 INPUT gatx.pdf
 INPUT blockchain.pdf
-INPUT MerkleRoot.jpg
+INPUT MerkleRoot.pdf
 OUTPUT chap/chap3.aux
 INPUT chap/chap3.tex
 INPUT chap/chap3.tex
