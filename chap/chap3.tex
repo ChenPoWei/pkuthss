@@ -1,9 +1,9 @@
-% Copyright （c）） 2014,2016 Casper Ti. Vecto
+% Copyright （c）） 2014,2016 Casper Ti. Vecto  
 % Public domain 
 \chapter{系统需求分析}
 
 透过特性要因分析可以将比特币的交易监督系统大致分为四个主题，如图\ref{fish1}所示，分别为信息安全技术、加密货币钱包、近场通信技术以及数据库。作为⼀个⾦流系统，四项主轴之中信息安全是不可或缺的环节，着重于商家认证机制、用户权限控管、身份识别管理、用户访问控制四个方向；本系统致力于奠定匿名对实名的加密货币系统，必须对区块链技术、公钥私钥生成算法、点对点交易技术、钱包地址产出以及货币发行技术五个方向进行探讨；在交易场景中，本系统采用近场通信技术，因此需要对商品RFID标签建置、读取商品RFID标签以及Android Beam传输商品交易进行基础的API调研；为了使加密货币实名制的实现，数据库必须存储与政府和商家相关的信息。此时数据库加密、个人信息去识别化安全以及数据库连接便相当重要。
-		\begin{figure}[!htbp]
+		\begin{figure}[!htb]
 			\centering
 			\includegraphics[width = 0.8\textwidth]{fish1.pdf}
 			\caption{⽐特币的交易监督系统特性要因分析图}\label{fish1}
@@ -16,7 +16,7 @@
 
 在设计比特币的交易监督系统之前必须针对现今社会中人与人之间的交易方式进行分析，在支付的方式依照使用人数比例大致可区分为现金交易以及电子支付两种类别，图\ref{modeall}为各种交易模型示意图。
 %%fig allan
-\begin{figure}[!htbp]
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width = 0.7\textwidth]{modeall.pdf}
 	\caption{各种交易模型示意图}\label{modeall}
@@ -56,7 +56,7 @@
 		在使用加密货币作为交易货币的⽀付中，⼤部分的交易类型皆为如现⾦交易类型中匿名顾客⽀付匿名商家的交易模式，商家与顾客交易的过程中并无开⽴交易凭据，使得顾客与商家发⽣消费纠纷时因无法提出交易事实证明而无法拥有顾客权益保障。为了在使用加密货币时让用户可以同时兼顾顾客隐私与拥有顾客权益保障，也让商家不需要⽀付运营商比过去更为高昂的⼿续费并能以公开匿名的⽅式查看所有的交易信息，同时让政府在课征税收的业务上可以更加便利，本⽂致⼒于设计出三者都能同时兼顾的加密货币交易系统。表\ref{txvs}为交易关系⽐较表。
 
 
-		\begin{table}[!htbp]
+		\begin{table}[!htb]
 		\centering
 		\caption{交易关系比较表}
 		\label{txvs}
@@ -98,7 +98,7 @@
 
 顾客交易管理：顾客需要加载交易信息，但因为交易信息中的信息并无详细阐述商家产品信息，因此需要进一步加载商家产品信息使得交易明细更加的清楚。除了显示过去的交易信息的需求，顾客更需要创建一笔交易以⽐特币进⾏付款。待付款完成之后，等待参与者商家向顾客回复⽀付完成即确立该笔交易完成。
 
-	\begin{figure}[!htbp]
+	\begin{figure}[!htb]
 	\centering
 	\includegraphics[width = 0.95\textwidth]{UC.pdf}
 	\caption{比特币交易监督系统⽤例图}\label{UC}
@@ -121,7 +121,7 @@
 	表\ref{eva}为本文提出系统的软件与硬件环境需求，商家交易客户端与顾客交易客户端是建置在Android手持移动装置的应用程序，本文提出的交易方式为比特币，因此导入bitcoinj\supercite{Bitcoinclients}对比特币钱包进行管理，该套件可以生成比特币地址、同步比特币区块链、透过AES加密算法保护比特币钱包以及发起比特币交易至比特币网络。针对数据库的控制数据传输选用JDBC\supercite{JDBCdatabaseaccesswithJava:atutorialandannotatedreference}实现数据库的添加、修改、删除以及查找的功能，商家交易客户端与顾客交易客户端的手持移动装置必须要内置NFC监听器用来发送与接收交易信息。商家管理客⼾端是以Java 编程语⾔实现，软件环境中需⽀持Java ⼯作环境，服务器端则需要SQL 环境进行数据库搭建。
 
 
-	\begin{table}[!htbp]
+	\begin{table}[!htb]
 	\centering
 	\caption{环境需求表}
 	\label{eva}
@@ -137,7 +137,7 @@
 
 
 
-%		\begin{figure}[!htbp]
+%		\begin{figure}[!htb]
 %			\centering
 %			\includegraphics[width = 1\textwidth]{fish2.png}
 %			\caption{鱼骨图（2）}\label{fish1}

@@ -1,4 +1,4 @@
-% Copyright （c） 2014,2016 Casper Ti. Vecto
+% Copyright （c） 2014,2016 Casper Ti. Vecto 
 \chapter{系统测试}
 本章节内容将依据系统需求规格书与系统设计，描述关于集成测试的相关计划与内容。于本章将进⾏功能测试与性能测试，运⾏功能测试以确认本⽂所提出之系统的所有功能是否皆顺利运⾏，透过性能测试可知本系统的交易速度在优化前与优化后之间的差异，在本章中以⼿机作为⼿持移动装置的测试环境，并希望透过此章节之描述与实践，达到顺利进⾏测试⼯作之⽬的。
 	\section{功能测试}
@@ -30,7 +30,7 @@
 %			\end{enumerate}
 	 	
 
-	 				\begin{table}[!htbp]
+	 				\begin{table}[!htb]
 					\centering
 					\caption{小米3手机规格表}
 					\label{mi}
@@ -49,7 +49,7 @@
 					\end{tabular}
 					\end{table}
 
-					\begin{table}[!htbp]
+					\begin{table}[!htb]
 					\centering
 					\caption{Google Nexus 5X手机规格表}
 					\label{5x}
@@ -85,7 +85,7 @@
 	 			\end{enumerate}
 
 	 		\item 集成测试规划（Integration Testing，IT）：图\ref{IntegrationTesting}為集成子系统测试示意图。
-	 			\begin{figure}[!htbp]
+	 			\begin{figure}[!htb]
 					\centering
 					\includegraphics[width = 0.75\textwidth]{IntegrationTesting.pdf}
 					\caption{集成子系统测试示意图}\label{IntegrationTesting}
@@ -93,14 +93,14 @@
 			\item 验收测试规划（Acceptance Testing，AT）：
 				本系统须达成以下三组接受用例陈列的所有功能，测试本论文设计与搭建的系统功能是否能够顺利运行。测试的角色有两个，分别为管理员以及用户，如图\ref{usecasediagram}为BTMS用例示意图，预计测试服务器的组态设置、手机的组态设置以及数据库的组态设置：
 
-					\begin{figure}[!htbp]
+					\begin{figure}[!htb]
 						\centering
 						\includegraphics[width = 0.52\textwidth]{usecasediagram.pdf}
 						\caption{BTMS用户用例示意图}\label{usecasediagram}
 					\end{figure}
 
 				图\ref{AcceptanceTesting}为三组验收测试的示意图，对本比特币的交易监督系统进行测试。
-					\begin{figure}[!htbp]
+					\begin{figure}[!htb]
 						\centering
 						\includegraphics[width = 0.35\textwidth]{AcceptanceTesting.pdf}
 						\caption{验收测试示意图}\label{AcceptanceTesting}
@@ -117,7 +117,7 @@
 				\item IT1 测试用例：
 					表\ref{IT1TestCase}为IT1 测试用例，测试对象为参与者商家装载于手机的商家和商品信息管理子系统（SMIMSS）的五项功能分别为添加店家帐户、添加/修改/删除职工帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，上述SMIMSS的五项功能需与母系统BTMS交互，BTMS皆以BTMS-F-001 的ID进行。目的：验证［SMIMSS 1.1.0］子系统能否正确管理商家商品信息。
 
-					\begin{table}[!htbp]
+					\begin{table}[!htb]
 					\centering
 					\caption{IT1 测试用例}
 					\label{IT1TestCase}
@@ -146,7 +146,7 @@
 				\item IT2测试用例：
 					表\ref{IT2TestCase}为IT2 测试用例目标，目标测试对象为装载于Google Nexus 5X 手机的商家手持移动装置收款及交易子系统（SMCTSS）的七项功能是否能够顺利运行，其功能包括登入职工帐户、扫描RFID 标签、读取商品信息、创建交易清单、发送交易信息、认证交易信息、以及存储交易明细，上述七项功能需与母系统BTMS 进行交互，母系统于SMCTSS 之间七项的功能性测试的ID 为BTMS-F-002。目的：验证［SMCTSS 1.2.0］子系统是否能够完成一笔行動支付之交易。
 
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 						\caption{IT2 测试用例} % title of Table
 						\centering % used for centering table
 						\label{IT2TestCase} % is used to refer this table in the text
@@ -178,7 +178,7 @@
 				\item IT3测试用例：
 					表\ref{IT3TestCase}为IT3 测试用例，目标测试对象为装载于小米 3 手机的客户端行动支付和交易子系统（CMPTSS）的七项功能是否能够顺利运行，其功能包括登入顾客帐号、读取商品信息、接收交易清单、认证交易信息、运行行动支付、存储交易明细以及查看交易纪录，上述七项功能需与母系统BTMS进行交互，母系统于CMPTSS之间七项的功能性测试的ID为BTMS-F-003。目的：验证［CMPTSS 1.3.0］能正确接收SMCTSS所发送的交易数据，并以其交易信息运行以比特币付款之动作。可以查找商品信息，且能够存储并且查看用户过往之交易纪录。
 
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 						\caption{IT3 测试用例} % title of Table
 						\centering % used for centering table
 						\label{IT3TestCase} % is used to refer this table in the text
@@ -215,7 +215,7 @@
 				\item AT1 测试用例：
 					表\ref{AT1TestCase}所示，目标测试商家管理人员是否能够顺利使用装载于Windows 10 的子系统SMIMSS顺利与母系统BTMS交互，分为两个步骤，分别为管理员于本地端SMIMSS填写完成像服務器端请求之信息以及当服务器端接受该信息后，是否能够顺利的完成修改BTMS服务器端的变数。目的：验证使用用例（Use case）1，透过组态文件的修改对服务器进行组态设置。
 
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 						\centering
 						\caption{AT1 测试用例}
 						\label{AT1TestCase}
@@ -236,7 +236,7 @@
 
 				\item AT2 测试用例：
 					如表\ref{AT2TestCase}所示，参与者为用户包括商家职工与顾客，分别于手持移动装置中装载CMPTSS与SMCTSS，测试参与者用户是否可以顺利的透过CMPTSS与SMCTSS顺利与母系统进行交互，在测试的过程中分为两个步骤，分别为用户于手持装置中设置欲修改的手机组态参数并传送到BTMS服务器，当能否顺完成传送相关信息后，手机能否完成该信息的相关设置。目的：验证用例（Use case ）2 透过组态文件的修改对手机进行组态设置。
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 						\centering
 						\caption{AT2 测试用例}
 						\label{AT2TestCase}
@@ -258,7 +258,7 @@
 				\item AT3 测试用例：
 					如表\ref{AT3TestCase}所示，参与者分为两种分别为商家管理者与顾客用户，测试参与者是否能透过SMIMSS、SMCTSS以及CMPTSS对BTMS中的数据库进行修改。目的：验证用例（Use case ）3，透过组态文件的修改对数据库进行组态设置。
 
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 						\centering
 						\caption{AT3 测试用例}
 						\label{AT3TestCase}
@@ -287,7 +287,7 @@
 			\item 集成测试用例（Integration Testing Cases）：其中IT1测试对象为装载于Windows 10 主机中的BTMS系统与装在于商家Windows 10 主机的SMIMSS子系统，当中测试用户商家在操作以Java 编程语言实现的商家和商品信息子系统时所使用到的每一项功能，包括添加店家帐户、添加/修改/删除职工帐户、添加/删除/修改商品信息、取得产品信息以及接收交易信息，在IT1 的功能测试中都能够顺利运行。IT2 测试对象为装载于Windows 10 的BTMS 系统与装载于商家职工Google Nexus 5X 手机的SMCTSS子系统，测试功能包括登入职工帐户、扫描RFID 标签、读取商品信息、创建交易清单、发送交易信息、认证交易信息以及存储交易明细的功能，在功能测试的结果中显示，上述功能皆可顺利运行。在IT3 功能性测试中，测试对象为装载于Windows 10 的BTMS 系统以及装载于顾客小米 3 手机的CMPTSS 子系统，测试功能包括登入顾客帐号、读取商品信息、接收交易清单、认证交易信息、运行行动支付、存储交易明细以及查看交易纪录，于测试结果中显示上述功能皆能顺利运行。
 			表\ref{table8}为IT1、为IT2、为IT3的集成子系统测试结果，皆顺利运作。
 
-				\begin{table}[!htbp]
+				\begin{table}[!htb]
 				\centering
 				\caption{集成子系统测试结果}
 				\label{table8}
@@ -321,7 +321,7 @@
 
 			\item 验收测试用例（Acceptance Testing Cases）：
 			表\ref{table9}为前节所设计的三种AT1、AT2与AT3的验收测试，分别对启动服务器的相关服务、完成手机的组态设置以及设置完成数据库的相关设置三种进行测试，皆顺利运行。
-				\begin{table}[!htbp]
+				\begin{table}[!htb]
 				\centering
 				\caption{验收测试结果}
 				\label{table9}
@@ -334,7 +334,7 @@
 				RATE & 100\% & \begin{tabular}[c]{@{}l@{}}BTMS可透过组态设置的方式来设\\ 定各个子系统的环境参数。\end{tabular} \\ \hline
 				\end{tabular}
 				\end{table}
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 						\centering
 						\caption{子系统与测试用例关系表}
 						\label{table10}
@@ -350,7 +350,7 @@
 						\end{tabular}
 						\end{table}
 
-						\begin{table}[!htbp]
+						\begin{table}[!htb]
 					\centering
 					\caption{需求与集成测试用例的关系表}
 					\label{table11}
@@ -383,7 +383,7 @@
 					\end{table}
 
 
-					\begin{table}[!htbp]
+					\begin{table}[!htb]
 					\centering
 					\caption{需求与验收测试案例的关系表}
 					\label{table12}
@@ -412,7 +412,7 @@
 	\section{性能测试}
 
 
-		\begin{figure}[!htbp]
+		\begin{figure}[!htb]
 			\centering
 			\includegraphics[width = 0.8\textwidth]{fig9.png}
 			\caption{使用区块链检视器验证存储在比特币区块链中的交易过程}\label{fig9}
@@ -431,7 +431,7 @@
 
 			\item 第一次测试结果与分析（2017年9月6日）：表\ref{1general}为第一次实验数据，该次的比特币交易发起广播至比特币交易缓存池的时间平均为1.918秒，标准差为0.55586秒。但为了预防双重支付攻击需要等待平均654.8秒（小于11分钟，标准差346.63秒）的时间。
 
-				\begin{table}[!htbp]
+				\begin{table}[!htb]
 				\centering
 				\caption{第一次Testnet 运行实验之数据分析（2017年9月6日）}
 				\label{1general}
@@ -446,7 +446,7 @@
 				\end{table}
 
 			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2general}为第二次测试的实验原始数据，表\ref{2general-1}为将数据进行分析后的结果可以看出，平均进入缓存池的时间为1.12秒，进入区块链的时间为287.12秒。
-				\begin{table}[!htbp]
+				\begin{table}[!htb]
 				\centering
 				\caption{第二次Testnet 运行实验数据（2018年3月21日）}
 				\label{2general}
@@ -476,7 +476,7 @@
 				\end{tabular}
 				\end{table}
 
-				\begin{table}[!htbp]
+				\begin{table}[!htb]
 				\centering
 				\caption{第二次以Testnet 运行实验数据分析（2018年3月21日）}
 				\label{2general-1}
@@ -500,7 +500,7 @@
 		\subsection{实时系统性能测试}
 		本节介绍比特币测试币于Government Green Address钱包进行交易的性能实验与结果分析，包含该实验的目的、方法及结果分析。实验的目的是要确认的系统在商家端进行行动支付时能快速、精准且高效率的进行交易，并了解使用一般Testnet钱包与Government Green Address钱包作为交易媒介的确认交易时间的差距。表\ref{0test}为2017年7月25日初步的采用多重签章算法的测试数据，数据显示交易存储到区块链的平均时间为10分钟，但Government Green Address采用的多重签章算法，可以有效拒绝双重花费的交易发起，因此可将交易的有效时间，从交易进入区块链的时间，重新订定为交易进入比特币交易缓存池的时间。
 
-		\begin{table}[!htbp]
+		\begin{table}[!htb]
 			\centering
 			\caption{初步的Government Green Address实验测试数据 （2017年7月25日）}
 			\label{0test}
@@ -532,7 +532,7 @@
 		\begin{enumerate}
 			\item 第一次测试结果与分析（2017年9月6日）：表\ref{1green}为第一次测试实验的数据分析结果，平均进入交易缓存池的时间为2.11秒，真正写入区块链的时间为654.24秒，采用多重签章算法，这些交易不存在双重支付的问题，因此完成时间记为2.11秒。
 
-			\begin{table}[!htbp]
+			\begin{table}[!htb]
 				\centering
 				\caption{第一次以Government Green Address运行实验之数据分析（2017年9月6日）}
 				\label{1green}
@@ -549,7 +549,7 @@
 			\item 第二次测试结果与分析（2018年3月21日）：表\ref{2green}为第二次以Government Green Address 钱包运行实验数据，表\ref{2green-1}为基于第二次测试的数据分析结果，进入缓存池的平均时间为1.55秒，进入区块链的平均时间为431.4秒，因为采用多重签章算法将完成交易时间以1.55秒计算。
 
 		\end{enumerate}
-			\begin{table}[!htbp]
+			\begin{table}[!htb]
 				\centering
 				\caption{第二次以Government Green Address运行实验数据（2018年3月21日）}
 				\label{2green}
@@ -579,7 +579,7 @@
 				\end{tabular}
 				\end{table}
 
-			\begin{table}[!htbp]
+			\begin{table}[!htb]
 				\centering
 				\caption{第二次以Government Green Address运行实验之数据分析（2018年3月21日）}
 				\label{2green-1}
@@ -600,7 +600,7 @@
 
 	
 
-	\begin{table}[!htbp]
+	\begin{table}[!htb]
 	\centering
 	\caption{原始系统与实时系统比较表}
 	\label{generalvsga}

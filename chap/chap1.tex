@@ -1,4 +1,4 @@
-% Copyright （c） 2014,2016 Casper Ti. Vect
+% Copyright （c） 2014,2016 Casper Ti. Vect 
  
 \chapter{绪论}
 
@@ -15,7 +15,7 @@
 
 		加密货币中最具代表性的是比特币，但除了比特币之外也存在许多模仿比特币的加密货币，有的是为其利益，有的是鉴于比特币的各种不足，进而希望借由其他货币改善⽐特币不够完美之处。加密货币市场中有成千上万种的加密货币，其中较广为人知的加密货币会在Cryptocurrency Market Capitalizations\supercite{CryptocurrencyMarketCapitalizations}的排行榜中出现，截至2018年2月8日该排行榜已经收入了1510种加密货币。在Cryptocurrency Market Capitalizations统计的数据当中，可知整体的加密货币市场，如图\ref{TotalMarketCapitalization}所示，于2018年1月7日创下了历史新高，加密货币市场的总市值也高达了829,579,000,000美金，相当于五兆人民币的总市值。
 
-		\begin{figure}[!htbp]
+		\begin{figure}[!htb]
 			\centering
 			\includegraphics[width = 1\textwidth]{TotalMarketCapitalization.png}
 			\caption{2017年1月21日到2018年1月21日期间加密货币总市值走势图\supercite{CryptocurrencyMarketCapitalizations}}\label{TotalMarketCapitalization}
@@ -25,7 +25,7 @@
 		\supercite{HavethesecurityflawssurroundingBITCOINeffectedthecurrencysvalue?}
 		作出详尽的市场调研，致力于探讨在各个比特币市场大事件中对比特币价格的波动影响，针对影响的程度该论文给出影响指数，当中影响最为严重的是于2014年2月发生的日本交易所Mt.Gox倒闭事件，因为早期的加密货币市场中无完善的法律规范，各国对加密货币的接受度有所不同，日本对金融科技的接受度相较于较为开放的情况下成立了全世界第一家比特币交易所Mt.Gox，也因为交易所不够普及，使得大部分的加密货币交易都集中在Mt.Gox交易所中，使Mt.Gox 倒闭事件成为震荡市场价格重⼤因⼦之⼀，也造成2014与2015年的加密货币市场低迷。而在2017年，比特币又以2016年总市值之35倍的姿态攀上新高点，主要是因为美国最大的期权交易中心芝加哥期权交易所（Chicago Board Options Exchange， CBOE）于2017年12月10日宣布支持比特币期货交易，此举将比特币价格推升到20,000美金的历史新高，图\ref{Thetotalmarketcapitalization}为2013年至2018年间比特币总市值K线图。
 
-			\begin{figure}[!htbp]
+			\begin{figure}[!htb]
 				\centering
 				\includegraphics[width = 1\textwidth]{Thetotalmarketcapitalization.png}
 				\caption{2013年至2018年间比特币总市值K线图\supercite{CryptocurrencyMarketCapitalizations}}\label{Thetotalmarketcapitalization}
@@ -58,13 +58,13 @@
 
 				第一，每秒处理的交易量上限仅为7笔。图\ref{TPS}为国际上较为广泛使用的⽀付系统之每秒⽀持交易量⽐较图，以VISA为例，其以公司中心化运营的方式可以支持高达每秒2,000笔交易。但是以区块链技术为基础的比特币最大能够接受的每秒处理交易量仅为7笔。一般认为只要提升区块大小的限制，就可以提升每秒处理的交易量。提升每秒处理交易量的同时将产生下述的两项问题，分别为区块链成长速度过快造成节点崩溃以及区块同步延迟造成区块链分岔：
 
-					\begin{figure}[!htbp]
+					\begin{figure}[!htb]
 						\centering
 						\includegraphics[width = .6\textwidth]{TPS.png}
 						\caption{Bitcoin、Western Union\supercite{WesternUnion}、PayPal\supercite{PayPal}以及VISA每秒支持交易量比较图\supercite{digibyte}}\label{TPS}
 					\end{figure}
 
-					\begin{figure}[!htbp]
+					\begin{figure}[!htb]
 						\centering
 						\includegraphics[width = .8\textwidth]{blockchainsize.png}
 						\caption{比特币区块链成长走势图\supercite{blockchainsize}}\label{blockchainsize}
@@ -79,7 +79,7 @@
 					
 
 				第二，洗钱防治困难。匿名性为比特币系统一大特色，比特币的地址生成的熵是256 bits，乱数是在$2^{256}$的组态空间中随机选取，这样的地址与现实生活中的身份并无任何关联，使得黑市交易、洗钱防治变的困难，甚至有更为前沿的加密货币Monero\supercite{noether2014monero}导入了环签章（Ring Signature）\supercite{Thresholdringsignaturesandapplicationstoad-hocgroups}算法、Zcash\supercite{zhong2002faster}导入零知识证明算法\supercite{Zero-KnowledgeProofsofIdentity}，使得原本公开透明的区块链，变得无法查看，进而造成加密货币在洗钱防治上更加的困难。2017年由Thibault de Balthasar and Julio Hernandez-Castro 所提出的论文"An Analysis of Bitcoin Laundry Services."\supercite{AnAnalysisofBitcoinLaundryServices}，致⼒探究⽐特币匿名交易下的资⾦流动模型，试图以机械学习的方法找出比特币洗钱模型作为洗钱的工具，图\ref{Darklaunderworkflow}为该论文针对黑市交易中的洗钱服务运营商Darklaunder进行洗钱机
-					\begin{figure}[!htbp]
+					\begin{figure}[!htb]
 						\centering
 						\includegraphics[width = .6\textwidth]{Darklaunderworkflow.png}
 						\caption{Darklaunder 洗钱模型\supercite{AnAnalysisofBitcoinLaundryServices}}\label{Darklaunderworkflow}
@@ -98,7 +98,7 @@
 				在比特币系统中，其区块链仅用于记录交易记录，不能扩展更多功能和应用程序。有很多开发者希望将比特币系统扩展到智能合约等其他应用程序。但是，后来发现改变原始比特币系统框架是具有挑战性的工作。因此，全球第二大加密货币以太坊（Ethereum，ETH）的作者Vitalik选择了创建以太坊虚拟机（Ethereum Virtual Machine，EVM），而非改变原始的比特币系统框架。以太坊虚拟机所创建的智能合约可以在统一的以太坊平台上运行，而以太坊也借此突破了比特币之技术瓶颈。
 	
 	\subsection{国际情势分析}
-	\begin{table}[!htbp]
+	\begin{table}[!htb]
 		\centering
 		\caption{各国政府对比特币态度统整表}
 		\label{world}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  14 APR 2018 13:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  20 MAY 2018 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2018,12 +2018,23 @@ tly
 )
 \Hy@SectionHShift=\skip108
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count272
+\float@exts=\toks40
+\float@box=\box69
+\@float@everytoks=\toks41
+\@floatcapt=\box70
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count272
+\lrq@indent=\count273
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2034,49 +2045,49 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count273
-\decimalpart=\count274
+\integerpart=\count274
+\decimalpart=\count275
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count275
-\c@listtotal=\count276
-\c@listcount=\count277
-\c@liststart=\count278
-\c@liststop=\count279
-\c@citecount=\count280
-\c@citetotal=\count281
-\c@multicitecount=\count282
-\c@multicitetotal=\count283
-\c@instcount=\count284
-\c@maxnames=\count285
-\c@minnames=\count286
-\c@maxitems=\count287
-\c@minitems=\count288
-\c@citecounter=\count289
-\c@savedcitecounter=\count290
-\c@uniquelist=\count291
-\c@uniquename=\count292
-\c@refsection=\count293
-\c@refsegment=\count294
-\c@maxextratitle=\count295
-\c@maxextratitleyear=\count296
-\c@maxextrayear=\count297
-\c@maxextraalpha=\count298
-\c@abbrvpenalty=\count299
-\c@highnamepenalty=\count300
-\c@lownamepenalty=\count301
-\c@maxparens=\count302
-\c@parenlevel=\count303
-\blx@tempcnta=\count304
-\blx@tempcntb=\count305
-\blx@tempcntc=\count306
-\blx@maxsection=\count307
-\blx@maxsegment@0=\count308
-\blx@notetype=\count309
-\blx@parenlevel@text=\count310
-\blx@parenlevel@foot=\count311
-\blx@sectionciteorder@0=\count312
+\c@tabx@nest=\count276
+\c@listtotal=\count277
+\c@listcount=\count278
+\c@liststart=\count279
+\c@liststop=\count280
+\c@citecount=\count281
+\c@citetotal=\count282
+\c@multicitecount=\count283
+\c@multicitetotal=\count284
+\c@instcount=\count285
+\c@maxnames=\count286
+\c@minnames=\count287
+\c@maxitems=\count288
+\c@minitems=\count289
+\c@citecounter=\count290
+\c@savedcitecounter=\count291
+\c@uniquelist=\count292
+\c@uniquename=\count293
+\c@refsection=\count294
+\c@refsegment=\count295
+\c@maxextratitle=\count296
+\c@maxextratitleyear=\count297
+\c@maxextrayear=\count298
+\c@maxextraalpha=\count299
+\c@abbrvpenalty=\count300
+\c@highnamepenalty=\count301
+\c@lownamepenalty=\count302
+\c@maxparens=\count303
+\c@parenlevel=\count304
+\blx@tempcnta=\count305
+\blx@tempcntb=\count306
+\blx@tempcntc=\count307
+\blx@maxsection=\count308
+\blx@maxsegment@0=\count309
+\blx@notetype=\count310
+\blx@parenlevel@text=\count311
+\blx@parenlevel@foot=\count312
+\blx@sectionciteorder@0=\count313
 \labelnumberwidth=\skip109
 \labelalphawidth=\skip110
 \biblabelsep=\skip111
@@ -2087,9 +2098,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip116
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count313
-\c@maxcomprange=\count314
-\c@mincompwidth=\count315
+\c@mincomprange=\count314
+\c@maxcomprange=\count315
+\c@mincompwidth=\count316
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2098,72 +2109,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'caspervector.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count316
-\c@savedafterword=\count317
-\c@annotator=\count318
-\c@savedannotator=\count319
-\c@author=\count320
-\c@savedauthor=\count321
-\c@bookauthor=\count322
-\c@savedbookauthor=\count323
-\c@commentator=\count324
-\c@savedcommentator=\count325
-\c@editor=\count326
-\c@savededitor=\count327
-\c@editora=\count328
-\c@savededitora=\count329
-\c@editorb=\count330
-\c@savededitorb=\count331
-\c@editorc=\count332
-\c@savededitorc=\count333
-\c@foreword=\count334
-\c@savedforeword=\count335
-\c@holder=\count336
-\c@savedholder=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@namea=\count340
-\c@savednamea=\count341
-\c@nameb=\count342
-\c@savednameb=\count343
-\c@namec=\count344
-\c@savednamec=\count345
-\c@translator=\count346
-\c@savedtranslator=\count347
-\c@shortauthor=\count348
-\c@savedshortauthor=\count349
-\c@shorteditor=\count350
-\c@savedshorteditor=\count351
-\c@labelname=\count352
-\c@savedlabelname=\count353
-\c@institution=\count354
-\c@savedinstitution=\count355
-\c@lista=\count356
-\c@savedlista=\count357
-\c@listb=\count358
-\c@savedlistb=\count359
-\c@listc=\count360
-\c@savedlistc=\count361
-\c@listd=\count362
-\c@savedlistd=\count363
-\c@liste=\count364
-\c@savedliste=\count365
-\c@listf=\count366
-\c@savedlistf=\count367
-\c@location=\count368
-\c@savedlocation=\count369
-\c@organization=\count370
-\c@savedorganization=\count371
-\c@origlocation=\count372
-\c@savedoriglocation=\count373
-\c@origpublisher=\count374
-\c@savedorigpublisher=\count375
-\c@publisher=\count376
-\c@savedpublisher=\count377
-\c@language=\count378
-\c@savedlanguage=\count379
-\c@pageref=\count380
-\c@savedpageref=\count381
+\c@afterword=\count317
+\c@savedafterword=\count318
+\c@annotator=\count319
+\c@savedannotator=\count320
+\c@author=\count321
+\c@savedauthor=\count322
+\c@bookauthor=\count323
+\c@savedbookauthor=\count324
+\c@commentator=\count325
+\c@savedcommentator=\count326
+\c@editor=\count327
+\c@savededitor=\count328
+\c@editora=\count329
+\c@savededitora=\count330
+\c@editorb=\count331
+\c@savededitorb=\count332
+\c@editorc=\count333
+\c@savededitorc=\count334
+\c@foreword=\count335
+\c@savedforeword=\count336
+\c@holder=\count337
+\c@savedholder=\count338
+\c@introduction=\count339
+\c@savedintroduction=\count340
+\c@namea=\count341
+\c@savednamea=\count342
+\c@nameb=\count343
+\c@savednameb=\count344
+\c@namec=\count345
+\c@savednamec=\count346
+\c@translator=\count347
+\c@savedtranslator=\count348
+\c@shortauthor=\count349
+\c@savedshortauthor=\count350
+\c@shorteditor=\count351
+\c@savedshorteditor=\count352
+\c@labelname=\count353
+\c@savedlabelname=\count354
+\c@institution=\count355
+\c@savedinstitution=\count356
+\c@lista=\count357
+\c@savedlista=\count358
+\c@listb=\count359
+\c@savedlistb=\count360
+\c@listc=\count361
+\c@savedlistc=\count362
+\c@listd=\count363
+\c@savedlistd=\count364
+\c@liste=\count365
+\c@savedliste=\count366
+\c@listf=\count367
+\c@savedlistf=\count368
+\c@location=\count369
+\c@savedlocation=\count370
+\c@organization=\count371
+\c@savedorganization=\count372
+\c@origlocation=\count373
+\c@savedoriglocation=\count374
+\c@origpublisher=\count375
+\c@savedorigpublisher=\count376
+\c@publisher=\count377
+\c@savedpublisher=\count378
+\c@language=\count379
+\c@savedlanguage=\count380
+\c@pageref=\count381
+\c@savedpageref=\count382
 \shorthandwidth=\skip117
 \shortjournalwidth=\skip118
 \shortserieswidth=\skip119
@@ -2181,13 +2192,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count382
-\c@textcitetotal=\count383
-\c@textcitemaxnames=\count384
-\c@biburlnumpenalty=\count385
-\c@biburlucpenalty=\count386
-\c@biburllcpenalty=\count387
-\c@smartand=\count388
+\c@textcitecount=\count383
+\c@textcitetotal=\count384
+\c@textcitemaxnames=\count385
+\c@biburlnumpenalty=\count386
+\c@biburlucpenalty=\count387
+\c@biburllcpenalty=\count388
+\c@smartand=\count389
 )
 Package biblatex Info: Trying to load bibliography style 'caspervector'...
 Package biblatex Info: ... file 'caspervector.bbx' found.
@@ -2205,8 +2216,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count389
-\c@bbx:relatedtotal=\count390
+\c@bbx:relatedcount=\count390
+\c@bbx:relatedtotal=\count391
 ))
 
 Package biblatex Warning: 'iso8601' date format specifier is deprecated, use 'e
@@ -2241,8 +2252,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count391
-\c@cbx@tempcntb=\count392
+\c@cbx@tempcnta=\count392
+\c@cbx@tempcntb=\count393
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2272,7 +2283,7 @@ File: biblatex-caspervector-utf8.def 2017/03/01 v0.2.7 Chinese punctuations and
 (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip123
-\multirow@cntb=\count393
+\multirow@cntb=\count394
 \multirow@dima=\skip124
 \bigstrutjot=\dimen307
 )
@@ -2288,12 +2299,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen315
 \cmidrulekern=\dimen316
 \defaultaddspace=\dimen317
-\@cmidla=\count394
-\@cmidlb=\count395
+\@cmidla=\count395
+\@cmidlb=\count396
 \@aboverulesep=\dimen318
 \@belowrulesep=\dimen319
-\@thisruleclass=\count396
-\@lastruleclass=\count397
+\@thisruleclass=\count397
+\@lastruleclass=\count398
 \@thisrulewidth=\dimen320
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
@@ -2303,34 +2314,34 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen321
 \extrarowheight=\dimen322
-\NC@list=\toks40
+\NC@list=\toks42
 \extratabsurround=\skip125
 \backup@length=\skip126
 )
-\everycr=\toks41
+\everycr=\toks43
 \minrowclearance=\skip127
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 40
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 41
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.045pt on input line 40.
+(Font)              scaled to size 12.045pt on input line 41.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count398
-\@quotereset=\count399
+\@quotelevel=\count399
+\@quotereset=\count400
 
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'date=edtf' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 40.
+(biblatex)                Setting 'seconds=true' on input line 41.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
@@ -2338,64 +2349,64 @@ Package biblatex Warning: Conflicting options.
 (./chap/originauth.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 40.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 40
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 41.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 41
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 41.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 41.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 40
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 41
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 41.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 4
-0.
+1.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 40.
+LaTeX Info: Redefining \selectfont on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2431,14 +2442,15 @@ LaTeX Info: Redefining \selectfont on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count400
-\c@mv@boldtabular=\count401
+\c@mv@tabular=\count401
+\c@mv@boldtabular=\count402
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 40.
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2446,11 +2458,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count402
+\c@section@level=\count403
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
@@ -2467,10 +2479,10 @@ Package biblatex Info: ... file 'thesis.bbl' found.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 41.
 )
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 26.09749pt on input line 48.
+(Font)              scaled to size 26.09749pt on input line 49.
 File: pkulogo.pdf Graphic file (type QTm)
  <use  "pkulogo.pdf" >
 File: pkuword.pdf Graphic file (type QTm)
@@ -2478,60 +2490,60 @@ File: pkuword.pdf Graphic file (type QTm)
 <use  "pkuword.pdf" >
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <26.09749> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 26.09749pt on input line 48.
+(Font)              scaled to size 26.09749pt on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 22.08249pt on input line 48.
+(Font)              scaled to size 22.08249pt on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <22.08249> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 22.08249pt on input line 48.
-\pkuthss@tmp@linecount=\count403
+(Font)              scaled to size 22.08249pt on input line 49.
+\pkuthss@tmp@linecount=\count404
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 48.
+(Font)              scaled to size 16.06pt on input line 49.
 LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 4
-8.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 48.
+(Font)              scaled to size 16.06pt on input line 49.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.05249pt on input line 48.
+(Font)              scaled to size 14.05249pt on input line 49.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 48.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 48.
+(Font)              scaled to size 10.53937pt on input line 49.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 49.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 48.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 49.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 48.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 49.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.06pt on input line 48.
+(Font)              scaled to size 16.06pt on input line 49.
 
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
 * Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-\g__fontspec_family_STFangsong_int=\count404
+\g__fontspec_family_STFangsong_int=\count405
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2558,14 +2570,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 . - 'normal' (m/n) with NFSS spec.: <->"STFangsong/OT"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-\pkuthss@tmp@linecount=\count405
 \pkuthss@tmp@linecount=\count406
 \pkuthss@tmp@linecount=\count407
 \pkuthss@tmp@linecount=\count408
 \pkuthss@tmp@linecount=\count409
 \pkuthss@tmp@linecount=\count410
+\pkuthss@tmp@linecount=\count411
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.06749pt on input line 48.
+(Font)              scaled to size 18.06749pt on input line 49.
 [1
 
 
@@ -2615,7 +2627,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 * Font 'STXihei' does not contain script 'CJK'.
 *  'Latin' script used instead.
 *************************************************
-\g__fontspec_family_STXihei_int=\count411
+\g__fontspec_family_STXihei_int=\count412
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2735,13 +2747,9 @@ File: Darklaunderworkflow.png Graphic file (type QTm)
 ]
 第二章
 File: bitcoinfullnode.png Graphic file (type QTm)
-<use  "bitcoinfullnode.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
+<use  "bitcoinfullnode.png" > [13]
 File: LBC.png Graphic file (type QTm)
-
-<use  "LBC.png" > [14]
+ <use  "LBC.png" > [14]
 Overfull \hbox (7.56561pt too wide) in paragraph at lines 58--61
 \OML/ntxmi/m/it/12.045 p$\T1/ntxtlf/m/n/12.045 =FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F \TU/STSong(0)/m/n/12.045 为
@@ -2755,62 +2763,62 @@ File: 6confirm.pdf Graphic file (type QTm)
 
 <use  "6confirm.pdf" > [19]
 File: address.pdf Graphic file (type QTm)
- <use  "address.pdf" > [20] [21]
+ <use  "address.pdf" > [20]
+Underfull \vbox (badness 5878) has occurred while \output is active []
+
+ [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 File: gabuild.pdf Graphic file (type QTm)
 
-<use  "gabuild.pdf" > [23]
+<use  "gabuild.pdf" >
 Overfull \hbox (15.89716pt too wide) in paragraph at lines 243--244
 []\TU/STSong(0)/m/n/12.045 创 建 \T1/ntxtlf/m/n/12.045 2-of-2 \TU/STSong(0)/m/n/1
 2.045 多 重 签 章 比 特 币 地 址 如\T1/ntxtlf/m/n/12.045 "2NGXNJrxq2qH6SuGEuJ57GjvMAmLUwP
 bZfQ"\TU/STSong(0)/m/n/12.045 ，|
  []
 
+[23]
 File: gatx.pdf Graphic file (type QTm)
-<use  "gatx.pdf" >
-Underfull \vbox (badness 7595) has occurred while \output is active []
-
- [24]
+ <use  "gatx.pdf" > [24]
 File: blockchain.pdf Graphic file (type QTm)
-
-<use  "blockchain.pdf" >
+ <use  "blockchain.pdf" >
 File: MerkleRoot.pdf Graphic file (type QTm)
  <use  "MerkleRoot.pdf" >
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
- [25]
-[26]) [27]
+ [25])
+[26]
 \openout2 = `chap/chap3.aux'.
 
- (./chap/chap3.tex [28
-
-
-
-]
+ (./chap/chap3.tex
 第三章
 File: fish1.pdf Graphic file (type QTm)
 <use  "fish1.pdf" >
 File: modeall.pdf Graphic file (type QTm)
- <use  "modeall.pdf" > [29]
+ <use  "modeall.pdf" > [27
+
+
+
+]
 Underfull \vbox (badness 3590) has occurred while \output is active []
 
- [30]
-[31] [32] [33]
+ [28]
+[29] [30] [31]
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
- [34]
+ [32]
 File: UC.pdf Graphic file (type QTm)
 
 <use  "UC.pdf" >
 Underfull \vbox (badness 5119) has occurred while \output is active []
 
- [35]
-[36]) [37]
+ [33]
+[34]) [35]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [38
+ (./chap/chap4.tex [36
 
 
 
@@ -2826,79 +2834,103 @@ ntxtlf/m/n/12.045 BTMS\TU/STSong(0)/m/n/12.045 ）|$[]$，|
 File: model0.pdf Graphic file (type QTm)
 <use  "model0.pdf" >
 File: model1.pdf Graphic file (type QTm)
- <use  "model1.pdf" > [39]
+ <use  "model1.pdf" > [37]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
 File: model2.pdf Graphic file (type QTm)
  <use  "model2.pdf" >
 File: model3.pdf Graphic file (type QTm)
 
-<use  "model3.pdf" >
+<use  "model3.pdf" > [38]
 File: fig3.pdf Graphic file (type QTm)
- <use  "fig3.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <use  "fig3.pdf" > [39]
+File: fig4.pdf Graphic file (type QTm)
+ <use  "fig4.pdf" >
+Underfull \vbox (badness 3039) has occurred while \output is active []
 
  [40]
-[41]
-File: fig4.pdf Graphic file (type QTm)
- <use  "fig4.pdf" > [42] [43] [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
 File: gabpcss.pdf Graphic file (type QTm)
- <use  "gabpcss.pdf" > [45]) [46]
+
+<use  "gabpcss.pdf" > [42]) [43]
 \openout2 = `chap/chap5.aux'.
 
-
-(./chap/chap5.tex
-第五章
-File: er.pdf Graphic file (type QTm)
-<use  "er.pdf" > [47
+ (./chap/chap5.tex [44
 
 
 
 ]
+第五章
+File: er.pdf Graphic file (type QTm)
+<use  "er.pdf" > [45]
 Overfull \hbox (10.99965pt too wide) in paragraph at lines 115--123
  [][] 
  []
 
-[48]
+[46]
 File: c3.pdf Graphic file (type QTm)
  <use  "c3.pdf" >
 File: time1.pdf Graphic file (type QTm)
- <use  "time1.pdf" > [49] [50]
-File: c2.pdf Graphic file (type QTm)
- <use  "c2.pdf" >
-File: time3.pdf Graphic file (type QTm)
+ <use  "time1.pdf" > [47]
+Underfull \vbox (badness 1565) has occurred while \output is active []
 
-<use  "time3.pdf" > [51] [52] [53]
+ [48]
+File: c2.pdf Graphic file (type QTm)
+
+<use  "c2.pdf" >
+File: time3.pdf Graphic file (type QTm)
+ <use  "time3.pdf" > [49] [50]
 File: c1.pdf Graphic file (type QTm)
  <use  "c1.pdf" >
 File: time2.pdf Graphic file (type QTm)
- <use  "time2.pdf" >
-[54] [55]
+
+<use  "time2.pdf" >
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+ [51]
+[52]
 File: c5.pdf Graphic file (type QTm)
  <use  "c5.pdf" >
 File: time4.pdf Graphic file (type QTm)
  <use  "time4.pdf" >
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 8056) has occurred while \output is active []
+
+ [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57] [58]
+ [55]
 File: c7.pdf Graphic file (type QTm)
- <use  "c7.pdf" > [59]
+
+<use  "c7.pdf" > [56]
 File: c4.pdf Graphic file (type QTm)
  <use  "c4.pdf" >
 File: time5.pdf Graphic file (type QTm)
- <use  "time5.pdf" > [60]
-[61] [62]
+ <use  "time5.pdf" > [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 8151) has occurred while \output is active []
+
+ [59]
 File: c6.pdf Graphic file (type QTm)
- <use  "c6.pdf" > [63]
+
+<use  "c6.pdf" >
 File: fig5.png Graphic file (type QTm)
  <use  "fig5.png" >
 File: fig6.png Graphic file (type QTm)
- <use  "fig6.png" > [64]
+ <use  "fig6.png" > [60]
 File: fig7.png Graphic file (type QTm)
+ <use  "fig7.png" >
+Underfull \vbox (badness 4846) has occurred while \output is active []
 
-<use  "fig7.png" > [65]
+ [61]
 File: fig8.png Graphic file (type QTm)
- <use  "fig8.png" >) [66]
+
+<use  "fig8.png" >) [62]
 \openout2 = `chap/chap6.aux'.
 
  (./chap/chap6.tex
@@ -2908,11 +2940,11 @@ Missing character: There is no 列 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
 Missing character: There is no 例 in font STSong/OT!
 Missing character: There is no 行 in font STSong/OT!
-[67
+[63
 
 
 
-] [68]
+]
 Missing character: There is no 度 in font STSong/OT!
 Missing character: There is no 度 in font STSong/OT!
 File: IntegrationTesting.pdf Graphic file (type QTm)
@@ -2921,114 +2953,125 @@ File: usecasediagram.pdf Graphic file (type QTm)
  <use  "usecasediagram.pdf" >
 File: AcceptanceTesting.pdf Graphic file (type QTm)
 
-<use  "AcceptanceTesting.pdf" > [69] [70] [71]
+<use  "AcceptanceTesting.pdf" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+[65] [66]
+
+LaTeX Warning: Text page 67 contains only floats.
+
+[67] [68]
+Underfull \vbox (badness 1661) has occurred while \output is active []
+
+ [69]
+[70] [71]
+File: fig9.png Graphic file (type QTm)
+ <use  "fig9.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
-[73] [74] [75] [76]
-File: fig9.png Graphic file (type QTm)
- <use  "fig9.png" > [77] [78] [79] [80] [81]) [82]
+[73] [74] [75] [76]) [77]
 \openout2 = `chap/chap7.aux'.
 
+ (./chap/chap7.tex [78
 
-(./chap/chap7.tex
+
+
+]
 第七章
-) [83
-
-
-
-] [84
+) [79] [80
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 86.
+(Font)              scaled to size 10.53937pt on input line 87.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 86.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 86.
+(Font)              scaled to size 10.53937pt on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
 * Font 'STFangsong' does not contain script 'CJK'.
 *************************************************
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 86.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 87.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 86.
+(Font)              scaled to size 10.53937pt on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
-[85]
-
-Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
-
+[81]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
-Overfull \hbox (12.55984pt too wide) in paragraph at lines 86--86
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 87.
+
+
+Overfull \hbox (12.55984pt too wide) in paragraph at lines 87--87
 []\T1/ntxtlf/m/n/10.53937 Android De-vel-op-ers Blog. \T1/ntxtlf/m/it/10.53937 
 Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 /10.53937 https : / / android -[] developers .
@@ -3036,33 +3079,33 @@ Some Se-cureRan-dom Thoughts\T1/ntxtlf/m/n/10.53937 , 2013-08. []$\T1/ntxtt/m/n
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
-[86]
-
-Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
-
+[82]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 86.
+(biblatex)                Using fallback driver on input line 87.
 
-[87] [88
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 87.
+
+[83] [84
 
 ]
 \openout2 = `chap/acknowledge.aux'.
 
- (./chap/acknowledge.tex) [89
+ (./chap/acknowledge.tex) [85
 
 
 ]
 \openout2 = `chap/originauth.aux'.
 
- (./chap/originauth.tex [90
+ (./chap/originauth.tex [86
 
 
 
@@ -3075,27 +3118,27 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.045pt on input line 60.
-) [91]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+) [87]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
 
 (./thesis.aux (./chap/copyright.aux) (./chap/abstract.aux) (./chap/chap1.aux)
 (./chap/chap2.aux) (./chap/chap3.aux) (./chap/chap4.aux) (./chap/chap5.aux)
 (./chap/chap6.aux) (./chap/chap7.aux) (./chap/acknowledge.aux)
 (./chap/originauth.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 97.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48629 strings out of 493005
- 952428 string characters out of 6134596
- 1374760 words of memory out of 5000000
- 51838 multiletter control sequences out of 15000+600000
+ 48705 strings out of 493005
+ 953643 string characters out of 6134596
+ 1376638 words of memory out of 5000000
+ 51906 multiletter control sequences out of 15000+600000
  101729 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,20n,102p,10457b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,20n,102p,10487b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (101 pages, 984600 bytes).
+Output written on thesis.xdv (97 pages, 982448 bytes).

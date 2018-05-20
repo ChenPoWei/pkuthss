@@ -294,6 +294,10 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/stringenc.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/stringenc.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
