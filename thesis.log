@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  20 MAY 2018 20:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.1.26)  20 MAY 2018 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2811,18 +2811,14 @@ Underfull \vbox (badness 2181) has occurred while \output is active []
  [32]
 File: UC.pdf Graphic file (type QTm)
 
-<use  "UC.pdf" >
-Underfull \vbox (badness 5119) has occurred while \output is active []
+<use  "UC.pdf" > [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-[34]) [35]
+ [34]
+[35]) [36]
 \openout2 = `chap/chap4.aux'.
 
- (./chap/chap4.tex [36
-
-
-
-]
+ (./chap/chap4.tex
 第四章
 
 Overfull \hbox (8.84303pt too wide) in paragraph at lines 5--6
@@ -2834,7 +2830,11 @@ ntxtlf/m/n/12.045 BTMS\TU/STSong(0)/m/n/12.045 ）|$[]$，|
 File: model0.pdf Graphic file (type QTm)
 <use  "model0.pdf" >
 File: model1.pdf Graphic file (type QTm)
- <use  "model1.pdf" > [37]
+ <use  "model1.pdf" > [37
+
+
+
+]
 Missing character: There is no   in font ntx-Regular-tlf-t1!
 File: model2.pdf Graphic file (type QTm)
  <use  "model2.pdf" >
@@ -3141,4 +3141,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  64i,20n,102p,10487b,4693s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.xdv (97 pages, 982448 bytes).
+Output written on thesis.xdv (97 pages, 982452 bytes).
