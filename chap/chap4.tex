@@ -2,7 +2,7 @@
 \chapter{系统概要设计} 
 
 
-	本论文提出比特币的交易监督系统（Bitcoin Transaction Monitoring System，BTMS）\supercite{Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet}，以下简称BTMS，BTMS以加密货币比特币实作，BTMS包含三个子系统，商家和商品信息管理子系统（Store and Merchandise Information Management Sub-System，SMIMSS）、商家手持移动装置收款及交易子系统（Store Mobile payment Collection and Transaction Sub-System，SMCTSS）、客户端行动支付和交易子系统（Client Mobile Payment and Transaction Sub-System，CMPTSS），图\ref{model0}为主系统与子系统的功能模块图。
+	本论文提出比特币的交易监督系统（Bitcoin Transaction Monitoring System，BTMS）\supercite{Blockchain-basedpaymentcollectionsupervisionsystemusingpervasiveBitcoindigitalwallet}，以下简称BTMS，BTMS以加密货币比特币实作，BTMS包含三个子系统，商家和商品信息管理子系统（Store and Merchandise Information Management Sub-System，SMIMSS）、商家手持移动装置收款及交易子系统（Store Mobile payment Collection and Transaction Sub-System，SMCTSS）、客户端手持移动装置支付和交易子系统（Client Mobile Payment and Transaction Sub-System，CMPTSS），图\ref{model0}为主系统与子系统的功能模块图。
 
 	\begin{figure}[!htb]
 		\centering
@@ -10,7 +10,7 @@
 		\caption{BTMS系统功能模块图}\label{model0}
 	\end{figure}
 
-	本论文设计让商家能够结合商品与RFID标签，以达到快速建构与管理商品数据库之系统，并且让商家及顾客可以运用手持移动装置上的NFC功能来实际运作比特币的行动支付流程。商家只需要扫描商品上的RFID标签，即可快速创建交易清单，再利用NFC功能与顾客之行动设备进行信息交换，轻松地将商家的收款地址以及交易数据发送给顾客，收到数据后便能快速地以顾客之比特币行动电子钱包付款，并将交易细项保存下来，以便未来商家与顾客能够快速查找比特币行动支付的交易记录。
+	本论文设计让商家能够结合商品与RFID标签，以达到快速建构与管理商品数据库之系统，并且让商家及顾客可以运用手持移动装置上的NFC功能来实际运作比特币的手持移动装置支付流程。商家只需要扫描商品上的RFID标签，即可快速创建交易清单，再利用NFC功能与顾客之手持移动装置进行信息交换，轻松地将商家的收款地址以及交易数据发送给顾客，收到数据后便能快速地以顾客之比特币手持移动装置电子钱包付款，并将交易细项保存下来，以便未来商家与顾客能够快速查找比特币手持移动装置支付的交易记录。
 	本系统主要是以完成区块链之加密货币的收款监督系统为主要目标，本论文进而将积极利用自由软件的利基：使用成本低、进入门槛低、开放源代码、社区能力强、共通性及移植性强、资通安全性高等优势来开发本论文收款监督系统的应用服务平台。本系统范围包含建置下各项子系统如下：
 		\begin{enumerate}
 		\item 商家和商品信息管理子系统（Store and Merchandise Information Management Sub-System，SMIMSS）：本系统可以让商家在进货时，快速地将RFID标签之识别码与进货商品信息集成在一起，并且透过本系统添加、修改或删除数据库内部的信息，包括产品名称、详细信息，存货数量等信息，商家与顾客便可依照该数据库取得当前商品信息与状态。不仅让商家的存货信息更加清楚明了，也可以提供顾客更多的即时服务，图\ref{model1}所示。
@@ -32,11 +32,11 @@
 			\end{figure}
 
 
-		\item 客户端行动支付和交易子系统（Client Mobile Payment and Transaction Sub-System，CMPTSS）：顾客在结帐时，不必再麻烦的拿出信用卡或是零钱包，只需要拿出手持移动装置让职工以NFC将交易清单与比特币地址转送给自己，即可自动连接至比特币电子钱包的应用程序当中，并且自动填妥相关数据，如:交易金额、收款地址等等，与此同时也能将交易纪录保存于客户端，以便日后顾客快速取得过往的交易纪录，除此之外亦可让广大的民众体验加密货币与行动支付带来的便利生活，其功能模块图如图\ref{model3}所示。
+		\item 客户端手持移动装置支付和交易子系统（Client Mobile Payment and Transaction Sub-System，CMPTSS）：顾客在结帐时，不必再麻烦的拿出信用卡或是零钱包，只需要拿出手持移动装置让职工以NFC将交易清单与比特币地址转送给自己，即可自动连接至比特币电子钱包的应用程序当中，并且自动填妥相关数据，如:交易金额、收款地址等等，与此同时也能将交易纪录保存于客户端，以便日后顾客快速取得过往的交易纪录，除此之外亦可让广大的民众体验加密货币与手持移动装置支付带来的便利生活，其功能模块图如图\ref{model3}所示。
 			\begin{figure}[!htb]
 			\centering
 			\includegraphics[width = 0.7\textwidth]{model3.pdf}
-			\caption{客户端行动支付和交易子系统功能模块图}\label{model3}
+			\caption{客户端手持移动装置支付和交易子系统功能模块图}\label{model3}
 			\end{figure}
 		
 	\end{enumerate}
