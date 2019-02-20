@@ -51,14 +51,13 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
-      <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>standard.bbx</file>
-      <file>numeric.bbx</file>
       <file>caspervector.bbx</file>
-      <file>numeric-comp.cbx</file>
+      <file>numeric.bbx</file>
+      <file>standard.bbx</file>
       <file>caspervector.cbx</file>
+      <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
